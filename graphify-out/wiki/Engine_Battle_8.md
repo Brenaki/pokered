@@ -1,46 +1,49 @@
 # Engine Battle 8
 
-> 21 nodes · cohesion 0.21
+> 22 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **engine/battle/draw_hud_pokeball_gfx.asm** (18 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
-- **SetupPlayerAndEnemyPokeballs** (10 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
-- **SetupEnemyPartyPokeballs** (9 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
-- **SetupOwnPartyPokeballs** (9 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
-- **LoadPartyPokeballGfx** (7 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
-- **PlaceEnemyHUDTiles** (7 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
-- **PlacePlayerHUDTiles** (7 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
-- **SetupPokeballs** (6 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
-- **PokeballTileGraphics** (5 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
-- **WritePokeballOAMData** (5 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
-- **wBaseCoordX** (5 connections) — `ram/wram.asm`
-- **DrawAllPokeballs** (4 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
-- **wHUDGraphicsTiles** (4 connections) — `ram/wram.asm`
-- **wHUDGraphicsTilesEnd** (4 connections) — `ram/wram.asm`
-- **DrawEnemyPokeballs** (3 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
-- **PlaceHUDTiles** (3 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
-- **EnemyBattleHUDGraphicsTiles** (2 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
-- **PickPokeball** (2 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
-- **PlayerBattleHUDGraphicsTiles** (2 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
-- **PokeballTileGraphicsEnd** (1 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
-- **gfx/battle/balls.2bpp** (1 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **engine/battle/common_text.asm** (23 connections) — `engine/battle/common_text.asm`
+- **PrintBeginningBattleText** (13 connections) — `engine/battle/common_text.asm`
+- **PlayerMon2Text** (9 connections) — `engine/battle/common_text.asm`
+- **PrintSendOutMonMessage** (8 connections) — `engine/battle/common_text.asm`
+- **PrintComeBackText** (5 connections) — `engine/battle/common_text.asm`
+- **PrintPlayerMon1Text** (5 connections) — `engine/battle/common_text.asm`
+- **ComeBackText** (3 connections) — `engine/battle/common_text.asm`
+- **DoItText** (3 connections) — `engine/battle/common_text.asm`
+- **EnoughText** (3 connections) — `engine/battle/common_text.asm`
+- **GetmText** (3 connections) — `engine/battle/common_text.asm`
+- **GoodText** (3 connections) — `engine/battle/common_text.asm`
+- **GoText** (3 connections) — `engine/battle/common_text.asm`
+- **OKExclamationText** (3 connections) — `engine/battle/common_text.asm`
+- **RetreatMon** (3 connections) — `engine/battle/common_text.asm`
+- **EnemyAppearedText** (2 connections) — `engine/battle/common_text.asm`
+- **EnemysWeakText** (2 connections) — `engine/battle/common_text.asm`
+- **GhostCantBeIDdText** (2 connections) — `engine/battle/common_text.asm`
+- **HookedMonAttackedText** (2 connections) — `engine/battle/common_text.asm`
+- **PlayerMon1Text** (2 connections) — `engine/battle/common_text.asm`
+- **TrainerWantsToFightText** (2 connections) — `engine/battle/common_text.asm`
+- **UnveiledGhostText** (2 connections) — `engine/battle/common_text.asm`
+- **WildMonAppearedText** (2 connections) — `engine/battle/common_text.asm`
 
 ## Relationships
 
-- [Ram](Ram.md) (10 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
-- [Engine Battle 3](Engine_Battle_3.md) (2 shared connections)
-- [Ram 2](Ram_2.md) (2 shared connections)
+- [Engine Battle](Engine_Battle.md) (4 shared connections)
+- [Scripts](Scripts.md) (3 shared connections)
+- [Scripts 15](Scripts_15.md) (2 shared connections)
+- [Ram](Ram.md) (1 shared connections)
+- [Scripts 13](Scripts_13.md) (1 shared connections)
+- [Engine Movie](Engine_Movie.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/battle/draw_hud_pokeball_gfx.asm`
-- `ram/wram.asm`
+- `engine/battle/common_text.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (100%)
+- EXTRACTED: 57 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

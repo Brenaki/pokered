@@ -1,41 +1,64 @@
 # Engine Pokemon 2
 
-> 15 nodes · cohesion 0.25
+> 47 nodes · cohesion 0.07
 
 ## Key Concepts
 
+- **StatusScreen** (42 connections) — `engine/pokemon/status_screen.asm`
+- **StatusScreen2** (27 connections) — `engine/pokemon/status_screen.asm`
+- **home/pokemon.asm** (25 connections) — `home/pokemon.asm`
+- **EndOfBattle** (21 connections) — `engine/battle/end_of_battle.asm`
+- **engine/pokemon/status_screen.asm** (18 connections) — `engine/pokemon/status_screen.asm`
 - **TryingToLearn** (17 connections) — `engine/pokemon/learn_move.asm`
 - **engine/pokemon/learn_move.asm** (16 connections) — `engine/pokemon/learn_move.asm`
 - **DontAbandonLearning** (13 connections) — `engine/pokemon/learn_move.asm`
+- **engine/battle/end_of_battle.asm** (9 connections) — `engine/battle/end_of_battle.asm`
+- **PrintLevel** (8 connections) — `home/pokemon.asm`
+- **wMoves** (8 connections) — `ram/wram.asm`
+- **wStatusFlags2** (8 connections) — `ram/wram.asm`
 - **AbandonLearning** (7 connections) — `engine/pokemon/learn_move.asm`
-- **hUILayoutFlags** (7 connections) — `ram/hram.asm`
+- **wMovesString** (6 connections) — `ram/wram.asm`
+- **DrawPartyMenu_** (5 connections) — `engine/menus/party_menu.asm`
+- **PrintLevelCommon** (5 connections) — `home/pokemon.asm`
 - **OneTwoAndText** (4 connections) — `engine/pokemon/learn_move.asm`
 - **PrintLearnedMove** (4 connections) — `engine/pokemon/learn_move.asm`
-- **AbandonLearningText** (2 connections) — `engine/pokemon/learn_move.asm`
-- **DidNotLearnText** (2 connections) — `engine/pokemon/learn_move.asm`
-- **HMCantDeleteText** (2 connections) — `engine/pokemon/learn_move.asm`
-- **LearnedMove1Text** (2 connections) — `engine/pokemon/learn_move.asm`
-- **PoofText** (2 connections) — `engine/pokemon/learn_move.asm`
-- **TryingToLearnText** (2 connections) — `engine/pokemon/learn_move.asm`
-- **WhichMoveToForgetText** (2 connections) — `engine/pokemon/learn_move.asm`
-- **ForgotAndText** (1 connections) — `engine/pokemon/learn_move.asm`
+- **DrawPartyMenu** (4 connections) — `home/pokemon.asm`
+- **EvolutionAfterBattle** (3 connections) — `engine/pokemon/evos_moves.asm`
+- **PTile** (3 connections) — `engine/pokemon/status_screen.asm`
+- **StatusScreen_ClearName** (3 connections) — `engine/pokemon/status_screen.asm`
+- **DrawPartyMenuCommon** (3 connections) — `home/pokemon.asm`
+- **GetPartyMonName2** (3 connections) — `home/pokemon.asm`
+- **DrawText** (2 connections) — `engine/battle/end_of_battle.asm`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Ram](Ram.md) (9 shared connections)
-- [Engine Menus](Engine_Menus.md) (5 shared connections)
-- [Scripts](Scripts.md) (4 shared connections)
-- [Ram 2](Ram_2.md) (4 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (25 shared connections)
+- [Home](Home.md) (16 shared connections)
+- [Engine Menus](Engine_Menus.md) (13 shared connections)
+- [Ram](Ram.md) (7 shared connections)
+- [Engine Battle](Engine_Battle.md) (6 shared connections)
+- [Scripts](Scripts.md) (5 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (5 shared connections)
+- [Engine Link](Engine_Link.md) (4 shared connections)
+- [Scripts 2](Scripts_2.md) (4 shared connections)
+- [Engine Movie](Engine_Movie.md) (3 shared connections)
+- [Scripts 15](Scripts_15.md) (3 shared connections)
+- [Engine Gfx 2](Engine_Gfx_2.md) (3 shared connections)
 
 ## Source Files
 
+- `engine/battle/end_of_battle.asm`
+- `engine/menus/party_menu.asm`
+- `engine/pokemon/evos_moves.asm`
 - `engine/pokemon/learn_move.asm`
-- `ram/hram.asm`
+- `engine/pokemon/status_screen.asm`
+- `home/pokemon.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
+- EXTRACTED: 185 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

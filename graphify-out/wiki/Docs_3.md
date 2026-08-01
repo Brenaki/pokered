@@ -1,31 +1,56 @@
 # Docs 3
 
-> 10 nodes · cohesion 0.20
+> 30 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **17. Captura de Pokémon** (10 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.1 Pré-condições** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.2 Variáveis** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.3 Bônus de status** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.4 Fator de HP** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.5 Decisão de captura** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.6 Probabilidade exata** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.7 Exemplo de captura** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.8 Animação de sacudidas** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.9 Captura na Safari Zone** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **Funcionamento das IAs e dos NPCs de Pokemon Red/Blue** (26 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **12. Melhorias possiveis no modo ENHANCED** (6 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **11. Recomendacao para a reescrita fiel** (5 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **2. Escopo** (3 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **13. Estrategia TDD** (3 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **17. Evidencias e aprovacao** (3 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Controle do documento** (2 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **10. Classificacao dos algoritmos** (2 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **13.1 Testes de caracterizacao obrigatorios** (2 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Historico de revisoes** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **1. Finalidade e relacao com a ISO 9001** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **24. Registro de aprovacao** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **2.1 Incluido** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **11.1 Dois modos obrigatorios** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **11.2 Limites DDD** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **11.3 SOLID pragmatico em C** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **11.4 Refactoring incremental** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **12.1 IA de batalha mais forte e explicavel** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **12.2 Aprender como o jogador joga** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **2.2 Excluido** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **12.3 NPCs andando pelo mapa** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **12.4 Parar o jogador para conversar** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **12.5 Comportamentos adicionais seguros** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **13.2 Diferencial e propriedades** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **3. Objetivos e criterios da qualidade** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Engine Math](Engine_Math.md) (2 shared connections)
+- [Docs 5](Docs_5.md) (2 shared connections)
+- [Engine Overworld 4](Engine_Overworld_4.md) (2 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 80](Scripts_80.md) (1 shared connections)
+- [Makefile](Makefile.md) (1 shared connections)
+- [Data Trainers 2](Data_Trainers_2.md) (1 shared connections)
+- [Docs](Docs.md) (1 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 43 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

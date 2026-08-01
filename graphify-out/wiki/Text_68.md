@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **text/SilphCo8F.asm** (13 connections) — `text/SilphCo8F.asm`
-- **_SilphCo8FRocket1AfterBattleText** (1 connections) — `text/SilphCo8F.asm`
-- **_SilphCo8FRocket1BattleText** (1 connections) — `text/SilphCo8F.asm`
-- **_SilphCo8FRocket1EndBattleText** (1 connections) — `text/SilphCo8F.asm`
-- **_SilphCo8FRocket2AfterBattleText** (1 connections) — `text/SilphCo8F.asm`
-- **_SilphCo8FRocket2BattleText** (1 connections) — `text/SilphCo8F.asm`
-- **_SilphCo8FRocket2EndBattleText** (1 connections) — `text/SilphCo8F.asm`
-- **_SilphCo8FScientistAfterBattleText** (1 connections) — `text/SilphCo8F.asm`
-- **_SilphCo8FScientistBattleText** (1 connections) — `text/SilphCo8F.asm`
-- **_SilphCo8FScientistEndBattleText** (1 connections) — `text/SilphCo8F.asm`
-- **_SilphCo8FSilphWorkerMSilphIsFinishedText** (1 connections) — `text/SilphCo8F.asm`
-- **_SilphCo8FSilphWorkerMThanksForSavingUsText** (1 connections) — `text/SilphCo8F.asm`
+- **text/WardensHouse.asm** (13 connections) — `text/WardensHouse.asm`
+- **_WardensHouseDisplayMerchandiseText** (1 connections) — `text/WardensHouse.asm`
+- **_WardensHouseDisplayPhotosAndFossilsText** (1 connections) — `text/WardensHouse.asm`
+- **_WardensHouseWardenGaveTheGoldTeethText** (1 connections) — `text/WardensHouse.asm`
+- **_WardensHouseWardenGibberish1Text** (1 connections) — `text/WardensHouse.asm`
+- **_WardensHouseWardenGibberish2Text** (1 connections) — `text/WardensHouse.asm`
+- **_WardensHouseWardenGibberish3Text** (1 connections) — `text/WardensHouse.asm`
+- **_WardensHouseWardenHM04ExplanationText** (1 connections) — `text/WardensHouse.asm`
+- **_WardensHouseWardenHM04NoRoomText** (1 connections) — `text/WardensHouse.asm`
+- **_WardensHouseWardenReceivedHM04Text** (1 connections) — `text/WardensHouse.asm`
+- **_WardensHouseWardenTeethPoppedInHisTeethText** (1 connections) — `text/WardensHouse.asm`
+- **_WardensHouseWardenThanksText** (1 connections) — `text/WardensHouse.asm`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `text/SilphCo8F.asm`
+- `text/WardensHouse.asm`
 
 ## Audit Trail
 

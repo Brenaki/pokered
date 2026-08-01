@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/CeruleanCave1F.asm** (3 connections) — `data/maps/objects/CeruleanCave1F.asm`
-- **CeruleanCave1F_Object** (1 connections) — `data/maps/objects/CeruleanCave1F.asm`
+- **data/maps/objects/CeruleanGym.asm** (3 connections) — `data/maps/objects/CeruleanGym.asm`
+- **CeruleanGym_Object** (1 connections) — `data/maps/objects/CeruleanGym.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/CeruleanCave1F.asm`
+- `data/maps/objects/CeruleanGym.asm`
 
 ## Audit Trail
 

@@ -1,11 +1,12 @@
 # Engine Gfx 3
 
-> 6 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
 - **PrepareOAMData** (5 connections) — `engine/gfx/sprite_oam.asm`
 - **engine/gfx/sprite_oam.asm** (4 connections) — `engine/gfx/sprite_oam.asm`
+- **data/sprites** (3 connections)
 - **data/sprites/facings.asm** (3 connections) — `data/sprites/facings.asm`
 - **HideSprites** (3 connections) — `home/clear_sprites.asm`
 - **SpriteFacingAndAnimationTable** (2 connections) — `data/sprites/facings.asm`
@@ -13,7 +14,7 @@
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Engine Overworld 5](Engine_Overworld_5.md) (1 shared connections)
 
 ## Source Files
 
@@ -23,7 +24,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

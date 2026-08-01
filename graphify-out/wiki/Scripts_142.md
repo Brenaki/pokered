@@ -1,27 +1,26 @@
 # Scripts 142
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **scripts/LavenderCuboneHouse.asm** (6 connections) — `scripts/LavenderCuboneHouse.asm`
-- **LavenderCuboneHouseCuboneText** (3 connections) — `scripts/LavenderCuboneHouse.asm`
-- **LavenderCuboneHouse_Script** (2 connections) — `scripts/LavenderCuboneHouse.asm`
-- **LavenderCuboneHouse_TextPointers** (1 connections) — `scripts/LavenderCuboneHouse.asm`
+- **scripts/ViridianForestNorthGate.asm** (6 connections) — `scripts/ViridianForestNorthGate.asm`
+- **ViridianForestNorthGate_Script** (2 connections) — `scripts/ViridianForestNorthGate.asm`
+- **ViridianForestNorthGate_TextPointers** (1 connections) — `scripts/ViridianForestNorthGate.asm`
+- **ViridianForestNorthGateGrampsText** (1 connections) — `scripts/ViridianForestNorthGate.asm`
+- **ViridianForestNorthGateSuperNerdText** (1 connections) — `scripts/ViridianForestNorthGate.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (2 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/LavenderCuboneHouse.asm`
+- `scripts/ViridianForestNorthGate.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,49 +1,54 @@
 # Scripts 67
 
-> 22 nodes · cohesion 0.12
+> 26 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **scripts/SilphCo4F.asm** (25 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4F_Script** (6 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FGateCallbackScript** (6 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FRocket1Text** (4 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FRocket2Text** (4 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FScientistText** (4 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4F_ScriptPointers** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FUnlockedDoorEventScript** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4TrainerHeader0** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4TrainerHeader1** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4TrainerHeader2** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4TrainerHeaders** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4F_TextPointers** (1 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FRocket1AfterBattleText** (1 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FRocket1BattleText** (1 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FRocket1EndBattleText** (1 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FRocket2AfterBattleText** (1 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FRocket2BattleText** (1 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FRocket2EndBattleText** (1 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FScientistAfterBattleText** (1 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FScientistBattleText** (1 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FScientistEndBattleText** (1 connections) — `scripts/SilphCo4F.asm`
+- **scripts/ChampionsRoom.asm** (30 connections) — `scripts/ChampionsRoom.asm`
+- **ChampionsRoomOakArrivesScript** (9 connections) — `scripts/ChampionsRoom.asm`
+- **ChampionsRoomRivalReadyToBattleScript** (9 connections) — `scripts/ChampionsRoom.asm`
+- **ChampionsRoom_DisplayTextID_AllowABSelectStart** (7 connections) — `scripts/ChampionsRoom.asm`
+- **ChampionsRoomOakComeWithMeScript** (7 connections) — `scripts/ChampionsRoom.asm`
+- **ChampionsRoomRivalDefeatedScript** (6 connections) — `scripts/ChampionsRoom.asm`
+- **wOptions** (4 connections) — `ram/wram.asm`
+- **ChampionsRoom_Script** (4 connections) — `scripts/ChampionsRoom.asm`
+- **ChampionsRoomOakCongratulatesPlayerScript** (4 connections) — `scripts/ChampionsRoom.asm`
+- **ChampionsRoomOakDisappointedWithRivalScript** (4 connections) — `scripts/ChampionsRoom.asm`
+- **ChampionsRoomRivalText** (4 connections) — `scripts/ChampionsRoom.asm`
+- **ChampionsRoom_ScriptPointers** (2 connections) — `scripts/ChampionsRoom.asm`
+- **ChampionsRoomCleanupScript** (2 connections) — `scripts/ChampionsRoom.asm`
+- **ChampionsRoomDefaultScript** (2 connections) — `scripts/ChampionsRoom.asm`
+- **ChampionsRoomRivalAfterBattleText** (2 connections) — `scripts/ChampionsRoom.asm`
+- **OakEntranceAfterVictoryMovement** (2 connections) — `scripts/ChampionsRoom.asm`
+- **OakExitChampionsRoomMovement** (2 connections) — `scripts/ChampionsRoom.asm`
+- **ResetRivalScript** (2 connections) — `scripts/ChampionsRoom.asm`
+- **RivalDefeatedText** (2 connections) — `scripts/ChampionsRoom.asm`
+- **RivalEntrance_RLEMovement** (2 connections) — `scripts/ChampionsRoom.asm`
+- **RivalVictoryText** (2 connections) — `scripts/ChampionsRoom.asm`
+- **WalkToHallOfFame_RLEMovement** (2 connections) — `scripts/ChampionsRoom.asm`
+- **ChampionsRoom_TextPointers** (1 connections) — `scripts/ChampionsRoom.asm`
+- **ChampionsRoomOakComeWithMeText** (1 connections) — `scripts/ChampionsRoom.asm`
+- **ChampionsRoomOakDisappointedWithRivalText** (1 connections) — `scripts/ChampionsRoom.asm`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (4 shared connections)
-- [Home 8](Home_8.md) (3 shared connections)
-- [Scripts 63](Scripts_63.md) (2 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Engine Overworld 6](Engine_Overworld_6.md) (1 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (14 shared connections)
+- [Scripts](Scripts.md) (3 shared connections)
+- [Scripts 28](Scripts_28.md) (2 shared connections)
+- [Scripts 12](Scripts_12.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 58](Scripts_58.md) (1 shared connections)
+- [Scripts 13](Scripts_13.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SilphCo4F.asm`
+- `ram/wram.asm`
+- `scripts/ChampionsRoom.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
+- EXTRACTED: 60 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

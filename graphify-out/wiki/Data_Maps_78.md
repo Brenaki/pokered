@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/SafariZoneNorth.asm** (3 connections) — `data/maps/objects/SafariZoneNorth.asm`
-- **SafariZoneNorth_Object** (1 connections) — `data/maps/objects/SafariZoneNorth.asm`
+- **data/maps/objects/SafariZoneSecretHouse.asm** (3 connections) — `data/maps/objects/SafariZoneSecretHouse.asm`
+- **SafariZoneSecretHouse_Object** (1 connections) — `data/maps/objects/SafariZoneSecretHouse.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/SafariZoneNorth.asm`
+- `data/maps/objects/SafariZoneSecretHouse.asm`
 
 ## Audit Trail
 

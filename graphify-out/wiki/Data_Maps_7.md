@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/BillsHouse.asm** (3 connections) — `data/maps/objects/BillsHouse.asm`
-- **BillsHouse_Object** (1 connections) — `data/maps/objects/BillsHouse.asm`
+- **data/maps/objects/CeladonDiner.asm** (3 connections) — `data/maps/objects/CeladonDiner.asm`
+- **CeladonDiner_Object** (1 connections) — `data/maps/objects/CeladonDiner.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/BillsHouse.asm`
+- `data/maps/objects/CeladonDiner.asm`
 
 ## Audit Trail
 

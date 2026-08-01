@@ -1,31 +1,28 @@
 # Scripts 123
 
-> 6 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **scripts/Route6Gate.asm** (8 connections) — `scripts/Route6Gate.asm`
-- **Route6Gate_Script** (4 connections) — `scripts/Route6Gate.asm`
-- **Route6GateMovePlayerDownScript** (3 connections) — `scripts/Route6Gate.asm`
-- **Route6Gate_ScriptPointers** (2 connections) — `scripts/Route6Gate.asm`
-- **Route6GatePlayerMovingScript** (2 connections) — `scripts/Route6Gate.asm`
-- **Route6Gate_TextPointers** (1 connections) — `scripts/Route6Gate.asm`
+- **scripts/CopycatsHouse2F.asm** (9 connections) — `scripts/CopycatsHouse2F.asm`
+- **CopycatsHouse2F_Script** (2 connections) — `scripts/CopycatsHouse2F.asm`
+- **CopycatsHouse2F_TextPointers** (1 connections) — `scripts/CopycatsHouse2F.asm`
+- **CopycatsHouse2FDoduoText** (1 connections) — `scripts/CopycatsHouse2F.asm`
+- **CopycatsHouse2FRareDollText** (1 connections) — `scripts/CopycatsHouse2F.asm`
+- **CopycatsHouse2FSNESText** (1 connections) — `scripts/CopycatsHouse2F.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Scripts 10](Scripts_10.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Engine Menus](Engine_Menus.md) (1 shared connections)
-- [Engine Movie 5](Engine_Movie_5.md) (1 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route6Gate.asm`
+- `scripts/CopycatsHouse2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

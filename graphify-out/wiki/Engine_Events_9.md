@@ -1,51 +1,40 @@
 # Engine Events 9
 
-> 17 nodes · cohesion 0.19
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **DisplayPokemonCenterDialogue_** (19 connections) — `engine/events/pokecenter.asm`
-- **AnimateHealingMachine** (12 connections) — `engine/overworld/healing_machine.asm`
-- **engine/events/pokecenter.asm** (8 connections) — `engine/events/pokecenter.asm`
-- **MarowakAnim** (7 connections) — `engine/battle/ghost_marowak_anim.asm`
-- **engine/overworld/healing_machine.asm** (7 connections) — `engine/overworld/healing_machine.asm`
-- **CopyMonPicFromBGToSpriteVRAM** (6 connections) — `engine/battle/ghost_marowak_anim.asm`
-- **FlashSprite8Times** (4 connections) — `engine/overworld/healing_machine.asm`
-- **engine/battle/ghost_marowak_anim.asm** (4 connections) — `engine/battle/ghost_marowak_anim.asm`
-- **PokeCenterFlashingMonitorAndHealBall** (3 connections) — `engine/overworld/healing_machine.asm`
-- **NeedYourPokemonText** (2 connections) — `engine/events/pokecenter.asm`
-- **PokemonCenterFarewellText** (2 connections) — `engine/events/pokecenter.asm`
-- **PokemonCenterWelcomeText** (2 connections) — `engine/events/pokecenter.asm`
-- **PokemonFightingFitText** (2 connections) — `engine/events/pokecenter.asm`
-- **ShallWeHealYourPokemonText** (2 connections) — `engine/events/pokecenter.asm`
-- **CopyHealingMachineOAM** (2 connections) — `engine/overworld/healing_machine.asm`
-- **PokeCenterOAMData** (2 connections) — `engine/overworld/healing_machine.asm`
-- **gfx/overworld/heal_machine.2bpp** (1 connections) — `engine/overworld/healing_machine.asm`
+- **ReplaceTileBlock** (15 connections) — `engine/overworld/update_map.asm`
+- **PrintCardKeyText** (9 connections) — `engine/events/card_key.asm`
+- **engine/events/card_key.asm** (7 connections) — `engine/events/card_key.asm`
+- **engine/overworld/update_map.asm** (5 connections) — `engine/overworld/update_map.asm`
+- **data/events/card_key_maps.asm** (3 connections) — `data/events/card_key_maps.asm`
+- **SilphCoMapList** (2 connections) — `data/events/card_key_maps.asm`
+- **GetCoordsInFrontOfPlayer** (2 connections) — `engine/events/card_key.asm`
+- **CompareHLWithBC** (2 connections) — `engine/overworld/update_map.asm`
+- **CardKeyFailText** (1 connections) — `engine/events/card_key.asm`
+- **CardKeySuccessText** (1 connections) — `engine/events/card_key.asm`
 
 ## Relationships
 
-- [Bank VRAM](Bank_VRAM.md) (6 shared connections)
-- [Ram 2](Ram_2.md) (6 shared connections)
-- [Engine Movie 5](Engine_Movie_5.md) (2 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Home 4](Home_4.md) (1 shared connections)
-- [Engine Battle 3](Engine_Battle_3.md) (1 shared connections)
-- [Engine Movie](Engine_Movie.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
-- [Ram](Ram.md) (1 shared connections)
-- [Engine Events 2](Engine_Events_2.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Home 9](Home_9.md) (1 shared connections)
+- [Home 2](Home_2.md) (1 shared connections)
+- [Scripts 13](Scripts_13.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 18](Scripts_18.md) (1 shared connections)
+- [Engine Gfx 2](Engine_Gfx_2.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Home](Home.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/battle/ghost_marowak_anim.asm`
-- `engine/events/pokecenter.asm`
-- `engine/overworld/healing_machine.asm`
+- `data/events/card_key_maps.asm`
+- `engine/events/card_key.asm`
+- `engine/overworld/update_map.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

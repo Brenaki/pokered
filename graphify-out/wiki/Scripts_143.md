@@ -1,22 +1,22 @@
 # Scripts 143
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **scripts/LavenderMart.asm** (6 connections) — `scripts/LavenderMart.asm`
-- **LavenderMart_Script** (2 connections) — `scripts/LavenderMart.asm`
-- **LavenderMart_TextPointers** (1 connections) — `scripts/LavenderMart.asm`
-- **LavenderMartBaldingGuyText** (1 connections) — `scripts/LavenderMart.asm`
+- **scripts/ViridianForestSouthGate.asm** (6 connections) — `scripts/ViridianForestSouthGate.asm`
+- **ViridianForestSouthGate_Script** (2 connections) — `scripts/ViridianForestSouthGate.asm`
+- **ViridianForestSouthGate_TextPointers** (1 connections) — `scripts/ViridianForestSouthGate.asm`
+- **ViridianForestSouthGateGirlText** (1 connections) — `scripts/ViridianForestSouthGate.asm`
+- **ViridianForestSouthGateLittleGirlText** (1 connections) — `scripts/ViridianForestSouthGate.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/LavenderMart.asm`
+- `scripts/ViridianForestSouthGate.asm`
 
 ## Audit Trail
 

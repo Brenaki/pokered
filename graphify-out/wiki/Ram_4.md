@@ -1,53 +1,56 @@
 # Ram 4
 
-> 24 nodes · cohesion 0.12
+> 27 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **Audio RAM [WRAM0]** (44 connections) — `ram/wram.asm`
-- **wChannelDutyCyclePatterns** (11 connections) — `ram/wram.asm`
-- **wChannelNoteSpeeds** (11 connections) — `ram/wram.asm`
-- **Audio1_note_type** (9 connections) — `audio/engine_1.asm`
-- **Audio2_note_type** (9 connections) — `audio/engine_2.asm`
-- **Audio3_note_type** (9 connections) — `audio/engine_3.asm`
-- **wChannelVolumes** (8 connections) — `ram/wram.asm`
-- **wMusicWaveInstrument** (8 connections) — `ram/wram.asm`
-- **wSfxWaveInstrument** (8 connections) — `ram/wram.asm`
-- **wChannelNoteDelayCountersFractionalPart** (5 connections) — `ram/wram.asm`
-- **wAudioROMBank** (2 connections) — `ram/wram.asm`
-- **wAudioSavedROMBank** (2 connections) — `ram/wram.asm`
-- **wDisableChannelOutputWhenSfxEnds** (2 connections) — `ram/wram.asm`
-- **wFrequencyModifier** (2 connections) — `ram/wram.asm`
-- **wMusicTempo** (2 connections) — `ram/wram.asm`
-- **wMuteAudioAndPauseMusic** (2 connections) — `ram/wram.asm`
-- **wNewSoundID** (2 connections) — `ram/wram.asm`
-- **wSavedVolume** (2 connections) — `ram/wram.asm`
-- **wSfxHeaderPointer** (2 connections) — `ram/wram.asm`
-- **wSfxTempo** (2 connections) — `ram/wram.asm`
-- **wSoundID** (2 connections) — `ram/wram.asm`
-- **wStereoPanning** (2 connections) — `ram/wram.asm`
-- **wTempoModifier** (2 connections) — `ram/wram.asm`
-- **wUnusedMusicByte** (2 connections) — `ram/wram.asm`
+- **LoadMainData** (21 connections) — `engine/menus/save.asm`
+- **SaveMainData** (17 connections) — `engine/menus/save.asm`
+- **LoadPartyAndDexData** (15 connections) — `engine/menus/save.asm`
+- **SavePartyAndDexData** (13 connections) — `engine/menus/save.asm`
+- **TryLoadSaveFile** (13 connections) — `engine/menus/save.asm`
+- **LoadCurrentBoxData** (12 connections) — `engine/menus/save.asm`
+- **CalcCheckSum** (11 connections) — `engine/menus/save.asm`
+- **SaveCurrentBoxData** (9 connections) — `engine/menus/save.asm`
+- **sGameData** (9 connections) — `ram/sram.asm`
+- **sGameDataEnd** (9 connections) — `ram/sram.asm`
+- **wBoxDataEnd** (9 connections) — `ram/wram.asm`
+- **sMainData** (7 connections) — `ram/sram.asm`
+- **wBoxDataStart** (7 connections) — `ram/wram.asm`
+- **CheckPreviousSaveFile** (6 connections) — `engine/menus/save.asm`
+- **sCurBoxData** (6 connections) — `ram/sram.asm`
+- **wPokedexSeenEnd** (5 connections) — `ram/wram.asm`
+- **wSpriteDataEnd** (5 connections) — `ram/wram.asm`
+- **wSpriteDataStart** (5 connections) — `ram/wram.asm`
+- **CheckSumFailed** (4 connections) — `engine/menus/save.asm`
+- **GoodCheckSum** (4 connections) — `engine/menus/save.asm`
+- **TryLoadSaveFileIgnoreChecksum** (4 connections) — `engine/menus/save.asm`
+- **sPartyData** (4 connections) — `ram/sram.asm`
+- **wMainDataEnd** (4 connections) — `ram/wram.asm`
+- **wMainDataStart** (4 connections) — `ram/wram.asm`
+- **wPartyDataEnd** (4 connections) — `ram/wram.asm`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Ram 3](Ram_3.md) (17 shared connections)
-- [Audio Engine 3.Asm](Audio_Engine_3.Asm.md) (5 shared connections)
-- [Audio Engine 1.Asm](Audio_Engine_1.Asm.md) (4 shared connections)
-- [Audio Engine 2.Asm](Audio_Engine_2.Asm.md) (4 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
-- [Audio Engine 1.Asm 2](Audio_Engine_1.Asm_2.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (8 shared connections)
+- [Bank SRAM](Bank_SRAM.md) (4 shared connections)
+- [Home](Home.md) (3 shared connections)
+- [Engine Menus](Engine_Menus.md) (2 shared connections)
+- [Home 2](Home_2.md) (1 shared connections)
+- [Engine Link](Engine_Link.md) (1 shared connections)
+- [Engine Movie](Engine_Movie.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `audio/engine_1.asm`
-- `audio/engine_2.asm`
-- `audio/engine_3.asm`
+- `engine/menus/save.asm`
+- `ram/sram.asm`
 - `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
+- EXTRACTED: 88 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

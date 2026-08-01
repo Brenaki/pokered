@@ -1,50 +1,51 @@
 # Scripts 16
 
-> 56 nodes · cohesion 0.04
+> 57 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **scripts/Route11.asm** (57 connections) — `scripts/Route11.asm`
-- **Route11_Script** (5 connections) — `scripts/Route11.asm`
-- **Route11Gambler1Text** (4 connections) — `scripts/Route11.asm`
-- **Route11Gambler2Text** (4 connections) — `scripts/Route11.asm`
-- **Route11Gambler3Text** (4 connections) — `scripts/Route11.asm`
-- **Route11Gambler4Text** (4 connections) — `scripts/Route11.asm`
-- **Route11SuperNerd1Text** (4 connections) — `scripts/Route11.asm`
-- **Route11SuperNerd2Text** (4 connections) — `scripts/Route11.asm`
-- **Route11Youngster1Text** (4 connections) — `scripts/Route11.asm`
-- **Route11Youngster2Text** (4 connections) — `scripts/Route11.asm`
-- **Route11Youngster3Text** (4 connections) — `scripts/Route11.asm`
-- **Route11Youngster4Text** (4 connections) — `scripts/Route11.asm`
-- **Route11_ScriptPointers** (2 connections) — `scripts/Route11.asm`
-- **Route11TrainerHeader0** (2 connections) — `scripts/Route11.asm`
-- **Route11TrainerHeader1** (2 connections) — `scripts/Route11.asm`
-- **Route11TrainerHeader2** (2 connections) — `scripts/Route11.asm`
-- **Route11TrainerHeader3** (2 connections) — `scripts/Route11.asm`
-- **Route11TrainerHeader4** (2 connections) — `scripts/Route11.asm`
-- **Route11TrainerHeader5** (2 connections) — `scripts/Route11.asm`
-- **Route11TrainerHeader6** (2 connections) — `scripts/Route11.asm`
-- **Route11TrainerHeader7** (2 connections) — `scripts/Route11.asm`
-- **Route11TrainerHeader8** (2 connections) — `scripts/Route11.asm`
-- **Route11TrainerHeader9** (2 connections) — `scripts/Route11.asm`
-- **Route11TrainerHeaders** (2 connections) — `scripts/Route11.asm`
-- **Route11_TextPointers** (1 connections) — `scripts/Route11.asm`
-- *... and 31 more nodes in this community*
+- **scripts/Route14.asm** (57 connections) — `scripts/Route14.asm`
+- **21.33 Mapa `Route14`** (31 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Route14_Script** (5 connections) — `scripts/Route14.asm`
+- **Route14Biker1Text** (4 connections) — `scripts/Route14.asm`
+- **Route14Biker2Text** (4 connections) — `scripts/Route14.asm`
+- **Route14Biker3Text** (4 connections) — `scripts/Route14.asm`
+- **Route14Biker4Text** (4 connections) — `scripts/Route14.asm`
+- **Route14CooltrainerM1Text** (4 connections) — `scripts/Route14.asm`
+- **Route14CooltrainerM2Text** (4 connections) — `scripts/Route14.asm`
+- **Route14CooltrainerM3Text** (4 connections) — `scripts/Route14.asm`
+- **Route14CooltrainerM4Text** (4 connections) — `scripts/Route14.asm`
+- **Route14CooltrainerM5Text** (4 connections) — `scripts/Route14.asm`
+- **Route14CooltrainerM6Text** (4 connections) — `scripts/Route14.asm`
+- **Route14_ScriptPointers** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker1AfterBattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker1BattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker1EndBattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker2AfterBattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker2BattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker2EndBattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker3AfterBattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker3BattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker3EndBattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker4AfterBattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker4BattleText** (2 connections) — `scripts/Route14.asm`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
 - [Scripts](Scripts.md) (10 shared connections)
-- [Home 8](Home_8.md) (10 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (10 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route11.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/Route14.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 89 (100%)
+- EXTRACTED: 119 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,23 +4,24 @@
 
 ## Key Concepts
 
-- **scripts/FuchsiaMart.asm** (6 connections) — `scripts/FuchsiaMart.asm`
-- **FuchsiaMart_Script** (2 connections) — `scripts/FuchsiaMart.asm`
-- **FuchsiaMart_TextPointers** (1 connections) — `scripts/FuchsiaMart.asm`
-- **FuchsiaMartCooltrainerFText** (1 connections) — `scripts/FuchsiaMart.asm`
-- **FuchsiaMartMiddleAgedManText** (1 connections) — `scripts/FuchsiaMart.asm`
+- **scripts/CeruleanTrashedHouse.asm** (7 connections) — `scripts/CeruleanTrashedHouse.asm`
+- **CeruleanTrashedHouse_Script** (2 connections) — `scripts/CeruleanTrashedHouse.asm`
+- **CeruleanTrashedHouse_TextPointers** (1 connections) — `scripts/CeruleanTrashedHouse.asm`
+- **CeruleanTrashedHouseGirlText** (1 connections) — `scripts/CeruleanTrashedHouse.asm`
+- **CeruleanTrashedHouseWallHoleText** (1 connections) — `scripts/CeruleanTrashedHouse.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/FuchsiaMart.asm`
+- `scripts/CeruleanTrashedHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

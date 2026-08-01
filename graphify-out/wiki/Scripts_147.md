@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **scripts/Route7.asm** (5 connections) — `scripts/Route7.asm`
-- **Route7_Script** (2 connections) — `scripts/Route7.asm`
-- **Route7_TextPointers** (1 connections) — `scripts/Route7.asm`
-- **Route7UndergroundPathSignText** (1 connections) — `scripts/Route7.asm`
+- **scripts/MtMoonB1F.asm** (5 connections) — `scripts/MtMoonB1F.asm`
+- **MtMoonB1F_Script** (2 connections) — `scripts/MtMoonB1F.asm`
+- **MtMoonB1F_TextPointers** (1 connections) — `scripts/MtMoonB1F.asm`
+- **MtMoonB1FUnusedText** (1 connections) — `scripts/MtMoonB1F.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route7.asm`
+- `scripts/MtMoonB1F.asm`
 
 ## Audit Trail
 

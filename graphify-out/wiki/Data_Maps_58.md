@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/RockTunnelPokecenter.asm** (3 connections) — `data/maps/objects/RockTunnelPokecenter.asm`
-- **RockTunnelPokecenter_Object** (1 connections) — `data/maps/objects/RockTunnelPokecenter.asm`
+- **data/maps/objects/Route11.asm** (3 connections) — `data/maps/objects/Route11.asm`
+- **Route11_Object** (1 connections) — `data/maps/objects/Route11.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/RockTunnelPokecenter.asm`
+- `data/maps/objects/Route11.asm`
 
 ## Audit Trail
 

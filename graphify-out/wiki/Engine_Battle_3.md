@@ -1,64 +1,58 @@
 # Engine Battle 3
 
-> 137 nodes · cohesion 0.03
+> 69 nodes · cohesion 0.05
 
 ## Key Concepts
 
 - **engine/battle/animations.asm** (144 connections) — `engine/battle/animations.asm`
-- **wShadowOAM** (30 connections) — `ram/wram.asm`
-- **AnimationShowMonPic** (14 connections) — `engine/battle/animations.asm`
 - **MoveAnimation** (12 connections) — `engine/battle/animations.asm`
-- **AnimationFallingObjects** (11 connections) — `engine/battle/animations.asm`
 - **PlayAnimation** (11 connections) — `engine/battle/animations.asm`
-- **AnimationCleanOAM** (10 connections) — `engine/battle/animations.asm`
-- **AnimationHideMonPic** (10 connections) — `engine/battle/animations.asm`
-- **AnimationSubstitute** (10 connections) — `engine/battle/animations.asm`
-- **AnimationMinimizeMon** (9 connections) — `engine/battle/animations.asm`
-- **AnimationSlideMonDownAndHide** (9 connections) — `engine/battle/animations.asm`
-- **ChangeMonPic** (9 connections) — `engine/battle/animations.asm`
-- **GetTileIDList** (9 connections) — `engine/battle/animations.asm`
-- **PlaySubanimation** (9 connections) — `engine/battle/animations.asm`
 - **AnimationFlashScreen** (8 connections) — `engine/battle/animations.asm`
-- **AnimationShootBallsUpward** (8 connections) — `engine/battle/animations.asm`
-- **AnimationSlideMonDown** (8 connections) — `engine/battle/animations.asm`
 - **AnimationTypePointerTable** (8 connections) — `engine/battle/animations.asm`
-- **CopyPicTiles** (8 connections) — `engine/battle/animations.asm`
-- **CopyTempPicToMonPic** (8 connections) — `engine/battle/animations.asm`
-- **LoadMoveAnimationTiles** (8 connections) — `engine/battle/animations.asm`
 - **SetAnimationBGPalette** (8 connections) — `engine/battle/animations.asm`
-- **AnimationSpiralBallsInward** (7 connections) — `engine/battle/animations.asm`
-- **GetMoveSound** (7 connections) — `engine/battle/animations.asm`
 - **PlayApplyingAttackSound** (7 connections) — `engine/battle/animations.asm`
-- *... and 112 more nodes in this community*
+- **AnimationSquishMonPic** (6 connections) — `engine/battle/animations.asm`
+- **TradeJumpPokeball** (6 connections) — `engine/battle/animations.asm`
+- **AnimationBlinkEnemyMon** (4 connections) — `engine/battle/animations.asm`
+- **AnimationFlashScreenLong** (4 connections) — `engine/battle/animations.asm`
+- **BlinkEnemyMonSprite** (4 connections) — `engine/battle/animations.asm`
+- **CopyTileIDsFromList** (4 connections) — `engine/battle/animations.asm`
+- **LoadSubanimation** (4 connections) — `engine/battle/animations.asm`
+- **ShakeScreenHorizontallyHeavy** (4 connections) — `engine/battle/animations.asm`
+- **ShakeScreenHorizontallyLight** (4 connections) — `engine/battle/animations.asm`
+- **ShakeScreenVertically** (4 connections) — `engine/battle/animations.asm`
+- **SlotMachineTiles2** (4 connections) — `engine/battle/animations.asm`
+- **TossBallAnimation** (4 connections) — `engine/battle/animations.asm`
+- **AnimationShakeScreenHorizontallyFast** (3 connections) — `engine/battle/animations.asm`
+- **AnimationShakeScreenHorizontallySlow** (3 connections) — `engine/battle/animations.asm`
+- **AnimCopyRowRight** (3 connections) — `engine/battle/animations.asm`
+- **DoBallShakeSpecialEffects** (3 connections) — `engine/battle/animations.asm`
+- **DoBallTossSpecialEffects** (3 connections) — `engine/battle/animations.asm`
+- **DoExplodeSpecialEffects** (3 connections) — `engine/battle/animations.asm`
+- *... and 44 more nodes in this community*
 
 ## Relationships
 
-- [Ram 2](Ram_2.md) (19 shared connections)
-- [Engine Movie 5](Engine_Movie_5.md) (15 shared connections)
-- [Scripts 2](Scripts_2.md) (10 shared connections)
-- [Engine Movie 3](Engine_Movie_3.md) (6 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (5 shared connections)
-- [Engine Battle](Engine_Battle.md) (4 shared connections)
-- [Engine Movie 2](Engine_Movie_2.md) (3 shared connections)
-- [Home 4](Home_4.md) (3 shared connections)
-- [Engine Movie](Engine_Movie.md) (2 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
-- [Engine Menus](Engine_Menus.md) (2 shared connections)
-- [Ram](Ram.md) (2 shared connections)
+- [Engine Battle 6](Engine_Battle_6.md) (34 shared connections)
+- [Engine Battle 7](Engine_Battle_7.md) (26 shared connections)
+- [Engine Movie](Engine_Movie.md) (10 shared connections)
+- [Engine Battle 12](Engine_Battle_12.md) (10 shared connections)
+- [Scripts 13](Scripts_13.md) (8 shared connections)
+- [Engine Battle 13](Engine_Battle_13.md) (5 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (4 shared connections)
+- [Data Tilemaps.Asm](Data_Tilemaps.Asm.md) (3 shared connections)
+- [Engine Gfx 2](Engine_Gfx_2.md) (2 shared connections)
+- [Scripts 15](Scripts_15.md) (2 shared connections)
+- [Engine Overworld 6](Engine_Overworld_6.md) (2 shared connections)
+- [Data Battle Anims 2](Data_Battle_Anims_2.md) (1 shared connections)
 
 ## Source Files
 
-- `data/battle_anims/special_effect_pointers.asm`
-- `data/battle_anims/special_effects.asm`
-- `data/moves/sfx.asm`
 - `engine/battle/animations.asm`
-- `engine/battle/effects.asm`
-- `engine/movie/intro.asm`
-- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 375 (100%)
+- EXTRACTED: 226 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

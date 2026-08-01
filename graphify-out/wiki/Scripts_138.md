@@ -4,19 +4,19 @@
 
 ## Key Concepts
 
-- **scripts/ViridianForestNorthGate.asm** (6 connections) — `scripts/ViridianForestNorthGate.asm`
-- **ViridianForestNorthGate_Script** (2 connections) — `scripts/ViridianForestNorthGate.asm`
-- **ViridianForestNorthGate_TextPointers** (1 connections) — `scripts/ViridianForestNorthGate.asm`
-- **ViridianForestNorthGateGrampsText** (1 connections) — `scripts/ViridianForestNorthGate.asm`
-- **ViridianForestNorthGateSuperNerdText** (1 connections) — `scripts/ViridianForestNorthGate.asm`
+- **scripts/SSAnne1F.asm** (6 connections) — `scripts/SSAnne1F.asm`
+- **SSAnne1F_Script** (2 connections) — `scripts/SSAnne1F.asm`
+- **SSAnne1F_TextPointers** (1 connections) — `scripts/SSAnne1F.asm`
+- **SSAnne1FSailorText** (1 connections) — `scripts/SSAnne1F.asm`
+- **SSAnne1FWaiterText** (1 connections) — `scripts/SSAnne1F.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/ViridianForestNorthGate.asm`
+- `scripts/SSAnne1F.asm`
 
 ## Audit Trail
 

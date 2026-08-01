@@ -1,64 +1,68 @@
 # Engine Overworld 3
 
-> 38 nodes · cohesion 0.09
+> 48 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **engine/overworld/player_animations.asm** (28 connections) — `engine/overworld/player_animations.asm`
-- **EnterMapAnim** (24 connections) — `engine/overworld/player_animations.asm`
-- **FishingAnim** (19 connections) — `engine/overworld/player_animations.asm`
+- **engine/overworld** (30 connections)
+- **DisplayPokemonCenterDialogue_** (19 connections) — `engine/events/pokecenter.asm`
 - **EmotionBubble** (15 connections) — `engine/overworld/emotion_bubbles.asm`
-- **LoadPlayerSpriteGraphics** (15 connections) — `home/overworld.asm`
-- **vNPCSprites** (10 connections) — `ram/vram.asm`
+- **AnimateHealingMachine** (12 connections) — `engine/overworld/healing_machine.asm`
+- **engine/events/pokecenter.asm** (9 connections) — `engine/events/pokecenter.asm`
 - **engine/overworld/emotion_bubbles.asm** (9 connections) — `engine/overworld/emotion_bubbles.asm`
-- **LoadBirdSpriteGraphics** (7 connections) — `engine/overworld/player_animations.asm`
-- **_HandleMidJump** (6 connections) — `engine/overworld/player_animations.asm`
-- **BirdSprite** (6 connections) — `gfx/sprites.asm`
-- **LoadWalkingPlayerSpriteGraphics** (6 connections) — `home/overworld.asm`
+- **HandleLedges** (8 connections) — `engine/overworld/ledges.asm`
+- **LoadSpinnerArrowTiles** (8 connections) — `engine/overworld/spinners.asm`
+- **engine/overworld/ledges.asm** (8 connections) — `engine/overworld/ledges.asm`
+- **LoadHoppingShadowOAM** (7 connections) — `engine/overworld/ledges.asm`
+- **engine/overworld/healing_machine.asm** (7 connections) — `engine/overworld/healing_machine.asm`
+- **engine/overworld/spinners.asm** (6 connections) — `engine/overworld/spinners.asm`
 - **EmotionBubblesPointerTable** (5 connections) — `engine/overworld/emotion_bubbles.asm`
-- **IsPlayerStandingOnWarpPadOrHole** (5 connections) — `engine/overworld/player_animations.asm`
-- **LoadSurfingPlayerSpriteGraphics** (5 connections) — `home/overworld.asm`
-- **DoFlyAnimation** (4 connections) — `engine/overworld/player_animations.asm`
-- **LoadBikePlayerSpriteGraphics** (4 connections) — `home/overworld.asm`
-- **LoadPlayerSpriteGraphicsCommon** (4 connections) — `home/overworld.asm`
-- **LoadAnimSpriteGfx** (3 connections) — `engine/gfx/mon_icons.asm`
+- **data/tilesets/spinner_tiles.asm** (5 connections) — `data/tilesets/spinner_tiles.asm`
+- **FlashSprite8Times** (4 connections) — `engine/overworld/healing_machine.asm`
+- **RocketHideoutB2FPlayerSpinningScript** (4 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideoutB3FPlayerSpinningScript** (4 connections) — `scripts/RocketHideoutB3F.asm`
 - **HappyEmote** (3 connections) — `engine/overworld/emotion_bubbles.asm`
 - **QuestionEmote** (3 connections) — `engine/overworld/emotion_bubbles.asm`
 - **ShockEmote** (3 connections) — `engine/overworld/emotion_bubbles.asm`
-- **FishingRodOAM** (3 connections) — `engine/overworld/player_animations.asm`
-- **data/tilesets/warp_pad_hole_tile_ids.asm** (3 connections) — `data/tilesets/warp_pad_hole_tile_ids.asm`
-- **WarpPadAndHoleData** (2 connections) — `data/tilesets/warp_pad_hole_tile_ids.asm`
-- **EmotionBubblesOAMBlock** (2 connections) — `engine/overworld/emotion_bubbles.asm`
-- *... and 13 more nodes in this community*
+- **PokeCenterFlashingMonitorAndHealBall** (3 connections) — `engine/overworld/healing_machine.asm`
+- **LedgeHoppingShadow** (3 connections) — `engine/overworld/ledges.asm`
+- **data/tilesets/ledge_tiles.asm** (3 connections) — `data/tilesets/ledge_tiles.asm`
+- **engine/overworld/clear_variables.asm** (3 connections) — `engine/overworld/clear_variables.asm`
+- **engine/overworld/turn_sprite.asm** (3 connections) — `engine/overworld/turn_sprite.asm`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Ram 2](Ram_2.md) (17 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (11 shared connections)
-- [Home](Home.md) (5 shared connections)
-- [Engine Movie 5](Engine_Movie_5.md) (4 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (3 shared connections)
-- [Engine Movie 3](Engine_Movie_3.md) (2 shared connections)
-- [Gfx Sprites.Asm 5](Gfx_Sprites.Asm_5.md) (2 shared connections)
-- [Gfx Sprites.Asm](Gfx_Sprites.Asm.md) (2 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Engine Movie 2](Engine_Movie_2.md) (1 shared connections)
-- [Ram](Ram.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (8 shared connections)
+- [Engine Movie](Engine_Movie.md) (7 shared connections)
+- [Scripts 2](Scripts_2.md) (7 shared connections)
+- [Scripts 13](Scripts_13.md) (6 shared connections)
+- [Home 2](Home_2.md) (5 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (4 shared connections)
+- [Home](Home.md) (3 shared connections)
+- [Engine Overworld 4](Engine_Overworld_4.md) (2 shared connections)
+- [Engine Overworld 6](Engine_Overworld_6.md) (1 shared connections)
+- [Scripts 49](Scripts_49.md) (1 shared connections)
+- [Scripts 31](Scripts_31.md) (1 shared connections)
+- [Engine Events 4](Engine_Events_4.md) (1 shared connections)
 
 ## Source Files
 
-- `data/tilesets/warp_pad_hole_tile_ids.asm`
-- `engine/gfx/mon_icons.asm`
+- `data/tilesets/ledge_tiles.asm`
+- `data/tilesets/spinner_tiles.asm`
+- `engine/events/pokecenter.asm`
+- `engine/overworld/clear_variables.asm`
 - `engine/overworld/emotion_bubbles.asm`
-- `engine/overworld/player_animations.asm`
-- `gfx/sprites.asm`
-- `home/overworld.asm`
-- `ram/vram.asm`
+- `engine/overworld/healing_machine.asm`
+- `engine/overworld/ledges.asm`
+- `engine/overworld/spinners.asm`
+- `engine/overworld/turn_sprite.asm`
+- `scripts/RocketHideoutB2F.asm`
+- `scripts/RocketHideoutB3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 114 (100%)
+- EXTRACTED: 127 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

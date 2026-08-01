@@ -4,27 +4,26 @@
 
 ## Key Concepts
 
-- **scripts/SaffronPidgeyHouse.asm** (8 connections) — `scripts/SaffronPidgeyHouse.asm`
-- **SaffronPidgeyHousePidgeyText** (3 connections) — `scripts/SaffronPidgeyHouse.asm`
-- **SaffronPidgeyHouse_Script** (2 connections) — `scripts/SaffronPidgeyHouse.asm`
-- **SaffronPidgeyHouse_TextPointers** (1 connections) — `scripts/SaffronPidgeyHouse.asm`
-- **SaffronPidgeyHouseBrunetteGirlText** (1 connections) — `scripts/SaffronPidgeyHouse.asm`
-- **SaffronPidgeyHousePaperText** (1 connections) — `scripts/SaffronPidgeyHouse.asm`
-- **SaffronPidgeyHouseYoungsterText** (1 connections) — `scripts/SaffronPidgeyHouse.asm`
+- **scripts/CeladonDiner.asm** (9 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDiner_Script** (2 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDiner_TextPointers** (1 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDinerCookText** (1 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDinerFisherText** (1 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDinerMiddleAgedManText** (1 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDinerMiddleAgedWomanText** (1 connections) — `scripts/CeladonDiner.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SaffronPidgeyHouse.asm`
+- `scripts/CeladonDiner.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

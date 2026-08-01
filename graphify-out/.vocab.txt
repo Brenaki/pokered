@@ -11,6 +11,7 @@ accuracy
 aceita
 acerto
 acid
+acquisitions
 across
 action
 activate
@@ -109,6 +110,7 @@ ask
 asleep
 asm
 asserts
+assignments
 asymmetric
 ataque
 ativo
@@ -246,6 +248,7 @@ boulderbadge
 boulders
 bounce
 bound
+bounded
 bounds
 bow
 box
@@ -310,8 +313,11 @@ carpet
 carry
 cascade
 case
+cat
+catalog
 catch
 catcher
+category
 caterpie
 caterpieb
 caught
@@ -365,6 +371,7 @@ chosen
 chr
 chunks
 ciclo
+cies
 cinnabar
 cinnabarmansion
 circle
@@ -375,6 +382,7 @@ cities
 city
 clamp
 class
+classifica
 claude
 clean
 cleanup
@@ -397,6 +405,7 @@ cloyster
 cloysterb
 club
 cmp
+cobertura
 code
 coffee
 coin
@@ -440,6 +449,7 @@ confusion
 congrats
 congratulates
 congratulations
+conhecidas
 conhecidos
 connect
 connected
@@ -455,11 +465,14 @@ cont
 contents
 contest
 contexto
+contexts
 continue
 continues
 contrato
 control
+controlado
 controle
+controles
 controlled
 conven
 conversion
@@ -635,6 +648,7 @@ doesnt
 doing
 dojo
 doll
+dom
 dome
 done
 dont
@@ -722,6 +736,7 @@ enable
 enabled
 encerramento
 encoding
+encontros
 encounter
 encounters
 encouragement
@@ -755,6 +770,7 @@ escape
 escaped
 escolha
 escopo
+esp
 especial
 est
 establishing
@@ -773,9 +789,12 @@ everywhere
 evid
 evil
 evo
+evolu
 evolution
+evolutions
 evolve
 evolved
+evolves
 evolving
 evos
 exata
@@ -830,6 +849,7 @@ fang
 far
 farcall
 farewell
+farfetch
 farfetchd
 farfetchdb
 fast
@@ -838,6 +858,7 @@ fearow
 fearowb
 fed
 feel
+feet
 fell
 female
 ffff
@@ -959,6 +980,7 @@ gatilhos
 gave
 gbc
 gee
+generate
 generic
 gengar
 gengarb
@@ -1151,17 +1173,20 @@ impressed
 imunidades
 inactivity
 inc
+inches
 inclu
 includes
 incorrect
 increase
 increased
 increment
+incremental
 index
 indigo
 indigoplateau
 individual
 info
+informa
 information
 inicializa
 init
@@ -1180,6 +1205,7 @@ interior
 interlace
 internal
 internas
+interpreta
 interruption
 into
 intro
@@ -1547,6 +1573,7 @@ nima
 ninetales
 ninetalesb
 nintendo
+nio
 nishida
 nisino
 node
@@ -1584,6 +1611,7 @@ object
 objects
 objetivos
 obtained
+obten
 occurred
 octave
 octaves
@@ -1746,6 +1774,7 @@ pokeflute
 pokemaniac
 pokemart
 pokemon
+pokemons
 pokemontower
 pokered
 pol
@@ -1910,10 +1939,12 @@ reenter
 reescrever
 reescrita
 refactoring
+refatora
 refer
 reflect
 refunds
 regained
+regenera
 region
 register
 registers
@@ -1940,6 +1971,7 @@ request
 require
 required
 requirement
+requisitos
 reroll
 rescue
 reserved
@@ -1953,6 +1985,7 @@ restore
 restored
 restoring
 result
+resumo
 ret
 retreat
 retreating
@@ -1975,6 +2008,7 @@ riding
 right
 rio
 rios
+risco
 riscos
 rise
 rival
@@ -2206,6 +2240,7 @@ source
 south
 space
 spaces
+spawns
 spearow
 spearowb
 speary
@@ -2373,6 +2408,7 @@ tentacool
 tentacoolb
 tentacruel
 tentacruelb
+tenths
 termos
 termux
 test

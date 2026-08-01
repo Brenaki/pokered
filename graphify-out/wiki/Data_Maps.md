@@ -43,8 +43,8 @@
 - [Maps.Asm 4](Maps.Asm_4.md) (14 shared connections)
 - [Maps](Maps.md) (14 shared connections)
 - [Maps.Asm 6](Maps.Asm_6.md) (14 shared connections)
-- [Scripts 5](Scripts_5.md) (13 shared connections)
 - [Maps.Asm 11](Maps.Asm_11.md) (13 shared connections)
+- [Scripts 4](Scripts_4.md) (12 shared connections)
 
 ## Source Files
 

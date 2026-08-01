@@ -1,17 +1,16 @@
 # Text 95
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **text/PokemonMansion3F.asm** (9 connections) — `text/PokemonMansion3F.asm`
-- **_PokemonMansion3FDiaryText** (1 connections) — `text/PokemonMansion3F.asm`
-- **_PokemonMansion3FScientistAfterBattleText** (1 connections) — `text/PokemonMansion3F.asm`
-- **_PokemonMansion3FScientistBattleText** (1 connections) — `text/PokemonMansion3F.asm`
-- **_PokemonMansion3FScientistEndBattleText** (1 connections) — `text/PokemonMansion3F.asm`
-- **_PokemonMansion3FSuperNerdAfterBattleText** (1 connections) — `text/PokemonMansion3F.asm`
-- **_PokemonMansion3FSuperNerdBattleText** (1 connections) — `text/PokemonMansion3F.asm`
-- **_PokemonMansion3FSuperNerdEndBattleText** (1 connections) — `text/PokemonMansion3F.asm`
+- **text/Route1.asm** (8 connections) — `text/Route1.asm`
+- **_Route1SignText** (1 connections) — `text/Route1.asm`
+- **_Route1Youngster1AlsoGotPokeballsText** (1 connections) — `text/Route1.asm`
+- **_Route1Youngster1GotPotionText** (1 connections) — `text/Route1.asm`
+- **_Route1Youngster1MartSampleText** (1 connections) — `text/Route1.asm`
+- **_Route1Youngster1NoRoomText** (1 connections) — `text/Route1.asm`
+- **_Route1Youngster2Text** (1 connections) — `text/Route1.asm`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `text/PokemonMansion3F.asm`
+- `text/Route1.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/CinnabarLab.asm** (3 connections) — `data/maps/objects/CinnabarLab.asm`
-- **CinnabarLab_Object** (1 connections) — `data/maps/objects/CinnabarLab.asm`
+- **data/maps/objects/CinnabarMart.asm** (3 connections) — `data/maps/objects/CinnabarMart.asm`
+- **CinnabarMart_Object** (1 connections) — `data/maps/objects/CinnabarMart.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/CinnabarLab.asm`
+- `data/maps/objects/CinnabarMart.asm`
 
 ## Audit Trail
 

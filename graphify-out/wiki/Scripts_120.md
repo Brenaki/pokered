@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **scripts/GameCornerPrizeRoom.asm** (7 connections) — `scripts/GameCornerPrizeRoom.asm`
-- **GameCornerPrizeRoom_Script** (2 connections) — `scripts/GameCornerPrizeRoom.asm`
-- **GameCornerPrizeRoom_TextPointers** (1 connections) — `scripts/GameCornerPrizeRoom.asm`
-- **GameCornerPrizeRoomBaldingGuyText** (1 connections) — `scripts/GameCornerPrizeRoom.asm`
-- **GameCornerPrizeRoomGamblerText** (1 connections) — `scripts/GameCornerPrizeRoom.asm`
-- **GameCornerPRizeRoomPrizeVendorText** (1 connections) — `scripts/GameCornerPrizeRoom.asm`
+- **scripts/CeladonMart5F.asm** (7 connections) — `scripts/CeladonMart5F.asm`
+- **CeladonMart5F_Script** (2 connections) — `scripts/CeladonMart5F.asm`
+- **CeladonMart5F_TextPointers** (1 connections) — `scripts/CeladonMart5F.asm`
+- **CeladonMart5FCurrentFloorSignText** (1 connections) — `scripts/CeladonMart5F.asm`
+- **CeladonMart5FGentlemanText** (1 connections) — `scripts/CeladonMart5F.asm`
+- **CeladonMart5FSailorText** (1 connections) — `scripts/CeladonMart5F.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/GameCornerPrizeRoom.asm`
+- `scripts/CeladonMart5F.asm`
 
 ## Audit Trail
 

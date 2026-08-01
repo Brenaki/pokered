@@ -1,46 +1,53 @@
 # Scripts 65
 
-> 22 nodes · cohesion 0.11
+> 27 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **scripts/Route18.asm** (23 connections) — `scripts/Route18.asm`
-- **Route18_Script** (5 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM1Text** (4 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM2Text** (4 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM3Text** (4 connections) — `scripts/Route18.asm`
-- **Route18_ScriptPointers** (2 connections) — `scripts/Route18.asm`
-- **Route18TrainerHeader0** (2 connections) — `scripts/Route18.asm`
-- **Route18TrainerHeader1** (2 connections) — `scripts/Route18.asm`
-- **Route18TrainerHeader2** (2 connections) — `scripts/Route18.asm`
-- **Route18TrainerHeaders** (2 connections) — `scripts/Route18.asm`
-- **Route18_TextPointers** (1 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM1AfterBattleText** (1 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM1BattleText** (1 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM1EndBattleText** (1 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM2AfterBattleText** (1 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM2BattleText** (1 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM2EndBattleText** (1 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM3AfterBattleText** (1 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM3BattleText** (1 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM3EndBattleText** (1 connections) — `scripts/Route18.asm`
-- **Route18CyclingRoadSignText** (1 connections) — `scripts/Route18.asm`
-- **Route18SignText** (1 connections) — `scripts/Route18.asm`
+- **scripts/VictoryRoad3F.asm** (28 connections) — `scripts/VictoryRoad3F.asm`
+- **21.67 Mapa `VictoryRoad3F`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **VictoryRoad3F_Script** (6 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF1Text** (4 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF2Text** (4 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM1Text** (4 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM2Text** (4 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCheckBoulderEventScript** (3 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3F_ScriptPointers** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF1AfterBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF1BattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF1EndBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF2AfterBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF2BattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF2EndBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM1AfterBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM1BattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM1EndBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM2AfterBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM2BattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM2EndBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3TrainerHeader0** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3TrainerHeader1** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3TrainerHeader2** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3TrainerHeader3** (2 connections) — `scripts/VictoryRoad3F.asm`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (3 shared connections)
-- [Home 8](Home_8.md) (3 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts](Scripts.md) (4 shared connections)
+- [Scripts 9](Scripts_9.md) (4 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 18](Scripts_18.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route18.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/VictoryRoad3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 56 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

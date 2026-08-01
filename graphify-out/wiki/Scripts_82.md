@@ -1,42 +1,44 @@
 # Scripts 82
 
-> 15 nodes · cohesion 0.20
+> 19 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **scripts/PokemonMansion1F.asm** (17 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1F_Script** (6 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1CheckReplaceSwitchDoorBlocks** (5 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1FScientistText** (4 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1LoadHorizontalGateBlock** (3 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1ReplaceBlock** (3 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1LoadEmptyFloorTileBlock** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1Script_Switches** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1TrainerHeader0** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1TrainerHeaders** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1F_ScriptPointers** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1F_TextPointers** (1 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1FScientistAfterBattleText** (1 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1FScientistBattleText** (1 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1FScientistEndBattleText** (1 connections) — `scripts/PokemonMansion1F.asm`
+- **scripts/SSAnneBow.asm** (19 connections) — `scripts/SSAnneBow.asm`
+- **21.51 Mapa `SSAnneBow`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **SSAnneBow_Script** (5 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor2Text** (4 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor3Text** (4 connections) — `scripts/SSAnneBow.asm`
+- **SSAnne5TrainerHeader0** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnne5TrainerHeader1** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnne5TrainerHeaders** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBow_ScriptPointers** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor2AfterBattleText** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor2BattleText** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor2EndBattleText** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor3AfterBattleText** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor3BattleText** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor3EndBattleText** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBow_TextPointers** (1 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowCooltrainerMText** (1 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor1Text** (1 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSuperNerdText** (1 connections) — `scripts/SSAnneBow.asm`
 
 ## Relationships
 
 - [Scripts](Scripts.md) (2 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
-- [Engine Overworld 6](Engine_Overworld_6.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Home 8](Home_8.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (2 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/PokemonMansion1F.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/SSAnneBow.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

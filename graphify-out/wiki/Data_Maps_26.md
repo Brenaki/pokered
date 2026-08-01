@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/CinnabarPokecenter.asm** (3 connections) — `data/maps/objects/CinnabarPokecenter.asm`
-- **CinnabarPokecenter_Object** (1 connections) — `data/maps/objects/CinnabarPokecenter.asm`
+- **data/maps/objects/DiglettsCaveRoute11.asm** (3 connections) — `data/maps/objects/DiglettsCaveRoute11.asm`
+- **DiglettsCaveRoute11_Object** (1 connections) — `data/maps/objects/DiglettsCaveRoute11.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/CinnabarPokecenter.asm`
+- `data/maps/objects/DiglettsCaveRoute11.asm`
 
 ## Audit Trail
 

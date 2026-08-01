@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/PokemonMansion2F.asm** (3 connections) — `data/maps/objects/PokemonMansion2F.asm`
-- **PokemonMansion2F_Object** (1 connections) — `data/maps/objects/PokemonMansion2F.asm`
+- **data/maps/objects/PokemonMansionB1F.asm** (3 connections) — `data/maps/objects/PokemonMansionB1F.asm`
+- **PokemonMansionB1F_Object** (1 connections) — `data/maps/objects/PokemonMansionB1F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/PokemonMansion2F.asm`
+- `data/maps/objects/PokemonMansionB1F.asm`
 
 ## Audit Trail
 

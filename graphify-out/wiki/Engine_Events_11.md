@@ -1,31 +1,26 @@
 # Engine Events 11
 
-> 8 nodes · cohesion 0.46
+> 5 nodes · cohesion 0.70
 
 ## Key Concepts
 
-- **OaksAideScript** (15 connections) — `engine/events/oaks_aide.asm`
-- **engine/events/oaks_aide.asm** (9 connections) — `engine/events/oaks_aide.asm`
-- **OaksAideComeBackText** (2 connections) — `engine/events/oaks_aide.asm`
-- **OaksAideGotItemText** (2 connections) — `engine/events/oaks_aide.asm`
-- **OaksAideHereYouGoText** (2 connections) — `engine/events/oaks_aide.asm`
-- **OaksAideHiText** (2 connections) — `engine/events/oaks_aide.asm`
-- **OaksAideNoRoomText** (2 connections) — `engine/events/oaks_aide.asm`
-- **OaksAideUhOhText** (2 connections) — `engine/events/oaks_aide.asm`
+- **IndigoPlateauStatues** (6 connections) — `engine/events/hidden_events/indigo_plateau_statues.asm`
+- **engine/events/hidden_events/indigo_plateau_statues.asm** (6 connections) — `engine/events/hidden_events/indigo_plateau_statues.asm`
+- **IndigoPlateauStatuesText1** (2 connections) — `engine/events/hidden_events/indigo_plateau_statues.asm`
+- **IndigoPlateauStatuesText2** (2 connections) — `engine/events/hidden_events/indigo_plateau_statues.asm`
+- **IndigoPlateauStatuesText3** (2 connections) — `engine/events/hidden_events/indigo_plateau_statues.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (3 shared connections)
-- [Ram 2](Ram_2.md) (1 shared connections)
-- [Ram](Ram.md) (1 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
 
 ## Source Files
 
-- `engine/events/oaks_aide.asm`
+- `engine/events/hidden_events/indigo_plateau_statues.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

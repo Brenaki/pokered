@@ -1,19 +1,18 @@
 # Text 78
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **text/SSAnneBow.asm** (11 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowCooltrainerMText** (1 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowSailor1Text** (1 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowSailor2AfterBattleText** (1 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowSailor2BattleText** (1 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowSailor2EndBattleText** (1 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowSailor3AfterBattleText** (1 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowSailor3BattleText** (1 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowSailor3EndBattleText** (1 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowSuperNerdText** (1 connections) — `text/SSAnneBow.asm`
+- **text/ChampionsRoom.asm** (10 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomOakComeWithMeText** (1 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomOakCongratulatesPlayerText** (1 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomOakDisappointedWithRivalText** (1 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomOakText** (1 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomRivalAfterBattleText** (1 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomRivalIntroText** (1 connections) — `text/ChampionsRoom.asm`
+- **_RivalDefeatedText** (1 connections) — `text/ChampionsRoom.asm`
+- **_RivalVictoryText** (1 connections) — `text/ChampionsRoom.asm`
 
 ## Relationships
 
@@ -21,11 +20,11 @@
 
 ## Source Files
 
-- `text/SSAnneBow.asm`
+- `text/ChampionsRoom.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

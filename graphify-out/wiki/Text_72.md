@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **text/CeladonMansion3F.asm** (11 connections) — `text/CeladonMansion3F.asm`
-- **_CeladonMansion3FDevRoomSignText** (1 connections) — `text/CeladonMansion3F.asm`
-- **_CeladonMansion3FGameDesignerCompletedDexText** (1 connections) — `text/CeladonMansion3F.asm`
-- **_CeladonMansion3FGameDesignerText** (1 connections) — `text/CeladonMansion3F.asm`
-- **_CeladonMansion3FGameProgramPCText** (1 connections) — `text/CeladonMansion3F.asm`
-- **_CeladonMansion3FGameScriptPCText** (1 connections) — `text/CeladonMansion3F.asm`
-- **_CeladonMansion3FGraphicArtistText** (1 connections) — `text/CeladonMansion3F.asm`
-- **_CeladonMansion3FPlayingGamePCText** (1 connections) — `text/CeladonMansion3F.asm`
-- **_CeladonMansion3FProgrammerText** (1 connections) — `text/CeladonMansion3F.asm`
-- **_CeladonMansion3FWriterText** (1 connections) — `text/CeladonMansion3F.asm`
+- **text/PokemonTower3F.asm** (11 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler1AfterBattleText** (1 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler1BattleText** (1 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler1EndBattleText** (1 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler2AfterBattleText** (1 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler2BattleText** (1 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler2EndBattleText** (1 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler3AfterBattleText** (1 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler3BattleText** (1 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler3EndBattleText** (1 connections) — `text/PokemonTower3F.asm`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `text/CeladonMansion3F.asm`
+- `text/PokemonTower3F.asm`
 
 ## Audit Trail
 

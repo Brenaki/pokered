@@ -4,26 +4,24 @@
 
 ## Key Concepts
 
-- **scripts/CopycatsHouse1F.asm** (7 connections) — `scripts/CopycatsHouse1F.asm`
-- **CopycatsHouse1FChanseyText** (3 connections) — `scripts/CopycatsHouse1F.asm`
-- **CopycatsHouse1F_Script** (2 connections) — `scripts/CopycatsHouse1F.asm`
-- **CopycatsHouse1F_TextPointers** (1 connections) — `scripts/CopycatsHouse1F.asm`
-- **CopycatsHouse1FMiddleAgedManText** (1 connections) — `scripts/CopycatsHouse1F.asm`
-- **CopycatsHouse1FMiddleAgedWomanText** (1 connections) — `scripts/CopycatsHouse1F.asm`
+- **scripts/CeladonChiefHouse.asm** (7 connections) — `scripts/CeladonChiefHouse.asm`
+- **CeladonChiefHouse_Script** (2 connections) — `scripts/CeladonChiefHouse.asm`
+- **CeladonChiefHouse_TextPointers** (1 connections) — `scripts/CeladonChiefHouse.asm`
+- **CeladonChiefHouseChiefText** (1 connections) — `scripts/CeladonChiefHouse.asm`
+- **CeladonChiefHouseRocketText** (1 connections) — `scripts/CeladonChiefHouse.asm`
+- **CeladonChiefHouseSailorText** (1 connections) — `scripts/CeladonChiefHouse.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CopycatsHouse1F.asm`
+- `scripts/CeladonChiefHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

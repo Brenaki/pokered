@@ -4,23 +4,25 @@
 
 ## Key Concepts
 
-- **scripts/CeruleanMart.asm** (6 connections) — `scripts/CeruleanMart.asm`
-- **CeruleanMart_Script** (2 connections) — `scripts/CeruleanMart.asm`
-- **CeruleanMart_TextPointers** (1 connections) — `scripts/CeruleanMart.asm`
-- **CeruleanMartCooltrainerFText** (1 connections) — `scripts/CeruleanMart.asm`
-- **CeruleanMartCooltrainerMText** (1 connections) — `scripts/CeruleanMart.asm`
+- **scripts/CeruleanTradeHouse.asm** (6 connections) — `scripts/CeruleanTradeHouse.asm`
+- **CeruleanTradeHouseGamblerText** (3 connections) — `scripts/CeruleanTradeHouse.asm`
+- **CeruleanTradeHouse_Script** (2 connections) — `scripts/CeruleanTradeHouse.asm`
+- **CeruleanTradeHouse_TextPointers** (1 connections) — `scripts/CeruleanTradeHouse.asm`
+- **CeruleanTradeHouseGrannyText** (1 connections) — `scripts/CeruleanTradeHouse.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeruleanMart.asm`
+- `scripts/CeruleanTradeHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

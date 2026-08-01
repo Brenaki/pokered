@@ -1,39 +1,45 @@
 # Scripts 85
 
-> 14 nodes · cohesion 0.25
+> 18 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **BikeShopClerkText** (21 connections) — `scripts/BikeShop.asm`
-- **scripts/BikeShop.asm** (17 connections) — `scripts/BikeShop.asm`
-- **BikeShop_Script** (2 connections) — `scripts/BikeShop.asm`
-- **BikeShopBagFullText** (2 connections) — `scripts/BikeShop.asm`
-- **BikeShopCantAffordText** (2 connections) — `scripts/BikeShop.asm`
-- **BikeShopClerkDoYouLikeItText** (2 connections) — `scripts/BikeShop.asm`
-- **BikeShopClerkHowDoYouLikeYourBicycleText** (2 connections) — `scripts/BikeShop.asm`
-- **BikeShopClerkOhThatsAVoucherText** (2 connections) — `scripts/BikeShop.asm`
-- **BikeShopClerkWelcomeText** (2 connections) — `scripts/BikeShop.asm`
-- **BikeShopComeAgainText** (2 connections) — `scripts/BikeShop.asm`
-- **BikeShopExchangedVoucherText** (2 connections) — `scripts/BikeShop.asm`
-- **BikeShopMenuPrice** (2 connections) — `scripts/BikeShop.asm`
-- **BikeShopMenuText** (2 connections) — `scripts/BikeShop.asm`
-- **BikeShop_TextPointers** (1 connections) — `scripts/BikeShop.asm`
+- **scripts/PokemonMansionB1F.asm** (19 connections) — `scripts/PokemonMansionB1F.asm`
+- **21.16 Mapa `PokemonMansionB1F`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **PokemonMansionB1F_Script** (6 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FBurglarText** (4 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FScientistText** (4 connections) — `scripts/PokemonMansionB1F.asm`
+- **Mansion4Script_Switches** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **Mansion4TrainerHeader0** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **Mansion4TrainerHeader1** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **Mansion4TrainerHeaders** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1F_ScriptPointers** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FBurglarAfterBattleText** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FBurglarBattleText** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FBurglarEndBattleText** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FScientistAfterBattleText** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FScientistBattleText** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FScientistEndBattleText** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1F_TextPointers** (1 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FDiaryText** (1 connections) — `scripts/PokemonMansionB1F.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (7 shared connections)
-- [Ram 2](Ram_2.md) (2 shared connections)
-- [Engine Menus](Engine_Menus.md) (2 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Scripts 45](Scripts_45.md) (2 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Scripts 9](Scripts_9.md) (2 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/BikeShop.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/PokemonMansionB1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

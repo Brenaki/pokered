@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/ChampionsRoom.asm** (3 connections) — `data/maps/objects/ChampionsRoom.asm`
-- **ChampionsRoom_Object** (1 connections) — `data/maps/objects/ChampionsRoom.asm`
+- **data/maps/objects/CinnabarLabTradeRoom.asm** (3 connections) — `data/maps/objects/CinnabarLabTradeRoom.asm`
+- **CinnabarLabTradeRoom_Object** (1 connections) — `data/maps/objects/CinnabarLabTradeRoom.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/ChampionsRoom.asm`
+- `data/maps/objects/CinnabarLabTradeRoom.asm`
 
 ## Audit Trail
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/CeruleanTradeHouse.asm** (3 connections) — `data/maps/objects/CeruleanTradeHouse.asm`
-- **CeruleanTradeHouse_Object** (1 connections) — `data/maps/objects/CeruleanTradeHouse.asm`
+- **data/maps/objects/CinnabarLab.asm** (3 connections) — `data/maps/objects/CinnabarLab.asm`
+- **CinnabarLab_Object** (1 connections) — `data/maps/objects/CinnabarLab.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/CeruleanTradeHouse.asm`
+- `data/maps/objects/CinnabarLab.asm`
 
 ## Audit Trail
 

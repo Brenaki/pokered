@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
+- **TrainerDataPointers** (50 connections) — `data/trainers/parties.asm`
 - **data/trainers/parties.asm** (50 connections) — `data/trainers/parties.asm`
-- **TrainerDataPointers** (49 connections) — `data/trainers/parties.asm`
 - **AgathaData** (2 connections) — `data/trainers/parties.asm`
 - **BeautyData** (2 connections) — `data/trainers/parties.asm`
 - **BikerData** (2 connections) — `data/trainers/parties.asm`

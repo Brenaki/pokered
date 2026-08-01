@@ -1,29 +1,31 @@
 # Scripts 103
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **scripts/SafariZoneNorth.asm** (9 connections) — `scripts/SafariZoneNorth.asm`
-- **SafariZoneNorth_Script** (2 connections) — `scripts/SafariZoneNorth.asm`
-- **SafariZoneNorth_TextPointers** (1 connections) — `scripts/SafariZoneNorth.asm`
-- **SafariZoneNorthRestHouseSignText** (1 connections) — `scripts/SafariZoneNorth.asm`
-- **SafariZoneNorthSignText** (1 connections) — `scripts/SafariZoneNorth.asm`
-- **SafariZoneNorthTrainerTips1Text** (1 connections) — `scripts/SafariZoneNorth.asm`
-- **SafariZoneNorthTrainerTips2Text** (1 connections) — `scripts/SafariZoneNorth.asm`
-- **SafariZoneNorthTrainerTips3Text** (1 connections) — `scripts/SafariZoneNorth.asm`
+- **scripts/SSAnneKitchen.asm** (11 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchen_Script** (2 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchen_TextPointers** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook1Text** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook2Text** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook3Text** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook4Text** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook5Text** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook6Text** (1 connections) — `scripts/SSAnneKitchen.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SafariZoneNorth.asm`
+- `scripts/SSAnneKitchen.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

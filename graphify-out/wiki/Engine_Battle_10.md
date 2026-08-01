@@ -1,45 +1,47 @@
 # Engine Battle 10
 
-> 12 nodes · cohesion 0.24
+> 21 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **EndOfBattle** (21 connections) — `engine/battle/end_of_battle.asm`
-- **AddBCDPredef** (14 connections) — `engine/math/bcd.asm`
-- **engine/battle/end_of_battle.asm** (9 connections) — `engine/battle/end_of_battle.asm`
-- **AddAmountSoldToMoney** (8 connections) — `home/inventory.asm`
-- **PayDayEffect_** (7 connections) — `engine/battle/move_effects/pay_day.asm`
-- **engine/battle/move_effects/pay_day.asm** (4 connections) — `engine/battle/move_effects/pay_day.asm`
-- **EvolutionAfterBattle** (3 connections) — `engine/pokemon/evos_moves.asm`
-- **DrawText** (2 connections) — `engine/battle/end_of_battle.asm`
-- **PickUpPayDayMoneyText** (2 connections) — `engine/battle/end_of_battle.asm`
-- **YouLoseText** (2 connections) — `engine/battle/end_of_battle.asm`
-- **YouWinText** (2 connections) — `engine/battle/end_of_battle.asm`
-- **CoinsScatteredText** (2 connections) — `engine/battle/move_effects/pay_day.asm`
+- **engine/battle/draw_hud_pokeball_gfx.asm** (18 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **SetupPlayerAndEnemyPokeballs** (10 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **SetupEnemyPartyPokeballs** (9 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **SetupOwnPartyPokeballs** (9 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **LoadPartyPokeballGfx** (7 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **PlaceEnemyHUDTiles** (7 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **PlacePlayerHUDTiles** (7 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **SetupPokeballs** (6 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **PokeballTileGraphics** (5 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **WritePokeballOAMData** (5 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **wBaseCoordX** (5 connections) — `ram/wram.asm`
+- **DrawAllPokeballs** (4 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **wHUDGraphicsTiles** (4 connections) — `ram/wram.asm`
+- **wHUDGraphicsTilesEnd** (4 connections) — `ram/wram.asm`
+- **DrawEnemyPokeballs** (3 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **PlaceHUDTiles** (3 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **EnemyBattleHUDGraphicsTiles** (2 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **PickPokeball** (2 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **PlayerBattleHUDGraphicsTiles** (2 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **PokeballTileGraphicsEnd** (1 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **gfx/battle/balls.2bpp** (1 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
 
 ## Relationships
 
-- [Bank WRAM0](Bank_WRAM0.md) (5 shared connections)
-- [Ram 2](Ram_2.md) (4 shared connections)
-- [Engine Events](Engine_Events.md) (3 shared connections)
-- [Ram](Ram.md) (2 shared connections)
-- [Engine Events 3](Engine_Events_3.md) (2 shared connections)
-- [Engine Menus](Engine_Menus.md) (2 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
-- [Engine Battle](Engine_Battle.md) (2 shared connections)
-- [Engine Movie 5](Engine_Movie_5.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (8 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
+- [Engine Link](Engine_Link.md) (2 shared connections)
+- [Engine Battle 7](Engine_Battle_7.md) (2 shared connections)
+- [Engine Menus 3](Engine_Menus_3.md) (2 shared connections)
 
 ## Source Files
 
-- `engine/battle/end_of_battle.asm`
-- `engine/battle/move_effects/pay_day.asm`
-- `engine/math/bcd.asm`
-- `engine/pokemon/evos_moves.asm`
-- `home/inventory.asm`
+- `engine/battle/draw_hud_pokeball_gfx.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 60 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

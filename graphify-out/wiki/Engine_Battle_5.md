@@ -1,55 +1,52 @@
 # Engine Battle 5
 
-> 32 nodes · cohesion 0.13
+> 38 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **engine/battle/trainer_ai.asm** (65 connections) — `engine/battle/trainer_ai.asm`
-- **AIPrintItemUse** (11 connections) — `engine/battle/trainer_ai.asm`
-- **ReadMove** (8 connections) — `engine/battle/trainer_ai.asm`
-- **AIIncreaseStat** (7 connections) — `engine/battle/trainer_ai.asm`
-- **AIMoveChoiceModification1** (6 connections) — `engine/battle/trainer_ai.asm`
-- **AIMoveChoiceModificationFunctionPointers** (6 connections) — `engine/battle/trainer_ai.asm`
-- **AIPlayRestoringSFX** (6 connections) — `engine/battle/trainer_ai.asm`
-- **AIPrintItemUseAndUpdateHPBar** (6 connections) — `engine/battle/trainer_ai.asm`
-- **SwitchEnemyMon** (6 connections) — `engine/battle/trainer_ai.asm`
-- **AICureStatus** (5 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseFullHeal** (5 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseFullRestore** (5 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseGuardSpec** (5 connections) — `engine/battle/trainer_ai.asm`
-- **DecrementAICount** (5 connections) — `engine/battle/trainer_ai.asm`
-- **AIEnemyTrainerChooseMoves** (4 connections) — `engine/battle/trainer_ai.asm`
-- **AIMoveChoiceModification2** (4 connections) — `engine/battle/trainer_ai.asm`
-- **AIMoveChoiceModification3** (4 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseDireHit** (4 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseXAccuracy** (4 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseXDefend** (4 connections) — `engine/battle/trainer_ai.asm`
-- **Rival3AI** (4 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseXSpeed** (3 connections) — `engine/battle/trainer_ai.asm`
-- **BrockAI** (3 connections) — `engine/battle/trainer_ai.asm`
-- **BrunoAI** (3 connections) — `engine/battle/trainer_ai.asm`
-- **GiovanniAI** (3 connections) — `engine/battle/trainer_ai.asm`
-- *... and 7 more nodes in this community*
+- **engine/battle/battle_transitions.asm** (36 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition** (10 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransitions** (9 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_BlackScreen** (8 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_DoubleCircle** (8 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_Split** (8 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_TransferDelay3** (8 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_Circle** (7 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_Shrink** (6 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_Spiral** (6 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_FlashScreen_** (5 connections) — `engine/battle/battle_transitions.asm`
+- **LoadBattleTransitionTile** (5 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_Circle_Sub1** (4 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_Circle_Sub2** (4 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_CopyTiles1** (4 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_HorizontalStripes** (4 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_VerticalStripes** (4 connections) — `engine/battle/battle_transitions.asm`
+- **GetBattleTransitionID_IsDungeonMap** (4 connections) — `engine/battle/battle_transitions.asm`
+- **data/maps/dungeon_maps.asm** (4 connections) — `data/maps/dungeon_maps.asm`
+- **BattleTransition_CopyTiles2** (3 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_HalfCircle1** (3 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_HalfCircle2** (3 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_InwardSpiral** (3 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransitionTile** (3 connections) — `engine/battle/battle_transitions.asm`
+- **DungeonMaps1** (2 connections) — `data/maps/dungeon_maps.asm`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Engine Battle 6](Engine_Battle_6.md) (22 shared connections)
-- [Ram](Ram.md) (9 shared connections)
-- [Engine Battle 2](Engine_Battle_2.md) (6 shared connections)
-- [Data Trainers 2](Data_Trainers_2.md) (6 shared connections)
-- [Ram 2](Ram_2.md) (6 shared connections)
-- [Engine Battle](Engine_Battle.md) (2 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
-- [Data Trainers](Data_Trainers.md) (1 shared connections)
+- [Engine Movie](Engine_Movie.md) (5 shared connections)
+- [Scripts 13](Scripts_13.md) (3 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/battle/trainer_ai.asm`
+- `data/maps/dungeon_maps.asm`
+- `engine/battle/battle_transitions.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 121 (100%)
+- EXTRACTED: 94 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

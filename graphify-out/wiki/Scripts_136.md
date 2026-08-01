@@ -1,26 +1,26 @@
 # Scripts 136
 
-> 5 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **scripts/UndergroundPathRoute5.asm** (6 connections) — `scripts/UndergroundPathRoute5.asm`
-- **UndergroundPathRoute5LittleGirlText** (3 connections) — `scripts/UndergroundPathRoute5.asm`
-- **UndergroundPathEntranceRoute5_TextScriptEndingText** (2 connections) — `scripts/UndergroundPathRoute5.asm`
-- **UndergroundPathRoute5_Script** (1 connections) — `scripts/UndergroundPathRoute5.asm`
-- **UndergroundPathRoute5_TextPointers** (1 connections) — `scripts/UndergroundPathRoute5.asm`
+- **scripts/Route2.asm** (6 connections) — `scripts/Route2.asm`
+- **Route2_Script** (2 connections) — `scripts/Route2.asm`
+- **Route2_TextPointers** (1 connections) — `scripts/Route2.asm`
+- **Route2DiglettsCaveSignText** (1 connections) — `scripts/Route2.asm`
+- **Route2SignText** (1 connections) — `scripts/Route2.asm`
 
 ## Relationships
 
-- [Ram](Ram.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/UndergroundPathRoute5.asm`
+- `scripts/Route2.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

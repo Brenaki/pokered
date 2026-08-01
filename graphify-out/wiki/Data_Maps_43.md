@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/PalletTown.asm** (3 connections) — `data/maps/objects/PalletTown.asm`
-- **PalletTown_Object** (1 connections) — `data/maps/objects/PalletTown.asm`
+- **data/maps/objects/PewterMart.asm** (3 connections) — `data/maps/objects/PewterMart.asm`
+- **PewterMart_Object** (1 connections) — `data/maps/objects/PewterMart.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/PalletTown.asm`
+- `data/maps/objects/PewterMart.asm`
 
 ## Audit Trail
 

@@ -1,53 +1,54 @@
 # Scripts 62
 
-> 23 nodes · cohesion 0.11
+> 29 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **scripts/RocketHideoutB4F.asm** (26 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FBeatGiovanniScript** (9 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4F_Script** (6 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FDoorCallbackScript** (4 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket1Text** (4 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket2Text** (4 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket3Text** (4 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideout4TrainerHeader0** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideout4TrainerHeader1** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideout4TrainerHeader2** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideout4TrainerHeaders** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4F_ScriptPointers** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FGiovanniHopeWeMeetAgainText** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FSetDefaultScript** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4F_TextPointers** (1 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket1AfterBattleText** (1 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket1BattleText** (1 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket1EndBattleText** (1 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket2AfterBattleText** (1 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket2BattleText** (1 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket2EndBattleText** (1 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket3BattleText** (1 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket3EndBattleText** (1 connections) — `scripts/RocketHideoutB4F.asm`
+- **scripts/CeruleanCity.asm** (34 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityDefaultScript** (15 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityRivalDefeatedScript** (12 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityRivalBattleScript** (8 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCity_Script** (4 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityFaceRivalScript** (4 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityRocketDefeatedScript** (4 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityClearScripts** (3 connections) — `scripts/CeruleanCity.asm`
+- **GetPointerWithinSpriteStateData2** (2 connections) — `home/map_objects.asm`
+- **CeruleanCity_ScriptPointers** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityCoords1** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityCoords2** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityMovement1** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityMovement3** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityMovement4** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityRivalDefeatedText** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityRivalIWentToBillsText** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityRivalVictoryText** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCity_TextPointers** (1 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityBikeShopSign** (1 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityCooltrainerF2Text** (1 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityCooltrainerMText** (1 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityGuardText** (1 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityGymSign** (1 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCitySignText** (1 connections) — `scripts/CeruleanCity.asm`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (4 shared connections)
-- [Home 8](Home_8.md) (3 shared connections)
-- [Scripts 4](Scripts_4.md) (2 shared connections)
-- [Home 5](Home_5.md) (2 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 11](Scripts_11.md) (2 shared connections)
-- [Scripts 7](Scripts_7.md) (1 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (11 shared connections)
+- [Scripts 13](Scripts_13.md) (5 shared connections)
+- [Scripts](Scripts.md) (3 shared connections)
+- [Scripts 28](Scripts_28.md) (3 shared connections)
+- [Scripts 12](Scripts_12.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 58](Scripts_58.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/RocketHideoutB4F.asm`
+- `home/map_objects.asm`
+- `scripts/CeruleanCity.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 65 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

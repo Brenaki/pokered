@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/SafariZoneWestRestHouse.asm** (3 connections) — `data/maps/objects/SafariZoneWestRestHouse.asm`
-- **SafariZoneWestRestHouse_Object** (1 connections) — `data/maps/objects/SafariZoneWestRestHouse.asm`
+- **data/maps/objects/SaffronGym.asm** (3 connections) — `data/maps/objects/SaffronGym.asm`
+- **SaffronGym_Object** (1 connections) — `data/maps/objects/SaffronGym.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/SafariZoneWestRestHouse.asm`
+- `data/maps/objects/SaffronGym.asm`
 
 ## Audit Trail
 

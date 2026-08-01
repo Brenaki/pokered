@@ -1,18 +1,19 @@
 # Docs 9
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **22. Contrato para reescrita em C** (4 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **22.1 Linguagem ubíqua e limites DDD** (3 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **22.2 Aplicação de SOLID** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **22.3 Estratégia de refactoring** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **16. Itens de cura, status, PP e batalha** (6 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **16.1 Regras comuns** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **16.2 Cura de HP e revive** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **16.3 Cura de status** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **16.4 Recuperação e aumento de PP** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **16.5 Itens táticos** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
 
 ## Relationships
 
-- [Ram](Ram.md) (1 shared connections)
-- [Engine Battle 6](Engine_Battle_6.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 

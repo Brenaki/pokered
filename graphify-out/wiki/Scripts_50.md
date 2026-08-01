@@ -1,51 +1,52 @@
 # Scripts 50
 
-> 28 nodes · cohesion 0.09
+> 32 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **scripts/PokemonTower5F.asm** (30 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5F_Script** (5 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler2Text** (4 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler3Text** (4 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler4Text** (4 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler5Text** (4 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5F_ScriptPointers** (2 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FPurifiedZoneCoords** (2 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5TrainerHeader0** (2 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5TrainerHeader1** (2 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5TrainerHeader2** (2 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5TrainerHeader3** (2 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5TrainerHeaders** (2 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5F_TextPointers** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler1Text** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler2AfterBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler2BattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler2EndBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler3AfterBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler3BattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler3EndBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler4AfterBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler4BattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler4EndBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler5AfterBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- *... and 3 more nodes in this community*
+- **scripts/SSAnne1FRooms.asm** (32 connections) — `scripts/SSAnne1FRooms.asm`
+- **21.48 Mapa `SSAnne1FRooms`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **SSAnne1FRooms_Script** (5 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsCooltrainerFText** (4 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsGentleman1Text** (4 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsGentleman2Text** (4 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsYoungsterText** (4 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsWigglytuffText** (3 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRooms_ScriptPointers** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsCooltrainerFAfterBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsCooltrainerFBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsCooltrainerFEndBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsGentleman1AfterBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsGentleman1BattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsGentleman1EndBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsGentleman2AfterBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsGentleman2BattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsGentleman2EndBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsYoungsterAfterBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsYoungsterBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsYoungsterEndBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne8TrainerHeader0** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne8TrainerHeader1** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne8TrainerHeader2** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne8TrainerHeader3** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (4 shared connections)
-- [Home 8](Home_8.md) (4 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts](Scripts.md) (5 shared connections)
+- [Scripts 9](Scripts_9.md) (4 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 15](Scripts_15.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/PokemonTower5F.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/SSAnne1FRooms.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
+- EXTRACTED: 60 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

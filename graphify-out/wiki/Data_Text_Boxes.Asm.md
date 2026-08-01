@@ -1,10 +1,12 @@
 # Data Text Boxes.Asm
 
-> 13 nodes · cohesion 0.15
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
 - **data/text_boxes.asm** (17 connections) — `data/text_boxes.asm`
+- **TextBoxCoordTable** (2 connections) — `data/text_boxes.asm`
+- **TextBoxTextAndCoordTable** (2 connections) — `data/text_boxes.asm`
 - **BattleMenuText** (1 connections) — `data/text_boxes.asm`
 - **BuySellQuitText** (1 connections) — `data/text_boxes.asm`
 - **JapaneseAhText** (1 connections) — `data/text_boxes.asm`
@@ -20,8 +22,7 @@
 
 ## Relationships
 
-- [Engine Menus 6](Engine_Menus_6.md) (2 shared connections)
-- [Engine Menus](Engine_Menus.md) (1 shared connections)
+- [Home](Home.md) (1 shared connections)
 
 ## Source Files
 

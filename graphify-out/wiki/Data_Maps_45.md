@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/PewterMart.asm** (3 connections) — `data/maps/objects/PewterMart.asm`
-- **PewterMart_Object** (1 connections) — `data/maps/objects/PewterMart.asm`
+- **data/maps/objects/PewterPokecenter.asm** (3 connections) — `data/maps/objects/PewterPokecenter.asm`
+- **PewterPokecenter_Object** (1 connections) — `data/maps/objects/PewterPokecenter.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/PewterMart.asm`
+- `data/maps/objects/PewterPokecenter.asm`
 
 ## Audit Trail
 

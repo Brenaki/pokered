@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/DiglettsCaveRoute11.asm** (3 connections) — `data/maps/objects/DiglettsCaveRoute11.asm`
-- **DiglettsCaveRoute11_Object** (1 connections) — `data/maps/objects/DiglettsCaveRoute11.asm`
+- **data/maps/objects/FightingDojo.asm** (3 connections) — `data/maps/objects/FightingDojo.asm`
+- **FightingDojo_Object** (1 connections) — `data/maps/objects/FightingDojo.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/DiglettsCaveRoute11.asm`
+- `data/maps/objects/FightingDojo.asm`
 
 ## Audit Trail
 

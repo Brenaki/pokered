@@ -1,57 +1,54 @@
 # Scripts 43
 
-> 31 nodes · cohesion 0.12
+> 37 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts/Route23.asm** (32 connections) — `scripts/Route23.asm`
-- **Route23CheckForBadgeScript** (15 connections) — `scripts/Route23.asm`
-- **BadgeTextPointers** (9 connections) — `scripts/Route23.asm`
-- **Route23_Script** (5 connections) — `scripts/Route23.asm`
-- **Route23CopyBadgeTextScript** (5 connections) — `scripts/Route23.asm`
-- **Route23DefaultScript** (5 connections) — `scripts/Route23.asm`
-- **Route23YouDontHaveTheBadgeYetText** (5 connections) — `scripts/Route23.asm`
-- **Route23SetVictoryRoadBoulders** (4 connections) — `scripts/Route23.asm`
-- **Route23Guard1Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard2Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard3Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard4Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard5Text** (3 connections) — `scripts/Route23.asm`
-- **Route23MovePlayerDownScript** (3 connections) — `scripts/Route23.asm`
-- **Route23OhThatIsTheBadgeText** (3 connections) — `scripts/Route23.asm`
-- **Route23PrintOhThatsTheBadgeTextScript** (3 connections) — `scripts/Route23.asm`
-- **Route23Swimmer1Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Swimmer2Text** (3 connections) — `scripts/Route23.asm`
-- **CascadeBadgeText** (2 connections) — `scripts/Route23.asm`
-- **EarthBadgeText** (2 connections) — `scripts/Route23.asm`
-- **MarshBadgeText** (2 connections) — `scripts/Route23.asm`
-- **RainbowBadgeText** (2 connections) — `scripts/Route23.asm`
-- **Route23_ScriptPointers** (2 connections) — `scripts/Route23.asm`
-- **Route23GuardsYCoords** (2 connections) — `scripts/Route23.asm`
-- **SoulBadgeText** (2 connections) — `scripts/Route23.asm`
-- *... and 6 more nodes in this community*
+- **scripts/Route24.asm** (41 connections) — `scripts/Route24.asm`
+- **21.41 Mapa `Route24`** (19 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Route24_Script** (5 connections) — `scripts/Route24.asm`
+- **Route24CooltrainerF1Text** (4 connections) — `scripts/Route24.asm`
+- **Route24CooltrainerF2Text** (4 connections) — `scripts/Route24.asm`
+- **Route24CooltrainerM2Text** (4 connections) — `scripts/Route24.asm`
+- **Route24CooltrainerM3Text** (4 connections) — `scripts/Route24.asm`
+- **Route24Youngster1Text** (4 connections) — `scripts/Route24.asm`
+- **Route24Youngster2Text** (4 connections) — `scripts/Route24.asm`
+- **Route24_ScriptPointers** (2 connections) — `scripts/Route24.asm`
+- **Route24CooltrainerF1AfterBattleText** (2 connections) — `scripts/Route24.asm`
+- **Route24CooltrainerF1BattleText** (2 connections) — `scripts/Route24.asm`
+- **Route24CooltrainerF1EndBattleText** (2 connections) — `scripts/Route24.asm`
+- **Route24CooltrainerF2AfterBattleText** (2 connections) — `scripts/Route24.asm`
+- **Route24CooltrainerF2BattleText** (2 connections) — `scripts/Route24.asm`
+- **Route24CooltrainerF2EndBattleText** (2 connections) — `scripts/Route24.asm`
+- **Route24CooltrainerM2AfterBattleText** (2 connections) — `scripts/Route24.asm`
+- **Route24CooltrainerM2BattleText** (2 connections) — `scripts/Route24.asm`
+- **Route24CooltrainerM2EndBattleText** (2 connections) — `scripts/Route24.asm`
+- **Route24CooltrainerM3AfterBattleText** (2 connections) — `scripts/Route24.asm`
+- **Route24CooltrainerM3BattleText** (2 connections) — `scripts/Route24.asm`
+- **Route24CooltrainerM3EndBattleText** (2 connections) — `scripts/Route24.asm`
+- **Route24SetDefaultScript** (2 connections) — `scripts/Route24.asm`
+- **Route24TrainerHeader0** (2 connections) — `scripts/Route24.asm`
+- **Route24TrainerHeader1** (2 connections) — `scripts/Route24.asm`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (10 shared connections)
-- [Engine Battle](Engine_Battle.md) (3 shared connections)
-- [Scripts 10](Scripts_10.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts 7](Scripts_7.md) (1 shared connections)
-- [Ram](Ram.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Scripts](Scripts.md) (6 shared connections)
+- [Scripts 9](Scripts_9.md) (6 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 28](Scripts_28.md) (1 shared connections)
+- [Scripts 13](Scripts_13.md) (1 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
-- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route23.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/Route24.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 76 (100%)
+- EXTRACTED: 79 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

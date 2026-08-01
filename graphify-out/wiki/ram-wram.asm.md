@@ -1,8 +1,8 @@
 # ram/wram.asm
 
-> God node · 922 connections · `ram/wram.asm`
+> God node · 924 connections · `ram/wram.asm`
 
-**Community:** [Bank WRAM0](Bank_WRAM0.md)
+**Community:** [Ram](Ram.md)
 
 ## Connections by Relation
 

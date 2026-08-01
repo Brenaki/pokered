@@ -1,26 +1,28 @@
 # Scripts 105
 
-> 7 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **scripts/CinnabarLabTradeRoom.asm** (8 connections) — `scripts/CinnabarLabTradeRoom.asm`
-- **CinnabarLabTradeRoomDoTrade** (4 connections) — `scripts/CinnabarLabTradeRoom.asm`
-- **CinnabarLabTradeRoom_Script** (2 connections) — `scripts/CinnabarLabTradeRoom.asm`
-- **CinnabarLabTradeRoomGrampsText** (2 connections) — `scripts/CinnabarLabTradeRoom.asm`
-- **CinnabarLabTradeRoom_TextPointers** (1 connections) — `scripts/CinnabarLabTradeRoom.asm`
-- **CinnabarLabTradeRoomBeautyText** (1 connections) — `scripts/CinnabarLabTradeRoom.asm`
-- **CinnabarLabTradeRoomSuperNerdText** (1 connections) — `scripts/CinnabarLabTradeRoom.asm`
+- **scripts/Colosseum.asm** (5 connections) — `scripts/Colosseum.asm`
+- **scripts/TradeCenter.asm** (5 connections) — `scripts/TradeCenter.asm`
+- **TradeCenter_Script** (5 connections) — `scripts/TradeCenter.asm`
+- **Colosseum_Script** (2 connections) — `scripts/Colosseum.asm`
+- **Colosseum_TextPointers** (1 connections) — `scripts/Colosseum.asm`
+- **ColosseumOpponentText** (1 connections) — `scripts/Colosseum.asm`
+- **TradeCenter_TextPointers** (1 connections) — `scripts/TradeCenter.asm`
+- **TradeCenterOpponentText** (1 connections) — `scripts/TradeCenter.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Ram](Ram.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 28](Scripts_28.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CinnabarLabTradeRoom.asm`
+- `scripts/Colosseum.asm`
+- `scripts/TradeCenter.asm`
 
 ## Audit Trail
 

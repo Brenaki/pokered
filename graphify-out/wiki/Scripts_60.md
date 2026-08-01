@@ -1,56 +1,53 @@
 # Scripts 60
 
-> 25 nodes · cohesion 0.10
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts/LoreleisRoom.asm** (20 connections) — `scripts/LoreleisRoom.asm`
-- **scripts/IndigoPlateauLobby.asm** (8 connections) — `scripts/IndigoPlateauLobby.asm`
-- **LoreleisRoom_Script** (6 connections) — `scripts/LoreleisRoom.asm`
-- **IndigoPlateauLobby_Script** (5 connections) — `scripts/IndigoPlateauLobby.asm`
-- **wElite4Flags** (4 connections) — `ram/wram.asm`
-- **LoreleiShowOrHideExitBlock** (4 connections) — `scripts/LoreleisRoom.asm`
-- **LoreleisRoomLoreleiEndBattleScript** (4 connections) — `scripts/LoreleisRoom.asm`
-- **LoreleisRoomLoreleiText** (4 connections) — `scripts/LoreleisRoom.asm`
-- **LoreleiEntranceCoords** (2 connections) — `scripts/LoreleisRoom.asm`
-- **LoreleisRoom_ScriptPointers** (2 connections) — `scripts/LoreleisRoom.asm`
-- **LoreleisRoomPlayerIsMovingScript** (2 connections) — `scripts/LoreleisRoom.asm`
-- **LoreleisRoomTrainerHeader0** (2 connections) — `scripts/LoreleisRoom.asm`
-- **LoreleisRoomTrainerHeaders** (2 connections) — `scripts/LoreleisRoom.asm`
-- **ResetLoreleiScript** (2 connections) — `scripts/LoreleisRoom.asm`
-- **IndigoPlateauLobby_TextPointers** (1 connections) — `scripts/IndigoPlateauLobby.asm`
-- **IndigoPlateauLobbyCooltrainerFText** (1 connections) — `scripts/IndigoPlateauLobby.asm`
-- **IndigoPlateauLobbyGymGuideText** (1 connections) — `scripts/IndigoPlateauLobby.asm`
-- **IndigoPlateauLobbyLinkReceptionistText** (1 connections) — `scripts/IndigoPlateauLobby.asm`
-- **IndigoPlateauLobbyNurseText** (1 connections) — `scripts/IndigoPlateauLobby.asm`
-- **LoreleisRoom_TextPointers** (1 connections) — `scripts/LoreleisRoom.asm`
-- **LoreleisRoomLoreleiAfterBattleText** (1 connections) — `scripts/LoreleisRoom.asm`
-- **LoreleisRoomLoreleiBeforeBattleText** (1 connections) — `scripts/LoreleisRoom.asm`
-- **LoreleisRoomLoreleiDontRunAwayText** (1 connections) — `scripts/LoreleisRoom.asm`
-- **LoreleisRoomLoreleiEndBattleText** (1 connections) — `scripts/LoreleisRoom.asm`
-- **LoreleisRoomNoopScript** (1 connections) — `scripts/LoreleisRoom.asm`
+- **scripts/RocketHideoutB3F.asm** (31 connections) — `scripts/RocketHideoutB3F.asm`
+- **21.27 Mapa `RocketHideoutB3F`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **RocketHideoutB3F_Script** (5 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3FRocket1Text** (4 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3FRocket2Text** (4 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowTilePlayerMovement** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3TrainerHeader0** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3TrainerHeader1** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3TrainerHeaders** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3F_ScriptPointers** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3FRocket1AfterBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3FRocket1BattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3FRocket1EndBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3FRocket2AfterBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3FRocket2BattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3FRocket2EndBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement1** (1 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement10** (1 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement11** (1 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement12** (1 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement2** (1 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement3** (1 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement4** (1 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement5** (1 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement6** (1 connections) — `scripts/RocketHideoutB3F.asm`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 5](Scripts_5.md) (2 shared connections)
-- [Scripts 11](Scripts_11.md) (2 shared connections)
-- [Home 8](Home_8.md) (2 shared connections)
-- [Scripts 6](Scripts_6.md) (1 shared connections)
-- [Scripts 8](Scripts_8.md) (1 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Engine Movie 5](Engine_Movie_5.md) (1 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Scripts 9](Scripts_9.md) (2 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Engine Overworld 3](Engine_Overworld_3.md) (1 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `ram/wram.asm`
-- `scripts/IndigoPlateauLobby.asm`
-- `scripts/LoreleisRoom.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/RocketHideoutB3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 45 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

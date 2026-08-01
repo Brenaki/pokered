@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/Museum1F.asm** (3 connections) — `data/maps/objects/Museum1F.asm`
-- **Museum1F_Object** (1 connections) — `data/maps/objects/Museum1F.asm`
+- **data/maps/objects/PalletTown.asm** (3 connections) — `data/maps/objects/PalletTown.asm`
+- **PalletTown_Object** (1 connections) — `data/maps/objects/PalletTown.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/Museum1F.asm`
+- `data/maps/objects/PalletTown.asm`
 
 ## Audit Trail
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/CeruleanCave2F.asm** (3 connections) — `data/maps/objects/CeruleanCave2F.asm`
-- **CeruleanCave2F_Object** (1 connections) — `data/maps/objects/CeruleanCave2F.asm`
+- **data/maps/objects/CeruleanTradeHouse.asm** (3 connections) — `data/maps/objects/CeruleanTradeHouse.asm`
+- **CeruleanTradeHouse_Object** (1 connections) — `data/maps/objects/CeruleanTradeHouse.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/CeruleanCave2F.asm`
+- `data/maps/objects/CeruleanTradeHouse.asm`
 
 ## Audit Trail
 

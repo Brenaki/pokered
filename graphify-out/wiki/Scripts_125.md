@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **scripts/SafariZoneEast.asm** (7 connections) — `scripts/SafariZoneEast.asm`
-- **SafariZoneEast_Script** (2 connections) — `scripts/SafariZoneEast.asm`
-- **SafariZoneEast_TextPointers** (1 connections) — `scripts/SafariZoneEast.asm`
-- **SafariZoneEastRestHouseSignText** (1 connections) — `scripts/SafariZoneEast.asm`
-- **SafariZoneEastSignText** (1 connections) — `scripts/SafariZoneEast.asm`
-- **SafariZoneEastTrainerTipsText** (1 connections) — `scripts/SafariZoneEast.asm`
+- **scripts/GameCornerPrizeRoom.asm** (7 connections) — `scripts/GameCornerPrizeRoom.asm`
+- **GameCornerPrizeRoom_Script** (2 connections) — `scripts/GameCornerPrizeRoom.asm`
+- **GameCornerPrizeRoom_TextPointers** (1 connections) — `scripts/GameCornerPrizeRoom.asm`
+- **GameCornerPrizeRoomBaldingGuyText** (1 connections) — `scripts/GameCornerPrizeRoom.asm`
+- **GameCornerPrizeRoomGamblerText** (1 connections) — `scripts/GameCornerPrizeRoom.asm`
+- **GameCornerPRizeRoomPrizeVendorText** (1 connections) — `scripts/GameCornerPrizeRoom.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SafariZoneEast.asm`
+- `scripts/GameCornerPrizeRoom.asm`
 
 ## Audit Trail
 

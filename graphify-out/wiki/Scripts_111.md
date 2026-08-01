@@ -1,27 +1,28 @@
 # Scripts 111
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **scripts/CeladonHotel.asm** (7 connections) — `scripts/CeladonHotel.asm`
-- **CeladonHotel_Script** (2 connections) — `scripts/CeladonHotel.asm`
-- **CeladonHotel_TextPointers** (1 connections) — `scripts/CeladonHotel.asm`
-- **CeladonHotelBeautyText** (1 connections) — `scripts/CeladonHotel.asm`
-- **CeladonHotelGrannyText** (1 connections) — `scripts/CeladonHotel.asm`
-- **CeladonHotelSuperNerdText** (1 connections) — `scripts/CeladonHotel.asm`
+- **scripts/SafariZoneWest.asm** (8 connections) — `scripts/SafariZoneWest.asm`
+- **SafariZoneWest_Script** (2 connections) — `scripts/SafariZoneWest.asm`
+- **SafariZoneWest_TextPointers** (1 connections) — `scripts/SafariZoneWest.asm`
+- **SafariZoneWestFindWardensTeethSignText** (1 connections) — `scripts/SafariZoneWest.asm`
+- **SafariZoneWestRestHouseSignText** (1 connections) — `scripts/SafariZoneWest.asm`
+- **SafariZoneWestSignText** (1 connections) — `scripts/SafariZoneWest.asm`
+- **SafariZoneWestTrainerTipsText** (1 connections) — `scripts/SafariZoneWest.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonHotel.asm`
+- `scripts/SafariZoneWest.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

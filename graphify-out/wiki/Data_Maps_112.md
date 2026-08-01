@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/ViridianSchoolHouse.asm** (3 connections) — `data/maps/objects/ViridianSchoolHouse.asm`
-- **ViridianSchoolHouse_Object** (1 connections) — `data/maps/objects/ViridianSchoolHouse.asm`
+- **data/maps/songs.asm** (3 connections) — `data/maps/songs.asm`
+- **MapSongBanks** (2 connections) — `data/maps/songs.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/ViridianSchoolHouse.asm`
+- `data/maps/songs.asm`
 
 ## Audit Trail
 

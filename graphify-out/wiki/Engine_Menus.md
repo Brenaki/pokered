@@ -1,77 +1,77 @@
 # Engine Menus
 
-> 136 nodes · cohesion 0.03
+> 99 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **wStatusFlags5** (58 connections) — `ram/wram.asm`
-- **HandleMenuInput** (40 connections) — `home/window.asm`
-- **ItemUseMedicine** (39 connections) — `engine/items/item_effects.asm`
-- **StartMenu_Pokemon** (36 connections) — `engine/menus/start_sub_menus.asm`
-- **DisplayTextBoxID** (32 connections) — `home/textbox.asm`
-- **PartyMenuOrRockOrRun** (31 connections) — `engine/battle/core.asm`
-- **StartMenu_Item** (30 connections) — `engine/menus/start_sub_menus.asm`
-- **RunPaletteCommand** (29 connections) — `home/palettes.asm`
-- **DrawTrainerInfo** (28 connections) — `engine/menus/start_sub_menus.asm`
-- **RedrawPartyMenu_** (27 connections) — `engine/menus/party_menu.asm`
-- **ShowPokedexDataInternal** (27 connections) — `engine/menus/pokedex.asm`
-- **DaycareGentlemanText** (27 connections) — `scripts/Daycare.asm`
-- **DisplayBattleMenu** (26 connections) — `engine/battle/core.asm`
-- **engine/menus/start_sub_menus.asm** (25 connections) — `engine/menus/start_sub_menus.asm`
-- **home/pokemon.asm** (25 connections) — `home/pokemon.asm`
-- **GBPalWhiteOutWithDelay3** (25 connections) — `home/palettes.asm`
-- **HandlePokedexListMenu** (22 connections) — `engine/menus/pokedex.asm`
-- **UsedCut** (22 connections) — `engine/overworld/cut.asm`
-- **RunDefaultPaletteCommand** (22 connections) — `home/palettes.asm`
-- **engine/menus/pokedex.asm** (21 connections) — `engine/menus/pokedex.asm`
-- **LoadScreenTilesFromBuffer2** (21 connections) — `home/tilemap.asm`
-- **GBPalNormal** (20 connections) — `home/palettes.asm`
-- **RedisplayStartMenu** (20 connections) — `home/start_menu.asm`
-- **SaveScreenTilesToBuffer2** (20 connections) — `home/tilemap.asm`
-- **LoadGBPal** (17 connections) — `home/fade.asm`
-- *... and 111 more nodes in this community*
+- **PlaceString** (80 connections) — `home/text.asm`
+- **TextBoxBorder** (50 connections) — `home/text.asm`
+- **MainMenu** (29 connections) — `engine/menus/main_menu.asm`
+- **engine/menus/main_menu.asm** (29 connections) — `engine/menus/main_menu.asm`
+- **wPlayerName** (25 connections) — `ram/wram.asm`
+- **AnimateHallOfFame** (24 connections) — `engine/movie/hall_of_fame.asm`
+- **PrintNumber** (24 connections) — `home/print_num.asm`
+- **LinkMenu** (23 connections) — `engine/menus/main_menu.asm`
+- **DebugMenu** (20 connections) — `engine/debug/debug_menu.asm`
+- **engine/movie/hall_of_fame.asm** (18 connections) — `engine/movie/hall_of_fame.asm`
+- **DisplayOptionMenu** (17 connections) — `engine/menus/main_menu.asm`
+- **HoFDisplayPlayerStats** (17 connections) — `engine/movie/hall_of_fame.asm`
+- **LeaguePCShowMon** (16 connections) — `engine/menus/league_pc.asm`
+- **DrawStartMenu** (14 connections) — `engine/menus/draw_start_menu.asm`
+- **PrintMenuItem** (13 connections) — `engine/battle/core.asm`
+- **PKMNLeaguePC** (13 connections) — `engine/menus/league_pc.asm`
+- **PrintSaveScreenText** (12 connections) — `engine/menus/main_menu.asm`
+- **PrepareOakSpeech** (12 connections) — `engine/movie/oak_speech/oak_speech.asm`
+- **engine/menus/draw_start_menu.asm** (11 connections) — `engine/menus/draw_start_menu.asm`
+- **LoadFrontSpriteByMonIndex** (11 connections) — `home/pokemon.asm`
+- **DisplayContinueGameInfo** (10 connections) — `engine/menus/main_menu.asm`
+- **HoFShowMonOrPlayer** (10 connections) — `engine/movie/hall_of_fame.asm`
+- **HoFDisplayMonInfo** (9 connections) — `engine/movie/hall_of_fame.asm`
+- **PrintSafariZoneSteps** (9 connections) — `engine/overworld/player_state.asm`
+- **CountSetBits** (9 connections) — `home/count_set_bits.asm`
+- *... and 74 more nodes in this community*
 
 ## Relationships
 
-- [Ram](Ram.md) (71 shared connections)
-- [Ram 2](Ram_2.md) (54 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (35 shared connections)
-- [Engine Battle](Engine_Battle.md) (32 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (17 shared connections)
-- [Scripts](Scripts.md) (16 shared connections)
-- [Engine Movie 5](Engine_Movie_5.md) (16 shared connections)
-- [Engine Movie](Engine_Movie.md) (11 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (9 shared connections)
-- [Scripts 2](Scripts_2.md) (8 shared connections)
-- [Engine Events](Engine_Events.md) (6 shared connections)
-- [Engine Battle 2](Engine_Battle_2.md) (5 shared connections)
+- [Home](Home.md) (38 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (24 shared connections)
+- [Home 2](Home_2.md) (13 shared connections)
+- [Engine Movie](Engine_Movie.md) (10 shared connections)
+- [Ram](Ram.md) (8 shared connections)
+- [Engine Link](Engine_Link.md) (7 shared connections)
+- [Scripts 2](Scripts_2.md) (7 shared connections)
+- [Scripts 13](Scripts_13.md) (5 shared connections)
+- [Engine Battle](Engine_Battle.md) (4 shared connections)
+- [Ram 4](Ram_4.md) (4 shared connections)
+- [Engine Menus 2](Engine_Menus_2.md) (4 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (3 shared connections)
 
 ## Source Files
 
-- `data/battle/stat_names.asm`
-- `data/items/key_items.asm`
-- `data/items/names.asm`
-- `data/items/use_overworld.asm`
-- `data/items/use_party.asm`
-- `data/pokemon/dex_order.asm`
-- `data/text_boxes.asm`
+- `data/types/names.asm`
 - `engine/battle/core.asm`
-- `engine/events/in_game_trades.asm`
-- `engine/gfx/mon_icons.asm`
-- `engine/gfx/palettes.asm`
-- `engine/items/item_effects.asm`
-- `engine/items/town_map.asm`
+- `engine/battle/link_battle_versus_text.asm`
+- `engine/battle/print_type.asm`
+- `engine/debug/debug_menu.asm`
+- `engine/menus/draw_start_menu.asm`
 - `engine/menus/league_pc.asm`
-- `engine/menus/naming_screen.asm`
-- `engine/menus/party_menu.asm`
-- `engine/menus/pokedex.asm`
+- `engine/menus/main_menu.asm`
 - `engine/menus/save.asm`
-- `engine/menus/start_sub_menus.asm`
-- `engine/menus/text_box.asm`
+- `engine/movie/hall_of_fame.asm`
+- `engine/movie/oak_speech/oak_speech.asm`
+- `engine/movie/oak_speech/oak_speech2.asm`
+- `engine/movie/title.asm`
+- `engine/overworld/player_state.asm`
+- `engine/pokemon/status_screen.asm`
+- `home/count_set_bits.asm`
+- `home/move_mon.asm`
+- `home/pokemon.asm`
+- `home/print_num.asm`
+- `home/text.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 662 (100%)
+- EXTRACTED: 363 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

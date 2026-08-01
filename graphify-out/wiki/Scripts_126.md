@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **scripts/SafariZoneEastRestHouse.asm** (7 connections) — `scripts/SafariZoneEastRestHouse.asm`
-- **SafariZoneEastRestHouse_Script** (2 connections) — `scripts/SafariZoneEastRestHouse.asm`
-- **SafariZoneEastRestHouse_TextPointers** (1 connections) — `scripts/SafariZoneEastRestHouse.asm`
-- **SafariZoneEastRestHouseRockerText** (1 connections) — `scripts/SafariZoneEastRestHouse.asm`
-- **SafariZoneEastRestHouseScientistText** (1 connections) — `scripts/SafariZoneEastRestHouse.asm`
-- **SafariZoneEastRestHouseSilphWorkerMText** (1 connections) — `scripts/SafariZoneEastRestHouse.asm`
+- **scripts/SafariZoneEast.asm** (7 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneEast_Script** (2 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneEast_TextPointers** (1 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneEastRestHouseSignText** (1 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneEastSignText** (1 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneEastTrainerTipsText** (1 connections) — `scripts/SafariZoneEast.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SafariZoneEastRestHouse.asm`
+- `scripts/SafariZoneEast.asm`
 
 ## Audit Trail
 

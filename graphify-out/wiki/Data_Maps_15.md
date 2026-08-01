@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/CeladonMartRoof.asm** (3 connections) — `data/maps/objects/CeladonMartRoof.asm`
-- **CeladonMartRoof_Object** (1 connections) — `data/maps/objects/CeladonMartRoof.asm`
+- **data/maps/objects/CeruleanBadgeHouse.asm** (3 connections) — `data/maps/objects/CeruleanBadgeHouse.asm`
+- **CeruleanBadgeHouse_Object** (1 connections) — `data/maps/objects/CeruleanBadgeHouse.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/CeladonMartRoof.asm`
+- `data/maps/objects/CeruleanBadgeHouse.asm`
 
 ## Audit Trail
 

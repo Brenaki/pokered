@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/wild/maps/SafariZoneNorth.asm** (3 connections) — `data/wild/maps/SafariZoneNorth.asm`
-- **SafariZoneNorthWildMons** (2 connections) — `data/wild/maps/SafariZoneNorth.asm`
+- **data/wild/maps/Route8.asm** (3 connections) — `data/wild/maps/Route8.asm`
+- **Route8WildMons** (2 connections) — `data/wild/maps/Route8.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/wild/maps/SafariZoneNorth.asm`
+- `data/wild/maps/Route8.asm`
 
 ## Audit Trail
 

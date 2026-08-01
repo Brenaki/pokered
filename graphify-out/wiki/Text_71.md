@@ -1,20 +1,19 @@
 # Text 71
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **text/SSAnneKitchen.asm** (12 connections) — `text/SSAnneKitchen.asm`
-- **_SSAnneKitchenCook1Text** (1 connections) — `text/SSAnneKitchen.asm`
-- **_SSAnneKitchenCook2Text** (1 connections) — `text/SSAnneKitchen.asm`
-- **_SSAnneKitchenCook3Text** (1 connections) — `text/SSAnneKitchen.asm`
-- **_SSAnneKitchenCook4Text** (1 connections) — `text/SSAnneKitchen.asm`
-- **_SSAnneKitchenCook5Text** (1 connections) — `text/SSAnneKitchen.asm`
-- **_SSAnneKitchenCook6Text** (1 connections) — `text/SSAnneKitchen.asm`
-- **SSAnneKitchenCook7EelsAuBarbecueText** (1 connections) — `text/SSAnneKitchen.asm`
-- **_SSAnneKitchenCook7MainCourseIsText** (1 connections) — `text/SSAnneKitchen.asm`
-- **SSAnneKitchenCook7PrimeBeefSteakText** (1 connections) — `text/SSAnneKitchen.asm`
-- **SSAnneKitchenCook7SalmonDuSaladText** (1 connections) — `text/SSAnneKitchen.asm`
+- **text/CeladonMansion3F.asm** (11 connections) — `text/CeladonMansion3F.asm`
+- **_CeladonMansion3FDevRoomSignText** (1 connections) — `text/CeladonMansion3F.asm`
+- **_CeladonMansion3FGameDesignerCompletedDexText** (1 connections) — `text/CeladonMansion3F.asm`
+- **_CeladonMansion3FGameDesignerText** (1 connections) — `text/CeladonMansion3F.asm`
+- **_CeladonMansion3FGameProgramPCText** (1 connections) — `text/CeladonMansion3F.asm`
+- **_CeladonMansion3FGameScriptPCText** (1 connections) — `text/CeladonMansion3F.asm`
+- **_CeladonMansion3FGraphicArtistText** (1 connections) — `text/CeladonMansion3F.asm`
+- **_CeladonMansion3FPlayingGamePCText** (1 connections) — `text/CeladonMansion3F.asm`
+- **_CeladonMansion3FProgrammerText** (1 connections) — `text/CeladonMansion3F.asm`
+- **_CeladonMansion3FWriterText** (1 connections) — `text/CeladonMansion3F.asm`
 
 ## Relationships
 
@@ -22,11 +21,11 @@
 
 ## Source Files
 
-- `text/SSAnneKitchen.asm`
+- `text/CeladonMansion3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

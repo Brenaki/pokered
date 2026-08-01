@@ -1,77 +1,62 @@
 # Ram 2
 
-> 144 nodes · cohesion 0.03
+> 178 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **DelayFrames** (143 connections) — `home/delay.asm`
-- **PlaceString** (80 connections) — `home/text.asm`
-- **TextBoxBorder** (50 connections) — `home/text.asm`
-- **LoadScreenTilesFromBuffer1** (44 connections) — `home/tilemap.asm`
-- **StatusScreen** (42 connections) — `engine/pokemon/status_screen.asm`
-- **TradeCenter_Trade** (38 connections) — `engine/link/cable_club.asm`
-- **SaveScreenTilesToBuffer1** (38 connections) — `home/tilemap.asm`
-- **CableClub_DoBattleOrTradeAgain** (28 connections) — `engine/link/cable_club.asm`
-- **StatusScreen2** (27 connections) — `engine/pokemon/status_screen.asm`
-- **GetPredefRegisters** (27 connections) — `home/predef.asm`
-- **engine/link/cable_club.asm** (25 connections) — `engine/link/cable_club.asm`
-- **wPlayerName** (25 connections) — `ram/wram.asm`
-- **PrintNumber** (24 connections) — `home/print_num.asm`
-- **TradeCenter_SelectMon** (21 connections) — `engine/link/cable_club.asm`
-- **_LeaveMapAnim** (21 connections) — `engine/overworld/player_animations.asm`
-- **engine/pokemon/status_screen.asm** (18 connections) — `engine/pokemon/status_screen.asm`
-- **wBuffer** (18 connections) — `ram/wram.asm`
-- **UpdateHPBar2** (17 connections) — `engine/gfx/hp_bar.asm`
-- **HoFDisplayPlayerStats** (17 connections) — `engine/movie/hall_of_fame.asm`
-- **DisplayTwoOptionMenu** (15 connections) — `engine/menus/text_box.asm`
-- **BillsHousePokemonList** (14 connections) — `engine/events/hidden_events/bills_house_pc.asm`
-- **DisplayMonFrontSpriteInBox** (14 connections) — `engine/events/hidden_events/museum_fossils.asm`
-- **wPartySpecies** (14 connections) — `ram/wram.asm`
-- **PrintMenuItem** (13 connections) — `engine/battle/core.asm`
-- **LinkCableHelp** (13 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- *... and 119 more nodes in this community*
+- **Main Data [WRAM0]** (241 connections) — `ram/wram.asm`
+- **LoadMapHeader** (20 connections) — `home/overworld.asm`
+- **IsSpriteOrSignInFrontOfPlayer** (7 connections) — `home/overworld.asm`
+- **wMapSpriteExtraData** (6 connections) — `ram/wram.asm`
+- **8.1 Modelo de dados** (5 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **ReadTrainerHeaderInfo** (5 connections) — `home/trainers.asm`
+- **GetTileTwoStepsInFrontOfPlayer** (4 connections) — `engine/overworld/player_state.asm`
+- **wSignCoords** (4 connections) — `ram/wram.asm`
+- **wSignTextIDs** (4 connections) — `ram/wram.asm`
+- **wTrainerHeaderPtr** (4 connections) — `ram/wram.asm`
+- **IsSpriteInFrontOfPlayer2** (3 connections) — `home/overworld.asm`
+- **wCurMapHeader** (3 connections) — `ram/wram.asm`
+- **wEastConnectionHeader** (3 connections) — `ram/wram.asm`
+- **wGrassRate** (3 connections) — `ram/wram.asm`
+- **wLetterPrintingDelayFlags** (3 connections) — `ram/wram.asm`
+- **wLoreleisRoomCurScript** (3 connections) — `ram/wram.asm`
+- **wMapBackgroundTile** (3 connections) — `ram/wram.asm`
+- **wNorthConnectionHeader** (3 connections) — `ram/wram.asm`
+- **wNumHoFTeams** (3 connections) — `ram/wram.asm`
+- **wSafariSteps** (3 connections) — `ram/wram.asm`
+- **wSerialEnemyDataBlock** (3 connections) — `ram/wram.asm`
+- **wSouthConnectionHeader** (3 connections) — `ram/wram.asm`
+- **wTilesetTalkingOverTiles** (3 connections) — `ram/wram.asm`
+- **wWalkBikeSurfState** (3 connections) — `ram/wram.asm`
+- **wWestConnectionHeader** (3 connections) — `ram/wram.asm`
+- *... and 153 more nodes in this community*
 
 ## Relationships
 
-- [Ram](Ram.md) (54 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (28 shared connections)
-- [Engine Menus](Engine_Menus.md) (25 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (23 shared connections)
-- [Engine Battle](Engine_Battle.md) (14 shared connections)
-- [Engine Movie 5](Engine_Movie_5.md) (11 shared connections)
-- [Scripts](Scripts.md) (10 shared connections)
-- [Scripts 2](Scripts_2.md) (9 shared connections)
-- [Engine Movie 2](Engine_Movie_2.md) (7 shared connections)
-- [Home 5](Home_5.md) (6 shared connections)
-- [Engine Overworld 3](Engine_Overworld_3.md) (6 shared connections)
-- [Engine Movie 3](Engine_Movie_3.md) (5 shared connections)
+- [Home 2](Home_2.md) (16 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (9 shared connections)
+- [Ram 5](Ram_5.md) (7 shared connections)
+- [Scripts 2](Scripts_2.md) (5 shared connections)
+- [Scripts 28](Scripts_28.md) (3 shared connections)
+- [Engine Link](Engine_Link.md) (3 shared connections)
+- [Ram 4](Ram_4.md) (3 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (2 shared connections)
+- [Engine Items 4](Engine_Items_4.md) (2 shared connections)
+- [Engine Menus 4](Engine_Menus_4.md) (2 shared connections)
+- [Data Wild 4](Data_Wild_4.md) (2 shared connections)
+- [Scripts 13](Scripts_13.md) (2 shared connections)
 
 ## Source Files
 
-- `data/types/names.asm`
-- `engine/battle/animations.asm`
-- `engine/battle/core.asm`
-- `engine/battle/link_battle_versus_text.asm`
-- `engine/battle/misc.asm`
-- `engine/battle/move_effects/drain_hp.asm`
-- `engine/battle/move_effects/recoil.asm`
-- `engine/battle/print_type.asm`
-- `engine/battle/scroll_draw_trainer_pic.asm`
-- `engine/events/hidden_events/bills_house_pc.asm`
-- `engine/events/hidden_events/museum_fossils.asm`
-- `engine/events/hidden_events/route_15_binoculars.asm`
-- `engine/events/hidden_events/school_blackboard.asm`
-- `engine/gfx/hp_bar.asm`
-- `engine/gfx/screen_effects.asm`
-- `engine/link/cable_club.asm`
-- `engine/link/print_waiting_text.asm`
-- `engine/menus/main_menu.asm`
-- `engine/menus/swap_items.asm`
-- `engine/menus/text_box.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `engine/overworld/player_state.asm`
+- `home/overworld.asm`
+- `home/trainers.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 520 (100%)
+- EXTRACTED: 269 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

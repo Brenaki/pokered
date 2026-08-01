@@ -1,26 +1,26 @@
 # Scripts 139
 
-> 5 nodes · cohesion 0.40
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **scripts/ViridianForestSouthGate.asm** (6 connections) — `scripts/ViridianForestSouthGate.asm`
-- **ViridianForestSouthGate_Script** (2 connections) — `scripts/ViridianForestSouthGate.asm`
-- **ViridianForestSouthGate_TextPointers** (1 connections) — `scripts/ViridianForestSouthGate.asm`
-- **ViridianForestSouthGateGirlText** (1 connections) — `scripts/ViridianForestSouthGate.asm`
-- **ViridianForestSouthGateLittleGirlText** (1 connections) — `scripts/ViridianForestSouthGate.asm`
+- **scripts/UndergroundPathRoute5.asm** (6 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathRoute5LittleGirlText** (3 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathEntranceRoute5_TextScriptEndingText** (2 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathRoute5_Script** (1 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathRoute5_TextPointers** (1 connections) — `scripts/UndergroundPathRoute5.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/ViridianForestSouthGate.asm`
+- `scripts/UndergroundPathRoute5.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

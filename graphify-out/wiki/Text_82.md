@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **text/CinnabarLabFossilRoom.asm** (10 connections) — `text/CinnabarLabFossilRoom.asm`
-- **_CinnabarLabFossilRoomScientist1ComeAgainText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
-- **_CinnabarLabFossilRoomScientist1FossilIsBackToLifeText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
-- **_CinnabarLabFossilRoomScientist1GoForAWalkText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
-- **_CinnabarLabFossilRoomScientist1GoForAWalkText2** (1 connections) — `text/CinnabarLabFossilRoom.asm`
-- **_CinnabarLabFossilRoomScientist1NoFossilsText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
-- **_CinnabarLabFossilRoomScientist1SeesFossilText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
-- **_CinnabarLabFossilRoomScientist1TakesFossilText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
-- **_CinnabarLabFossilRoomScientist1Text** (1 connections) — `text/CinnabarLabFossilRoom.asm`
+- **text/SilphCo10F.asm** (10 connections) — `text/SilphCo10F.asm`
+- **_SilphCo10FRocketAfterBattleText** (1 connections) — `text/SilphCo10F.asm`
+- **_SilphCo10FRocketBattleText** (1 connections) — `text/SilphCo10F.asm`
+- **_SilphCo10FRocketEndBattleText** (1 connections) — `text/SilphCo10F.asm`
+- **_SilphCo10FScientistAfterBattleText** (1 connections) — `text/SilphCo10F.asm`
+- **_SilphCo10FScientistBattleText** (1 connections) — `text/SilphCo10F.asm`
+- **_SilphCo10FScientistEndBattleText** (1 connections) — `text/SilphCo10F.asm`
+- **_SilphCo10FSilphWorkerFImScaredText** (1 connections) — `text/SilphCo10F.asm`
+- **_SilphCo10FSilphWorkerFQuietAboutMyCryingText** (1 connections) — `text/SilphCo10F.asm`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `text/CinnabarLabFossilRoom.asm`
+- `text/SilphCo10F.asm`
 
 ## Audit Trail
 

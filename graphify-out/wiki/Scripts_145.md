@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **scripts/Route12Gate1F.asm** (5 connections) — `scripts/Route12Gate1F.asm`
-- **Route12Gate1F_Script** (2 connections) — `scripts/Route12Gate1F.asm`
-- **Route12Gate1F_TextPointers** (1 connections) — `scripts/Route12Gate1F.asm`
-- **Route12Gate1FGuardText** (1 connections) — `scripts/Route12Gate1F.asm`
+- **scripts/CeladonMansion2F.asm** (5 connections) — `scripts/CeladonMansion2F.asm`
+- **CeladonMansion2F_Script** (2 connections) — `scripts/CeladonMansion2F.asm`
+- **CeladonMansion2F_TextPointers** (1 connections) — `scripts/CeladonMansion2F.asm`
+- **CeladonMansion2FMeetingRoomSignText** (1 connections) — `scripts/CeladonMansion2F.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route12Gate1F.asm`
+- `scripts/CeladonMansion2F.asm`
 
 ## Audit Trail
 

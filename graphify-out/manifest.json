@@ -9713,5 +9713,15 @@
     "mtime": 1785611777.7648468,
     "ast_hash": "e1600c09bffacd1af9e11deffc000bbf",
     "semantic_hash": "e1600c09bffacd1af9e11deffc000bbf"
+  },
+  "tools/generate_npc_ai_document.py": {
+    "mtime": 1785613192.931971,
+    "ast_hash": "3159ea7cbca314a3ae3fca60c30a0975",
+    "semantic_hash": "3159ea7cbca314a3ae3fca60c30a0975"
+  },
+  "docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md": {
+    "mtime": 1785613204.9302056,
+    "ast_hash": "c3c57f32ac39c77c6b7091b6b13f2926",
+    "semantic_hash": "c3c57f32ac39c77c6b7091b6b13f2926"
   }
 }

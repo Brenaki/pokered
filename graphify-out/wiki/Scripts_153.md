@@ -1,25 +1,24 @@
 # Scripts 153
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **RocketHideoutB2F_Script** (5 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2TrainerHeaders** (2 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideoutB2F_ScriptPointers** (2 connections) — `scripts/RocketHideoutB2F.asm`
+- **Route12SuperNerdText** (4 connections) — `scripts/Route12.asm`
+- **Route12TrainerHeader3** (2 connections) — `scripts/Route12.asm`
 
 ## Relationships
 
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/RocketHideoutB2F.asm`
+- `scripts/Route12.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

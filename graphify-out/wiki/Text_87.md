@@ -1,18 +1,17 @@
 # Text 87
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **text/SilphCo3F.asm** (10 connections) — `text/SilphCo3F.asm`
-- **_SilphCo3FRocketAfterBattleText** (1 connections) — `text/SilphCo3F.asm`
-- **_SilphCo3FRocketBattleText** (1 connections) — `text/SilphCo3F.asm`
-- **_SilphCo3FRocketEndBattleText** (1 connections) — `text/SilphCo3F.asm`
-- **_SilphCo3FScientistAfterBattleText** (1 connections) — `text/SilphCo3F.asm`
-- **_SilphCo3FScientistBattleText** (1 connections) — `text/SilphCo3F.asm`
-- **_SilphCo3FScientistEndBattleText** (1 connections) — `text/SilphCo3F.asm`
-- **_SilphCo3FSilphWorkerMWhatShouldIDoText** (1 connections) — `text/SilphCo3F.asm`
-- **_SilphCo3FSilphWorkerMYouSavedUsText** (1 connections) — `text/SilphCo3F.asm`
+- **text/Daycare_2.asm** (9 connections) — `text/Daycare_2.asm`
+- **_DaycareGentlemanAllRightThenText** (1 connections) — `text/Daycare_2.asm`
+- **_DaycareGentlemanCantAcceptMonWithHMText** (1 connections) — `text/Daycare_2.asm`
+- **_DaycareGentlemanComeAgainText** (1 connections) — `text/Daycare_2.asm`
+- **_DaycareGentlemanHeresYourMonText** (1 connections) — `text/Daycare_2.asm`
+- **_DaycareGentlemanNoRoomForMonText** (1 connections) — `text/Daycare_2.asm`
+- **_DaycareGentlemanNotEnoughMoneyText** (1 connections) — `text/Daycare_2.asm`
+- **_DaycareGentlemanOnlyHaveOneMonText** (1 connections) — `text/Daycare_2.asm`
 
 ## Relationships
 
@@ -20,11 +19,11 @@
 
 ## Source Files
 
-- `text/SilphCo3F.asm`
+- `text/Daycare_2.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

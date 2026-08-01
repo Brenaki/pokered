@@ -1,45 +1,46 @@
 # Scripts 78
 
-> 17 nodes · cohesion 0.15
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **scripts/LancesRoom.asm** (20 connections) — `scripts/LancesRoom.asm`
-- **LancesRoom_Script** (6 connections) — `scripts/LancesRoom.asm`
-- **LanceShowOrHideEntranceBlocks** (4 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomLanceEndBattleScript** (4 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomLanceText** (4 connections) — `scripts/LancesRoom.asm`
-- **LancesRoom_ScriptPointers** (2 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomLanceAfterBattleText** (2 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomPlayerIsMovingScript** (2 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomTrainerHeader0** (2 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomTrainerHeaders** (2 connections) — `scripts/LancesRoom.asm`
-- **LanceTriggerMovementCoords** (2 connections) — `scripts/LancesRoom.asm`
-- **ResetLanceScript** (2 connections) — `scripts/LancesRoom.asm`
-- **WalkToLance_RLEList** (2 connections) — `scripts/LancesRoom.asm`
-- **LancesRoom_TextPointers** (1 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomLanceBeforeBattleText** (1 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomLanceEndBattleText** (1 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomNoopScript** (1 connections) — `scripts/LancesRoom.asm`
+- **scripts/PokemonTower4F.asm** (21 connections) — `scripts/PokemonTower4F.asm`
+- **21.18 Mapa `PokemonTower4F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **PokemonTower4F_Script** (5 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4FChanneler1Text** (4 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4FChanneler2Text** (4 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4FChanneler3Text** (4 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4F_ScriptPointers** (2 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4FChanneler1AfterBattleText** (2 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4FChanneler1BattleText** (2 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4FChanneler1EndBattleText** (2 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4FChanneler2AfterBattleText** (2 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4FChanneler2BattleText** (2 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4FChanneler2EndBattleText** (2 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4FChanneler3AfterBattleText** (2 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4FChanneler3BattleText** (2 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4FChanneler3EndBattleText** (2 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4TrainerHeader0** (2 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4TrainerHeader1** (2 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4TrainerHeader2** (2 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4TrainerHeaders** (2 connections) — `scripts/PokemonTower4F.asm`
+- **PokemonTower4F_TextPointers** (1 connections) — `scripts/PokemonTower4F.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
-- [Home 8](Home_8.md) (2 shared connections)
-- [Scripts 6](Scripts_6.md) (1 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Engine Movie 5](Engine_Movie_5.md) (1 shared connections)
+- [Scripts](Scripts.md) (3 shared connections)
+- [Scripts 9](Scripts_9.md) (3 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/LancesRoom.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/PokemonTower4F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 41 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

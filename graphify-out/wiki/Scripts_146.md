@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **scripts/Route15Gate1F.asm** (5 connections) — `scripts/Route15Gate1F.asm`
-- **Route15Gate1F_Script** (2 connections) — `scripts/Route15Gate1F.asm`
-- **Route15Gate1F_TextPointers** (1 connections) — `scripts/Route15Gate1F.asm`
-- **Route15Gate1FGuardText** (1 connections) — `scripts/Route15Gate1F.asm`
+- **scripts/DiglettsCaveRoute11.asm** (5 connections) — `scripts/DiglettsCaveRoute11.asm`
+- **DiglettsCaveRoute11_Script** (2 connections) — `scripts/DiglettsCaveRoute11.asm`
+- **DiglettsCaveRoute11_TextPointers** (1 connections) — `scripts/DiglettsCaveRoute11.asm`
+- **DiglettsCaveRoute11GamblerText** (1 connections) — `scripts/DiglettsCaveRoute11.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route15Gate1F.asm`
+- `scripts/DiglettsCaveRoute11.asm`
 
 ## Audit Trail
 

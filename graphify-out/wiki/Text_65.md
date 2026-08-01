@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **text/CopycatsHouse2F.asm** (13 connections) — `text/CopycatsHouse2F.asm`
-- **_CopycatsHouse2FCopycatDoYouLikePokemonText** (1 connections) — `text/CopycatsHouse2F.asm`
-- **_CopycatsHouse2FCopycatReceivedTM31Text** (1 connections) — `text/CopycatsHouse2F.asm`
-- **_CopycatsHouse2FCopycatTM31Explanation1Text** (1 connections) — `text/CopycatsHouse2F.asm`
-- **_CopycatsHouse2FCopycatTM31Explanation2Text** (1 connections) — `text/CopycatsHouse2F.asm`
-- **_CopycatsHouse2FCopycatTM31NoRoomText** (1 connections) — `text/CopycatsHouse2F.asm`
-- **_CopycatsHouse2FCopycatTM31PreReceiveText** (1 connections) — `text/CopycatsHouse2F.asm`
-- **_CopycatsHouse2FDoduoText** (1 connections) — `text/CopycatsHouse2F.asm`
-- **_CopycatsHouse2FPCCantSeeText** (1 connections) — `text/CopycatsHouse2F.asm`
-- **_CopycatsHouse2FPCMySecretsText** (1 connections) — `text/CopycatsHouse2F.asm`
-- **_CopycatsHouse2FRareDollText** (1 connections) — `text/CopycatsHouse2F.asm`
-- **_CopycatsHouse2FSNESText** (1 connections) — `text/CopycatsHouse2F.asm`
+- **text/Route18.asm** (13 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM1AfterBattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM1BattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM1EndBattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM2AfterBattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM2BattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM2EndBattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM3AfterBattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM3BattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM3EndBattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CyclingRoadSignText** (1 connections) — `text/Route18.asm`
+- **_Route18SignText** (1 connections) — `text/Route18.asm`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `text/CopycatsHouse2F.asm`
+- `text/Route18.asm`
 
 ## Audit Trail
 

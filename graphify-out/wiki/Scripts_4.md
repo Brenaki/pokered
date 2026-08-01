@@ -1,75 +1,77 @@
 # Scripts 4
 
-> 88 nodes · cohesion 0.03
+> 80 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **HideObject** (51 connections) — `engine/overworld/toggleable_objects.asm`
-- **scripts/PewterCity.asm** (28 connections) — `scripts/PewterCity.asm`
-- **PlayDefaultMusic** (28 connections) — `home/audio.asm`
-- **ShowObject** (22 connections) — `engine/overworld/toggleable_objects.asm`
-- **scripts/PalletTown.asm** (19 connections) — `scripts/PalletTown.asm`
-- **PickUpItem** (10 connections) — `engine/events/pick_up_item.asm`
-- **home/overworld_text.asm** (10 connections) — `home/overworld_text.asm`
-- **engine/overworld/toggleable_objects.asm** (9 connections) — `engine/overworld/toggleable_objects.asm`
-- **home/audio.asm** (9 connections) — `home/audio.asm`
-- **InitializeToggleableObjectsFlags** (8 connections) — `engine/overworld/toggleable_objects.asm`
-- **MarkTownVisitedAndLoadToggleableObjects** (8 connections) — `engine/overworld/toggleable_objects.asm`
-- **PlayPokedexRatingSfx** (7 connections) — `audio/pokedex_rating_sfx.asm`
-- **wToggleableObjectList** (7 connections) — `ram/wram.asm`
-- **wToggleableObjectFlags** (6 connections) — `ram/wram.asm`
-- **CeruleanHideRocket** (6 connections) — `scripts/CeruleanCity_2.asm`
-- **PewterCityCheckPlayerLeavingEastScript** (6 connections) — `scripts/PewterCity.asm`
-- **IsObjectHidden** (5 connections) — `engine/overworld/toggleable_objects.asm`
-- **ToggleableObjectFlagAction** (5 connections) — `engine/overworld/toggleable_objects.asm`
-- **audio/pokedex_rating_sfx.asm** (5 connections) — `audio/pokedex_rating_sfx.asm`
-- **data/maps/toggleable_objects.asm** (5 connections) — `data/maps/toggleable_objects.asm`
-- **engine/events/pick_up_item.asm** (5 connections) — `engine/events/pick_up_item.asm`
-- **PlayDefaultMusicCommon** (5 connections) — `home/audio.asm`
-- **wMapSpriteExtraData** (5 connections) — `ram/wram.asm`
-- **ShowObject2** (4 connections) — `engine/overworld/toggleable_objects.asm`
-- **SetSpritePosition2** (4 connections) — `home/trainers.asm`
-- *... and 63 more nodes in this community*
+- **EnableAutoTextBoxDrawing** (249 connections) — `home/window.asm`
+- **PrintPredefTextID** (17 connections) — `home/predef_text.asm`
+- **data** (8 connections)
+- **engine/events/hidden_events/fighting_dojo.asm** (8 connections) — `engine/events/hidden_events/fighting_dojo.asm`
+- **engine/events/hidden_events/oaks_lab_posters.asm** (7 connections) — `engine/events/hidden_events/oaks_lab_posters.asm`
+- **scripts/CeladonMart4F.asm** (7 connections) — `scripts/CeladonMart4F.asm`
+- **scripts/Route1.asm** (7 connections) — `scripts/Route1.asm`
+- **GymTrashScript** (6 connections) — `engine/events/hidden_events/vermilion_gym_trash.asm`
+- **AbleToPlaySlotsCheck** (6 connections) — `engine/slots/game_corner_slots2.asm`
+- **engine/events/hidden_events/reds_room.asm** (6 connections) — `engine/events/hidden_events/reds_room.asm`
+- **home/predef_text.asm** (6 connections) — `home/predef_text.asm`
+- **scripts/Daycare.asm** (6 connections) — `scripts/Daycare.asm`
+- **scripts/FuchsiaMart.asm** (6 connections) — `scripts/FuchsiaMart.asm`
+- **DisplayOakLabRightPoster** (5 connections) — `engine/events/hidden_events/oaks_lab_posters.asm`
+- **StartSlotMachine** (5 connections) — `engine/slots/game_corner_slots.asm`
+- **scripts/CeladonMansionRoof.asm** (5 connections) — `scripts/CeladonMansionRoof.asm`
+- **scripts/DiglettsCaveRoute2.asm** (5 connections) — `scripts/DiglettsCaveRoute2.asm`
+- **scripts/Route11Gate1F.asm** (5 connections) — `scripts/Route11Gate1F.asm`
+- **scripts/Route12SuperRodHouse.asm** (5 connections) — `scripts/Route12SuperRodHouse.asm`
+- **scripts/Route5.asm** (5 connections) — `scripts/Route5.asm`
+- **scripts/SSAnne3F.asm** (5 connections) — `scripts/SSAnne3F.asm`
+- **scripts/CeruleanCave1F.asm** (4 connections) — `scripts/CeruleanCave1F.asm`
+- **scripts/UndergroundPathNorthSouth.asm** (4 connections) — `scripts/UndergroundPathNorthSouth.asm`
+- **PrintBlackboardLinkCableText** (3 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **PrintNotebookText** (3 connections) — `engine/events/hidden_events/school_notebooks.asm`
+- *... and 55 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (14 shared connections)
-- [Scripts](Scripts.md) (8 shared connections)
-- [Engine Battle](Engine_Battle.md) (3 shared connections)
-- [Scripts 5](Scripts_5.md) (3 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
-- [Home](Home.md) (2 shared connections)
-- [Home 5](Home_5.md) (2 shared connections)
-- [Scripts 10](Scripts_10.md) (2 shared connections)
-- [Engine Movie 2](Engine_Movie_2.md) (1 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
-- [Audio Engine 1.Asm 2](Audio_Engine_1.Asm_2.md) (1 shared connections)
-- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (3 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Engine Gfx](Engine_Gfx.md) (1 shared connections)
+- [Engine Play Time.Asm](Engine_Play_Time.Asm.md) (1 shared connections)
+- [Data Text Boxes.Asm](Data_Text_Boxes.Asm.md) (1 shared connections)
+- [Data Tilemaps.Asm](Data_Tilemaps.Asm.md) (1 shared connections)
+- [Engine Menus 3](Engine_Menus_3.md) (1 shared connections)
+- [Engine Menus](Engine_Menus.md) (1 shared connections)
+- [Engine Items 5](Engine_Items_5.md) (1 shared connections)
+- [Scripts 18](Scripts_18.md) (1 shared connections)
+- [Scripts 56](Scripts_56.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `audio/pokedex_rating_sfx.asm`
-- `data/maps/toggleable_objects.asm`
-- `engine/events/pick_up_item.asm`
-- `engine/overworld/toggleable_objects.asm`
-- `home/audio.asm`
-- `home/overworld_text.asm`
-- `home/trainers.asm`
-- `ram/wram.asm`
-- `scripts/CeruleanCity.asm`
-- `scripts/CeruleanCity_2.asm`
-- `scripts/OaksLab.asm`
-- `scripts/PalletTown.asm`
-- `scripts/PewterCity.asm`
-- `scripts/PokemonTower2F.asm`
-- `scripts/PokemonTower7F.asm`
-- `scripts/Route22.asm`
-- `scripts/SSAnne2F.asm`
-- `scripts/SilphCo7F.asm`
+- `data/text_predef_pointers.asm`
+- `engine/events/hidden_events/fighting_dojo.asm`
+- `engine/events/hidden_events/oaks_lab_posters.asm`
+- `engine/events/hidden_events/reds_room.asm`
+- `engine/events/hidden_events/school_blackboard.asm`
+- `engine/events/hidden_events/school_notebooks.asm`
+- `engine/events/hidden_events/vermilion_gym_trash.asm`
+- `engine/slots/game_corner_slots.asm`
+- `engine/slots/game_corner_slots2.asm`
+- `home/predef_text.asm`
+- `home/window.asm`
+- `scripts/CeladonMansionRoof.asm`
+- `scripts/CeladonMart4F.asm`
+- `scripts/CeruleanCave1F.asm`
+- `scripts/Daycare.asm`
+- `scripts/DiglettsCaveRoute2.asm`
+- `scripts/FuchsiaMart.asm`
+- `scripts/Route1.asm`
+- `scripts/Route11Gate1F.asm`
+- `scripts/Route12SuperRodHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 167 (100%)
+- EXTRACTED: 110 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

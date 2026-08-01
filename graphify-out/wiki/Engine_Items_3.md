@@ -1,12 +1,16 @@
 # Engine Items 3
 
-> 21 nodes · cohesion 0.17
+> 31 nodes · cohesion 0.11
 
 ## Key Concepts
 
 - **ItemUsePtrTable** (32 connections) — `engine/items/item_effects.asm`
 - **ItemUseNotTime** (24 connections) — `engine/items/item_effects.asm`
 - **PrintItemUseTextAndRemoveItem** (11 connections) — `engine/items/item_effects.asm`
+- **ItemUseBicycle** (10 connections) — `engine/items/item_effects.asm`
+- **ItemUseEscapeRope** (9 connections) — `engine/items/item_effects.asm`
+- **ItemUseItemfinder** (9 connections) — `engine/items/item_effects.asm`
+- **ItemUseReloadOverworldData** (8 connections) — `engine/items/item_effects.asm`
 - **ItemUseXStat** (8 connections) — `engine/items/item_effects.asm`
 - **ItemUseCoinCase** (5 connections) — `engine/items/item_effects.asm`
 - **ItemUseDireHit** (5 connections) — `engine/items/item_effects.asm`
@@ -21,33 +25,35 @@
 - **ItemUseVitamin** (3 connections) — `engine/items/item_effects.asm`
 - **UnusableItem** (3 connections) — `engine/items/item_effects.asm`
 - **UseItem_** (3 connections) — `engine/items/item_effects.asm`
+- **data/tilesets/escape_rope_tilesets.asm** (3 connections) — `data/tilesets/escape_rope_tilesets.asm`
+- **EscapeRopeTilesets** (2 connections) — `data/tilesets/escape_rope_tilesets.asm`
 - **CoinCaseNumCoinsText** (2 connections) — `engine/items/item_effects.asm`
-- **ItemUseNotTimeText** (2 connections) — `engine/items/item_effects.asm`
-- **ItemUsePokedex** (2 connections) — `engine/items/item_effects.asm`
-- **ItemUseRepel** (2 connections) — `engine/items/item_effects.asm`
+- **GotOffBicycleText** (2 connections) — `engine/items/item_effects.asm`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Engine Battle 2](Engine_Battle_2.md) (5 shared connections)
-- [Engine Items](Engine_Items.md) (5 shared connections)
-- [Ram](Ram.md) (4 shared connections)
-- [Engine Items 4](Engine_Items_4.md) (4 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
+- [Engine Items](Engine_Items.md) (6 shared connections)
+- [Engine Items 5](Engine_Items_5.md) (5 shared connections)
+- [Scripts](Scripts.md) (4 shared connections)
+- [Engine Battle 2](Engine_Battle_2.md) (4 shared connections)
+- [Home](Home.md) (3 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Home 2](Home_2.md) (2 shared connections)
+- [Engine Items 4](Engine_Items_4.md) (2 shared connections)
+- [Engine Battle](Engine_Battle.md) (2 shared connections)
 - [Engine Items 7](Engine_Items_7.md) (2 shared connections)
-- [Engine Items 5](Engine_Items_5.md) (2 shared connections)
-- [Data Events 3](Data_Events_3.md) (1 shared connections)
-- [Engine Menus](Engine_Menus.md) (1 shared connections)
-- [Engine Items 6](Engine_Items_6.md) (1 shared connections)
-- [Engine Movie 5](Engine_Movie_5.md) (1 shared connections)
-- [Ram 2](Ram_2.md) (1 shared connections)
+- [Scripts 13](Scripts_13.md) (2 shared connections)
+- [Engine Movie](Engine_Movie.md) (1 shared connections)
 
 ## Source Files
 
+- `data/tilesets/escape_rope_tilesets.asm`
 - `engine/items/item_effects.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (100%)
+- EXTRACTED: 91 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

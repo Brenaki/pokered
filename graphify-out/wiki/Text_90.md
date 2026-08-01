@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **text/CinnabarLabMetronomeRoom.asm** (9 connections) — `text/CinnabarLabMetronomeRoom.asm`
-- **_CinnabarLabMetronomeRoomAmberPipeText** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
-- **_CinnabarLabMetronomeRoomPCText** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
-- **_CinnabarLabMetronomeRoomScientist1ReceivedTM35Text** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
-- **_CinnabarLabMetronomeRoomScientist1Text** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
-- **_CinnabarLabMetronomeRoomScientist1TM35ExplanationText** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
-- **_CinnabarLabMetronomeRoomScientist1TM35NoRoomText** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
-- **_CinnabarLabMetronomeRoomScientist2Text** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
+- **text/PokemonMansionB1F.asm** (9 connections) — `text/PokemonMansionB1F.asm`
+- **_PokemonMansionB1FBurglarAfterBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
+- **_PokemonMansionB1FBurglarBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
+- **_PokemonMansionB1FBurglarEndBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
+- **_PokemonMansionB1FDiaryText** (1 connections) — `text/PokemonMansionB1F.asm`
+- **_PokemonMansionB1FScientistAfterBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
+- **_PokemonMansionB1FScientistBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
+- **_PokemonMansionB1FScientistEndBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `text/CinnabarLabMetronomeRoom.asm`
+- `text/PokemonMansionB1F.asm`
 
 ## Audit Trail
 

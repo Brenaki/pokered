@@ -1,47 +1,52 @@
 # Scripts 70
 
-> 20 nodes · cohesion 0.17
+> 24 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **scripts/CeladonMartRoof.asm** (22 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofScript_GiveDrinkToGirl** (21 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlText** (6 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofScript_GetDrinksInBag** (6 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoof_Script** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofDrinkList** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlGiveHerWhichDrinkText** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlImNotThirstyText** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlNoRoomText** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlReceivedTM13Text** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlReceivedTM48Text** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlReceivedTM49Text** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlYayFreshWaterText** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlYayLemonadeText** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlYaySodaPopText** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **RemoveItemByIDBank12** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoof_TextPointers** (1 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofCurrentFloorSignText** (1 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofSuperNerdText** (1 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofVendingMachineText** (1 connections) — `scripts/CeladonMartRoof.asm`
+- **scripts/PokemonTower6F.asm** (30 connections) — `scripts/PokemonTower6F.asm`
+- **21.20 Mapa `PokemonTower6F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **PokemonTower6F_Script** (5 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler1Text** (4 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler2Text** (4 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler3Text** (4 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6F_ScriptPointers** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler1AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler1BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler1EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler2AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler2BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler2EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler3AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler3BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler3EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FMarowakCoords** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FSetDefaultScript** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6TrainerHeader0** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6TrainerHeader1** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6TrainerHeader2** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6TrainerHeaders** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6F_TextPointers** (1 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FBeGoneText** (1 connections) — `scripts/PokemonTower6F.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (6 shared connections)
-- [Ram](Ram.md) (5 shared connections)
-- [Engine Menus](Engine_Menus.md) (2 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
-- [Ram 2](Ram_2.md) (1 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Scripts 15](Scripts_15.md) (3 shared connections)
+- [Scripts](Scripts.md) (3 shared connections)
+- [Scripts 9](Scripts_9.md) (3 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 13](Scripts_13.md) (1 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonMartRoof.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/PokemonTower6F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

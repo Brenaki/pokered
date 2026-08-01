@@ -4,23 +4,25 @@
 
 ## Key Concepts
 
-- **scripts/VermilionMart.asm** (6 connections) — `scripts/VermilionMart.asm`
-- **VermilionMart_Script** (2 connections) — `scripts/VermilionMart.asm`
-- **VermilionMart_TextPointers** (1 connections) — `scripts/VermilionMart.asm`
-- **VermilionMartCooltrainerFText** (1 connections) — `scripts/VermilionMart.asm`
-- **VermilionMartCooltrainerMText** (1 connections) — `scripts/VermilionMart.asm`
+- **scripts/Route2TradeHouse.asm** (6 connections) — `scripts/Route2TradeHouse.asm`
+- **Route2TradeHouseGameboyKidText** (3 connections) — `scripts/Route2TradeHouse.asm`
+- **Route2TradeHouse_Script** (2 connections) — `scripts/Route2TradeHouse.asm`
+- **Route2TradeHouse_TextPointers** (1 connections) — `scripts/Route2TradeHouse.asm`
+- **Route2TradeHouseScientistText** (1 connections) — `scripts/Route2TradeHouse.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/VermilionMart.asm`
+- `scripts/Route2TradeHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

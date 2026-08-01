@@ -4,25 +4,24 @@
 
 ## Key Concepts
 
-- **scripts/CopycatsHouse2F.asm** (9 connections) — `scripts/CopycatsHouse2F.asm`
-- **CopycatsHouse2F_Script** (2 connections) — `scripts/CopycatsHouse2F.asm`
-- **CopycatsHouse2F_TextPointers** (1 connections) — `scripts/CopycatsHouse2F.asm`
-- **CopycatsHouse2FDoduoText** (1 connections) — `scripts/CopycatsHouse2F.asm`
-- **CopycatsHouse2FRareDollText** (1 connections) — `scripts/CopycatsHouse2F.asm`
-- **CopycatsHouse2FSNESText** (1 connections) — `scripts/CopycatsHouse2F.asm`
+- **scripts/CeladonHotel.asm** (7 connections) — `scripts/CeladonHotel.asm`
+- **CeladonHotel_Script** (2 connections) — `scripts/CeladonHotel.asm`
+- **CeladonHotel_TextPointers** (1 connections) — `scripts/CeladonHotel.asm`
+- **CeladonHotelBeautyText** (1 connections) — `scripts/CeladonHotel.asm`
+- **CeladonHotelGrannyText** (1 connections) — `scripts/CeladonHotel.asm`
+- **CeladonHotelSuperNerdText** (1 connections) — `scripts/CeladonHotel.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (2 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CopycatsHouse2F.asm`
+- `scripts/CeladonHotel.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

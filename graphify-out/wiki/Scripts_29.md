@@ -1,56 +1,51 @@
 # Scripts 29
 
-> 42 nodes · cohesion 0.07
+> 46 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **scripts/MtMoonB2F.asm** (47 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2FSuperNerdText** (11 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2FMoveSuperNerdScript** (9 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2F_Script** (8 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2FDefeatedSuperNerdScript** (4 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2FRocket1Text** (4 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2FRocket2Text** (4 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2FRocket3Text** (4 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2FRocket4Text** (4 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2FCheckGotAFossil** (3 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2FDefaultScript** (3 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2FSuperNerdTakesOtherFossilScript** (3 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoon3FSuperNerdMoveRightMovementData** (2 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoon3FSuperNerdMoveUpMovementData** (2 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoon3TrainerHeader0** (2 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoon3TrainerHeader1** (2 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoon3TrainerHeader2** (2 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoon3TrainerHeader3** (2 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoon3TrainerHeaders** (2 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2F_ScriptPointers** (2 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2FFossilAreaCoords** (2 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2FPlayerNearDomeFossilCoords** (2 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2FPlayerNearHelixFossilCoords** (2 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2FResetScripts** (2 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2fSuperNerdEachTakeOneText** (2 connections) — `scripts/MtMoonB2F.asm`
-- *... and 17 more nodes in this community*
+- **scripts/RockTunnelB1F.asm** (46 connections) — `scripts/RockTunnelB1F.asm`
+- **21.24 Mapa `RockTunnelB1F`** (25 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **RockTunnelB1F_Script** (5 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FCooltrainerF1Text** (4 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FCooltrainerF2Text** (4 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FHiker1Text** (4 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FHiker2Text** (4 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FHiker3Text** (4 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FSuperNerd1Text** (4 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FSuperNerd2Text** (4 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FSuperNerd3Text** (4 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeader0** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeader1** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeader2** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeader3** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeader4** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeader5** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeader6** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeader7** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeaders** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1F_ScriptPointers** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FCooltrainerF1AfterBattleText** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FCooltrainerF1BattleText** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FCooltrainerF1EndBattleText** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FCooltrainerF2AfterBattleText** (2 connections) — `scripts/RockTunnelB1F.asm`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (10 shared connections)
-- [Scripts 2](Scripts_2.md) (8 shared connections)
-- [Home 8](Home_8.md) (4 shared connections)
-- [Scripts 7](Scripts_7.md) (4 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
-- [Engine Movie 5](Engine_Movie_5.md) (1 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Scripts](Scripts.md) (8 shared connections)
+- [Scripts 9](Scripts_9.md) (8 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/MtMoonB2F.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/RockTunnelB1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (100%)
+- EXTRACTED: 96 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

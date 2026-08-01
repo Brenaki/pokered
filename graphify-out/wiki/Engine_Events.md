@@ -1,77 +1,77 @@
 # Engine Events
 
-> 80 nodes · cohesion 0.04
+> 58 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **VendingMachineMenu** (24 connections) — `engine/events/vending_machine.asm`
-- **HandlePrizeChoice** (21 connections) — `engine/events/prize_menu.asm`
-- **engine/events/prize_menu.asm** (19 connections) — `engine/events/prize_menu.asm`
-- **wPlayerMoney** (19 connections) — `ram/wram.asm`
-- **wPlayerCoins** (17 connections) — `ram/wram.asm`
-- **CeladonPrizeMenu** (14 connections) — `engine/events/prize_menu.asm`
-- **GameCornerClerk1Text** (14 connections) — `scripts/GameCorner.asm`
-- **engine/math/bcd.asm** (13 connections) — `engine/math/bcd.asm`
-- **Museum1FScientist1Text** (13 connections) — `scripts/Museum1F.asm`
-- **engine/events/vending_machine.asm** (12 connections) — `engine/events/vending_machine.asm`
-- **HiddenCoins** (11 connections) — `engine/events/hidden_items.asm`
-- **SubBCDPredef** (11 connections) — `engine/math/bcd.asm`
-- **engine/events/hidden_items.asm** (11 connections) — `engine/events/hidden_items.asm`
-- **HasEnoughMoney** (11 connections) — `home/money.asm`
-- **engine/items** (10 connections)
-- **FoundHiddenItemText** (10 connections) — `engine/events/hidden_items.asm`
-- **MtMoonPokecenterMagikarpSalesmanText** (10 connections) — `scripts/MtMoonPokecenter.asm`
-- **SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText** (10 connections) — `scripts/SafariZoneGate.asm`
-- **hCoins** (9 connections) — `ram/hram.asm`
-- **hMoney** (9 connections) — `ram/hram.asm`
-- **PrintPrizePrice** (8 connections) — `engine/events/prize_menu.asm`
-- **StringCmp** (8 connections) — `home/compare.asm`
-- **HiddenItems** (7 connections) — `engine/events/hidden_items.asm`
-- **HiddenItemNear** (7 connections) — `engine/items/itemfinder.asm`
-- **SubtractAmountPaidFromMoney_** (6 connections) — `engine/items/subtract_paid_money.asm`
-- *... and 55 more nodes in this community*
+- **engine/events** (49 connections)
+- **engine/events/diploma.asm** (10 connections) — `engine/events/diploma.asm`
+- **engine/events/hidden_events/museum_fossils.asm** (7 connections) — `engine/events/hidden_events/museum_fossils.asm`
+- **engine/events/hidden_events/gym_statues.asm** (6 connections) — `engine/events/hidden_events/gym_statues.asm`
+- **engine/events/hidden_events/blues_room.asm** (5 connections) — `engine/events/hidden_events/blues_room.asm`
+- **GymStatues** (4 connections) — `engine/events/hidden_events/gym_statues.asm`
+- **Route15GateLeftBinoculars** (4 connections) — `engine/events/hidden_events/route_15_binoculars.asm`
+- **engine/events/hidden_events/indigo_plateau_hq.asm** (4 connections) — `engine/events/hidden_events/indigo_plateau_hq.asm`
+- **engine/events/hidden_events/magazines.asm** (4 connections) — `engine/events/hidden_events/magazines.asm`
+- **engine/events/hidden_events/new_bike.asm** (4 connections) — `engine/events/hidden_events/new_bike.asm`
+- **engine/events/hidden_events/oaks_lab_email.asm** (4 connections) — `engine/events/hidden_events/oaks_lab_email.asm`
+- **engine/events/hidden_events/pokecenter_pc.asm** (4 connections) — `engine/events/hidden_events/pokecenter_pc.asm`
+- **engine/events/hidden_events/route_15_binoculars.asm** (4 connections) — `engine/events/hidden_events/route_15_binoculars.asm`
+- **engine/events/set_blackout_map.asm** (4 connections) — `engine/events/set_blackout_map.asm`
+- **AerodactylFossil** (3 connections) — `engine/events/hidden_events/museum_fossils.asm`
+- **KabutopsFossil** (3 connections) — `engine/events/hidden_events/museum_fossils.asm`
+- **SetLastBlackoutMap** (3 connections) — `engine/events/set_blackout_map.asm`
+- **StarterDex** (3 connections) — `engine/events/starter_dex.asm`
+- **data/maps/badge_maps.asm** (3 connections) — `data/maps/badge_maps.asm`
+- **data/maps/rest_house_maps.asm** (3 connections) — `data/maps/rest_house_maps.asm`
+- **engine/events/display_pokedex.asm** (3 connections) — `engine/events/display_pokedex.asm`
+- **engine/events/evolve_trade.asm** (3 connections) — `engine/events/evolve_trade.asm`
+- **engine/events/heal_party.asm** (3 connections) — `engine/events/heal_party.asm`
+- **engine/events/hidden_events/elevator.asm** (3 connections) — `engine/events/hidden_events/elevator.asm`
+- **engine/events/hidden_events/pokemon_stuff.asm** (3 connections) — `engine/events/hidden_events/pokemon_stuff.asm`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (29 shared connections)
-- [Ram](Ram.md) (10 shared connections)
-- [Engine Menus](Engine_Menus.md) (9 shared connections)
-- [Ram 2](Ram_2.md) (8 shared connections)
-- [Engine Battle](Engine_Battle.md) (6 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (4 shared connections)
-- [Engine Battle 10](Engine_Battle_10.md) (3 shared connections)
-- [Scripts 5](Scripts_5.md) (3 shared connections)
-- [Engine Events 3](Engine_Events_3.md) (2 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
-- [Bank HRAM](Bank_HRAM.md) (2 shared connections)
+- [Scripts 4](Scripts_4.md) (14 shared connections)
+- [Home](Home.md) (7 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (5 shared connections)
+- [Engine Events 4](Engine_Events_4.md) (2 shared connections)
+- [Engine Events 2](Engine_Events_2.md) (2 shared connections)
+- [Scripts 15](Scripts_15.md) (2 shared connections)
+- [Home 2](Home_2.md) (1 shared connections)
+- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
+- [Scripts 32](Scripts_32.md) (1 shared connections)
+- [Engine Events 5](Engine_Events_5.md) (1 shared connections)
+- [Engine Events 12](Engine_Events_12.md) (1 shared connections)
 - [Engine Events 6](Engine_Events_6.md) (1 shared connections)
 
 ## Source Files
 
-- `data/events/hidden_coins.asm`
-- `data/events/hidden_item_coords.asm`
-- `data/events/prize_mon_levels.asm`
-- `data/items/vending_prices.asm`
-- `engine/events/black_out.asm`
-- `engine/events/hidden_items.asm`
-- `engine/events/prize_menu.asm`
-- `engine/events/vending_machine.asm`
-- `engine/items/get_bag_item_quantity.asm`
-- `engine/items/itemfinder.asm`
-- `engine/items/subtract_paid_money.asm`
-- `engine/items/tmhm.asm`
-- `engine/math/bcd.asm`
-- `home/array2.asm`
-- `home/compare.asm`
-- `home/map_objects.asm`
-- `home/money.asm`
-- `ram/hram.asm`
-- `ram/wram.asm`
-- `scripts/GameCorner.asm`
+- `data/maps/badge_maps.asm`
+- `data/maps/rest_house_maps.asm`
+- `engine/events/diploma.asm`
+- `engine/events/display_pokedex.asm`
+- `engine/events/evolve_trade.asm`
+- `engine/events/heal_party.asm`
+- `engine/events/hidden_events/blues_room.asm`
+- `engine/events/hidden_events/elevator.asm`
+- `engine/events/hidden_events/gym_statues.asm`
+- `engine/events/hidden_events/indigo_plateau_hq.asm`
+- `engine/events/hidden_events/magazines.asm`
+- `engine/events/hidden_events/museum_fossils.asm`
+- `engine/events/hidden_events/new_bike.asm`
+- `engine/events/hidden_events/oaks_lab_email.asm`
+- `engine/events/hidden_events/pokecenter_pc.asm`
+- `engine/events/hidden_events/pokemon_stuff.asm`
+- `engine/events/hidden_events/route_15_binoculars.asm`
+- `engine/events/hidden_events/town_map.asm`
+- `engine/events/poison.asm`
+- `engine/events/set_blackout_map.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 227 (100%)
+- EXTRACTED: 112 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,29 +1,31 @@
 # Scripts 102
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **scripts/PokemonTower1F.asm** (9 connections) — `scripts/PokemonTower1F.asm`
-- **PokemonTower1F_Script** (2 connections) — `scripts/PokemonTower1F.asm`
-- **PokemonTower1F_TextPointers** (1 connections) — `scripts/PokemonTower1F.asm`
-- **PokemonTower1FBaldingGuyText** (1 connections) — `scripts/PokemonTower1F.asm`
-- **PokemonTower1FChannelerText** (1 connections) — `scripts/PokemonTower1F.asm`
-- **PokemonTower1FGirlText** (1 connections) — `scripts/PokemonTower1F.asm`
-- **PokemonTower1FMiddleAgedWomanText** (1 connections) — `scripts/PokemonTower1F.asm`
-- **PokemonTower1FReceptionistText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **scripts/LavenderTown.asm** (11 connections) — `scripts/LavenderTown.asm`
+- **LavenderTown_Script** (2 connections) — `scripts/LavenderTown.asm`
+- **LavenderTown_TextPointers** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownCooltrainerMText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownPokemonHouseSignText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownPokemonTowerSignText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownSignText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownSilphScopeSignText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownSuperNerdText** (1 connections) — `scripts/LavenderTown.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/PokemonTower1F.asm`
+- `scripts/LavenderTown.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

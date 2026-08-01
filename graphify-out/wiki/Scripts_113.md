@@ -1,27 +1,29 @@
 # Scripts 113
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **scripts/CeladonMart2F.asm** (7 connections) — `scripts/CeladonMart2F.asm`
-- **CeladonMart2F_Script** (2 connections) — `scripts/CeladonMart2F.asm`
-- **CeladonMart2F_TextPointers** (1 connections) — `scripts/CeladonMart2F.asm`
-- **CeladonMart2FCurrentFloorSignText** (1 connections) — `scripts/CeladonMart2F.asm`
-- **CeladonMart2FGirlText** (1 connections) — `scripts/CeladonMart2F.asm`
-- **CeladonMart2FMiddleAgedManText** (1 connections) — `scripts/CeladonMart2F.asm`
+- **scripts/SaffronPokecenter.asm** (8 connections) — `scripts/SaffronPokecenter.asm`
+- **SaffronPokecenter_Script** (3 connections) — `scripts/SaffronPokecenter.asm`
+- **SaffronPokecenter_TextPointers** (1 connections) — `scripts/SaffronPokecenter.asm`
+- **SaffronPokecenterBeautyText** (1 connections) — `scripts/SaffronPokecenter.asm`
+- **SaffronPokecenterGentlemanText** (1 connections) — `scripts/SaffronPokecenter.asm`
+- **SaffronPokecenterLinkReceptionistText** (1 connections) — `scripts/SaffronPokecenter.asm`
+- **SaffronPokecenterNurseText** (1 connections) — `scripts/SaffronPokecenter.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonMart2F.asm`
+- `scripts/SaffronPokecenter.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

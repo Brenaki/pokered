@@ -1,38 +1,47 @@
 # Tools 3
 
-> 11 nodes · cohesion 0.24
+> 28 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **tools** (9 connections)
-- **common.h** (4 connections) — `tools/gfx.c`
-- **tools/gfx.c** (3 connections) — `tools/gfx.c`
-- **tools/make_patch.c** (3 connections) — `tools/make_patch.c`
-- **tools/pkmncompress.c** (3 connections) — `tools/pkmncompress.c`
-- **tools/scan_includes.c** (3 connections) — `tools/scan_includes.c`
-- **tools/common.h** (1 connections) — `tools/common.h`
-- **default** (1 connections) — `tools/gfx.c`
-- **default** (1 connections) — `tools/make_patch.c`
-- **default** (1 connections) — `tools/pkmncompress.c`
-- **default** (1 connections) — `tools/scan_includes.c`
+- **tools/graphify_rgbds.py** (29 connections) — `tools/graphify_rgbds.py`
+- **banks** (1 connections) — `tools/graphify_rgbds.py`
+- **by_type** (1 connections) — `tools/graphify_rgbds.py`
+- **confidence** (1 connections) — `tools/graphify_rgbds.py`
+- **current_section** (1 connections) — `tools/graphify_rgbds.py`
+- **dirs** (1 connections) — `tools/graphify_rgbds.py`
+- **file_type** (1 connections) — `tools/graphify_rgbds.py`
+- **files** (1 connections) — `tools/graphify_rgbds.py`
+- **label** (1 connections) — `tools/graphify_rgbds.py`
+- **line** (1 connections) — `tools/graphify_rgbds.py`
+- **node_id** (1 connections) — `tools/graphify_rgbds.py`
+- **node_type** (1 connections) — `tools/graphify_rgbds.py`
+- **out** (1 connections) — `tools/graphify_rgbds.py`
+- **parents** (1 connections) — `tools/graphify_rgbds.py`
+- **relation** (1 connections) — `tools/graphify_rgbds.py`
+- **seen** (1 connections) — `tools/graphify_rgbds.py`
+- **self.edges** (1 connections) — `tools/graphify_rgbds.py`
+- **self.file_labels** (1 connections) — `tools/graphify_rgbds.py`
+- **self.file_sections** (1 connections) — `tools/graphify_rgbds.py`
+- **self.label_defs** (1 connections) — `tools/graphify_rgbds.py`
+- **self.markdown_headings** (1 connections) — `tools/graphify_rgbds.py`
+- **self.nodes** (1 connections) — `tools/graphify_rgbds.py`
+- **source** (1 connections) — `tools/graphify_rgbds.py`
+- **source_file** (1 connections) — `tools/graphify_rgbds.py`
+- **target** (1 connections) — `tools/graphify_rgbds.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Tools](Tools.md) (1 shared connections)
-- [Tools 2](Tools_2.md) (1 shared connections)
-- [Makefile](Makefile.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `tools/common.h`
-- `tools/gfx.c`
-- `tools/make_patch.c`
-- `tools/pkmncompress.c`
-- `tools/scan_includes.c`
+- `tools/graphify_rgbds.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

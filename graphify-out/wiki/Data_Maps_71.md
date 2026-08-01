@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/Route2TradeHouse.asm** (3 connections) — `data/maps/objects/Route2TradeHouse.asm`
-- **Route2TradeHouse_Object** (1 connections) — `data/maps/objects/Route2TradeHouse.asm`
+- **data/maps/objects/Route6.asm** (3 connections) — `data/maps/objects/Route6.asm`
+- **Route6_Object** (1 connections) — `data/maps/objects/Route6.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/Route2TradeHouse.asm`
+- `data/maps/objects/Route6.asm`
 
 ## Audit Trail
 

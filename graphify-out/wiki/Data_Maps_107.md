@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/VermilionPidgeyHouse.asm** (3 connections) — `data/maps/objects/VermilionPidgeyHouse.asm`
-- **VermilionPidgeyHouse_Object** (1 connections) — `data/maps/objects/VermilionPidgeyHouse.asm`
+- **data/maps/objects/ViridianForest.asm** (3 connections) — `data/maps/objects/ViridianForest.asm`
+- **ViridianForest_Object** (1 connections) — `data/maps/objects/ViridianForest.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/VermilionPidgeyHouse.asm`
+- `data/maps/objects/ViridianForest.asm`
 
 ## Audit Trail
 

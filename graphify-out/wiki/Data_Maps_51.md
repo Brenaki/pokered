@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/PokemonMansion3F.asm** (3 connections) — `data/maps/objects/PokemonMansion3F.asm`
-- **PokemonMansion3F_Object** (1 connections) — `data/maps/objects/PokemonMansion3F.asm`
+- **data/maps/objects/PokemonTower5F.asm** (3 connections) — `data/maps/objects/PokemonTower5F.asm`
+- **PokemonTower5F_Object** (1 connections) — `data/maps/objects/PokemonTower5F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/PokemonMansion3F.asm`
+- `data/maps/objects/PokemonTower5F.asm`
 
 ## Audit Trail
 

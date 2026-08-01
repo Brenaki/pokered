@@ -1,42 +1,51 @@
 # Scripts 73
 
-> 19 nodes · cohesion 0.11
+> 23 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **scripts/CeladonCity.asm** (21 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityPoliwrathText** (3 connections) — `scripts/CeladonCity.asm`
-- **CeladonCity_Script** (2 connections) — `scripts/CeladonCity.asm`
-- **CeladonCity_TextPointers** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityDeptStoreSignText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityFisherText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityGameCornerSignText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityGirlText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityGramps1Text** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityGramps2Text** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityGymSignText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityLittleGirlText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityMansionSignText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityPrizeExchangeSignText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityRocket1Text** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityRocket2Text** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCitySignText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityTrainerTips1Text** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityTrainerTips2Text** (1 connections) — `scripts/CeladonCity.asm`
+- **scripts/RocketHideoutB4F.asm** (26 connections) — `scripts/RocketHideoutB4F.asm`
+- **21.28 Mapa `RocketHideoutB4F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **RocketHideoutB4F_Script** (6 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket3AfterBattleText** (5 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket1Text** (4 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket2Text** (4 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket3Text** (4 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideout4TrainerHeader0** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideout4TrainerHeader1** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideout4TrainerHeader2** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideout4TrainerHeaders** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4F_ScriptPointers** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FGiovanniHopeWeMeetAgainText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket1AfterBattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket1BattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket1EndBattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket2AfterBattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket2BattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket2EndBattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket3BattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket3EndBattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FSetDefaultScript** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4F_TextPointers** (1 connections) — `scripts/RocketHideoutB4F.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (2 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Scripts](Scripts.md) (5 shared connections)
+- [Scripts 9](Scripts_9.md) (3 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 18](Scripts_18.md) (2 shared connections)
+- [Scripts 28](Scripts_28.md) (1 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonCity.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/RocketHideoutB4F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

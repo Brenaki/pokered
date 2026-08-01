@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/map_header_banks.asm** (3 connections) — `data/maps/map_header_banks.asm`
-- **MapHeaderBanks** (2 connections) — `data/maps/map_header_banks.asm`
+- **data/maps/objects/CeladonCity.asm** (3 connections) — `data/maps/objects/CeladonCity.asm`
+- **CeladonCity_Object** (1 connections) — `data/maps/objects/CeladonCity.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/map_header_banks.asm`
+- `data/maps/objects/CeladonCity.asm`
 
 ## Audit Trail
 

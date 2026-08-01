@@ -1,53 +1,54 @@
 # Scripts 54
 
-> 27 nodes · cohesion 0.10
+> 31 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **scripts/SilphCo2F.asm** (30 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2F_Script** (6 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FGateCallbackScript** (6 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FRocket1Text** (4 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FRocket2Text** (4 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FScientist1Text** (4 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FScientist2Text** (4 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2F_ScriptPointers** (2 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2F_UnlockedDoorEventScript** (2 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2TrainerHeader0** (2 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2TrainerHeader1** (2 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2TrainerHeader2** (2 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2TrainerHeader3** (2 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2TrainerHeaders** (2 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2F_TextPointers** (1 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FRocket1AfterBattleText** (1 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FRocket1BattleText** (1 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FRocket1EndBattleText** (1 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FRocket2AfterBattleText** (1 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FRocket2BattleText** (1 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FRocket2EndBattleText** (1 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FScientist1AfterBattleText** (1 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FScientist1BattleText** (1 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FScientist1EndBattleText** (1 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FScientist2AfterBattleText** (1 connections) — `scripts/SilphCo2F.asm`
-- *... and 2 more nodes in this community*
+- **scripts/SilphCo5F.asm** (32 connections) — `scripts/SilphCo5F.asm`
+- **21.59 Mapa `SilphCo5F`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **SilphCo5F_Script** (6 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FGateCallbackScript** (6 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRockerText** (4 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRocket1Text** (4 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRocket2Text** (4 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FScientistText** (4 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5F_ScriptPointers** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5F_SetUnlockedSilphCoDoorsScript** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRockerAfterBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRockerBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRockerEndBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRocket1AfterBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRocket1BattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRocket1EndBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRocket2AfterBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRocket2BattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRocket2EndBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FScientistAfterBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FScientistBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FScientistEndBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5TrainerHeader0** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5TrainerHeader1** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5TrainerHeader2** (2 connections) — `scripts/SilphCo5F.asm`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (5 shared connections)
-- [Home 8](Home_8.md) (4 shared connections)
-- [Scripts 66](Scripts_66.md) (2 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Engine Overworld 6](Engine_Overworld_6.md) (1 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
+- [Scripts](Scripts.md) (4 shared connections)
+- [Scripts 9](Scripts_9.md) (4 shared connections)
+- [Scripts 51](Scripts_51.md) (2 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
+- [Scripts 18](Scripts_18.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SilphCo2F.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/SilphCo5F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
+- EXTRACTED: 63 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

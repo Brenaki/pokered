@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/DiglettsCaveRoute2.asm** (3 connections) — `data/maps/objects/DiglettsCaveRoute2.asm`
-- **DiglettsCaveRoute2_Object** (1 connections) — `data/maps/objects/DiglettsCaveRoute2.asm`
+- **data/maps/objects/FuchsiaBillsGrandpasHouse.asm** (3 connections) — `data/maps/objects/FuchsiaBillsGrandpasHouse.asm`
+- **FuchsiaBillsGrandpasHouse_Object** (1 connections) — `data/maps/objects/FuchsiaBillsGrandpasHouse.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/DiglettsCaveRoute2.asm`
+- `data/maps/objects/FuchsiaBillsGrandpasHouse.asm`
 
 ## Audit Trail
 

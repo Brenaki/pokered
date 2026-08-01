@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/Route18Gate2F.asm** (3 connections) — `data/maps/objects/Route18Gate2F.asm`
-- **Route18Gate2F_Object** (1 connections) — `data/maps/objects/Route18Gate2F.asm`
+- **data/maps/objects/Route2.asm** (3 connections) — `data/maps/objects/Route2.asm`
+- **Route2_Object** (1 connections) — `data/maps/objects/Route2.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/Route18Gate2F.asm`
+- `data/maps/objects/Route2.asm`
 
 ## Audit Trail
 

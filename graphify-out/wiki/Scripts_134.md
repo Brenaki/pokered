@@ -4,25 +4,24 @@
 
 ## Key Concepts
 
-- **scripts/Route2TradeHouse.asm** (6 connections) — `scripts/Route2TradeHouse.asm`
-- **Route2TradeHouseGameboyKidText** (3 connections) — `scripts/Route2TradeHouse.asm`
-- **Route2TradeHouse_Script** (2 connections) — `scripts/Route2TradeHouse.asm`
-- **Route2TradeHouse_TextPointers** (1 connections) — `scripts/Route2TradeHouse.asm`
-- **Route2TradeHouseScientistText** (1 connections) — `scripts/Route2TradeHouse.asm`
+- **scripts/PewterNidoranHouse.asm** (7 connections) — `scripts/PewterNidoranHouse.asm`
+- **PewterNidoranHouse_Script** (2 connections) — `scripts/PewterNidoranHouse.asm`
+- **PewterNidoranHouse_TextPointers** (1 connections) — `scripts/PewterNidoranHouse.asm`
+- **PewterNidoranHouseLittleBoyText** (1 connections) — `scripts/PewterNidoranHouse.asm`
+- **PewterNidoranHouseMiddleAgedManText** (1 connections) — `scripts/PewterNidoranHouse.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Ram](Ram.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 15](Scripts_15.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route2TradeHouse.asm`
+- `scripts/PewterNidoranHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

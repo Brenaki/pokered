@@ -4,27 +4,25 @@
 
 ## Key Concepts
 
-- **scripts/PewterNidoranHouse.asm** (7 connections) — `scripts/PewterNidoranHouse.asm`
-- **PewterNidoranHouseNidoranText** (4 connections) — `scripts/PewterNidoranHouse.asm`
-- **PewterNidoranHouse_Script** (2 connections) — `scripts/PewterNidoranHouse.asm`
-- **PewterNidoranHouse_TextPointers** (1 connections) — `scripts/PewterNidoranHouse.asm`
-- **PewterNidoranHouseLittleBoyText** (1 connections) — `scripts/PewterNidoranHouse.asm`
-- **PewterNidoranHouseMiddleAgedManText** (1 connections) — `scripts/PewterNidoranHouse.asm`
+- **scripts/CinnabarLabMetronomeRoom.asm** (8 connections) — `scripts/CinnabarLabMetronomeRoom.asm`
+- **CinnabarLabMetronomeRoom_Script** (2 connections) — `scripts/CinnabarLabMetronomeRoom.asm`
+- **CinnabarLabMetronomeRoom_TextPointers** (1 connections) — `scripts/CinnabarLabMetronomeRoom.asm`
+- **CinnabarLabMetronomeRoomAmberPipeText** (1 connections) — `scripts/CinnabarLabMetronomeRoom.asm`
+- **CinnabarLabMetronomeRoomPCText** (1 connections) — `scripts/CinnabarLabMetronomeRoom.asm`
+- **CinnabarLabMetronomeRoomScientist2Text** (1 connections) — `scripts/CinnabarLabMetronomeRoom.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/PewterNidoranHouse.asm`
+- `scripts/CinnabarLabMetronomeRoom.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

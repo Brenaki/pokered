@@ -2,7 +2,7 @@
 
 > God node · 249 connections · `home/window.asm`
 
-**Community:** [Scripts 5](Scripts_5.md)
+**Community:** [Scripts 4](Scripts_4.md)
 
 ## Connections by Relation
 

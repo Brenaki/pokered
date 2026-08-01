@@ -1,25 +1,27 @@
 # Scripts 141
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **scripts/DiglettsCaveRoute11.asm** (5 connections) — `scripts/DiglettsCaveRoute11.asm`
-- **DiglettsCaveRoute11_Script** (2 connections) — `scripts/DiglettsCaveRoute11.asm`
-- **DiglettsCaveRoute11_TextPointers** (1 connections) — `scripts/DiglettsCaveRoute11.asm`
-- **DiglettsCaveRoute11GamblerText** (1 connections) — `scripts/DiglettsCaveRoute11.asm`
+- **scripts/VermilionPidgeyHouse.asm** (7 connections) — `scripts/VermilionPidgeyHouse.asm`
+- **VermilionPidgeyHouse_Script** (2 connections) — `scripts/VermilionPidgeyHouse.asm`
+- **VermilionPidgeyHouse_TextPointers** (1 connections) — `scripts/VermilionPidgeyHouse.asm`
+- **VermilionPidgeyHouseLetterText** (1 connections) — `scripts/VermilionPidgeyHouse.asm`
+- **VermilionPidgeyHouseYoungsterText** (1 connections) — `scripts/VermilionPidgeyHouse.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 15](Scripts_15.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/DiglettsCaveRoute11.asm`
+- `scripts/VermilionPidgeyHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

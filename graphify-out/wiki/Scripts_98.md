@@ -1,31 +1,37 @@
 # Scripts 98
 
-> 9 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **scripts/LavenderTown.asm** (11 connections) — `scripts/LavenderTown.asm`
-- **LavenderTown_Script** (2 connections) — `scripts/LavenderTown.asm`
-- **LavenderTown_TextPointers** (1 connections) — `scripts/LavenderTown.asm`
-- **LavenderTownCooltrainerMText** (1 connections) — `scripts/LavenderTown.asm`
-- **LavenderTownPokemonHouseSignText** (1 connections) — `scripts/LavenderTown.asm`
-- **LavenderTownPokemonTowerSignText** (1 connections) — `scripts/LavenderTown.asm`
-- **LavenderTownSignText** (1 connections) — `scripts/LavenderTown.asm`
-- **LavenderTownSilphScopeSignText** (1 connections) — `scripts/LavenderTown.asm`
-- **LavenderTownSuperNerdText** (1 connections) — `scripts/LavenderTown.asm`
+- **scripts/SafariZoneGate.asm** (20 connections) — `scripts/SafariZoneGate.asm`
+- **SafariZoneGateReturnSimulatedJoypadStateScript** (5 connections) — `scripts/SafariZoneGate.asm`
+- **SafariZoneGate_Script** (4 connections) — `scripts/SafariZoneGate.asm`
+- **SafariZoneGateSetScriptAfterMoveScript** (4 connections) — `scripts/SafariZoneGate.asm`
+- **SafariZoneGatePlayerMovingDownScript** (3 connections) — `scripts/SafariZoneGate.asm`
+- **SafariZoneGatePlayerMovingRightScript** (3 connections) — `scripts/SafariZoneGate.asm`
+- **SafariZoneGatePlayerMovingUpScript** (3 connections) — `scripts/SafariZoneGate.asm`
+- **SafariZoneGate_ScriptPointers** (2 connections) — `scripts/SafariZoneGate.asm`
+- **SafariZoneGate_TextPointers** (1 connections) — `scripts/SafariZoneGate.asm`
+- **SafariZoneGateSafariZoneWorker1GoodHaulComeAgainText** (1 connections) — `scripts/SafariZoneGate.asm`
+- **SafariZoneGateSafariZoneWorker1Text** (1 connections) — `scripts/SafariZoneGate.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (4 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
 - [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 12](Scripts_12.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 13](Scripts_13.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/LavenderTown.asm`
+- `scripts/SafariZoneGate.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

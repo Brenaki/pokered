@@ -1,74 +1,72 @@
 # Scripts 5
 
-> 86 nodes · cohesion 0.03
+> 76 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **EnableAutoTextBoxDrawing** (249 connections) — `home/window.asm`
-- **PrintPredefTextID** (17 connections) — `home/predef_text.asm`
-- **engine/events/hidden_events/fighting_dojo.asm** (8 connections) — `engine/events/hidden_events/fighting_dojo.asm`
-- **engine/events/hidden_events/museum_fossils.asm** (7 connections) — `engine/events/hidden_events/museum_fossils.asm`
-- **engine/events/hidden_events/oaks_lab_posters.asm** (7 connections) — `engine/events/hidden_events/oaks_lab_posters.asm`
-- **scripts/CeruleanTrashedHouse.asm** (7 connections) — `scripts/CeruleanTrashedHouse.asm`
-- **AbleToPlaySlotsCheck** (6 connections) — `engine/slots/game_corner_slots2.asm`
-- **engine/events/hidden_events/reds_room.asm** (6 connections) — `engine/events/hidden_events/reds_room.asm`
-- **scripts/CinnabarMart.asm** (6 connections) — `scripts/CinnabarMart.asm`
-- **scripts/PewterSpeechHouse.asm** (6 connections) — `scripts/PewterSpeechHouse.asm`
-- **scripts/Route2.asm** (6 connections) — `scripts/Route2.asm`
-- **scripts/SafariZoneCenter.asm** (6 connections) — `scripts/SafariZoneCenter.asm`
-- **PrintBookshelfText** (5 connections) — `engine/events/hidden_events/bookshelves.asm`
-- **DisplayOakLabRightPoster** (5 connections) — `engine/events/hidden_events/oaks_lab_posters.asm`
-- **StartSlotMachine** (5 connections) — `engine/slots/game_corner_slots.asm`
-- **scripts/FuchsiaGoodRodHouse.asm** (5 connections) — `scripts/FuchsiaGoodRodHouse.asm`
-- **scripts/MrPsychicsHouse.asm** (5 connections) — `scripts/MrPsychicsHouse.asm`
-- **scripts/Route5.asm** (5 connections) — `scripts/Route5.asm`
-- **scripts/SafariZoneSecretHouse.asm** (5 connections) — `scripts/SafariZoneSecretHouse.asm`
-- **scripts/UndergroundPathRoute7.asm** (5 connections) — `scripts/UndergroundPathRoute7.asm`
-- **scripts/VermilionOldRodHouse.asm** (5 connections) — `scripts/VermilionOldRodHouse.asm`
-- **engine/events/hidden_events/bookshelves.asm** (4 connections) — `engine/events/hidden_events/bookshelves.asm`
-- **scripts/CeruleanCave1F.asm** (4 connections) — `scripts/CeruleanCave1F.asm`
-- **scripts/SSAnneB1F.asm** (4 connections) — `scripts/SSAnneB1F.asm`
-- **AerodactylFossil** (3 connections) — `engine/events/hidden_events/museum_fossils.asm`
-- *... and 61 more nodes in this community*
+- **scripts/GameCorner.asm** (35 connections) — `scripts/GameCorner.asm`
+- **HandlePrizeChoice** (21 connections) — `engine/events/prize_menu.asm`
+- **engine/events/prize_menu.asm** (20 connections) — `engine/events/prize_menu.asm`
+- **IsItemInBag** (20 connections) — `home/map_objects.asm`
+- **wPlayerMoney** (19 connections) — `ram/wram.asm`
+- **wPlayerCoins** (17 connections) — `ram/wram.asm`
+- **CeladonPrizeMenu** (14 connections) — `engine/events/prize_menu.asm`
+- **AddBCDPredef** (14 connections) — `engine/math/bcd.asm`
+- **GameCornerClerk1Text** (14 connections) — `scripts/GameCorner.asm`
+- **GameCornerDrawCoinBox** (14 connections) — `scripts/GameCorner.asm`
+- **Museum1FScientist1Text** (14 connections) — `scripts/Museum1F.asm`
+- **engine/math/bcd.asm** (13 connections) — `engine/math/bcd.asm`
+- **SubBCDPredef** (11 connections) — `engine/math/bcd.asm`
+- **HasEnoughMoney** (11 connections) — `home/money.asm`
+- **MtMoonPokecenterMagikarpSalesmanText** (10 connections) — `scripts/MtMoonPokecenter.asm`
+- **SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText** (10 connections) — `scripts/SafariZoneGate.asm`
+- **hCoins** (9 connections) — `ram/hram.asm`
+- **hMoney** (9 connections) — `ram/hram.asm`
+- **GameCornerClerk2Text** (9 connections) — `scripts/GameCorner.asm`
+- **GameCornerFishingGuruText** (9 connections) — `scripts/GameCorner.asm`
+- **GameCornerGentlemanText** (9 connections) — `scripts/GameCorner.asm`
+- **PrintPrizePrice** (8 connections) — `engine/events/prize_menu.asm`
+- **StringCmp** (8 connections) — `home/compare.asm`
+- **AddAmountSoldToMoney** (8 connections) — `home/inventory.asm`
+- **PayDayEffect_** (7 connections) — `engine/battle/move_effects/pay_day.asm`
+- *... and 51 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (6 shared connections)
-- [Ram 2](Ram_2.md) (4 shared connections)
-- [Ram](Ram.md) (1 shared connections)
-- [Engine Events](Engine_Events.md) (1 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
-- [Data Predef Pointers.Asm](Data_Predef_Pointers.Asm.md) (1 shared connections)
-- [Home 3](Home_3.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Scripts](Scripts.md) (28 shared connections)
+- [Scripts 2](Scripts_2.md) (8 shared connections)
+- [Home](Home.md) (8 shared connections)
+- [Engine Menus](Engine_Menus.md) (5 shared connections)
+- [Engine Battle](Engine_Battle.md) (4 shared connections)
+- [Ram 8](Ram_8.md) (4 shared connections)
+- [Engine Gfx 2](Engine_Gfx_2.md) (3 shared connections)
+- [Ram](Ram.md) (2 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
+- [Home 3](Home_3.md) (2 shared connections)
+- [Scripts 15](Scripts_15.md) (2 shared connections)
+- [Scripts 18](Scripts_18.md) (2 shared connections)
 
 ## Source Files
 
-- `data/tilesets/bookshelf_tile_ids.asm`
-- `engine/events/hidden_events/bookshelves.asm`
-- `engine/events/hidden_events/fighting_dojo.asm`
-- `engine/events/hidden_events/museum_fossils.asm`
-- `engine/events/hidden_events/oaks_lab_posters.asm`
-- `engine/events/hidden_events/reds_room.asm`
-- `engine/events/hidden_events/school_blackboard.asm`
-- `engine/events/hidden_events/school_notebooks.asm`
-- `engine/slots/game_corner_slots.asm`
-- `engine/slots/game_corner_slots2.asm`
-- `home/predef_text.asm`
-- `home/window.asm`
-- `scripts/CeruleanCave1F.asm`
-- `scripts/CeruleanTrashedHouse.asm`
-- `scripts/CinnabarMart.asm`
-- `scripts/FuchsiaGoodRodHouse.asm`
-- `scripts/MrPsychicsHouse.asm`
-- `scripts/PewterSpeechHouse.asm`
-- `scripts/PokemonFanClub.asm`
-- `scripts/Route2.asm`
+- `data/events/prize_mon_levels.asm`
+- `engine/battle/move_effects/pay_day.asm`
+- `engine/events/prize_menu.asm`
+- `engine/items/subtract_paid_money.asm`
+- `engine/math/bcd.asm`
+- `home/compare.asm`
+- `home/inventory.asm`
+- `home/map_objects.asm`
+- `home/money.asm`
+- `ram/hram.asm`
+- `ram/wram.asm`
+- `scripts/GameCorner.asm`
+- `scripts/MtMoonPokecenter.asm`
+- `scripts/Museum1F.asm`
+- `scripts/SafariZoneGate.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 114 (100%)
+- EXTRACTED: 228 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

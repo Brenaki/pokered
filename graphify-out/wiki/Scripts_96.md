@@ -1,31 +1,39 @@
 # Scripts 96
 
-> 10 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **scripts/Museum2F.asm** (11 connections) — `scripts/Museum2F.asm`
-- **Museum2F_Script** (2 connections) — `scripts/Museum2F.asm`
-- **Museum2F_TextPointers** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FBrunetteGirlText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FGrampsText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FHikerText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FMoonStoneSignText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FScientistText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FSpaceShuttleSignText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FYoungsterText** (1 connections) — `scripts/Museum2F.asm`
+- **scripts/Route22Gate.asm** (14 connections) — `scripts/Route22Gate.asm`
+- **Route22GateGuardText** (6 connections) — `scripts/Route22Gate.asm`
+- **Route22GateDefaultScript** (5 connections) — `scripts/Route22Gate.asm`
+- **Route22GateGuardNoBoulderbadgeText** (5 connections) — `scripts/Route22Gate.asm`
+- **Route22Gate_Script** (4 connections) — `scripts/Route22Gate.asm`
+- **Route22GatePlayerMovingScript** (3 connections) — `scripts/Route22Gate.asm`
+- **Route22Gate_ScriptPointers** (2 connections) — `scripts/Route22Gate.asm`
+- **Route22GateGuardGoRightAheadText** (2 connections) — `scripts/Route22Gate.asm`
+- **Route22GateGuardICantLetYouPassText** (2 connections) — `scripts/Route22Gate.asm`
+- **Route22GateNoopScript** (2 connections) — `scripts/Route22Gate.asm`
+- **Route22GateScriptCoords** (2 connections) — `scripts/Route22Gate.asm`
+- **Route22Gate_TextPointers** (1 connections) — `scripts/Route22Gate.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (4 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Scripts 12](Scripts_12.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Scripts 15](Scripts_15.md) (1 shared connections)
+- [Scripts 13](Scripts_13.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Museum2F.asm`
+- `scripts/Route22Gate.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

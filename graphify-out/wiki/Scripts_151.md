@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **scripts/SSAnne3F.asm** (5 connections) — `scripts/SSAnne3F.asm`
-- **SSAnne3F_Script** (2 connections) — `scripts/SSAnne3F.asm`
-- **SSAnne3F_TextPointers** (1 connections) — `scripts/SSAnne3F.asm`
-- **SSAnne3FSailorText** (1 connections) — `scripts/SSAnne3F.asm`
+- **scripts/UndergroundPathRoute6.asm** (5 connections) — `scripts/UndergroundPathRoute6.asm`
+- **UndergroundPathRoute6_Script** (2 connections) — `scripts/UndergroundPathRoute6.asm`
+- **UndergroundPathRoute6_TextPointers** (1 connections) — `scripts/UndergroundPathRoute6.asm`
+- **UndergroundPathRoute6GirlText** (1 connections) — `scripts/UndergroundPathRoute6.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SSAnne3F.asm`
+- `scripts/UndergroundPathRoute6.asm`
 
 ## Audit Trail
 

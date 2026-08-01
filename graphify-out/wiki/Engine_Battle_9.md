@@ -1,39 +1,58 @@
 # Engine Battle 9
 
-> 15 nodes · cohesion 0.25
+> 21 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **engine/battle/used_move_text.asm** (15 connections) — `engine/battle/used_move_text.asm`
-- **MoveNameText** (7 connections) — `engine/battle/used_move_text.asm`
-- **UsedMoveText** (7 connections) — `engine/battle/used_move_text.asm`
-- **DisplayUsedMoveText** (5 connections) — `engine/battle/used_move_text.asm`
-- **GetMoveGrammar** (3 connections) — `engine/battle/used_move_text.asm`
-- **UsedMove1Text** (3 connections) — `engine/battle/used_move_text.asm`
-- **UsedMoveText_CheckObedience** (3 connections) — `engine/battle/used_move_text.asm`
-- **data/moves/grammar.asm** (3 connections) — `data/moves/grammar.asm`
-- **MoveGrammar** (2 connections) — `data/moves/grammar.asm`
-- **EndUsedMove1Text** (2 connections) — `engine/battle/used_move_text.asm`
-- **EndUsedMove2Text** (2 connections) — `engine/battle/used_move_text.asm`
-- **EndUsedMove3Text** (2 connections) — `engine/battle/used_move_text.asm`
-- **EndUsedMove4Text** (2 connections) — `engine/battle/used_move_text.asm`
-- **EndUsedMove5Text** (2 connections) — `engine/battle/used_move_text.asm`
-- **UsedMove2Text** (2 connections) — `engine/battle/used_move_text.asm`
+- **LoadPlayerBackPic** (12 connections) — `engine/battle/core.asm`
+- **HoFLoadPlayerPics** (12 connections) — `engine/movie/hall_of_fame.asm`
+- **sSpriteBuffer1** (12 connections) — `ram/sram.asm`
+- **IntroDisplayPicCenteredOrUpperRight** (10 connections) — `engine/movie/oak_speech/oak_speech.asm`
+- **InterlaceMergeSpriteBuffers** (10 connections) — `home/pics.asm`
+- **ScaleSpriteByTwo** (9 connections) — `engine/battle/scale_sprites.asm`
+- **home/pics.asm** (8 connections) — `home/pics.asm`
+- **LoadUncompressedSpriteData** (8 connections) — `home/pics.asm`
+- **sSpriteBuffer2** (8 connections) — `ram/sram.asm`
+- **engine/battle/scale_sprites.asm** (7 connections) — `engine/battle/scale_sprites.asm`
+- **UncompressSpriteFromDE** (7 connections) — `home/tilemap.asm`
+- **sSpriteBuffer0** (7 connections) — `ram/sram.asm`
+- **Sprite Buffers [SRAM]** (6 connections) — `ram/sram.asm`
+- **RedPicBack** (5 connections) — `gfx/pics.asm`
+- **ScalePixelsByTwo** (4 connections) — `engine/battle/scale_sprites.asm`
+- **ScaleFirstThreeSpriteColumnsByTwo** (3 connections) — `engine/battle/scale_sprites.asm`
+- **ScaleLastSpriteColumnByTwo** (3 connections) — `engine/battle/scale_sprites.asm`
+- **DuplicateBitsTable** (2 connections) — `engine/battle/scale_sprites.asm`
+- **gfx/player/redb.pic** (2 connections) — `gfx/pics.asm`
+- **AlignSpriteDataCentered** (2 connections) — `home/pics.asm`
+- **ZeroSpriteBuffer** (2 connections) — `home/pics.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (1 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (6 shared connections)
+- [Home](Home.md) (3 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
+- [Gfx Pics.Asm 4](Gfx_Pics.Asm_4.md) (1 shared connections)
+- [Engine Battle 7](Engine_Battle_7.md) (1 shared connections)
+- [Engine Movie 3](Engine_Movie_3.md) (1 shared connections)
+- [Home 6](Home_6.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
+- [Bank SRAM](Bank_SRAM.md) (1 shared connections)
+- [Engine Menus](Engine_Menus.md) (1 shared connections)
 
 ## Source Files
 
-- `data/moves/grammar.asm`
-- `engine/battle/used_move_text.asm`
+- `engine/battle/core.asm`
+- `engine/battle/scale_sprites.asm`
+- `engine/movie/hall_of_fame.asm`
+- `engine/movie/oak_speech/oak_speech.asm`
+- `gfx/pics.asm`
+- `home/pics.asm`
+- `home/tilemap.asm`
+- `ram/sram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
+- EXTRACTED: 63 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

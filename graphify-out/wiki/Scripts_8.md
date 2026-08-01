@@ -1,59 +1,51 @@
 # Scripts 8
 
-> 71 nodes · cohesion 0.03
+> 62 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Serial_TryEstablishingExternallyClockedConnection** (13 connections) — `home/serial.asm`
-- **scripts/MtMoonPokecenter.asm** (11 connections) — `scripts/MtMoonPokecenter.asm`
-- **scripts/CeladonPokecenter.asm** (8 connections) — `scripts/CeladonPokecenter.asm`
-- **scripts/CeruleanPokecenter.asm** (8 connections) — `scripts/CeruleanPokecenter.asm`
-- **scripts/CinnabarPokecenter.asm** (8 connections) — `scripts/CinnabarPokecenter.asm`
-- **scripts/FuchsiaPokecenter.asm** (8 connections) — `scripts/FuchsiaPokecenter.asm`
-- **scripts/LavenderPokecenter.asm** (8 connections) — `scripts/LavenderPokecenter.asm`
-- **scripts/PewterPokecenter.asm** (8 connections) — `scripts/PewterPokecenter.asm`
-- **scripts/RockTunnelPokecenter.asm** (8 connections) — `scripts/RockTunnelPokecenter.asm`
-- **scripts/SaffronPokecenter.asm** (8 connections) — `scripts/SaffronPokecenter.asm`
-- **scripts/ViridianPokecenter.asm** (8 connections) — `scripts/ViridianPokecenter.asm`
-- **CeladonPokecenter_Script** (3 connections) — `scripts/CeladonPokecenter.asm`
-- **CeruleanPokecenter_Script** (3 connections) — `scripts/CeruleanPokecenter.asm`
-- **CinnabarPokecenter_Script** (3 connections) — `scripts/CinnabarPokecenter.asm`
-- **FuchsiaPokecenter_Script** (3 connections) — `scripts/FuchsiaPokecenter.asm`
-- **LavenderPokecenter_Script** (3 connections) — `scripts/LavenderPokecenter.asm`
-- **MtMoonPokecenter_Script** (3 connections) — `scripts/MtMoonPokecenter.asm`
-- **PewterPokecenter_Script** (3 connections) — `scripts/PewterPokecenter.asm`
-- **RockTunnelPokecenter_Script** (3 connections) — `scripts/RockTunnelPokecenter.asm`
-- **SaffronPokecenter_Script** (3 connections) — `scripts/SaffronPokecenter.asm`
-- **ViridianPokecenter_Script** (3 connections) — `scripts/ViridianPokecenter.asm`
-- **CeladonPokecenter_TextPointers** (1 connections) — `scripts/CeladonPokecenter.asm`
-- **CeladonPokecenterBeautyText** (1 connections) — `scripts/CeladonPokecenter.asm`
-- **CeladonPokecenterGentlemanText** (1 connections) — `scripts/CeladonPokecenter.asm`
-- **CeladonPokecenterLinkReceptionistText** (1 connections) — `scripts/CeladonPokecenter.asm`
-- *... and 46 more nodes in this community*
+- **scripts/Route17.asm** (62 connections) — `scripts/Route17.asm`
+- **21.36 Mapa `Route17`** (31 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Route17_Script** (5 connections) — `scripts/Route17.asm`
+- **Route17Biker10Text** (4 connections) — `scripts/Route17.asm`
+- **Route17Biker1Text** (4 connections) — `scripts/Route17.asm`
+- **Route17Biker2Text** (4 connections) — `scripts/Route17.asm`
+- **Route17Biker3Text** (4 connections) — `scripts/Route17.asm`
+- **Route17Biker4Text** (4 connections) — `scripts/Route17.asm`
+- **Route17Biker5Text** (4 connections) — `scripts/Route17.asm`
+- **Route17Biker6Text** (4 connections) — `scripts/Route17.asm`
+- **Route17Biker7Text** (4 connections) — `scripts/Route17.asm`
+- **Route17Biker8Text** (4 connections) — `scripts/Route17.asm`
+- **Route17Biker9Text** (4 connections) — `scripts/Route17.asm`
+- **Route17_ScriptPointers** (2 connections) — `scripts/Route17.asm`
+- **Route17Biker10AfterBattleText** (2 connections) — `scripts/Route17.asm`
+- **Route17Biker10BattleText** (2 connections) — `scripts/Route17.asm`
+- **Route17Biker10EndBattleText** (2 connections) — `scripts/Route17.asm`
+- **Route17Biker1AfterBattleText** (2 connections) — `scripts/Route17.asm`
+- **Route17Biker1BattleText** (2 connections) — `scripts/Route17.asm`
+- **Route17Biker1EndBattleText** (2 connections) — `scripts/Route17.asm`
+- **Route17Biker2AfterBattleText** (2 connections) — `scripts/Route17.asm`
+- **Route17Biker2BattleText** (2 connections) — `scripts/Route17.asm`
+- **Route17Biker2EndBattleText** (2 connections) — `scripts/Route17.asm`
+- **Route17Biker3AfterBattleText** (2 connections) — `scripts/Route17.asm`
+- **Route17Biker3BattleText** (2 connections) — `scripts/Route17.asm`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (10 shared connections)
-- [Engine Events](Engine_Events.md) (1 shared connections)
-- [Ram 2](Ram_2.md) (1 shared connections)
+- [Scripts](Scripts.md) (10 shared connections)
+- [Scripts 9](Scripts_9.md) (10 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `home/serial.asm`
-- `scripts/CeladonPokecenter.asm`
-- `scripts/CeruleanPokecenter.asm`
-- `scripts/CinnabarPokecenter.asm`
-- `scripts/FuchsiaPokecenter.asm`
-- `scripts/LavenderPokecenter.asm`
-- `scripts/MtMoonPokecenter.asm`
-- `scripts/PewterPokecenter.asm`
-- `scripts/RockTunnelPokecenter.asm`
-- `scripts/SaffronPokecenter.asm`
-- `scripts/ViridianPokecenter.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/Route17.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 82 (100%)
+- EXTRACTED: 124 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

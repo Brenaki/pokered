@@ -1,27 +1,30 @@
 # Scripts 112
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **scripts/CeladonMart1F.asm** (7 connections) — `scripts/CeladonMart1F.asm`
-- **CeladonMart1F_Script** (2 connections) — `scripts/CeladonMart1F.asm`
-- **CeladonMart1F_TextPointers** (1 connections) — `scripts/CeladonMart1F.asm`
-- **CeladonMart1FCurrentFloorSignText** (1 connections) — `scripts/CeladonMart1F.asm`
-- **CeladonMart1FDirectorySignText** (1 connections) — `scripts/CeladonMart1F.asm`
-- **CeladonMart1FReceptionistText** (1 connections) — `scripts/CeladonMart1F.asm`
+- **scripts/SaffronPidgeyHouse.asm** (8 connections) — `scripts/SaffronPidgeyHouse.asm`
+- **SaffronPidgeyHousePidgeyText** (3 connections) — `scripts/SaffronPidgeyHouse.asm`
+- **SaffronPidgeyHouse_Script** (2 connections) — `scripts/SaffronPidgeyHouse.asm`
+- **SaffronPidgeyHouse_TextPointers** (1 connections) — `scripts/SaffronPidgeyHouse.asm`
+- **SaffronPidgeyHouseBrunetteGirlText** (1 connections) — `scripts/SaffronPidgeyHouse.asm`
+- **SaffronPidgeyHousePaperText** (1 connections) — `scripts/SaffronPidgeyHouse.asm`
+- **SaffronPidgeyHouseYoungsterText** (1 connections) — `scripts/SaffronPidgeyHouse.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 15](Scripts_15.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonMart1F.asm`
+- `scripts/SaffronPidgeyHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

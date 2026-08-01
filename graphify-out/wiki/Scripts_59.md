@@ -1,52 +1,52 @@
 # Scripts 59
 
-> 26 nodes · cohesion 0.10
+> 29 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **scripts/VictoryRoad3F.asm** (28 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3F_Script** (6 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF1Text** (4 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF2Text** (4 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM1Text** (4 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM2Text** (4 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCheckBoulderEventScript** (3 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3F_ScriptPointers** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3TrainerHeader0** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3TrainerHeader1** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3TrainerHeader2** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3TrainerHeader3** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3TrainerHeaders** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3F_TextPointers** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF1AfterBattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF1BattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF1EndBattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF2AfterBattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF2BattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF2EndBattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM1AfterBattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM1BattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM1EndBattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM2AfterBattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM2BattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- *... and 1 more nodes in this community*
+- **scripts/PokemonTower5F.asm** (30 connections) — `scripts/PokemonTower5F.asm`
+- **21.19 Mapa `PokemonTower5F`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **PokemonTower5F_Script** (5 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler2Text** (4 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler3Text** (4 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler4Text** (4 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler5Text** (4 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5F_ScriptPointers** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler2AfterBattleText** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler2BattleText** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler2EndBattleText** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler3AfterBattleText** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler3BattleText** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler3EndBattleText** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler4AfterBattleText** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler4BattleText** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler4EndBattleText** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler5AfterBattleText** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler5BattleText** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler5EndBattleText** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FPurifiedZoneCoords** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5TrainerHeader0** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5TrainerHeader1** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5TrainerHeader2** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5TrainerHeader3** (2 connections) — `scripts/PokemonTower5F.asm`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
 - [Scripts](Scripts.md) (4 shared connections)
-- [Home 8](Home_8.md) (4 shared connections)
+- [Scripts 9](Scripts_9.md) (4 shared connections)
 - [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/VictoryRoad3F.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/PokemonTower5F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
+- EXTRACTED: 56 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

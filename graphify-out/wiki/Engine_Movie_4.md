@@ -1,57 +1,50 @@
 # Engine Movie 4
 
-> 42 nodes · cohesion 0.08
+> 22 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **engine/movie/intro.asm** (35 connections) — `engine/movie/intro.asm`
-- **PlayIntroScene** (16 connections) — `engine/movie/intro.asm`
-- **PlayShootingStar** (15 connections) — `engine/movie/intro.asm`
-- **LoadIntroGraphics** (12 connections) — `engine/movie/intro.asm`
-- **PlayIntro** (7 connections) — `engine/movie/intro.asm`
-- **IntroDrawBlackBars** (5 connections) — `engine/movie/intro.asm`
-- **AnimateIntroNidorino** (4 connections) — `engine/movie/intro.asm`
-- **FightIntroFrontMon** (4 connections) — `engine/movie/intro.asm`
-- **GameFreakIntro** (4 connections) — `engine/movie/intro.asm`
-- **IntroClearScreen** (4 connections) — `engine/movie/intro.asm`
-- **IntroMoveMon** (4 connections) — `engine/movie/intro.asm`
-- **UpdateIntroNidorinoOAM** (4 connections) — `engine/movie/intro.asm`
-- **LoadCopyrightAndTextBoxTiles** (4 connections) — `engine/movie/title.asm`
-- **FightIntroBackMon** (3 connections) — `engine/movie/intro.asm`
-- **FightIntroFrontMon2** (3 connections) — `engine/movie/intro.asm`
-- **FightIntroFrontMon3** (3 connections) — `engine/movie/intro.asm`
-- **InitIntroNidorinoOAM** (3 connections) — `engine/movie/intro.asm`
-- **FightIntroBackMonEnd** (2 connections) — `engine/movie/intro.asm`
-- **FightIntroFrontMonEnd** (2 connections) — `engine/movie/intro.asm`
-- **GameFreakIntroEnd** (2 connections) — `engine/movie/intro.asm`
-- **IntroClearCommon** (2 connections) — `engine/movie/intro.asm`
-- **IntroClearMiddleOfScreen** (2 connections) — `engine/movie/intro.asm`
-- **IntroCopyTiles** (2 connections) — `engine/movie/intro.asm`
-- **IntroNidorinoAnimation1** (2 connections) — `engine/movie/intro.asm`
-- **IntroNidorinoAnimation2** (2 connections) — `engine/movie/intro.asm`
-- *... and 17 more nodes in this community*
+- **engine/movie/splash.asm** (19 connections) — `engine/movie/splash.asm`
+- **LoadShootingStarGraphics** (12 connections) — `engine/movie/splash.asm`
+- **AnimateShootingStar** (11 connections) — `engine/movie/splash.asm`
+- **CheckForUserInterruption** (8 connections) — `home/overworld.asm`
+- **SmallStarsWaveCoordsPointerTable** (7 connections) — `engine/movie/splash.asm`
+- **MoveAnimationTiles1** (4 connections) — `engine/battle/animations.asm`
+- **FallingStar** (3 connections) — `engine/movie/splash.asm`
+- **MoveDownSmallStars** (3 connections) — `engine/movie/splash.asm`
+- **GameFreakLogoOAMData** (2 connections) — `engine/movie/splash.asm`
+- **GameFreakLogoOAMDataEnd** (2 connections) — `engine/movie/splash.asm`
+- **GameFreakShootingStarOAMData** (2 connections) — `engine/movie/splash.asm`
+- **GameFreakShootingStarOAMDataEnd** (2 connections) — `engine/movie/splash.asm`
+- **SmallStarsEmptyWave** (2 connections) — `engine/movie/splash.asm`
+- **SmallStarsOAM** (2 connections) — `engine/movie/splash.asm`
+- **SmallStarsOAMEnd** (2 connections) — `engine/movie/splash.asm`
+- **SmallStarsWave1Coords** (2 connections) — `engine/movie/splash.asm`
+- **SmallStarsWave2Coords** (2 connections) — `engine/movie/splash.asm`
+- **SmallStarsWave3Coords** (2 connections) — `engine/movie/splash.asm`
+- **SmallStarsWave4Coords** (2 connections) — `engine/movie/splash.asm`
+- **FallingStarEnd** (1 connections) — `engine/movie/splash.asm`
+- **gfx/battle/move_anim_1.2bpp** (1 connections) — `engine/battle/animations.asm`
+- **gfx/splash/falling_star.2bpp** (1 connections) — `engine/movie/splash.asm`
 
 ## Relationships
 
-- [Bank VRAM](Bank_VRAM.md) (7 shared connections)
-- [Engine Movie 3](Engine_Movie_3.md) (4 shared connections)
-- [Engine Battle 3](Engine_Battle_3.md) (3 shared connections)
-- [Engine Movie 6](Engine_Movie_6.md) (3 shared connections)
-- [Engine Movie 5](Engine_Movie_5.md) (3 shared connections)
-- [Ram 2](Ram_2.md) (2 shared connections)
-- [Engine Movie](Engine_Movie.md) (2 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Engine Menus](Engine_Menus.md) (2 shared connections)
-- [Home 5](Home_5.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
+- [Engine Battle 7](Engine_Battle_7.md) (2 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
+- [Scripts 13](Scripts_13.md) (1 shared connections)
+- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
+- [Engine Movie](Engine_Movie.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/movie/intro.asm`
-- `engine/movie/title.asm`
+- `engine/battle/animations.asm`
+- `engine/movie/splash.asm`
+- `home/overworld.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 97 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **text/BluesHouse.asm** (9 connections) — `text/BluesHouse.asm`
-- **_BluesHouseDaisyBagFullText** (1 connections) — `text/BluesHouse.asm`
-- **_BluesHouseDaisyOfferMapText** (1 connections) — `text/BluesHouse.asm`
-- **_BluesHouseDaisyRivalAtLabText** (1 connections) — `text/BluesHouse.asm`
-- **_BluesHouseDaisyUseMapText** (1 connections) — `text/BluesHouse.asm`
-- **_BluesHouseDaisyWalkingText** (1 connections) — `text/BluesHouse.asm`
-- **_BluesHouseTownMapText** (1 connections) — `text/BluesHouse.asm`
-- **_GotMapText** (1 connections) — `text/BluesHouse.asm`
+- **text/NameRatersHouse.asm** (9 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterATrulyImpeccableNameText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterComeAnyTimeYouLikeText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterGiveItANiceNameText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterPokemonHasBeenRenamedText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterWantMeToRateText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterWhatShouldWeNameItText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterWhichPokemonText** (1 connections) — `text/NameRatersHouse.asm`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `text/BluesHouse.asm`
+- `text/NameRatersHouse.asm`
 
 ## Audit Trail
 

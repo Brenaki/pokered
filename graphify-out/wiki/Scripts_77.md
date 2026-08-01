@@ -1,45 +1,46 @@
 # Scripts 77
 
-> 17 nodes · cohesion 0.15
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **scripts/BrunosRoom.asm** (20 connections) — `scripts/BrunosRoom.asm`
-- **BrunosRoom_Script** (6 connections) — `scripts/BrunosRoom.asm`
-- **BrunosRoomBrunoEndBattleScript** (4 connections) — `scripts/BrunosRoom.asm`
-- **BrunosRoomBrunoText** (4 connections) — `scripts/BrunosRoom.asm`
-- **BrunoShowOrHideExitBlock** (3 connections) — `scripts/BrunosRoom.asm`
-- **BrunoEntranceCoords** (2 connections) — `scripts/BrunosRoom.asm`
-- **BrunosRoom_ScriptPointers** (2 connections) — `scripts/BrunosRoom.asm`
-- **BrunosRoomPlayerIsMovingScript** (2 connections) — `scripts/BrunosRoom.asm`
-- **BrunosRoomTrainerHeader0** (2 connections) — `scripts/BrunosRoom.asm`
-- **BrunosRoomTrainerHeaders** (2 connections) — `scripts/BrunosRoom.asm`
-- **ResetBrunoScript** (2 connections) — `scripts/BrunosRoom.asm`
-- **BrunoAfterBattleText** (1 connections) — `scripts/BrunosRoom.asm`
-- **BrunoBeforeBattleText** (1 connections) — `scripts/BrunosRoom.asm`
-- **BrunoEndBattleText** (1 connections) — `scripts/BrunosRoom.asm`
-- **BrunosRoom_TextPointers** (1 connections) — `scripts/BrunosRoom.asm`
-- **BrunosRoomBrunoDontRunAwayText** (1 connections) — `scripts/BrunosRoom.asm`
-- **BrunosRoomNoopScript** (1 connections) — `scripts/BrunosRoom.asm`
+- **scripts/PokemonTower3F.asm** (21 connections) — `scripts/PokemonTower3F.asm`
+- **21.17 Mapa `PokemonTower3F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **PokemonTower3F_Script** (5 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler1Text** (4 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler2Text** (4 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler3Text** (4 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3F_ScriptPointers** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler1AfterBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler1BattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler1EndBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler2AfterBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler2BattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler2EndBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler3AfterBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler3BattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler3EndBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3TrainerHeader0** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3TrainerHeader1** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3TrainerHeader2** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3TrainerHeaders** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3F_TextPointers** (1 connections) — `scripts/PokemonTower3F.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Home 8](Home_8.md) (2 shared connections)
-- [Scripts 6](Scripts_6.md) (1 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Engine Movie 5](Engine_Movie_5.md) (1 shared connections)
+- [Scripts](Scripts.md) (3 shared connections)
+- [Scripts 9](Scripts_9.md) (3 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/BrunosRoom.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/PokemonTower3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
+- EXTRACTED: 41 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

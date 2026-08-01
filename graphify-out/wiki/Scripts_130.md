@@ -1,28 +1,26 @@
 # Scripts 130
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **scripts/ViridianNicknameHouse.asm** (8 connections) — `scripts/ViridianNicknameHouse.asm`
-- **ViridianNicknameHouse_Script** (2 connections) — `scripts/ViridianNicknameHouse.asm`
-- **ViridianNicknameHouse_TextPointers** (1 connections) — `scripts/ViridianNicknameHouse.asm`
-- **ViridianNicknameHouseBaldingGuyText** (1 connections) — `scripts/ViridianNicknameHouse.asm`
-- **ViridianNicknameHouseLittleGirlText** (1 connections) — `scripts/ViridianNicknameHouse.asm`
-- **ViridianNicknameHouseSpearySignText** (1 connections) — `scripts/ViridianNicknameHouse.asm`
+- **scripts/CeruleanMart.asm** (6 connections) — `scripts/CeruleanMart.asm`
+- **CeruleanMart_Script** (2 connections) — `scripts/CeruleanMart.asm`
+- **CeruleanMart_TextPointers** (1 connections) — `scripts/CeruleanMart.asm`
+- **CeruleanMartCooltrainerFText** (1 connections) — `scripts/CeruleanMart.asm`
+- **CeruleanMartCooltrainerMText** (1 connections) — `scripts/CeruleanMart.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/ViridianNicknameHouse.asm`
+- `scripts/CeruleanMart.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

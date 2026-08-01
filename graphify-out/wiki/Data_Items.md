@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **data/items/marts.asm** (18 connections) — `data/items/marts.asm`
+- **data/items/marts.asm** (19 connections) — `data/items/marts.asm`
 - **CeladonMart2FClerk1Text** (1 connections) — `data/items/marts.asm`
 - **CeladonMart2FClerk2Text** (1 connections) — `data/items/marts.asm`
 - **CeladonMart4FClerkText** (1 connections) — `data/items/marts.asm`

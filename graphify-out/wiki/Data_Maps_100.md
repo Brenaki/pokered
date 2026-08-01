@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/SSAnneCaptainsRoom.asm** (3 connections) — `data/maps/objects/SSAnneCaptainsRoom.asm`
-- **SSAnneCaptainsRoom_Object** (1 connections) — `data/maps/objects/SSAnneCaptainsRoom.asm`
+- **data/maps/objects/TradeCenter.asm** (3 connections) — `data/maps/objects/TradeCenter.asm`
+- **TradeCenter_Object** (1 connections) — `data/maps/objects/TradeCenter.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/SSAnneCaptainsRoom.asm`
+- `data/maps/objects/TradeCenter.asm`
 
 ## Audit Trail
 

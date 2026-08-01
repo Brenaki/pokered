@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/SSAnneKitchen.asm** (3 connections) — `data/maps/objects/SSAnneKitchen.asm`
-- **SSAnneKitchen_Object** (1 connections) — `data/maps/objects/SSAnneKitchen.asm`
+- **data/maps/objects/UndergroundPathRoute5.asm** (3 connections) — `data/maps/objects/UndergroundPathRoute5.asm`
+- **UndergroundPathRoute5_Object** (1 connections) — `data/maps/objects/UndergroundPathRoute5.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/SSAnneKitchen.asm`
+- `data/maps/objects/UndergroundPathRoute5.asm`
 
 ## Audit Trail
 

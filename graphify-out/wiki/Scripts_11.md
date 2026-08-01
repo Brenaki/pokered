@@ -1,62 +1,51 @@
 # Scripts 11
 
-> 61 nodes · cohesion 0.05
+> 59 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **wCurrentMapScriptFlags** (59 connections) — `ram/wram.asm`
-- **scripts/GameCorner.asm** (35 connections) — `scripts/GameCorner.asm`
-- **scripts/PokemonMansion3F.asm** (20 connections) — `scripts/PokemonMansion3F.asm`
-- **scripts/PokemonMansion2F.asm** (17 connections) — `scripts/PokemonMansion2F.asm`
-- **GameCornerDrawCoinBox** (14 connections) — `scripts/GameCorner.asm`
-- **GameCornerRocketBattleScript** (7 connections) — `scripts/GameCorner.asm`
-- **GameCorner_Script** (6 connections) — `scripts/GameCorner.asm`
-- **PokemonMansion2F_Script** (6 connections) — `scripts/PokemonMansion2F.asm`
-- **PokemonMansion3F_Script** (6 connections) — `scripts/PokemonMansion3F.asm`
-- **GameCornerGymGuideText** (5 connections) — `scripts/GameCorner.asm`
-- **GameCornerSelectLuckySlotMachine** (4 connections) — `scripts/GameCorner.asm`
-- **Mansion2CheckReplaceSwitchDoorBlocks** (4 connections) — `scripts/PokemonMansion2F.asm`
-- **Mansion2ReplaceBlock** (4 connections) — `scripts/PokemonMansion2F.asm`
-- **PokemonMansion2FSuperNerdText** (4 connections) — `scripts/PokemonMansion2F.asm`
-- **Mansion3CheckReplaceSwitchDoorBlocks** (4 connections) — `scripts/PokemonMansion3F.asm`
-- **PokemonMansion3FScientistText** (4 connections) — `scripts/PokemonMansion3F.asm`
-- **PokemonMansion3FSuperNerdText** (4 connections) — `scripts/PokemonMansion3F.asm`
-- **MansionB1FCheckReplaceSwitchDoorBlocks** (4 connections) — `scripts/PokemonMansionB1F.asm`
-- **GameCornerRocketExitScript** (3 connections) — `scripts/GameCorner.asm`
-- **GameCornerSetRocketHideoutDoorTile** (3 connections) — `scripts/GameCorner.asm`
-- **GameCorner_ScriptPointers** (2 connections) — `scripts/GameCorner.asm`
-- **GameCornerBlankText1** (2 connections) — `scripts/GameCorner.asm`
-- **GameCornerBlankText2** (2 connections) — `scripts/GameCorner.asm`
-- **GameCornerCoinText** (2 connections) — `scripts/GameCorner.asm`
-- **GameCornerGymGuideChampInMakingText** (2 connections) — `scripts/GameCorner.asm`
-- *... and 36 more nodes in this community*
+- **scripts/Route13.asm** (59 connections) — `scripts/Route13.asm`
+- **21.32 Mapa `Route13`** (31 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Route13_Script** (5 connections) — `scripts/Route13.asm`
+- **Route13Beauty1Text** (4 connections) — `scripts/Route13.asm`
+- **Route13Beauty2Text** (4 connections) — `scripts/Route13.asm`
+- **Route13BikerText** (4 connections) — `scripts/Route13.asm`
+- **Route13CooltrainerF1Text** (4 connections) — `scripts/Route13.asm`
+- **Route13CooltrainerF2Text** (4 connections) — `scripts/Route13.asm`
+- **Route13CooltrainerF3Text** (4 connections) — `scripts/Route13.asm`
+- **Route13CooltrainerF4Text** (4 connections) — `scripts/Route13.asm`
+- **Route13CooltrainerM1Text** (4 connections) — `scripts/Route13.asm`
+- **Route13CooltrainerM2Text** (4 connections) — `scripts/Route13.asm`
+- **Route13CooltrainerM3Text** (4 connections) — `scripts/Route13.asm`
+- **Route13_ScriptPointers** (2 connections) — `scripts/Route13.asm`
+- **Route13Beauty1AfterBattleText** (2 connections) — `scripts/Route13.asm`
+- **Route13Beauty1BattleText** (2 connections) — `scripts/Route13.asm`
+- **Route13Beauty1EndBattleText** (2 connections) — `scripts/Route13.asm`
+- **Route13Beauty2AfterBattleText** (2 connections) — `scripts/Route13.asm`
+- **Route13Beauty2BattleText** (2 connections) — `scripts/Route13.asm`
+- **Route13Beauty2EndBattleText** (2 connections) — `scripts/Route13.asm`
+- **Route13BikerAfterBattleText** (2 connections) — `scripts/Route13.asm`
+- **Route13BikerBattleText** (2 connections) — `scripts/Route13.asm`
+- **Route13BikerEndBattleText** (2 connections) — `scripts/Route13.asm`
+- **Route13CooltrainerF1AfterBattleText** (2 connections) — `scripts/Route13.asm`
+- **Route13CooltrainerF1BattleText** (2 connections) — `scripts/Route13.asm`
+- *... and 34 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (12 shared connections)
-- [Scripts 2](Scripts_2.md) (6 shared connections)
-- [Engine Events](Engine_Events.md) (3 shared connections)
-- [Scripts 5](Scripts_5.md) (3 shared connections)
-- [Home 8](Home_8.md) (3 shared connections)
-- [Ram 2](Ram_2.md) (2 shared connections)
-- [Scripts 47](Scripts_47.md) (2 shared connections)
-- [Scripts 7](Scripts_7.md) (1 shared connections)
-- [Scripts 10](Scripts_10.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
-- [Ram](Ram.md) (1 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Scripts](Scripts.md) (10 shared connections)
+- [Scripts 9](Scripts_9.md) (10 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `ram/wram.asm`
-- `scripts/GameCorner.asm`
-- `scripts/PokemonMansion2F.asm`
-- `scripts/PokemonMansion3F.asm`
-- `scripts/PokemonMansionB1F.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/Route13.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 125 (100%)
+- EXTRACTED: 121 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

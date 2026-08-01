@@ -1,21 +1,20 @@
 # Text 69
 
-> 12 nodes · cohesion 0.17
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **text/WardensHouse.asm** (13 connections) — `text/WardensHouse.asm`
-- **_WardensHouseDisplayMerchandiseText** (1 connections) — `text/WardensHouse.asm`
-- **_WardensHouseDisplayPhotosAndFossilsText** (1 connections) — `text/WardensHouse.asm`
-- **_WardensHouseWardenGaveTheGoldTeethText** (1 connections) — `text/WardensHouse.asm`
-- **_WardensHouseWardenGibberish1Text** (1 connections) — `text/WardensHouse.asm`
-- **_WardensHouseWardenGibberish2Text** (1 connections) — `text/WardensHouse.asm`
-- **_WardensHouseWardenGibberish3Text** (1 connections) — `text/WardensHouse.asm`
-- **_WardensHouseWardenHM04ExplanationText** (1 connections) — `text/WardensHouse.asm`
-- **_WardensHouseWardenHM04NoRoomText** (1 connections) — `text/WardensHouse.asm`
-- **_WardensHouseWardenReceivedHM04Text** (1 connections) — `text/WardensHouse.asm`
-- **_WardensHouseWardenTeethPoppedInHisTeethText** (1 connections) — `text/WardensHouse.asm`
-- **_WardensHouseWardenThanksText** (1 connections) — `text/WardensHouse.asm`
+- **text/PokemonTower7F.asm** (12 connections) — `text/PokemonTower7F.asm`
+- **_PokemonTower7FMrFujiRescueText** (1 connections) — `text/PokemonTower7F.asm`
+- **_PokemonTower7FRocket1AfterBattleText** (1 connections) — `text/PokemonTower7F.asm`
+- **_PokemonTower7FRocket1BattleText** (1 connections) — `text/PokemonTower7F.asm`
+- **_PokemonTower7FRocket1EndBattleText** (1 connections) — `text/PokemonTower7F.asm`
+- **_PokemonTower7FRocket2AfterBattleText** (1 connections) — `text/PokemonTower7F.asm`
+- **_PokemonTower7FRocket2BattleText** (1 connections) — `text/PokemonTower7F.asm`
+- **_PokemonTower7FRocket2EndBattleText** (1 connections) — `text/PokemonTower7F.asm`
+- **_PokemonTower7FRocket3AfterBattleText** (1 connections) — `text/PokemonTower7F.asm`
+- **_PokemonTower7FRocket3BattleText** (1 connections) — `text/PokemonTower7F.asm`
+- **_PokemonTower7FRocket3EndBattleText** (1 connections) — `text/PokemonTower7F.asm`
 
 ## Relationships
 
@@ -23,11 +22,11 @@
 
 ## Source Files
 
-- `text/WardensHouse.asm`
+- `text/PokemonTower7F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

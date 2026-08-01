@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **scripts/FuchsiaBillsGrandpasHouse.asm** (7 connections) — `scripts/FuchsiaBillsGrandpasHouse.asm`
-- **FuchsiaBillsGrandpasHouse_Script** (2 connections) — `scripts/FuchsiaBillsGrandpasHouse.asm`
-- **FuchsiaBillsGrandpasHouse_TextPointers** (1 connections) — `scripts/FuchsiaBillsGrandpasHouse.asm`
-- **FuchsiaBillsGrandpasHouseBillsGrandpaText** (1 connections) — `scripts/FuchsiaBillsGrandpasHouse.asm`
-- **FuchsiaBillsGrandpasHouseMiddleAgedWomanText** (1 connections) — `scripts/FuchsiaBillsGrandpasHouse.asm`
-- **FuchsiaBillsGrandpasHouseYoungsterText** (1 connections) — `scripts/FuchsiaBillsGrandpasHouse.asm`
+- **scripts/CeladonMart1F.asm** (7 connections) — `scripts/CeladonMart1F.asm`
+- **CeladonMart1F_Script** (2 connections) — `scripts/CeladonMart1F.asm`
+- **CeladonMart1F_TextPointers** (1 connections) — `scripts/CeladonMart1F.asm`
+- **CeladonMart1FCurrentFloorSignText** (1 connections) — `scripts/CeladonMart1F.asm`
+- **CeladonMart1FDirectorySignText** (1 connections) — `scripts/CeladonMart1F.asm`
+- **CeladonMart1FReceptionistText** (1 connections) — `scripts/CeladonMart1F.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/FuchsiaBillsGrandpasHouse.asm`
+- `scripts/CeladonMart1F.asm`
 
 ## Audit Trail
 

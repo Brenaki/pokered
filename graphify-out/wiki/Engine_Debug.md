@@ -1,13 +1,12 @@
 # Engine Debug
 
-> 9 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.39
 
 ## Key Concepts
 
 - **PrepareNewGameDebug** (10 connections) — `engine/debug/debug_party.asm`
 - **engine/debug/debug_party.asm** (8 connections) — `engine/debug/debug_party.asm`
 - **SetDebugNewGameParty** (4 connections) — `engine/debug/debug_party.asm`
-- **engine/debug** (3 connections)
 - **wRivalStarter** (3 connections) — `ram/wram.asm`
 - **DebugNewGameItemsList** (2 connections) — `engine/debug/debug_party.asm`
 - **DebugNewGameParty** (2 connections) — `engine/debug/debug_party.asm`
@@ -16,10 +15,10 @@
 
 ## Relationships
 
-- [Ram](Ram.md) (3 shared connections)
-- [Engine Movie](Engine_Movie.md) (1 shared connections)
-- [Engine Events 6](Engine_Events_6.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
+- [Engine Events 7](Engine_Events_7.md) (1 shared connections)
+- [Engine Items 4](Engine_Items_4.md) (1 shared connections)
+- [Engine Menus](Engine_Menus.md) (1 shared connections)
 
 ## Source Files
 
@@ -28,7 +27,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

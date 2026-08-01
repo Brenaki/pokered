@@ -1,44 +1,48 @@
 # Scripts 81
 
-> 17 nodes · cohesion 0.15
+> 19 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **scripts/ViridianCity.asm** (25 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityMovePlayerDownScript** (5 connections) — `scripts/ViridianCity.asm`
-- **ViridianCity_Script** (4 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityCheckGotPokedexScript** (4 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityCheckGymOpenScript** (4 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityDefaultScript** (3 connections) — `scripts/ViridianCity.asm`
-- **ViridianCity_ScriptPointers** (2 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityPlayerMovingDownScript** (2 connections) — `scripts/ViridianCity.asm`
-- **ViridianCity_TextPointers** (1 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityGymLockedText** (1 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityGymSignText** (1 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityOldManStartCatchTrainingScript** (1 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityOldManYouNeedToWeakenTheTargetText** (1 connections) — `scripts/ViridianCity.asm`
-- **ViridianCitySignText** (1 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityTrainerTips1Text** (1 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityTrainerTips2Text** (1 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityYoungster1Text** (1 connections) — `scripts/ViridianCity.asm`
+- **scripts/LoreleisRoom.asm** (20 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoom_Script** (6 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomLoreleiEndBattleScript** (5 connections) — `scripts/LoreleisRoom.asm`
+- **21.9 Mapa `LoreleisRoom`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **wElite4Flags** (4 connections) — `ram/wram.asm`
+- **LoreleiShowOrHideExitBlock** (4 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomLoreleiText** (4 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomPlayerIsMovingScript** (3 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleiEntranceCoords** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoom_ScriptPointers** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomLoreleiAfterBattleText** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomLoreleiBeforeBattleText** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomLoreleiEndBattleText** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomNoopScript** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomTrainerHeader0** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomTrainerHeaders** (2 connections) — `scripts/LoreleisRoom.asm`
+- **ResetLoreleiScript** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoom_TextPointers** (1 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomLoreleiDontRunAwayText** (1 connections) — `scripts/LoreleisRoom.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (6 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
-- [Scripts 10](Scripts_10.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts 6](Scripts_6.md) (1 shared connections)
-- [Engine Movie 5](Engine_Movie_5.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (3 shared connections)
+- [Scripts 18](Scripts_18.md) (2 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Scripts 13](Scripts_13.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/ViridianCity.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `ram/wram.asm`
+- `scripts/LoreleisRoom.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/LancesRoom.asm** (3 connections) — `data/maps/objects/LancesRoom.asm`
-- **LancesRoom_Object** (1 connections) — `data/maps/objects/LancesRoom.asm`
+- **data/maps/objects/MrFujisHouse.asm** (3 connections) — `data/maps/objects/MrFujisHouse.asm`
+- **MrFujisHouse_Object** (1 connections) — `data/maps/objects/MrFujisHouse.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/LancesRoom.asm`
+- `data/maps/objects/MrFujisHouse.asm`
 
 ## Audit Trail
 

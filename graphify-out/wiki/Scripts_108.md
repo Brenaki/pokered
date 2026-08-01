@@ -1,28 +1,32 @@
 # Scripts 108
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **scripts/UndergroundPathRoute7Copy.asm** (8 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7Copy_Script** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7Copy_TextPointers** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7CopyUnusedGirlText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7CopyUnusedGoesUnderSaffronText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7CopyUnusedMiddleAgedManText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
+- **scripts/CeruleanCaveB1F.asm** (9 connections) — `scripts/CeruleanCaveB1F.asm`
+- **CeruleanCaveB1F_Script** (5 connections) — `scripts/CeruleanCaveB1F.asm`
+- **CeruleanCaveB1FMewtwoText** (4 connections) — `scripts/CeruleanCaveB1F.asm`
+- **CeruleanCaveB1F_ScriptPointers** (2 connections) — `scripts/CeruleanCaveB1F.asm`
+- **CeruleanCaveB1FTrainerHeaders** (2 connections) — `scripts/CeruleanCaveB1F.asm`
+- **MewtwoTrainerHeader** (2 connections) — `scripts/CeruleanCaveB1F.asm`
+- **CeruleanCaveB1F_TextPointers** (1 connections) — `scripts/CeruleanCaveB1F.asm`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Scripts 15](Scripts_15.md) (1 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/UndergroundPathRoute7Copy.asm`
+- `scripts/CeruleanCaveB1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

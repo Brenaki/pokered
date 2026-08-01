@@ -1,26 +1,30 @@
 # Engine Overworld 6
 
-> 3 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **ReplaceTileBlock** (15 connections) — `engine/overworld/update_map.asm`
-- **engine/overworld/update_map.asm** (5 connections) — `engine/overworld/update_map.asm`
-- **CompareHLWithBC** (2 connections) — `engine/overworld/update_map.asm`
+- **AnimCut** (7 connections) — `engine/overworld/cut2.asm`
+- **engine/overworld/cut2.asm** (5 connections) — `engine/overworld/cut2.asm`
+- **AnimCutGrass_SwapOAMEntries** (4 connections) — `engine/overworld/cut2.asm`
+- **AnimCutGrass_UpdateOAMEntries** (4 connections) — `engine/overworld/cut2.asm`
+- **AdjustOAMBlockXPos2** (3 connections) — `engine/battle/animations.asm`
+- **AdjustOAMBlockYPos2** (2 connections) — `engine/battle/animations.asm`
 
 ## Relationships
 
-- [Ram 2](Ram_2.md) (1 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
-- [Engine Menus](Engine_Menus.md) (1 shared connections)
+- [Engine Movie](Engine_Movie.md) (2 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Engine Menus 3](Engine_Menus_3.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/overworld/update_map.asm`
+- `engine/battle/animations.asm`
+- `engine/overworld/cut2.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

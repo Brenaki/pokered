@@ -4,19 +4,19 @@
 
 ## Key Concepts
 
-- **scripts/SaffronMart.asm** (6 connections) — `scripts/SaffronMart.asm`
-- **SaffronMart_Script** (2 connections) — `scripts/SaffronMart.asm`
-- **SaffronMart_TextPointers** (1 connections) — `scripts/SaffronMart.asm`
-- **SaffronMartCooltrainerFText** (1 connections) — `scripts/SaffronMart.asm`
-- **SaffronMartSuperNerdText** (1 connections) — `scripts/SaffronMart.asm`
+- **scripts/PewterSpeechHouse.asm** (6 connections) — `scripts/PewterSpeechHouse.asm`
+- **PewterSpeechHouse_Script** (2 connections) — `scripts/PewterSpeechHouse.asm`
+- **PewterSpeechHouse_TextPointers** (1 connections) — `scripts/PewterSpeechHouse.asm`
+- **PewterSpeechHouseGamblerText** (1 connections) — `scripts/PewterSpeechHouse.asm`
+- **PewterSpeechHouseYoungsterText** (1 connections) — `scripts/PewterSpeechHouse.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SaffronMart.asm`
+- `scripts/PewterSpeechHouse.asm`
 
 ## Audit Trail
 

@@ -1,50 +1,47 @@
 # Docs
 
-> 23 nodes · cohesion 0.09
+> 209 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **Informações sobre os Pokémon de Pokémon Red/Blue** (15 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **5. Convenções e regras de interpretação** (6 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md** (4 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **9. Modelo de domínio para a reescrita em C** (3 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **2. Escopo** (3 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **docs** (3 connections)
-- **5.2 Captura e classificação** (2 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **5.3 Movimentos** (2 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **5.5 Evolução e obtenção** (2 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **Controle do documento** (2 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **10. Estratégia TDD e critérios de aceitação** (2 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **13. Referências** (2 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **docs/002-2026-08-01-Informações_sobre_Pokemons.md** (2 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **5.1 Atributos** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **5.4 Encontros** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **6. Resumo de cobertura** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **Histórico de revisões** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **1. Finalidade e relação com a ISO 9001** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **9.1 Bounded contexts** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **9.2 SOLID e refatoração incremental** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **2.1 Incluído** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **2.2 Excluído** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **3. Objetivos e critérios da qualidade** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **20. Inventario completo dos objetos de mapa** (209 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.27 Mapa `CeruleanMart`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.28 Mapa `CeruleanPokecenter`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.29 Mapa `CeruleanTradeHouse`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.30 Mapa `CeruleanTrashedHouse`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.31 Mapa `ChampionsRoom`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.32 Mapa `CinnabarGym`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.33 Mapa `CinnabarIsland`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.34 Mapa `CinnabarLab`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.35 Mapa `CinnabarLabFossilRoom`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.36 Mapa `CinnabarLabMetronomeRoom`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.37 Mapa `CinnabarLabTradeRoom`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.38 Mapa `CinnabarMart`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.39 Mapa `CinnabarPokecenter`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.40 Mapa `Colosseum`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.41 Mapa `CopycatsHouse1F`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.42 Mapa `CopycatsHouse2F`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.43 Mapa `Daycare`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.44 Mapa `DiglettsCaveRoute11`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.45 Mapa `DiglettsCaveRoute2`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.46 Mapa `FightingDojo`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.47 Mapa `FuchsiaBillsGrandpasHouse`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.48 Mapa `FuchsiaCity`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.49 Mapa `FuchsiaGoodRodHouse`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.50 Mapa `FuchsiaGym`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- *... and 184 more nodes in this community*
 
 ## Relationships
 
-- [Ram](Ram.md) (4 shared connections)
-- [Data Pokemon](Data_Pokemon.md) (1 shared connections)
-- [Gfx Pics.Asm](Gfx_Pics.Asm.md) (1 shared connections)
-- [Agents.Md](Agents.Md.md) (1 shared connections)
-- [Data Moves 2](Data_Moves_2.md) (1 shared connections)
-- [Docs 2](Docs_2.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
+- EXTRACTED: 208 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

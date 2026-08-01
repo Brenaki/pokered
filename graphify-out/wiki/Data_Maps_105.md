@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/UndergroundPathRoute7Copy.asm** (3 connections) — `data/maps/objects/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7Copy_Object** (1 connections) — `data/maps/objects/UndergroundPathRoute7Copy.asm`
+- **data/maps/objects/VermilionPidgeyHouse.asm** (3 connections) — `data/maps/objects/VermilionPidgeyHouse.asm`
+- **VermilionPidgeyHouse_Object** (1 connections) — `data/maps/objects/VermilionPidgeyHouse.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/UndergroundPathRoute7Copy.asm`
+- `data/maps/objects/VermilionPidgeyHouse.asm`
 
 ## Audit Trail
 

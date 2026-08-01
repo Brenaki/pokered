@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/FightingDojo.asm** (3 connections) — `data/maps/objects/FightingDojo.asm`
-- **FightingDojo_Object** (1 connections) — `data/maps/objects/FightingDojo.asm`
+- **data/maps/objects/FuchsiaGym.asm** (3 connections) — `data/maps/objects/FuchsiaGym.asm`
+- **FuchsiaGym_Object** (1 connections) — `data/maps/objects/FuchsiaGym.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/FightingDojo.asm`
+- `data/maps/objects/FuchsiaGym.asm`
 
 ## Audit Trail
 

@@ -1,29 +1,25 @@
 # Engine Events 12
 
-> 7 nodes · cohesion 0.48
+> 4 nodes · cohesion 0.83
 
 ## Key Concepts
 
-- **engine/events/hidden_events/safari_game.asm** (10 connections) — `engine/events/hidden_events/safari_game.asm`
-- **SafariGameOverText** (6 connections) — `engine/events/hidden_events/safari_game.asm`
-- **SafariZoneCheck** (4 connections) — `engine/events/hidden_events/safari_game.asm`
-- **PrintSafariGameOverText** (3 connections) — `engine/events/hidden_events/safari_game.asm`
-- **GameOverText** (2 connections) — `engine/events/hidden_events/safari_game.asm`
-- **SafariZoneGameStillGoing** (2 connections) — `engine/events/hidden_events/safari_game.asm`
-- **TimesUpText** (2 connections) — `engine/events/hidden_events/safari_game.asm`
+- **BookOrSculptureText** (5 connections) — `engine/events/hidden_events/book_or_sculpture.asm`
+- **engine/events/hidden_events/book_or_sculpture.asm** (5 connections) — `engine/events/hidden_events/book_or_sculpture.asm`
+- **DiglettSculptureText** (2 connections) — `engine/events/hidden_events/book_or_sculpture.asm`
+- **PokemonBooksText** (2 connections) — `engine/events/hidden_events/book_or_sculpture.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (3 shared connections)
-- [Scripts 2](Scripts_2.md) (3 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
 
 ## Source Files
 
-- `engine/events/hidden_events/safari_game.asm`
+- `engine/events/hidden_events/book_or_sculpture.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

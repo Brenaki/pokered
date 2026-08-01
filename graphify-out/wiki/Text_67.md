@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **text/SilphCo4F.asm** (13 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FRocket1AfterBattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FRocket1BattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FRocket1EndBattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FRocket2AfterBattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FRocket2BattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FRocket2EndBattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FScientistAfterBattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FScientistBattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FScientistEndBattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FSilphWorkerMImHidingText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FSilphWorkerMTeamRocketIsGoneText** (1 connections) — `text/SilphCo4F.asm`
+- **text/SilphCo8F.asm** (13 connections) — `text/SilphCo8F.asm`
+- **_SilphCo8FRocket1AfterBattleText** (1 connections) — `text/SilphCo8F.asm`
+- **_SilphCo8FRocket1BattleText** (1 connections) — `text/SilphCo8F.asm`
+- **_SilphCo8FRocket1EndBattleText** (1 connections) — `text/SilphCo8F.asm`
+- **_SilphCo8FRocket2AfterBattleText** (1 connections) — `text/SilphCo8F.asm`
+- **_SilphCo8FRocket2BattleText** (1 connections) — `text/SilphCo8F.asm`
+- **_SilphCo8FRocket2EndBattleText** (1 connections) — `text/SilphCo8F.asm`
+- **_SilphCo8FScientistAfterBattleText** (1 connections) — `text/SilphCo8F.asm`
+- **_SilphCo8FScientistBattleText** (1 connections) — `text/SilphCo8F.asm`
+- **_SilphCo8FScientistEndBattleText** (1 connections) — `text/SilphCo8F.asm`
+- **_SilphCo8FSilphWorkerMSilphIsFinishedText** (1 connections) — `text/SilphCo8F.asm`
+- **_SilphCo8FSilphWorkerMThanksForSavingUsText** (1 connections) — `text/SilphCo8F.asm`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `text/SilphCo4F.asm`
+- `text/SilphCo8F.asm`
 
 ## Audit Trail
 

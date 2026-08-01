@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **scripts/SilphCo1F.asm** (5 connections) — `scripts/SilphCo1F.asm`
-- **SilphCo1F_Script** (2 connections) — `scripts/SilphCo1F.asm`
-- **SilphCo1F_TextPointers** (1 connections) — `scripts/SilphCo1F.asm`
-- **SilphCo1FLinkReceptionistText** (1 connections) — `scripts/SilphCo1F.asm`
+- **scripts/Route7.asm** (5 connections) — `scripts/Route7.asm`
+- **Route7_Script** (2 connections) — `scripts/Route7.asm`
+- **Route7_TextPointers** (1 connections) — `scripts/Route7.asm`
+- **Route7UndergroundPathSignText** (1 connections) — `scripts/Route7.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SilphCo1F.asm`
+- `scripts/Route7.asm`
 
 ## Audit Trail
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/CeladonPokecenter.asm** (3 connections) — `data/maps/objects/CeladonPokecenter.asm`
-- **CeladonPokecenter_Object** (1 connections) — `data/maps/objects/CeladonPokecenter.asm`
+- **data/maps/objects/CeruleanCave1F.asm** (3 connections) — `data/maps/objects/CeruleanCave1F.asm`
+- **CeruleanCave1F_Object** (1 connections) — `data/maps/objects/CeruleanCave1F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/CeladonPokecenter.asm`
+- `data/maps/objects/CeruleanCave1F.asm`
 
 ## Audit Trail
 

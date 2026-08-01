@@ -1,52 +1,50 @@
 # Scripts 66
 
-> 22 nodes · cohesion 0.13
+> 26 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **scripts/SilphCo10F.asm** (19 connections) — `scripts/SilphCo10F.asm`
-- **wCardKeyDoorY** (9 connections) — `ram/wram.asm`
-- **hUnlockedSilphCoDoors** (8 connections) — `ram/hram.asm`
-- **SilphCo10F_Script** (6 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo2F_SetCardKeyDoorYScript** (6 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo10FGateCallbackScript** (5 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10FRocketText** (4 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10FScientistText** (4 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo8F_SetCardKeyDoorYScript** (4 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo9F_SetCardKeyDoorYScript** (4 connections) — `scripts/SilphCo9F.asm`
-- **SilphCo10F_ScriptPointers** (2 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10F_SetUnlockedSilphCoDoorsScript** (2 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10TrainerHeader0** (2 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10TrainerHeader1** (2 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10TrainerHeaders** (2 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10F_TextPointers** (1 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10FRocketAfterBattleText** (1 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10FRocketBattleText** (1 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10FRocketEndBattleText** (1 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10FScientistAfterBattleText** (1 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10FScientistBattleText** (1 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10FScientistEndBattleText** (1 connections) — `scripts/SilphCo10F.asm`
+- **scripts/SSAnne2FRooms.asm** (33 connections) — `scripts/SSAnne2FRooms.asm`
+- **21.49 Mapa `SSAnne2FRooms`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **SSAnne2FRooms_Script** (4 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsCooltrainerFText** (4 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsFisherText** (4 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGentleman1Text** (4 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGentleman2Text** (4 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRooms_ScriptPointers** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsCooltrainerFAfterBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsCooltrainerFBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsCooltrainerFEndBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsFisherAfterBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsFisherBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsFisherEndBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGentleman1AfterBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGentleman1BattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGentleman1EndBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGentleman2AfterBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGentleman2BattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGentleman2EndBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne9TrainerHeader0** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne9TrainerHeader1** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne9TrainerHeader2** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne9TrainerHeader3** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne9TrainerHeaders** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (3 shared connections)
-- [Home 8](Home_8.md) (2 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
+- [Scripts](Scripts.md) (11 shared connections)
+- [Scripts 9](Scripts_9.md) (4 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
 
 ## Source Files
 
-- `ram/hram.asm`
-- `ram/wram.asm`
-- `scripts/SilphCo10F.asm`
-- `scripts/SilphCo2F.asm`
-- `scripts/SilphCo8F.asm`
-- `scripts/SilphCo9F.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/SSAnne2FRooms.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (100%)
+- EXTRACTED: 58 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

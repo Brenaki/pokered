@@ -1,32 +1,39 @@
 # Engine Overworld 5
 
-> 8 nodes · cohesion 0.43
+> 13 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **engine/overworld/field_move_messages.asm** (9 connections) — `engine/overworld/field_move_messages.asm`
-- **IsSurfingAllowed** (8 connections) — `engine/overworld/field_move_messages.asm`
-- **PrintStrengthText** (6 connections) — `engine/overworld/field_move_messages.asm`
-- **UsedStrengthText** (5 connections) — `engine/overworld/field_move_messages.asm`
-- **CanMoveBouldersText** (2 connections) — `engine/overworld/field_move_messages.asm`
-- **CurrentTooFastText** (2 connections) — `engine/overworld/field_move_messages.asm`
-- **CyclingIsFunText** (2 connections) — `engine/overworld/field_move_messages.asm`
-- **SeafoamIslandsB4FStairsCoords** (2 connections) — `engine/overworld/field_move_messages.asm`
+- **engine/overworld/map_sprites.asm** (9 connections) — `engine/overworld/map_sprites.asm`
+- **LoadMapSpriteTilePatterns** (8 connections) — `engine/overworld/map_sprites.asm`
+- **InitOutsideMapSprites** (7 connections) — `engine/overworld/map_sprites.asm`
+- **data/maps/sprite_sets.asm** (5 connections) — `data/maps/sprite_sets.asm`
+- **GetSplitMapSpriteSetID** (4 connections) — `engine/overworld/map_sprites.asm`
+- **data/sprites/sprites.asm** (3 connections) — `data/sprites/sprites.asm`
+- **wSpriteSet** (3 connections) — `ram/wram.asm`
+- **wXCoord** (3 connections) — `ram/wram.asm`
+- **MapSpriteSets** (2 connections) — `data/maps/sprite_sets.asm`
+- **SplitMapSpriteSets** (2 connections) — `data/maps/sprite_sets.asm`
+- **SpriteSets** (2 connections) — `data/maps/sprite_sets.asm`
+- **SpriteSheetPointerTable** (2 connections) — `data/sprites/sprites.asm`
+- **ReadSpriteSheetData** (2 connections) — `engine/overworld/map_sprites.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (3 shared connections)
-- [Scripts](Scripts.md) (3 shared connections)
-- [Engine Movie 5](Engine_Movie_5.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
+- [Home](Home.md) (2 shared connections)
+- [Engine Overworld 2](Engine_Overworld_2.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/overworld/field_move_messages.asm`
+- `data/maps/sprite_sets.asm`
+- `data/sprites/sprites.asm`
+- `engine/overworld/map_sprites.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

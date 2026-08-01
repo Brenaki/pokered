@@ -1,48 +1,47 @@
 # Scripts 68
 
-> 22 nodes · cohesion 0.12
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **scripts/SilphCo8F.asm** (25 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8F_Script** (6 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FGateCallbackScript** (5 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket1Text** (4 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket2Text** (4 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FScientistText** (4 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8F_ScriptPointers** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8F_UnlockedDoorEventScript** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8TrainerHeader0** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8TrainerHeader1** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8TrainerHeader2** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8TrainerHeaders** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8F_TextPointers** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket1AfterBattleText** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket1BattleText** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket1EndBattleText** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket2AfterBattleText** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket2BattleText** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket2EndBattleText** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FScientistAfterBattleText** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FScientistBattleText** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FScientistEndBattleText** (1 connections) — `scripts/SilphCo8F.asm`
+- **scripts/SaffronCity.asm** (27 connections) — `scripts/SaffronCity.asm`
+- **SaffronCity_Script** (2 connections) — `scripts/SaffronCity.asm`
+- **SaffronCity_TextPointers** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityFightingDojoSignText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityGentlemanText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityGymSignText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityMrPsychicsHouseSignText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityPidgeotText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRockerText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket1Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket2Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket3Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket4Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket5Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket6Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket7Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket8Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket9Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityScientistText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCitySignText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCitySilphCoLatestProductSignText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCitySilphCoSignText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCitySilphWorkerFText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCitySilphWorkerMText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityTrainerTips1Text** (1 connections) — `scripts/SaffronCity.asm`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (4 shared connections)
-- [Home 8](Home_8.md) (3 shared connections)
-- [Scripts 66](Scripts_66.md) (2 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SilphCo8F.asm`
+- `scripts/SaffronCity.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

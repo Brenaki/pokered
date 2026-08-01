@@ -1,44 +1,53 @@
 # Scripts 71
 
-> 20 nodes · cohesion 0.13
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **scripts/PokemonTower3F.asm** (21 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3F_Script** (5 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler1Text** (4 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler2Text** (4 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler3Text** (4 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3F_ScriptPointers** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3TrainerHeader0** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3TrainerHeader1** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3TrainerHeader2** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3TrainerHeaders** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3F_TextPointers** (1 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler1AfterBattleText** (1 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler1BattleText** (1 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler1EndBattleText** (1 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler2AfterBattleText** (1 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler2BattleText** (1 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler2EndBattleText** (1 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler3AfterBattleText** (1 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler3BattleText** (1 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler3EndBattleText** (1 connections) — `scripts/PokemonTower3F.asm`
+- **scripts/SilphCo9F.asm** (25 connections) — `scripts/SilphCo9F.asm`
+- **21.63 Mapa `SilphCo9F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **SilphCo9F_Script** (6 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FGateCallbackScript** (6 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9F_SetCardKeyDoorYScript** (4 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket1Text** (4 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket2Text** (4 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FScientistText** (4 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9F_ScriptPointers** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9F_SetUnlockedSilphCoDoorsScript** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket1AfterBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket1BattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket1EndBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket2AfterBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket2BattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket2EndBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FScientistAfterBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FScientistBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FScientistEndBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9TrainerHeader0** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9TrainerHeader1** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9TrainerHeader2** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9TrainerHeaders** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9F_TextPointers** (1 connections) — `scripts/SilphCo9F.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (3 shared connections)
-- [Home 8](Home_8.md) (3 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts](Scripts.md) (4 shared connections)
+- [Scripts 9](Scripts_9.md) (3 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 69](Scripts_69.md) (1 shared connections)
+- [Ram 11](Ram_11.md) (1 shared connections)
+- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
+- [Scripts 18](Scripts_18.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/PokemonTower3F.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/SilphCo9F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 52 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

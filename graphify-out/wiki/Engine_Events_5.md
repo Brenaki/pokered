@@ -28,7 +28,7 @@
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (2 shared connections)
+- [Scripts 4](Scripts_4.md) (2 shared connections)
 - [Scripts](Scripts.md) (2 shared connections)
 
 ## Source Files

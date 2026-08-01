@@ -1,29 +1,30 @@
 # Scripts 109
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **scripts/VermilionPokecenter.asm** (8 connections) — `scripts/VermilionPokecenter.asm`
-- **VermilionPokecenter_Script** (3 connections) — `scripts/VermilionPokecenter.asm`
-- **VermilionPokecenter_TextPointers** (1 connections) — `scripts/VermilionPokecenter.asm`
-- **VermilionPokecenterFishingGuruText** (1 connections) — `scripts/VermilionPokecenter.asm`
-- **VermilionPokecenterLinkReceptionistText** (1 connections) — `scripts/VermilionPokecenter.asm`
-- **VermilionPokecenterNurseText** (1 connections) — `scripts/VermilionPokecenter.asm`
-- **VermilionPokecenterSailorText** (1 connections) — `scripts/VermilionPokecenter.asm`
+- **scripts/CinnabarLabTradeRoom.asm** (8 connections) — `scripts/CinnabarLabTradeRoom.asm`
+- **CinnabarLabTradeRoomDoTrade** (4 connections) — `scripts/CinnabarLabTradeRoom.asm`
+- **CinnabarLabTradeRoom_Script** (2 connections) — `scripts/CinnabarLabTradeRoom.asm`
+- **CinnabarLabTradeRoomGrampsText** (2 connections) — `scripts/CinnabarLabTradeRoom.asm`
+- **CinnabarLabTradeRoom_TextPointers** (1 connections) — `scripts/CinnabarLabTradeRoom.asm`
+- **CinnabarLabTradeRoomBeautyText** (1 connections) — `scripts/CinnabarLabTradeRoom.asm`
+- **CinnabarLabTradeRoomSuperNerdText** (1 connections) — `scripts/CinnabarLabTradeRoom.asm`
 
 ## Relationships
 
-- [Scripts 8](Scripts_8.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/VermilionPokecenter.asm`
+- `scripts/CinnabarLabTradeRoom.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

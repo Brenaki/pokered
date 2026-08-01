@@ -1,49 +1,53 @@
 # Scripts 64
 
-> 22 nodes · cohesion 0.13
+> 27 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **scripts/PewterGym.asm** (25 connections) — `scripts/PewterGym.asm`
-- **PewterGymGuideText** (9 connections) — `scripts/PewterGym.asm`
-- **PewterGym_Script** (7 connections) — `scripts/PewterGym.asm`
-- **PewterGymCooltrainerMText** (4 connections) — `scripts/PewterGym.asm`
-- **PewterGymResetScripts** (3 connections) — `scripts/PewterGym.asm`
-- **PewterGym_ScriptPointers** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymBrockPostBattle** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymBrockReceivedBoulderBadgeText** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymGuideAdviceText** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymGuideBeginAdviceText** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymGuideFreeServiceText** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymGuidePostBattleText** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymGuidePreAdviceText** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymTrainerHeader0** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymTrainerHeaders** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGym_TextPointers** (1 connections) — `scripts/PewterGym.asm`
-- **PewterGymBrockWaitTakeThisText** (1 connections) — `scripts/PewterGym.asm`
-- **PewterGymCooltrainerMAfterBattleText** (1 connections) — `scripts/PewterGym.asm`
-- **PewterGymCooltrainerMBattleText** (1 connections) — `scripts/PewterGym.asm`
-- **PewterGymCooltrainerMEndBattleText** (1 connections) — `scripts/PewterGym.asm`
-- **PewterGymReceivedTM34Text** (1 connections) — `scripts/PewterGym.asm`
-- **PewterGymTM34NoRoomText** (1 connections) — `scripts/PewterGym.asm`
+- **scripts/FightingDojo.asm** (34 connections) — `scripts/FightingDojo.asm`
+- **21.6 Mapa `FightingDojo`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **FightingDojo_Script** (5 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt1Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt2Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt3Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt4Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojo_ScriptPointers** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt1AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt1BattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt1EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt2AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt2BattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt2EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt3AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt3BattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt3EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt4AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt4BattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt4EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoResetScripts** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoTrainerHeader0** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoTrainerHeader1** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoTrainerHeader2** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoTrainerHeader3** (2 connections) — `scripts/FightingDojo.asm`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (4 shared connections)
-- [Scripts 7](Scripts_7.md) (2 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
-- [Home 8](Home_8.md) (1 shared connections)
+- [Scripts](Scripts.md) (7 shared connections)
+- [Scripts 9](Scripts_9.md) (4 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 28](Scripts_28.md) (1 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/PewterGym.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/FightingDojo.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
+- EXTRACTED: 59 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

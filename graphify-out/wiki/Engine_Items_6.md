@@ -16,12 +16,13 @@
 
 ## Relationships
 
-- [Home](Home.md) (3 shared connections)
+- [Home 2](Home_2.md) (2 shared connections)
 - [Engine Battle](Engine_Battle.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Engine Overworld 3](Engine_Overworld_3.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Ram 2](Ram_2.md) (1 shared connections)
+- [Gfx Sprites.Asm 3](Gfx_Sprites.Asm_3.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Engine Menus](Engine_Menus.md) (1 shared connections)
+- [Home](Home.md) (1 shared connections)
 
 ## Source Files
 

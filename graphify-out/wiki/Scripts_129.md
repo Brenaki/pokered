@@ -4,27 +4,25 @@
 
 ## Key Concepts
 
-- **scripts/VermilionPidgeyHouse.asm** (7 connections) — `scripts/VermilionPidgeyHouse.asm`
-- **VermilionPidgeyHousePidgeyText** (4 connections) — `scripts/VermilionPidgeyHouse.asm`
-- **VermilionPidgeyHouse_Script** (2 connections) — `scripts/VermilionPidgeyHouse.asm`
-- **VermilionPidgeyHouse_TextPointers** (1 connections) — `scripts/VermilionPidgeyHouse.asm`
-- **VermilionPidgeyHouseLetterText** (1 connections) — `scripts/VermilionPidgeyHouse.asm`
-- **VermilionPidgeyHouseYoungsterText** (1 connections) — `scripts/VermilionPidgeyHouse.asm`
+- **scripts/ViridianNicknameHouse.asm** (8 connections) — `scripts/ViridianNicknameHouse.asm`
+- **ViridianNicknameHouse_Script** (2 connections) — `scripts/ViridianNicknameHouse.asm`
+- **ViridianNicknameHouse_TextPointers** (1 connections) — `scripts/ViridianNicknameHouse.asm`
+- **ViridianNicknameHouseBaldingGuyText** (1 connections) — `scripts/ViridianNicknameHouse.asm`
+- **ViridianNicknameHouseLittleGirlText** (1 connections) — `scripts/ViridianNicknameHouse.asm`
+- **ViridianNicknameHouseSpearySignText** (1 connections) — `scripts/ViridianNicknameHouse.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Scripts 15](Scripts_15.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/VermilionPidgeyHouse.asm`
+- `scripts/ViridianNicknameHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

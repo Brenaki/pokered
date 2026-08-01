@@ -1,6 +1,6 @@
 # engine/battle/core.asm
 
-> God node · 227 connections · `engine/battle/core.asm`
+> God node · 228 connections · `engine/battle/core.asm`
 
 **Community:** [Engine Battle](Engine_Battle.md)
 
@@ -8,9 +8,9 @@
 
 ### defines
 - CheckEnemyStatusConditions `EXTRACTED`
+- BattleRandom `EXTRACTED`
 - CheckPlayerStatusConditions `EXTRACTED`
 - EnemySendOutFirstMon `EXTRACTED`
-- BattleRandom `EXTRACTED`
 - PartyMenuOrRockOrRun `EXTRACTED`
 - DisplayBattleMenu `EXTRACTED`
 - LoadEnemyMonData `EXTRACTED`

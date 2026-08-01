@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/ViridianPokecenter.asm** (3 connections) — `data/maps/objects/ViridianPokecenter.asm`
-- **ViridianPokecenter_Object** (1 connections) — `data/maps/objects/ViridianPokecenter.asm`
+- **data/maps/objects/WardensHouse.asm** (3 connections) — `data/maps/objects/WardensHouse.asm`
+- **WardensHouse_Object** (1 connections) — `data/maps/objects/WardensHouse.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/ViridianPokecenter.asm`
+- `data/maps/objects/WardensHouse.asm`
 
 ## Audit Trail
 

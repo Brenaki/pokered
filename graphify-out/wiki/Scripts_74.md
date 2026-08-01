@@ -1,49 +1,48 @@
 # Scripts 74
 
-> 19 nodes · cohesion 0.12
+> 23 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **scripts/VermilionCity.asm** (23 connections) — `scripts/VermilionCity.asm`
-- **VermilionCity_Script** (7 connections) — `scripts/VermilionCity.asm`
-- **SSAnneTicketCheckCoords** (3 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityMachopText** (3 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityPlayerAllowedToPassScript** (3 connections) — `scripts/VermilionCity.asm`
-- **VermilionCity_ScriptPointers** (2 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityLeftSSAnneCallbackScript** (2 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityPlayerExitShipScript** (2 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityPlayerMovingUp1Script** (2 connections) — `scripts/VermilionCity.asm`
-- **VermilionCity_TextPointers** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityBeautyText** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityGambler2Text** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityGymSignText** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityHarborSignText** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityNoticeSignText** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityPlayerMovingUp2Script** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityPokemonFanClubSignText** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCitySailor2Text** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCitySignText** (1 connections) — `scripts/VermilionCity.asm`
+- **scripts/Route18.asm** (23 connections) — `scripts/Route18.asm`
+- **21.37 Mapa `Route18`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Route18_Script** (5 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM1Text** (4 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM2Text** (4 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM3Text** (4 connections) — `scripts/Route18.asm`
+- **Route18_ScriptPointers** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM1AfterBattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM1BattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM1EndBattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM2AfterBattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM2BattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM2EndBattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM3AfterBattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM3BattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM3EndBattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18TrainerHeader0** (2 connections) — `scripts/Route18.asm`
+- **Route18TrainerHeader1** (2 connections) — `scripts/Route18.asm`
+- **Route18TrainerHeader2** (2 connections) — `scripts/Route18.asm`
+- **Route18TrainerHeaders** (2 connections) — `scripts/Route18.asm`
+- **Route18_TextPointers** (1 connections) — `scripts/Route18.asm`
+- **Route18CyclingRoadSignText** (1 connections) — `scripts/Route18.asm`
+- **Route18SignText** (1 connections) — `scripts/Route18.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
-- [Scripts 10](Scripts_10.md) (1 shared connections)
-- [Engine Slots](Engine_Slots.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
-- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
-- [Scripts 6](Scripts_6.md) (1 shared connections)
-- [Ram 2](Ram_2.md) (1 shared connections)
+- [Scripts](Scripts.md) (3 shared connections)
+- [Scripts 9](Scripts_9.md) (3 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/VermilionCity.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/Route18.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
+- EXTRACTED: 43 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

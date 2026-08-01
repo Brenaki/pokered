@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/MrFujisHouse.asm** (3 connections) — `data/maps/objects/MrFujisHouse.asm`
-- **MrFujisHouse_Object** (1 connections) — `data/maps/objects/MrFujisHouse.asm`
+- **data/maps/objects/MtMoonB2F.asm** (3 connections) — `data/maps/objects/MtMoonB2F.asm`
+- **MtMoonB2F_Object** (1 connections) — `data/maps/objects/MtMoonB2F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/MrFujisHouse.asm`
+- `data/maps/objects/MtMoonB2F.asm`
 
 ## Audit Trail
 

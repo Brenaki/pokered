@@ -1,0 +1,49 @@
+# Ram 6
+
+> 17 nodes · cohesion 0.29
+
+## Key Concepts
+
+- **wChannelFlags1** (38 connections) — `ram/wram.asm`
+- **wChannelSoundIDs** (21 connections) — `ram/wram.asm`
+- **Audio1_ApplyMusicAffects** (14 connections) — `audio/engine_1.asm`
+- **Audio2_ApplyMusicAffects** (14 connections) — `audio/engine_2.asm`
+- **Audio3_ApplyMusicAffects** (14 connections) — `audio/engine_3.asm`
+- **wChannelVibratoDelayCounters** (14 connections) — `ram/wram.asm`
+- **wChannelFrequencyLowBytes** (11 connections) — `ram/wram.asm`
+- **wChannelVibratoDelayCounterReloadValues** (11 connections) — `ram/wram.asm`
+- **wChannelVibratoExtents** (11 connections) — `ram/wram.asm`
+- **wChannelVibratoRates** (11 connections) — `ram/wram.asm`
+- **Audio1_PlayNextNote** (6 connections) — `audio/engine_1.asm`
+- **Audio2_PlayNextNote** (6 connections) — `audio/engine_2.asm`
+- **Audio3_PlayNextNote** (6 connections) — `audio/engine_3.asm`
+- **UpdateMusic6Times** (6 connections) — `home/audio.asm`
+- **Audio1_UpdateMusic** (5 connections) — `audio/engine_1.asm`
+- **Audio2_UpdateMusic** (5 connections) — `audio/engine_2.asm`
+- **Audio3_UpdateMusic** (5 connections) — `audio/engine_3.asm`
+
+## Relationships
+
+- [Ram 3](Ram_3.md) (6 shared connections)
+- [Audio Engine 3.Asm](Audio_Engine_3.Asm.md) (6 shared connections)
+- [Audio Engine 1.Asm](Audio_Engine_1.Asm.md) (3 shared connections)
+- [Audio Engine 2.Asm](Audio_Engine_2.Asm.md) (3 shared connections)
+- [Engine Battle 2](Engine_Battle_2.md) (1 shared connections)
+
+## Source Files
+
+- `audio/engine_1.asm`
+- `audio/engine_2.asm`
+- `audio/engine_3.asm`
+- `home/audio.asm`
+- `ram/wram.asm`
+
+## Audit Trail
+
+- EXTRACTED: 58 (100%)
+- INFERRED: 0 (0%)
+- AMBIGUOUS: 0 (0%)
+
+---
+
+*Part of the graphify knowledge wiki. See [index](index.md) to navigate.*

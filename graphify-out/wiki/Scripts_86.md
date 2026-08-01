@@ -1,38 +1,46 @@
 # Scripts 86
 
-> 14 nodes · cohesion 0.21
+> 18 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **scripts/BluesHouse.asm** (15 connections) — `scripts/BluesHouse.asm`
-- **BluesHouseDaisySittingText** (10 connections) — `scripts/BluesHouse.asm`
-- **BluesHouse_Script** (4 connections) — `scripts/BluesHouse.asm`
-- **BluesHouse_ScriptPointers** (2 connections) — `scripts/BluesHouse.asm`
-- **BluesHouseDaisyBagFullText** (2 connections) — `scripts/BluesHouse.asm`
-- **BluesHouseDaisyOfferMapText** (2 connections) — `scripts/BluesHouse.asm`
-- **BluesHouseDaisyRivalAtLabText** (2 connections) — `scripts/BluesHouse.asm`
-- **BluesHouseDaisyUseMapText** (2 connections) — `scripts/BluesHouse.asm`
-- **GotMapText** (2 connections) — `scripts/BluesHouse.asm`
-- **BluesHouse_TextPointers** (1 connections) — `scripts/BluesHouse.asm`
-- **BluesHouseDaisyWalkingText** (1 connections) — `scripts/BluesHouse.asm`
-- **BluesHouseDefaultScript** (1 connections) — `scripts/BluesHouse.asm`
-- **BluesHouseNoopScript** (1 connections) — `scripts/BluesHouse.asm`
-- **BluesHouseTownMapText** (1 connections) — `scripts/BluesHouse.asm`
+- **scripts/SilphCo3F.asm** (19 connections) — `scripts/SilphCo3F.asm`
+- **21.57 Mapa `SilphCo3F`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **SilphCo3F_Script** (6 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FGateCallbackScript** (6 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FRocketText** (4 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FScientistText** (4 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3F_ScriptPointers** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3F_UnlockedDoorEventScript** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FRocketAfterBattleText** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FRocketBattleText** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FRocketEndBattleText** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FScientistAfterBattleText** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FScientistBattleText** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FScientistEndBattleText** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3TrainerHeader0** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3TrainerHeader1** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3TrainerHeaders** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3F_TextPointers** (1 connections) — `scripts/SilphCo3F.asm`
 
 ## Relationships
 
 - [Scripts](Scripts.md) (3 shared connections)
-- [Scripts 10](Scripts_10.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (2 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
+- [Scripts 18](Scripts_18.md) (1 shared connections)
+- [Scripts 27](Scripts_27.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/BluesHouse.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/SilphCo3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 38 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

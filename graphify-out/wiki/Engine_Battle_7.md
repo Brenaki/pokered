@@ -1,48 +1,60 @@
 # Engine Battle 7
 
-> 22 nodes · cohesion 0.19
+> 28 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **engine/battle/common_text.asm** (23 connections) — `engine/battle/common_text.asm`
-- **PrintBeginningBattleText** (13 connections) — `engine/battle/common_text.asm`
-- **PlayerMon2Text** (9 connections) — `engine/battle/common_text.asm`
-- **PrintSendOutMonMessage** (8 connections) — `engine/battle/common_text.asm`
-- **PrintComeBackText** (5 connections) — `engine/battle/common_text.asm`
-- **PrintPlayerMon1Text** (5 connections) — `engine/battle/common_text.asm`
-- **ComeBackText** (3 connections) — `engine/battle/common_text.asm`
-- **DoItText** (3 connections) — `engine/battle/common_text.asm`
-- **EnoughText** (3 connections) — `engine/battle/common_text.asm`
-- **GetmText** (3 connections) — `engine/battle/common_text.asm`
-- **GoodText** (3 connections) — `engine/battle/common_text.asm`
-- **GoText** (3 connections) — `engine/battle/common_text.asm`
-- **OKExclamationText** (3 connections) — `engine/battle/common_text.asm`
-- **RetreatMon** (3 connections) — `engine/battle/common_text.asm`
-- **EnemyAppearedText** (2 connections) — `engine/battle/common_text.asm`
-- **EnemysWeakText** (2 connections) — `engine/battle/common_text.asm`
-- **GhostCantBeIDdText** (2 connections) — `engine/battle/common_text.asm`
-- **HookedMonAttackedText** (2 connections) — `engine/battle/common_text.asm`
-- **PlayerMon1Text** (2 connections) — `engine/battle/common_text.asm`
-- **TrainerWantsToFightText** (2 connections) — `engine/battle/common_text.asm`
-- **UnveiledGhostText** (2 connections) — `engine/battle/common_text.asm`
-- **WildMonAppearedText** (2 connections) — `engine/battle/common_text.asm`
+- **wShadowOAM** (30 connections) — `ram/wram.asm`
+- **AnimationCleanOAM** (10 connections) — `engine/battle/animations.asm`
+- **PlaySubanimation** (9 connections) — `engine/battle/animations.asm`
+- **AnimationShootBallsUpward** (8 connections) — `engine/battle/animations.asm`
+- **LoadMoveAnimationTiles** (8 connections) — `engine/battle/animations.asm`
+- **AnimationSpiralBallsInward** (7 connections) — `engine/battle/animations.asm`
+- **data/battle_anims** (6 connections)
+- **InitMultipleObjectsOAM** (6 connections) — `engine/battle/animations.asm`
+- **TradeShakePokeball** (6 connections) — `engine/battle/animations.asm`
+- **AnimationShootManyBallsUpward** (5 connections) — `engine/battle/animations.asm`
+- **_AnimationWaterDroplets** (5 connections) — `engine/battle/animations.asm`
+- **DrawFrameBlock** (5 connections) — `engine/battle/animations.asm`
+- **BattleAnimWriteOAMEntry** (4 connections) — `engine/battle/animations.asm`
+- **DoGrowlSpecialEffects** (4 connections) — `engine/battle/animations.asm`
+- **DoSpecialEffectByAnimationId** (4 connections) — `engine/battle/animations.asm`
+- **ShakeEnemyHUD_WritePlayerMonPicOAM** (4 connections) — `engine/battle/animations.asm`
+- **AnimationWaterDropletsEverywhere** (3 connections) — `engine/battle/animations.asm`
+- **data/battle_anims/base_coords.asm** (3 connections) — `data/battle_anims/base_coords.asm`
+- **data/battle_anims/special_effect_pointers.asm** (3 connections) — `data/battle_anims/special_effect_pointers.asm`
+- **data/battle_anims/special_effects.asm** (3 connections) — `data/battle_anims/special_effects.asm`
+- **FrameBlockBaseCoords** (2 connections) — `data/battle_anims/base_coords.asm`
+- **SpecialEffectPointers** (2 connections) — `data/battle_anims/special_effect_pointers.asm`
+- **AnimationIdSpecialEffects** (2 connections) — `data/battle_anims/special_effects.asm`
+- **BallMoveDistances1** (2 connections) — `engine/battle/animations.asm`
+- **MoveAnimationTilesPointers** (2 connections) — `engine/battle/animations.asm`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Engine Battle](Engine_Battle.md) (5 shared connections)
-- [Scripts](Scripts.md) (4 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Ram 2](Ram_2.md) (1 shared connections)
-- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
+- [Engine Movie](Engine_Movie.md) (6 shared connections)
+- [Scripts 13](Scripts_13.md) (3 shared connections)
+- [Data Battle Anims](Data_Battle_Anims.md) (2 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
+- [Data Battle Anims 2](Data_Battle_Anims_2.md) (1 shared connections)
+- [Home](Home.md) (1 shared connections)
+- [Engine Battle 3](Engine_Battle_3.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Engine Battle 13](Engine_Battle_13.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/battle/common_text.asm`
+- `data/battle_anims/base_coords.asm`
+- `data/battle_anims/special_effect_pointers.asm`
+- `data/battle_anims/special_effects.asm`
+- `engine/battle/animations.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (100%)
+- EXTRACTED: 59 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

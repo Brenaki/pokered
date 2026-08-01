@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **text/BillsHouse.asm** (10 connections) — `text/BillsHouse.asm`
-- **_BillsHouseBillCheckOutMyRarePokemonText** (1 connections) — `text/BillsHouse.asm`
-- **_BillsHouseBillImNotAPokemonText** (1 connections) — `text/BillsHouse.asm`
-- **_BillsHouseBillNoYouGottaHelpText** (1 connections) — `text/BillsHouse.asm`
-- **_BillsHouseBillThankYouText** (1 connections) — `text/BillsHouse.asm`
-- **_BillsHouseBillUseSeparationSystemText** (1 connections) — `text/BillsHouse.asm`
-- **_BillsHouseBillWhyDontYouGoInsteadOfMeText** (1 connections) — `text/BillsHouse.asm`
-- **_SSTicketNoRoomText** (1 connections) — `text/BillsHouse.asm`
-- **_SSTicketReceivedText** (1 connections) — `text/BillsHouse.asm`
+- **text/CinnabarLabFossilRoom.asm** (10 connections) — `text/CinnabarLabFossilRoom.asm`
+- **_CinnabarLabFossilRoomScientist1ComeAgainText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
+- **_CinnabarLabFossilRoomScientist1FossilIsBackToLifeText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
+- **_CinnabarLabFossilRoomScientist1GoForAWalkText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
+- **_CinnabarLabFossilRoomScientist1GoForAWalkText2** (1 connections) — `text/CinnabarLabFossilRoom.asm`
+- **_CinnabarLabFossilRoomScientist1NoFossilsText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
+- **_CinnabarLabFossilRoomScientist1SeesFossilText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
+- **_CinnabarLabFossilRoomScientist1TakesFossilText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
+- **_CinnabarLabFossilRoomScientist1Text** (1 connections) — `text/CinnabarLabFossilRoom.asm`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `text/BillsHouse.asm`
+- `text/CinnabarLabFossilRoom.asm`
 
 ## Audit Trail
 

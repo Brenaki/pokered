@@ -1,43 +1,47 @@
 # Engine Events 7
 
-> 19 nodes · cohesion 0.18
+> 16 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **engine/events/hidden_events/school_blackboard.asm** (22 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **ViridianSchoolBlackboard** (14 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **ViridianBlackboardStatusPointers** (7 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **LinkCableInfoTexts** (5 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **HowToLinkText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **LinkCableHelpText1** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **LinkCableHelpText2** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **LinkCableInfoText1** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **LinkCableInfoText2** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **LinkCableInfoText3** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **StatusAilmentText1** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **StatusAilmentText2** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **ViridianBlackboardBurnText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **ViridianBlackboardFrozenText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **ViridianBlackboardPoisonText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **ViridianBlackboardPrlzText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **ViridianBlackboardSleepText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **ViridianSchoolBlackboardText1** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
-- **ViridianSchoolBlackboardText2** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **DisplayPokemartDialogue_** (36 connections) — `engine/events/pokemart.asm`
+- **engine/events/pokemart.asm** (15 connections) — `engine/events/pokemart.asm`
+- **AddItemToInventory** (7 connections) — `home/inventory.asm`
+- **home/inventory.asm** (6 connections) — `home/inventory.asm`
+- **PokemartAnythingElseText** (2 connections) — `engine/events/pokemart.asm`
+- **PokemartBoughtItemText** (2 connections) — `engine/events/pokemart.asm`
+- **PokemartBuyingGreetingText** (2 connections) — `engine/events/pokemart.asm`
+- **PokemartItemBagEmptyText** (2 connections) — `engine/events/pokemart.asm`
+- **PokemartItemBagFullText** (2 connections) — `engine/events/pokemart.asm`
+- **PokemartNotEnoughMoneyText** (2 connections) — `engine/events/pokemart.asm`
+- **PokemartTellBuyPriceText** (2 connections) — `engine/events/pokemart.asm`
+- **PokemartTellSellPriceText** (2 connections) — `engine/events/pokemart.asm`
+- **PokemartThankYouText** (2 connections) — `engine/events/pokemart.asm`
+- **PokemartUnsellableItemText** (2 connections) — `engine/events/pokemart.asm`
+- **PokemonSellingGreetingText** (2 connections) — `engine/events/pokemart.asm`
+- **SubtractAmountPaidFromMoney** (2 connections) — `home/inventory.asm`
 
 ## Relationships
 
-- [Ram 2](Ram_2.md) (5 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
-- [Engine Menus](Engine_Menus.md) (2 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (5 shared connections)
+- [Home](Home.md) (5 shared connections)
+- [Engine Items 4](Engine_Items_4.md) (3 shared connections)
+- [Engine Battle](Engine_Battle.md) (2 shared connections)
+- [Home 3](Home_3.md) (2 shared connections)
+- [Ram](Ram.md) (2 shared connections)
+- [Scripts 15](Scripts_15.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/events/hidden_events/school_blackboard.asm`
+- `engine/events/pokemart.asm`
+- `home/inventory.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/CinnabarLabTradeRoom.asm** (3 connections) — `data/maps/objects/CinnabarLabTradeRoom.asm`
-- **CinnabarLabTradeRoom_Object** (1 connections) — `data/maps/objects/CinnabarLabTradeRoom.asm`
+- **data/maps/objects/CinnabarPokecenter.asm** (3 connections) — `data/maps/objects/CinnabarPokecenter.asm`
+- **CinnabarPokecenter_Object** (1 connections) — `data/maps/objects/CinnabarPokecenter.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/CinnabarLabTradeRoom.asm`
+- `data/maps/objects/CinnabarPokecenter.asm`
 
 ## Audit Trail
 

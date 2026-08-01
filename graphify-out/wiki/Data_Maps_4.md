@@ -1,13 +1,11 @@
 # Data Maps 4
 
-> 4 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **LoadTownMapEntry** (6 connections) — `engine/items/town_map.asm`
-- **data/maps/town_map_entries.asm** (4 connections) — `data/maps/town_map_entries.asm`
-- **ExternalMapEntries** (2 connections) — `data/maps/town_map_entries.asm`
-- **InternalMapEntries** (2 connections) — `data/maps/town_map_entries.asm`
+- **data/maps/map_header_pointers.asm** (3 connections) — `data/maps/map_header_pointers.asm`
+- **MapHeaderPointers** (2 connections) — `data/maps/map_header_pointers.asm`
 
 ## Relationships
 
@@ -15,12 +13,11 @@
 
 ## Source Files
 
-- `data/maps/town_map_entries.asm`
-- `engine/items/town_map.asm`
+- `data/maps/map_header_pointers.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

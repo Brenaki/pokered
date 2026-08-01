@@ -1,54 +1,58 @@
 # Scripts 55
 
-> 27 nodes · cohesion 0.09
+> 30 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **scripts/VermilionGym.asm** (31 connections) — `scripts/VermilionGym.asm`
-- **VermilionGym_Script** (8 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymGentlemanText** (4 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymSailorText** (4 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymSuperNerdText** (4 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymResetScripts** (3 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymSetDoorTile** (3 connections) — `scripts/VermilionGym.asm`
-- **VermilionGym_ScriptPointers** (2 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymLTSurgeAfterBattleScript** (2 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymLTSurgeReceivedThunderBadgeText** (2 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymTrainerHeader0** (2 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymTrainerHeader1** (2 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymTrainerHeader2** (2 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymTrainerHeaders** (2 connections) — `scripts/VermilionGym.asm`
-- **VermilionGym_TextPointers** (1 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymGentlemanAfterBattleText** (1 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymGentlemanBattleText** (1 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymGentlemanEndBattleText** (1 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymLTSurgeReceivedTM24Text** (1 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymLTSurgeThunderBadgeInfoText** (1 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymLTSurgeTM24NoRoomText** (1 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymSailorAfterBattleText** (1 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymSailorBattleText** (1 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymSailorEndBattleText** (1 connections) — `scripts/VermilionGym.asm`
-- **VermilionGymSuperNerdAfterBattleText** (1 connections) — `scripts/VermilionGym.asm`
-- *... and 2 more nodes in this community*
+- **scripts/SilphCo11F.asm** (34 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11FGiovanniAfterBattleScript** (11 connections) — `scripts/SilphCo11F.asm`
+- **21.55 Mapa `SilphCo11F`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **SilphCo11F_Script** (6 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11FGateCallbackScript** (6 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11FGiovanniBattleFacingScript** (6 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11FSetCurScript** (5 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11F_SetCardKeyDoorYScript** (4 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11FRocket1Text** (4 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11FRocket2Text** (4 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11FSetPlayerAndSpriteFacingDirectionScript** (4 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11FTeamRocketLeavesScript** (4 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo10FGiovanniILostAgainText** (2 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11F_ScriptPointers** (2 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11FResetCurScript** (2 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11FRocket1AfterBattleText** (2 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11FRocket1BattleText** (2 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11FRocket1EndBattleText** (2 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11FRocket2AfterBattleText** (2 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11FRocket2BattleText** (2 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11FRocket2EndBattleText** (2 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11FSetUnlockedDoorEventScript** (2 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11GateCoords** (2 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11TrainerHeader0** (2 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo11TrainerHeader1** (2 connections) — `scripts/SilphCo11F.asm`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
+- [Scripts 2](Scripts_2.md) (7 shared connections)
 - [Scripts](Scripts.md) (4 shared connections)
-- [Home 8](Home_8.md) (3 shared connections)
-- [Scripts 7](Scripts_7.md) (2 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Engine Overworld 2](Engine_Overworld_2.md) (2 shared connections)
+- [Scripts 13](Scripts_13.md) (2 shared connections)
+- [Scripts 9](Scripts_9.md) (2 shared connections)
+- [Scripts 28](Scripts_28.md) (1 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 69](Scripts_69.md) (1 shared connections)
+- [Ram 11](Ram_11.md) (1 shared connections)
+- [Scripts 18](Scripts_18.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/VermilionGym.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/SilphCo11F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (100%)
+- EXTRACTED: 71 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

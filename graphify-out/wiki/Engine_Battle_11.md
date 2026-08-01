@@ -1,25 +1,39 @@
 # Engine Battle 11
 
-> 4 nodes · cohesion 0.83
+> 15 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **engine/battle/display_effectiveness.asm** (5 connections) — `engine/battle/display_effectiveness.asm`
-- **DisplayEffectiveness** (4 connections) — `engine/battle/display_effectiveness.asm`
-- **NotVeryEffectiveText** (2 connections) — `engine/battle/display_effectiveness.asm`
-- **SuperEffectiveText** (2 connections) — `engine/battle/display_effectiveness.asm`
+- **engine/battle/used_move_text.asm** (15 connections) — `engine/battle/used_move_text.asm`
+- **MoveNameText** (7 connections) — `engine/battle/used_move_text.asm`
+- **UsedMoveText** (7 connections) — `engine/battle/used_move_text.asm`
+- **DisplayUsedMoveText** (5 connections) — `engine/battle/used_move_text.asm`
+- **GetMoveGrammar** (4 connections) — `engine/battle/used_move_text.asm`
+- **UsedMove1Text** (3 connections) — `engine/battle/used_move_text.asm`
+- **UsedMoveText_CheckObedience** (3 connections) — `engine/battle/used_move_text.asm`
+- **data/moves/grammar.asm** (3 connections) — `data/moves/grammar.asm`
+- **MoveGrammar** (2 connections) — `data/moves/grammar.asm`
+- **EndUsedMove1Text** (2 connections) — `engine/battle/used_move_text.asm`
+- **EndUsedMove2Text** (2 connections) — `engine/battle/used_move_text.asm`
+- **EndUsedMove3Text** (2 connections) — `engine/battle/used_move_text.asm`
+- **EndUsedMove4Text** (2 connections) — `engine/battle/used_move_text.asm`
+- **EndUsedMove5Text** (2 connections) — `engine/battle/used_move_text.asm`
+- **UsedMove2Text** (2 connections) — `engine/battle/used_move_text.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Ram](Ram.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/battle/display_effectiveness.asm`
+- `data/moves/grammar.asm`
+- `engine/battle/used_move_text.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

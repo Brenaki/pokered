@@ -1,51 +1,55 @@
 # Scripts 44
 
-> 31 nodes · cohesion 0.08
+> 37 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts/SSAnne1FRooms.asm** (32 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRooms_Script** (5 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsCooltrainerFText** (4 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGentleman1Text** (4 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGentleman2Text** (4 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsYoungsterText** (4 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsWigglytuffText** (3 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRooms_ScriptPointers** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne8TrainerHeader0** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne8TrainerHeader1** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne8TrainerHeader2** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne8TrainerHeader3** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne8TrainerHeaders** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRooms_TextPointers** (1 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsCooltrainerFAfterBattleText** (1 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsCooltrainerFBattleText** (1 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsCooltrainerFEndBattleText** (1 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGentleman1AfterBattleText** (1 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGentleman1BattleText** (1 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGentleman1EndBattleText** (1 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGentleman2AfterBattleText** (1 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGentleman2BattleText** (1 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGentleman2EndBattleText** (1 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGentleman3Text** (1 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGirl1Text** (1 connections) — `scripts/SSAnne1FRooms.asm`
-- *... and 6 more nodes in this community*
+- **scripts/VictoryRoad2F.asm** (38 connections) — `scripts/VictoryRoad2F.asm`
+- **21.66 Mapa `VictoryRoad2F`** (17 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **VictoryRoad2F_Script** (8 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FMoltresBattleText** (5 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FCooltrainerMText** (4 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FHikerText** (4 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FMoltresText** (4 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FSuperNerd1Text** (4 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FSuperNerd2Text** (4 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FSuperNerd3Text** (4 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FCheckBoulderEventScript** (3 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FReplaceTileBlockScript** (3 connections) — `scripts/VictoryRoad2F.asm`
+- **MoltresTrainerHeader** (2 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2F_ScriptPointers** (2 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FCooltrainerMAfterBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FCooltrainerMBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FCooltrainerMEndBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FHikerAfterBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FHikerBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FHikerEndBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FResetBoulderEventScript** (2 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FSuperNerd1AfterBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FSuperNerd1BattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FSuperNerd1EndBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
+- **VictoryRoad2FSuperNerd2AfterBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (5 shared connections)
-- [Home 8](Home_8.md) (4 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Scripts](Scripts.md) (7 shared connections)
+- [Scripts 9](Scripts_9.md) (6 shared connections)
+- [Scripts 15](Scripts_15.md) (2 shared connections)
+- [Scripts 48](Scripts_48.md) (1 shared connections)
+- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 18](Scripts_18.md) (1 shared connections)
+- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SSAnne1FRooms.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/VictoryRoad2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 82 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

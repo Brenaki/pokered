@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/HallOfFame.asm** (3 connections) — `data/maps/objects/HallOfFame.asm`
-- **HallOfFame_Object** (1 connections) — `data/maps/objects/HallOfFame.asm`
+- **data/maps/objects/LavenderMart.asm** (3 connections) — `data/maps/objects/LavenderMart.asm`
+- **LavenderMart_Object** (1 connections) — `data/maps/objects/LavenderMart.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/HallOfFame.asm`
+- `data/maps/objects/LavenderMart.asm`
 
 ## Audit Trail
 

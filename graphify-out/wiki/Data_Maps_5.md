@@ -1,12 +1,11 @@
 # Data Maps 5
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **data/maps/town_map_order.asm** (4 connections) — `data/maps/town_map_order.asm`
-- **TownMapOrder** (2 connections) — `data/maps/town_map_order.asm`
-- **TownMapOrderEnd** (1 connections) — `data/maps/town_map_order.asm`
+- **data/maps/objects/BillsHouse.asm** (3 connections) — `data/maps/objects/BillsHouse.asm`
+- **BillsHouse_Object** (1 connections) — `data/maps/objects/BillsHouse.asm`
 
 ## Relationships
 
@@ -14,11 +13,11 @@
 
 ## Source Files
 
-- `data/maps/town_map_order.asm`
+- `data/maps/objects/BillsHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,55 +1,58 @@
 # Scripts 38
 
-> 36 nodes · cohesion 0.07
+> 41 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **scripts/VictoryRoad2F.asm** (38 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2F_Script** (8 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FCooltrainerMText** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FHikerText** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FMoltresBattleText** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FMoltresText** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd1Text** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd2Text** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd3Text** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FCheckBoulderEventScript** (3 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FReplaceTileBlockScript** (3 connections) — `scripts/VictoryRoad2F.asm`
-- **MoltresTrainerHeader** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2F_ScriptPointers** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FResetBoulderEventScript** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2TrainerHeader0** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2TrainerHeader1** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2TrainerHeader2** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2TrainerHeader3** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2TrainerHeader4** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2TrainerHeaders** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2F_TextPointers** (1 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FCooltrainerMAfterBattleText** (1 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FCooltrainerMBattleText** (1 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FCooltrainerMEndBattleText** (1 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FHikerAfterBattleText** (1 connections) — `scripts/VictoryRoad2F.asm`
-- *... and 11 more nodes in this community*
+- **OaksAideScript** (15 connections) — `engine/events/oaks_aide.asm`
+- **GateUpstairsScript_PrintIfFacingUp** (12 connections) — `scripts/Route12Gate2F.asm`
+- **engine/events/oaks_aide.asm** (10 connections) — `engine/events/oaks_aide.asm`
+- **scripts/Route11Gate2F.asm** (9 connections) — `scripts/Route11Gate2F.asm`
+- **scripts/Route12Gate2F.asm** (8 connections) — `scripts/Route12Gate2F.asm`
+- **scripts/Route16Gate2F.asm** (8 connections) — `scripts/Route16Gate2F.asm`
+- **Route15Gate2FOaksAideText** (8 connections) — `scripts/Route15Gate2F.asm`
+- **Route2GateOaksAideText** (8 connections) — `scripts/Route2Gate.asm`
+- **scripts/Route18Gate2F.asm** (7 connections) — `scripts/Route18Gate2F.asm`
+- **Route11Gate2FOaksAideText** (7 connections) — `scripts/Route11Gate2F.asm`
+- **scripts/Route15Gate2F.asm** (6 connections) — `scripts/Route15Gate2F.asm`
+- **DisableAutoTextBoxDrawing** (6 connections) — `home/window.asm`
+- **wOaksAideRewardItemName** (5 connections) — `ram/wram.asm`
+- **Route11Gate2FLeftBinocularsText** (4 connections) — `scripts/Route11Gate2F.asm`
+- **Route11Gate2FScriptEnd** (3 connections) — `scripts/Route11Gate2F.asm`
+- **Route18Gate2FYoungsterText** (3 connections) — `scripts/Route18Gate2F.asm`
+- **OaksAideComeBackText** (2 connections) — `engine/events/oaks_aide.asm`
+- **OaksAideGotItemText** (2 connections) — `engine/events/oaks_aide.asm`
+- **OaksAideHereYouGoText** (2 connections) — `engine/events/oaks_aide.asm`
+- **OaksAideHiText** (2 connections) — `engine/events/oaks_aide.asm`
+- **OaksAideNoRoomText** (2 connections) — `engine/events/oaks_aide.asm`
+- **OaksAideUhOhText** (2 connections) — `engine/events/oaks_aide.asm`
+- **Route11Gate2F_Script** (2 connections) — `scripts/Route11Gate2F.asm`
+- **Route11Gate2FRightBinocularsText** (2 connections) — `scripts/Route11Gate2F.asm`
+- **Route11Gate2FYoungsterText** (2 connections) — `scripts/Route11Gate2F.asm`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (7 shared connections)
-- [Home 8](Home_8.md) (6 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Scripts 47](Scripts_47.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
-- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
-- [Engine Overworld 6](Engine_Overworld_6.md) (1 shared connections)
+- [Scripts](Scripts.md) (17 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (9 shared connections)
+- [Engine Events 3](Engine_Events_3.md) (2 shared connections)
+- [Engine Menus](Engine_Menus.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/VictoryRoad2F.asm`
+- `engine/events/oaks_aide.asm`
+- `home/window.asm`
+- `ram/wram.asm`
+- `scripts/Route11Gate2F.asm`
+- `scripts/Route12Gate2F.asm`
+- `scripts/Route15Gate2F.asm`
+- `scripts/Route16Gate2F.asm`
+- `scripts/Route18Gate2F.asm`
+- `scripts/Route2Gate.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (100%)
+- EXTRACTED: 88 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

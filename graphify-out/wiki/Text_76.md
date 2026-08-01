@@ -1,19 +1,18 @@
 # Text 76
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **text/Route22.asm** (11 connections) — `text/Route22.asm`
-- **_Route22PokemonLeagueSignText** (1 connections) — `text/Route22.asm`
-- **_Route22Rival1DefeatedText** (1 connections) — `text/Route22.asm`
-- **_Route22Rival1VictoryText** (1 connections) — `text/Route22.asm`
-- **_Route22Rival2DefeatedText** (1 connections) — `text/Route22.asm`
-- **_Route22Rival2VictoryText** (1 connections) — `text/Route22.asm`
-- **_Route22RivalAfterBattleText1** (1 connections) — `text/Route22.asm`
-- **_Route22RivalAfterBattleText2** (1 connections) — `text/Route22.asm`
-- **_Route22RivalBeforeBattleText1** (1 connections) — `text/Route22.asm`
-- **_Route22RivalBeforeBattleText2** (1 connections) — `text/Route22.asm`
+- **text/BillsHouse.asm** (10 connections) — `text/BillsHouse.asm`
+- **_BillsHouseBillCheckOutMyRarePokemonText** (1 connections) — `text/BillsHouse.asm`
+- **_BillsHouseBillImNotAPokemonText** (1 connections) — `text/BillsHouse.asm`
+- **_BillsHouseBillNoYouGottaHelpText** (1 connections) — `text/BillsHouse.asm`
+- **_BillsHouseBillThankYouText** (1 connections) — `text/BillsHouse.asm`
+- **_BillsHouseBillUseSeparationSystemText** (1 connections) — `text/BillsHouse.asm`
+- **_BillsHouseBillWhyDontYouGoInsteadOfMeText** (1 connections) — `text/BillsHouse.asm`
+- **_SSTicketNoRoomText** (1 connections) — `text/BillsHouse.asm`
+- **_SSTicketReceivedText** (1 connections) — `text/BillsHouse.asm`
 
 ## Relationships
 
@@ -21,11 +20,11 @@
 
 ## Source Files
 
-- `text/Route22.asm`
+- `text/BillsHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

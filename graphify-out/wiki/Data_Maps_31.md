@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/FuchsiaBillsGrandpasHouse.asm** (3 connections) — `data/maps/objects/FuchsiaBillsGrandpasHouse.asm`
-- **FuchsiaBillsGrandpasHouse_Object** (1 connections) — `data/maps/objects/FuchsiaBillsGrandpasHouse.asm`
+- **data/maps/objects/FuchsiaMeetingRoom.asm** (3 connections) — `data/maps/objects/FuchsiaMeetingRoom.asm`
+- **FuchsiaMeetingRoom_Object** (1 connections) — `data/maps/objects/FuchsiaMeetingRoom.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/FuchsiaBillsGrandpasHouse.asm`
+- `data/maps/objects/FuchsiaMeetingRoom.asm`
 
 ## Audit Trail
 

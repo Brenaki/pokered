@@ -33,8 +33,8 @@
 
 ## Relationships
 
-- [Gfx Pics.Asm 2](Gfx_Pics.Asm_2.md) (33 shared connections)
-- [Gfx Pics.Asm 3](Gfx_Pics.Asm_3.md) (29 shared connections)
+- [Gfx Pics.Asm 2](Gfx_Pics.Asm_2.md) (32 shared connections)
+- [Gfx Pics.Asm 3](Gfx_Pics.Asm_3.md) (30 shared connections)
 - [Gfx Pics.Asm 4](Gfx_Pics.Asm_4.md) (29 shared connections)
 - [Gfx Pics.Asm 5](Gfx_Pics.Asm_5.md) (26 shared connections)
 - [Bank ROMX](Bank_ROMX.md) (1 shared connections)

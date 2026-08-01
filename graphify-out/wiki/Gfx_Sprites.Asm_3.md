@@ -1,23 +1,30 @@
 # Gfx Sprites.Asm 3
 
-> 2 nodes · cohesion 1.00
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **BikeShopClerkSprite** (3 connections) — `gfx/sprites.asm`
-- **gfx/sprites/bike_shop_clerk.2bpp** (2 connections) — `gfx/sprites.asm`
+- **RedSprite** (6 connections) — `gfx/sprites.asm`
+- **LoadWalkingPlayerSpriteGraphics** (6 connections) — `home/overworld.asm`
+- **LoadSurfingPlayerSpriteGraphics** (5 connections) — `home/overworld.asm`
+- **SeelSprite** (4 connections) — `gfx/sprites.asm`
+- **LoadPlayerSpriteGraphicsCommon** (4 connections) — `home/overworld.asm`
+- **gfx/sprites/red.2bpp** (2 connections) — `gfx/sprites.asm`
+- **gfx/sprites/seel.2bpp** (2 connections) — `gfx/sprites.asm`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Engine Overworld 2](Engine_Overworld_2.md) (2 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
 
 - `gfx/sprites.asm`
+- `home/overworld.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

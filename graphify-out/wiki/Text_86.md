@@ -1,18 +1,17 @@
 # Text 86
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **text/SilphCo10F.asm** (10 connections) — `text/SilphCo10F.asm`
-- **_SilphCo10FRocketAfterBattleText** (1 connections) — `text/SilphCo10F.asm`
-- **_SilphCo10FRocketBattleText** (1 connections) — `text/SilphCo10F.asm`
-- **_SilphCo10FRocketEndBattleText** (1 connections) — `text/SilphCo10F.asm`
-- **_SilphCo10FScientistAfterBattleText** (1 connections) — `text/SilphCo10F.asm`
-- **_SilphCo10FScientistBattleText** (1 connections) — `text/SilphCo10F.asm`
-- **_SilphCo10FScientistEndBattleText** (1 connections) — `text/SilphCo10F.asm`
-- **_SilphCo10FSilphWorkerFImScaredText** (1 connections) — `text/SilphCo10F.asm`
-- **_SilphCo10FSilphWorkerFQuietAboutMyCryingText** (1 connections) — `text/SilphCo10F.asm`
+- **text/CinnabarLabMetronomeRoom.asm** (9 connections) — `text/CinnabarLabMetronomeRoom.asm`
+- **_CinnabarLabMetronomeRoomAmberPipeText** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
+- **_CinnabarLabMetronomeRoomPCText** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
+- **_CinnabarLabMetronomeRoomScientist1ReceivedTM35Text** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
+- **_CinnabarLabMetronomeRoomScientist1Text** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
+- **_CinnabarLabMetronomeRoomScientist1TM35ExplanationText** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
+- **_CinnabarLabMetronomeRoomScientist1TM35NoRoomText** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
+- **_CinnabarLabMetronomeRoomScientist2Text** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
 
 ## Relationships
 
@@ -20,11 +19,11 @@
 
 ## Source Files
 
-- `text/SilphCo10F.asm`
+- `text/CinnabarLabMetronomeRoom.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
