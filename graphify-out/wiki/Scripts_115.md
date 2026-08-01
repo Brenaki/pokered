@@ -1,29 +1,31 @@
 # Scripts 115
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **scripts/VermilionPokecenter.asm** (8 connections) — `scripts/VermilionPokecenter.asm`
-- **VermilionPokecenter_Script** (3 connections) — `scripts/VermilionPokecenter.asm`
-- **VermilionPokecenter_TextPointers** (1 connections) — `scripts/VermilionPokecenter.asm`
-- **VermilionPokecenterFishingGuruText** (1 connections) — `scripts/VermilionPokecenter.asm`
-- **VermilionPokecenterLinkReceptionistText** (1 connections) — `scripts/VermilionPokecenter.asm`
-- **VermilionPokecenterNurseText** (1 connections) — `scripts/VermilionPokecenter.asm`
-- **VermilionPokecenterSailorText** (1 connections) — `scripts/VermilionPokecenter.asm`
+- **scripts/CeruleanCaveB1F.asm** (9 connections) — `scripts/CeruleanCaveB1F.asm`
+- **CeruleanCaveB1F_Script** (5 connections) — `scripts/CeruleanCaveB1F.asm`
+- **CeruleanCaveB1FMewtwoText** (4 connections) — `scripts/CeruleanCaveB1F.asm`
+- **CeruleanCaveB1F_ScriptPointers** (2 connections) — `scripts/CeruleanCaveB1F.asm`
+- **CeruleanCaveB1FTrainerHeaders** (2 connections) — `scripts/CeruleanCaveB1F.asm`
+- **MewtwoTrainerHeader** (2 connections) — `scripts/CeruleanCaveB1F.asm`
+- **CeruleanCaveB1F_TextPointers** (1 connections) — `scripts/CeruleanCaveB1F.asm`
 
 ## Relationships
 
-- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Scripts 74](Scripts_74.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Home 8](Home_8.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/VermilionPokecenter.asm`
+- `scripts/CeruleanCaveB1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,25 +4,24 @@
 
 ## Key Concepts
 
-- **scripts/ViridianNicknameHouse.asm** (8 connections) — `scripts/ViridianNicknameHouse.asm`
-- **ViridianNicknameHouse_Script** (2 connections) — `scripts/ViridianNicknameHouse.asm`
-- **ViridianNicknameHouse_TextPointers** (1 connections) — `scripts/ViridianNicknameHouse.asm`
-- **ViridianNicknameHouseBaldingGuyText** (1 connections) — `scripts/ViridianNicknameHouse.asm`
-- **ViridianNicknameHouseLittleGirlText** (1 connections) — `scripts/ViridianNicknameHouse.asm`
-- **ViridianNicknameHouseSpearySignText** (1 connections) — `scripts/ViridianNicknameHouse.asm`
+- **scripts/IndigoPlateauLobby.asm** (8 connections) — `scripts/IndigoPlateauLobby.asm`
+- **IndigoPlateauLobby_TextPointers** (1 connections) — `scripts/IndigoPlateauLobby.asm`
+- **IndigoPlateauLobbyCooltrainerFText** (1 connections) — `scripts/IndigoPlateauLobby.asm`
+- **IndigoPlateauLobbyGymGuideText** (1 connections) — `scripts/IndigoPlateauLobby.asm`
+- **IndigoPlateauLobbyLinkReceptionistText** (1 connections) — `scripts/IndigoPlateauLobby.asm`
+- **IndigoPlateauLobbyNurseText** (1 connections) — `scripts/IndigoPlateauLobby.asm`
 
 ## Relationships
 
-- [Scripts 15](Scripts_15.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 81](Scripts_81.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/ViridianNicknameHouse.asm`
+- `scripts/IndigoPlateauLobby.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

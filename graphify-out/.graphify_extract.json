@@ -42214,6 +42214,374 @@
       "source_location": "L3707"
     },
     {
+      "id": "file_docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md",
+      "label": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "type": "file",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "label": "Audio, musicas, efeitos sonoros e sprites de Pokemon Red/Blue",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_3_controle_do_documento",
+      "label": "Controle do documento",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_19_historico_de_revisoes",
+      "label": "Historico de revisoes",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L19"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_25_1_finalidade_e_relacao_com_a_iso_9001",
+      "label": "1. Finalidade e relacao com a ISO 9001",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_41_2_escopo",
+      "label": "2. Escopo",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L41"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_43_2_1_incluido",
+      "label": "2.1 Incluido",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L43"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_55_2_2_excluido",
+      "label": "2.2 Excluido",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L55"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_63_3_objetivos_e_criterios_da_qualidade",
+      "label": "3. Objetivos e criterios da qualidade",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L63"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_75_4_conclusao_executiva",
+      "label": "4. Conclusao executiva",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L75"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "label": "5. Visao arquitetural",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L97"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_134_6_subsistema_de_audio",
+      "label": "6. Subsistema de audio",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L134"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_136_6_1_modelo_de_execucao",
+      "label": "6.1 Modelo de execucao",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L136"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_149_6_2_canais_e_concorrencia",
+      "label": "6.2 Canais e concorrencia",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L149"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_165_6_3_linguagem_de_comandos",
+      "label": "6.3 Linguagem de comandos",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L165"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_189_6_4_musica_contextual_e_batalha",
+      "label": "6.4 Musica contextual e batalha",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L189"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_202_6_5_gritos_de_pokemon",
+      "label": "6.5 Gritos de Pokemon",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L202"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_211_6_6_estado_persistente_do_motor",
+      "label": "6.6 Estado persistente do motor",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L211"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_219_7_pipeline_de_graficos_e_sprites",
+      "label": "7. Pipeline de graficos e sprites",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L219"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_221_7_1_build_dos_assets",
+      "label": "7.1 Build dos assets",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L221"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_237_7_2_imagens_de_pokemon_e_treinadores",
+      "label": "7.2 Imagens de Pokemon e treinadores",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L237"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_257_7_3_personagens_de_overworld",
+      "label": "7.3 Personagens de overworld",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L257"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_278_7_4_paletas",
+      "label": "7.4 Paletas",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L278"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_286_8_o_que_acontece_fora_da_tela",
+      "label": "8. O que acontece fora da tela",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L286"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_288_8_1_estado_logico_viewport_e_vram",
+      "label": "8.1 Estado logico, viewport e VRAM",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L288"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_312_8_2_ordem_de_oam_e_latencia",
+      "label": "8.2 Ordem de OAM e latencia",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L312"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_320_8_3_reuso_por_modo",
+      "label": "8.3 Reuso por modo",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L320"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_329_9_reescrita_incremental_em_c",
+      "label": "9. Reescrita incremental em C",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L329"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_331_9_1_contextos_ddd_e_portas",
+      "label": "9.1 Contextos DDD e portas",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L331"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_348_9_2_sequencia_de_extracao_por_refactoring_tdd",
+      "label": "9.2 Sequencia de extracao por Refactoring/TDD",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L348"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_363_9_3_melhorias_posteriores_fora_do_modo_fiel",
+      "label": "9.3 Melhorias posteriores, fora do modo fiel",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L363"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_380_10_estrategia_de_testes_e_aceitacao",
+      "label": "10. Estrategia de testes e aceitacao",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L380"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_402_11_riscos_e_controles",
+      "label": "11. Riscos e controles",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L402"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_419_12_matriz_de_rastreabilidade",
+      "label": "12. Matriz de rastreabilidade",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L419"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_431_13_controle_de_mudancas",
+      "label": "13. Controle de mudancas",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L431"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_443_14_inventarios_gerados",
+      "label": "14. Inventarios gerados",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L443"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_448_14_1_musicas_enderecaveis",
+      "label": "14.1 Musicas enderecaveis",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L448"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_498_14_2_musica_por_mapa",
+      "label": "14.2 Musica por mapa",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L498"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_754_14_3_efeitos_instrumentos_e_gritos_base",
+      "label": "14.3 Efeitos, instrumentos e gritos-base",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L754"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_923_14_4_gritos_por_indice_interno",
+      "label": "14.4 Gritos por indice interno",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L923"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1121_14_5_sprites_de_overworld",
+      "label": "14.5 Sprites de overworld",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L1121"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1202_14_6_imagens_por_classe_de_treinador",
+      "label": "14.6 Imagens por classe de treinador",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L1202"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1257_14_7_imagens_comprimidas_de_personagens_ativas",
+      "label": "14.7 Imagens comprimidas de personagens ativas",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L1257"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1617_14_8_cobertura_dos_pngs_no_repositorio",
+      "label": "14.8 Cobertura dos PNGs no repositorio",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L1617"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1649_15_evidencias_de_geracao",
+      "label": "15. Evidencias de geracao",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L1649"
+    },
+    {
+      "id": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1657_16_aprovacao_e_pendencias",
+      "label": "16. Aprovacao e pendencias",
+      "type": "section",
+      "file_type": "document",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "source_location": "L1657"
+    },
+    {
       "id": "file_engine_battle_animations_asm",
       "label": "engine/battle/animations.asm",
       "type": "file",
@@ -126757,6 +127125,366 @@
       "source_location": "L1"
     },
     {
+      "id": "file_tools_generate_audio_sprite_document_py",
+      "label": "tools/generate_audio_sprite_document.py",
+      "type": "file",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_identifier",
+      "label": "identifier",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L20"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_target",
+      "label": "target",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L21"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_bank",
+      "label": "bank",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L22"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_line",
+      "label": "line",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L23"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_comment",
+      "label": "comment",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L24"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_symbol",
+      "label": "symbol",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L29"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_channels",
+      "label": "channels",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L31"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_pointers",
+      "label": "pointers",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L32"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_source",
+      "label": "source",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L33"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_map_name",
+      "label": "map_name",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L39"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_music_id",
+      "label": "music_id",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L40"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_bank_symbol",
+      "label": "bank_symbol",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L41"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_index",
+      "label": "index",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L47"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_base",
+      "label": "base",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L48"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_pitch",
+      "label": "pitch",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L49"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_length",
+      "label": "length",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L50"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_pokemon",
+      "label": "pokemon",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L51"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_sprite_id",
+      "label": "sprite_id",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L57"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_tiles",
+      "label": "tiles",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L60"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_source_asset",
+      "label": "source_asset",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L61"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_constant_line",
+      "label": "constant_line",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L62"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_table_line",
+      "label": "table_line",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L63"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_trainer_index",
+      "label": "trainer_index",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L68"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_reward",
+      "label": "reward",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L70"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_music",
+      "label": "music",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L106"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_sfx",
+      "label": "sfx",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L107"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_headers",
+      "label": "headers",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L128"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_result",
+      "label": "result",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L158"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_pending_labels",
+      "label": "pending_labels",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L197"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_constants",
+      "label": "constants",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L222"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_rows",
+      "label": "rows",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L230"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_unique",
+      "label": "unique",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L268"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_counts",
+      "label": "counts",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L276"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_music_headers",
+      "label": "music_headers",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L311"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_sfx_headers",
+      "label": "sfx_headers",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L312"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_map_songs",
+      "label": "map_songs",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L313"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_cries",
+      "label": "cries",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L314"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_sprites",
+      "label": "sprites",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L315"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_trainers",
+      "label": "trainers",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L316"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_directory_counts",
+      "label": "directory_counts",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L317"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_sfx_availability",
+      "label": "sfx_availability",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L367"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_lines",
+      "label": "lines",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L371"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_music_rows",
+      "label": "music_rows",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L825"
+    },
+    {
+      "id": "tools_generate_audio_sprite_document_py_label_sfx_rows",
+      "label": "sfx_rows",
+      "type": "label",
+      "file_type": "code",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "source_location": "L865"
+    },
+    {
       "id": "file_tools_generate_npc_ai_document_py",
       "label": "tools/generate_npc_ai_document.py",
       "type": "file",
@@ -179963,6 +180691,419 @@
       "source_file": "docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md",
       "weight": 1.0,
       "source_location": "L3707"
+    },
+    {
+      "source": "domain_docs",
+      "target": "file_docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0
+    },
+    {
+      "source": "file_docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L1"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_3_controle_do_documento",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L3"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_3_controle_do_documento",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_19_historico_de_revisoes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L19"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_25_1_finalidade_e_relacao_com_a_iso_9001",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L25"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_41_2_escopo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L41"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_41_2_escopo",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_43_2_1_incluido",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L43"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_41_2_escopo",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_55_2_2_excluido",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L55"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_63_3_objetivos_e_criterios_da_qualidade",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L63"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_75_4_conclusao_executiva",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L75"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L97"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_134_6_subsistema_de_audio",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L134"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_134_6_subsistema_de_audio",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_136_6_1_modelo_de_execucao",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L136"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_134_6_subsistema_de_audio",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_149_6_2_canais_e_concorrencia",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L149"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_134_6_subsistema_de_audio",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_165_6_3_linguagem_de_comandos",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L165"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_134_6_subsistema_de_audio",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_189_6_4_musica_contextual_e_batalha",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L189"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_134_6_subsistema_de_audio",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_202_6_5_gritos_de_pokemon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L202"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_134_6_subsistema_de_audio",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_211_6_6_estado_persistente_do_motor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L211"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_219_7_pipeline_de_graficos_e_sprites",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L219"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_219_7_pipeline_de_graficos_e_sprites",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_221_7_1_build_dos_assets",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L221"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_219_7_pipeline_de_graficos_e_sprites",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_237_7_2_imagens_de_pokemon_e_treinadores",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L237"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_219_7_pipeline_de_graficos_e_sprites",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_257_7_3_personagens_de_overworld",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L257"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_219_7_pipeline_de_graficos_e_sprites",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_278_7_4_paletas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L278"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_286_8_o_que_acontece_fora_da_tela",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L286"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_286_8_o_que_acontece_fora_da_tela",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_288_8_1_estado_logico_viewport_e_vram",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L288"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_286_8_o_que_acontece_fora_da_tela",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_312_8_2_ordem_de_oam_e_latencia",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L312"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_286_8_o_que_acontece_fora_da_tela",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_320_8_3_reuso_por_modo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L320"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_329_9_reescrita_incremental_em_c",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L329"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_329_9_reescrita_incremental_em_c",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_331_9_1_contextos_ddd_e_portas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L331"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_329_9_reescrita_incremental_em_c",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_348_9_2_sequencia_de_extracao_por_refactoring_tdd",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L348"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_329_9_reescrita_incremental_em_c",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_363_9_3_melhorias_posteriores_fora_do_modo_fiel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L363"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_380_10_estrategia_de_testes_e_aceitacao",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L380"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_402_11_riscos_e_controles",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L402"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_419_12_matriz_de_rastreabilidade",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L419"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_431_13_controle_de_mudancas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L431"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_443_14_inventarios_gerados",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L443"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_443_14_inventarios_gerados",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_448_14_1_musicas_enderecaveis",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L448"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_443_14_inventarios_gerados",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_498_14_2_musica_por_mapa",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L498"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_443_14_inventarios_gerados",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_754_14_3_efeitos_instrumentos_e_gritos_base",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L754"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_443_14_inventarios_gerados",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_923_14_4_gritos_por_indice_interno",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L923"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_443_14_inventarios_gerados",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1121_14_5_sprites_de_overworld",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L1121"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_443_14_inventarios_gerados",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1202_14_6_imagens_por_classe_de_treinador",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L1202"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_443_14_inventarios_gerados",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1257_14_7_imagens_comprimidas_de_personagens_ativas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L1257"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_443_14_inventarios_gerados",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1617_14_8_cobertura_dos_pngs_no_repositorio",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L1617"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1649_15_evidencias_de_geracao",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L1649"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1_audio_musicas_efeitos_sonoros_e_sprites_de_pokemon_red_blue",
+      "target": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1657_16_aprovacao_e_pendencias",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L1657"
     },
     {
       "source": "project_pokered",
@@ -291761,6 +292902,608 @@
     },
     {
       "source": "domain_tools",
+      "target": "file_tools_generate_audio_sprite_document_py",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_identifier",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L20"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_target",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L21"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_bank",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L22"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_line",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L23"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_comment",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L24"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_symbol",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L29"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_bank",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L30"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_channels",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L31"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_pointers",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L32"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_source",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L33"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_line",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L34"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_map_name",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L39"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_music_id",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L40"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_bank_symbol",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L41"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_line",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L42"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_index",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L47"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_base",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L48"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_pitch",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L49"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_length",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L50"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_pokemon",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L51"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_line",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L52"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_sprite_id",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L57"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_identifier",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L58"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_symbol",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L59"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_tiles",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L60"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_source_asset",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L61"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_constant_line",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L62"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_table_line",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L63"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_trainer_index",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L68"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_symbol",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L69"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_reward",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L70"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_source_asset",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L71"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_line",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L72"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_symbol",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L77"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_source_asset",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L78"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_source",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L79"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_line",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L80"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_music",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L106"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_sfx",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L107"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_headers",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L128"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_channels",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L140"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_pointers",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L141"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_result",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L158"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_result",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L173"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_result",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L187"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_result",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L196"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_pending_labels",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L197"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_constants",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L222"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_rows",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L230"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_result",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L238"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_result",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L250"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_unique",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L268"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_counts",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L276"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_music",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L309"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_sfx",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L310"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_music_headers",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L311"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_sfx_headers",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L312"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_map_songs",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L313"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_cries",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L314"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_sprites",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L315"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_trainers",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L316"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_directory_counts",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L317"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_sfx_availability",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L367"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_lines",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L371"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_music_rows",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L825"
+    },
+    {
+      "source": "file_tools_generate_audio_sprite_document_py",
+      "target": "tools_generate_audio_sprite_document_py_label_sfx_rows",
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L865"
+    },
+    {
+      "source": "domain_tools",
       "target": "file_tools_generate_npc_ai_document_py",
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -338415,6 +340158,1113 @@
       "source_location": "L3704"
     },
     {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_home_audio_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L119"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_home_pokemon_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L119"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "home_audio_asm_label_playsound",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L119"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "home_audio_asm_label_playmusic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L119"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "home_audio_asm_label_playdefaultmusic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L119"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "home_pokemon_asm_label_playcry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L119"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "home_pokemon_asm_label_getcrydata",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L119"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_home_vblank_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L120"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_home_fade_audio_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L120"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "home_vblank_asm_label_vblank",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L120"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "home_fade_audio_asm_label_fadeoutaudio",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L120"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_audio_engine_1_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L121"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "home_audio_asm_label_playsound",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L121"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_macros_scripts_audio_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L122"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_audio_notes_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L122"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_constants_music_constants_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L123"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_data_maps_songs_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L123"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_data_pokemon_cries_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L124"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "data_pokemon_cries_asm_label_crydata",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L124"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_makefile",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L125"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_tools_gfx_c",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L125"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_tools_pkmncompress_c",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L125"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_home_uncompress_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L126"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_home_pics_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L126"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "home_uncompress_asm_label_uncompressspritedata",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L126"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_engine_overworld_map_sprites_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L127"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_engine_gfx_sprite_oam_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L128"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_engine_gfx_oam_dma_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L128"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "engine_gfx_sprite_oam_asm_label_prepareoamdata",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L128"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "ram_wram_asm_label_wshadowoam",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L128"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "engine_gfx_oam_dma_asm_label_hdmaroutine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L128"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_home_vcopy_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L129"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_ram_vram_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L130"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_ram_wram_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L130"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "ram_wram_asm_label_wtilemap",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L130"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_engine_battle_core_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L131"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_gfx_pics_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L131"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "ram_vram_asm_label_vfrontpic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L131"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "ram_vram_asm_label_vbackpic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L131"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_home_palettes_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L132"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_engine_gfx_palettes_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L132"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_97_5_visao_arquitetural",
+      "target": "file_data_sgb_sgb_palettes_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L132"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_136_6_1_modelo_de_execucao",
+      "target": "home_audio_asm_label_playmusic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L138"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_136_6_1_modelo_de_execucao",
+      "target": "home_audio_asm_label_playsound",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L138"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_136_6_1_modelo_de_execucao",
+      "target": "ram_wram_asm_label_waudiorombank",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L139"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_136_6_1_modelo_de_execucao",
+      "target": "audio_engine_1_asm_label_audio1_playsound",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L140"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_136_6_1_modelo_de_execucao",
+      "target": "audio_engine_2_asm_label_audio2_playsound",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L140"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_136_6_1_modelo_de_execucao",
+      "target": "audio_engine_3_asm_label_audio3_playsound",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L140"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_136_6_1_modelo_de_execucao",
+      "target": "home_fade_audio_asm_label_fadeoutaudio",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L141"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_136_6_1_modelo_de_execucao",
+      "target": "ram_wram_asm_label_waudiosavedrombank",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L142"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_136_6_1_modelo_de_execucao",
+      "target": "audio_low_health_alarm_asm_label_music_dolowhealthalarm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L146"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_136_6_1_modelo_de_execucao",
+      "target": "home_audio_asm_label_updatemusic6times",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L146"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_149_6_2_canais_e_concorrencia",
+      "target": "home_delay_asm_label_waitforsoundtofinish",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L162"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_165_6_3_linguagem_de_comandos",
+      "target": "file_audio_notes_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L179"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_189_6_4_musica_contextual_e_batalha",
+      "target": "file_data_maps_songs_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L191"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_189_6_4_musica_contextual_e_batalha",
+      "target": "home_audio_asm_label_playdefaultmusic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L191"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_189_6_4_musica_contextual_e_batalha",
+      "target": "ram_wram_asm_label_wwalkbikesurfstate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L193"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_189_6_4_musica_contextual_e_batalha",
+      "target": "audio_play_battle_music_asm_label_playbattlemusic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L193"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_189_6_4_musica_contextual_e_batalha",
+      "target": "file_audio_music_unusedsong_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L198"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_189_6_4_musica_contextual_e_batalha",
+      "target": "audio_poke_flute_asm_label_music_pokefluteinbattle",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L199"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_202_6_5_gritos_de_pokemon",
+      "target": "home_pokemon_asm_label_playcry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L204"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_202_6_5_gritos_de_pokemon",
+      "target": "home_pokemon_asm_label_getcrydata",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L204"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_202_6_5_gritos_de_pokemon",
+      "target": "data_pokemon_cries_asm_label_crydata",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L204"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_202_6_5_gritos_de_pokemon",
+      "target": "home_audio_asm_label_playsound",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L206"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_211_6_6_estado_persistente_do_motor",
+      "target": "file_ram_wram_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L213"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_211_6_6_estado_persistente_do_motor",
+      "target": "ram_wram_asm_label_wmuteaudioandpausemusic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L216"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_221_7_1_build_dos_assets",
+      "target": "file_makefile",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L224"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_221_7_1_build_dos_assets",
+      "target": "file_home_uncompress_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L232"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_221_7_1_build_dos_assets",
+      "target": "home_pics_asm_label_loaduncompressedspritedata",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L234"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_237_7_2_imagens_de_pokemon_e_treinadores",
+      "target": "home_pics_asm_label_uncompressmonsprite",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L239"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_237_7_2_imagens_de_pokemon_e_treinadores",
+      "target": "home_pics_asm_label_loadmonfrontsprite",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L241"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_237_7_2_imagens_de_pokemon_e_treinadores",
+      "target": "ram_vram_asm_label_vfrontpic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L241"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_237_7_2_imagens_de_pokemon_e_treinadores",
+      "target": "engine_battle_scale_sprites_asm_label_scalespritebytwo",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L242"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_237_7_2_imagens_de_pokemon_e_treinadores",
+      "target": "engine_battle_core_asm_label_loadtrainerpic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L244"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_237_7_2_imagens_de_pokemon_e_treinadores",
+      "target": "data_trainers_pic_pointers_money_asm_label_trainerpicandmoneypointers",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L244"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_237_7_2_imagens_de_pokemon_e_treinadores",
+      "target": "gfx_player_asm_label_redpicfront",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L245"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_237_7_2_imagens_de_pokemon_e_treinadores",
+      "target": "engine_battle_core_asm_label_copyuncompressedpictotilemap",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L245"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_237_7_2_imagens_de_pokemon_e_treinadores",
+      "target": "file_makefile",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L254"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_237_7_2_imagens_de_pokemon_e_treinadores",
+      "target": "file_gfx_pics_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L254"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_257_7_3_personagens_de_overworld",
+      "target": "engine_overworld_map_sprites_asm_label_initmapsprites",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L266"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_257_7_3_personagens_de_overworld",
+      "target": "home_overworld_asm_label_loadplayerspritegraphics",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L272"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_257_7_3_personagens_de_overworld",
+      "target": "gfx_sprites_asm_label_redsprite",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L272"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_257_7_3_personagens_de_overworld",
+      "target": "gfx_sprites_asm_label_redbikesprite",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L272"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_257_7_3_personagens_de_overworld",
+      "target": "gfx_sprites_asm_label_seelsprite",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L272"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_257_7_3_personagens_de_overworld",
+      "target": "home_copy2_asm_label_copyvideodata",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L275"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_278_7_4_paletas",
+      "target": "file_engine_gfx_palettes_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L281"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_278_7_4_paletas",
+      "target": "ram_wram_asm_label_wonsgb",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L282"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_278_7_4_paletas",
+      "target": "data_pokemon_palettes_asm_label_monsterpalettes",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L282"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_278_7_4_paletas",
+      "target": "file_data_sgb_sgb_palettes_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L283"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_288_8_1_estado_logico_viewport_e_vram",
+      "target": "ram_wram_asm_label_woverworldmap",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L292"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_288_8_1_estado_logico_viewport_e_vram",
+      "target": "ram_wram_asm_label_wsurroundingtiles",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L292"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_288_8_1_estado_logico_viewport_e_vram",
+      "target": "ram_wram_asm_label_wtilemap",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L293"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_288_8_1_estado_logico_viewport_e_vram",
+      "target": "ram_wram_asm_label_wshadowoam",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L296"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_288_8_1_estado_logico_viewport_e_vram",
+      "target": "ram_vram_asm_label_vnpcsprites",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L297"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_288_8_1_estado_logico_viewport_e_vram",
+      "target": "ram_vram_asm_label_vsprites",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L297"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_288_8_1_estado_logico_viewport_e_vram",
+      "target": "ram_vram_asm_label_vfrontpic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L297"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_288_8_1_estado_logico_viewport_e_vram",
+      "target": "ram_vram_asm_label_vbackpic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L297"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_288_8_1_estado_logico_viewport_e_vram",
+      "target": "engine_overworld_movement_asm_label_checkspriteavailability",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L299"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_288_8_1_estado_logico_viewport_e_vram",
+      "target": "engine_gfx_sprite_oam_asm_label_prepareoamdata",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L301"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_288_8_1_estado_logico_viewport_e_vram",
+      "target": "home_vcopy_asm_label_redrawroworcolumn",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L306"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_288_8_1_estado_logico_viewport_e_vram",
+      "target": "home_vcopy_asm_label_autobgmaptransfer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L308"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_288_8_1_estado_logico_viewport_e_vram",
+      "target": "home_copy2_asm_label_copyvideodata",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L309"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_312_8_2_ordem_de_oam_e_latencia",
+      "target": "engine_gfx_oam_dma_asm_label_hdmaroutine",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L314"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_312_8_2_ordem_de_oam_e_latencia",
+      "target": "ram_wram_asm_label_wshadowoam",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L314"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_312_8_2_ordem_de_oam_e_latencia",
+      "target": "engine_gfx_sprite_oam_asm_label_prepareoamdata",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L315"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_320_8_3_reuso_por_modo",
+      "target": "file_ram_vram_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L322"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_320_8_3_reuso_por_modo",
+      "target": "ram_vram_asm_label_vfrontpic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L323"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_419_12_matriz_de_rastreabilidade",
+      "target": "file_home_vblank_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L425"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_431_13_controle_de_mudancas",
+      "target": "file_home_audio_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L433"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_431_13_controle_de_mudancas",
+      "target": "file_home_vblank_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L433"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_431_13_controle_de_mudancas",
+      "target": "file_home_pics_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L433"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_431_13_controle_de_mudancas",
+      "target": "file_home_vcopy_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L434"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_431_13_controle_de_mudancas",
+      "target": "file_engine_overworld_map_sprites_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L434"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1121_14_5_sprites_de_overworld",
+      "target": "home_overworld_asm_label_loadplayerspritegraphics",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L1125"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1202_14_6_imagens_por_classe_de_treinador",
+      "target": "gfx_pics_asm_label_chiefpic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L1205"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1202_14_6_imagens_por_classe_de_treinador",
+      "target": "gfx_pics_asm_label_scientistpic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L1205"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1202_14_6_imagens_por_classe_de_treinador",
+      "target": "gfx_pics_asm_label_jugglerpic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L1205"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1257_14_7_imagens_comprimidas_de_personagens_ativas",
+      "target": "file_gfx_pics_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L1259"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1257_14_7_imagens_comprimidas_de_personagens_ativas",
+      "target": "file_data_pokemon_mew_asm",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L1259"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1649_15_evidencias_de_geracao",
+      "target": "tools_generate_audio_sprite_document_py_label_music",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L1651"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1649_15_evidencias_de_geracao",
+      "target": "tools_generate_audio_sprite_document_py_label_sfx",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L1651"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1649_15_evidencias_de_geracao",
+      "target": "tools_generate_npc_ai_document_py_label_sprite",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L1652"
+    },
+    {
+      "source": "docs_004_2026_08_01_audio_musicas_efeitos_sonoros_e_sprites_md_heading_1649_15_evidencias_de_geracao",
+      "target": "file_tools_generate_audio_sprite_document_py",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md",
+      "weight": 1.0,
+      "source_location": "L1653"
+    },
+    {
       "source": "engine_battle_animations_asm_label_drawframeblock",
       "target": "home_delay_asm_label_delayframes",
       "relation": "calls",
@@ -367000,6 +369850,15 @@
     },
     {
       "source": "engine_gfx_palettes_asm_label_setpal_statusscreen",
+      "target": "tools_generate_audio_sprite_document_py_label_pokemon",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/gfx/palettes.asm",
+      "weight": 1.0,
+      "source_location": "L74"
+    },
+    {
+      "source": "engine_gfx_palettes_asm_label_setpal_statusscreen",
       "target": "engine_gfx_palettes_asm_label_determinepaletteidoutofbattle",
       "relation": "calls",
       "confidence": "EXTRACTED",
@@ -378598,6 +381457,15 @@
       "source_file": "engine/menus/naming_screen.asm",
       "weight": 1.0,
       "source_location": "L378"
+    },
+    {
+      "source": "engine_menus_naming_screen_asm_label_printnicknameandunderscores",
+      "target": "tools_generate_audio_sprite_document_py_label_pokemon",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/menus/naming_screen.asm",
+      "weight": 1.0,
+      "source_location": "L382"
     },
     {
       "source": "engine_menus_naming_screen_asm_label_printnicknameandunderscores",
@@ -471309,6 +474177,24 @@
       "source_location": "L278"
     },
     {
+      "source": "tools_generate_audio_sprite_document_py_label_directory_counts",
+      "target": "tools_generate_audio_sprite_document_py_label_music",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L336"
+    },
+    {
+      "source": "tools_generate_audio_sprite_document_py_label_directory_counts",
+      "target": "tools_generate_audio_sprite_document_py_label_music_headers",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/generate_audio_sprite_document.py",
+      "weight": 1.0,
+      "source_location": "L337"
+    },
+    {
       "source": "file_tools_generate_pokemon_catalog_py",
       "target": "file_data_pokemon_base_stats",
       "relation": "imports",
@@ -471334,6 +474220,15 @@
       "source_file": "tools/make_patch.c",
       "weight": 1.0,
       "source_location": "L4"
+    },
+    {
+      "source": "file_tools_make_patch_c",
+      "target": "tools_generate_audio_sprite_document_py_label_bank",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/make_patch.c",
+      "weight": 1.0,
+      "source_location": "L54"
     },
     {
       "source": "file_tools_pkmncompress_c",

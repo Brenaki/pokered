@@ -1,16 +1,18 @@
 # Scripts 107
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **scripts/CeladonDiner.asm** (9 connections) — `scripts/CeladonDiner.asm`
-- **CeladonDiner_Script** (2 connections) — `scripts/CeladonDiner.asm`
-- **CeladonDiner_TextPointers** (1 connections) — `scripts/CeladonDiner.asm`
-- **CeladonDinerCookText** (1 connections) — `scripts/CeladonDiner.asm`
-- **CeladonDinerFisherText** (1 connections) — `scripts/CeladonDiner.asm`
-- **CeladonDinerMiddleAgedManText** (1 connections) — `scripts/CeladonDiner.asm`
-- **CeladonDinerMiddleAgedWomanText** (1 connections) — `scripts/CeladonDiner.asm`
+- **scripts/LavenderTown.asm** (11 connections) — `scripts/LavenderTown.asm`
+- **LavenderTown_Script** (2 connections) — `scripts/LavenderTown.asm`
+- **LavenderTown_TextPointers** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownCooltrainerMText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownPokemonHouseSignText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownPokemonTowerSignText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownSignText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownSilphScopeSignText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownSuperNerdText** (1 connections) — `scripts/LavenderTown.asm`
 
 ## Relationships
 
@@ -19,11 +21,11 @@
 
 ## Source Files
 
-- `scripts/CeladonDiner.asm`
+- `scripts/LavenderTown.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

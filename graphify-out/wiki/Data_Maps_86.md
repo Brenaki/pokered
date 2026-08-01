@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/SeafoamIslandsB1F.asm** (3 connections) — `data/maps/objects/SeafoamIslandsB1F.asm`
-- **SeafoamIslandsB1F_Object** (1 connections) — `data/maps/objects/SeafoamIslandsB1F.asm`
+- **data/maps/objects/SaffronPidgeyHouse.asm** (3 connections) — `data/maps/objects/SaffronPidgeyHouse.asm`
+- **SaffronPidgeyHouse_Object** (1 connections) — `data/maps/objects/SaffronPidgeyHouse.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/SeafoamIslandsB1F.asm`
+- `data/maps/objects/SaffronPidgeyHouse.asm`
 
 ## Audit Trail
 

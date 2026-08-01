@@ -1,18 +1,19 @@
 # Docs 10
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **18. Fuga, troca, desmaio e encerramento** (5 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **18.1 Fuga de batalha selvagem** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **18.2 Troca** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **18.3 Desmaio** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **18.4 Experiência e recompensas** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **16. Itens de cura, status, PP e batalha** (6 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **16.1 Regras comuns** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **16.2 Cura de HP e revive** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **16.3 Cura de status** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **16.4 Recuperação e aumento de PP** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **16.5 Itens táticos** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
 
 ## Relationships
 
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 

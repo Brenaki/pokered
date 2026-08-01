@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/UndergroundPathRoute8.asm** (3 connections) — `data/maps/objects/UndergroundPathRoute8.asm`
-- **UndergroundPathRoute8_Object** (1 connections) — `data/maps/objects/UndergroundPathRoute8.asm`
+- **data/maps/objects/UndergroundPathRoute6.asm** (3 connections) — `data/maps/objects/UndergroundPathRoute6.asm`
+- **UndergroundPathRoute6_Object** (1 connections) — `data/maps/objects/UndergroundPathRoute6.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/UndergroundPathRoute8.asm`
+- `data/maps/objects/UndergroundPathRoute6.asm`
 
 ## Audit Trail
 

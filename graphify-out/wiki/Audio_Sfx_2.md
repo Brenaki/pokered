@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **Music_PokeFluteInBattle** (8 connections) — `audio/poke_flute.asm`
+- **Music_PokeFluteInBattle** (9 connections) — `audio/poke_flute.asm`
 - **audio/poke_flute.asm** (4 connections) — `audio/poke_flute.asm`
 - **audio/sfx/pokeflute_ch5_ch6.asm** (4 connections) — `audio/sfx/pokeflute_ch5_ch6.asm`
 - **audio/sfx/pokeflute_ch7.asm** (3 connections) — `audio/sfx/pokeflute_ch7.asm`
@@ -15,8 +15,8 @@
 
 ## Relationships
 
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
-- [Audio Engine 3.Asm](Audio_Engine_3.Asm.md) (1 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (1 shared connections)
+- [Audio Engine 1.Asm](Audio_Engine_1.Asm.md) (1 shared connections)
 
 ## Source Files
 

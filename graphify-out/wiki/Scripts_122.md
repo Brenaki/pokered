@@ -4,26 +4,24 @@
 
 ## Key Concepts
 
-- **scripts/CopycatsHouse1F.asm** (7 connections) — `scripts/CopycatsHouse1F.asm`
-- **CopycatsHouse1FChanseyText** (3 connections) — `scripts/CopycatsHouse1F.asm`
-- **CopycatsHouse1F_Script** (2 connections) — `scripts/CopycatsHouse1F.asm`
-- **CopycatsHouse1F_TextPointers** (1 connections) — `scripts/CopycatsHouse1F.asm`
-- **CopycatsHouse1FMiddleAgedManText** (1 connections) — `scripts/CopycatsHouse1F.asm`
-- **CopycatsHouse1FMiddleAgedWomanText** (1 connections) — `scripts/CopycatsHouse1F.asm`
+- **scripts/CeladonMart1F.asm** (7 connections) — `scripts/CeladonMart1F.asm`
+- **CeladonMart1F_Script** (2 connections) — `scripts/CeladonMart1F.asm`
+- **CeladonMart1F_TextPointers** (1 connections) — `scripts/CeladonMart1F.asm`
+- **CeladonMart1FCurrentFloorSignText** (1 connections) — `scripts/CeladonMart1F.asm`
+- **CeladonMart1FDirectorySignText** (1 connections) — `scripts/CeladonMart1F.asm`
+- **CeladonMart1FReceptionistText** (1 connections) — `scripts/CeladonMart1F.asm`
 
 ## Relationships
 
 - [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 15](Scripts_15.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CopycatsHouse1F.asm`
+- `scripts/CeladonMart1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

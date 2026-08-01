@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/HallOfFame.asm** (3 connections) — `data/maps/objects/HallOfFame.asm`
-- **HallOfFame_Object** (1 connections) — `data/maps/objects/HallOfFame.asm`
+- **data/maps/objects/FuchsiaMart.asm** (3 connections) — `data/maps/objects/FuchsiaMart.asm`
+- **FuchsiaMart_Object** (1 connections) — `data/maps/objects/FuchsiaMart.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/HallOfFame.asm`
+- `data/maps/objects/FuchsiaMart.asm`
 
 ## Audit Trail
 

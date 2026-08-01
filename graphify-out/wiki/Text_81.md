@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **text/Route24.asm** (10 connections) — `text/Route24.asm`
-- **_Route24CooltrainerM1DefeatedText** (1 connections) — `text/Route24.asm`
-- **_Route24CooltrainerM1JoinTeamRocketText** (1 connections) — `text/Route24.asm`
-- **_Route24CooltrainerM1NoRoomText** (1 connections) — `text/Route24.asm`
-- **_Route24CooltrainerM1ReceivedNuggetText** (1 connections) — `text/Route24.asm`
-- **_Route24CooltrainerM1YouBeatOurContestText** (1 connections) — `text/Route24.asm`
-- **_Route24CooltrainerM1YouCouldBecomeATopLeaderText** (1 connections) — `text/Route24.asm`
-- **_Route24CooltrainerM1YouJustEarnedAPrizeText** (1 connections) — `text/Route24.asm`
-- **_Route24CooltrainerM2BattleText** (1 connections) — `text/Route24.asm`
+- **text/ChampionsRoom.asm** (10 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomOakComeWithMeText** (1 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomOakCongratulatesPlayerText** (1 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomOakDisappointedWithRivalText** (1 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomOakText** (1 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomRivalAfterBattleText** (1 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomRivalIntroText** (1 connections) — `text/ChampionsRoom.asm`
+- **_RivalDefeatedText** (1 connections) — `text/ChampionsRoom.asm`
+- **_RivalVictoryText** (1 connections) — `text/ChampionsRoom.asm`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `text/Route24.asm`
+- `text/ChampionsRoom.asm`
 
 ## Audit Trail
 

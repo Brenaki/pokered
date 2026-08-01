@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **scripts/Route2.asm** (6 connections) — `scripts/Route2.asm`
-- **Route2_Script** (2 connections) — `scripts/Route2.asm`
-- **Route2_TextPointers** (1 connections) — `scripts/Route2.asm`
-- **Route2DiglettsCaveSignText** (1 connections) — `scripts/Route2.asm`
-- **Route2SignText** (1 connections) — `scripts/Route2.asm`
+- **scripts/CinnabarMart.asm** (6 connections) — `scripts/CinnabarMart.asm`
+- **CinnabarMart_Script** (2 connections) — `scripts/CinnabarMart.asm`
+- **CinnabarMart_TextPointers** (1 connections) — `scripts/CinnabarMart.asm`
+- **CinnabarMartScientistText** (1 connections) — `scripts/CinnabarMart.asm`
+- **CinnabarMartSilphWorkerFText** (1 connections) — `scripts/CinnabarMart.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `scripts/Route2.asm`
+- `scripts/CinnabarMart.asm`
 
 ## Audit Trail
 

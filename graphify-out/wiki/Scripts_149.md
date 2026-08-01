@@ -1,13 +1,14 @@
 # Scripts 149
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **scripts/Route15Gate1F.asm** (5 connections) — `scripts/Route15Gate1F.asm`
-- **Route15Gate1F_Script** (2 connections) — `scripts/Route15Gate1F.asm`
-- **Route15Gate1F_TextPointers** (1 connections) — `scripts/Route15Gate1F.asm`
-- **Route15Gate1FGuardText** (1 connections) — `scripts/Route15Gate1F.asm`
+- **scripts/ViridianForestSouthGate.asm** (6 connections) — `scripts/ViridianForestSouthGate.asm`
+- **ViridianForestSouthGate_Script** (2 connections) — `scripts/ViridianForestSouthGate.asm`
+- **ViridianForestSouthGate_TextPointers** (1 connections) — `scripts/ViridianForestSouthGate.asm`
+- **ViridianForestSouthGateGirlText** (1 connections) — `scripts/ViridianForestSouthGate.asm`
+- **ViridianForestSouthGateLittleGirlText** (1 connections) — `scripts/ViridianForestSouthGate.asm`
 
 ## Relationships
 
@@ -15,11 +16,11 @@
 
 ## Source Files
 
-- `scripts/Route15Gate1F.asm`
+- `scripts/ViridianForestSouthGate.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

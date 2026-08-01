@@ -1,37 +1,39 @@
 # Scripts 93
 
-> 13 nodes · cohesion 0.27
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **scripts/CeruleanBadgeHouse.asm** (14 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseBadgeTextPointers** (10 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseMiddleAgedManText** (7 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseBoulderBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseCascadeBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseEarthBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseMarshBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseRainbowBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseSoulBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseThunderBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseVolcanoBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouse_Script** (1 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouse_TextPointers** (1 connections) — `scripts/CeruleanBadgeHouse.asm`
+- **scripts/Route4.asm** (14 connections) — `scripts/Route4.asm`
+- **Route4_Script** (5 connections) — `scripts/Route4.asm`
+- **21.44 Mapa `Route4`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Route4CooltrainerF2Text** (4 connections) — `scripts/Route4.asm`
+- **Route4_ScriptPointers** (2 connections) — `scripts/Route4.asm`
+- **Route4CooltrainerF2AfterBattleText** (2 connections) — `scripts/Route4.asm`
+- **Route4CooltrainerF2BattleText** (2 connections) — `scripts/Route4.asm`
+- **Route4CooltrainerF2EndBattleText** (2 connections) — `scripts/Route4.asm`
+- **Route4TrainerHeader0** (2 connections) — `scripts/Route4.asm`
+- **Route4TrainerHeaders** (2 connections) — `scripts/Route4.asm`
+- **Route4_TextPointers** (1 connections) — `scripts/Route4.asm`
+- **Route4CooltrainerF1Text** (1 connections) — `scripts/Route4.asm`
+- **Route4MtMoonSignText** (1 connections) — `scripts/Route4.asm`
+- **Route4SignText** (1 connections) — `scripts/Route4.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (2 shared connections)
-- [Home](Home.md) (1 shared connections)
-- [Scripts 32](Scripts_32.md) (1 shared connections)
-- [Ram](Ram.md) (1 shared connections)
+- [Scripts 74](Scripts_74.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Home 8](Home_8.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeruleanBadgeHouse.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/Route4.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

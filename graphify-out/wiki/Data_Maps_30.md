@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/FuchsiaGym.asm** (3 connections) — `data/maps/objects/FuchsiaGym.asm`
-- **FuchsiaGym_Object** (1 connections) — `data/maps/objects/FuchsiaGym.asm`
+- **data/maps/objects/DiglettsCaveRoute2.asm** (3 connections) — `data/maps/objects/DiglettsCaveRoute2.asm`
+- **DiglettsCaveRoute2_Object** (1 connections) — `data/maps/objects/DiglettsCaveRoute2.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/FuchsiaGym.asm`
+- `data/maps/objects/DiglettsCaveRoute2.asm`
 
 ## Audit Trail
 

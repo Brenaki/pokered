@@ -1,6 +1,6 @@
 # Audio Engine 2.Asm
 
-> 39 nodes · cohesion 0.16
+> 38 nodes · cohesion 0.16
 
 ## Key Concepts
 
@@ -29,15 +29,15 @@
 - **Audio2_stereo_panning** (5 connections) — `audio/engine_2.asm`
 - **Audio2_tempo** (5 connections) — `audio/engine_2.asm`
 - **Audio2_toggle_perfect_pitch** (5 connections) — `audio/engine_2.asm`
-- *... and 14 more nodes in this community*
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Audio Engine 3.Asm](Audio_Engine_3.Asm.md) (22 shared connections)
-- [Ram 3](Ram_3.md) (20 shared connections)
-- [Ram 6](Ram_6.md) (18 shared connections)
+- [Ram 2](Ram_2.md) (34 shared connections)
+- [Audio Engine 1.Asm](Audio_Engine_1.Asm.md) (17 shared connections)
+- [Ram 3](Ram_3.md) (6 shared connections)
+- [Audio Engine 1.Asm 2](Audio_Engine_1.Asm_2.md) (4 shared connections)
 - [Audio Sfx](Audio_Sfx.md) (1 shared connections)
-- [Audio Notes.Asm](Audio_Notes.Asm.md) (1 shared connections)
 
 ## Source Files
 
@@ -45,7 +45,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 178 (100%)
+- EXTRACTED: 176 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

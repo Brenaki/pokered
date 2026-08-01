@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/CeruleanCave1F.asm** (3 connections) — `data/maps/objects/CeruleanCave1F.asm`
-- **CeruleanCave1F_Object** (1 connections) — `data/maps/objects/CeruleanCave1F.asm`
+- **data/maps/objects/CeladonMartRoof.asm** (3 connections) — `data/maps/objects/CeladonMartRoof.asm`
+- **CeladonMartRoof_Object** (1 connections) — `data/maps/objects/CeladonMartRoof.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/CeruleanCave1F.asm`
+- `data/maps/objects/CeladonMartRoof.asm`
 
 ## Audit Trail
 

@@ -1,6 +1,6 @@
 # ram/wram.asm
 
-> God node · 924 connections · `ram/wram.asm`
+> God node · 926 connections · `ram/wram.asm`
 
 **Community:** [Ram](Ram.md)
 

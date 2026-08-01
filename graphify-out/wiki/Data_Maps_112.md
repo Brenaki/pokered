@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/songs.asm** (3 connections) — `data/maps/songs.asm`
-- **MapSongBanks** (2 connections) — `data/maps/songs.asm`
+- **data/maps/objects/ViridianPokecenter.asm** (3 connections) — `data/maps/objects/ViridianPokecenter.asm`
+- **ViridianPokecenter_Object** (1 connections) — `data/maps/objects/ViridianPokecenter.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/songs.asm`
+- `data/maps/objects/ViridianPokecenter.asm`
 
 ## Audit Trail
 

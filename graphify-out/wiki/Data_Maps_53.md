@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/RocketHideoutB1F.asm** (3 connections) — `data/maps/objects/RocketHideoutB1F.asm`
-- **RocketHideoutB1F_Object** (1 connections) — `data/maps/objects/RocketHideoutB1F.asm`
+- **data/maps/objects/PokemonTower4F.asm** (3 connections) — `data/maps/objects/PokemonTower4F.asm`
+- **PokemonTower4F_Object** (1 connections) — `data/maps/objects/PokemonTower4F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/RocketHideoutB1F.asm`
+- `data/maps/objects/PokemonTower4F.asm`
 
 ## Audit Trail
 

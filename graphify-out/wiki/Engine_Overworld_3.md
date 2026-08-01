@@ -1,68 +1,64 @@
 # Engine Overworld 3
 
-> 48 nodes · cohesion 0.06
+> 43 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **engine/overworld** (30 connections)
-- **DisplayPokemonCenterDialogue_** (19 connections) — `engine/events/pokecenter.asm`
-- **EmotionBubble** (15 connections) — `engine/overworld/emotion_bubbles.asm`
-- **AnimateHealingMachine** (12 connections) — `engine/overworld/healing_machine.asm`
-- **engine/events/pokecenter.asm** (9 connections) — `engine/events/pokecenter.asm`
-- **engine/overworld/emotion_bubbles.asm** (9 connections) — `engine/overworld/emotion_bubbles.asm`
-- **HandleLedges** (8 connections) — `engine/overworld/ledges.asm`
+- **wStatusFlags4** (26 connections) — `ram/wram.asm`
+- **engine/overworld/auto_movement.asm** (25 connections) — `engine/overworld/auto_movement.asm`
+- **wMovementFlags** (20 connections) — `ram/wram.asm`
+- **PewterMovementScript_WalkToGym** (11 connections) — `engine/overworld/auto_movement.asm`
+- **PewterMovementScript_WalkToMuseum** (11 connections) — `engine/overworld/auto_movement.asm`
+- **PalletMovementScript_WalkToLab** (9 connections) — `engine/overworld/auto_movement.asm`
 - **LoadSpinnerArrowTiles** (8 connections) — `engine/overworld/spinners.asm`
-- **engine/overworld/ledges.asm** (8 connections) — `engine/overworld/ledges.asm`
-- **LoadHoppingShadowOAM** (7 connections) — `engine/overworld/ledges.asm`
-- **engine/overworld/healing_machine.asm** (7 connections) — `engine/overworld/healing_machine.asm`
+- **RunNPCMovementScript** (8 connections) — `home/npc_movement.asm`
+- **PalletMovementScriptPointerTable** (7 connections) — `engine/overworld/auto_movement.asm`
+- **PalletMovementScript_Done** (6 connections) — `engine/overworld/auto_movement.asm`
+- **PalletMovementScript_OakMoveLeft** (6 connections) — `engine/overworld/auto_movement.asm`
+- **PewterMovementScript_Done** (6 connections) — `engine/overworld/auto_movement.asm`
+- **engine/events/pewter_guys.asm** (6 connections) — `engine/events/pewter_guys.asm`
 - **engine/overworld/spinners.asm** (6 connections) — `engine/overworld/spinners.asm`
-- **EmotionBubblesPointerTable** (5 connections) — `engine/overworld/emotion_bubbles.asm`
+- **PewterGuys** (5 connections) — `engine/events/pewter_guys.asm`
+- **PlayerStepOutFromDoor** (5 connections) — `engine/overworld/auto_movement.asm`
 - **data/tilesets/spinner_tiles.asm** (5 connections) — `data/tilesets/spinner_tiles.asm`
-- **FlashSprite8Times** (4 connections) — `engine/overworld/healing_machine.asm`
+- **PewterGuysCoordsTable** (4 connections) — `engine/events/pewter_guys.asm`
+- **_EndNPCMovementScript** (4 connections) — `engine/overworld/auto_movement.asm`
+- **PalletMovementScript_PlayerMoveLeft** (4 connections) — `engine/overworld/auto_movement.asm`
+- **PewterGymGuyMovementScriptPointerTable** (4 connections) — `engine/overworld/auto_movement.asm`
+- **PewterMuseumGuyMovementScriptPointerTable** (4 connections) — `engine/overworld/auto_movement.asm`
+- **SetEnemyTrainerToStayAndFaceAnyDirection** (4 connections) — `engine/overworld/auto_movement.asm`
+- **OaksLabDefaultScript** (4 connections) — `scripts/OaksLab.asm`
 - **RocketHideoutB2FPlayerSpinningScript** (4 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideoutB3FPlayerSpinningScript** (4 connections) — `scripts/RocketHideoutB3F.asm`
-- **HappyEmote** (3 connections) — `engine/overworld/emotion_bubbles.asm`
-- **QuestionEmote** (3 connections) — `engine/overworld/emotion_bubbles.asm`
-- **ShockEmote** (3 connections) — `engine/overworld/emotion_bubbles.asm`
-- **PokeCenterFlashingMonitorAndHealBall** (3 connections) — `engine/overworld/healing_machine.asm`
-- **LedgeHoppingShadow** (3 connections) — `engine/overworld/ledges.asm`
-- **data/tilesets/ledge_tiles.asm** (3 connections) — `data/tilesets/ledge_tiles.asm`
-- **engine/overworld/clear_variables.asm** (3 connections) — `engine/overworld/clear_variables.asm`
-- **engine/overworld/turn_sprite.asm** (3 connections) — `engine/overworld/turn_sprite.asm`
-- *... and 23 more nodes in this community*
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Bank VRAM](Bank_VRAM.md) (8 shared connections)
-- [Engine Movie](Engine_Movie.md) (7 shared connections)
-- [Scripts 2](Scripts_2.md) (7 shared connections)
-- [Scripts 13](Scripts_13.md) (6 shared connections)
-- [Home 2](Home_2.md) (5 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (4 shared connections)
-- [Home](Home.md) (3 shared connections)
-- [Engine Overworld 4](Engine_Overworld_4.md) (2 shared connections)
-- [Engine Overworld 6](Engine_Overworld_6.md) (1 shared connections)
-- [Scripts 49](Scripts_49.md) (1 shared connections)
-- [Scripts 31](Scripts_31.md) (1 shared connections)
-- [Engine Events 4](Engine_Events_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (11 shared connections)
+- [Home 5](Home_5.md) (7 shared connections)
+- [Home](Home.md) (6 shared connections)
+- [Scripts 19](Scripts_19.md) (2 shared connections)
+- [Scripts 5](Scripts_5.md) (2 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
+- [Engine Movie](Engine_Movie.md) (1 shared connections)
+- [Data Tilesets 2](Data_Tilesets_2.md) (1 shared connections)
+- [Scripts 29](Scripts_29.md) (1 shared connections)
 
 ## Source Files
 
-- `data/tilesets/ledge_tiles.asm`
 - `data/tilesets/spinner_tiles.asm`
-- `engine/events/pokecenter.asm`
-- `engine/overworld/clear_variables.asm`
-- `engine/overworld/emotion_bubbles.asm`
-- `engine/overworld/healing_machine.asm`
-- `engine/overworld/ledges.asm`
+- `engine/events/pewter_guys.asm`
+- `engine/overworld/auto_movement.asm`
 - `engine/overworld/spinners.asm`
-- `engine/overworld/turn_sprite.asm`
+- `home/npc_movement.asm`
+- `ram/wram.asm`
+- `scripts/OaksLab.asm`
 - `scripts/RocketHideoutB2F.asm`
 - `scripts/RocketHideoutB3F.asm`
+- `scripts/ViridianGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 127 (100%)
+- EXTRACTED: 109 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

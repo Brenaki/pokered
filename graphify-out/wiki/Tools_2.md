@@ -1,47 +1,47 @@
 # Tools 2
 
-> 32 nodes · cohesion 0.06
+> 35 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **tools/generate_npc_ai_document.py** (33 connections) — `tools/generate_npc_ai_document.py`
-- **view_range** (2 connections) — `tools/generate_npc_ai_document.py`
-- **after** (1 connections) — `tools/generate_npc_ai_document.py`
-- **ai_actions** (1 connections) — `tools/generate_npc_ai_document.py`
-- **before** (1 connections) — `tools/generate_npc_ai_document.py`
-- **calls** (1 connections) — `tools/generate_npc_ai_document.py`
-- **Camadas** (1 connections) — `tools/generate_npc_ai_document.py`
-- **classes** (1 connections) — `tools/generate_npc_ai_document.py`
-- **constraint** (1 connections) — `tools/generate_npc_ai_document.py`
-- **event** (1 connections) — `tools/generate_npc_ai_document.py`
-- **events** (1 connections) — `tools/generate_npc_ai_document.py`
-- **extra1** (1 connections) — `tools/generate_npc_ai_document.py`
-- **extra2** (1 connections) — `tools/generate_npc_ai_document.py`
-- **handler** (1 connections) — `tools/generate_npc_ai_document.py`
-- **headers** (1 connections) — `tools/generate_npc_ai_document.py`
-- **instruction** (1 connections) — `tools/generate_npc_ai_document.py`
-- **line** (1 connections) — `tools/generate_npc_ai_document.py`
-- **map_name** (1 connections) — `tools/generate_npc_ai_document.py`
-- **move_layers** (1 connections) — `tools/generate_npc_ai_document.py`
-- **movement** (1 connections) — `tools/generate_npc_ai_document.py`
-- **objects** (1 connections) — `tools/generate_npc_ai_document.py`
-- **operation** (1 connections) — `tools/generate_npc_ai_document.py`
-- **out** (1 connections) — `tools/generate_npc_ai_document.py`
-- **owner** (1 connections) — `tools/generate_npc_ai_document.py`
-- **result** (1 connections) — `tools/generate_npc_ai_document.py`
-- *... and 7 more nodes in this community*
+- **tools/generate_pokemon_catalog.py** (35 connections) — `tools/generate_pokemon_catalog.py`
+- **(data/pokemon/base_stats/[^\** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **acquisitions** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **assignments** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **base_exp** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **by_species** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **catch_rate** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **category** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **description** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **entries** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **evolutions** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **evolves_from** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **growth** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **height_feet** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **height_inches** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **initial_moves** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **item** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **level** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **level_moves** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **method** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **move_names** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **name** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **number** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **result** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **source** (1 connections) — `tools/generate_pokemon_catalog.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `tools/generate_npc_ai_document.py`
+- `tools/generate_pokemon_catalog.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

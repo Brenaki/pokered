@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/LavenderMart.asm** (3 connections) — `data/maps/objects/LavenderMart.asm`
-- **LavenderMart_Object** (1 connections) — `data/maps/objects/LavenderMart.asm`
+- **data/maps/objects/GameCornerPrizeRoom.asm** (3 connections) — `data/maps/objects/GameCornerPrizeRoom.asm`
+- **GameCornerPrizeRoom_Object** (1 connections) — `data/maps/objects/GameCornerPrizeRoom.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/LavenderMart.asm`
+- `data/maps/objects/GameCornerPrizeRoom.asm`
 
 ## Audit Trail
 

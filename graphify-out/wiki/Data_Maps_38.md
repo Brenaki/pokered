@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/MtMoonB2F.asm** (3 connections) — `data/maps/objects/MtMoonB2F.asm`
-- **MtMoonB2F_Object** (1 connections) — `data/maps/objects/MtMoonB2F.asm`
+- **data/maps/objects/LoreleisRoom.asm** (3 connections) — `data/maps/objects/LoreleisRoom.asm`
+- **LoreleisRoom_Object** (1 connections) — `data/maps/objects/LoreleisRoom.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/MtMoonB2F.asm`
+- `data/maps/objects/LoreleisRoom.asm`
 
 ## Audit Trail
 

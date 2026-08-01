@@ -1,6 +1,6 @@
 # engine/battle/core.asm
 
-> God node · 228 connections · `engine/battle/core.asm`
+> God node · 229 connections · `engine/battle/core.asm`
 
 **Community:** [Engine Battle](Engine_Battle.md)
 

@@ -1,16 +1,17 @@
 # Text 94
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **text/Route12SuperRodHouse.asm** (8 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruDoYouLikeToFishText** (1 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruFishingWayOfLifeText** (1 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruNoRoomText** (1 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruReceivedSuperRodText** (1 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruThatsDisappointingText** (1 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruTryFishingText** (1 connections) — `text/Route12SuperRodHouse.asm`
+- **text/NameRatersHouse.asm** (9 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterATrulyImpeccableNameText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterComeAnyTimeYouLikeText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterGiveItANiceNameText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterPokemonHasBeenRenamedText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterWantMeToRateText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterWhatShouldWeNameItText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterWhichPokemonText** (1 connections) — `text/NameRatersHouse.asm`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `text/Route12SuperRodHouse.asm`
+- `text/NameRatersHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

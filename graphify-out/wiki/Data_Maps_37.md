@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/MtMoon1F.asm** (3 connections) — `data/maps/objects/MtMoon1F.asm`
-- **MtMoon1F_Object** (1 connections) — `data/maps/objects/MtMoon1F.asm`
+- **data/maps/objects/LavenderCuboneHouse.asm** (3 connections) — `data/maps/objects/LavenderCuboneHouse.asm`
+- **LavenderCuboneHouse_Object** (1 connections) — `data/maps/objects/LavenderCuboneHouse.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/MtMoon1F.asm`
+- `data/maps/objects/LavenderCuboneHouse.asm`
 
 ## Audit Trail
 

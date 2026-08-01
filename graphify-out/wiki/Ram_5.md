@@ -1,52 +1,52 @@
 # Ram 5
 
-> 21 nodes · cohesion 0.14
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **InitPlayerData2** (15 connections) — `engine/movie/oak_speech/init_player_data.asm`
-- **engine/overworld/toggleable_objects.asm** (9 connections) — `engine/overworld/toggleable_objects.asm`
-- **InitializeToggleableObjectsFlags** (8 connections) — `engine/overworld/toggleable_objects.asm`
-- **MarkTownVisitedAndLoadToggleableObjects** (8 connections) — `engine/overworld/toggleable_objects.asm`
-- **wNumBoxItems** (7 connections) — `ram/wram.asm`
-- **wToggleableObjectFlags** (6 connections) — `ram/wram.asm`
-- **IsObjectHidden** (5 connections) — `engine/overworld/toggleable_objects.asm`
-- **ToggleableObjectFlagAction** (5 connections) — `engine/overworld/toggleable_objects.asm`
-- **data/maps/toggleable_objects.asm** (5 connections) — `data/maps/toggleable_objects.asm`
-- **engine/movie/oak_speech/init_player_data.asm** (5 connections) — `engine/movie/oak_speech/init_player_data.asm`
-- **ShowObject2** (4 connections) — `engine/overworld/toggleable_objects.asm`
-- **ToggleableObjectMapPointers** (3 connections) — `data/maps/toggleable_objects.asm`
-- **ToggleableObjectStates** (3 connections) — `data/maps/toggleable_objects.asm`
-- **wGameProgressFlags** (3 connections) — `ram/wram.asm`
-- **wGameProgressFlagsEnd** (3 connections) — `ram/wram.asm`
-- **wToggleableObjectCounter** (3 connections) — `ram/wram.asm`
-- **wToggleableObjectFlagsEnd** (3 connections) — `ram/wram.asm`
-- **wTownVisitedFlag** (3 connections) — `ram/wram.asm`
-- **NoToggleData** (2 connections) — `data/maps/toggleable_objects.asm`
-- **InitializeEmptyList** (2 connections) — `engine/movie/oak_speech/init_player_data.asm`
-- **InitPlayerData** (1 connections) — `engine/movie/oak_speech/init_player_data.asm`
+- **CableClub_DoBattleOrTradeAgain** (28 connections) — `engine/link/cable_club.asm`
+- **Tilemap [WRAM0]** (9 connections) — `ram/wram.asm`
+- **wOverworldMap** (7 connections) — `ram/wram.asm`
+- **wTileMap** (6 connections) — `ram/wram.asm`
+- **macros/scripts/maps.asm** (5 connections) — `macros/scripts/maps.asm`
+- **wEventFlags** (5 connections) — `ram/wram.asm`
+- **Overworld Map [WRAM0]** (5 connections) — `ram/wram.asm`
+- **macros/coords.asm** (4 connections) — `macros/coords.asm`
+- **wLinkBattleRandomNumberList** (4 connections) — `ram/wram.asm`
+- **wOptions** (4 connections) — `ram/wram.asm`
+- **wSurroundingTiles** (4 connections) — `ram/wram.asm`
+- **wTrainerHeaderPtr** (4 connections) — `ram/wram.asm`
+- **wOverworldMapEnd** (3 connections) — `ram/wram.asm`
+- **wSerialEnemyDataBlock** (3 connections) — `ram/wram.asm`
+- **wSerialEnemyMonsPatchList** (3 connections) — `ram/wram.asm`
+- **wSerialPartyMonsPatchList** (3 connections) — `ram/wram.asm`
+- **wShadowOAMBackupEnd** (2 connections) — `ram/wram.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (5 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (7 shared connections)
+- [Home](Home.md) (4 shared connections)
+- [Ram](Ram.md) (3 shared connections)
 - [Scripts 5](Scripts_5.md) (2 shared connections)
-- [Scripts 18](Scripts_18.md) (2 shared connections)
-- [Engine Battle](Engine_Battle.md) (2 shared connections)
-- [Engine Items 5](Engine_Items_5.md) (1 shared connections)
-- [Engine Items 4](Engine_Items_4.md) (1 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
+- [Home 7](Home_7.md) (2 shared connections)
+- [Engine Debug](Engine_Debug.md) (1 shared connections)
+- [Engine Link](Engine_Link.md) (1 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
+- [Engine Slots](Engine_Slots.md) (1 shared connections)
+- [Engine Movie 2](Engine_Movie_2.md) (1 shared connections)
+- [Engine Battle 7](Engine_Battle_7.md) (1 shared connections)
+- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
 
 ## Source Files
 
-- `data/maps/toggleable_objects.asm`
-- `engine/movie/oak_speech/init_player_data.asm`
-- `engine/overworld/toggleable_objects.asm`
+- `engine/link/cable_club.asm`
+- `macros/coords.asm`
+- `macros/scripts/maps.asm`
 - `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

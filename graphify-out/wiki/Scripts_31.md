@@ -1,61 +1,53 @@
 # Scripts 31
 
-> 45 nodes · cohesion 0.07
+> 43 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **wStatusFlags1** (15 connections) — `ram/wram.asm`
-- **scripts/Route5Gate.asm** (12 connections) — `scripts/Route5Gate.asm`
-- **engine/overworld/field_move_messages.asm** (9 connections) — `engine/overworld/field_move_messages.asm`
-- **SaffronGateGuardText** (9 connections) — `scripts/Route5Gate.asm`
-- **RemoveGuardDrink** (8 connections) — `engine/events/saffron_guards.asm`
-- **IsSurfingAllowed** (8 connections) — `engine/overworld/field_move_messages.asm`
-- **scripts/Route6Gate.asm** (8 connections) — `scripts/Route6Gate.asm`
-- **scripts/Route7Gate.asm** (8 connections) — `scripts/Route7Gate.asm`
-- **scripts/Route8Gate.asm** (8 connections) — `scripts/Route8Gate.asm`
-- **Route5GateDefaultScript** (7 connections) — `scripts/Route5Gate.asm`
-- **Route6GateDefaultScript** (7 connections) — `scripts/Route6Gate.asm`
-- **Route7DefaultScript** (7 connections) — `scripts/Route7Gate.asm`
-- **Route8GateDefaultScript** (7 connections) — `scripts/Route8Gate.asm`
-- **PrintStrengthText** (6 connections) — `engine/overworld/field_move_messages.asm`
-- **UsedStrengthText** (5 connections) — `engine/overworld/field_move_messages.asm`
-- **Route5GateMovePlayerUpScript** (5 connections) — `scripts/Route5Gate.asm`
-- **engine/events/saffron_guards.asm** (4 connections) — `engine/events/saffron_guards.asm`
-- **Route5Gate_Script** (4 connections) — `scripts/Route5Gate.asm`
-- **Route6Gate_Script** (4 connections) — `scripts/Route6Gate.asm`
-- **Route7Gate_Script** (4 connections) — `scripts/Route7Gate.asm`
-- **Route8Gate_Script** (4 connections) — `scripts/Route8Gate.asm`
-- **data/items/guard_drink_items.asm** (3 connections) — `data/items/guard_drink_items.asm`
-- **Route5GatePlayerMovingScript** (3 connections) — `scripts/Route5Gate.asm`
-- **Route6GateMovePlayerDownScript** (3 connections) — `scripts/Route6Gate.asm`
-- **Route6GatePlayerMovingScript** (3 connections) — `scripts/Route6Gate.asm`
-- *... and 20 more nodes in this community*
+- **scripts/Route16.asm** (45 connections) — `scripts/Route16.asm`
+- **21.35 Mapa `Route16`** (19 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Route16SnorlaxPostBattleScript** (6 connections) — `scripts/Route16.asm`
+- **Route16_Script** (5 connections) — `scripts/Route16.asm`
+- **Route16Biker1Text** (4 connections) — `scripts/Route16.asm`
+- **Route16Biker2Text** (4 connections) — `scripts/Route16.asm`
+- **Route16Biker3Text** (4 connections) — `scripts/Route16.asm`
+- **Route16Biker4Text** (4 connections) — `scripts/Route16.asm`
+- **Route16Biker5Text** (4 connections) — `scripts/Route16.asm`
+- **Route16Biker6Text** (4 connections) — `scripts/Route16.asm`
+- **Route16_ScriptPointers** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker1AfterBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker1BattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker1EndBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker2AfterBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker2BattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker2EndBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker3AfterBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker3BattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker3EndBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker4AfterBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16biker4BattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker4EndBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker5AfterBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker5BattleText** (2 connections) — `scripts/Route16.asm`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (10 shared connections)
-- [Scripts](Scripts.md) (5 shared connections)
-- [Scripts 13](Scripts_13.md) (5 shared connections)
-- [Scripts 12](Scripts_12.md) (4 shared connections)
-- [Scripts 4](Scripts_4.md) (4 shared connections)
-- [Home](Home.md) (3 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts 15](Scripts_15.md) (1 shared connections)
+- [Scripts](Scripts.md) (6 shared connections)
+- [Home 8](Home_8.md) (6 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Home](Home.md) (2 shared connections)
+- [Scripts 74](Scripts_74.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `data/items/guard_drink_items.asm`
-- `engine/events/saffron_guards.asm`
-- `engine/overworld/field_move_messages.asm`
-- `ram/wram.asm`
-- `scripts/Route5Gate.asm`
-- `scripts/Route6Gate.asm`
-- `scripts/Route7Gate.asm`
-- `scripts/Route8Gate.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/Route16.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (100%)
+- EXTRACTED: 86 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

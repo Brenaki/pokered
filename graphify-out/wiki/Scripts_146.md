@@ -1,25 +1,26 @@
 # Scripts 146
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **scripts/DiglettsCaveRoute11.asm** (5 connections) — `scripts/DiglettsCaveRoute11.asm`
-- **DiglettsCaveRoute11_Script** (2 connections) — `scripts/DiglettsCaveRoute11.asm`
-- **DiglettsCaveRoute11_TextPointers** (1 connections) — `scripts/DiglettsCaveRoute11.asm`
-- **DiglettsCaveRoute11GamblerText** (1 connections) — `scripts/DiglettsCaveRoute11.asm`
+- **scripts/UndergroundPathRoute5.asm** (6 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathRoute5LittleGirlText** (3 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathEntranceRoute5_TextScriptEndingText** (2 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathRoute5_Script** (1 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathRoute5_TextPointers** (1 connections) — `scripts/UndergroundPathRoute5.asm`
 
 ## Relationships
 
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/DiglettsCaveRoute11.asm`
+- `scripts/UndergroundPathRoute5.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

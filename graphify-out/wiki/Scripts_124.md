@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **scripts/FuchsiaMeetingRoom.asm** (7 connections) — `scripts/FuchsiaMeetingRoom.asm`
-- **FuchsiaMeetingRoom_Script** (2 connections) — `scripts/FuchsiaMeetingRoom.asm`
-- **FuchsiaMeetingRoom_TextPointers** (1 connections) — `scripts/FuchsiaMeetingRoom.asm`
-- **FuchsiaMeetingRoomSafariZoneWorker1** (1 connections) — `scripts/FuchsiaMeetingRoom.asm`
-- **FuchsiaMeetingRoomSafariZoneWorker2** (1 connections) — `scripts/FuchsiaMeetingRoom.asm`
-- **FuchsiaMeetingRoomSafariZoneWorker3** (1 connections) — `scripts/FuchsiaMeetingRoom.asm`
+- **scripts/CeladonMart4F.asm** (7 connections) — `scripts/CeladonMart4F.asm`
+- **CeladonMart4F_Script** (2 connections) — `scripts/CeladonMart4F.asm`
+- **CeladonMart4F_TextPointers** (1 connections) — `scripts/CeladonMart4F.asm`
+- **CeladonMart4FCurrentFloorSignText** (1 connections) — `scripts/CeladonMart4F.asm`
+- **CeladonMart4FSuperNerdText** (1 connections) — `scripts/CeladonMart4F.asm`
+- **CeladonMart4FYoungsterText** (1 connections) — `scripts/CeladonMart4F.asm`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `scripts/FuchsiaMeetingRoom.asm`
+- `scripts/CeladonMart4F.asm`
 
 ## Audit Trail
 

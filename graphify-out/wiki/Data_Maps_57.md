@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/Route10.asm** (3 connections) — `data/maps/objects/Route10.asm`
-- **Route10_Object** (1 connections) — `data/maps/objects/Route10.asm`
+- **data/maps/objects/RocketHideoutElevator.asm** (3 connections) — `data/maps/objects/RocketHideoutElevator.asm`
+- **RocketHideoutElevator_Object** (1 connections) — `data/maps/objects/RocketHideoutElevator.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/Route10.asm`
+- `data/maps/objects/RocketHideoutElevator.asm`
 
 ## Audit Trail
 

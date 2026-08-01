@@ -1,56 +1,51 @@
 # Scripts 27
 
-> 47 nodes · cohesion 0.07
+> 46 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **scripts/SilphCo2F.asm** (30 connections) — `scripts/SilphCo2F.asm`
-- **scripts/SilphCo10F.asm** (19 connections) — `scripts/SilphCo10F.asm`
-- **21.56 Mapa `SilphCo2F`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **21.54 Mapa `SilphCo10F`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **SilphCo10F_Script** (6 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo2F_Script** (6 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2F_SetCardKeyDoorYScript** (6 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FGateCallbackScript** (6 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo10FGateCallbackScript** (5 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10FRocketText** (4 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10FScientistText** (4 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo2FRocket1Text** (4 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FRocket2Text** (4 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FScientist1Text** (4 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo2FScientist2Text** (4 connections) — `scripts/SilphCo2F.asm`
-- **SilphCo10F_ScriptPointers** (2 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10F_SetUnlockedSilphCoDoorsScript** (2 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10FRocketAfterBattleText** (2 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10FRocketBattleText** (2 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10FRocketEndBattleText** (2 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10FScientistAfterBattleText** (2 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10FScientistBattleText** (2 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10FScientistEndBattleText** (2 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10TrainerHeader0** (2 connections) — `scripts/SilphCo10F.asm`
-- **SilphCo10TrainerHeader1** (2 connections) — `scripts/SilphCo10F.asm`
-- *... and 22 more nodes in this community*
+- **scripts/RockTunnelB1F.asm** (46 connections) — `scripts/RockTunnelB1F.asm`
+- **21.24 Mapa `RockTunnelB1F`** (25 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **RockTunnelB1F_Script** (5 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FCooltrainerF1Text** (4 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FCooltrainerF2Text** (4 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FHiker1Text** (4 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FHiker2Text** (4 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FHiker3Text** (4 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FSuperNerd1Text** (4 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FSuperNerd2Text** (4 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FSuperNerd3Text** (4 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeader0** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeader1** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeader2** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeader3** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeader4** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeader5** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeader6** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeader7** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnel2TrainerHeaders** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1F_ScriptPointers** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FCooltrainerF1AfterBattleText** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FCooltrainerF1BattleText** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FCooltrainerF1EndBattleText** (2 connections) — `scripts/RockTunnelB1F.asm`
+- **RockTunnelB1FCooltrainerF2AfterBattleText** (2 connections) — `scripts/RockTunnelB1F.asm`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
 - [Scripts](Scripts.md) (8 shared connections)
-- [Scripts 9](Scripts_9.md) (6 shared connections)
-- [Scripts 26](Scripts_26.md) (2 shared connections)
-- [Scripts 4](Scripts_4.md) (2 shared connections)
-- [Scripts 18](Scripts_18.md) (2 shared connections)
-- [Scripts 69](Scripts_69.md) (1 shared connections)
-- [Ram 11](Ram_11.md) (1 shared connections)
-- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
+- [Home 8](Home_8.md) (8 shared connections)
+- [Scripts 74](Scripts_74.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/SilphCo10F.asm`
-- `scripts/SilphCo2F.asm`
+- `scripts/RockTunnelB1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (100%)
+- EXTRACTED: 96 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

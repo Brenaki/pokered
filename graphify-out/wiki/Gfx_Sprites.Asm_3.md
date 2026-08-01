@@ -1,20 +1,19 @@
 # Gfx Sprites.Asm 3
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **RedSprite** (6 connections) — `gfx/sprites.asm`
-- **LoadWalkingPlayerSpriteGraphics** (6 connections) — `home/overworld.asm`
-- **LoadSurfingPlayerSpriteGraphics** (5 connections) — `home/overworld.asm`
-- **SeelSprite** (4 connections) — `gfx/sprites.asm`
-- **LoadPlayerSpriteGraphicsCommon** (4 connections) — `home/overworld.asm`
-- **gfx/sprites/red.2bpp** (2 connections) — `gfx/sprites.asm`
-- **gfx/sprites/seel.2bpp** (2 connections) — `gfx/sprites.asm`
+- **RedBikeSprite** (5 connections) — `gfx/sprites.asm`
+- **LoadBikePlayerSpriteGraphics** (4 connections) — `home/overworld.asm`
+- **DaisySprite** (3 connections) — `gfx/sprites.asm`
+- **SilphWorkerFSprite** (3 connections) — `gfx/sprites.asm`
+- **gfx/sprites/daisy.2bpp** (2 connections) — `gfx/sprites.asm`
+- **gfx/sprites/red_bike.2bpp** (2 connections) — `gfx/sprites.asm`
+- **gfx/sprites/silph_worker_f.2bpp** (2 connections) — `gfx/sprites.asm`
 
 ## Relationships
 
-- [Engine Overworld 2](Engine_Overworld_2.md) (2 shared connections)
 - [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
@@ -24,7 +23,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

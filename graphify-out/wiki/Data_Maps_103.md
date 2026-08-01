@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/UndergroundPathRoute7Copy.asm** (3 connections) — `data/maps/objects/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7Copy_Object** (1 connections) — `data/maps/objects/UndergroundPathRoute7Copy.asm`
+- **data/maps/objects/UndergroundPathNorthSouth.asm** (3 connections) — `data/maps/objects/UndergroundPathNorthSouth.asm`
+- **UndergroundPathNorthSouth_Object** (1 connections) — `data/maps/objects/UndergroundPathNorthSouth.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/UndergroundPathRoute7Copy.asm`
+- `data/maps/objects/UndergroundPathNorthSouth.asm`
 
 ## Audit Trail
 

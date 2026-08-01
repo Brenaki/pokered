@@ -1,54 +1,54 @@
 # Scripts 43
 
-> 37 nodes · cohesion 0.09
+> 35 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts/Route24.asm** (41 connections) — `scripts/Route24.asm`
-- **21.41 Mapa `Route24`** (19 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **Route24_Script** (5 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerF1Text** (4 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerF2Text** (4 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerM2Text** (4 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerM3Text** (4 connections) — `scripts/Route24.asm`
-- **Route24Youngster1Text** (4 connections) — `scripts/Route24.asm`
-- **Route24Youngster2Text** (4 connections) — `scripts/Route24.asm`
-- **Route24_ScriptPointers** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerF1AfterBattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerF1BattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerF1EndBattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerF2AfterBattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerF2BattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerF2EndBattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerM2AfterBattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerM2BattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerM2EndBattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerM3AfterBattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerM3BattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerM3EndBattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24SetDefaultScript** (2 connections) — `scripts/Route24.asm`
-- **Route24TrainerHeader0** (2 connections) — `scripts/Route24.asm`
-- **Route24TrainerHeader1** (2 connections) — `scripts/Route24.asm`
-- *... and 12 more nodes in this community*
+- **scripts/PokemonMansionB1F.asm** (19 connections) — `scripts/PokemonMansionB1F.asm`
+- **scripts/PokemonMansion2F.asm** (17 connections) — `scripts/PokemonMansion2F.asm`
+- **21.16 Mapa `PokemonMansionB1F`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **PokemonMansion2F_Script** (6 connections) — `scripts/PokemonMansion2F.asm`
+- **PokemonMansionB1F_Script** (6 connections) — `scripts/PokemonMansionB1F.asm`
+- **21.14 Mapa `PokemonMansion2F`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Mansion2CheckReplaceSwitchDoorBlocks** (4 connections) — `scripts/PokemonMansion2F.asm`
+- **Mansion2ReplaceBlock** (4 connections) — `scripts/PokemonMansion2F.asm`
+- **PokemonMansion2FSuperNerdText** (4 connections) — `scripts/PokemonMansion2F.asm`
+- **MansionB1FCheckReplaceSwitchDoorBlocks** (4 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FBurglarText** (4 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FScientistText** (4 connections) — `scripts/PokemonMansionB1F.asm`
+- **Mansion2Script_Switches** (2 connections) — `scripts/PokemonMansion2F.asm`
+- **Mansion2TrainerHeader0** (2 connections) — `scripts/PokemonMansion2F.asm`
+- **Mansion2TrainerHeaders** (2 connections) — `scripts/PokemonMansion2F.asm`
+- **PokemonMansion2F_ScriptPointers** (2 connections) — `scripts/PokemonMansion2F.asm`
+- **PokemonMansion2FSuperNerdAfterBattleText** (2 connections) — `scripts/PokemonMansion2F.asm`
+- **PokemonMansion2FSuperNerdBattleText** (2 connections) — `scripts/PokemonMansion2F.asm`
+- **PokemonMansion2FSuperNerdEndBattleText** (2 connections) — `scripts/PokemonMansion2F.asm`
+- **Mansion4Script_Switches** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **Mansion4TrainerHeader0** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **Mansion4TrainerHeader1** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **Mansion4TrainerHeaders** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1F_ScriptPointers** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FBurglarAfterBattleText** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (6 shared connections)
-- [Scripts 9](Scripts_9.md) (6 shared connections)
+- [Scripts](Scripts.md) (4 shared connections)
+- [Home 8](Home_8.md) (3 shared connections)
+- [Scripts 19](Scripts_19.md) (2 shared connections)
 - [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts 13](Scripts_13.md) (1 shared connections)
-- [Scripts 26](Scripts_26.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 74](Scripts_74.md) (2 shared connections)
+- [Scripts 4](Scripts_4.md) (2 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/Route24.asm`
+- `scripts/PokemonMansion2F.asm`
+- `scripts/PokemonMansionB1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

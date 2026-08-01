@@ -1,51 +1,55 @@
 # Scripts 44
 
-> 37 nodes · cohesion 0.09
+> 33 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **scripts/VictoryRoad2F.asm** (38 connections) — `scripts/VictoryRoad2F.asm`
-- **21.66 Mapa `VictoryRoad2F`** (17 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **VictoryRoad2F_Script** (8 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FMoltresBattleText** (5 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FCooltrainerMText** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FHikerText** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FMoltresText** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd1Text** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd2Text** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd3Text** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FCheckBoulderEventScript** (3 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FReplaceTileBlockScript** (3 connections) — `scripts/VictoryRoad2F.asm`
-- **MoltresTrainerHeader** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2F_ScriptPointers** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FCooltrainerMAfterBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FCooltrainerMBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FCooltrainerMEndBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FHikerAfterBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FHikerBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FHikerEndBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FResetBoulderEventScript** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd1AfterBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd1BattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd1EndBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd2AfterBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- *... and 12 more nodes in this community*
+- **scripts/FightingDojo.asm** (34 connections) — `scripts/FightingDojo.asm`
+- **21.6 Mapa `FightingDojo`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **GivePokemon** (8 connections) — `home/give.asm`
+- **FightingDojoHitmonchanPokeBallText** (8 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoHitmonleePokeBallText** (8 connections) — `scripts/FightingDojo.asm`
+- **SilphCo7FSilphWorkerM1Text** (7 connections) — `scripts/SilphCo7F.asm`
+- **FightingDojo_Script** (5 connections) — `scripts/FightingDojo.asm`
+- **CeladonMansionRoofHouseEeveePokeballText** (4 connections) — `scripts/CeladonMansionRoofHouse.asm`
+- **FightingDojoBlackbelt1Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt2Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt3Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt4Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBetterNotGetGreedyText** (3 connections) — `scripts/FightingDojo.asm`
+- **FightingDojo_ScriptPointers** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt1AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt1BattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt1EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt2AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt2BattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt2EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt3AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt3BattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt3EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt4AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt4BattleText** (2 connections) — `scripts/FightingDojo.asm`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (7 shared connections)
-- [Scripts 9](Scripts_9.md) (6 shared connections)
-- [Scripts 15](Scripts_15.md) (2 shared connections)
-- [Scripts 48](Scripts_48.md) (1 shared connections)
-- [Scripts 26](Scripts_26.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 18](Scripts_18.md) (1 shared connections)
-- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
+- [Scripts](Scripts.md) (14 shared connections)
+- [Home 8](Home_8.md) (4 shared connections)
+- [Scripts 19](Scripts_19.md) (3 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 4](Scripts_4.md) (2 shared connections)
+- [Scripts 76](Scripts_76.md) (2 shared connections)
+- [Scripts 74](Scripts_74.md) (1 shared connections)
+- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
+- [Engine Overworld 3](Engine_Overworld_3.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/VictoryRoad2F.asm`
+- `home/give.asm`
+- `scripts/CeladonMansionRoofHouse.asm`
+- `scripts/FightingDojo.asm`
+- `scripts/SilphCo7F.asm`
 
 ## Audit Trail
 

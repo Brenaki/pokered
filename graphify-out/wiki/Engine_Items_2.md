@@ -1,6 +1,6 @@
 # Engine Items 2
 
-> 42 nodes · cohesion 0.09
+> 43 nodes · cohesion 0.09
 
 ## Key Concepts
 
@@ -13,11 +13,12 @@
 - **JoypadLowSensitivity** (14 connections) — `home/joypad2.asm`
 - **DrawPlayerOrBirdSprite** (12 connections) — `engine/items/town_map.asm`
 - **LoadTownMap_Nest** (10 connections) — `engine/items/town_map.asm`
-- **home/copy2.asm** (10 connections) — `home/copy2.asm`
+- **HallOfFameResetEventsAndSaveScript** (10 connections) — `scripts/HallOfFame.asm`
 - **CopyVideoDataDouble** (9 connections) — `home/copy2.asm`
 - **TownMapSpriteBlinkingAnimation** (7 connections) — `engine/items/town_map.asm`
 - **LoadTownMapEntry** (6 connections) — `engine/items/town_map.asm`
-- **FarCopyDataDouble** (5 connections) — `home/copy2.asm`
+- **wUpdateSpritesEnabled** (6 connections) — `ram/wram.asm`
+- **home/joypad2.asm** (5 connections) — `home/joypad2.asm`
 - **wShadowOAMBackup** (5 connections) — `ram/wram.asm`
 - **wTownMapCoords** (5 connections) — `ram/wram.asm`
 - **TownMapCoordsToOAMCoords** (4 connections) — `engine/items/town_map.asm`
@@ -28,23 +29,22 @@
 - **MonNestIcon** (3 connections) — `engine/items/town_map.asm`
 - **TownMapCursor** (3 connections) — `engine/items/town_map.asm`
 - **TownMapUpArrow** (3 connections) — `engine/items/town_map.asm`
-- **WritePlayerOrBirdSpriteOAM** (3 connections) — `engine/items/town_map.asm`
-- *... and 17 more nodes in this community*
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Home](Home.md) (15 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (9 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (9 shared connections)
-- [Engine Menus](Engine_Menus.md) (6 shared connections)
-- [Engine Movie](Engine_Movie.md) (5 shared connections)
-- [Ram](Ram.md) (4 shared connections)
-- [Scripts 13](Scripts_13.md) (3 shared connections)
-- [Engine Battle](Engine_Battle.md) (3 shared connections)
-- [Engine Battle 7](Engine_Battle_7.md) (3 shared connections)
-- [Engine Link](Engine_Link.md) (3 shared connections)
-- [Engine Gfx](Engine_Gfx.md) (2 shared connections)
-- [Engine Overworld 2](Engine_Overworld_2.md) (1 shared connections)
+- [Home](Home.md) (18 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (10 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (6 shared connections)
+- [Engine Link](Engine_Link.md) (5 shared connections)
+- [Engine Movie 2](Engine_Movie_2.md) (5 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (3 shared connections)
+- [Engine Battle 8](Engine_Battle_8.md) (3 shared connections)
+- [Scripts 5](Scripts_5.md) (2 shared connections)
+- [Engine Battle](Engine_Battle.md) (2 shared connections)
+- [Gfx Font.Asm](Gfx_Font.Asm.md) (2 shared connections)
+- [Ram](Ram.md) (2 shared connections)
+- [Home 2](Home_2.md) (2 shared connections)
 
 ## Source Files
 
@@ -55,10 +55,11 @@
 - `home/copy2.asm`
 - `home/joypad2.asm`
 - `ram/wram.asm`
+- `scripts/HallOfFame.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 150 (100%)
+- EXTRACTED: 152 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,55 +1,69 @@
 # Home 5
 
-> 23 nodes · cohesion 0.13
+> 33 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **VBlank** (18 connections) — `home/vblank.asm`
-- **home/vcopy.asm** (16 connections) — `home/vcopy.asm`
-- **UpdateMovingBgTiles** (6 connections) — `home/vcopy.asm`
-- **audio/low_health_alarm.asm** (3 connections) — `audio/low_health_alarm.asm`
-- **FadeOutAudio** (3 connections) — `home/fade_audio.asm`
-- **ClearBgMap** (3 connections) — `home/vcopy.asm`
-- **FlowerTile1** (3 connections) — `home/vcopy.asm`
-- **FlowerTile2** (3 connections) — `home/vcopy.asm`
-- **FlowerTile3** (3 connections) — `home/vcopy.asm`
-- **RedrawRowOrColumn** (3 connections) — `home/vcopy.asm`
-- **VBlankCopyBgMap** (3 connections) — `home/vcopy.asm`
-- **Music_DoLowHealthAlarm** (2 connections) — `audio/low_health_alarm.asm`
-- **ReadJoypad** (2 connections) — `home/joypad.asm`
-- **AutoBgMapTransfer** (2 connections) — `home/vcopy.asm`
-- **FillBgMapCommon** (2 connections) — `home/vcopy.asm`
-- **GetRowColAddressBgMap** (2 connections) — `home/vcopy.asm`
-- **TransferBgRows** (2 connections) — `home/vcopy.asm`
-- **VBlankCopy** (2 connections) — `home/vcopy.asm`
-- **VBlankCopyDouble** (2 connections) — `home/vcopy.asm`
-- **gfx/tilesets/flower/flower1.2bpp** (1 connections) — `home/vcopy.asm`
-- **gfx/tilesets/flower/flower2.2bpp** (1 connections) — `home/vcopy.asm`
-- **gfx/tilesets/flower/flower3.2bpp** (1 connections) — `home/vcopy.asm`
-- **FillBgMap** (1 connections) — `home/vcopy.asm`
+- **MoveSprite** (38 connections) — `home/pathfinding.asm`
+- **SetSpriteFacingDirectionAndDelay** (30 connections) — `home/map_objects.asm`
+- **home/map_objects.asm** (25 connections) — `home/map_objects.asm`
+- **OaksLabOakGivesPokedexScript** (17 connections) — `scripts/OaksLab.asm`
+- **SetSpriteMovementBytesToFF** (16 connections) — `home/map_objects.asm`
+- **wNPCMovementDirections2** (15 connections) — `ram/wram.asm`
+- **OaksLabRivalArrivesAtOaksRequestScript** (12 connections) — `scripts/OaksLab.asm`
+- **PewterCitySuperNerd1ShowsPlayerMuseumScript** (11 connections) — `scripts/PewterCity.asm`
+- **PewterCityYoungsterShowsPlayerGymScript** (11 connections) — `scripts/PewterCity.asm`
+- **FindPathToPlayer** (10 connections) — `engine/overworld/pathfinding.asm`
+- **OaksLabRivalChallengesPlayerScript** (10 connections) — `scripts/OaksLab.asm`
+- **PalletTownOakWalksToPlayerScript** (10 connections) — `scripts/PalletTown.asm`
+- **SilphCo7FRivalAfterBattleScript** (10 connections) — `scripts/SilphCo7F.asm`
+- **engine/overworld/pathfinding.asm** (9 connections) — `engine/overworld/pathfinding.asm`
+- **SetSpritePosition1** (8 connections) — `home/trainers.asm`
+- **wMapSpriteData** (7 connections) — `ram/wram.asm`
+- **BillsHouseBillExitsMachineScript** (7 connections) — `scripts/BillsHouse.asm`
+- **HallOfFameOakCongratulationsScript** (7 connections) — `scripts/HallOfFame.asm`
+- **GetPointerWithinSpriteStateData1** (6 connections) — `home/map_objects.asm`
+- **GetSpriteMovementByte2Pointer** (6 connections) — `home/map_objects.asm`
+- **OaksLabRivalEndBattleScript** (6 connections) — `scripts/OaksLab.asm`
+- **ConvertNPCMovementDirectionsToJoypadMasks** (5 connections) — `engine/overworld/pathfinding.asm`
+- **8.6 Busca de caminho existente** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **GetSpriteMovementByte1Pointer** (4 connections) — `home/map_objects.asm`
+- **SetSpriteFacingDirection** (4 connections) — `home/map_objects.asm`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Ram 6](Ram_6.md) (3 shared connections)
-- [Scripts 13](Scripts_13.md) (1 shared connections)
-- [Engine Gfx 4](Engine_Gfx_4.md) (1 shared connections)
-- [Engine Gfx 3](Engine_Gfx_3.md) (1 shared connections)
-- [Engine Play Time.Asm](Engine_Play_Time.Asm.md) (1 shared connections)
-- [Engine Items 5](Engine_Items_5.md) (1 shared connections)
-- [Home 2](Home_2.md) (1 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (12 shared connections)
+- [Scripts 19](Scripts_19.md) (8 shared connections)
+- [Scripts 5](Scripts_5.md) (8 shared connections)
+- [Home](Home.md) (5 shared connections)
+- [Ram 6](Ram_6.md) (4 shared connections)
+- [Home 4](Home_4.md) (3 shared connections)
+- [Scripts 21](Scripts_21.md) (3 shared connections)
+- [Engine Overworld 5](Engine_Overworld_5.md) (2 shared connections)
+- [Bank HRAM](Bank_HRAM.md) (2 shared connections)
+- [Scripts 8](Scripts_8.md) (2 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (2 shared connections)
+- [Engine Movie](Engine_Movie.md) (2 shared connections)
 
 ## Source Files
 
-- `audio/low_health_alarm.asm`
-- `home/fade_audio.asm`
-- `home/joypad.asm`
-- `home/vblank.asm`
-- `home/vcopy.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `engine/overworld/pathfinding.asm`
+- `home/map_objects.asm`
+- `home/pathfinding.asm`
+- `home/trainers.asm`
+- `ram/wram.asm`
+- `scripts/BillsHouse.asm`
+- `scripts/HallOfFame.asm`
+- `scripts/OaksLab.asm`
+- `scripts/PalletTown.asm`
+- `scripts/PewterCity.asm`
+- `scripts/SilphCo7F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 129 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,51 +1,54 @@
 # Scripts 33
 
-> 43 nodes · cohesion 0.09
+> 41 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **scripts/RockTunnel1F.asm** (43 connections) — `scripts/RockTunnel1F.asm`
-- **21.23 Mapa `RockTunnel1F`** (22 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **RockTunnel1FTalkToTrainer** (9 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1F_Script** (5 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF1Text** (3 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF2Text** (3 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FHiker1Text** (3 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FHiker2Text** (3 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FHiker3Text** (3 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FSuperNerdText** (3 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1F_ScriptPointers** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF1AfterBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF1BattleText** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF1EndBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF2AfterBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF2BattleText** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF2EndBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF3AfterBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF3BattleText** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF3EndBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF3Text** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FHiker1AfterBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FHiker1BattleText** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FHiker1EndBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FHiker2AfterBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
-- *... and 18 more nodes in this community*
+- **scripts/FuchsiaGym.asm** (44 connections) — `scripts/FuchsiaGym.asm`
+- **21.7 Mapa `FuchsiaGym`** (19 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **FuchsiaGym_Script** (7 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker1Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker2Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker3Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker4Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker5Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker6Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymKogaPostBattleScript** (3 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymResetScripts** (3 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGym_ScriptPointers** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker1AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker1BattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker1EndBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker2AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker2BattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker2EndBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker3AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker3BattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker3EndBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker4AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker4BattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker4EndBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker5AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts](Scripts.md) (7 shared connections)
+- [Home 8](Home_8.md) (6 shared connections)
+- [Scripts 7](Scripts_7.md) (2 shared connections)
+- [Scripts 74](Scripts_74.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Scripts 19](Scripts_19.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/RockTunnel1F.asm`
+- `scripts/FuchsiaGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (100%)
+- EXTRACTED: 85 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

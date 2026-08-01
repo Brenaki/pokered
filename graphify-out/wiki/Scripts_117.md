@@ -1,27 +1,29 @@
 # Scripts 117
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **scripts/CeladonHotel.asm** (7 connections) — `scripts/CeladonHotel.asm`
-- **CeladonHotel_Script** (2 connections) — `scripts/CeladonHotel.asm`
-- **CeladonHotel_TextPointers** (1 connections) — `scripts/CeladonHotel.asm`
-- **CeladonHotelBeautyText** (1 connections) — `scripts/CeladonHotel.asm`
-- **CeladonHotelGrannyText** (1 connections) — `scripts/CeladonHotel.asm`
-- **CeladonHotelSuperNerdText** (1 connections) — `scripts/CeladonHotel.asm`
+- **scripts/FuchsiaPokecenter.asm** (8 connections) — `scripts/FuchsiaPokecenter.asm`
+- **FuchsiaPokecenter_Script** (3 connections) — `scripts/FuchsiaPokecenter.asm`
+- **FuchsiaPokecenter_TextPointers** (1 connections) — `scripts/FuchsiaPokecenter.asm`
+- **FuchsiaPokecenterCooltrainerFText** (1 connections) — `scripts/FuchsiaPokecenter.asm`
+- **FuchsiaPokecenterLinkReceptionistText** (1 connections) — `scripts/FuchsiaPokecenter.asm`
+- **FuchsiaPokecenterNurseText** (1 connections) — `scripts/FuchsiaPokecenter.asm`
+- **FuchsiaPokecenterRockerText** (1 connections) — `scripts/FuchsiaPokecenter.asm`
 
 ## Relationships
 
+- [Scripts 6](Scripts_6.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonHotel.asm`
+- `scripts/FuchsiaPokecenter.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

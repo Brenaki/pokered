@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/SSAnneB1FRooms.asm** (3 connections) — `data/maps/objects/SSAnneB1FRooms.asm`
-- **SSAnneB1FRooms_Object** (1 connections) — `data/maps/objects/SSAnneB1FRooms.asm`
+- **data/maps/objects/SSAnne1F.asm** (3 connections) — `data/maps/objects/SSAnne1F.asm`
+- **SSAnne1F_Object** (1 connections) — `data/maps/objects/SSAnne1F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/SSAnneB1FRooms.asm`
+- `data/maps/objects/SSAnne1F.asm`
 
 ## Audit Trail
 

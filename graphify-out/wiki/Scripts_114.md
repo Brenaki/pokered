@@ -4,25 +4,26 @@
 
 ## Key Concepts
 
-- **scripts/UndergroundPathRoute7Copy.asm** (8 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7Copy_Script** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7Copy_TextPointers** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7CopyUnusedGirlText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7CopyUnusedGoesUnderSaffronText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7CopyUnusedMiddleAgedManText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
+- **scripts/CeladonPokecenter.asm** (8 connections) — `scripts/CeladonPokecenter.asm`
+- **CeladonPokecenter_Script** (3 connections) — `scripts/CeladonPokecenter.asm`
+- **CeladonPokecenter_TextPointers** (1 connections) — `scripts/CeladonPokecenter.asm`
+- **CeladonPokecenterBeautyText** (1 connections) — `scripts/CeladonPokecenter.asm`
+- **CeladonPokecenterGentlemanText** (1 connections) — `scripts/CeladonPokecenter.asm`
+- **CeladonPokecenterLinkReceptionistText** (1 connections) — `scripts/CeladonPokecenter.asm`
+- **CeladonPokecenterNurseText** (1 connections) — `scripts/CeladonPokecenter.asm`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/UndergroundPathRoute7Copy.asm`
+- `scripts/CeladonPokecenter.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

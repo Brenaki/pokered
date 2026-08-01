@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **scripts/VermilionMart.asm** (6 connections) — `scripts/VermilionMart.asm`
-- **VermilionMart_Script** (2 connections) — `scripts/VermilionMart.asm`
-- **VermilionMart_TextPointers** (1 connections) — `scripts/VermilionMart.asm`
-- **VermilionMartCooltrainerFText** (1 connections) — `scripts/VermilionMart.asm`
-- **VermilionMartCooltrainerMText** (1 connections) — `scripts/VermilionMart.asm`
+- **scripts/PewterSpeechHouse.asm** (6 connections) — `scripts/PewterSpeechHouse.asm`
+- **PewterSpeechHouse_Script** (2 connections) — `scripts/PewterSpeechHouse.asm`
+- **PewterSpeechHouse_TextPointers** (1 connections) — `scripts/PewterSpeechHouse.asm`
+- **PewterSpeechHouseGamblerText** (1 connections) — `scripts/PewterSpeechHouse.asm`
+- **PewterSpeechHouseYoungsterText** (1 connections) — `scripts/PewterSpeechHouse.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `scripts/VermilionMart.asm`
+- `scripts/PewterSpeechHouse.asm`
 
 ## Audit Trail
 

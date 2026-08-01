@@ -1,41 +1,44 @@
 # Engine Events 8
 
-> 12 nodes · cohesion 0.30
+> 17 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **VendingMachineMenu** (24 connections) — `engine/events/vending_machine.asm`
-- **engine/events/vending_machine.asm** (12 connections) — `engine/events/vending_machine.asm`
-- **LoadVendingMachineItem** (3 connections) — `engine/events/vending_machine.asm`
-- **data/items/vending_prices.asm** (3 connections) — `data/items/vending_prices.asm`
-- **VendingPrices** (2 connections) — `data/items/vending_prices.asm`
-- **DrinkPriceText** (2 connections) — `engine/events/vending_machine.asm`
-- **DrinkText** (2 connections) — `engine/events/vending_machine.asm`
-- **VendingMachineText1** (2 connections) — `engine/events/vending_machine.asm`
-- **VendingMachineText4** (2 connections) — `engine/events/vending_machine.asm`
-- **VendingMachineText5** (2 connections) — `engine/events/vending_machine.asm`
-- **VendingMachineText6** (2 connections) — `engine/events/vending_machine.asm`
-- **VendingMachineText7** (2 connections) — `engine/events/vending_machine.asm`
+- **engine/events/hidden_events/cinnabar_gym_quiz.asm** (18 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarGymQuiz_AskQuestion** (12 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarQuizQuestions** (8 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarGymQuiz** (6 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarGymQuizCorrectText** (6 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **UpdateCinnabarGymGateTileBlocks_** (6 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarGymGateFlagAction** (4 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarGymGateCoords** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarGymQuizIncorrectText** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarGymQuizIntroText** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarQuizQuestionsText1** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarQuizQuestionsText2** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarQuizQuestionsText3** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarQuizQuestionsText4** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarQuizQuestionsText5** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarQuizQuestionsText6** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **PrintCinnabarQuiz** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (3 shared connections)
-- [Home](Home.md) (3 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
-- [Engine Menus](Engine_Menus.md) (2 shared connections)
-- [Scripts 13](Scripts_13.md) (1 shared connections)
-- [Engine Movie](Engine_Movie.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts](Scripts.md) (7 shared connections)
+- [Scripts 5](Scripts_5.md) (2 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Scripts 19](Scripts_19.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Engine Overworld 8](Engine_Overworld_8.md) (1 shared connections)
 - [Bank HRAM](Bank_HRAM.md) (1 shared connections)
 
 ## Source Files
 
-- `data/items/vending_prices.asm`
-- `engine/events/vending_machine.asm`
+- `engine/events/hidden_events/cinnabar_gym_quiz.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

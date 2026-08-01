@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/RockTunnelPokecenter.asm** (3 connections) — `data/maps/objects/RockTunnelPokecenter.asm`
-- **RockTunnelPokecenter_Object** (1 connections) — `data/maps/objects/RockTunnelPokecenter.asm`
+- **data/maps/objects/RocketHideoutB2F.asm** (3 connections) — `data/maps/objects/RocketHideoutB2F.asm`
+- **RocketHideoutB2F_Object** (1 connections) — `data/maps/objects/RocketHideoutB2F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/RockTunnelPokecenter.asm`
+- `data/maps/objects/RocketHideoutB2F.asm`
 
 ## Audit Trail
 

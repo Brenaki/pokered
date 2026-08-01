@@ -20,7 +20,7 @@ from graphify.analyze import god_nodes, suggest_questions, surprising_connection
 from graphify.build import build_from_json
 from graphify.cluster import cluster, score_all
 from graphify.detect import save_manifest
-from graphify.export import to_json
+from graphify.export import to_html, to_json
 from graphify.ids import make_id
 from graphify.report import generate
 from graphify.wiki import to_wiki
@@ -495,6 +495,13 @@ def main() -> None:
     wrote = to_json(G, communities, str(OUT / "graph.json"), force=True, community_labels=labels)
     if not wrote:
         raise SystemExit("ERROR: graphify refused to write graph.json")
+    to_html(
+        G,
+        communities,
+        str(OUT / "graph.html"),
+        community_labels=labels,
+        node_limit=5000,
+    )
 
     report = generate(
         G,

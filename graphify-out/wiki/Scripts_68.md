@@ -1,47 +1,49 @@
 # Scripts 68
 
-> 26 nodes · cohesion 0.08
+> 24 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **scripts/SaffronCity.asm** (27 connections) — `scripts/SaffronCity.asm`
-- **SaffronCity_Script** (2 connections) — `scripts/SaffronCity.asm`
-- **SaffronCity_TextPointers** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityFightingDojoSignText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityGentlemanText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityGymSignText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityMrPsychicsHouseSignText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityPidgeotText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRockerText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket1Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket2Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket3Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket4Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket5Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket6Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket7Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket8Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket9Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityScientistText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCitySignText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCitySilphCoLatestProductSignText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCitySilphCoSignText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCitySilphWorkerFText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCitySilphWorkerMText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityTrainerTips1Text** (1 connections) — `scripts/SaffronCity.asm`
-- *... and 1 more nodes in this community*
+- **scripts/PowerPlant.asm** (27 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantInitBattleScript** (12 connections) — `scripts/PowerPlant.asm`
+- **PowerPlant_Script** (5 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantElectrode1Text** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantElectrode2Text** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantVoltorb1Text** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantVoltorb2Text** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantVoltorb3Text** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantVoltorb4Text** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantVoltorb5Text** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantVoltorb6Text** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantZapdosText** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlant_ScriptPointers** (2 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantTrainerHeaders** (2 connections) — `scripts/PowerPlant.asm`
+- **Voltorb0TrainerHeader** (2 connections) — `scripts/PowerPlant.asm`
+- **Voltorb1TrainerHeader** (2 connections) — `scripts/PowerPlant.asm`
+- **Voltorb2TrainerHeader** (2 connections) — `scripts/PowerPlant.asm`
+- **Voltorb3TrainerHeader** (2 connections) — `scripts/PowerPlant.asm`
+- **Voltorb4TrainerHeader** (2 connections) — `scripts/PowerPlant.asm`
+- **Voltorb5TrainerHeader** (2 connections) — `scripts/PowerPlant.asm`
+- **Voltorb6TrainerHeader** (2 connections) — `scripts/PowerPlant.asm`
+- **Voltorb7TrainerHeader** (2 connections) — `scripts/PowerPlant.asm`
+- **ZapdosTrainerHeader** (2 connections) — `scripts/PowerPlant.asm`
+- **PowerPlant_TextPointers** (1 connections) — `scripts/PowerPlant.asm`
 
 ## Relationships
 
+- [Scripts](Scripts.md) (2 shared connections)
+- [Scripts 77](Scripts_77.md) (1 shared connections)
+- [Scripts 74](Scripts_74.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Home 8](Home_8.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SaffronCity.asm`
+- `scripts/PowerPlant.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

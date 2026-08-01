@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/PewterCity.asm** (3 connections) — `data/maps/objects/PewterCity.asm`
-- **PewterCity_Object** (1 connections) — `data/maps/objects/PewterCity.asm`
+- **data/maps/objects/Museum1F.asm** (3 connections) — `data/maps/objects/Museum1F.asm`
+- **Museum1F_Object** (1 connections) — `data/maps/objects/Museum1F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/PewterCity.asm`
+- `data/maps/objects/Museum1F.asm`
 
 ## Audit Trail
 

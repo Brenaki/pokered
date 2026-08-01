@@ -1,16 +1,17 @@
 # Text 96
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **text/VictoryRoad1F.asm** (8 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerFAfterBattleText** (1 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerFBattleText** (1 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerFEndBattleText** (1 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerMAfterBattleText** (1 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerMBattleText** (1 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerMEndBattleText** (1 connections) — `text/VictoryRoad1F.asm`
+- **text/PokemonMansionB1F.asm** (9 connections) — `text/PokemonMansionB1F.asm`
+- **_PokemonMansionB1FBurglarAfterBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
+- **_PokemonMansionB1FBurglarBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
+- **_PokemonMansionB1FBurglarEndBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
+- **_PokemonMansionB1FDiaryText** (1 connections) — `text/PokemonMansionB1F.asm`
+- **_PokemonMansionB1FScientistAfterBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
+- **_PokemonMansionB1FScientistBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
+- **_PokemonMansionB1FScientistEndBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `text/VictoryRoad1F.asm`
+- `text/PokemonMansionB1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

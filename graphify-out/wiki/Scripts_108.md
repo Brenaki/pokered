@@ -1,32 +1,31 @@
 # Scripts 108
 
-> 7 nodes · cohesion 0.43
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **scripts/CeruleanCaveB1F.asm** (9 connections) — `scripts/CeruleanCaveB1F.asm`
-- **CeruleanCaveB1F_Script** (5 connections) — `scripts/CeruleanCaveB1F.asm`
-- **CeruleanCaveB1FMewtwoText** (4 connections) — `scripts/CeruleanCaveB1F.asm`
-- **CeruleanCaveB1F_ScriptPointers** (2 connections) — `scripts/CeruleanCaveB1F.asm`
-- **CeruleanCaveB1FTrainerHeaders** (2 connections) — `scripts/CeruleanCaveB1F.asm`
-- **MewtwoTrainerHeader** (2 connections) — `scripts/CeruleanCaveB1F.asm`
-- **CeruleanCaveB1F_TextPointers** (1 connections) — `scripts/CeruleanCaveB1F.asm`
+- **scripts/SSAnneKitchen.asm** (11 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchen_Script** (2 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchen_TextPointers** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook1Text** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook2Text** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook3Text** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook4Text** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook5Text** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook6Text** (1 connections) — `scripts/SSAnneKitchen.asm`
 
 ## Relationships
 
-- [Scripts 15](Scripts_15.md) (1 shared connections)
-- [Scripts 26](Scripts_26.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeruleanCaveB1F.asm`
+- `scripts/SSAnneKitchen.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

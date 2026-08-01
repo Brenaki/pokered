@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **scripts/VermilionPidgeyHouse.asm** (7 connections) — `scripts/VermilionPidgeyHouse.asm`
-- **VermilionPidgeyHouse_Script** (2 connections) — `scripts/VermilionPidgeyHouse.asm`
-- **VermilionPidgeyHouse_TextPointers** (1 connections) — `scripts/VermilionPidgeyHouse.asm`
-- **VermilionPidgeyHouseLetterText** (1 connections) — `scripts/VermilionPidgeyHouse.asm`
-- **VermilionPidgeyHouseYoungsterText** (1 connections) — `scripts/VermilionPidgeyHouse.asm`
+- **scripts/Route1.asm** (7 connections) — `scripts/Route1.asm`
+- **Route1_Script** (2 connections) — `scripts/Route1.asm`
+- **Route1_TextPointers** (1 connections) — `scripts/Route1.asm`
+- **Route1SignText** (1 connections) — `scripts/Route1.asm`
+- **Route1Youngster2Text** (1 connections) — `scripts/Route1.asm`
 
 ## Relationships
 
-- [Scripts 15](Scripts_15.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/VermilionPidgeyHouse.asm`
+- `scripts/Route1.asm`
 
 ## Audit Trail
 

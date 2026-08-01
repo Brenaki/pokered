@@ -1,18 +1,19 @@
 # Text 77
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **text/CeladonDiner.asm** (10 connections) — `text/CeladonDiner.asm`
-- **_CeladonDinerCookText** (1 connections) — `text/CeladonDiner.asm`
-- **_CeladonDinerFisherText** (1 connections) — `text/CeladonDiner.asm`
-- **_CeladonDinerGymGuideCoinCaseNoRoomText** (1 connections) — `text/CeladonDiner.asm`
-- **_CeladonDinerGymGuideImFlatOutBustedText** (1 connections) — `text/CeladonDiner.asm`
-- **_CeladonDinerGymGuideReceivedCoinCaseText** (1 connections) — `text/CeladonDiner.asm`
-- **_CeladonDinerGymGuideWinItBackText** (1 connections) — `text/CeladonDiner.asm`
-- **_CeladonDinerMiddleAgedManText** (1 connections) — `text/CeladonDiner.asm`
-- **_CeladonDinerMiddleAgedWomanText** (1 connections) — `text/CeladonDiner.asm`
+- **text/SilphCo5F.asm** (11 connections) — `text/SilphCo5F.asm`
+- **_SilphCo5FRockerBattleText** (1 connections) — `text/SilphCo5F.asm`
+- **_SilphCo5FRocket1AfterBattleText** (1 connections) — `text/SilphCo5F.asm`
+- **_SilphCo5FRocket1BattleText** (1 connections) — `text/SilphCo5F.asm`
+- **_SilphCo5FRocket1EndBattleText** (1 connections) — `text/SilphCo5F.asm`
+- **_SilphCo5FScientistAfterBattleText** (1 connections) — `text/SilphCo5F.asm`
+- **_SilphCo5FScientistBattleText** (1 connections) — `text/SilphCo5F.asm`
+- **_SilphCo5FScientistEndBattleText** (1 connections) — `text/SilphCo5F.asm`
+- **_SilphCo5FSilphWorkerMThatsYouRightText** (1 connections) — `text/SilphCo5F.asm`
+- **_SilphCo5FSilphWorkerMYoureOurHeroText** (1 connections) — `text/SilphCo5F.asm`
 
 ## Relationships
 
@@ -20,11 +21,11 @@
 
 ## Source Files
 
-- `text/CeladonDiner.asm`
+- `text/SilphCo5F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

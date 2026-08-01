@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/CeruleanGym.asm** (3 connections) — `data/maps/objects/CeruleanGym.asm`
-- **CeruleanGym_Object** (1 connections) — `data/maps/objects/CeruleanGym.asm`
+- **data/maps/objects/CeruleanBadgeHouse.asm** (3 connections) — `data/maps/objects/CeruleanBadgeHouse.asm`
+- **CeruleanBadgeHouse_Object** (1 connections) — `data/maps/objects/CeruleanBadgeHouse.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/CeruleanGym.asm`
+- `data/maps/objects/CeruleanBadgeHouse.asm`
 
 ## Audit Trail
 

@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **scripts/ViridianForestSouthGate.asm** (6 connections) — `scripts/ViridianForestSouthGate.asm`
-- **ViridianForestSouthGate_Script** (2 connections) — `scripts/ViridianForestSouthGate.asm`
-- **ViridianForestSouthGate_TextPointers** (1 connections) — `scripts/ViridianForestSouthGate.asm`
-- **ViridianForestSouthGateGirlText** (1 connections) — `scripts/ViridianForestSouthGate.asm`
-- **ViridianForestSouthGateLittleGirlText** (1 connections) — `scripts/ViridianForestSouthGate.asm`
+- **scripts/SafariZoneCenter.asm** (6 connections) — `scripts/SafariZoneCenter.asm`
+- **SafariZoneCenter_Script** (2 connections) — `scripts/SafariZoneCenter.asm`
+- **SafariZoneCenter_TextPointers** (1 connections) — `scripts/SafariZoneCenter.asm`
+- **SafariZoneCenterRestHouseSignText** (1 connections) — `scripts/SafariZoneCenter.asm`
+- **SafariZoneCenterTrainerTipsSignText** (1 connections) — `scripts/SafariZoneCenter.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `scripts/ViridianForestSouthGate.asm`
+- `scripts/SafariZoneCenter.asm`
 
 ## Audit Trail
 

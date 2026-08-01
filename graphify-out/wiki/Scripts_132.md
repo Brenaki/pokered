@@ -1,23 +1,23 @@
 # Scripts 132
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **scripts/CeruleanTrashedHouse.asm** (7 connections) — `scripts/CeruleanTrashedHouse.asm`
-- **CeruleanTrashedHouse_Script** (2 connections) — `scripts/CeruleanTrashedHouse.asm`
-- **CeruleanTrashedHouse_TextPointers** (1 connections) — `scripts/CeruleanTrashedHouse.asm`
-- **CeruleanTrashedHouseGirlText** (1 connections) — `scripts/CeruleanTrashedHouse.asm`
-- **CeruleanTrashedHouseWallHoleText** (1 connections) — `scripts/CeruleanTrashedHouse.asm`
+- **scripts/SafariZoneNorthRestHouse.asm** (7 connections) — `scripts/SafariZoneNorthRestHouse.asm`
+- **SafariZoneNorthRestHouse_Script** (2 connections) — `scripts/SafariZoneNorthRestHouse.asm`
+- **SafariZoneNorthRestHouse_TextPointers** (1 connections) — `scripts/SafariZoneNorthRestHouse.asm`
+- **SafariZoneNorthRestHouseGentlemanText** (1 connections) — `scripts/SafariZoneNorthRestHouse.asm`
+- **SafariZoneNorthRestHouseSafariZoneWorkerText** (1 connections) — `scripts/SafariZoneNorthRestHouse.asm`
+- **SafariZoneNorthRestHouseScientistText** (1 connections) — `scripts/SafariZoneNorthRestHouse.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeruleanTrashedHouse.asm`
+- `scripts/SafariZoneNorthRestHouse.asm`
 
 ## Audit Trail
 

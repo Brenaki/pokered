@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **text/PalletTown.asm** (10 connections) — `text/PalletTown.asm`
-- **_PalletTownFisherText** (1 connections) — `text/PalletTown.asm`
-- **_PalletTownGirlText** (1 connections) — `text/PalletTown.asm`
-- **_PalletTownOakHeyWaitDontGoOutText** (1 connections) — `text/PalletTown.asm`
-- **_PalletTownOakItsUnsafeText** (1 connections) — `text/PalletTown.asm`
-- **_PalletTownOaksLabSignText** (1 connections) — `text/PalletTown.asm`
-- **_PalletTownPlayersHouseSignText** (1 connections) — `text/PalletTown.asm`
-- **_PalletTownRivalsHouseSignText** (1 connections) — `text/PalletTown.asm`
-- **_PalletTownSignText** (1 connections) — `text/PalletTown.asm`
+- **text/CeladonDiner.asm** (10 connections) — `text/CeladonDiner.asm`
+- **_CeladonDinerCookText** (1 connections) — `text/CeladonDiner.asm`
+- **_CeladonDinerFisherText** (1 connections) — `text/CeladonDiner.asm`
+- **_CeladonDinerGymGuideCoinCaseNoRoomText** (1 connections) — `text/CeladonDiner.asm`
+- **_CeladonDinerGymGuideImFlatOutBustedText** (1 connections) — `text/CeladonDiner.asm`
+- **_CeladonDinerGymGuideReceivedCoinCaseText** (1 connections) — `text/CeladonDiner.asm`
+- **_CeladonDinerGymGuideWinItBackText** (1 connections) — `text/CeladonDiner.asm`
+- **_CeladonDinerMiddleAgedManText** (1 connections) — `text/CeladonDiner.asm`
+- **_CeladonDinerMiddleAgedWomanText** (1 connections) — `text/CeladonDiner.asm`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `text/PalletTown.asm`
+- `text/CeladonDiner.asm`
 
 ## Audit Trail
 

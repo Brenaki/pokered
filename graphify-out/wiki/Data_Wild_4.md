@@ -17,8 +17,8 @@
 
 - [Scripts 2](Scripts_2.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Data Wild](Data_Wild.md) (1 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Data Wild 2](Data_Wild_2.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
 - [Data Wild 3](Data_Wild_3.md) (1 shared connections)
 
 ## Source Files

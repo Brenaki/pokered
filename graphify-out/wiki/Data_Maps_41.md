@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/PalletTown.asm** (3 connections) — `data/maps/objects/PalletTown.asm`
-- **PalletTown_Object** (1 connections) — `data/maps/objects/PalletTown.asm`
+- **data/maps/objects/MtMoonPokecenter.asm** (3 connections) — `data/maps/objects/MtMoonPokecenter.asm`
+- **MtMoonPokecenter_Object** (1 connections) — `data/maps/objects/MtMoonPokecenter.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/PalletTown.asm`
+- `data/maps/objects/MtMoonPokecenter.asm`
 
 ## Audit Trail
 

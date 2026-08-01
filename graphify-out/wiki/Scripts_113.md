@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **scripts/SaffronPokecenter.asm** (8 connections) — `scripts/SaffronPokecenter.asm`
-- **SaffronPokecenter_Script** (3 connections) — `scripts/SaffronPokecenter.asm`
-- **SaffronPokecenter_TextPointers** (1 connections) — `scripts/SaffronPokecenter.asm`
-- **SaffronPokecenterBeautyText** (1 connections) — `scripts/SaffronPokecenter.asm`
-- **SaffronPokecenterGentlemanText** (1 connections) — `scripts/SaffronPokecenter.asm`
-- **SaffronPokecenterLinkReceptionistText** (1 connections) — `scripts/SaffronPokecenter.asm`
-- **SaffronPokecenterNurseText** (1 connections) — `scripts/SaffronPokecenter.asm`
+- **scripts/CeladonDiner.asm** (9 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDiner_Script** (2 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDiner_TextPointers** (1 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDinerCookText** (1 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDinerFisherText** (1 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDinerMiddleAgedManText** (1 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDinerMiddleAgedWomanText** (1 connections) — `scripts/CeladonDiner.asm`
 
 ## Relationships
 
-- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SaffronPokecenter.asm`
+- `scripts/CeladonDiner.asm`
 
 ## Audit Trail
 

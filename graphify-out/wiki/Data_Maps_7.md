@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/CeladonDiner.asm** (3 connections) — `data/maps/objects/CeladonDiner.asm`
-- **CeladonDiner_Object** (1 connections) — `data/maps/objects/CeladonDiner.asm`
+- **data/maps/objects/BikeShop.asm** (3 connections) — `data/maps/objects/BikeShop.asm`
+- **BikeShop_Object** (1 connections) — `data/maps/objects/BikeShop.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/CeladonDiner.asm`
+- `data/maps/objects/BikeShop.asm`
 
 ## Audit Trail
 

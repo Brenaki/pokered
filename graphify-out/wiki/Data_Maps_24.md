@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/CinnabarPokecenter.asm** (3 connections) — `data/maps/objects/CinnabarPokecenter.asm`
-- **CinnabarPokecenter_Object** (1 connections) — `data/maps/objects/CinnabarPokecenter.asm`
+- **data/maps/objects/CinnabarLabMetronomeRoom.asm** (3 connections) — `data/maps/objects/CinnabarLabMetronomeRoom.asm`
+- **CinnabarLabMetronomeRoom_Object** (1 connections) — `data/maps/objects/CinnabarLabMetronomeRoom.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/CinnabarPokecenter.asm`
+- `data/maps/objects/CinnabarLabMetronomeRoom.asm`
 
 ## Audit Trail
 

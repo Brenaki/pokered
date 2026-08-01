@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **scripts/ViridianForestNorthGate.asm** (6 connections) — `scripts/ViridianForestNorthGate.asm`
-- **ViridianForestNorthGate_Script** (2 connections) — `scripts/ViridianForestNorthGate.asm`
-- **ViridianForestNorthGate_TextPointers** (1 connections) — `scripts/ViridianForestNorthGate.asm`
-- **ViridianForestNorthGateGrampsText** (1 connections) — `scripts/ViridianForestNorthGate.asm`
-- **ViridianForestNorthGateSuperNerdText** (1 connections) — `scripts/ViridianForestNorthGate.asm`
+- **scripts/Route2.asm** (6 connections) — `scripts/Route2.asm`
+- **Route2_Script** (2 connections) — `scripts/Route2.asm`
+- **Route2_TextPointers** (1 connections) — `scripts/Route2.asm`
+- **Route2DiglettsCaveSignText** (1 connections) — `scripts/Route2.asm`
+- **Route2SignText** (1 connections) — `scripts/Route2.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `scripts/ViridianForestNorthGate.asm`
+- `scripts/Route2.asm`
 
 ## Audit Trail
 

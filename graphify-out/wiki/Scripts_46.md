@@ -1,51 +1,53 @@
 # Scripts 46
 
-> 36 nodes · cohesion 0.09
+> 32 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **scripts/Route6.asm** (36 connections) — `scripts/Route6.asm`
-- **21.45 Mapa `Route6`** (18 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **Route6_Script** (5 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerF1Text** (4 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerF2Text** (4 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerM1Text** (4 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerM2Text** (4 connections) — `scripts/Route6.asm`
-- **Route6Youngster1Text** (4 connections) — `scripts/Route6.asm`
-- **Route6Youngster2Text** (4 connections) — `scripts/Route6.asm`
-- **Route6_ScriptPointers** (2 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerAfterBattleText** (2 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerF1BattleText** (2 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerF1EndBattleText** (2 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerF2AfterBattleText** (2 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerF2BattleText** (2 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerF2EndBattleText** (2 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerM1BattleText** (2 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerM1EndBattleText** (2 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerM2AfterBattleText** (2 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerM2BattleText** (2 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerM2EndBattleText** (2 connections) — `scripts/Route6.asm`
-- **Route6TrainerHeader0** (2 connections) — `scripts/Route6.asm`
-- **Route6TrainerHeader1** (2 connections) — `scripts/Route6.asm`
-- **Route6TrainerHeader2** (2 connections) — `scripts/Route6.asm`
-- **Route6TrainerHeader3** (2 connections) — `scripts/Route6.asm`
-- *... and 11 more nodes in this community*
+- **GateUpstairsScript_PrintIfFacingUp** (12 connections) — `scripts/Route12Gate2F.asm`
+- **scripts/Route11Gate2F.asm** (9 connections) — `scripts/Route11Gate2F.asm`
+- **scripts/Route12Gate2F.asm** (8 connections) — `scripts/Route12Gate2F.asm`
+- **scripts/Route16Gate2F.asm** (8 connections) — `scripts/Route16Gate2F.asm`
+- **scripts/Route18Gate2F.asm** (7 connections) — `scripts/Route18Gate2F.asm`
+- **scripts/Route15Gate2F.asm** (6 connections) — `scripts/Route15Gate2F.asm`
+- **DisableAutoTextBoxDrawing** (6 connections) — `home/window.asm`
+- **Route11Gate2FLeftBinocularsText** (4 connections) — `scripts/Route11Gate2F.asm`
+- **Route12Gate2FBrunetteGirlText** (4 connections) — `scripts/Route12Gate2F.asm`
+- **Route11Gate2FScriptEnd** (3 connections) — `scripts/Route11Gate2F.asm`
+- **Route16Gate2FLittleBoyText** (3 connections) — `scripts/Route16Gate2F.asm`
+- **Route16Gate2FLittleGirlText** (3 connections) — `scripts/Route16Gate2F.asm`
+- **Route18Gate2FYoungsterText** (3 connections) — `scripts/Route18Gate2F.asm`
+- **Route11Gate2F_Script** (2 connections) — `scripts/Route11Gate2F.asm`
+- **Route11Gate2FRightBinocularsText** (2 connections) — `scripts/Route11Gate2F.asm`
+- **Route11Gate2FYoungsterText** (2 connections) — `scripts/Route11Gate2F.asm`
+- **Route12Gate2F_Script** (2 connections) — `scripts/Route12Gate2F.asm`
+- **Route12Gate2FLeftBinocularsText** (2 connections) — `scripts/Route12Gate2F.asm`
+- **Route12Gate2FRightBinocularsText** (2 connections) — `scripts/Route12Gate2F.asm`
+- **Route15Gate2F_Script** (2 connections) — `scripts/Route15Gate2F.asm`
+- **Route15Gate2FBinocularsText** (2 connections) — `scripts/Route15Gate2F.asm`
+- **Route16Gate2F_Script** (2 connections) — `scripts/Route16Gate2F.asm`
+- **Route16Gate2FLeftBinocularsText** (2 connections) — `scripts/Route16Gate2F.asm`
+- **Route16Gate2FRightBinocularsText** (2 connections) — `scripts/Route16Gate2F.asm`
+- **Route18Gate2F_Script** (2 connections) — `scripts/Route18Gate2F.asm`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (6 shared connections)
-- [Scripts 9](Scripts_9.md) (6 shared connections)
-- [Scripts 26](Scripts_26.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts](Scripts.md) (13 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (4 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/Route6.asm`
+- `home/window.asm`
+- `scripts/Route11Gate2F.asm`
+- `scripts/Route12Gate2F.asm`
+- `scripts/Route15Gate2F.asm`
+- `scripts/Route16Gate2F.asm`
+- `scripts/Route18Gate2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (100%)
+- EXTRACTED: 57 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

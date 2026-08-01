@@ -1,35 +1,31 @@
 # Engine Battle 12
 
-> 11 nodes · cohesion 0.20
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **AnimationFallingObjects** (11 connections) — `engine/battle/animations.asm`
-- **FallingObjects_InitMovementData** (4 connections) — `engine/battle/animations.asm`
-- **FallingObjects_UpdateOAMEntry** (4 connections) — `engine/battle/animations.asm`
-- **wFallingObjectsMovementData** (4 connections) — `ram/wram.asm`
-- **AnimationPetalsFalling** (3 connections) — `engine/battle/animations.asm`
-- **FallingObjects_InitXCoords** (3 connections) — `engine/battle/animations.asm`
-- **AnimationLeavesFalling** (2 connections) — `engine/battle/animations.asm`
-- **FallingObjects_DeltaXs** (2 connections) — `engine/battle/animations.asm`
-- **FallingObjects_InitialMovementData** (2 connections) — `engine/battle/animations.asm`
-- **FallingObjects_InitialXCoords** (2 connections) — `engine/battle/animations.asm`
-- **FallingObjects_UpdateMovementByte** (2 connections) — `engine/battle/animations.asm`
+- **MoveAnimation** (12 connections) — `engine/battle/animations.asm`
+- **TossBallAnimation** (4 connections) — `engine/battle/animations.asm`
+- **PlayBattleAnimationGotID** (3 connections) — `engine/battle/effects.asm`
+- **SetAnimationPalette** (2 connections) — `engine/battle/animations.asm`
+- **ShareMoveAnimations** (2 connections) — `engine/battle/animations.asm`
 
 ## Relationships
 
-- [Engine Battle 7](Engine_Battle_7.md) (3 shared connections)
-- [Scripts 13](Scripts_13.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
+- [Engine Battle 8](Engine_Battle_8.md) (2 shared connections)
+- [Engine Battle 11](Engine_Battle_11.md) (1 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
 - `engine/battle/animations.asm`
-- `ram/wram.asm`
+- `engine/battle/effects.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

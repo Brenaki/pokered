@@ -1,54 +1,51 @@
 # Scripts 37
 
-> 41 nodes · cohesion 0.08
+> 38 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts/FuchsiaGym.asm** (44 connections) — `scripts/FuchsiaGym.asm`
-- **21.7 Mapa `FuchsiaGym`** (19 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **FuchsiaGym_Script** (7 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker1Text** (4 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker2Text** (4 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker3Text** (4 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker4Text** (4 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker5Text** (4 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker6Text** (4 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymKogaPostBattleScript** (3 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymResetScripts** (3 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGym_ScriptPointers** (2 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker1AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker1BattleText** (2 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker1EndBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker2AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker2BattleText** (2 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker2EndBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker3AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker3BattleText** (2 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker3EndBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker4AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker4BattleText** (2 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker4EndBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
-- **FuchsiaGymRocker5AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
-- *... and 16 more nodes in this community*
+- **scripts/Route10.asm** (38 connections) — `scripts/Route10.asm`
+- **21.29 Mapa `Route10`** (19 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Route10_Script** (5 connections) — `scripts/Route10.asm`
+- **Route10CooltrainerF1Text** (4 connections) — `scripts/Route10.asm`
+- **Route10CooltrainerF2Text** (4 connections) — `scripts/Route10.asm`
+- **Route10Hiker1Text** (4 connections) — `scripts/Route10.asm`
+- **Route10Hiker2Text** (4 connections) — `scripts/Route10.asm`
+- **Route10SuperNerd1Text** (4 connections) — `scripts/Route10.asm`
+- **Route10SuperNerd2Text** (4 connections) — `scripts/Route10.asm`
+- **Route10_ScriptPointers** (2 connections) — `scripts/Route10.asm`
+- **Route10CooltrainerF1AfterBattleText** (2 connections) — `scripts/Route10.asm`
+- **Route10CooltrainerF1BattleText** (2 connections) — `scripts/Route10.asm`
+- **Route10CooltrainerF1EndBattleText** (2 connections) — `scripts/Route10.asm`
+- **Route10CooltrainerF2AfterBattleText** (2 connections) — `scripts/Route10.asm`
+- **Route10CooltrainerF2BattleText** (2 connections) — `scripts/Route10.asm`
+- **Route10CooltrainerF2EndBattleText** (2 connections) — `scripts/Route10.asm`
+- **Route10Hiker1AfterBattleText** (2 connections) — `scripts/Route10.asm`
+- **Route10Hiker1BattleText** (2 connections) — `scripts/Route10.asm`
+- **Route10Hiker1EndBattleText** (2 connections) — `scripts/Route10.asm`
+- **Route10Hiker2AfterBattleText** (2 connections) — `scripts/Route10.asm`
+- **Route10Hiker2BattleText** (2 connections) — `scripts/Route10.asm`
+- **Route10Hiker2EndBattleText** (2 connections) — `scripts/Route10.asm`
+- **Route10SuperNerd1AfterBattleText** (2 connections) — `scripts/Route10.asm`
+- **Route10SuperNerd1BattleText** (2 connections) — `scripts/Route10.asm`
+- **Route10SuperNerd1EndBattleText** (2 connections) — `scripts/Route10.asm`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (7 shared connections)
-- [Scripts 9](Scripts_9.md) (6 shared connections)
-- [Scripts 28](Scripts_28.md) (2 shared connections)
-- [Scripts 26](Scripts_26.md) (1 shared connections)
-- [Ram 13](Ram_13.md) (1 shared connections)
+- [Scripts](Scripts.md) (6 shared connections)
+- [Home 8](Home_8.md) (6 shared connections)
+- [Scripts 74](Scripts_74.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 18](Scripts_18.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/FuchsiaGym.asm`
+- `scripts/Route10.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 85 (100%)
+- EXTRACTED: 76 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

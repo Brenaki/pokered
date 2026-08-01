@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/SilphCo3F.asm** (3 connections) — `data/maps/objects/SilphCo3F.asm`
-- **SilphCo3F_Object** (1 connections) — `data/maps/objects/SilphCo3F.asm`
+- **data/maps/objects/SeafoamIslandsB4F.asm** (3 connections) — `data/maps/objects/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4F_Object** (1 connections) — `data/maps/objects/SeafoamIslandsB4F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/SilphCo3F.asm`
+- `data/maps/objects/SeafoamIslandsB4F.asm`
 
 ## Audit Trail
 

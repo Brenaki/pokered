@@ -1,57 +1,65 @@
 # Engine Events 3
 
-> 43 nodes · cohesion 0.08
+> 29 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **engine/events/in_game_trades.asm** (34 connections) — `engine/events/in_game_trades.asm`
-- **DoInGameTradeDialogue** (24 connections) — `engine/events/in_game_trades.asm`
-- **InGameTrade_PrepareTradeData** (15 connections) — `engine/events/in_game_trades.asm`
-- **Trade_PrintEnemyMonInfoText** (10 connections) — `engine/movie/trade2.asm`
-- **Trade_PrintPlayerMonInfoText** (10 connections) — `engine/movie/trade2.asm`
-- **wPokedexNum** (8 connections) — `ram/wram.asm`
-- **TradeTextPointers1** (7 connections) — `engine/events/in_game_trades.asm`
-- **TradeTextPointers2** (7 connections) — `engine/events/in_game_trades.asm`
-- **TradeTextPointers3** (7 connections) — `engine/events/in_game_trades.asm`
-- **InGameTradeTextPointers** (5 connections) — `engine/events/in_game_trades.asm`
-- **data/events/trades.asm** (5 connections) — `data/events/trades.asm`
-- **engine/movie/trade2.asm** (5 connections) — `engine/movie/trade2.asm`
-- **wTradedEnemyMonOT** (5 connections) — `ram/wram.asm`
-- **wTradedEnemyMonOTID** (5 connections) — `ram/wram.asm`
-- **wTradedPlayerMonOT** (5 connections) — `ram/wram.asm`
-- **wCompletedInGameTradeFlags** (4 connections) — `ram/wram.asm`
-- **wInGameTradeMonNick** (4 connections) — `ram/wram.asm`
-- **wTradedPlayerMonOTID** (4 connections) — `ram/wram.asm`
-- **InGameTrade_CopyData** (3 connections) — `engine/events/in_game_trades.asm`
-- **InGameTrade_TrainerString** (3 connections) — `engine/events/in_game_trades.asm`
-- **Trade_MonInfoText** (3 connections) — `engine/movie/trade2.asm`
-- **wInGameTradeGiveMonName** (3 connections) — `ram/wram.asm`
-- **wInGameTradeReceiveMonName** (3 connections) — `ram/wram.asm`
-- **wInGameTradeTextPointerTableIndex** (3 connections) — `ram/wram.asm`
-- **wTradedPlayerMonSpecies** (3 connections) — `ram/wram.asm`
-- *... and 18 more nodes in this community*
+- **PrintPredefTextID** (17 connections) — `home/predef_text.asm`
+- **engine/events/hidden_events/oaks_lab_posters.asm** (7 connections) — `engine/events/hidden_events/oaks_lab_posters.asm`
+- **AbleToPlaySlotsCheck** (6 connections) — `engine/slots/game_corner_slots2.asm`
+- **engine/events/hidden_events/gym_statues.asm** (6 connections) — `engine/events/hidden_events/gym_statues.asm`
+- **engine/slots/game_corner_slots.asm** (6 connections) — `engine/slots/game_corner_slots.asm`
+- **PrintBookshelfText** (5 connections) — `engine/events/hidden_events/bookshelves.asm`
+- **DisplayOakLabRightPoster** (5 connections) — `engine/events/hidden_events/oaks_lab_posters.asm`
+- **StartSlotMachine** (5 connections) — `engine/slots/game_corner_slots.asm`
+- **engine/slots/game_corner_slots2.asm** (5 connections) — `engine/slots/game_corner_slots2.asm`
+- **engine/slots** (4 connections)
+- **GymStatues** (4 connections) — `engine/events/hidden_events/gym_statues.asm`
+- **engine/events/hidden_events/bookshelves.asm** (4 connections) — `engine/events/hidden_events/bookshelves.asm`
+- **PrintBlackboardLinkCableText** (3 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **PrintNotebookText** (3 connections) — `engine/events/hidden_events/school_notebooks.asm`
+- **data/maps/badge_maps.asm** (3 connections) — `data/maps/badge_maps.asm`
+- **data/tilesets/bookshelf_tile_ids.asm** (3 connections) — `data/tilesets/bookshelf_tile_ids.asm`
+- **MapBadgeFlags** (2 connections) — `data/maps/badge_maps.asm`
+- **BookshelfTileIDs** (2 connections) — `data/tilesets/bookshelf_tile_ids.asm`
+- **DisplayOakLabLeftPoster** (2 connections) — `engine/events/hidden_events/oaks_lab_posters.asm`
+- **GymStatueText1** (1 connections) — `engine/events/hidden_events/gym_statues.asm`
+- **GymStatueText2** (1 connections) — `engine/events/hidden_events/gym_statues.asm`
+- **PushStartText** (1 connections) — `engine/events/hidden_events/oaks_lab_posters.asm`
+- **SaveOptionText** (1 connections) — `engine/events/hidden_events/oaks_lab_posters.asm`
+- **StrengthsAndWeaknessesText** (1 connections) — `engine/events/hidden_events/oaks_lab_posters.asm`
+- **GameCornerCoinCaseText** (1 connections) — `engine/slots/game_corner_slots2.asm`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Engine Pokemon](Engine_Pokemon.md) (12 shared connections)
-- [Home](Home.md) (5 shared connections)
-- [Engine Menus](Engine_Menus.md) (4 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
-- [Engine Items 5](Engine_Items_5.md) (1 shared connections)
-- [Engine Math](Engine_Math.md) (1 shared connections)
-- [Engine Link](Engine_Link.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (8 shared connections)
+- [Scripts 8](Scripts_8.md) (2 shared connections)
+- [Engine Slots](Engine_Slots.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Home](Home.md) (1 shared connections)
+- [Engine Gfx](Engine_Gfx.md) (1 shared connections)
+- [Bank ROM0](Bank_ROM0.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
 
 ## Source Files
 
-- `data/events/trades.asm`
-- `engine/events/in_game_trades.asm`
-- `engine/movie/trade2.asm`
-- `ram/wram.asm`
+- `data/maps/badge_maps.asm`
+- `data/tilesets/bookshelf_tile_ids.asm`
+- `engine/events/hidden_events/bookshelves.asm`
+- `engine/events/hidden_events/gym_statues.asm`
+- `engine/events/hidden_events/oaks_lab_posters.asm`
+- `engine/events/hidden_events/school_blackboard.asm`
+- `engine/events/hidden_events/school_notebooks.asm`
+- `engine/slots/game_corner_slots.asm`
+- `engine/slots/game_corner_slots2.asm`
+- `home/predef_text.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 98 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

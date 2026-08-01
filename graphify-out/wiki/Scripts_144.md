@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **scripts/ViridianSchoolHouse.asm** (6 connections) — `scripts/ViridianSchoolHouse.asm`
-- **ViridianSchoolHouse_Script** (2 connections) — `scripts/ViridianSchoolHouse.asm`
-- **ViridianSchoolHouse_TextPointers** (1 connections) — `scripts/ViridianSchoolHouse.asm`
-- **ViridianSchoolHouseBrunetteGirlText** (1 connections) — `scripts/ViridianSchoolHouse.asm`
-- **ViridianSchoolHouseCooltrainerFText** (1 connections) — `scripts/ViridianSchoolHouse.asm`
+- **scripts/SafariZoneCenterRestHouse.asm** (6 connections) — `scripts/SafariZoneCenterRestHouse.asm`
+- **SafariZoneCenterRestHouse_Script** (2 connections) — `scripts/SafariZoneCenterRestHouse.asm`
+- **SafariZoneCenterRestHouse_TextPointers** (1 connections) — `scripts/SafariZoneCenterRestHouse.asm`
+- **SafariZoneCenterRestHouseGirlText** (1 connections) — `scripts/SafariZoneCenterRestHouse.asm`
+- **SafariZoneCenterRestHouseScientistText** (1 connections) — `scripts/SafariZoneCenterRestHouse.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `scripts/ViridianSchoolHouse.asm`
+- `scripts/SafariZoneCenterRestHouse.asm`
 
 ## Audit Trail
 

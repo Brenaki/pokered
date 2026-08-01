@@ -1,23 +1,24 @@
 # Scripts 119
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **scripts/CeladonMart2F.asm** (7 connections) — `scripts/CeladonMart2F.asm`
-- **CeladonMart2F_Script** (2 connections) — `scripts/CeladonMart2F.asm`
-- **CeladonMart2F_TextPointers** (1 connections) — `scripts/CeladonMart2F.asm`
-- **CeladonMart2FCurrentFloorSignText** (1 connections) — `scripts/CeladonMart2F.asm`
-- **CeladonMart2FGirlText** (1 connections) — `scripts/CeladonMart2F.asm`
-- **CeladonMart2FMiddleAgedManText** (1 connections) — `scripts/CeladonMart2F.asm`
+- **scripts/UndergroundPathRoute7Copy.asm** (8 connections) — `scripts/UndergroundPathRoute7Copy.asm`
+- **UndergroundPathRoute7Copy_Script** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
+- **UndergroundPathRoute7Copy_TextPointers** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
+- **UndergroundPathRoute7CopyUnusedGirlText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
+- **UndergroundPathRoute7CopyUnusedGoesUnderSaffronText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
+- **UndergroundPathRoute7CopyUnusedMiddleAgedManText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
+- **UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
 
 ## Relationships
 
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `scripts/CeladonMart2F.asm`
+- `scripts/UndergroundPathRoute7Copy.asm`
 
 ## Audit Trail
 

@@ -1,71 +1,77 @@
 # Bank ROMX
 
-> 86 nodes · cohesion 0.04
+> 132 nodes · cohesion 0.02
 
 ## Key Concepts
 
 - **main.asm** (244 connections) — `main.asm`
 - **ROMX** (100 connections)
-- **(root)** (16 connections)
-- **AGENTS.md** (15 connections) — `AGENTS.md`
-- **Como O Build Funciona** (14 connections) — `AGENTS.md`
-- **Como Estudar Um Comportamento** (8 connections) — `AGENTS.md`
-- **ram.asm** (8 connections) — `ram.asm`
-- **RecoilEffect_** (5 connections) — `engine/battle/move_effects/recoil.asm`
+- **engine/events** (49 connections)
+- **engine/items** (10 connections)
+- **engine/events/diploma.asm** (10 connections) — `engine/events/diploma.asm`
 - **engine/battle/display_effectiveness.asm** (5 connections) — `engine/battle/display_effectiveness.asm`
+- **engine/events/hidden_events/blues_room.asm** (5 connections) — `engine/events/hidden_events/blues_room.asm`
+- **engine/items/tms.asm** (5 connections) — `engine/items/tms.asm`
 - **DisplayEffectiveness** (4 connections) — `engine/battle/display_effectiveness.asm`
-- **engine/battle/move_effects/recoil.asm** (4 connections) — `engine/battle/move_effects/recoil.asm`
+- **Route15GateLeftBinoculars** (4 connections) — `engine/events/hidden_events/route_15_binoculars.asm`
+- **CheckIfMoveIsKnown** (4 connections) — `engine/items/tmhm.asm`
+- **data/moves/tmhm_moves.asm** (4 connections) — `data/moves/tmhm_moves.asm`
 - **engine/battle/unused_stats_functions.asm** (4 connections) — `engine/battle/unused_stats_functions.asm`
-- **engine/overworld/is_player_just_outside_map.asm** (3 connections) — `engine/overworld/is_player_just_outside_map.asm`
-- **engine/pokemon/status_ailments.asm** (3 connections) — `engine/pokemon/status_ailments.asm`
-- **layout.link** (3 connections) — `layout.link`
-- **Regras Ao Editar** (2 connections) — `AGENTS.md`
-- **Audio Engine 1 [ROMX]** (2 connections) — `audio.asm`
-- **Audio Engine 2 [ROMX]** (2 connections) — `audio.asm`
-- **Audio Engine 3 [ROMX]** (2 connections) — `audio.asm`
-- **Low Health Alarm (Audio Engine 2) [ROMX]** (2 connections) — `audio.asm`
-- **Music 1 [ROMX]** (2 connections) — `audio.asm`
-- **Music 2 [ROMX]** (2 connections) — `audio.asm`
-- **Music 3 [ROMX]** (2 connections) — `audio.asm`
-- **Music Headers 1 [ROMX]** (2 connections) — `audio.asm`
-- **Music Headers 2 [ROMX]** (2 connections) — `audio.asm`
-- *... and 61 more nodes in this community*
+- **engine/events/hidden_events/indigo_plateau_hq.asm** (4 connections) — `engine/events/hidden_events/indigo_plateau_hq.asm`
+- **engine/events/hidden_events/magazines.asm** (4 connections) — `engine/events/hidden_events/magazines.asm`
+- **engine/events/hidden_events/new_bike.asm** (4 connections) — `engine/events/hidden_events/new_bike.asm`
+- **engine/events/hidden_events/oaks_lab_email.asm** (4 connections) — `engine/events/hidden_events/oaks_lab_email.asm`
+- **engine/events/hidden_events/pokecenter_pc.asm** (4 connections) — `engine/events/hidden_events/pokecenter_pc.asm`
+- **engine/events/hidden_events/route_15_binoculars.asm** (4 connections) — `engine/events/hidden_events/route_15_binoculars.asm`
+- **engine/events/set_blackout_map.asm** (4 connections) — `engine/events/set_blackout_map.asm`
+- **engine/items/inventory.asm** (4 connections) — `engine/items/inventory.asm`
+- **engine/items/tm_prices.asm** (4 connections) — `engine/items/tm_prices.asm`
+- **engine/items/tmhm.asm** (4 connections) — `engine/items/tmhm.asm`
+- **TechnicalMachines** (3 connections) — `data/moves/tmhm_moves.asm`
+- **SetLastBlackoutMap** (3 connections) — `engine/events/set_blackout_map.asm`
+- *... and 107 more nodes in this community*
 
 ## Relationships
 
-- [Engine Events](Engine_Events.md) (19 shared connections)
-- [Engine Battle 2](Engine_Battle_2.md) (15 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (10 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (9 shared connections)
-- [Makefile](Makefile.md) (6 shared connections)
-- [Engine Menus 2](Engine_Menus_2.md) (6 shared connections)
-- [Home 2](Home_2.md) (6 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (19 shared connections)
+- [Engine Battle 3](Engine_Battle_3.md) (15 shared connections)
+- [Scripts 4](Scripts_4.md) (11 shared connections)
+- [Home](Home.md) (10 shared connections)
+- [Engine Events 3](Engine_Events_3.md) (8 shared connections)
+- [Scripts](Scripts.md) (7 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (7 shared connections)
+- [Engine Battle 2](Engine_Battle_2.md) (7 shared connections)
+- [Engine Events](Engine_Events.md) (6 shared connections)
 - [Engine Menus](Engine_Menus.md) (6 shared connections)
-- [Engine Overworld 3](Engine_Overworld_3.md) (6 shared connections)
-- [Home 3](Home_3.md) (5 shared connections)
-- [Engine Gfx 2](Engine_Gfx_2.md) (5 shared connections)
-- [Engine Battle](Engine_Battle.md) (5 shared connections)
+- [Engine Overworld 2](Engine_Overworld_2.md) (6 shared connections)
+- [Home 2](Home_2.md) (5 shared connections)
 
 ## Source Files
 
-- `.gitignore`
-- `AGENTS.md`
-- `README.md`
 - `audio.asm`
+- `data/items/tm_prices.asm`
+- `data/maps/rest_house_maps.asm`
+- `data/moves/tmhm_moves.asm`
+- `data/pokemon/names.asm`
 - `engine/battle/display_effectiveness.asm`
-- `engine/battle/move_effects/recoil.asm`
 - `engine/battle/unused_stats_functions.asm`
-- `engine/overworld/is_player_just_outside_map.asm`
-- `engine/pokemon/status_ailments.asm`
-- `layout.link`
-- `main.asm`
-- `ram.asm`
-- `rgbdscheck.asm`
-- `text.asm`
+- `engine/events/diploma.asm`
+- `engine/events/display_pokedex.asm`
+- `engine/events/evolve_trade.asm`
+- `engine/events/heal_party.asm`
+- `engine/events/hidden_events/blues_room.asm`
+- `engine/events/hidden_events/elevator.asm`
+- `engine/events/hidden_events/indigo_plateau_hq.asm`
+- `engine/events/hidden_events/magazines.asm`
+- `engine/events/hidden_events/new_bike.asm`
+- `engine/events/hidden_events/oaks_lab_email.asm`
+- `engine/events/hidden_events/pokecenter_pc.asm`
+- `engine/events/hidden_events/pokemon_stuff.asm`
+- `engine/events/hidden_events/route_15_binoculars.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 364 (100%)
+- EXTRACTED: 427 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

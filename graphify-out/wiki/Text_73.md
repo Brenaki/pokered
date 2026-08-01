@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **text/Route22.asm** (11 connections) — `text/Route22.asm`
-- **_Route22PokemonLeagueSignText** (1 connections) — `text/Route22.asm`
-- **_Route22Rival1DefeatedText** (1 connections) — `text/Route22.asm`
-- **_Route22Rival1VictoryText** (1 connections) — `text/Route22.asm`
-- **_Route22Rival2DefeatedText** (1 connections) — `text/Route22.asm`
-- **_Route22Rival2VictoryText** (1 connections) — `text/Route22.asm`
-- **_Route22RivalAfterBattleText1** (1 connections) — `text/Route22.asm`
-- **_Route22RivalAfterBattleText2** (1 connections) — `text/Route22.asm`
-- **_Route22RivalBeforeBattleText1** (1 connections) — `text/Route22.asm`
-- **_Route22RivalBeforeBattleText2** (1 connections) — `text/Route22.asm`
+- **text/LavenderTown.asm** (11 connections) — `text/LavenderTown.asm`
+- **_LavenderTownCooltrainerMText** (1 connections) — `text/LavenderTown.asm`
+- **_LavenderTownLittleGirlDoYouBelieveInGhostsText** (1 connections) — `text/LavenderTown.asm`
+- **_LavenderTownLittleGirlHaHaGuessNotText** (1 connections) — `text/LavenderTown.asm`
+- **_LavenderTownLittleGirlSoThereAreBelieversText** (1 connections) — `text/LavenderTown.asm`
+- **_LavenderTownPokemonHouseSignText** (1 connections) — `text/LavenderTown.asm`
+- **_LavenderTownPokemonTowerSignText** (1 connections) — `text/LavenderTown.asm`
+- **_LavenderTownSignText** (1 connections) — `text/LavenderTown.asm`
+- **_LavenderTownSilphScopeSignText** (1 connections) — `text/LavenderTown.asm`
+- **_LavenderTownSuperNerdText** (1 connections) — `text/LavenderTown.asm`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `text/Route22.asm`
+- `text/LavenderTown.asm`
 
 ## Audit Trail
 

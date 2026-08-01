@@ -1,59 +1,56 @@
 # Audio Sfx
 
-> 665 nodes · cohesion 0.00
+> 429 nodes · cohesion 0.01
 
 ## Key Concepts
 
 - **audio.asm** (406 connections) — `audio.asm`
 - **audio/sfx** (324 connections)
-- **audio/sfx/battle_28.asm** (5 connections) — `audio/sfx/battle_28.asm`
-- **audio/sfx/battle_2e.asm** (5 connections) — `audio/sfx/battle_2e.asm`
-- **audio/sfx/battle_2f.asm** (5 connections) — `audio/sfx/battle_2f.asm`
-- **audio/sfx/battle_34.asm** (5 connections) — `audio/sfx/battle_34.asm`
 - **audio/sfx/caught_mon.asm** (5 connections) — `audio/sfx/caught_mon.asm`
-- **audio/sfx/cry00_1.asm** (5 connections) — `audio/sfx/cry00_1.asm`
 - **audio/sfx/cry00_3.asm** (5 connections) — `audio/sfx/cry00_3.asm`
-- **audio/sfx/cry01_2.asm** (5 connections) — `audio/sfx/cry01_2.asm`
-- **audio/sfx/cry02_1.asm** (5 connections) — `audio/sfx/cry02_1.asm`
-- **audio/sfx/cry02_2.asm** (5 connections) — `audio/sfx/cry02_2.asm`
-- **audio/sfx/cry03_1.asm** (5 connections) — `audio/sfx/cry03_1.asm`
-- **audio/sfx/cry03_3.asm** (5 connections) — `audio/sfx/cry03_3.asm`
-- **audio/sfx/cry05_2.asm** (5 connections) — `audio/sfx/cry05_2.asm`
-- **audio/sfx/cry05_3.asm** (5 connections) — `audio/sfx/cry05_3.asm`
-- **audio/sfx/cry06_2.asm** (5 connections) — `audio/sfx/cry06_2.asm`
-- **audio/sfx/cry06_3.asm** (5 connections) — `audio/sfx/cry06_3.asm`
-- **audio/sfx/cry07_2.asm** (5 connections) — `audio/sfx/cry07_2.asm`
-- **audio/sfx/cry09_1.asm** (5 connections) — `audio/sfx/cry09_1.asm`
-- **audio/sfx/cry09_3.asm** (5 connections) — `audio/sfx/cry09_3.asm`
 - **audio/sfx/cry0a_2.asm** (5 connections) — `audio/sfx/cry0a_2.asm`
 - **audio/sfx/cry0b_2.asm** (5 connections) — `audio/sfx/cry0b_2.asm`
-- **audio/sfx/cry0c_2.asm** (5 connections) — `audio/sfx/cry0c_2.asm`
-- **audio/sfx/cry0d_2.asm** (5 connections) — `audio/sfx/cry0d_2.asm`
-- *... and 640 more nodes in this community*
+- **audio/sfx/cry0d_3.asm** (5 connections) — `audio/sfx/cry0d_3.asm`
+- **audio/sfx/cry11_1.asm** (5 connections) — `audio/sfx/cry11_1.asm`
+- **audio/sfx/cry12_3.asm** (5 connections) — `audio/sfx/cry12_3.asm`
+- **audio/sfx/cry15_2.asm** (5 connections) — `audio/sfx/cry15_2.asm`
+- **audio/sfx/cry16_1.asm** (5 connections) — `audio/sfx/cry16_1.asm`
+- **audio/sfx/cry19_1.asm** (5 connections) — `audio/sfx/cry19_1.asm`
+- **audio/sfx/cry19_2.asm** (5 connections) — `audio/sfx/cry19_2.asm`
+- **audio/sfx/cry1b_2.asm** (5 connections) — `audio/sfx/cry1b_2.asm`
+- **audio/sfx/cry1b_3.asm** (5 connections) — `audio/sfx/cry1b_3.asm`
+- **audio/sfx/cry1d_3.asm** (5 connections) — `audio/sfx/cry1d_3.asm`
+- **audio/sfx/cry20_3.asm** (5 connections) — `audio/sfx/cry20_3.asm`
+- **audio/sfx/get_item1_3.asm** (5 connections) — `audio/sfx/get_item1_3.asm`
+- **audio/sfx/unused_cry_3.asm** (5 connections) — `audio/sfx/unused_cry_3.asm`
+- **audio/sfx/ball_toss.asm** (4 connections) — `audio/sfx/ball_toss.asm`
+- **audio/sfx/battle_1e.asm** (4 connections) — `audio/sfx/battle_1e.asm`
+- **audio/sfx/battle_24.asm** (4 connections) — `audio/sfx/battle_24.asm`
+- **audio/sfx/battle_29.asm** (4 connections) — `audio/sfx/battle_29.asm`
+- **audio/sfx/battle_31.asm** (4 connections) — `audio/sfx/battle_31.asm`
+- **audio/sfx/battle_35.asm** (4 connections) — `audio/sfx/battle_35.asm`
+- *... and 404 more nodes in this community*
 
 ## Relationships
 
-- [Audio Music](Audio_Music.md) (45 shared connections)
+- [Audio Music](Audio_Music.md) (43 shared connections)
 - [Bank ROMX](Bank_ROMX.md) (16 shared connections)
 - [Audio Sfx 2](Audio_Sfx_2.md) (5 shared connections)
+- [Ram 3](Ram_3.md) (3 shared connections)
+- [Audio Sfx 125](Audio_Sfx_125.md) (2 shared connections)
+- [Audio Sfx 126](Audio_Sfx_126.md) (2 shared connections)
+- [Audio Sfx 127](Audio_Sfx_127.md) (2 shared connections)
 - [Audio Sfx 3](Audio_Sfx_3.md) (2 shared connections)
 - [Audio Sfx 4](Audio_Sfx_4.md) (2 shared connections)
 - [Audio Sfx 5](Audio_Sfx_5.md) (2 shared connections)
+- [Audio Sfx 128](Audio_Sfx_128.md) (2 shared connections)
 - [Audio Sfx 6](Audio_Sfx_6.md) (2 shared connections)
-- [Audio Sfx 7](Audio_Sfx_7.md) (2 shared connections)
-- [Audio Sfx 8](Audio_Sfx_8.md) (2 shared connections)
-- [Audio Sfx 9](Audio_Sfx_9.md) (2 shared connections)
-- [Audio Sfx 10](Audio_Sfx_10.md) (2 shared connections)
-- [Audio Sfx 11](Audio_Sfx_11.md) (2 shared connections)
 
 ## Source Files
 
 - `audio.asm`
-- `audio/sfx/59_1.asm`
-- `audio/sfx/59_3.asm`
 - `audio/sfx/arrow_tiles_1.asm`
 - `audio/sfx/arrow_tiles_3.asm`
-- `audio/sfx/ball_poof.asm`
 - `audio/sfx/ball_toss.asm`
 - `audio/sfx/battle_09.asm`
 - `audio/sfx/battle_0b.asm`
@@ -68,10 +65,13 @@
 - `audio/sfx/battle_17.asm`
 - `audio/sfx/battle_18.asm`
 - `audio/sfx/battle_19.asm`
+- `audio/sfx/battle_1b.asm`
+- `audio/sfx/battle_1c.asm`
+- `audio/sfx/battle_1e.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 1140 (100%)
+- EXTRACTED: 966 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

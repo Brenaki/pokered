@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/GameCornerPrizeRoom.asm** (3 connections) — `data/maps/objects/GameCornerPrizeRoom.asm`
-- **GameCornerPrizeRoom_Object** (1 connections) — `data/maps/objects/GameCornerPrizeRoom.asm`
+- **data/maps/objects/FuchsiaGoodRodHouse.asm** (3 connections) — `data/maps/objects/FuchsiaGoodRodHouse.asm`
+- **FuchsiaGoodRodHouse_Object** (1 connections) — `data/maps/objects/FuchsiaGoodRodHouse.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/GameCornerPrizeRoom.asm`
+- `data/maps/objects/FuchsiaGoodRodHouse.asm`
 
 ## Audit Trail
 

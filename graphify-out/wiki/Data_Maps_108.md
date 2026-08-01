@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/ViridianGym.asm** (3 connections) — `data/maps/objects/ViridianGym.asm`
-- **ViridianGym_Object** (1 connections) — `data/maps/objects/ViridianGym.asm`
+- **data/maps/objects/VermilionTradeHouse.asm** (3 connections) — `data/maps/objects/VermilionTradeHouse.asm`
+- **VermilionTradeHouse_Object** (1 connections) — `data/maps/objects/VermilionTradeHouse.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/ViridianGym.asm`
+- `data/maps/objects/VermilionTradeHouse.asm`
 
 ## Audit Trail
 

@@ -1,50 +1,50 @@
 # Engine Battle
 
-> 223 nodes · cohesion 0.03
+> 221 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **engine/battle/core.asm** (228 connections) — `engine/battle/core.asm`
+- **engine/battle/core.asm** (229 connections) — `engine/battle/core.asm`
 - **5. Visão arquitetural e fontes de verdade** (43 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
 - **CheckEnemyStatusConditions** (40 connections) — `engine/battle/core.asm`
 - **CheckPlayerStatusConditions** (35 connections) — `engine/battle/core.asm`
+- **EnemySendOutFirstMon** (34 connections) — `engine/battle/core.asm`
 - **ClearScreenArea** (31 connections) — `home/copy2.asm`
-- **PlaySoundWaitForCurrent** (30 connections) — `home/delay.asm`
 - **25. Rastreabilidade consolidada** (25 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **FlagActionPredef** (25 connections) — `engine/flag_action.asm`
-- **Divide** (25 connections) — `home/math.asm`
 - **MainInBattleLoop** (24 connections) — `engine/battle/core.asm`
 - **StartBattle** (24 connections) — `engine/battle/core.asm`
 - **FaintEnemyPokemon** (23 connections) — `engine/battle/core.asm`
+- **wPlayerBattleStatus1** (23 connections) — `ram/wram.asm`
 - **wDamage** (22 connections) — `ram/wram.asm`
 - **EnemyCheckIfMirrorMoveEffect** (21 connections) — `engine/battle/core.asm`
 - **IsInArray** (21 connections) — `home/array2.asm`
-- **27. Referências internas** (20 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
 - **MirrorMoveCheck** (20 connections) — `engine/battle/core.asm`
 - **TryRunningFromBattle** (20 connections) — `engine/battle/core.asm`
 - **DrawPlayerHUDAndHPBar** (19 connections) — `engine/battle/core.asm`
-- **CopyToStringBuffer** (18 connections) — `home/copy_string.asm`
-- **Multiply** (18 connections) — `home/math.asm`
+- **Bankswitch** (18 connections) — `home/bankswitch.asm`
 - **DrawEnemyHUDAndHPBar** (17 connections) — `engine/battle/core.asm`
 - **SelectMenuItem** (17 connections) — `engine/battle/core.asm`
 - **SendOutMon** (17 connections) — `engine/battle/core.asm`
-- **Moves** (15 connections) — `data/moves/moves.asm`
-- *... and 198 more nodes in this community*
+- **MoveSelectionMenu** (15 connections) — `engine/battle/core.asm`
+- **AttackSubstitute** (14 connections) — `engine/battle/core.asm`
+- **EnemyCalcMoveDamage** (14 connections) — `engine/battle/core.asm`
+- **PrintMoveFailureText** (14 connections) — `engine/battle/core.asm`
+- *... and 196 more nodes in this community*
 
 ## Relationships
 
-- [Engine Battle 2](Engine_Battle_2.md) (83 shared connections)
-- [Home](Home.md) (58 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (49 shared connections)
-- [Scripts](Scripts.md) (27 shared connections)
-- [Ram](Ram.md) (22 shared connections)
-- [Engine Movie](Engine_Movie.md) (14 shared connections)
-- [Engine Menus](Engine_Menus.md) (11 shared connections)
-- [Engine Gfx 2](Engine_Gfx_2.md) (9 shared connections)
-- [Engine Pokemon 2](Engine_Pokemon_2.md) (8 shared connections)
-- [Scripts 13](Scripts_13.md) (8 shared connections)
-- [Engine Items](Engine_Items.md) (6 shared connections)
-- [Constants](Constants.md) (6 shared connections)
+- [Engine Battle 2](Engine_Battle_2.md) (79 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (77 shared connections)
+- [Home](Home.md) (53 shared connections)
+- [Scripts](Scripts.md) (33 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (25 shared connections)
+- [Ram](Ram.md) (14 shared connections)
+- [Engine Battle 3](Engine_Battle_3.md) (8 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (8 shared connections)
+- [Engine Link](Engine_Link.md) (7 shared connections)
+- [Engine Items](Engine_Items.md) (5 shared connections)
+- [Bank HRAM](Bank_HRAM.md) (5 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (4 shared connections)
 
 ## Source Files
 
@@ -55,23 +55,23 @@
 - `data/battle/set_damage_effects.asm`
 - `data/battle/special_effects.asm`
 - `data/battle/unused_critical_hit_moves.asm`
-- `data/moves/moves.asm`
 - `data/types/type_matchups.asm`
 - `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `engine/battle/animations.asm`
 - `engine/battle/core.asm`
 - `engine/battle/decrement_pp.asm`
 - `engine/battle/effects.asm`
-- `engine/battle/safari_zone.asm`
-- `engine/flag_action.asm`
-- `engine/gfx/hp_bar.asm`
+- `engine/battle/print_type.asm`
 - `home/array2.asm`
+- `home/bankswitch.asm`
 - `home/copy2.asm`
-- `home/copy_string.asm`
+- `home/palettes.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 988 (100%)
+- EXTRACTED: 963 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,53 +1,52 @@
 # Scripts 69
 
-> 25 nodes · cohesion 0.13
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **scripts/SilphCo8F.asm** (25 connections) — `scripts/SilphCo8F.asm`
-- **21.62 Mapa `SilphCo8F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **hUnlockedSilphCoDoors** (8 connections) — `ram/hram.asm`
-- **SilphCo8F_Script** (6 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FGateCallbackScript** (5 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8F_SetCardKeyDoorYScript** (4 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket1Text** (4 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket2Text** (4 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FScientistText** (4 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8F_ScriptPointers** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8F_UnlockedDoorEventScript** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket1AfterBattleText** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket1BattleText** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket1EndBattleText** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket2AfterBattleText** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket2BattleText** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket2EndBattleText** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FScientistAfterBattleText** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FScientistBattleText** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FScientistEndBattleText** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8TrainerHeader0** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8TrainerHeader1** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8TrainerHeader2** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8TrainerHeaders** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8F_TextPointers** (1 connections) — `scripts/SilphCo8F.asm`
+- **scripts/PewterGym.asm** (25 connections) — `scripts/PewterGym.asm`
+- **PewterGymGuideText** (9 connections) — `scripts/PewterGym.asm`
+- **PewterGymScriptReceiveTM34** (8 connections) — `scripts/PewterGym.asm`
+- **PewterGym_Script** (7 connections) — `scripts/PewterGym.asm`
+- **21.12 Mapa `PewterGym`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **PewterGymCooltrainerMText** (4 connections) — `scripts/PewterGym.asm`
+- **PewterGymResetScripts** (3 connections) — `scripts/PewterGym.asm`
+- **PewterGym_ScriptPointers** (2 connections) — `scripts/PewterGym.asm`
+- **PewterGymBrockPostBattle** (2 connections) — `scripts/PewterGym.asm`
+- **PewterGymCooltrainerMAfterBattleText** (2 connections) — `scripts/PewterGym.asm`
+- **PewterGymCooltrainerMBattleText** (2 connections) — `scripts/PewterGym.asm`
+- **PewterGymCooltrainerMEndBattleText** (2 connections) — `scripts/PewterGym.asm`
+- **PewterGymGuideAdviceText** (2 connections) — `scripts/PewterGym.asm`
+- **PewterGymGuideBeginAdviceText** (2 connections) — `scripts/PewterGym.asm`
+- **PewterGymGuideFreeServiceText** (2 connections) — `scripts/PewterGym.asm`
+- **PewterGymGuidePostBattleText** (2 connections) — `scripts/PewterGym.asm`
+- **PewterGymGuidePreAdviceText** (2 connections) — `scripts/PewterGym.asm`
+- **PewterGymTrainerHeader0** (2 connections) — `scripts/PewterGym.asm`
+- **PewterGymTrainerHeaders** (2 connections) — `scripts/PewterGym.asm`
+- **PewterGym_TextPointers** (1 connections) — `scripts/PewterGym.asm`
+- **PewterGymBrockWaitTakeThisText** (1 connections) — `scripts/PewterGym.asm`
+- **PewterGymReceivedTM34Text** (1 connections) — `scripts/PewterGym.asm`
+- **PewterGymTM34NoRoomText** (1 connections) — `scripts/PewterGym.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (4 shared connections)
-- [Scripts 9](Scripts_9.md) (3 shared connections)
-- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts](Scripts.md) (5 shared connections)
+- [Scripts 7](Scripts_7.md) (4 shared connections)
+- [Scripts 19](Scripts_19.md) (2 shared connections)
+- [Scripts 74](Scripts_74.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Ram 11](Ram_11.md) (1 shared connections)
-- [Scripts 18](Scripts_18.md) (1 shared connections)
+- [Home 8](Home_8.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `ram/hram.asm`
-- `scripts/SilphCo8F.asm`
+- `scripts/PewterGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

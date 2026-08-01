@@ -1,77 +1,77 @@
 # Scripts 3
 
-> 103 nodes · cohesion 0.02
+> 78 nodes · cohesion 0.03
 
 ## Key Concepts
 
 - **scripts** (225 connections)
-- **scripts/SafariZoneNorth.asm** (9 connections) — `scripts/SafariZoneNorth.asm`
-- **scripts/NameRatersHouse.asm** (8 connections) — `scripts/NameRatersHouse.asm`
-- **scripts/CeladonMansionRoofHouse.asm** (7 connections) — `scripts/CeladonMansionRoofHouse.asm`
-- **scripts/FuchsiaBillsGrandpasHouse.asm** (7 connections) — `scripts/FuchsiaBillsGrandpasHouse.asm`
-- **scripts/SafariZoneEastRestHouse.asm** (7 connections) — `scripts/SafariZoneEastRestHouse.asm`
-- **scripts/LavenderMart.asm** (6 connections) — `scripts/LavenderMart.asm`
-- **scripts/PewterMart.asm** (6 connections) — `scripts/PewterMart.asm`
+- **scripts/FuchsiaMeetingRoom.asm** (7 connections) — `scripts/FuchsiaMeetingRoom.asm`
+- **scripts/SafariZoneWestRestHouse.asm** (7 connections) — `scripts/SafariZoneWestRestHouse.asm`
 - **scripts/Route16FlyHouse.asm** (6 connections) — `scripts/Route16FlyHouse.asm`
 - **scripts/Route2Gate.asm** (6 connections) — `scripts/Route2Gate.asm`
-- **scripts/SafariZoneCenter.asm** (6 connections) — `scripts/SafariZoneCenter.asm`
-- **scripts/SafariZoneCenterRestHouse.asm** (6 connections) — `scripts/SafariZoneCenterRestHouse.asm`
 - **scripts/SaffronMart.asm** (6 connections) — `scripts/SaffronMart.asm`
+- **scripts/VermilionMart.asm** (6 connections) — `scripts/VermilionMart.asm`
 - **scripts/WardensHouse.asm** (6 connections) — `scripts/WardensHouse.asm`
+- **scripts/CeladonMansion2F.asm** (5 connections) — `scripts/CeladonMansion2F.asm`
 - **scripts/FuchsiaGoodRodHouse.asm** (5 connections) — `scripts/FuchsiaGoodRodHouse.asm`
 - **scripts/MrPsychicsHouse.asm** (5 connections) — `scripts/MrPsychicsHouse.asm`
-- **scripts/SafariZoneSecretHouse.asm** (5 connections) — `scripts/SafariZoneSecretHouse.asm`
+- **scripts/MtMoonB1F.asm** (5 connections) — `scripts/MtMoonB1F.asm`
+- **scripts/Route12SuperRodHouse.asm** (5 connections) — `scripts/Route12SuperRodHouse.asm`
+- **scripts/Route15Gate1F.asm** (5 connections) — `scripts/Route15Gate1F.asm`
 - **scripts/SilphCo1F.asm** (5 connections) — `scripts/SilphCo1F.asm`
-- **scripts/UndergroundPathRoute7.asm** (5 connections) — `scripts/UndergroundPathRoute7.asm`
-- **scripts/UndergroundPathRoute8.asm** (5 connections) — `scripts/UndergroundPathRoute8.asm`
 - **scripts/VermilionOldRodHouse.asm** (5 connections) — `scripts/VermilionOldRodHouse.asm`
 - **scripts/VermilionTradeHouse.asm** (5 connections) — `scripts/VermilionTradeHouse.asm`
-- **scripts/CeruleanCave2F.asm** (4 connections) — `scripts/CeruleanCave2F.asm`
 - **scripts/DiglettsCave.asm** (4 connections) — `scripts/DiglettsCave.asm`
 - **scripts/IndigoPlateau.asm** (4 connections) — `scripts/IndigoPlateau.asm`
-- *... and 78 more nodes in this community*
+- **scripts/SSAnneB1F.asm** (4 connections) — `scripts/SSAnneB1F.asm`
+- **scripts/UndergroundPathNorthSouth.asm** (4 connections) — `scripts/UndergroundPathNorthSouth.asm`
+- **scripts/CeruleanCity_2.asm** (3 connections) — `scripts/CeruleanCity_2.asm`
+- **VermilionTradeHouseLittleGirlText** (3 connections) — `scripts/VermilionTradeHouse.asm`
+- **CeladonMansion2F_Script** (2 connections) — `scripts/CeladonMansion2F.asm`
+- **DiglettsCave_Script** (2 connections) — `scripts/DiglettsCave.asm`
+- *... and 53 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 4](Scripts_4.md) (37 shared connections)
-- [Scripts](Scripts.md) (15 shared connections)
-- [Scripts 6](Scripts_6.md) (10 shared connections)
-- [Scripts 12](Scripts_12.md) (6 shared connections)
-- [Scripts 38](Scripts_38.md) (6 shared connections)
-- [Scripts 15](Scripts_15.md) (4 shared connections)
-- [Scripts 31](Scripts_31.md) (4 shared connections)
-- [Scripts 48](Scripts_48.md) (4 shared connections)
-- [Scripts 18](Scripts_18.md) (3 shared connections)
-- [Scripts 32](Scripts_32.md) (3 shared connections)
-- [Scripts 56](Scripts_56.md) (2 shared connections)
-- [Scripts 105](Scripts_105.md) (2 shared connections)
+- [Scripts 4](Scripts_4.md) (35 shared connections)
+- [Scripts](Scripts.md) (13 shared connections)
+- [Scripts 6](Scripts_6.md) (9 shared connections)
+- [Scripts 29](Scripts_29.md) (5 shared connections)
+- [Scripts 46](Scripts_46.md) (5 shared connections)
+- [Scripts 19](Scripts_19.md) (5 shared connections)
+- [Scripts 39](Scripts_39.md) (4 shared connections)
+- [Scripts 51](Scripts_51.md) (3 shared connections)
+- [Scripts 8](Scripts_8.md) (2 shared connections)
+- [Scripts 110](Scripts_110.md) (2 shared connections)
+- [Scripts 43](Scripts_43.md) (2 shared connections)
+- [Scripts 25](Scripts_25.md) (2 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonMansionRoofHouse.asm`
-- `scripts/CeruleanCave2F.asm`
+- `scripts/CeladonMansion2F.asm`
+- `scripts/CeruleanCity_2.asm`
 - `scripts/DiglettsCave.asm`
-- `scripts/FuchsiaBillsGrandpasHouse.asm`
 - `scripts/FuchsiaGoodRodHouse.asm`
+- `scripts/FuchsiaMeetingRoom.asm`
 - `scripts/IndigoPlateau.asm`
-- `scripts/LavenderMart.asm`
 - `scripts/MrPsychicsHouse.asm`
-- `scripts/NameRatersHouse.asm`
-- `scripts/PewterMart.asm`
+- `scripts/MtMoonB1F.asm`
+- `scripts/Route12SuperRodHouse.asm`
+- `scripts/Route15Gate1F.asm`
 - `scripts/Route16FlyHouse.asm`
 - `scripts/Route2Gate.asm`
 - `scripts/SSAnneB1F.asm`
-- `scripts/SafariZoneCenter.asm`
-- `scripts/SafariZoneCenterRestHouse.asm`
-- `scripts/SafariZoneEastRestHouse.asm`
-- `scripts/SafariZoneNorth.asm`
-- `scripts/SafariZoneSecretHouse.asm`
+- `scripts/SafariZoneWestRestHouse.asm`
 - `scripts/SaffronMart.asm`
 - `scripts/SilphCo1F.asm`
+- `scripts/UndergroundPathNorthSouth.asm`
+- `scripts/VermilionMart.asm`
+- `scripts/VermilionOldRodHouse.asm`
+- `scripts/VermilionTradeHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 343 (100%)
+- EXTRACTED: 311 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,28 +1,27 @@
 # Scripts 131
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **scripts/CeruleanTradeHouse.asm** (6 connections) — `scripts/CeruleanTradeHouse.asm`
-- **CeruleanTradeHouseGamblerText** (3 connections) — `scripts/CeruleanTradeHouse.asm`
-- **CeruleanTradeHouse_Script** (2 connections) — `scripts/CeruleanTradeHouse.asm`
-- **CeruleanTradeHouse_TextPointers** (1 connections) — `scripts/CeruleanTradeHouse.asm`
-- **CeruleanTradeHouseGrannyText** (1 connections) — `scripts/CeruleanTradeHouse.asm`
+- **scripts/SafariZoneEastRestHouse.asm** (7 connections) — `scripts/SafariZoneEastRestHouse.asm`
+- **SafariZoneEastRestHouse_Script** (2 connections) — `scripts/SafariZoneEastRestHouse.asm`
+- **SafariZoneEastRestHouse_TextPointers** (1 connections) — `scripts/SafariZoneEastRestHouse.asm`
+- **SafariZoneEastRestHouseRockerText** (1 connections) — `scripts/SafariZoneEastRestHouse.asm`
+- **SafariZoneEastRestHouseScientistText** (1 connections) — `scripts/SafariZoneEastRestHouse.asm`
+- **SafariZoneEastRestHouseSilphWorkerMText** (1 connections) — `scripts/SafariZoneEastRestHouse.asm`
 
 ## Relationships
 
 - [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeruleanTradeHouse.asm`
+- `scripts/SafariZoneEastRestHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,52 +1,57 @@
 # Engine Battle 5
 
-> 38 nodes · cohesion 0.12
+> 49 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **engine/battle/battle_transitions.asm** (36 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition** (10 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransitions** (9 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_BlackScreen** (8 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_DoubleCircle** (8 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_Split** (8 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_TransferDelay3** (8 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_Circle** (7 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_Shrink** (6 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_Spiral** (6 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_FlashScreen_** (5 connections) — `engine/battle/battle_transitions.asm`
-- **LoadBattleTransitionTile** (5 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_Circle_Sub1** (4 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_Circle_Sub2** (4 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_CopyTiles1** (4 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_HorizontalStripes** (4 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_VerticalStripes** (4 connections) — `engine/battle/battle_transitions.asm`
-- **GetBattleTransitionID_IsDungeonMap** (4 connections) — `engine/battle/battle_transitions.asm`
-- **data/maps/dungeon_maps.asm** (4 connections) — `data/maps/dungeon_maps.asm`
-- **BattleTransition_CopyTiles2** (3 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_HalfCircle1** (3 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_HalfCircle2** (3 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_InwardSpiral** (3 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransitionTile** (3 connections) — `engine/battle/battle_transitions.asm`
-- **DungeonMaps1** (2 connections) — `data/maps/dungeon_maps.asm`
-- *... and 13 more nodes in this community*
+- **engine/battle/trainer_ai.asm** (67 connections) — `engine/battle/trainer_ai.asm`
+- **TrainerAIPointers** (23 connections) — `data/trainers/ai_pointers.asm`
+- **7.4 Acoes especiais por treinador** (23 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **7.7 Tabela completa por classe** (20 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **AIPrintItemUse** (11 connections) — `engine/battle/trainer_ai.asm`
+- **AICheckIfHPBelowFraction** (10 connections) — `engine/battle/trainer_ai.asm`
+- **AgathaAI** (7 connections) — `engine/battle/trainer_ai.asm`
+- **AIIncreaseStat** (7 connections) — `engine/battle/trainer_ai.asm`
+- **CooltrainerFAI** (7 connections) — `engine/battle/trainer_ai.asm`
+- **AIPlayRestoringSFX** (6 connections) — `engine/battle/trainer_ai.asm`
+- **AIPrintItemUseAndUpdateHPBar** (6 connections) — `engine/battle/trainer_ai.asm`
+- **AISwitchIfEnoughMons** (6 connections) — `engine/battle/trainer_ai.asm`
+- **AIUseSuperPotion** (6 connections) — `engine/battle/trainer_ai.asm`
+- **ErikaAI** (6 connections) — `engine/battle/trainer_ai.asm`
+- **LanceAI** (6 connections) — `engine/battle/trainer_ai.asm`
+- **LoreleiAI** (6 connections) — `engine/battle/trainer_ai.asm`
+- **Rival2AI** (6 connections) — `engine/battle/trainer_ai.asm`
+- **Rival3AI** (6 connections) — `engine/battle/trainer_ai.asm`
+- **SabrinaAI** (6 connections) — `engine/battle/trainer_ai.asm`
+- **SwitchEnemyMon** (6 connections) — `engine/battle/trainer_ai.asm`
+- **AICureStatus** (5 connections) — `engine/battle/trainer_ai.asm`
+- **AIUseFullHeal** (5 connections) — `engine/battle/trainer_ai.asm`
+- **AIUseFullRestore** (5 connections) — `engine/battle/trainer_ai.asm`
+- **AIUseGuardSpec** (5 connections) — `engine/battle/trainer_ai.asm`
+- **AIUseXAttack** (5 connections) — `engine/battle/trainer_ai.asm`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Engine Movie](Engine_Movie.md) (5 shared connections)
-- [Scripts 13](Scripts_13.md) (3 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (12 shared connections)
+- [Engine Overworld 5](Engine_Overworld_5.md) (7 shared connections)
+- [Engine Battle 2](Engine_Battle_2.md) (6 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (2 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (1 shared connections)
+- [Data Trainers](Data_Trainers.md) (1 shared connections)
 
 ## Source Files
 
-- `data/maps/dungeon_maps.asm`
-- `engine/battle/battle_transitions.asm`
+- `data/trainers/ai_pointers.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `engine/battle/trainer_ai.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 94 (100%)
+- EXTRACTED: 189 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

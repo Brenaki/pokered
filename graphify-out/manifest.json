@@ -9695,9 +9695,9 @@
     "semantic_hash": "0621ad4f0509c53f68ac37d40cc9c387"
   },
   "tools/graphify_rgbds.py": {
-    "mtime": 1785609122.563616,
-    "ast_hash": "52febd83f727ebdd02511204ef7407ea",
-    "semantic_hash": "52febd83f727ebdd02511204ef7407ea"
+    "mtime": 1785623034.694358,
+    "ast_hash": "a405ca9da3b95e1ffe79204a56112fc6",
+    "semantic_hash": "a405ca9da3b95e1ffe79204a56112fc6"
   },
   "docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md": {
     "mtime": 1785609243.1419759,
@@ -9723,5 +9723,15 @@
     "mtime": 1785613204.9302056,
     "ast_hash": "c3c57f32ac39c77c6b7091b6b13f2926",
     "semantic_hash": "c3c57f32ac39c77c6b7091b6b13f2926"
+  },
+  "tools/generate_audio_sprite_document.py": {
+    "mtime": 1785622888.6481197,
+    "ast_hash": "2f0bafca572ced74ad75264b6a39bec6",
+    "semantic_hash": "2f0bafca572ced74ad75264b6a39bec6"
+  },
+  "docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md": {
+    "mtime": 1785622894.604835,
+    "ast_hash": "c4d5c5439e403163c6e2bcacf6a1bacd",
+    "semantic_hash": "c4d5c5439e403163c6e2bcacf6a1bacd"
   }
 }

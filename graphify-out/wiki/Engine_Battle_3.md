@@ -1,58 +1,77 @@
 # Engine Battle 3
 
-> 69 nodes · cohesion 0.05
+> 64 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **engine/battle/animations.asm** (144 connections) — `engine/battle/animations.asm`
-- **MoveAnimation** (12 connections) — `engine/battle/animations.asm`
-- **PlayAnimation** (11 connections) — `engine/battle/animations.asm`
-- **AnimationFlashScreen** (8 connections) — `engine/battle/animations.asm`
-- **AnimationTypePointerTable** (8 connections) — `engine/battle/animations.asm`
-- **SetAnimationBGPalette** (8 connections) — `engine/battle/animations.asm`
-- **PlayApplyingAttackSound** (7 connections) — `engine/battle/animations.asm`
-- **AnimationSquishMonPic** (6 connections) — `engine/battle/animations.asm`
-- **TradeJumpPokeball** (6 connections) — `engine/battle/animations.asm`
-- **AnimationBlinkEnemyMon** (4 connections) — `engine/battle/animations.asm`
-- **AnimationFlashScreenLong** (4 connections) — `engine/battle/animations.asm`
-- **BlinkEnemyMonSprite** (4 connections) — `engine/battle/animations.asm`
-- **CopyTileIDsFromList** (4 connections) — `engine/battle/animations.asm`
-- **LoadSubanimation** (4 connections) — `engine/battle/animations.asm`
-- **ShakeScreenHorizontallyHeavy** (4 connections) — `engine/battle/animations.asm`
-- **ShakeScreenHorizontallyLight** (4 connections) — `engine/battle/animations.asm`
-- **ShakeScreenVertically** (4 connections) — `engine/battle/animations.asm`
-- **SlotMachineTiles2** (4 connections) — `engine/battle/animations.asm`
-- **TossBallAnimation** (4 connections) — `engine/battle/animations.asm`
-- **AnimationShakeScreenHorizontallyFast** (3 connections) — `engine/battle/animations.asm`
-- **AnimationShakeScreenHorizontallySlow** (3 connections) — `engine/battle/animations.asm`
-- **AnimCopyRowRight** (3 connections) — `engine/battle/animations.asm`
-- **DoBallShakeSpecialEffects** (3 connections) — `engine/battle/animations.asm`
-- **DoBallTossSpecialEffects** (3 connections) — `engine/battle/animations.asm`
-- **DoExplodeSpecialEffects** (3 connections) — `engine/battle/animations.asm`
-- *... and 44 more nodes in this community*
+- **engine/battle** (40 connections)
+- **EndOfBattle** (21 connections) — `engine/battle/end_of_battle.asm`
+- **SubstituteEffect_** (13 connections) — `engine/battle/move_effects/substitute.asm`
+- **engine/battle/experience.asm** (12 connections) — `engine/battle/experience.asm`
+- **engine/battle/end_of_battle.asm** (9 connections) — `engine/battle/end_of_battle.asm`
+- **PrintSafariZoneBattleText** (8 connections) — `engine/battle/safari_zone.asm`
+- **ItemUseBait** (8 connections) — `engine/items/item_effects.asm`
+- **engine/battle/safari_zone.asm** (8 connections) — `engine/battle/safari_zone.asm`
+- **LeechSeedEffect_** (7 connections) — `engine/battle/move_effects/leech_seed.asm`
+- **PayDayEffect_** (7 connections) — `engine/battle/move_effects/pay_day.asm`
+- **PrintMonType** (7 connections) — `engine/battle/print_type.asm`
+- **engine/battle/print_type.asm** (7 connections) — `engine/battle/print_type.asm`
+- **FocusEnergyEffect_** (6 connections) — `engine/battle/move_effects/focus_energy.asm`
+- **engine/battle/move_effects/substitute.asm** (6 connections) — `engine/battle/move_effects/substitute.asm`
+- **GainedText** (5 connections) — `engine/battle/experience.asm`
+- **BaitRockCommon** (5 connections) — `engine/items/item_effects.asm`
+- **engine/battle/move_effects/leech_seed.asm** (5 connections) — `engine/battle/move_effects/leech_seed.asm`
+- **wPartyAndBillsPCSavedMenuItem** (5 connections) — `ram/wram.asm`
+- **wSafariBaitFactor** (5 connections) — `ram/wram.asm`
+- **DivideExpDataByNumMonsGainingExp** (4 connections) — `engine/battle/experience.asm`
+- **InitBattleVariables** (4 connections) — `engine/battle/init_battle_variables.asm`
+- **ParalyzeEffect_** (4 connections) — `engine/battle/move_effects/paralyze.asm`
+- **PrintType** (4 connections) — `engine/battle/print_type.asm`
+- **SaveTrainerName** (4 connections) — `engine/battle/save_trainer_name.asm`
+- **_ScrollTrainerPicAfterBattle** (4 connections) — `engine/battle/scroll_draw_trainer_pic.asm`
+- *... and 39 more nodes in this community*
 
 ## Relationships
 
-- [Engine Battle 6](Engine_Battle_6.md) (34 shared connections)
-- [Engine Battle 7](Engine_Battle_7.md) (26 shared connections)
-- [Engine Movie](Engine_Movie.md) (10 shared connections)
-- [Engine Battle 12](Engine_Battle_12.md) (10 shared connections)
-- [Scripts 13](Scripts_13.md) (8 shared connections)
-- [Engine Battle 13](Engine_Battle_13.md) (5 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (4 shared connections)
-- [Data Tilemaps.Asm](Data_Tilemaps.Asm.md) (3 shared connections)
-- [Engine Gfx 2](Engine_Gfx_2.md) (2 shared connections)
-- [Scripts 15](Scripts_15.md) (2 shared connections)
-- [Engine Overworld 6](Engine_Overworld_6.md) (2 shared connections)
-- [Data Battle Anims 2](Data_Battle_Anims_2.md) (1 shared connections)
+- [Engine Battle 2](Engine_Battle_2.md) (15 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (12 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (11 shared connections)
+- [Engine Battle](Engine_Battle.md) (8 shared connections)
+- [Scripts](Scripts.md) (8 shared connections)
+- [Ram](Ram.md) (6 shared connections)
+- [Home](Home.md) (5 shared connections)
+- [Engine Link](Engine_Link.md) (4 shared connections)
+- [Bank ROMX](Bank_ROMX.md) (2 shared connections)
+- [Scripts 8](Scripts_8.md) (2 shared connections)
+- [Engine Battle 4](Engine_Battle_4.md) (1 shared connections)
+- [Engine Battle 6](Engine_Battle_6.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/battle/animations.asm`
+- `data/trainers/name_pointers.asm`
+- `data/types/names.asm`
+- `engine/battle/end_of_battle.asm`
+- `engine/battle/experience.asm`
+- `engine/battle/get_trainer_name.asm`
+- `engine/battle/init_battle_variables.asm`
+- `engine/battle/link_battle_versus_text.asm`
+- `engine/battle/move_effects/focus_energy.asm`
+- `engine/battle/move_effects/leech_seed.asm`
+- `engine/battle/move_effects/one_hit_ko.asm`
+- `engine/battle/move_effects/paralyze.asm`
+- `engine/battle/move_effects/pay_day.asm`
+- `engine/battle/move_effects/substitute.asm`
+- `engine/battle/print_type.asm`
+- `engine/battle/safari_zone.asm`
+- `engine/battle/save_trainer_name.asm`
+- `engine/battle/scroll_draw_trainer_pic.asm`
+- `engine/items/item_effects.asm`
+- `engine/pokemon/evos_moves.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 226 (100%)
+- EXTRACTED: 173 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

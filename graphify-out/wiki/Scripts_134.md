@@ -1,27 +1,28 @@
 # Scripts 134
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **scripts/PewterNidoranHouse.asm** (7 connections) — `scripts/PewterNidoranHouse.asm`
-- **PewterNidoranHouse_Script** (2 connections) — `scripts/PewterNidoranHouse.asm`
-- **PewterNidoranHouse_TextPointers** (1 connections) — `scripts/PewterNidoranHouse.asm`
-- **PewterNidoranHouseLittleBoyText** (1 connections) — `scripts/PewterNidoranHouse.asm`
-- **PewterNidoranHouseMiddleAgedManText** (1 connections) — `scripts/PewterNidoranHouse.asm`
+- **scripts/ViridianNicknameHouse.asm** (8 connections) — `scripts/ViridianNicknameHouse.asm`
+- **ViridianNicknameHouse_Script** (2 connections) — `scripts/ViridianNicknameHouse.asm`
+- **ViridianNicknameHouse_TextPointers** (1 connections) — `scripts/ViridianNicknameHouse.asm`
+- **ViridianNicknameHouseBaldingGuyText** (1 connections) — `scripts/ViridianNicknameHouse.asm`
+- **ViridianNicknameHouseLittleGirlText** (1 connections) — `scripts/ViridianNicknameHouse.asm`
+- **ViridianNicknameHouseSpearySignText** (1 connections) — `scripts/ViridianNicknameHouse.asm`
 
 ## Relationships
 
-- [Scripts 15](Scripts_15.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/PewterNidoranHouse.asm`
+- `scripts/ViridianNicknameHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

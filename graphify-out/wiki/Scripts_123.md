@@ -4,25 +4,24 @@
 
 ## Key Concepts
 
-- **scripts/CopycatsHouse2F.asm** (9 connections) — `scripts/CopycatsHouse2F.asm`
-- **CopycatsHouse2F_Script** (2 connections) — `scripts/CopycatsHouse2F.asm`
-- **CopycatsHouse2F_TextPointers** (1 connections) — `scripts/CopycatsHouse2F.asm`
-- **CopycatsHouse2FDoduoText** (1 connections) — `scripts/CopycatsHouse2F.asm`
-- **CopycatsHouse2FRareDollText** (1 connections) — `scripts/CopycatsHouse2F.asm`
-- **CopycatsHouse2FSNESText** (1 connections) — `scripts/CopycatsHouse2F.asm`
+- **scripts/CeladonMart2F.asm** (7 connections) — `scripts/CeladonMart2F.asm`
+- **CeladonMart2F_Script** (2 connections) — `scripts/CeladonMart2F.asm`
+- **CeladonMart2F_TextPointers** (1 connections) — `scripts/CeladonMart2F.asm`
+- **CeladonMart2FCurrentFloorSignText** (1 connections) — `scripts/CeladonMart2F.asm`
+- **CeladonMart2FGirlText** (1 connections) — `scripts/CeladonMart2F.asm`
+- **CeladonMart2FMiddleAgedManText** (1 connections) — `scripts/CeladonMart2F.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (2 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CopycatsHouse2F.asm`
+- `scripts/CeladonMart2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

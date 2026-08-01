@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/CeladonPokecenter.asm** (3 connections) — `data/maps/objects/CeladonPokecenter.asm`
-- **CeladonPokecenter_Object** (1 connections) — `data/maps/objects/CeladonPokecenter.asm`
+- **data/maps/objects/CeladonMart4F.asm** (3 connections) — `data/maps/objects/CeladonMart4F.asm`
+- **CeladonMart4F_Object** (1 connections) — `data/maps/objects/CeladonMart4F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/CeladonPokecenter.asm`
+- `data/maps/objects/CeladonMart4F.asm`
 
 ## Audit Trail
 

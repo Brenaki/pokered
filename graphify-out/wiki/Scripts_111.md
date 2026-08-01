@@ -1,16 +1,17 @@
 # Scripts 111
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **scripts/SafariZoneWest.asm** (8 connections) — `scripts/SafariZoneWest.asm`
-- **SafariZoneWest_Script** (2 connections) — `scripts/SafariZoneWest.asm`
-- **SafariZoneWest_TextPointers** (1 connections) — `scripts/SafariZoneWest.asm`
-- **SafariZoneWestFindWardensTeethSignText** (1 connections) — `scripts/SafariZoneWest.asm`
-- **SafariZoneWestRestHouseSignText** (1 connections) — `scripts/SafariZoneWest.asm`
-- **SafariZoneWestSignText** (1 connections) — `scripts/SafariZoneWest.asm`
-- **SafariZoneWestTrainerTipsText** (1 connections) — `scripts/SafariZoneWest.asm`
+- **scripts/PokemonTower1F.asm** (9 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1F_Script** (2 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1F_TextPointers** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FBaldingGuyText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FChannelerText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FGirlText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FMiddleAgedWomanText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FReceptionistText** (1 connections) — `scripts/PokemonTower1F.asm`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `scripts/SafariZoneWest.asm`
+- `scripts/PokemonTower1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

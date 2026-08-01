@@ -1,37 +1,37 @@
 # Scripts 97
 
-> 12 nodes · cohesion 0.26
+> 13 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **scripts/SSAnneCaptainsRoom.asm** (13 connections) — `scripts/SSAnneCaptainsRoom.asm`
-- **SSAnneCaptainsRoomCaptainText** (10 connections) — `scripts/SSAnneCaptainsRoom.asm`
-- **SSAnneCaptainsRoomRubCaptainsBackText** (6 connections) — `scripts/SSAnneCaptainsRoom.asm`
-- **SSAnneCaptainsRoom_Script** (3 connections) — `scripts/SSAnneCaptainsRoom.asm`
-- **SSAnneCaptainsRoomEventScript** (3 connections) — `scripts/SSAnneCaptainsRoom.asm`
-- **SSAnneCaptainsRoomCaptainHM01NoRoomText** (2 connections) — `scripts/SSAnneCaptainsRoom.asm`
-- **SSAnneCaptainsRoomCaptainIFeelMuchBetterText** (2 connections) — `scripts/SSAnneCaptainsRoom.asm`
-- **SSAnneCaptainsRoomCaptainNotSickAnymoreText** (2 connections) — `scripts/SSAnneCaptainsRoom.asm`
-- **SSAnneCaptainsRoomCaptainReceivedHM01Text** (2 connections) — `scripts/SSAnneCaptainsRoom.asm`
-- **SSAnneCaptainsRoom_TextPointers** (1 connections) — `scripts/SSAnneCaptainsRoom.asm`
-- **SSAnneCaptainsRoomSeasickBookText** (1 connections) — `scripts/SSAnneCaptainsRoom.asm`
-- **SSAnneCaptainsRoomTrashText** (1 connections) — `scripts/SSAnneCaptainsRoom.asm`
+- **scripts/CeruleanBadgeHouse.asm** (14 connections) — `scripts/CeruleanBadgeHouse.asm`
+- **CeruleanBadgeHouseBadgeTextPointers** (10 connections) — `scripts/CeruleanBadgeHouse.asm`
+- **CeruleanBadgeHouseMiddleAgedManText** (7 connections) — `scripts/CeruleanBadgeHouse.asm`
+- **CeruleanBadgeHouseBoulderBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
+- **CeruleanBadgeHouseCascadeBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
+- **CeruleanBadgeHouseEarthBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
+- **CeruleanBadgeHouseMarshBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
+- **CeruleanBadgeHouseRainbowBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
+- **CeruleanBadgeHouseSoulBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
+- **CeruleanBadgeHouseThunderBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
+- **CeruleanBadgeHouseVolcanoBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
+- **CeruleanBadgeHouse_Script** (1 connections) — `scripts/CeruleanBadgeHouse.asm`
+- **CeruleanBadgeHouse_TextPointers** (1 connections) — `scripts/CeruleanBadgeHouse.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (4 shared connections)
-- [Scripts 28](Scripts_28.md) (3 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Scripts 13](Scripts_13.md) (1 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Home](Home.md) (1 shared connections)
+- [Home 4](Home_4.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SSAnneCaptainsRoom.asm`
+- `scripts/CeruleanBadgeHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

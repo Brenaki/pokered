@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/wild/maps/Route25.asm** (3 connections) — `data/wild/maps/Route25.asm`
-- **Route25WildMons** (2 connections) — `data/wild/maps/Route25.asm`
+- **data/wild/maps/Route2.asm** (3 connections) — `data/wild/maps/Route2.asm`
+- **Route2WildMons** (2 connections) — `data/wild/maps/Route2.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/wild/maps/Route25.asm`
+- `data/wild/maps/Route2.asm`
 
 ## Audit Trail
 

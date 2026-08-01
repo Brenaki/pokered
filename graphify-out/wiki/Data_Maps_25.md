@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/CopycatsHouse2F.asm** (3 connections) — `data/maps/objects/CopycatsHouse2F.asm`
-- **CopycatsHouse2F_Object** (1 connections) — `data/maps/objects/CopycatsHouse2F.asm`
+- **data/maps/objects/CinnabarLabTradeRoom.asm** (3 connections) — `data/maps/objects/CinnabarLabTradeRoom.asm`
+- **CinnabarLabTradeRoom_Object** (1 connections) — `data/maps/objects/CinnabarLabTradeRoom.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/CopycatsHouse2F.asm`
+- `data/maps/objects/CinnabarLabTradeRoom.asm`
 
 ## Audit Trail
 

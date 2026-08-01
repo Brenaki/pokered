@@ -1,15 +1,16 @@
 # Text 98
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **text/SafariZoneNorth.asm** (7 connections) — `text/SafariZoneNorth.asm`
-- **_SafariZoneNorthRestHouseSignText** (1 connections) — `text/SafariZoneNorth.asm`
-- **_SafariZoneNorthSignText** (1 connections) — `text/SafariZoneNorth.asm`
-- **_SafariZoneNorthTrainerTips1Text** (1 connections) — `text/SafariZoneNorth.asm`
-- **_SafariZoneNorthTrainerTips2Text** (1 connections) — `text/SafariZoneNorth.asm`
-- **_SafariZoneNorthTrainerTips3Text** (1 connections) — `text/SafariZoneNorth.asm`
+- **text/CinnabarIsland.asm** (8 connections) — `text/CinnabarIsland.asm`
+- **_CinnabarIslandDoorIsLockedText** (1 connections) — `text/CinnabarIsland.asm`
+- **_CinnabarIslandGamblerText** (1 connections) — `text/CinnabarIsland.asm`
+- **_CinnabarIslandGirlText** (1 connections) — `text/CinnabarIsland.asm`
+- **_CinnabarIslandGymSignText** (1 connections) — `text/CinnabarIsland.asm`
+- **_CinnabarIslandPokemonLabSignText** (1 connections) — `text/CinnabarIsland.asm`
+- **_CinnabarIslandSignText** (1 connections) — `text/CinnabarIsland.asm`
 
 ## Relationships
 
@@ -17,11 +18,11 @@
 
 ## Source Files
 
-- `text/SafariZoneNorth.asm`
+- `text/CinnabarIsland.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

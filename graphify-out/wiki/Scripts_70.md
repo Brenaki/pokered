@@ -1,52 +1,48 @@
 # Scripts 70
 
-> 24 nodes · cohesion 0.13
+> 23 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **scripts/PokemonTower6F.asm** (30 connections) — `scripts/PokemonTower6F.asm`
-- **21.20 Mapa `PokemonTower6F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **PokemonTower6F_Script** (5 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler1Text** (4 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler2Text** (4 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler3Text** (4 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6F_ScriptPointers** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler1AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler1BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler1EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler2AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler2BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler2EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler3AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler3BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler3EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FMarowakCoords** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FSetDefaultScript** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6TrainerHeader0** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6TrainerHeader1** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6TrainerHeader2** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6TrainerHeaders** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6F_TextPointers** (1 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FBeGoneText** (1 connections) — `scripts/PokemonTower6F.asm`
+- **scripts/Route18.asm** (23 connections) — `scripts/Route18.asm`
+- **21.37 Mapa `Route18`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Route18_Script** (5 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM1Text** (4 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM2Text** (4 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM3Text** (4 connections) — `scripts/Route18.asm`
+- **Route18_ScriptPointers** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM1AfterBattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM1BattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM1EndBattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM2AfterBattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM2BattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM2EndBattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM3AfterBattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM3BattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18CooltrainerM3EndBattleText** (2 connections) — `scripts/Route18.asm`
+- **Route18TrainerHeader0** (2 connections) — `scripts/Route18.asm`
+- **Route18TrainerHeader1** (2 connections) — `scripts/Route18.asm`
+- **Route18TrainerHeader2** (2 connections) — `scripts/Route18.asm`
+- **Route18TrainerHeaders** (2 connections) — `scripts/Route18.asm`
+- **Route18_TextPointers** (1 connections) — `scripts/Route18.asm`
+- **Route18CyclingRoadSignText** (1 connections) — `scripts/Route18.asm`
+- **Route18SignText** (1 connections) — `scripts/Route18.asm`
 
 ## Relationships
 
-- [Scripts 15](Scripts_15.md) (3 shared connections)
 - [Scripts](Scripts.md) (3 shared connections)
-- [Scripts 9](Scripts_9.md) (3 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 13](Scripts_13.md) (1 shared connections)
-- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Home 8](Home_8.md) (3 shared connections)
+- [Scripts 74](Scripts_74.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/PokemonTower6F.asm`
+- `scripts/Route18.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 43 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

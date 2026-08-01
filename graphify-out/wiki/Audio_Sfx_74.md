@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **audio/sfx/unused_fanfare.asm** (5 connections) — `audio/sfx/unused_fanfare.asm`
-- **SFX_UnusedFanfare_Ch5** (1 connections) — `audio/sfx/unused_fanfare.asm`
-- **SFX_UnusedFanfare_Ch6** (1 connections) — `audio/sfx/unused_fanfare.asm`
-- **SFX_UnusedFanfare_Ch7** (1 connections) — `audio/sfx/unused_fanfare.asm`
+- **audio/sfx/cry17_3.asm** (5 connections) — `audio/sfx/cry17_3.asm`
+- **SFX_Cry17_3_Ch5** (1 connections) — `audio/sfx/cry17_3.asm`
+- **SFX_Cry17_3_Ch6** (1 connections) — `audio/sfx/cry17_3.asm`
+- **SFX_Cry17_3_Ch8** (1 connections) — `audio/sfx/cry17_3.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `audio/sfx/unused_fanfare.asm`
+- `audio/sfx/cry17_3.asm`
 
 ## Audit Trail
 

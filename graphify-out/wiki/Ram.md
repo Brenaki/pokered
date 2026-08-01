@@ -1,58 +1,63 @@
 # Ram
 
-> 477 nodes · cohesion 0.01
+> 653 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **ram/wram.asm** (924 connections) — `ram/wram.asm`
+- **ram/wram.asm** (926 connections) — `ram/wram.asm`
 - **WRAM [WRAM0]** (595 connections) — `ram/wram.asm`
+- **Main Data [WRAM0]** (241 connections) — `ram/wram.asm`
+- **LoadGymLeaderAndCityName** (12 connections) — `home/trainers.asm`
+- **wCardKeyDoorY** (9 connections) — `ram/wram.asm`
+- **Sprite State Data [WRAM0]** (8 connections) — `ram/wram.asm`
+- **VermilionDock_EraseSSAnne** (8 connections) — `scripts/VermilionDock.asm`
+- **DrawBadges** (7 connections) — `engine/menus/draw_badges.asm`
+- **ClearVariablesOnEnterMap** (7 connections) — `engine/overworld/clear_variables.asm`
 - **wItemList** (7 connections) — `ram/wram.asm`
+- **wRivalName** (7 connections) — `ram/wram.asm`
 - **wElevatorWarpMaps** (6 connections) — `ram/wram.asm`
-- **wHPBarOldHP** (6 connections) — `ram/wram.asm`
-- **wNPCMovementDirections** (6 connections) — `ram/wram.asm`
-- **wUpdateSpritesEnabled** (6 connections) — `ram/wram.asm`
 - **wCurItem** (5 connections) — `ram/wram.asm`
 - **wCurrentMenuItem** (5 connections) — `ram/wram.asm`
-- **wEnemyBideAccumulatedDamage** (5 connections) — `ram/wram.asm`
-- **wPartyMenuBlkPacket** (5 connections) — `ram/wram.asm`
-- **wPartyMenuHPBarColors** (5 connections) — `ram/wram.asm`
-- **wPlayerDisabledMove** (5 connections) — `ram/wram.asm`
-- **wAmountMoneyWon** (4 connections) — `ram/wram.asm`
+- **GetTileTwoStepsInFrontOfPlayer** (4 connections) — `engine/overworld/player_state.asm`
 - **wBoxMonCounts** (4 connections) — `ram/wram.asm`
 - **wEnemyConfusedCounter** (4 connections) — `ram/wram.asm`
 - **wEnemyDisabledMove** (4 connections) — `ram/wram.asm`
-- **wEnemyHPBarColor** (4 connections) — `ram/wram.asm`
-- **wEnemyMonMinimized** (4 connections) — `ram/wram.asm`
-- **wEnemyMonUnmodifiedLevel** (4 connections) — `ram/wram.asm`
-- **wEnemyStatsToDouble** (4 connections) — `ram/wram.asm`
-- **wEnemySubstituteHP** (4 connections) — `ram/wram.asm`
-- **wHoFTeamNo** (4 connections) — `ram/wram.asm`
-- **wHPBarMaxHP** (4 connections) — `ram/wram.asm`
-- **wHPBarNewHP** (4 connections) — `ram/wram.asm`
-- *... and 452 more nodes in this community*
+- **wEnemyMonActualCatchRate** (4 connections) — `ram/wram.asm`
+- **wFallingObjectsMovementData** (4 connections) — `ram/wram.asm`
+- **wFilteredBagItemsCount** (4 connections) — `ram/wram.asm`
+- **wListPointer** (4 connections) — `ram/wram.asm`
+- **wMaxPP** (4 connections) — `ram/wram.asm`
+- **wMonPartySpritesSavedOAM** (4 connections) — `ram/wram.asm`
+- **wPlayerBideAccumulatedDamage** (4 connections) — `ram/wram.asm`
+- *... and 628 more nodes in this community*
 
 ## Relationships
 
-- [Ram 2](Ram_2.md) (171 shared connections)
-- [Engine Slots](Engine_Slots.md) (42 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (39 shared connections)
-- [Ram 3](Ram_3.md) (29 shared connections)
-- [Engine Battle 2](Engine_Battle_2.md) (24 shared connections)
-- [Engine Events 3](Engine_Events_3.md) (21 shared connections)
-- [Engine Battle](Engine_Battle.md) (20 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (17 shared connections)
-- [Home 2](Home_2.md) (14 shared connections)
-- [Home](Home.md) (10 shared connections)
-- [Ram 4](Ram_4.md) (9 shared connections)
-- [Ram 7](Ram_7.md) (8 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (123 shared connections)
+- [Engine Battle 2](Engine_Battle_2.md) (36 shared connections)
+- [Engine Battle](Engine_Battle.md) (32 shared connections)
+- [Engine Slots](Engine_Slots.md) (24 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (23 shared connections)
+- [Bank SRAM](Bank_SRAM.md) (20 shared connections)
+- [Ram 4](Ram_4.md) (20 shared connections)
+- [Home 2](Home_2.md) (20 shared connections)
+- [Ram 5](Ram_5.md) (19 shared connections)
+- [Ram 3](Ram_3.md) (18 shared connections)
+- [Ram 2](Ram_2.md) (18 shared connections)
+- [Home](Home.md) (11 shared connections)
 
 ## Source Files
 
+- `engine/menus/draw_badges.asm`
+- `engine/overworld/clear_variables.asm`
+- `engine/overworld/player_state.asm`
+- `home/trainers.asm`
 - `ram/wram.asm`
+- `scripts/VermilionDock.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 1513 (100%)
+- EXTRACTED: 1785 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

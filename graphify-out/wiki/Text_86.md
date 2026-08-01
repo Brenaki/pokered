@@ -1,17 +1,18 @@
 # Text 86
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **text/CinnabarLabMetronomeRoom.asm** (9 connections) — `text/CinnabarLabMetronomeRoom.asm`
-- **_CinnabarLabMetronomeRoomAmberPipeText** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
-- **_CinnabarLabMetronomeRoomPCText** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
-- **_CinnabarLabMetronomeRoomScientist1ReceivedTM35Text** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
-- **_CinnabarLabMetronomeRoomScientist1Text** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
-- **_CinnabarLabMetronomeRoomScientist1TM35ExplanationText** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
-- **_CinnabarLabMetronomeRoomScientist1TM35NoRoomText** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
-- **_CinnabarLabMetronomeRoomScientist2Text** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
+- **text/Route24.asm** (10 connections) — `text/Route24.asm`
+- **_Route24CooltrainerM1DefeatedText** (1 connections) — `text/Route24.asm`
+- **_Route24CooltrainerM1JoinTeamRocketText** (1 connections) — `text/Route24.asm`
+- **_Route24CooltrainerM1NoRoomText** (1 connections) — `text/Route24.asm`
+- **_Route24CooltrainerM1ReceivedNuggetText** (1 connections) — `text/Route24.asm`
+- **_Route24CooltrainerM1YouBeatOurContestText** (1 connections) — `text/Route24.asm`
+- **_Route24CooltrainerM1YouCouldBecomeATopLeaderText** (1 connections) — `text/Route24.asm`
+- **_Route24CooltrainerM1YouJustEarnedAPrizeText** (1 connections) — `text/Route24.asm`
+- **_Route24CooltrainerM2BattleText** (1 connections) — `text/Route24.asm`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `text/CinnabarLabMetronomeRoom.asm`
+- `text/Route24.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

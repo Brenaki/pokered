@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/RockTunnel1F.asm** (3 connections) — `data/maps/objects/RockTunnel1F.asm`
-- **RockTunnel1F_Object** (1 connections) — `data/maps/objects/RockTunnel1F.asm`
+- **data/maps/objects/RedsHouse2F.asm** (3 connections) — `data/maps/objects/RedsHouse2F.asm`
+- **RedsHouse2F_Object** (1 connections) — `data/maps/objects/RedsHouse2F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/RockTunnel1F.asm`
+- `data/maps/objects/RedsHouse2F.asm`
 
 ## Audit Trail
 

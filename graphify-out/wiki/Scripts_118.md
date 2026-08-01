@@ -1,15 +1,16 @@
 # Scripts 118
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **scripts/CeladonMart1F.asm** (7 connections) — `scripts/CeladonMart1F.asm`
-- **CeladonMart1F_Script** (2 connections) — `scripts/CeladonMart1F.asm`
-- **CeladonMart1F_TextPointers** (1 connections) — `scripts/CeladonMart1F.asm`
-- **CeladonMart1FCurrentFloorSignText** (1 connections) — `scripts/CeladonMart1F.asm`
-- **CeladonMart1FDirectorySignText** (1 connections) — `scripts/CeladonMart1F.asm`
-- **CeladonMart1FReceptionistText** (1 connections) — `scripts/CeladonMart1F.asm`
+- **scripts/SafariZoneWest.asm** (8 connections) — `scripts/SafariZoneWest.asm`
+- **SafariZoneWest_Script** (2 connections) — `scripts/SafariZoneWest.asm`
+- **SafariZoneWest_TextPointers** (1 connections) — `scripts/SafariZoneWest.asm`
+- **SafariZoneWestFindWardensTeethSignText** (1 connections) — `scripts/SafariZoneWest.asm`
+- **SafariZoneWestRestHouseSignText** (1 connections) — `scripts/SafariZoneWest.asm`
+- **SafariZoneWestSignText** (1 connections) — `scripts/SafariZoneWest.asm`
+- **SafariZoneWestTrainerTipsText** (1 connections) — `scripts/SafariZoneWest.asm`
 
 ## Relationships
 
@@ -17,11 +18,11 @@
 
 ## Source Files
 
-- `scripts/CeladonMart1F.asm`
+- `scripts/SafariZoneWest.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/wild/maps/MtMoonB1F.asm** (3 connections) — `data/wild/maps/MtMoonB1F.asm`
-- **MtMoonB1FWildMons** (2 connections) — `data/wild/maps/MtMoonB1F.asm`
+- **data/wild/maps/nothing.asm** (3 connections) — `data/wild/maps/nothing.asm`
+- **NothingWildMons** (2 connections) — `data/wild/maps/nothing.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/wild/maps/MtMoonB1F.asm`
+- `data/wild/maps/nothing.asm`
 
 ## Audit Trail
 

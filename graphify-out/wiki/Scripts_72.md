@@ -1,51 +1,52 @@
 # Scripts 72
 
-> 23 nodes · cohesion 0.13
+> 23 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **scripts/PewterGym.asm** (25 connections) — `scripts/PewterGym.asm`
-- **PewterGymGuideText** (9 connections) — `scripts/PewterGym.asm`
-- **PewterGym_Script** (7 connections) — `scripts/PewterGym.asm`
-- **21.12 Mapa `PewterGym`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **PewterGymCooltrainerMText** (4 connections) — `scripts/PewterGym.asm`
-- **PewterGymResetScripts** (3 connections) — `scripts/PewterGym.asm`
-- **PewterGym_ScriptPointers** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymBrockPostBattle** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymBrockReceivedBoulderBadgeText** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymCooltrainerMAfterBattleText** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymCooltrainerMBattleText** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymCooltrainerMEndBattleText** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymGuideAdviceText** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymGuideBeginAdviceText** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymGuideFreeServiceText** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymGuidePostBattleText** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymGuidePreAdviceText** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymTrainerHeader0** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGymTrainerHeaders** (2 connections) — `scripts/PewterGym.asm`
-- **PewterGym_TextPointers** (1 connections) — `scripts/PewterGym.asm`
-- **PewterGymBrockWaitTakeThisText** (1 connections) — `scripts/PewterGym.asm`
-- **PewterGymReceivedTM34Text** (1 connections) — `scripts/PewterGym.asm`
-- **PewterGymTM34NoRoomText** (1 connections) — `scripts/PewterGym.asm`
+- **scripts/PewterCity.asm** (28 connections) — `scripts/PewterCity.asm`
+- **PewterCityCheckPlayerLeavingEastScript** (6 connections) — `scripts/PewterCity.asm`
+- **SetSpritePosition2** (4 connections) — `home/trainers.asm`
+- **PewterCity_Script** (4 connections) — `scripts/PewterCity.asm`
+- **PewterCityResetSuperNerd1Script** (4 connections) — `scripts/PewterCity.asm`
+- **PewterCityResetYoungsterScript** (4 connections) — `scripts/PewterCity.asm`
+- **PewterCityDefaultScript** (3 connections) — `scripts/PewterCity.asm`
+- **PewterCityHideSuperNerd1Script** (3 connections) — `scripts/PewterCity.asm`
+- **PewterCityHideYoungsterScript** (3 connections) — `scripts/PewterCity.asm`
+- **MovementData_PewterGymGuyExit** (2 connections) — `scripts/PewterCity.asm`
+- **MovementData_PewterMuseumGuyExit** (2 connections) — `scripts/PewterCity.asm`
+- **PewterCity_ScriptPointers** (2 connections) — `scripts/PewterCity.asm`
+- **PewterCityPlayerLeavingEastCoords** (2 connections) — `scripts/PewterCity.asm`
+- **PewterCity_TextPointers** (1 connections) — `scripts/PewterCity.asm`
+- **PewterCityCooltrainerFText** (1 connections) — `scripts/PewterCity.asm`
+- **PewterCityCooltrainerMText** (1 connections) — `scripts/PewterCity.asm`
+- **PewterCityGymSignText** (1 connections) — `scripts/PewterCity.asm`
+- **PewterCityMuseumSignText** (1 connections) — `scripts/PewterCity.asm`
+- **PewterCityPoliceNoticeSignText** (1 connections) — `scripts/PewterCity.asm`
+- **PewterCitySignText** (1 connections) — `scripts/PewterCity.asm`
+- **PewterCitySuperNerd1ItsRightHereText** (1 connections) — `scripts/PewterCity.asm`
+- **PewterCityTrainerTipsText** (1 connections) — `scripts/PewterCity.asm`
+- **PewterCityYoungsterGoTakeOnBrockText** (1 connections) — `scripts/PewterCity.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (4 shared connections)
-- [Scripts 28](Scripts_28.md) (2 shared connections)
-- [Scripts 26](Scripts_26.md) (1 shared connections)
-- [Ram 13](Ram_13.md) (1 shared connections)
+- [Scripts 19](Scripts_19.md) (4 shared connections)
+- [Scripts](Scripts.md) (3 shared connections)
+- [Home 5](Home_5.md) (2 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Engine Overworld 5](Engine_Overworld_5.md) (1 shared connections)
+- [Scripts 29](Scripts_29.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 18](Scripts_18.md) (1 shared connections)
-- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/PewterGym.asm`
+- `home/trainers.asm`
+- `scripts/PewterCity.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
+- EXTRACTED: 41 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

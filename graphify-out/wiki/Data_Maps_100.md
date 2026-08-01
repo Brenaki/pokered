@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/TradeCenter.asm** (3 connections) — `data/maps/objects/TradeCenter.asm`
-- **TradeCenter_Object** (1 connections) — `data/maps/objects/TradeCenter.asm`
+- **data/maps/objects/SSAnneBow.asm** (3 connections) — `data/maps/objects/SSAnneBow.asm`
+- **SSAnneBow_Object** (1 connections) — `data/maps/objects/SSAnneBow.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/TradeCenter.asm`
+- `data/maps/objects/SSAnneBow.asm`
 
 ## Audit Trail
 

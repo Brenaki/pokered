@@ -1,39 +1,43 @@
 # Scripts 96
 
-> 12 nodes · cohesion 0.24
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **scripts/Route22Gate.asm** (14 connections) — `scripts/Route22Gate.asm`
-- **Route22GateGuardText** (6 connections) — `scripts/Route22Gate.asm`
-- **Route22GateDefaultScript** (5 connections) — `scripts/Route22Gate.asm`
-- **Route22GateGuardNoBoulderbadgeText** (5 connections) — `scripts/Route22Gate.asm`
-- **Route22Gate_Script** (4 connections) — `scripts/Route22Gate.asm`
-- **Route22GatePlayerMovingScript** (3 connections) — `scripts/Route22Gate.asm`
-- **Route22Gate_ScriptPointers** (2 connections) — `scripts/Route22Gate.asm`
-- **Route22GateGuardGoRightAheadText** (2 connections) — `scripts/Route22Gate.asm`
-- **Route22GateGuardICantLetYouPassText** (2 connections) — `scripts/Route22Gate.asm`
-- **Route22GateNoopScript** (2 connections) — `scripts/Route22Gate.asm`
-- **Route22GateScriptCoords** (2 connections) — `scripts/Route22Gate.asm`
-- **Route22Gate_TextPointers** (1 connections) — `scripts/Route22Gate.asm`
+- **scripts/SSAnne2F.asm** (17 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FRivalAfterBattleScript** (10 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FRivalStartBattleScript** (5 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2F_Script** (4 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FRivalExitScript** (4 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FSetFacingDirectionScript** (4 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2F_ScriptPointers** (2 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FNoopScript** (2 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FResetScripts** (2 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FRivalDefeatedText** (2 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FRivalVictoryText** (2 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2F_TextPointers** (1 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FRivalCutMasterText** (1 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FWaiterText** (1 connections) — `scripts/SSAnne2F.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (4 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
-- [Scripts 12](Scripts_12.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (3 shared connections)
+- [Home 5](Home_5.md) (3 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 7](Scripts_7.md) (1 shared connections)
+- [Scripts 29](Scripts_29.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
-- [Scripts 15](Scripts_15.md) (1 shared connections)
-- [Scripts 13](Scripts_13.md) (1 shared connections)
+- [Scripts 21](Scripts_21.md) (1 shared connections)
+- [Scripts 19](Scripts_19.md) (1 shared connections)
+- [Home](Home.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route22Gate.asm`
+- `scripts/SSAnne2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 31 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

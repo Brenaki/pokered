@@ -1,13 +1,14 @@
 # Scripts 150
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **scripts/Route7.asm** (5 connections) — `scripts/Route7.asm`
-- **Route7_Script** (2 connections) — `scripts/Route7.asm`
-- **Route7_TextPointers** (1 connections) — `scripts/Route7.asm`
-- **Route7UndergroundPathSignText** (1 connections) — `scripts/Route7.asm`
+- **scripts/ViridianSchoolHouse.asm** (6 connections) — `scripts/ViridianSchoolHouse.asm`
+- **ViridianSchoolHouse_Script** (2 connections) — `scripts/ViridianSchoolHouse.asm`
+- **ViridianSchoolHouse_TextPointers** (1 connections) — `scripts/ViridianSchoolHouse.asm`
+- **ViridianSchoolHouseBrunetteGirlText** (1 connections) — `scripts/ViridianSchoolHouse.asm`
+- **ViridianSchoolHouseCooltrainerFText** (1 connections) — `scripts/ViridianSchoolHouse.asm`
 
 ## Relationships
 
@@ -15,11 +16,11 @@
 
 ## Source Files
 
-- `scripts/Route7.asm`
+- `scripts/ViridianSchoolHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

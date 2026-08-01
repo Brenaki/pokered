@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **scripts/SSAnne1F.asm** (6 connections) — `scripts/SSAnne1F.asm`
-- **SSAnne1F_Script** (2 connections) — `scripts/SSAnne1F.asm`
-- **SSAnne1F_TextPointers** (1 connections) — `scripts/SSAnne1F.asm`
-- **SSAnne1FSailorText** (1 connections) — `scripts/SSAnne1F.asm`
-- **SSAnne1FWaiterText** (1 connections) — `scripts/SSAnne1F.asm`
+- **scripts/FuchsiaMart.asm** (6 connections) — `scripts/FuchsiaMart.asm`
+- **FuchsiaMart_Script** (2 connections) — `scripts/FuchsiaMart.asm`
+- **FuchsiaMart_TextPointers** (1 connections) — `scripts/FuchsiaMart.asm`
+- **FuchsiaMartCooltrainerFText** (1 connections) — `scripts/FuchsiaMart.asm`
+- **FuchsiaMartMiddleAgedManText** (1 connections) — `scripts/FuchsiaMart.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `scripts/SSAnne1F.asm`
+- `scripts/FuchsiaMart.asm`
 
 ## Audit Trail
 

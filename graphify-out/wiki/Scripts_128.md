@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **scripts/SafariZoneWestRestHouse.asm** (7 connections) — `scripts/SafariZoneWestRestHouse.asm`
-- **SafariZoneWestRestHouse_Script** (2 connections) — `scripts/SafariZoneWestRestHouse.asm`
-- **SafariZoneWestRestHouse_TextPointers** (1 connections) — `scripts/SafariZoneWestRestHouse.asm`
-- **SafariZoneWestRestHouseCooltrainerMText** (1 connections) — `scripts/SafariZoneWestRestHouse.asm`
-- **SafariZoneWestRestHouseScientistText** (1 connections) — `scripts/SafariZoneWestRestHouse.asm`
-- **SafariZoneWestRestHouseSilphWorkerFText** (1 connections) — `scripts/SafariZoneWestRestHouse.asm`
+- **scripts/GameCornerPrizeRoom.asm** (7 connections) — `scripts/GameCornerPrizeRoom.asm`
+- **GameCornerPrizeRoom_Script** (2 connections) — `scripts/GameCornerPrizeRoom.asm`
+- **GameCornerPrizeRoom_TextPointers** (1 connections) — `scripts/GameCornerPrizeRoom.asm`
+- **GameCornerPrizeRoomBaldingGuyText** (1 connections) — `scripts/GameCornerPrizeRoom.asm`
+- **GameCornerPrizeRoomGamblerText** (1 connections) — `scripts/GameCornerPrizeRoom.asm`
+- **GameCornerPRizeRoomPrizeVendorText** (1 connections) — `scripts/GameCornerPrizeRoom.asm`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `scripts/SafariZoneWestRestHouse.asm`
+- `scripts/GameCornerPrizeRoom.asm`
 
 ## Audit Trail
 

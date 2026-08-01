@@ -1,32 +1,43 @@
 # Scripts 99
 
-> 10 nodes · cohesion 0.20
+> 13 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **scripts/CeladonMansion3F.asm** (12 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3F_Script** (2 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3F_TextPointers** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FDevRoomSignText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FGameProgramPCText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FGameScriptPCText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FGraphicArtistText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FPlayingGamePCText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FProgrammerText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FWriterText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **scripts/SeafoamIslandsB4F.asm** (16 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **ForceBikeOrSurf** (6 connections) — `home/overworld.asm`
+- **SeafoamIslandsB4F_Script** (4 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4FArticunoText** (4 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4FObjectMoving3Script** (4 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4FObjectMoving2Script** (3 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **ArticunoTrainerHeader** (2 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4F_ScriptPointers** (2 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4FObjectMoving1Script** (2 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4FResetScript** (2 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4F_TextPointers** (1 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4FBouldersSignText** (1 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4FDangerSignText** (1 connections) — `scripts/SeafoamIslandsB4F.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Home](Home.md) (1 shared connections)
+- [Scripts 29](Scripts_29.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Home 8](Home_8.md) (1 shared connections)
+- [Scripts 19](Scripts_19.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonMansion3F.asm`
+- `home/overworld.asm`
+- `scripts/SeafoamIslandsB4F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

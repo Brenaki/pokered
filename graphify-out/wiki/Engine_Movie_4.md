@@ -1,13 +1,12 @@
 # Engine Movie 4
 
-> 22 nodes · cohesion 0.16
+> 21 nodes · cohesion 0.17
 
 ## Key Concepts
 
 - **engine/movie/splash.asm** (19 connections) — `engine/movie/splash.asm`
 - **LoadShootingStarGraphics** (12 connections) — `engine/movie/splash.asm`
 - **AnimateShootingStar** (11 connections) — `engine/movie/splash.asm`
-- **CheckForUserInterruption** (8 connections) — `home/overworld.asm`
 - **SmallStarsWaveCoordsPointerTable** (7 connections) — `engine/movie/splash.asm`
 - **MoveAnimationTiles1** (4 connections) — `engine/battle/animations.asm`
 - **FallingStar** (3 connections) — `engine/movie/splash.asm`
@@ -29,22 +28,20 @@
 
 ## Relationships
 
-- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
-- [Engine Battle 7](Engine_Battle_7.md) (2 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
+- [Engine Movie 3](Engine_Movie_3.md) (2 shared connections)
+- [Engine Battle 8](Engine_Battle_8.md) (2 shared connections)
 - [Bank VRAM](Bank_VRAM.md) (2 shared connections)
-- [Scripts 13](Scripts_13.md) (1 shared connections)
-- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
-- [Engine Movie](Engine_Movie.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
 - `engine/battle/animations.asm`
 - `engine/movie/splash.asm`
-- `home/overworld.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

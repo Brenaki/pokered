@@ -1,17 +1,18 @@
 # Docs 11
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **23. Estratégia TDD e critérios de aceitação** (4 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **23.1 Matriz mínima de testes** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **23.2 Testes de propriedades** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **23.3 Golden master** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **8. Seleção, ordem e execução de movimentos** (5 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **8.3 Ordem das ações** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **8.1 Seleção do jogador** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **8.2 Seleção do adversário** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **8.4 PP: quantidade de usos** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Engine Battle 2](Engine_Battle_2.md) (1 shared connections)
 
 ## Source Files
 
@@ -19,7 +20,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

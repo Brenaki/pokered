@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/PokemonFanClub.asm** (3 connections) — `data/maps/objects/PokemonFanClub.asm`
-- **PokemonFanClub_Object** (1 connections) — `data/maps/objects/PokemonFanClub.asm`
+- **data/maps/objects/PewterNidoranHouse.asm** (3 connections) — `data/maps/objects/PewterNidoranHouse.asm`
+- **PewterNidoranHouse_Object** (1 connections) — `data/maps/objects/PewterNidoranHouse.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/PokemonFanClub.asm`
+- `data/maps/objects/PewterNidoranHouse.asm`
 
 ## Audit Trail
 

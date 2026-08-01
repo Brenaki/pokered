@@ -1,56 +1,58 @@
 # Scripts 51
 
-> 32 nodes · cohesion 0.10
+> 30 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **scripts/SilphCo6F.asm** (29 connections) — `scripts/SilphCo6F.asm`
-- **21.60 Mapa `SilphCo6F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **SilphCo6FBeatGiovanniPrintDEOrPrintHLScript** (9 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo4F_SetCardKeyDoorYScript** (6 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo6F_Script** (6 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6F_GateCallbackScript** (5 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket1Text** (4 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket2Text** (4 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FScientistText** (4 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo4FSilphWorkerMText** (3 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo5FSilphWorkerMText** (3 connections) — `scripts/SilphCo5F.asm`
-- **SilphCo6FSilphWorkerF1Text** (3 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FSilphWorkerF2Text** (3 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FSilphWorkerM1Text** (3 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FSilphWorkerM2Text** (3 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FSilphWorkerM3Text** (3 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6F_ScriptPointers** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6F_UnlockedDoorEventScript** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket1AfterBattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket1BattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket1EndBattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket2AfterBattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket2BattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket2EndBattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FScientistAfterBattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- *... and 7 more nodes in this community*
+- **DisplayElevatorFloorMenu** (11 connections) — `engine/events/elevator.asm`
+- **scripts/CeladonMartElevator.asm** (10 connections) — `scripts/CeladonMartElevator.asm`
+- **scripts/RocketHideoutElevator.asm** (10 connections) — `scripts/RocketHideoutElevator.asm`
+- **scripts/SilphCoElevator.asm** (10 connections) — `scripts/SilphCoElevator.asm`
+- **CeladonMartElevatorCopyWarpMapsScript** (7 connections) — `scripts/CeladonMartElevator.asm`
+- **RocketHideoutElevatorScript** (7 connections) — `scripts/RocketHideoutElevator.asm`
+- **RocketHideoutElevatorText** (7 connections) — `scripts/RocketHideoutElevator.asm`
+- **SilphCoElevatorCopyWarpMapsScript** (7 connections) — `scripts/SilphCoElevator.asm`
+- **CeladonMartElevatorText** (5 connections) — `scripts/CeladonMartElevator.asm`
+- **SilphCoElevatorElevatorText** (5 connections) — `scripts/SilphCoElevator.asm`
+- **engine/events/elevator.asm** (4 connections) — `engine/events/elevator.asm`
+- **CeladonMartElevator_Script** (4 connections) — `scripts/CeladonMartElevator.asm`
+- **RocketHideoutElevator_Script** (4 connections) — `scripts/RocketHideoutElevator.asm`
+- **RocketHideoutElevatorShakeScript** (4 connections) — `scripts/RocketHideoutElevator.asm`
+- **SilphCoElevator_Script** (4 connections) — `scripts/SilphCoElevator.asm`
+- **SilphCoElevatorShakeScript** (4 connections) — `scripts/SilphCoElevator.asm`
+- **CeladonMartElevatorStoreWarpEntriesScript** (3 connections) — `scripts/CeladonMartElevator.asm`
+- **CeladonMartElevatorWarpMaps** (3 connections) — `scripts/CeladonMartElevator.asm`
+- **RocketHideoutElevatorStoreWarpEntriesScript** (3 connections) — `scripts/RocketHideoutElevator.asm`
+- **RocketHideoutElevatorWarpMaps** (3 connections) — `scripts/RocketHideoutElevator.asm`
+- **SilphCoElevatorStoreWarpEntriesScript** (3 connections) — `scripts/SilphCoElevator.asm`
+- **SilphCoElevatorWarpMaps** (3 connections) — `scripts/SilphCoElevator.asm`
+- **WhichFloorText** (2 connections) — `engine/events/elevator.asm`
+- **CeladonMartElevatorFloors** (2 connections) — `scripts/CeladonMartElevator.asm`
+- **CeladonMartElevatorShakeScript** (2 connections) — `scripts/CeladonMartElevator.asm`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (11 shared connections)
-- [Scripts 9](Scripts_9.md) (3 shared connections)
-- [Scripts 69](Scripts_69.md) (1 shared connections)
-- [Ram 11](Ram_11.md) (1 shared connections)
-- [Scripts 18](Scripts_18.md) (1 shared connections)
-- [Scripts 26](Scripts_26.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts](Scripts.md) (5 shared connections)
+- [Ram](Ram.md) (5 shared connections)
+- [Scripts 19](Scripts_19.md) (4 shared connections)
+- [Home 2](Home_2.md) (4 shared connections)
+- [Home](Home.md) (3 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (3 shared connections)
+- [Home 4](Home_4.md) (3 shared connections)
+- [Scripts 5](Scripts_5.md) (2 shared connections)
+- [Scripts 8](Scripts_8.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/SilphCo4F.asm`
-- `scripts/SilphCo5F.asm`
-- `scripts/SilphCo6F.asm`
+- `engine/events/elevator.asm`
+- `scripts/CeladonMartElevator.asm`
+- `scripts/RocketHideoutElevator.asm`
+- `scripts/SilphCoElevator.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 70 (100%)
+- EXTRACTED: 78 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

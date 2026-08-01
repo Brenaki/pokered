@@ -1,58 +1,51 @@
 # Scripts 38
 
-> 41 nodes · cohesion 0.07
+> 37 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **OaksAideScript** (15 connections) — `engine/events/oaks_aide.asm`
-- **GateUpstairsScript_PrintIfFacingUp** (12 connections) — `scripts/Route12Gate2F.asm`
-- **engine/events/oaks_aide.asm** (10 connections) — `engine/events/oaks_aide.asm`
-- **scripts/Route11Gate2F.asm** (9 connections) — `scripts/Route11Gate2F.asm`
-- **scripts/Route12Gate2F.asm** (8 connections) — `scripts/Route12Gate2F.asm`
-- **scripts/Route16Gate2F.asm** (8 connections) — `scripts/Route16Gate2F.asm`
-- **Route15Gate2FOaksAideText** (8 connections) — `scripts/Route15Gate2F.asm`
-- **Route2GateOaksAideText** (8 connections) — `scripts/Route2Gate.asm`
-- **scripts/Route18Gate2F.asm** (7 connections) — `scripts/Route18Gate2F.asm`
-- **Route11Gate2FOaksAideText** (7 connections) — `scripts/Route11Gate2F.asm`
-- **scripts/Route15Gate2F.asm** (6 connections) — `scripts/Route15Gate2F.asm`
-- **DisableAutoTextBoxDrawing** (6 connections) — `home/window.asm`
-- **wOaksAideRewardItemName** (5 connections) — `ram/wram.asm`
-- **Route11Gate2FLeftBinocularsText** (4 connections) — `scripts/Route11Gate2F.asm`
-- **Route11Gate2FScriptEnd** (3 connections) — `scripts/Route11Gate2F.asm`
-- **Route18Gate2FYoungsterText** (3 connections) — `scripts/Route18Gate2F.asm`
-- **OaksAideComeBackText** (2 connections) — `engine/events/oaks_aide.asm`
-- **OaksAideGotItemText** (2 connections) — `engine/events/oaks_aide.asm`
-- **OaksAideHereYouGoText** (2 connections) — `engine/events/oaks_aide.asm`
-- **OaksAideHiText** (2 connections) — `engine/events/oaks_aide.asm`
-- **OaksAideNoRoomText** (2 connections) — `engine/events/oaks_aide.asm`
-- **OaksAideUhOhText** (2 connections) — `engine/events/oaks_aide.asm`
-- **Route11Gate2F_Script** (2 connections) — `scripts/Route11Gate2F.asm`
-- **Route11Gate2FRightBinocularsText** (2 connections) — `scripts/Route11Gate2F.asm`
-- **Route11Gate2FYoungsterText** (2 connections) — `scripts/Route11Gate2F.asm`
-- *... and 16 more nodes in this community*
+- **scripts/SSAnneB1FRooms.asm** (38 connections) — `scripts/SSAnneB1FRooms.asm`
+- **21.50 Mapa `SSAnneB1FRooms`** (19 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **SSAnneB1FRooms_Script** (5 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnneB1FRoomsFisherText** (4 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnneB1FRoomsSailor1Text** (4 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnneB1FRoomsSailor2Text** (4 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnneB1FRoomsSailor3Text** (4 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnneB1FRoomsSailor4Text** (4 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnneB1FRoomsSailor5Text** (4 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnne10TrainerHeader0** (2 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnne10TrainerHeader1** (2 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnne10TrainerHeader2** (2 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnne10TrainerHeader3** (2 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnne10TrainerHeader4** (2 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnne10TrainerHeader5** (2 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnne10TrainerHeaders** (2 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnneB1FRooms_ScriptPointers** (2 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnneB1FRoomsFisherAfterBattleText** (2 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnneB1FRoomsFisherBattleText** (2 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnneB1FRoomsFisherEndBattleText** (2 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnneB1FRoomsSailor1AfterBattleText** (2 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnneB1FRoomsSailor1BattleText** (2 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnneB1FRoomsSailor1EndBattleText** (2 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnneB1FRoomsSailor2AfterBattleText** (2 connections) — `scripts/SSAnneB1FRooms.asm`
+- **SSAnneB1FRoomsSailor2BattleText** (2 connections) — `scripts/SSAnneB1FRooms.asm`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (17 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (9 shared connections)
-- [Engine Events 3](Engine_Events_3.md) (2 shared connections)
-- [Engine Menus](Engine_Menus.md) (1 shared connections)
+- [Scripts](Scripts.md) (7 shared connections)
+- [Home 8](Home_8.md) (6 shared connections)
+- [Scripts 74](Scripts_74.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/events/oaks_aide.asm`
-- `home/window.asm`
-- `ram/wram.asm`
-- `scripts/Route11Gate2F.asm`
-- `scripts/Route12Gate2F.asm`
-- `scripts/Route15Gate2F.asm`
-- `scripts/Route16Gate2F.asm`
-- `scripts/Route18Gate2F.asm`
-- `scripts/Route2Gate.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/SSAnneB1FRooms.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 88 (100%)
+- EXTRACTED: 76 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

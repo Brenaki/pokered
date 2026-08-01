@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **scripts/SafariZoneNorthRestHouse.asm** (7 connections) — `scripts/SafariZoneNorthRestHouse.asm`
-- **SafariZoneNorthRestHouse_Script** (2 connections) — `scripts/SafariZoneNorthRestHouse.asm`
-- **SafariZoneNorthRestHouse_TextPointers** (1 connections) — `scripts/SafariZoneNorthRestHouse.asm`
-- **SafariZoneNorthRestHouseGentlemanText** (1 connections) — `scripts/SafariZoneNorthRestHouse.asm`
-- **SafariZoneNorthRestHouseSafariZoneWorkerText** (1 connections) — `scripts/SafariZoneNorthRestHouse.asm`
-- **SafariZoneNorthRestHouseScientistText** (1 connections) — `scripts/SafariZoneNorthRestHouse.asm`
+- **scripts/FuchsiaBillsGrandpasHouse.asm** (7 connections) — `scripts/FuchsiaBillsGrandpasHouse.asm`
+- **FuchsiaBillsGrandpasHouse_Script** (2 connections) — `scripts/FuchsiaBillsGrandpasHouse.asm`
+- **FuchsiaBillsGrandpasHouse_TextPointers** (1 connections) — `scripts/FuchsiaBillsGrandpasHouse.asm`
+- **FuchsiaBillsGrandpasHouseBillsGrandpaText** (1 connections) — `scripts/FuchsiaBillsGrandpasHouse.asm`
+- **FuchsiaBillsGrandpasHouseMiddleAgedWomanText** (1 connections) — `scripts/FuchsiaBillsGrandpasHouse.asm`
+- **FuchsiaBillsGrandpasHouseYoungsterText** (1 connections) — `scripts/FuchsiaBillsGrandpasHouse.asm`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `scripts/SafariZoneNorthRestHouse.asm`
+- `scripts/FuchsiaBillsGrandpasHouse.asm`
 
 ## Audit Trail
 

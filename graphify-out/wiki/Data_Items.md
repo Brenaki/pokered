@@ -1,10 +1,15 @@
 # Data Items
 
-> 17 nodes · cohesion 0.12
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
 - **data/items/marts.asm** (19 connections) — `data/items/marts.asm`
+- **data/items** (10 connections)
+- **data/items/key_items.asm** (3 connections) — `data/items/key_items.asm`
+- **data/items/names.asm** (3 connections) — `data/items/names.asm`
+- **data/items/prices.asm** (3 connections) — `data/items/prices.asm`
+- **KeyItemFlags** (2 connections) — `data/items/key_items.asm`
 - **CeladonMart2FClerk1Text** (1 connections) — `data/items/marts.asm`
 - **CeladonMart2FClerk2Text** (1 connections) — `data/items/marts.asm`
 - **CeladonMart4FClerkText** (1 connections) — `data/items/marts.asm`
@@ -24,15 +29,22 @@
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Engine Menus 3](Engine_Menus_3.md) (2 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
+- [Scripts 39](Scripts_39.md) (1 shared connections)
+- [Bank ROMX](Bank_ROMX.md) (1 shared connections)
+- [Engine Events](Engine_Events.md) (1 shared connections)
 
 ## Source Files
 
+- `data/items/key_items.asm`
 - `data/items/marts.asm`
+- `data/items/names.asm`
+- `data/items/prices.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

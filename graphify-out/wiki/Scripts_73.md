@@ -1,51 +1,49 @@
 # Scripts 73
 
-> 23 nodes · cohesion 0.14
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **scripts/RocketHideoutB4F.asm** (26 connections) — `scripts/RocketHideoutB4F.asm`
-- **21.28 Mapa `RocketHideoutB4F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **RocketHideoutB4F_Script** (6 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket3AfterBattleText** (5 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket1Text** (4 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket2Text** (4 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket3Text** (4 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideout4TrainerHeader0** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideout4TrainerHeader1** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideout4TrainerHeader2** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideout4TrainerHeaders** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4F_ScriptPointers** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FGiovanniHopeWeMeetAgainText** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket1AfterBattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket1BattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket1EndBattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket2AfterBattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket2BattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket2EndBattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket3BattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FRocket3EndBattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4FSetDefaultScript** (2 connections) — `scripts/RocketHideoutB4F.asm`
-- **RocketHideoutB4F_TextPointers** (1 connections) — `scripts/RocketHideoutB4F.asm`
+- **scripts/ViridianCity.asm** (25 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityMovePlayerDownScript** (6 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityOldManText** (5 connections) — `scripts/ViridianCity.asm`
+- **ViridianCity_Script** (4 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityCheckGotPokedexScript** (4 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityCheckGymOpenScript** (4 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityDefaultScript** (4 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityFisherText** (4 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityOldManSleepyText** (4 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityYoungster2Text** (4 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityGambler1Text** (3 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityGirlText** (3 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityPlayerMovingDownScript** (3 connections) — `scripts/ViridianCity.asm`
+- **ViridianCity_ScriptPointers** (2 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityOldManStartCatchTrainingScript** (2 connections) — `scripts/ViridianCity.asm`
+- **ViridianCity_TextPointers** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityGymLockedText** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityGymSignText** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityOldManYouNeedToWeakenTheTargetText** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCitySignText** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityTrainerTips1Text** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityTrainerTips2Text** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityYoungster1Text** (1 connections) — `scripts/ViridianCity.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (5 shared connections)
-- [Scripts 9](Scripts_9.md) (3 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 18](Scripts_18.md) (2 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts](Scripts.md) (15 shared connections)
+- [Scripts 2](Scripts_2.md) (4 shared connections)
+- [Scripts 29](Scripts_29.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
+- [Home](Home.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/RocketHideoutB4F.asm`
+- `scripts/ViridianCity.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 51 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

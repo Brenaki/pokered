@@ -1,67 +1,68 @@
 # Engine Movie
 
-> 64 nodes · cohesion 0.08
+> 59 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **DelayFrames** (143 connections) — `home/delay.asm`
-- **engine/movie/trade.asm** (51 connections) — `engine/movie/trade.asm`
-- **DelayFrame** (51 connections) — `home/vblank.asm`
-- **EvolveMon** (15 connections) — `engine/movie/evolution.asm`
-- **Trade_AnimLeftToRight** (12 connections) — `engine/movie/trade.asm`
-- **Trade_AnimRightToLeft** (12 connections) — `engine/movie/trade.asm`
-- **Trade_ShowEnemyMon** (11 connections) — `engine/movie/trade.asm`
-- **Trade_AnimateBallEnteringLinkCable** (10 connections) — `engine/movie/trade.asm`
-- **Trade_DrawOpenEndOfLinkCable** (10 connections) — `engine/movie/trade.asm`
-- **Trade_ShowPlayerMon** (10 connections) — `engine/movie/trade.asm`
-- **Trade_DrawLeftGameboy** (9 connections) — `engine/movie/trade.asm`
-- **Trade_DrawRightGameboy** (9 connections) — `engine/movie/trade.asm`
-- **Trade_ClearTileMap** (8 connections) — `engine/movie/trade.asm`
-- **engine/movie/evolution.asm** (8 connections) — `engine/movie/evolution.asm`
-- **CopyScreenTileBufferToVRAM** (8 connections) — `home/copy2.asm`
-- **Trade_Delay80** (7 connections) — `engine/movie/trade.asm`
-- **Trade_LoadMonSprite** (7 connections) — `engine/movie/trade.asm`
-- **WriteOAMBlock** (7 connections) — `home/oam.asm`
-- **PrintTradeFarewellText** (6 connections) — `engine/movie/trade.asm`
-- **Trade_AnimMonMoveVertical** (6 connections) — `engine/movie/trade.asm`
-- **Trade_CopyCableTilesOffScreen** (6 connections) — `engine/movie/trade.asm`
-- **Trade_CopyTileMapToVRAM** (6 connections) — `engine/movie/trade.asm`
-- **Trade_InitGameboyTransferGfx** (6 connections) — `engine/movie/trade.asm`
-- **Trade_SlideTextBoxOffScreen** (6 connections) — `engine/movie/trade.asm`
-- **LoadFlippedFrontSpriteByMonIndex** (6 connections) — `home/pokemon.asm`
-- *... and 39 more nodes in this community*
+- **FillMemory** (38 connections) — `home/tilemap.asm`
+- **engine/movie/title.asm** (20 connections) — `engine/movie/title.asm`
+- **engine/movie/credits.asm** (19 connections) — `engine/movie/credits.asm`
+- **Init** (17 connections) — `home/init.asm`
+- **HallOfFamePC** (15 connections) — `engine/movie/credits.asm`
+- **engine/movie** (14 connections)
+- **Credits** (14 connections) — `engine/movie/credits.asm`
+- **DisplayCreditsMon** (13 connections) — `engine/movie/credits.asm`
+- **DoClearSaveDialogue** (10 connections) — `engine/movie/oak_speech/clear_save.asm`
+- **engine/movie/title2.asm** (9 connections) — `engine/movie/title2.asm`
+- **PrepareTitleScreen** (8 connections) — `engine/movie/title.asm`
+- **TitleScreenPickNewMon** (8 connections) — `engine/movie/title.asm`
+- **TitleScroll** (7 connections) — `engine/movie/title2.asm`
+- **LoadCopyrightTiles** (7 connections) — `engine/movie/title.asm`
+- **home/init.asm** (6 connections) — `home/init.asm`
+- **LoadTitleMonSprite** (5 connections) — `engine/movie/title.asm`
+- **SoftReset** (5 connections) — `home/init.asm`
+- **StopAllSounds** (5 connections) — `home/init.asm`
+- **StopMusic** (5 connections) — `home/overworld.asm`
+- **data/credits** (4 connections)
+- **FadeInCredits** (4 connections) — `engine/movie/credits.asm`
+- **FillMiddleOfScreenWithWhite** (4 connections) — `engine/movie/credits.asm`
+- **TitleScreenAnimateBallIfStarterOut** (4 connections) — `engine/movie/title2.asm`
+- **ClearBothBGMaps** (4 connections) — `engine/movie/title.asm`
+- **LoadCopyrightAndTextBoxTiles** (4 connections) — `engine/movie/title.asm`
+- *... and 34 more nodes in this community*
 
 ## Relationships
 
-- [Home](Home.md) (9 shared connections)
-- [Scripts 13](Scripts_13.md) (8 shared connections)
-- [Engine Menus](Engine_Menus.md) (7 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (6 shared connections)
-- [Scripts](Scripts.md) (5 shared connections)
-- [Engine Link](Engine_Link.md) (5 shared connections)
-- [Scripts 15](Scripts_15.md) (4 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (3 shared connections)
-- [Engine Events 3](Engine_Events_3.md) (2 shared connections)
-- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
-- [Engine Battle 7](Engine_Battle_7.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Home](Home.md) (22 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (8 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (6 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (5 shared connections)
+- [Data Credits](Data_Credits.md) (3 shared connections)
+- [Engine Link](Engine_Link.md) (3 shared connections)
+- [Ram](Ram.md) (3 shared connections)
+- [Scripts 5](Scripts_5.md) (3 shared connections)
+- [Home 6](Home_6.md) (2 shared connections)
+- [Engine Movie 3](Engine_Movie_3.md) (2 shared connections)
+- [Engine Slots](Engine_Slots.md) (2 shared connections)
+- [Engine Movie 2](Engine_Movie_2.md) (2 shared connections)
 
 ## Source Files
 
-- `engine/battle/animations.asm`
-- `engine/battle/scroll_draw_trainer_pic.asm`
-- `engine/movie/evolution.asm`
-- `engine/movie/intro.asm`
-- `engine/movie/trade.asm`
-- `home/copy2.asm`
-- `home/delay.asm`
-- `home/oam.asm`
-- `home/pokemon.asm`
-- `home/vblank.asm`
+- `data/credits/credits_mons.asm`
+- `data/credits/credits_order.asm`
+- `data/pokemon/title_mons.asm`
+- `engine/menus/save.asm`
+- `engine/movie/credits.asm`
+- `engine/movie/oak_speech/clear_save.asm`
+- `engine/movie/title.asm`
+- `engine/movie/title2.asm`
+- `home/init.asm`
+- `home/overworld.asm`
+- `home/tilemap.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 209 (100%)
+- EXTRACTED: 172 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,53 +1,53 @@
 # Scripts 60
 
-> 29 nodes · cohesion 0.09
+> 28 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **scripts/RocketHideoutB3F.asm** (31 connections) — `scripts/RocketHideoutB3F.asm`
-- **21.27 Mapa `RocketHideoutB3F`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **RocketHideoutB3F_Script** (5 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket1Text** (4 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket2Text** (4 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowTilePlayerMovement** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3TrainerHeader0** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3TrainerHeader1** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3TrainerHeaders** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3F_ScriptPointers** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket1AfterBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket1BattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket1EndBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket2AfterBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket2BattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket2EndBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement1** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement10** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement11** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement12** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement2** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement3** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement4** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement5** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement6** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- *... and 4 more nodes in this community*
+- **scripts/PokemonTower6F.asm** (30 connections) — `scripts/PokemonTower6F.asm`
+- **21.20 Mapa `PokemonTower6F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **PokemonTower6FMarowakBattleScript** (6 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6F_Script** (5 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler1Text** (4 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler2Text** (4 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler3Text** (4 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FPlayerMovingScript** (3 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6F_ScriptPointers** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler1AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler1BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler1EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler2AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler2BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler2EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler3AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler3BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler3EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FGhostWasCubonesMotherText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FMarowakCoords** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FSetDefaultScript** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FSoulWasCalmedText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6TrainerHeader0** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6TrainerHeader1** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6TrainerHeader2** (2 connections) — `scripts/PokemonTower6F.asm`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (2 shared connections)
-- [Scripts 9](Scripts_9.md) (2 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Engine Overworld 3](Engine_Overworld_3.md) (1 shared connections)
-- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Scripts](Scripts.md) (4 shared connections)
+- [Home 8](Home_8.md) (3 shared connections)
+- [Home](Home.md) (3 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 74](Scripts_74.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/RocketHideoutB3F.asm`
+- `scripts/PokemonTower6F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
+- EXTRACTED: 55 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

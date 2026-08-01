@@ -18,10 +18,10 @@
 ## Relationships
 
 - [Engine Battle 2](Engine_Battle_2.md) (2 shared connections)
-- [Engine Items 5](Engine_Items_5.md) (1 shared connections)
-- [Home 3](Home_3.md) (1 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Engine Slots](Engine_Slots.md) (1 shared connections)
+- [Bank ROM0](Bank_ROM0.md) (1 shared connections)
+- [Home 8](Home_8.md) (1 shared connections)
+- [Engine Events](Engine_Events.md) (1 shared connections)
 
 ## Source Files
 

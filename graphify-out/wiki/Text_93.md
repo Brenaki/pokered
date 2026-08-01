@@ -1,16 +1,17 @@
 # Text 93
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **text/Route11_2.asm** (8 connections) — `text/Route11_2.asm`
-- **_Route11DiglettsCaveSignText** (1 connections) — `text/Route11_2.asm`
-- **_Route11SuperNerd2AfterBattleText** (1 connections) — `text/Route11_2.asm`
-- **_Route11SuperNerd2EndBattleText** (1 connections) — `text/Route11_2.asm`
-- **_Route11Youngster4AfterBattleText** (1 connections) — `text/Route11_2.asm`
-- **_Route11Youngster4BattleText** (1 connections) — `text/Route11_2.asm`
-- **_Route11Youngster4EndBattleText** (1 connections) — `text/Route11_2.asm`
+- **text/Museum2F.asm** (9 connections) — `text/Museum2F.asm`
+- **_Museum2FBrunetteGirlText** (1 connections) — `text/Museum2F.asm`
+- **_Museum2FGrampsText** (1 connections) — `text/Museum2F.asm`
+- **_Museum2FHikerText** (1 connections) — `text/Museum2F.asm`
+- **_Museum2FMoonStoneSignText** (1 connections) — `text/Museum2F.asm`
+- **_Museum2FScientistText** (1 connections) — `text/Museum2F.asm`
+- **_Museum2FSpaceShuttleSignText** (1 connections) — `text/Museum2F.asm`
+- **_Museum2FYoungsterText** (1 connections) — `text/Museum2F.asm`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `text/Route11_2.asm`
+- `text/Museum2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

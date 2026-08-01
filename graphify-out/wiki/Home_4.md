@@ -1,57 +1,63 @@
 # Home 4
 
-> 57 nodes · cohesion 0.07
+> 38 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **home/text.asm** (58 connections) — `home/text.asm`
-- **NextTextCommand** (19 connections) — `home/text.asm`
-- **TextCommandJumpTable** (17 connections) — `home/text.asm`
-- **ManualTextScroll** (10 connections) — `home/joypad2.asm`
-- **TextCommand_SOUND** (8 connections) — `home/text.asm`
-- **TextCommandProcessor** (8 connections) — `home/text.asm`
-- **ContText** (6 connections) — `home/text.asm`
-- **NextChar** (6 connections) — `home/text.asm`
-- **PageChar** (6 connections) — `home/text.asm`
-- **Paragraph** (6 connections) — `home/text.asm`
-- **PlaceMoveUsersName** (6 connections) — `home/text.asm`
-- **PlaceNextChar** (6 connections) — `home/text.asm`
-- **ProtectedDelay3** (6 connections) — `home/text.asm`
-- **PlaceCommandCharacter** (5 connections) — `home/text.asm`
-- **TextCommand_DOTS** (5 connections) — `home/text.asm`
-- **TextCommand_PAUSE** (5 connections) — `home/text.asm`
-- **TextCommand_PROMPT_BUTTON** (5 connections) — `home/text.asm`
-- **TextCommand_WAIT_BUTTON** (5 connections) — `home/text.asm`
-- **wBattleMonNick** (5 connections) — `ram/wram.asm`
-- **_ContTextNoPause** (4 connections) — `home/text.asm`
-- **ScrollTextUpOneLine** (4 connections) — `home/text.asm`
-- **TextCommand_BCD** (4 connections) — `home/text.asm`
-- **TextCommand_BOX** (4 connections) — `home/text.asm`
-- **TextCommand_FAR** (4 connections) — `home/text.asm`
-- **TextCommand_NUM** (4 connections) — `home/text.asm`
-- *... and 32 more nodes in this community*
+- **DisplayPokemonCenterDialogue_** (19 connections) — `engine/events/pokecenter.asm`
+- **home/text_script.asm** (19 connections) — `home/text_script.asm`
+- **AnimateHealingMachine** (12 connections) — `engine/overworld/healing_machine.asm`
+- **engine/events/pokecenter.asm** (9 connections) — `engine/events/pokecenter.asm`
+- **AfterDisplayingTextID** (9 connections) — `home/text_script.asm`
+- **home/yes_no.asm** (8 connections) — `home/yes_no.asm`
+- **engine/overworld/healing_machine.asm** (7 connections) — `engine/overworld/healing_machine.asm`
+- **HoldTextDisplayOpen** (7 connections) — `home/text_script.asm`
+- **LoadItemList** (7 connections) — `home/text_script.asm`
+- **StartMenu_SaveReset** (6 connections) — `engine/menus/start_sub_menus.asm`
+- **BankswitchAndContinue** (6 connections) — `home/map_objects.asm`
+- **DisplayPokemartDialogue** (6 connections) — `home/text_script.asm`
+- **DisplayYesNoChoice** (5 connections) — `home/yes_no.asm`
+- **FlashSprite8Times** (4 connections) — `engine/overworld/healing_machine.asm`
+- **TextScript_BillsPC** (4 connections) — `home/map_objects.asm`
+- **DisplayPlayerBlackedOutText** (4 connections) — `home/text_script.asm`
+- **DisplayPokemonFaintedText** (4 connections) — `home/text_script.asm`
+- **DisplayRepelWoreOffText** (4 connections) — `home/text_script.asm`
+- **YesNoChoicePokeCenter** (4 connections) — `home/yes_no.asm`
+- **PokeCenterFlashingMonitorAndHealBall** (3 connections) — `engine/overworld/healing_machine.asm`
+- **TextScript_PokemonCenterPC** (3 connections) — `home/map_objects.asm`
+- **DisplayPokemonCenterDialogue** (3 connections) — `home/text_script.asm`
+- **InitYesNoTextBoxParameters** (3 connections) — `home/yes_no.asm`
+- **TwoOptionMenu** (3 connections) — `home/yes_no.asm`
+- **NeedYourPokemonText** (2 connections) — `engine/events/pokecenter.asm`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Engine Menus](Engine_Menus.md) (8 shared connections)
-- [Engine Movie](Engine_Movie.md) (6 shared connections)
-- [Home 3](Home_3.md) (4 shared connections)
-- [Scripts 13](Scripts_13.md) (3 shared connections)
-- [Engine Battle](Engine_Battle.md) (2 shared connections)
-- [Scripts 15](Scripts_15.md) (2 shared connections)
-- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Home](Home.md) (13 shared connections)
+- [Scripts](Scripts.md) (6 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (3 shared connections)
+- [Scripts 5](Scripts_5.md) (2 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
+- [Engine Items 2](Engine_Items_2.md) (2 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Bank ROMX](Bank_ROMX.md) (1 shared connections)
+- [Engine Overworld 3](Engine_Overworld_3.md) (1 shared connections)
+- [Bank SRAM](Bank_SRAM.md) (1 shared connections)
+- [Engine Movie](Engine_Movie.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 
 ## Source Files
 
-- `home/joypad2.asm`
-- `home/text.asm`
-- `home/window.asm`
-- `ram/wram.asm`
+- `engine/events/pokecenter.asm`
+- `engine/menus/start_sub_menus.asm`
+- `engine/overworld/healing_machine.asm`
+- `home/map_objects.asm`
+- `home/text_script.asm`
+- `home/yes_no.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 143 (100%)
+- EXTRACTED: 100 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

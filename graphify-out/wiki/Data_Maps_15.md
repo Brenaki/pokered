@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/CeruleanBadgeHouse.asm** (3 connections) — `data/maps/objects/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouse_Object** (1 connections) — `data/maps/objects/CeruleanBadgeHouse.asm`
+- **data/maps/objects/CeladonMartElevator.asm** (3 connections) — `data/maps/objects/CeladonMartElevator.asm`
+- **CeladonMartElevator_Object** (1 connections) — `data/maps/objects/CeladonMartElevator.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/CeruleanBadgeHouse.asm`
+- `data/maps/objects/CeladonMartElevator.asm`
 
 ## Audit Trail
 

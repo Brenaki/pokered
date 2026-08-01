@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/SaffronMart.asm** (3 connections) — `data/maps/objects/SaffronMart.asm`
-- **SaffronMart_Object** (1 connections) — `data/maps/objects/SaffronMart.asm`
+- **data/maps/objects/SafariZoneWestRestHouse.asm** (3 connections) — `data/maps/objects/SafariZoneWestRestHouse.asm`
+- **SafariZoneWestRestHouse_Object** (1 connections) — `data/maps/objects/SafariZoneWestRestHouse.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/SaffronMart.asm`
+- `data/maps/objects/SafariZoneWestRestHouse.asm`
 
 ## Audit Trail
 

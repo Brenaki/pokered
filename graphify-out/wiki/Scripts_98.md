@@ -1,37 +1,40 @@
 # Scripts 98
 
-> 11 nodes · cohesion 0.27
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **scripts/SafariZoneGate.asm** (20 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGateReturnSimulatedJoypadStateScript** (5 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGate_Script** (4 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGateSetScriptAfterMoveScript** (4 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGatePlayerMovingDownScript** (3 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGatePlayerMovingRightScript** (3 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGatePlayerMovingUpScript** (3 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGate_ScriptPointers** (2 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGate_TextPointers** (1 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGateSafariZoneWorker1GoodHaulComeAgainText** (1 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGateSafariZoneWorker1Text** (1 connections) — `scripts/SafariZoneGate.asm`
+- **scripts/PalletTown.asm** (19 connections) — `scripts/PalletTown.asm`
+- **PalletTown_Script** (4 connections) — `scripts/PalletTown.asm`
+- **PalletTownDaisyScript** (3 connections) — `scripts/PalletTown.asm`
+- **PalletTown_ScriptPointers** (2 connections) — `scripts/PalletTown.asm`
+- **PalletTownNoopScript** (2 connections) — `scripts/PalletTown.asm`
+- **PalletTownPlayerFollowsOakScript** (2 connections) — `scripts/PalletTown.asm`
+- **PalletTown_TextPointers** (1 connections) — `scripts/PalletTown.asm`
+- **PalletTownFisherText** (1 connections) — `scripts/PalletTown.asm`
+- **PalletTownGirlText** (1 connections) — `scripts/PalletTown.asm`
+- **PalletTownOaksLabSignText** (1 connections) — `scripts/PalletTown.asm`
+- **PalletTownPlayersHouseSignText** (1 connections) — `scripts/PalletTown.asm`
+- **PalletTownRivalsHouseSignText** (1 connections) — `scripts/PalletTown.asm`
+- **PalletTownSignText** (1 connections) — `scripts/PalletTown.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (4 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
 - [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts 12](Scripts_12.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Home 5](Home_5.md) (1 shared connections)
+- [Scripts 29](Scripts_29.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 13](Scripts_13.md) (1 shared connections)
+- [Scripts 19](Scripts_19.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SafariZoneGate.asm`
+- `scripts/PalletTown.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 21 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

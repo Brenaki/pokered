@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **text/PokemonMansionB1F.asm** (9 connections) — `text/PokemonMansionB1F.asm`
-- **_PokemonMansionB1FBurglarAfterBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
-- **_PokemonMansionB1FBurglarBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
-- **_PokemonMansionB1FBurglarEndBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
-- **_PokemonMansionB1FDiaryText** (1 connections) — `text/PokemonMansionB1F.asm`
-- **_PokemonMansionB1FScientistAfterBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
-- **_PokemonMansionB1FScientistBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
-- **_PokemonMansionB1FScientistEndBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
+- **text/BluesHouse.asm** (9 connections) — `text/BluesHouse.asm`
+- **_BluesHouseDaisyBagFullText** (1 connections) — `text/BluesHouse.asm`
+- **_BluesHouseDaisyOfferMapText** (1 connections) — `text/BluesHouse.asm`
+- **_BluesHouseDaisyRivalAtLabText** (1 connections) — `text/BluesHouse.asm`
+- **_BluesHouseDaisyUseMapText** (1 connections) — `text/BluesHouse.asm`
+- **_BluesHouseDaisyWalkingText** (1 connections) — `text/BluesHouse.asm`
+- **_BluesHouseTownMapText** (1 connections) — `text/BluesHouse.asm`
+- **_GotMapText** (1 connections) — `text/BluesHouse.asm`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `text/PokemonMansionB1F.asm`
+- `text/BluesHouse.asm`
 
 ## Audit Trail
 

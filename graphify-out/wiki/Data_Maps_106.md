@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/VictoryRoad1F.asm** (3 connections) — `data/maps/objects/VictoryRoad1F.asm`
-- **VictoryRoad1F_Object** (1 connections) — `data/maps/objects/VictoryRoad1F.asm`
+- **data/maps/objects/UndergroundPathRoute7Copy.asm** (3 connections) — `data/maps/objects/UndergroundPathRoute7Copy.asm`
+- **UndergroundPathRoute7Copy_Object** (1 connections) — `data/maps/objects/UndergroundPathRoute7Copy.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/VictoryRoad1F.asm`
+- `data/maps/objects/UndergroundPathRoute7Copy.asm`
 
 ## Audit Trail
 

@@ -1,54 +1,57 @@
 # Scripts 57
 
-> 30 nodes · cohesion 0.12
+> 29 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **scripts/Route23.asm** (32 connections) — `scripts/Route23.asm`
-- **Route23CheckForBadgeScript** (15 connections) — `scripts/Route23.asm`
-- **BadgeTextPointers** (9 connections) — `scripts/Route23.asm`
-- **Route23DefaultScript** (6 connections) — `scripts/Route23.asm`
-- **Route23_Script** (5 connections) — `scripts/Route23.asm`
-- **Route23CopyBadgeTextScript** (5 connections) — `scripts/Route23.asm`
-- **Route23YouDontHaveTheBadgeYetText** (5 connections) — `scripts/Route23.asm`
-- **Route23MovePlayerDownScript** (4 connections) — `scripts/Route23.asm`
-- **Route23Guard1Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard2Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard3Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard4Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard5Text** (3 connections) — `scripts/Route23.asm`
-- **Route23OhThatIsTheBadgeText** (3 connections) — `scripts/Route23.asm`
-- **Route23PrintOhThatsTheBadgeTextScript** (3 connections) — `scripts/Route23.asm`
-- **Route23Swimmer1Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Swimmer2Text** (3 connections) — `scripts/Route23.asm`
-- **CascadeBadgeText** (2 connections) — `scripts/Route23.asm`
-- **EarthBadgeText** (2 connections) — `scripts/Route23.asm`
-- **MarshBadgeText** (2 connections) — `scripts/Route23.asm`
-- **RainbowBadgeText** (2 connections) — `scripts/Route23.asm`
-- **Route23_ScriptPointers** (2 connections) — `scripts/Route23.asm`
-- **Route23GuardsYCoords** (2 connections) — `scripts/Route23.asm`
-- **Route23PlayerMovingScript** (2 connections) — `scripts/Route23.asm`
-- **Route23ResetToDefaultScript** (2 connections) — `scripts/Route23.asm`
-- *... and 5 more nodes in this community*
+- **scripts/CeruleanCity.asm** (34 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityDefaultScript** (15 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityRivalDefeatedScript** (12 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityRivalBattleScript** (8 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCity_Script** (4 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityFaceRivalScript** (4 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityRivalCleanupScript** (4 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityClearScripts** (3 connections) — `scripts/CeruleanCity.asm`
+- **GetPointerWithinSpriteStateData2** (2 connections) — `home/map_objects.asm`
+- **CeruleanCity_ScriptPointers** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityCoords1** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityCoords2** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityMovement1** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityMovement3** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityMovement4** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityRivalDefeatedText** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityRivalIWentToBillsText** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityRivalVictoryText** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCity_TextPointers** (1 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityBikeShopSign** (1 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityCooltrainerF2Text** (1 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityCooltrainerMText** (1 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityGuardText** (1 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityGymSign** (1 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCitySignText** (1 connections) — `scripts/CeruleanCity.asm`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (10 shared connections)
-- [Scripts 2](Scripts_2.md) (4 shared connections)
-- [Engine Battle](Engine_Battle.md) (3 shared connections)
-- [Scripts 12](Scripts_12.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (5 shared connections)
+- [Scripts 5](Scripts_5.md) (5 shared connections)
+- [Home 5](Home_5.md) (4 shared connections)
+- [Scripts](Scripts.md) (3 shared connections)
+- [Scripts 7](Scripts_7.md) (3 shared connections)
+- [Scripts 19](Scripts_19.md) (2 shared connections)
+- [Scripts 29](Scripts_29.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
-- [Scripts 15](Scripts_15.md) (1 shared connections)
+- [Home](Home.md) (1 shared connections)
+- [Scripts 21](Scripts_21.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route23.asm`
+- `home/map_objects.asm`
+- `scripts/CeruleanCity.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (100%)
+- EXTRACTED: 65 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

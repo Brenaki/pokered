@@ -1,17 +1,18 @@
 # Text 89
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **text/NameRatersHouse.asm** (9 connections) — `text/NameRatersHouse.asm`
-- **_NameRatersHouseNameRaterATrulyImpeccableNameText** (1 connections) — `text/NameRatersHouse.asm`
-- **_NameRatersHouseNameRaterComeAnyTimeYouLikeText** (1 connections) — `text/NameRatersHouse.asm`
-- **_NameRatersHouseNameRaterGiveItANiceNameText** (1 connections) — `text/NameRatersHouse.asm`
-- **_NameRatersHouseNameRaterPokemonHasBeenRenamedText** (1 connections) — `text/NameRatersHouse.asm`
-- **_NameRatersHouseNameRaterWantMeToRateText** (1 connections) — `text/NameRatersHouse.asm`
-- **_NameRatersHouseNameRaterWhatShouldWeNameItText** (1 connections) — `text/NameRatersHouse.asm`
-- **_NameRatersHouseNameRaterWhichPokemonText** (1 connections) — `text/NameRatersHouse.asm`
+- **text/SilphCo5F_2.asm** (10 connections) — `text/SilphCo5F_2.asm`
+- **_SilphCo5FPokemonReport1Text** (1 connections) — `text/SilphCo5F_2.asm`
+- **_SilphCo5FPokemonReport2Text** (1 connections) — `text/SilphCo5F_2.asm`
+- **_SilphCo5FPokemonReport3Text** (1 connections) — `text/SilphCo5F_2.asm`
+- **_SilphCo5FRockerAfterBattleText** (1 connections) — `text/SilphCo5F_2.asm`
+- **_SilphCo5FRockerEndBattleText** (1 connections) — `text/SilphCo5F_2.asm`
+- **_SilphCo5FRocket2AfterBattleText** (1 connections) — `text/SilphCo5F_2.asm`
+- **_SilphCo5FRocket2BattleText** (1 connections) — `text/SilphCo5F_2.asm`
+- **_SilphCo5FRocket2EndBattleText** (1 connections) — `text/SilphCo5F_2.asm`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `text/NameRatersHouse.asm`
+- `text/SilphCo5F_2.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

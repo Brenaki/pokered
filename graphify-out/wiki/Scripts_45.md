@@ -1,55 +1,51 @@
 # Scripts 45
 
-> 36 nodes · cohesion 0.08
+> 32 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **scripts/PokemonMansion3F.asm** (20 connections) — `scripts/PokemonMansion3F.asm`
-- **scripts/PokemonMansion2F.asm** (17 connections) — `scripts/PokemonMansion2F.asm`
-- **21.15 Mapa `PokemonMansion3F`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **PokemonMansion2F_Script** (6 connections) — `scripts/PokemonMansion2F.asm`
-- **PokemonMansion3F_Script** (6 connections) — `scripts/PokemonMansion3F.asm`
-- **21.14 Mapa `PokemonMansion2F`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **Mansion2CheckReplaceSwitchDoorBlocks** (4 connections) — `scripts/PokemonMansion2F.asm`
-- **Mansion2ReplaceBlock** (4 connections) — `scripts/PokemonMansion2F.asm`
-- **PokemonMansion2FSuperNerdText** (4 connections) — `scripts/PokemonMansion2F.asm`
-- **Mansion3CheckReplaceSwitchDoorBlocks** (4 connections) — `scripts/PokemonMansion3F.asm`
-- **PokemonMansion3FScientistText** (4 connections) — `scripts/PokemonMansion3F.asm`
-- **PokemonMansion3FSuperNerdText** (4 connections) — `scripts/PokemonMansion3F.asm`
-- **MansionB1FCheckReplaceSwitchDoorBlocks** (4 connections) — `scripts/PokemonMansionB1F.asm`
-- **Mansion2Script_Switches** (2 connections) — `scripts/PokemonMansion2F.asm`
-- **Mansion2TrainerHeader0** (2 connections) — `scripts/PokemonMansion2F.asm`
-- **Mansion2TrainerHeaders** (2 connections) — `scripts/PokemonMansion2F.asm`
-- **PokemonMansion2F_ScriptPointers** (2 connections) — `scripts/PokemonMansion2F.asm`
-- **PokemonMansion2FSuperNerdAfterBattleText** (2 connections) — `scripts/PokemonMansion2F.asm`
-- **PokemonMansion2FSuperNerdBattleText** (2 connections) — `scripts/PokemonMansion2F.asm`
-- **PokemonMansion2FSuperNerdEndBattleText** (2 connections) — `scripts/PokemonMansion2F.asm`
-- **Mansion3Script_Switches** (2 connections) — `scripts/PokemonMansion3F.asm`
-- **Mansion3TrainerHeader0** (2 connections) — `scripts/PokemonMansion3F.asm`
-- **Mansion3TrainerHeader1** (2 connections) — `scripts/PokemonMansion3F.asm`
-- **Mansion3TrainerHeaders** (2 connections) — `scripts/PokemonMansion3F.asm`
-- **PokemonMansion3F_ScriptPointers** (2 connections) — `scripts/PokemonMansion3F.asm`
-- *... and 11 more nodes in this community*
+- **scripts/SSAnne2FRooms.asm** (33 connections) — `scripts/SSAnne2FRooms.asm`
+- **21.49 Mapa `SSAnne2FRooms`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **SSAnne2FRooms_Script** (4 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsCooltrainerFText** (4 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsFisherText** (4 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGentleman1Text** (4 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGentleman2Text** (4 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsBeautyText** (3 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsBrunetteGirlText** (3 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGentleman4Text** (3 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGentleman5Text** (3 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGrampsText** (3 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsLittleBoyText** (3 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRooms_ScriptPointers** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsCooltrainerFAfterBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsCooltrainerFBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsCooltrainerFEndBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsFisherAfterBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsFisherBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsFisherEndBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGentleman1AfterBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGentleman1BattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGentleman1EndBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGentleman2AfterBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- **SSAnne2FRoomsGentleman2BattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (4 shared connections)
-- [Scripts 2](Scripts_2.md) (3 shared connections)
-- [Scripts 18](Scripts_18.md) (3 shared connections)
-- [Scripts 9](Scripts_9.md) (3 shared connections)
-- [Scripts 26](Scripts_26.md) (2 shared connections)
-- [Scripts 4](Scripts_4.md) (2 shared connections)
+- [Scripts](Scripts.md) (16 shared connections)
+- [Home 8](Home_8.md) (4 shared connections)
+- [Scripts 76](Scripts_76.md) (1 shared connections)
+- [Scripts 74](Scripts_74.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/PokemonMansion2F.asm`
-- `scripts/PokemonMansion3F.asm`
-- `scripts/PokemonMansionB1F.asm`
+- `scripts/SSAnne2FRooms.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (100%)
+- EXTRACTED: 70 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

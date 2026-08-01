@@ -1,17 +1,18 @@
 # Text 85
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **text/BluesHouse.asm** (9 connections) — `text/BluesHouse.asm`
-- **_BluesHouseDaisyBagFullText** (1 connections) — `text/BluesHouse.asm`
-- **_BluesHouseDaisyOfferMapText** (1 connections) — `text/BluesHouse.asm`
-- **_BluesHouseDaisyRivalAtLabText** (1 connections) — `text/BluesHouse.asm`
-- **_BluesHouseDaisyUseMapText** (1 connections) — `text/BluesHouse.asm`
-- **_BluesHouseDaisyWalkingText** (1 connections) — `text/BluesHouse.asm`
-- **_BluesHouseTownMapText** (1 connections) — `text/BluesHouse.asm`
-- **_GotMapText** (1 connections) — `text/BluesHouse.asm`
+- **text/PokemonMansion2F.asm** (10 connections) — `text/PokemonMansion2F.asm`
+- **_PokemonMansion2FDiary1Text** (1 connections) — `text/PokemonMansion2F.asm`
+- **_PokemonMansion2FDiary2Text** (1 connections) — `text/PokemonMansion2F.asm`
+- **_PokemonMansion2FSuperNerdAfterBattleText** (1 connections) — `text/PokemonMansion2F.asm`
+- **_PokemonMansion2FSuperNerdBattleText** (1 connections) — `text/PokemonMansion2F.asm`
+- **_PokemonMansion2FSuperNerdEndBattleText** (1 connections) — `text/PokemonMansion2F.asm`
+- **_PokemonMansion2FSwitchNotPressedText** (1 connections) — `text/PokemonMansion2F.asm`
+- **_PokemonMansion2FSwitchPressedText** (1 connections) — `text/PokemonMansion2F.asm`
+- **_PokemonMansion2FSwitchText** (1 connections) — `text/PokemonMansion2F.asm`
 
 ## Relationships
 
@@ -19,11 +20,11 @@
 
 ## Source Files
 
-- `text/BluesHouse.asm`
+- `text/PokemonMansion2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

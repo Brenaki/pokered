@@ -11,9 +11,11 @@ accuracy
 aceita
 acerto
 acid
+acoes
 acquisitions
 across
 action
+actions
 activate
 actor
 actual
@@ -22,6 +24,7 @@ added
 addr
 address
 addresses
+adicionais
 adjust
 adjusted
 adjustment
@@ -49,6 +52,7 @@ alakazamb
 alarm
 aleat
 aleatoriedade
+algoritmos
 align
 alive
 all
@@ -65,6 +69,7 @@ amber
 amnesia
 amount
 and
+andando
 angry
 anim
 anima
@@ -85,7 +90,10 @@ appeared
 appears
 apply
 applying
+aprender
 aprova
+aprovacao
+aprovador
 arbok
 arbokb
 arcanine
@@ -276,6 +284,7 @@ bulge
 burglar
 burn
 burned
+busca
 busted
 but
 butterfree
@@ -285,14 +294,18 @@ buy
 buying
 byte
 bytes
+cabecalhos
 cable
 cached
 calc
 calculate
 call
 callback
+calls
 calmed
+camadas
 came
+caminho
 can
 cancel
 canceled
@@ -307,6 +320,7 @@ captains
 captura
 capture
 captured
+caracterizacao
 card
 care
 carpet
@@ -333,6 +347,7 @@ cgb
 chair
 chairman
 challenges
+chamadas
 champ
 champions
 chance
@@ -382,7 +397,10 @@ cities
 city
 clamp
 class
+classe
+classes
 classifica
+classificacao
 claude
 clean
 cleanup
@@ -411,6 +429,7 @@ coffee
 coin
 coins
 col
+colisao
 coll
 colliding
 collision
@@ -429,13 +448,19 @@ coming
 command
 common
 como
+comparacao
+comparacoes
 compare
+completa
 completed
 completion
+completo
 comportamento
+comportamentos
 compressed
 comuns
 conceituais
+conclusao
 condi
 condition
 conditional
@@ -459,6 +484,7 @@ conquer
 consolidada
 const
 constants
+constraint
 constrict
 consumo
 cont
@@ -475,6 +501,7 @@ controle
 controles
 controlled
 conven
+conversar
 conversion
 convert
 converted
@@ -512,6 +539,7 @@ credit
 credits
 cries
 crit
+criterios
 critical
 cry
 crying
@@ -552,6 +580,7 @@ debian
 debug
 dec
 decis
+decisoes
 decode
 decrease
 decrement
@@ -584,6 +613,7 @@ designer
 desmaio
 desobedi
 dest
+desta
 destination
 destroyed
 detect
@@ -592,11 +622,13 @@ dev
 dewgong
 dewgongb
 dex
+dialogo
 dialogue
 diary
 dictionary
 did
 didnt
+diferencial
 difference
 different
 differential
@@ -609,6 +641,7 @@ dim
 diner
 diploma
 dire
+direcoes
 direct
 direction
 directions
@@ -639,6 +672,7 @@ dizzy
 dma
 dock
 docs
+document
 documento
 dodrio
 dodriob
@@ -646,6 +680,7 @@ doduo
 doduob
 doesnt
 doing
+dois
 dojo
 doll
 dom
@@ -753,6 +788,7 @@ engaged
 engaging
 engine
 engineer
+enhanced
 enough
 enter
 entering
@@ -771,6 +807,7 @@ escaped
 escolha
 escopo
 esp
+especiais
 especial
 est
 establishing
@@ -783,10 +820,12 @@ evaded
 evas
 evasion
 event
+eventos
 events
 every
 everywhere
 evid
+evidencias
 evil
 evo
 evolu
@@ -802,9 +841,11 @@ exchange
 exchanged
 exclamation
 exclu
+excluido
 excuse
 execu
 execute
+executiva
 executive
 exeggcute
 exeggcuteb
@@ -812,6 +853,7 @@ exeggutor
 exeggutorb
 exemplo
 exibi
+existente
 exit
 exits
 exp
@@ -820,6 +862,7 @@ experi
 experience
 explain
 explanation
+explicavel
 explode
 exploding
 explosion
@@ -863,6 +906,7 @@ fell
 female
 ffff
 fgb
+fiel
 field
 fight
 fighting
@@ -921,6 +965,7 @@ forest
 forget
 forgot
 format
+forte
 forth
 fossil
 fossilaerodactyl
@@ -959,6 +1004,7 @@ fully
 fun
 func
 funciona
+funcionamento
 function
 functions
 fury
@@ -987,6 +1033,7 @@ gengarb
 gentleman
 geodude
 geodudeb
+gerado
 get
 getm
 getting
@@ -1021,6 +1068,7 @@ golduck
 golduckb
 golem
 golemb
+golpes
 gone
 good
 got
@@ -1075,6 +1123,7 @@ halve
 hammer
 handakutens
 handle
+handler
 happen
 happened
 happy
@@ -1123,6 +1172,7 @@ hip
 his
 hishida
 hist
+historico
 hit
 hitmonchan
 hitmonchanb
@@ -1168,6 +1218,7 @@ ignoring
 ill
 image
 impeccable
+implementados
 important
 impressed
 imunidades
@@ -1176,6 +1227,7 @@ inc
 inches
 inclu
 includes
+incluido
 incorrect
 increase
 increased
@@ -1198,6 +1250,7 @@ input
 inside
 install
 instead
+instruction
 instructions
 instrument
 interacted
@@ -1206,11 +1259,13 @@ interlace
 internal
 internas
 interpreta
+interrupcao
 interruption
 into
 intro
 introbattle
 introduce
+inventario
 invention
 inventory
 inward
@@ -1236,6 +1291,7 @@ japanese
 jigglypuff
 jigglypuffb
 jigglypuffsong
+joga
 jogador
 join
 jolteon
@@ -1298,6 +1354,7 @@ later
 latest
 lavender
 layer
+layers
 layout
 lcd
 lculo
@@ -1399,6 +1456,7 @@ magneton
 magnetonb
 mai
 main
+mais
 make
 makefile
 making
@@ -1412,7 +1470,11 @@ manual
 manuten
 many
 map
+mapa
+mapas
 maps
+maquina
+maquinas
 mark
 markdown
 marowak
@@ -1444,6 +1506,7 @@ meetmaletrainer
 meetprofoak
 meetrival
 mega
+melhorias
 memory
 menu
 menus
@@ -1490,6 +1553,8 @@ modifications
 modified
 modifier
 modifiers
+modo
+modos
 mods
 moltres
 moltresb
@@ -1517,6 +1582,7 @@ moving
 mrmime
 much
 mudan
+mudancas
 muk
 mukb
 multi
@@ -1539,6 +1605,7 @@ name
 named
 names
 naming
+nao
 nap
 ncia
 ncias
@@ -1610,6 +1677,8 @@ obey
 object
 objects
 objetivos
+objetos
+obrigatorios
 obtained
 obten
 occurred
@@ -1640,6 +1709,7 @@ oops
 oota
 open
 operacional
+operation
 opponent
 option
 options
@@ -1663,6 +1733,7 @@ overwritew
 owe
 own
 owned
+owner
 paad
 packet
 packets
@@ -1684,6 +1755,7 @@ paralyze
 paralyzed
 param
 parameters
+parar
 paras
 parasb
 parasect
@@ -1697,6 +1769,7 @@ part
 parties
 party
 pass
+passabilidade
 passable
 past
 patch
@@ -1712,6 +1785,7 @@ pct
 peck
 peculiaridades
 pedestrians
+pelo
 penalties
 per
 perfect
@@ -1787,6 +1861,7 @@ poliwrath
 poliwrathb
 poll
 polling
+pontuacao
 ponyta
 ponytab
 poof
@@ -1801,6 +1876,7 @@ porygonb
 pos
 position
 positions
+possiveis
 post
 poster
 posters
@@ -1808,6 +1884,7 @@ potion
 pound
 powder
 power
+pragmatico
 praying
 pre
 precis
@@ -1877,8 +1954,10 @@ quadrant
 quadruped
 qualidade
 quantidade
+quantitativo
 quantity
 quarter
+quatro
 quest
 question
 questions
@@ -1897,6 +1976,7 @@ ran
 rand
 random
 randomize
+range
 ranking
 rapidash
 rapidashb
@@ -1925,6 +2005,7 @@ received
 receptionist
 recharge
 recoil
+recomendacao
 recompensas
 record
 recover
@@ -1941,6 +2022,7 @@ reescrita
 refactoring
 refatora
 refer
+referencias
 reflect
 refunds
 regained
@@ -1952,6 +2034,7 @@ registro
 regras
 regular
 rela
+relacao
 relation
 relative
 release
@@ -1965,6 +2048,7 @@ renamed
 repel
 replace
 report
+reprodutibilidade
 reproduz
 req
 request
@@ -1994,6 +2078,8 @@ return
 returned
 reverse
 revis
+revisao
+revisoes
 revive
 reward
 rgbds
@@ -2034,6 +2120,7 @@ rooms
 root
 rope
 rose
+roteirizado
 route
 routes
 routine
@@ -2112,6 +2199,7 @@ seel
 seelb
 seen
 sees
+seguros
 seismic
 sele
 select
@@ -2131,6 +2219,7 @@ separation
 sequence
 serial
 service
+servicos
 set
 sets
 setting
@@ -2372,6 +2461,7 @@ symmetric
 sync
 system
 tabela
+tabelas
 table
 tackle
 tail
@@ -2507,6 +2597,7 @@ trapping
 trash
 trashed
 tree
+treinador
 tri
 triangle
 trigger
@@ -2561,6 +2652,7 @@ users
 using
 usos
 uteis
+utilizadas
 valida
 validacao
 value
@@ -2605,6 +2697,7 @@ vileplumeb
 vine
 viridian
 vis
+visao
 visit
 visited
 vitamin

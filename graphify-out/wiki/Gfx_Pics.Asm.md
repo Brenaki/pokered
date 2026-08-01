@@ -4,8 +4,9 @@
 
 ## Key Concepts
 
-- **7. Catálogo controlado das 151 espécies** (152 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **data/pokemon** (163 connections)
 - **Pics 3 [ROMX]** (140 connections) — `gfx/pics.asm`
+- **data/pokemon/mew.asm** (8 connections) — `data/pokemon/mew.asm`
 - **data/pokemon/base_stats/articuno.asm** (6 connections) — `data/pokemon/base_stats/articuno.asm`
 - **data/pokemon/base_stats/beedrill.asm** (6 connections) — `data/pokemon/base_stats/beedrill.asm`
 - **data/pokemon/base_stats/ditto.asm** (6 connections) — `data/pokemon/base_stats/ditto.asm`
@@ -28,16 +29,22 @@
 - **data/pokemon/base_stats/omastar.asm** (6 connections) — `data/pokemon/base_stats/omastar.asm`
 - **data/pokemon/base_stats/paras.asm** (6 connections) — `data/pokemon/base_stats/paras.asm`
 - **data/pokemon/base_stats/pikachu.asm** (6 connections) — `data/pokemon/base_stats/pikachu.asm`
-- **data/pokemon/base_stats/poliwhirl.asm** (6 connections) — `data/pokemon/base_stats/poliwhirl.asm`
 - *... and 185 more nodes in this community*
 
 ## Relationships
 
-- [Gfx Pics.Asm 2](Gfx_Pics.Asm_2.md) (32 shared connections)
+- [Gfx Pics.Asm 2](Gfx_Pics.Asm_2.md) (36 shared connections)
 - [Gfx Pics.Asm 3](Gfx_Pics.Asm_3.md) (30 shared connections)
 - [Gfx Pics.Asm 4](Gfx_Pics.Asm_4.md) (29 shared connections)
 - [Gfx Pics.Asm 5](Gfx_Pics.Asm_5.md) (26 shared connections)
-- [Bank ROMX](Bank_ROMX.md) (1 shared connections)
+- [Bank ROMX](Bank_ROMX.md) (2 shared connections)
+- [Bank ROM0](Bank_ROM0.md) (1 shared connections)
+- [Data Pokemon 2](Data_Pokemon_2.md) (1 shared connections)
+- [Engine Link](Engine_Link.md) (1 shared connections)
+- [Data Pokemon 3](Data_Pokemon_3.md) (1 shared connections)
+- [Data Pokemon](Data_Pokemon.md) (1 shared connections)
+- [Engine Gfx](Engine_Gfx.md) (1 shared connections)
+- [Data Sgb](Data_Sgb.md) (1 shared connections)
 
 ## Source Files
 
@@ -64,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 497 (100%)
+- EXTRACTED: 510 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

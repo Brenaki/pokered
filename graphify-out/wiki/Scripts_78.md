@@ -29,8 +29,8 @@
 ## Relationships
 
 - [Scripts](Scripts.md) (3 shared connections)
-- [Scripts 9](Scripts_9.md) (3 shared connections)
-- [Scripts 26](Scripts_26.md) (1 shared connections)
+- [Home 8](Home_8.md) (3 shared connections)
+- [Scripts 74](Scripts_74.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files

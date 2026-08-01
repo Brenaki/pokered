@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/SaffronPokecenter.asm** (3 connections) — `data/maps/objects/SaffronPokecenter.asm`
-- **SaffronPokecenter_Object** (1 connections) — `data/maps/objects/SaffronPokecenter.asm`
+- **data/maps/objects/SaffronCity.asm** (3 connections) — `data/maps/objects/SaffronCity.asm`
+- **SaffronCity_Object** (1 connections) — `data/maps/objects/SaffronCity.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/SaffronPokecenter.asm`
+- `data/maps/objects/SaffronCity.asm`
 
 ## Audit Trail
 

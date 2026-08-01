@@ -1,25 +1,23 @@
 # Gfx Sprites.Asm 4
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **RedBikeSprite** (4 connections) — `gfx/sprites.asm`
-- **LoadBikePlayerSpriteGraphics** (4 connections) — `home/overworld.asm`
-- **gfx/sprites/red_bike.2bpp** (2 connections) — `gfx/sprites.asm`
+- **BeautySprite** (3 connections) — `gfx/sprites.asm`
+- **gfx/sprites/beauty.2bpp** (2 connections) — `gfx/sprites.asm`
 
 ## Relationships
 
-- [Engine Overworld 2](Engine_Overworld_2.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
 - `gfx/sprites.asm`
-- `home/overworld.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

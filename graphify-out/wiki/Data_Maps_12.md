@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/CeladonMart5F.asm** (3 connections) — `data/maps/objects/CeladonMart5F.asm`
-- **CeladonMart5F_Object** (1 connections) — `data/maps/objects/CeladonMart5F.asm`
+- **data/maps/objects/CeladonMart1F.asm** (3 connections) — `data/maps/objects/CeladonMart1F.asm`
+- **CeladonMart1F_Object** (1 connections) — `data/maps/objects/CeladonMart1F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/CeladonMart5F.asm`
+- `data/maps/objects/CeladonMart1F.asm`
 
 ## Audit Trail
 

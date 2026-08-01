@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **scripts/UndergroundPathRoute6.asm** (5 connections) — `scripts/UndergroundPathRoute6.asm`
-- **UndergroundPathRoute6_Script** (2 connections) — `scripts/UndergroundPathRoute6.asm`
-- **UndergroundPathRoute6_TextPointers** (1 connections) — `scripts/UndergroundPathRoute6.asm`
-- **UndergroundPathRoute6GirlText** (1 connections) — `scripts/UndergroundPathRoute6.asm`
+- **scripts/CeladonMansionRoof.asm** (5 connections) — `scripts/CeladonMansionRoof.asm`
+- **CeladonMansionRoof_Script** (2 connections) — `scripts/CeladonMansionRoof.asm`
+- **CeladonMansionRoof_TextPointers** (1 connections) — `scripts/CeladonMansionRoof.asm`
+- **CeladonMansionRoofHouseSignText** (1 connections) — `scripts/CeladonMansionRoof.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `scripts/UndergroundPathRoute6.asm`
+- `scripts/CeladonMansionRoof.asm`
 
 ## Audit Trail
 

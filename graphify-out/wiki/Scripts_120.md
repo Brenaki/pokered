@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **scripts/CeladonMart5F.asm** (7 connections) — `scripts/CeladonMart5F.asm`
-- **CeladonMart5F_Script** (2 connections) — `scripts/CeladonMart5F.asm`
-- **CeladonMart5F_TextPointers** (1 connections) — `scripts/CeladonMart5F.asm`
-- **CeladonMart5FCurrentFloorSignText** (1 connections) — `scripts/CeladonMart5F.asm`
-- **CeladonMart5FGentlemanText** (1 connections) — `scripts/CeladonMart5F.asm`
-- **CeladonMart5FSailorText** (1 connections) — `scripts/CeladonMart5F.asm`
+- **scripts/CeladonChiefHouse.asm** (7 connections) — `scripts/CeladonChiefHouse.asm`
+- **CeladonChiefHouse_Script** (2 connections) — `scripts/CeladonChiefHouse.asm`
+- **CeladonChiefHouse_TextPointers** (1 connections) — `scripts/CeladonChiefHouse.asm`
+- **CeladonChiefHouseChiefText** (1 connections) — `scripts/CeladonChiefHouse.asm`
+- **CeladonChiefHouseRocketText** (1 connections) — `scripts/CeladonChiefHouse.asm`
+- **CeladonChiefHouseSailorText** (1 connections) — `scripts/CeladonChiefHouse.asm`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `scripts/CeladonMart5F.asm`
+- `scripts/CeladonChiefHouse.asm`
 
 ## Audit Trail
 

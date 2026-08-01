@@ -1,16 +1,17 @@
 # Text 92
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **text/CinnabarIsland.asm** (8 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandDoorIsLockedText** (1 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandGamblerText** (1 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandGirlText** (1 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandGymSignText** (1 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandPokemonLabSignText** (1 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandSignText** (1 connections) — `text/CinnabarIsland.asm`
+- **text/MtMoonPokecenter.asm** (9 connections) — `text/MtMoonPokecenter.asm`
+- **_MtMoonPokecenterClipboardText** (1 connections) — `text/MtMoonPokecenter.asm`
+- **_MtMoonPokecenterGentlemanText** (1 connections) — `text/MtMoonPokecenter.asm`
+- **_MtMoonPokecenterMagikarpSalesmanIGotADealText** (1 connections) — `text/MtMoonPokecenter.asm`
+- **_MtMoonPokecenterMagikarpSalesmanNoMoneyText** (1 connections) — `text/MtMoonPokecenter.asm`
+- **_MtMoonPokecenterMagikarpSalesmanNoRefundsText** (1 connections) — `text/MtMoonPokecenter.asm`
+- **_MtMoonPokecenterMagikarpSalesmanNoText** (1 connections) — `text/MtMoonPokecenter.asm`
+- **_MtMoonPokecenterYoungsterText** (1 connections) — `text/MtMoonPokecenter.asm`
 
 ## Relationships
 
@@ -18,11 +19,11 @@
 
 ## Source Files
 
-- `text/CinnabarIsland.asm`
+- `text/MtMoonPokecenter.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

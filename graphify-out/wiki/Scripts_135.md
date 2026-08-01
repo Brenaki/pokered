@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **scripts/PewterSpeechHouse.asm** (6 connections) — `scripts/PewterSpeechHouse.asm`
-- **PewterSpeechHouse_Script** (2 connections) — `scripts/PewterSpeechHouse.asm`
-- **PewterSpeechHouse_TextPointers** (1 connections) — `scripts/PewterSpeechHouse.asm`
-- **PewterSpeechHouseGamblerText** (1 connections) — `scripts/PewterSpeechHouse.asm`
-- **PewterSpeechHouseYoungsterText** (1 connections) — `scripts/PewterSpeechHouse.asm`
+- **scripts/CeruleanMart.asm** (6 connections) — `scripts/CeruleanMart.asm`
+- **CeruleanMart_Script** (2 connections) — `scripts/CeruleanMart.asm`
+- **CeruleanMart_TextPointers** (1 connections) — `scripts/CeruleanMart.asm`
+- **CeruleanMartCooltrainerFText** (1 connections) — `scripts/CeruleanMart.asm`
+- **CeruleanMartCooltrainerMText** (1 connections) — `scripts/CeruleanMart.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `scripts/PewterSpeechHouse.asm`
+- `scripts/CeruleanMart.asm`
 
 ## Audit Trail
 

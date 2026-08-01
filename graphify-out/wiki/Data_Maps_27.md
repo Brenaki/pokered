@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/DiglettsCaveRoute2.asm** (3 connections) — `data/maps/objects/DiglettsCaveRoute2.asm`
-- **DiglettsCaveRoute2_Object** (1 connections) — `data/maps/objects/DiglettsCaveRoute2.asm`
+- **data/maps/objects/CopycatsHouse1F.asm** (3 connections) — `data/maps/objects/CopycatsHouse1F.asm`
+- **CopycatsHouse1F_Object** (1 connections) — `data/maps/objects/CopycatsHouse1F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/DiglettsCaveRoute2.asm`
+- `data/maps/objects/CopycatsHouse1F.asm`
 
 ## Audit Trail
 

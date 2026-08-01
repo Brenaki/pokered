@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **text/SilphCo5F_2.asm** (10 connections) — `text/SilphCo5F_2.asm`
-- **_SilphCo5FPokemonReport1Text** (1 connections) — `text/SilphCo5F_2.asm`
-- **_SilphCo5FPokemonReport2Text** (1 connections) — `text/SilphCo5F_2.asm`
-- **_SilphCo5FPokemonReport3Text** (1 connections) — `text/SilphCo5F_2.asm`
-- **_SilphCo5FRockerAfterBattleText** (1 connections) — `text/SilphCo5F_2.asm`
-- **_SilphCo5FRockerEndBattleText** (1 connections) — `text/SilphCo5F_2.asm`
-- **_SilphCo5FRocket2AfterBattleText** (1 connections) — `text/SilphCo5F_2.asm`
-- **_SilphCo5FRocket2BattleText** (1 connections) — `text/SilphCo5F_2.asm`
-- **_SilphCo5FRocket2EndBattleText** (1 connections) — `text/SilphCo5F_2.asm`
+- **text/PalletTown.asm** (10 connections) — `text/PalletTown.asm`
+- **_PalletTownFisherText** (1 connections) — `text/PalletTown.asm`
+- **_PalletTownGirlText** (1 connections) — `text/PalletTown.asm`
+- **_PalletTownOakHeyWaitDontGoOutText** (1 connections) — `text/PalletTown.asm`
+- **_PalletTownOakItsUnsafeText** (1 connections) — `text/PalletTown.asm`
+- **_PalletTownOaksLabSignText** (1 connections) — `text/PalletTown.asm`
+- **_PalletTownPlayersHouseSignText** (1 connections) — `text/PalletTown.asm`
+- **_PalletTownRivalsHouseSignText** (1 connections) — `text/PalletTown.asm`
+- **_PalletTownSignText** (1 connections) — `text/PalletTown.asm`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `text/SilphCo5F_2.asm`
+- `text/PalletTown.asm`
 
 ## Audit Trail
 

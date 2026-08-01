@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **text/SilphCo4F.asm** (13 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FRocket1AfterBattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FRocket1BattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FRocket1EndBattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FRocket2AfterBattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FRocket2BattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FRocket2EndBattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FScientistAfterBattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FScientistBattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FScientistEndBattleText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FSilphWorkerMImHidingText** (1 connections) — `text/SilphCo4F.asm`
-- **_SilphCo4FSilphWorkerMTeamRocketIsGoneText** (1 connections) — `text/SilphCo4F.asm`
+- **text/Route18.asm** (13 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM1AfterBattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM1BattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM1EndBattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM2AfterBattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM2BattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM2EndBattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM3AfterBattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM3BattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CooltrainerM3EndBattleText** (1 connections) — `text/Route18.asm`
+- **_Route18CyclingRoadSignText** (1 connections) — `text/Route18.asm`
+- **_Route18SignText** (1 connections) — `text/Route18.asm`
 
 ## Relationships
 
@@ -23,7 +23,7 @@
 
 ## Source Files
 
-- `text/SilphCo4F.asm`
+- `text/Route18.asm`
 
 ## Audit Trail
 

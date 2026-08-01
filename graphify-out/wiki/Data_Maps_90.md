@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/SilphCo5F.asm** (3 connections) — `data/maps/objects/SilphCo5F.asm`
-- **SilphCo5F_Object** (1 connections) — `data/maps/objects/SilphCo5F.asm`
+- **data/maps/objects/SilphCo1F.asm** (3 connections) — `data/maps/objects/SilphCo1F.asm`
+- **SilphCo1F_Object** (1 connections) — `data/maps/objects/SilphCo1F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/SilphCo5F.asm`
+- `data/maps/objects/SilphCo1F.asm`
 
 ## Audit Trail
 

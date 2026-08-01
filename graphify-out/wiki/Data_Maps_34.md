@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/LancesRoom.asm** (3 connections) — `data/maps/objects/LancesRoom.asm`
-- **LancesRoom_Object** (1 connections) — `data/maps/objects/LancesRoom.asm`
+- **data/maps/objects/GameCorner.asm** (3 connections) — `data/maps/objects/GameCorner.asm`
+- **GameCorner_Object** (1 connections) — `data/maps/objects/GameCorner.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/LancesRoom.asm`
+- `data/maps/objects/GameCorner.asm`
 
 ## Audit Trail
 

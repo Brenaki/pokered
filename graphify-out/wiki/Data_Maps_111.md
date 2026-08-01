@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/WardensHouse.asm** (3 connections) — `data/maps/objects/WardensHouse.asm`
-- **WardensHouse_Object** (1 connections) — `data/maps/objects/WardensHouse.asm`
+- **data/maps/objects/ViridianNicknameHouse.asm** (3 connections) — `data/maps/objects/ViridianNicknameHouse.asm`
+- **ViridianNicknameHouse_Object** (1 connections) — `data/maps/objects/ViridianNicknameHouse.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/WardensHouse.asm`
+- `data/maps/objects/ViridianNicknameHouse.asm`
 
 ## Audit Trail
 

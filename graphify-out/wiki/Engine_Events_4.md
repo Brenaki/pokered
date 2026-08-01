@@ -1,68 +1,45 @@
 # Engine Events 4
 
-> 29 nodes · cohesion 0.10
+> 22 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **data/events** (11 connections)
-- **HiddenCoins** (11 connections) — `engine/events/hidden_items.asm`
-- **engine/events/hidden_items.asm** (11 connections) — `engine/events/hidden_items.asm`
-- **CheckForHiddenEvent** (8 connections) — `engine/overworld/hidden_events.asm`
-- **HiddenItems** (7 connections) — `engine/events/hidden_items.asm`
-- **HiddenItemNear** (7 connections) — `engine/items/itemfinder.asm`
-- **engine/overworld/hidden_events.asm** (6 connections) — `engine/overworld/hidden_events.asm`
-- **PrintBookshelfText** (5 connections) — `engine/events/hidden_events/bookshelves.asm`
-- **wObtainedHiddenItemsFlags** (5 connections) — `ram/wram.asm`
-- **data/events/hidden_events.asm** (4 connections) — `data/events/hidden_events.asm`
-- **engine/events/hidden_events/bookshelves.asm** (4 connections) — `engine/events/hidden_events/bookshelves.asm`
-- **engine/items/itemfinder.asm** (4 connections) — `engine/items/itemfinder.asm`
-- **CheckForHiddenEventOrBookshelfOrCardKeyDoor** (4 connections) — `home/hidden_events.asm`
-- **HiddenItemCoords** (3 connections) — `data/events/hidden_item_coords.asm`
-- **FindHiddenItemOrCoinsIndex** (3 connections) — `engine/events/hidden_items.asm`
-- **data/events/hidden_coins.asm** (3 connections) — `data/events/hidden_coins.asm`
-- **data/events/hidden_item_coords.asm** (3 connections) — `data/events/hidden_item_coords.asm`
-- **data/tilesets/bookshelf_tile_ids.asm** (3 connections) — `data/tilesets/bookshelf_tile_ids.asm`
-- **wObtainedHiddenCoinsFlags** (3 connections) — `ram/wram.asm`
-- **HiddenCoinCoords** (2 connections) — `data/events/hidden_coins.asm`
-- **HiddenEventMaps** (2 connections) — `data/events/hidden_events.asm`
-- **HiddenEventPointers** (2 connections) — `data/events/hidden_events.asm`
-- **BookshelfTileIDs** (2 connections) — `data/tilesets/bookshelf_tile_ids.asm`
-- **HiddenItemBagFullText** (2 connections) — `engine/events/hidden_items.asm`
-- **Sub5ClampTo0** (2 connections) — `engine/items/itemfinder.asm`
-- *... and 4 more nodes in this community*
+- **engine/events/in_game_trades.asm** (34 connections) — `engine/events/in_game_trades.asm`
+- **TradeTextPointers1** (7 connections) — `engine/events/in_game_trades.asm`
+- **TradeTextPointers2** (7 connections) — `engine/events/in_game_trades.asm`
+- **TradeTextPointers3** (7 connections) — `engine/events/in_game_trades.asm`
+- **InGameTradeTextPointers** (5 connections) — `engine/events/in_game_trades.asm`
+- **AfterTrade1Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **AfterTrade2Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **AfterTrade3Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **ConnectCableText** (2 connections) — `engine/events/in_game_trades.asm`
+- **NoTrade1Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **NoTrade2Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **NoTrade3Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **Thanks1Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **Thanks2Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **Thanks3Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **TradedForText** (2 connections) — `engine/events/in_game_trades.asm`
+- **WannaTrade1Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **WannaTrade2Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **WannaTrade3Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **WrongMon1Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **WrongMon2Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **WrongMon3Text** (2 connections) — `engine/events/in_game_trades.asm`
 
 ## Relationships
 
-- [Scripts 4](Scripts_4.md) (5 shared connections)
-- [Scripts 5](Scripts_5.md) (4 shared connections)
-- [Engine Battle](Engine_Battle.md) (3 shared connections)
-- [Ram](Ram.md) (2 shared connections)
-- [Engine Events 5](Engine_Events_5.md) (1 shared connections)
-- [Engine Items 5](Engine_Items_5.md) (1 shared connections)
-- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
-- [Scripts 49](Scripts_49.md) (1 shared connections)
-- [Engine Slots](Engine_Slots.md) (1 shared connections)
-- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
-- [Scripts 56](Scripts_56.md) (1 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (8 shared connections)
+- [Home](Home.md) (1 shared connections)
+- [Data Events](Data_Events.md) (1 shared connections)
 
 ## Source Files
 
-- `data/events/hidden_coins.asm`
-- `data/events/hidden_events.asm`
-- `data/events/hidden_item_coords.asm`
-- `data/tilesets/bookshelf_tile_ids.asm`
-- `engine/events/hidden_events/bookshelves.asm`
-- `engine/events/hidden_items.asm`
-- `engine/items/itemfinder.asm`
-- `engine/overworld/hidden_events.asm`
-- `home/array2.asm`
-- `home/hidden_events.asm`
-- `ram/wram.asm`
+- `engine/events/in_game_trades.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

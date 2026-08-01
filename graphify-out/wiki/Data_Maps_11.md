@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/CeladonMart3F.asm** (3 connections) — `data/maps/objects/CeladonMart3F.asm`
-- **CeladonMart3F_Object** (1 connections) — `data/maps/objects/CeladonMart3F.asm`
+- **data/maps/objects/CeladonMansionRoofHouse.asm** (3 connections) — `data/maps/objects/CeladonMansionRoofHouse.asm`
+- **CeladonMansionRoofHouse_Object** (1 connections) — `data/maps/objects/CeladonMansionRoofHouse.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/CeladonMart3F.asm`
+- `data/maps/objects/CeladonMansionRoofHouse.asm`
 
 ## Audit Trail
 

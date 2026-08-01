@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/maps/objects/PokemonMansion3F.asm** (3 connections) — `data/maps/objects/PokemonMansion3F.asm`
-- **PokemonMansion3F_Object** (1 connections) — `data/maps/objects/PokemonMansion3F.asm`
+- **data/maps/objects/PewterSpeechHouse.asm** (3 connections) — `data/maps/objects/PewterSpeechHouse.asm`
+- **PewterSpeechHouse_Object** (1 connections) — `data/maps/objects/PewterSpeechHouse.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/maps/objects/PokemonMansion3F.asm`
+- `data/maps/objects/PewterSpeechHouse.asm`
 
 ## Audit Trail
 

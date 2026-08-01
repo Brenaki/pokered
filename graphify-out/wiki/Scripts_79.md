@@ -1,49 +1,48 @@
 # Scripts 79
 
-> 21 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **scripts/PewterCity.asm** (28 connections) — `scripts/PewterCity.asm`
-- **PewterCitySuperNerd1ShowsPlayerMuseumScript** (11 connections) — `scripts/PewterCity.asm`
-- **PewterCityCheckPlayerLeavingEastScript** (6 connections) — `scripts/PewterCity.asm`
-- **SetSpritePosition2** (4 connections) — `home/trainers.asm`
-- **PewterCity_Script** (4 connections) — `scripts/PewterCity.asm`
-- **PewterCityResetSuperNerd1Script** (4 connections) — `scripts/PewterCity.asm`
-- **PewterCityResetYoungsterScript** (4 connections) — `scripts/PewterCity.asm`
-- **PewterCityDefaultScript** (3 connections) — `scripts/PewterCity.asm`
-- **MovementData_PewterMuseumGuyExit** (2 connections) — `scripts/PewterCity.asm`
-- **PewterCity_ScriptPointers** (2 connections) — `scripts/PewterCity.asm`
-- **PewterCityPlayerLeavingEastCoords** (2 connections) — `scripts/PewterCity.asm`
-- **PewterCity_TextPointers** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityCooltrainerFText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityCooltrainerMText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityGymSignText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityMuseumSignText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityPoliceNoticeSignText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCitySignText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCitySuperNerd1ItsRightHereText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityTrainerTipsText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityYoungsterGoTakeOnBrockText** (1 connections) — `scripts/PewterCity.asm`
+- **scripts/CeruleanGym.asm** (25 connections) — `scripts/CeruleanGym.asm`
+- **21.5 Mapa `CeruleanGym`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **CeruleanGym_Script** (7 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymCooltrainerFText** (4 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymSwimmerText** (4 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymGymGuideText** (3 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGym_ScriptPointers** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymAfterBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymAfterBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymEndBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymEndBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymTrainerHeader0** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymTrainerHeader1** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymTrainerHeaders** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGym_TextPointers** (1 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyCascadeBadgeInfoText** (1 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyReceivedTM11Text** (1 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyTM11NoRoomText** (1 connections) — `scripts/CeruleanGym.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (14 shared connections)
-- [Scripts](Scripts.md) (3 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
-- [Scripts 12](Scripts_12.md) (1 shared connections)
+- [Scripts 7](Scripts_7.md) (5 shared connections)
+- [Scripts](Scripts.md) (4 shared connections)
+- [Home 8](Home_8.md) (2 shared connections)
+- [Scripts 74](Scripts_74.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 13](Scripts_13.md) (1 shared connections)
-- [Scripts 48](Scripts_48.md) (1 shared connections)
+- [Scripts 19](Scripts_19.md) (1 shared connections)
 
 ## Source Files
 
-- `home/trainers.asm`
-- `scripts/PewterCity.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/CeruleanGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (100%)
+- EXTRACTED: 43 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

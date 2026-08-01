@@ -1,14 +1,15 @@
 # Scripts 130
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **scripts/CeruleanMart.asm** (6 connections) — `scripts/CeruleanMart.asm`
-- **CeruleanMart_Script** (2 connections) — `scripts/CeruleanMart.asm`
-- **CeruleanMart_TextPointers** (1 connections) — `scripts/CeruleanMart.asm`
-- **CeruleanMartCooltrainerFText** (1 connections) — `scripts/CeruleanMart.asm`
-- **CeruleanMartCooltrainerMText** (1 connections) — `scripts/CeruleanMart.asm`
+- **scripts/SafariZoneEast.asm** (7 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneEast_Script** (2 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneEast_TextPointers** (1 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneEastRestHouseSignText** (1 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneEastSignText** (1 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneEastTrainerTipsText** (1 connections) — `scripts/SafariZoneEast.asm`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `scripts/CeruleanMart.asm`
+- `scripts/SafariZoneEast.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

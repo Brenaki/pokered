@@ -1,51 +1,41 @@
 # Docs 5
 
-> 15 nodes · cohesion 0.18
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **9. Tabelas e comparacoes utilizadas** (15 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **ReadTrainer** (10 connections) — `engine/battle/read_trainer_party.asm`
-- **7. IA de batalha** (8 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **AIEnemyTrainerChooseMoves** (6 connections) — `engine/battle/trainer_ai.asm`
-- **TrainerAI** (6 connections) — `engine/battle/trainer_ai.asm`
-- **LoneMoves** (4 connections) — `data/trainers/special_moves.asm`
-- **TeamMoves** (4 connections) — `data/trainers/special_moves.asm`
-- **7.1 Ordem das decisoes** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **7.2 Pontuacao dos quatro golpes** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **StatusAilmentMoveEffects** (4 connections) — `engine/battle/trainer_ai.asm`
-- **data/trainers/special_moves.asm** (4 connections) — `data/trainers/special_moves.asm`
-- **TrainerClassMoveChoiceModifications** (3 connections) — `data/trainers/move_choices.asm`
-- **7.6 Golpes especiais dos times** (3 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **engine/battle/read_trainer_party.asm** (3 connections) — `engine/battle/read_trainer_party.asm`
-- **7.5 Itens implementados** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Audio, musicas, efeitos sonoros e sprites de Pokemon Red/Blue** (18 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **9. Reescrita incremental em C** (4 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **2. Escopo** (3 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **Controle do documento** (2 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **16. Aprovacao e pendencias** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **Historico de revisoes** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **1. Finalidade e relacao com a ISO 9001** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **9.1 Contextos DDD e portas** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **9.2 Sequencia de extracao por Refactoring/TDD** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **9.3 Melhorias posteriores, fora do modo fiel** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **10. Estrategia de testes e aceitacao** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **11. Riscos e controles** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **2.1 Incluido** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **2.2 Excluido** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **3. Objetivos e criterios da qualidade** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **4. Conclusao executiva** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
 
 ## Relationships
 
-- [Engine Battle](Engine_Battle.md) (5 shared connections)
-- [Engine Battle 4](Engine_Battle_4.md) (4 shared connections)
-- [Engine Menus 3](Engine_Menus_3.md) (4 shared connections)
-- [Ram](Ram.md) (4 shared connections)
-- [Data Trainers](Data_Trainers.md) (2 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
-- [Engine Overworld 4](Engine_Overworld_4.md) (1 shared connections)
-- [Constants](Constants.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Engine Menus](Engine_Menus.md) (1 shared connections)
-- [Engine Items 5](Engine_Items_5.md) (1 shared connections)
+- [Bank ROM0](Bank_ROM0.md) (3 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
+- [Ram 3](Ram_3.md) (1 shared connections)
+- [Tools](Tools.md) (1 shared connections)
+- [Docs 8](Docs_8.md) (1 shared connections)
 
 ## Source Files
 
-- `data/trainers/move_choices.asm`
-- `data/trainers/special_moves.asm`
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `engine/battle/read_trainer_party.asm`
-- `engine/battle/trainer_ai.asm`
+- `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

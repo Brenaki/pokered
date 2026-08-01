@@ -33,15 +33,15 @@
 
 ## Relationships
 
+- [Engine Overworld 5](Engine_Overworld_5.md) (3 shared connections)
 - [Engine Math](Engine_Math.md) (2 shared connections)
-- [Docs 5](Docs_5.md) (2 shared connections)
-- [Engine Overworld 4](Engine_Overworld_4.md) (2 shared connections)
 - [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 80](Scripts_80.md) (1 shared connections)
+- [Scripts 77](Scripts_77.md) (1 shared connections)
+- [Engine Overworld 4](Engine_Overworld_4.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
 - [Makefile](Makefile.md) (1 shared connections)
-- [Data Trainers 2](Data_Trainers_2.md) (1 shared connections)
 - [Docs](Docs.md) (1 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
+- [Home 5](Home_5.md) (1 shared connections)
 - [Engine Battle](Engine_Battle.md) (1 shared connections)
 
 ## Source Files

@@ -1,18 +1,19 @@
 # Scripts 103
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **scripts/SSAnneKitchen.asm** (11 connections) — `scripts/SSAnneKitchen.asm`
-- **SSAnneKitchen_Script** (2 connections) — `scripts/SSAnneKitchen.asm`
-- **SSAnneKitchen_TextPointers** (1 connections) — `scripts/SSAnneKitchen.asm`
-- **SSAnneKitchenCook1Text** (1 connections) — `scripts/SSAnneKitchen.asm`
-- **SSAnneKitchenCook2Text** (1 connections) — `scripts/SSAnneKitchen.asm`
-- **SSAnneKitchenCook3Text** (1 connections) — `scripts/SSAnneKitchen.asm`
-- **SSAnneKitchenCook4Text** (1 connections) — `scripts/SSAnneKitchen.asm`
-- **SSAnneKitchenCook5Text** (1 connections) — `scripts/SSAnneKitchen.asm`
-- **SSAnneKitchenCook6Text** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **scripts/CeladonMansion3F.asm** (12 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3F_Script** (2 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3F_TextPointers** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FDevRoomSignText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FGameProgramPCText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FGameScriptPCText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FGraphicArtistText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FPlayingGamePCText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FProgrammerText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FWriterText** (1 connections) — `scripts/CeladonMansion3F.asm`
 
 ## Relationships
 
@@ -21,11 +22,11 @@
 
 ## Source Files
 
-- `scripts/SSAnneKitchen.asm`
+- `scripts/CeladonMansion3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

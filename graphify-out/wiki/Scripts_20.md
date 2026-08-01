@@ -1,51 +1,58 @@
 # Scripts 20
 
-> 53 nodes · cohesion 0.07
+> 49 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **scripts/Route9.asm** (53 connections) — `scripts/Route9.asm`
-- **21.47 Mapa `Route9`** (28 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **Route9TalkToTrainer** (11 connections) — `scripts/Route9.asm`
-- **Route9_Script** (5 connections) — `scripts/Route9.asm`
-- **Route9CooltrainerF1Text** (3 connections) — `scripts/Route9.asm`
-- **Route9CooltrainerF2Text** (3 connections) — `scripts/Route9.asm`
-- **Route9CooltrainerM1Text** (3 connections) — `scripts/Route9.asm`
-- **Route9CooltrainerM2Text** (3 connections) — `scripts/Route9.asm`
-- **Route9Hiker1Text** (3 connections) — `scripts/Route9.asm`
-- **Route9Hiker2Text** (3 connections) — `scripts/Route9.asm`
-- **Route9Hiker3Text** (3 connections) — `scripts/Route9.asm`
-- **Route9Youngster1Text** (3 connections) — `scripts/Route9.asm`
-- **Route9_ScriptPointers** (2 connections) — `scripts/Route9.asm`
-- **Route9CooltrainerF1AfterBattleText** (2 connections) — `scripts/Route9.asm`
-- **Route9CooltrainerF1BattleText** (2 connections) — `scripts/Route9.asm`
-- **Route9CooltrainerF1EndBattleText** (2 connections) — `scripts/Route9.asm`
-- **Route9CooltrainerF2AfterBattleText** (2 connections) — `scripts/Route9.asm`
-- **Route9CooltrainerF2BattleText** (2 connections) — `scripts/Route9.asm`
-- **Route9CooltrainerF2EndBattleText** (2 connections) — `scripts/Route9.asm`
-- **Route9CooltrainerM1AfterBattleText** (2 connections) — `scripts/Route9.asm`
-- **Route9CooltrainerM1BattleText** (2 connections) — `scripts/Route9.asm`
-- **Route9CooltrainerM1EndBattleText** (2 connections) — `scripts/Route9.asm`
-- **Route9CooltrainerM2AfterBattleText** (2 connections) — `scripts/Route9.asm`
-- **Route9CooltrainerM2BattleText** (2 connections) — `scripts/Route9.asm`
-- **Route9CooltrainerM2EndBattleText** (2 connections) — `scripts/Route9.asm`
-- *... and 28 more nodes in this community*
+- **scripts/OaksLab.asm** (71 connections) — `scripts/OaksLab.asm`
+- **OaksLabMonChoiceMenu** (13 connections) — `scripts/OaksLab.asm`
+- **OaksLab_TextPointers2** (11 connections) — `scripts/OaksLab.asm`
+- **OaksLabShowPokeBallPokemonScript** (10 connections) — `scripts/OaksLab.asm`
+- **OaksLabSelectedPokeBallScript** (8 connections) — `scripts/OaksLab.asm`
+- **OaksLabRivalStartBattleScript** (7 connections) — `scripts/OaksLab.asm`
+- **OaksLabLastMonScript** (6 connections) — `scripts/OaksLab.asm`
+- **OaksLab_Script** (4 connections) — `scripts/OaksLab.asm`
+- **OaksLabGirlText** (4 connections) — `scripts/OaksLab.asm`
+- **OaksLabPokedexText** (4 connections) — `scripts/OaksLab.asm`
+- **OaksLabRivalText** (4 connections) — `scripts/OaksLab.asm`
+- **OaksLabScientistText** (4 connections) — `scripts/OaksLab.asm`
+- **OaksLabCharmanderPokeBallText** (3 connections) — `scripts/OaksLab.asm`
+- **OaksLabLoadTextPointers2Script** (3 connections) — `scripts/OaksLab.asm`
+- **OaksLabMonChoiceEnd** (3 connections) — `scripts/OaksLab.asm`
+- **OaksLabOakBePatientText** (3 connections) — `scripts/OaksLab.asm`
+- **OaksLabOakChooseMonText** (3 connections) — `scripts/OaksLab.asm`
+- **OaksLabOakDontGoAwayYetText** (3 connections) — `scripts/OaksLab.asm`
+- **OaksLabPlayerForcedToWalkBackScript** (3 connections) — `scripts/OaksLab.asm`
+- **OaksLabRivalFedUpWithWaitingText** (3 connections) — `scripts/OaksLab.asm`
+- **OaksLabRivalIllTakeThisOneText** (3 connections) — `scripts/OaksLab.asm`
+- **OaksLabRivalIllTakeYouOnText** (3 connections) — `scripts/OaksLab.asm`
+- **OaksLabRivalReceivedMonText** (3 connections) — `scripts/OaksLab.asm`
+- **OaksLabRivalSmellYouLaterText** (3 connections) — `scripts/OaksLab.asm`
+- **OaksLabRivalWhatAboutMeText** (3 connections) — `scripts/OaksLab.asm`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 26](Scripts_26.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Scripts](Scripts.md) (35 shared connections)
+- [Home 5](Home_5.md) (8 shared connections)
+- [Scripts 2](Scripts_2.md) (8 shared connections)
+- [Scripts 19](Scripts_19.md) (3 shared connections)
+- [Home](Home.md) (3 shared connections)
+- [Engine Overworld 3](Engine_Overworld_3.md) (2 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
+- [Scripts 7](Scripts_7.md) (2 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Engine Debug 2](Engine_Debug_2.md) (1 shared connections)
+- [Scripts 29](Scripts_29.md) (1 shared connections)
+- [Home 8](Home_8.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/Route9.asm`
+- `scripts/OaksLab.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (100%)
+- EXTRACTED: 145 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
