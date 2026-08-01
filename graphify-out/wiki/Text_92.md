@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **text/Daycare_2.asm** (9 connections) — `text/Daycare_2.asm`
-- **_DaycareGentlemanAllRightThenText** (1 connections) — `text/Daycare_2.asm`
-- **_DaycareGentlemanCantAcceptMonWithHMText** (1 connections) — `text/Daycare_2.asm`
-- **_DaycareGentlemanComeAgainText** (1 connections) — `text/Daycare_2.asm`
-- **_DaycareGentlemanHeresYourMonText** (1 connections) — `text/Daycare_2.asm`
-- **_DaycareGentlemanNoRoomForMonText** (1 connections) — `text/Daycare_2.asm`
-- **_DaycareGentlemanNotEnoughMoneyText** (1 connections) — `text/Daycare_2.asm`
-- **_DaycareGentlemanOnlyHaveOneMonText** (1 connections) — `text/Daycare_2.asm`
+- **text/MtMoonPokecenter.asm** (9 connections) — `text/MtMoonPokecenter.asm`
+- **_MtMoonPokecenterClipboardText** (1 connections) — `text/MtMoonPokecenter.asm`
+- **_MtMoonPokecenterGentlemanText** (1 connections) — `text/MtMoonPokecenter.asm`
+- **_MtMoonPokecenterMagikarpSalesmanIGotADealText** (1 connections) — `text/MtMoonPokecenter.asm`
+- **_MtMoonPokecenterMagikarpSalesmanNoMoneyText** (1 connections) — `text/MtMoonPokecenter.asm`
+- **_MtMoonPokecenterMagikarpSalesmanNoRefundsText** (1 connections) — `text/MtMoonPokecenter.asm`
+- **_MtMoonPokecenterMagikarpSalesmanNoText** (1 connections) — `text/MtMoonPokecenter.asm`
+- **_MtMoonPokecenterYoungsterText** (1 connections) — `text/MtMoonPokecenter.asm`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `text/Daycare_2.asm`
+- `text/MtMoonPokecenter.asm`
 
 ## Audit Trail
 

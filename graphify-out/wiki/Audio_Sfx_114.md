@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **audio/sfx/get_item2_2.asm** (5 connections) — `audio/sfx/get_item2_2.asm`
-- **SFX_Get_Item2_2_Ch5** (1 connections) — `audio/sfx/get_item2_2.asm`
-- **SFX_Get_Item2_2_Ch6** (1 connections) — `audio/sfx/get_item2_2.asm`
-- **SFX_Get_Item2_2_Ch7** (1 connections) — `audio/sfx/get_item2_2.asm`
+- **audio/sfx/cry23_3.asm** (5 connections) — `audio/sfx/cry23_3.asm`
+- **SFX_Cry23_3_Ch5** (1 connections) — `audio/sfx/cry23_3.asm`
+- **SFX_Cry23_3_Ch6** (1 connections) — `audio/sfx/cry23_3.asm`
+- **SFX_Cry23_3_Ch8** (1 connections) — `audio/sfx/cry23_3.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `audio/sfx/get_item2_2.asm`
+- `audio/sfx/cry23_3.asm`
 
 ## Audit Trail
 

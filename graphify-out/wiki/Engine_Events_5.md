@@ -1,40 +1,44 @@
 # Engine Events 5
 
-> 19 nodes · cohesion 0.20
+> 21 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **engine/events/pokedex_rating.asm** (21 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingsTable** (18 connections) — `engine/events/pokedex_rating.asm`
-- **DexCompletionText** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own0To9** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own100To109** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own10To19** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own110To119** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own120To129** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own130To139** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own140To149** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own150To151** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own20To29** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own30To39** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own40To49** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own50To59** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own60To69** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own70To79** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own80To89** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own90To99** (2 connections) — `engine/events/pokedex_rating.asm`
+- **engine/events/hidden_events/bench_guys.asm** (21 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **SaffronCityPokecenterBenchGuyText** (5 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **PrintBenchGuyText** (4 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **data/events/bench_guys.asm** (3 connections) — `data/events/bench_guys.asm`
+- **BenchGuyTextPointers** (2 connections) — `data/events/bench_guys.asm`
+- **SaffronCityPokecenterBenchGuyText1** (2 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **SaffronCityPokecenterBenchGuyText2** (2 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **CeladonCityHotelText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **CeladonCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **CeruleanCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **CinnabarIslandPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **FuchsiaCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **LavenderCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **MtMoonPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **PewterCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **RockTunnelPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **UnusedBenchGuyText1** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **UnusedBenchGuyText2** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **UnusedBenchGuyText3** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **VermilionCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **ViridianCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
 
 ## Relationships
 
-- [Engine Menus 2](Engine_Menus_2.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (2 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
 
 ## Source Files
 
-- `engine/events/pokedex_rating.asm`
+- `data/events/bench_guys.asm`
+- `engine/events/hidden_events/bench_guys.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

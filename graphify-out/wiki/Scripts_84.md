@@ -1,36 +1,41 @@
 # Scripts 84
 
-> 14 nodes · cohesion 0.14
+> 15 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **scripts/CeladonMart3F.asm** (16 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3F_Script** (2 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3F_TextPointers** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FCurrentFloorSignText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FFightingGameText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FGameBoyKid1Text** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FGameBoyKid2Text** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FGameBoyKid3Text** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FLittleBoyText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FPokemonPosterText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FPuzzleGameText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FRPGText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FSNESText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FSportsGameText** (1 connections) — `scripts/CeladonMart3F.asm`
+- **scripts/VictoryRoad1F.asm** (17 connections) — `scripts/VictoryRoad1F.asm`
+- **VictoryRoad1F_Script** (6 connections) — `scripts/VictoryRoad1F.asm`
+- **VictoryRoad1FCooltrainerFText** (4 connections) — `scripts/VictoryRoad1F.asm`
+- **VictoryRoad1FCooltrainerMText** (4 connections) — `scripts/VictoryRoad1F.asm`
+- **VictoryRoad1F_ScriptPointers** (2 connections) — `scripts/VictoryRoad1F.asm`
+- **VictoryRoad1TrainerHeader0** (2 connections) — `scripts/VictoryRoad1F.asm`
+- **VictoryRoad1TrainerHeader1** (2 connections) — `scripts/VictoryRoad1F.asm`
+- **VictoryRoad1TrainerHeaders** (2 connections) — `scripts/VictoryRoad1F.asm`
+- **VictoryRoad1F_TextPointers** (1 connections) — `scripts/VictoryRoad1F.asm`
+- **VictoryRoad1FCooltrainerFAfterBattleText** (1 connections) — `scripts/VictoryRoad1F.asm`
+- **VictoryRoad1FCooltrainerFBattleText** (1 connections) — `scripts/VictoryRoad1F.asm`
+- **VictoryRoad1FCooltrainerFEndBattleText** (1 connections) — `scripts/VictoryRoad1F.asm`
+- **VictoryRoad1FCooltrainerMAfterBattleText** (1 connections) — `scripts/VictoryRoad1F.asm`
+- **VictoryRoad1FCooltrainerMBattleText** (1 connections) — `scripts/VictoryRoad1F.asm`
+- **VictoryRoad1FCooltrainerMEndBattleText** (1 connections) — `scripts/VictoryRoad1F.asm`
 
 ## Relationships
 
+- [Scripts](Scripts.md) (2 shared connections)
+- [Home 8](Home_8.md) (2 shared connections)
 - [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 47](Scripts_47.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 11](Scripts_11.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonMart3F.asm`
+- `scripts/VictoryRoad1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

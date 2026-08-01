@@ -1,39 +1,43 @@
 # Engine Events 7
 
-> 10 nodes · cohesion 0.27
+> 19 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **ReplaceTileBlock** (15 connections) — `engine/overworld/update_map.asm`
-- **PrintCardKeyText** (9 connections) — `engine/events/card_key.asm`
-- **engine/events/card_key.asm** (7 connections) — `engine/events/card_key.asm`
-- **engine/overworld/update_map.asm** (5 connections) — `engine/overworld/update_map.asm`
-- **data/events/card_key_maps.asm** (3 connections) — `data/events/card_key_maps.asm`
-- **SilphCoMapList** (2 connections) — `data/events/card_key_maps.asm`
-- **GetCoordsInFrontOfPlayer** (2 connections) — `engine/events/card_key.asm`
-- **CompareHLWithBC** (2 connections) — `engine/overworld/update_map.asm`
-- **CardKeyFailText** (1 connections) — `engine/events/card_key.asm`
-- **CardKeySuccessText** (1 connections) — `engine/events/card_key.asm`
+- **engine/events/hidden_events/school_blackboard.asm** (22 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianSchoolBlackboard** (14 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianBlackboardStatusPointers** (7 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **LinkCableInfoTexts** (5 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **HowToLinkText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **LinkCableHelpText1** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **LinkCableHelpText2** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **LinkCableInfoText1** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **LinkCableInfoText2** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **LinkCableInfoText3** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **StatusAilmentText1** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **StatusAilmentText2** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianBlackboardBurnText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianBlackboardFrozenText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianBlackboardPoisonText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianBlackboardPrlzText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianBlackboardSleepText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianSchoolBlackboardText1** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianSchoolBlackboardText2** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
 
 ## Relationships
 
-- [Home](Home.md) (2 shared connections)
-- [Scripts 17](Scripts_17.md) (1 shared connections)
-- [Scripts 10](Scripts_10.md) (1 shared connections)
-- [Engine Slots 2](Engine_Slots_2.md) (1 shared connections)
-- [Scripts 8](Scripts_8.md) (1 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Ram 2](Ram_2.md) (5 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Engine Menus](Engine_Menus.md) (2 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `data/events/card_key_maps.asm`
-- `engine/events/card_key.asm`
-- `engine/overworld/update_map.asm`
+- `engine/events/hidden_events/school_blackboard.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 41 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

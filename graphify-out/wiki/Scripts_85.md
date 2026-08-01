@@ -1,39 +1,39 @@
 # Scripts 85
 
-> 13 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **scripts/Route22Gate.asm** (14 connections) — `scripts/Route22Gate.asm`
-- **Route22GateGuardText** (6 connections) — `scripts/Route22Gate.asm`
-- **Route22GateGuardNoBoulderbadgeText** (5 connections) — `scripts/Route22Gate.asm`
-- **Route22Gate_Script** (4 connections) — `scripts/Route22Gate.asm`
-- **Route22GateDefaultScript** (4 connections) — `scripts/Route22Gate.asm`
-- **Route22GateMovePlayerDownScript** (3 connections) — `scripts/Route22Gate.asm`
-- **Route22Gate_ScriptPointers** (2 connections) — `scripts/Route22Gate.asm`
-- **Route22GateGuardGoRightAheadText** (2 connections) — `scripts/Route22Gate.asm`
-- **Route22GateGuardICantLetYouPassText** (2 connections) — `scripts/Route22Gate.asm`
-- **Route22GatePlayerMovingScript** (2 connections) — `scripts/Route22Gate.asm`
-- **Route22GateScriptCoords** (2 connections) — `scripts/Route22Gate.asm`
-- **Route22Gate_TextPointers** (1 connections) — `scripts/Route22Gate.asm`
-- **Route22GateNoopScript** (1 connections) — `scripts/Route22Gate.asm`
+- **BikeShopClerkText** (21 connections) — `scripts/BikeShop.asm`
+- **scripts/BikeShop.asm** (17 connections) — `scripts/BikeShop.asm`
+- **BikeShop_Script** (2 connections) — `scripts/BikeShop.asm`
+- **BikeShopBagFullText** (2 connections) — `scripts/BikeShop.asm`
+- **BikeShopCantAffordText** (2 connections) — `scripts/BikeShop.asm`
+- **BikeShopClerkDoYouLikeItText** (2 connections) — `scripts/BikeShop.asm`
+- **BikeShopClerkHowDoYouLikeYourBicycleText** (2 connections) — `scripts/BikeShop.asm`
+- **BikeShopClerkOhThatsAVoucherText** (2 connections) — `scripts/BikeShop.asm`
+- **BikeShopClerkWelcomeText** (2 connections) — `scripts/BikeShop.asm`
+- **BikeShopComeAgainText** (2 connections) — `scripts/BikeShop.asm`
+- **BikeShopExchangedVoucherText** (2 connections) — `scripts/BikeShop.asm`
+- **BikeShopMenuPrice** (2 connections) — `scripts/BikeShop.asm`
+- **BikeShopMenuText** (2 connections) — `scripts/BikeShop.asm`
+- **BikeShop_TextPointers** (1 connections) — `scripts/BikeShop.asm`
 
 ## Relationships
 
-- [Scripts 3](Scripts_3.md) (3 shared connections)
-- [Scripts 2](Scripts_2.md) (3 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
-- [Home 2](Home_2.md) (1 shared connections)
+- [Scripts](Scripts.md) (7 shared connections)
+- [Ram 2](Ram_2.md) (2 shared connections)
+- [Engine Menus](Engine_Menus.md) (2 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route22Gate.asm`
+- `scripts/BikeShop.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

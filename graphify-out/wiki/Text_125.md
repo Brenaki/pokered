@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **text/Route23.asm** (6 connections) — `text/Route23.asm`
-- **_Route23GoRightAheadText** (1 connections) — `text/Route23.asm`
-- **_Route23OhThatIsTheBadgeText** (1 connections) — `text/Route23.asm`
-- **_Route23VictoryRoadGateSignText** (1 connections) — `text/Route23.asm`
-- **_Route23YouDontHaveTheBadgeYetText** (1 connections) — `text/Route23.asm`
+- **text/ViridianNicknameHouse.asm** (6 connections) — `text/ViridianNicknameHouse.asm`
+- **_ViridianNicknameHouseBaldingGuyText** (1 connections) — `text/ViridianNicknameHouse.asm`
+- **_ViridianNicknameHouseLittleGirlText** (1 connections) — `text/ViridianNicknameHouse.asm`
+- **_ViridianNicknameHouseSpearowText** (1 connections) — `text/ViridianNicknameHouse.asm`
+- **_ViridianNicknameHouseSpearySignText** (1 connections) — `text/ViridianNicknameHouse.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `text/Route23.asm`
+- `text/ViridianNicknameHouse.asm`
 
 ## Audit Trail
 

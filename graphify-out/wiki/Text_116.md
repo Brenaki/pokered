@@ -1,15 +1,14 @@
 # Text 116
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **text/SSAnne2F.asm** (7 connections) — `text/SSAnne2F.asm`
-- **_SSAnne2FRivalCutMasterText** (1 connections) — `text/SSAnne2F.asm`
-- **_SSAnne2FRivalDefeatedText** (1 connections) — `text/SSAnne2F.asm`
-- **_SSAnne2FRivalText** (1 connections) — `text/SSAnne2F.asm`
-- **_SSAnne2FRivalVictoryText** (1 connections) — `text/SSAnne2F.asm`
-- **_SSAnne2FWaiterText** (1 connections) — `text/SSAnne2F.asm`
+- **text/BrunosRoom.asm** (6 connections) — `text/BrunosRoom.asm`
+- **_BrunoAfterBattleText** (1 connections) — `text/BrunosRoom.asm`
+- **_BrunoBeforeBattleText** (1 connections) — `text/BrunosRoom.asm`
+- **_BrunoEndBattleText** (1 connections) — `text/BrunosRoom.asm`
+- **_BrunosRoomBrunoDontRunAwayText** (1 connections) — `text/BrunosRoom.asm`
 
 ## Relationships
 
@@ -17,11 +16,11 @@
 
 ## Source Files
 
-- `text/SSAnne2F.asm`
+- `text/BrunosRoom.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,61 +1,56 @@
 # Engine Menus 4
 
-> 27 nodes · cohesion 0.13
+> 21 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **engine/menus/save.asm** (41 connections) — `engine/menus/save.asm`
-- **ChangeBox** (21 connections) — `engine/menus/save.asm`
-- **SaveMenu** (16 connections) — `engine/menus/save.asm`
-- **DisplayChangeBoxMenu** (11 connections) — `engine/menus/save.asm`
-- **SaveGameData** (7 connections) — `engine/menus/save.asm`
-- **EmptySRAMBoxesInBank** (6 connections) — `engine/menus/save.asm`
-- **wCurMapTextPtr** (5 connections) — `ram/wram.asm`
-- **GetMonCountsForAllBoxes** (4 connections) — `engine/menus/save.asm`
-- **SaveTheGame_YesOrNo** (4 connections) — `engine/menus/save.asm`
-- **BillsPCChangeBox** (4 connections) — `engine/pokemon/bills_pc.asm`
-- **sBank2AllBoxesChecksum** (4 connections) — `ram/sram.asm`
-- **EmptyAllSRAMBoxes** (3 connections) — `engine/menus/save.asm`
-- **GetBoxSRAMLocation** (3 connections) — `engine/menus/save.asm`
-- **RestoreMapTextPointer** (3 connections) — `home/predef_text.asm`
-- **wCurrentBoxNum** (3 connections) — `ram/wram.asm`
-- **BoxNames** (2 connections) — `engine/menus/save.asm`
-- **BoxNoText** (2 connections) — `engine/menus/save.asm`
-- **BoxSRAMPointerTable** (2 connections) — `engine/menus/save.asm`
-- **ChooseABoxText** (2 connections) — `engine/menus/save.asm`
-- **EmptySRAMBox** (2 connections) — `engine/menus/save.asm`
-- **FileDataDestroyedText** (2 connections) — `engine/menus/save.asm`
-- **GameSavedText** (2 connections) — `engine/menus/save.asm`
-- **GetMonCountsForBoxesInBank** (2 connections) — `engine/menus/save.asm`
-- **NowSavingString** (2 connections) — `engine/menus/save.asm`
-- **OlderFileWillBeErasedText** (2 connections) — `engine/menus/save.asm`
-- *... and 2 more nodes in this community*
+- **DisplayNamingScreen** (34 connections) — `engine/menus/naming_screen.asm`
+- **engine/menus/naming_screen.asm** (20 connections) — `engine/menus/naming_screen.asm`
+- **AskName** (15 connections) — `engine/menus/naming_screen.asm`
+- **wStringBuffer** (14 connections) — `ram/wram.asm`
+- **PrintNamingText** (9 connections) — `engine/menus/naming_screen.asm`
+- **PrintNicknameAndUnderscores** (7 connections) — `engine/menus/naming_screen.asm`
+- **PrintAlphabet** (6 connections) — `engine/menus/naming_screen.asm`
+- **CalcStringLength** (5 connections) — `engine/menus/naming_screen.asm`
+- **DakutensAndHandakutens** (4 connections) — `engine/menus/naming_screen.asm`
+- **data/text/alphabets.asm** (4 connections) — `data/text/alphabets.asm`
+- **data/text/dakutens.asm** (4 connections) — `data/text/dakutens.asm`
+- **LowerCaseAlphabet** (2 connections) — `data/text/alphabets.asm`
+- **UpperCaseAlphabet** (2 connections) — `data/text/alphabets.asm`
+- **Dakutens** (2 connections) — `data/text/dakutens.asm`
+- **Handakutens** (2 connections) — `data/text/dakutens.asm`
+- **DoYouWantToNicknameText** (2 connections) — `engine/menus/naming_screen.asm`
+- **NameTextString** (2 connections) — `engine/menus/naming_screen.asm`
+- **NicknameTextString** (2 connections) — `engine/menus/naming_screen.asm`
+- **RivalsTextString** (2 connections) — `engine/menus/naming_screen.asm`
+- **YourTextString** (2 connections) — `engine/menus/naming_screen.asm`
+- **ED_TileEnd** (1 connections) — `engine/menus/naming_screen.asm`
 
 ## Relationships
 
-- [Ram 4](Ram_4.md) (21 shared connections)
-- [Scripts 2](Scripts_2.md) (7 shared connections)
-- [Home 2](Home_2.md) (5 shared connections)
-- [Engine Menus](Engine_Menus.md) (5 shared connections)
-- [Ram](Ram.md) (3 shared connections)
-- [Engine Menus 2](Engine_Menus_2.md) (3 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
-- [Bank HRAM](Bank_HRAM.md) (2 shared connections)
-- [Engine Slots 2](Engine_Slots_2.md) (1 shared connections)
+- [Engine Menus](Engine_Menus.md) (8 shared connections)
+- [Ram 2](Ram_2.md) (7 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (7 shared connections)
+- [Engine Battle](Engine_Battle.md) (5 shared connections)
+- [Ram](Ram.md) (5 shared connections)
+- [Engine Gfx](Engine_Gfx.md) (3 shared connections)
+- [Engine Movie 5](Engine_Movie_5.md) (2 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 - [Engine Movie](Engine_Movie.md) (1 shared connections)
-- [Engine Movie 3](Engine_Movie_3.md) (1 shared connections)
+- [Engine Slots](Engine_Slots.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/menus/save.asm`
-- `engine/pokemon/bills_pc.asm`
-- `home/predef_text.asm`
-- `ram/sram.asm`
+- `data/text/alphabets.asm`
+- `data/text/dakutens.asm`
+- `engine/menus/naming_screen.asm`
 - `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 97 (100%)
+- EXTRACTED: 82 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,29 +1,32 @@
 # Scripts 95
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **scripts/CinnabarLab.asm** (9 connections) — `scripts/CinnabarLab.asm`
-- **CinnabarLab_Script** (2 connections) — `scripts/CinnabarLab.asm`
-- **CinnabarLab_TextPointers** (1 connections) — `scripts/CinnabarLab.asm`
-- **CinnabarLabFishingGuruText** (1 connections) — `scripts/CinnabarLab.asm`
-- **CinnabarLabMeetingRoomSignText** (1 connections) — `scripts/CinnabarLab.asm`
-- **CinnabarLabPhotoText** (1 connections) — `scripts/CinnabarLab.asm`
-- **CinnabarLabRAndDSignText** (1 connections) — `scripts/CinnabarLab.asm`
-- **CinnabarLabTestingRoomSignText** (1 connections) — `scripts/CinnabarLab.asm`
+- **scripts/CeladonMansion3F.asm** (12 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3F_Script** (2 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3F_TextPointers** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FDevRoomSignText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FGameProgramPCText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FGameScriptPCText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FGraphicArtistText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FPlayingGamePCText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FProgrammerText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FWriterText** (1 connections) — `scripts/CeladonMansion3F.asm`
 
 ## Relationships
 
 - [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CinnabarLab.asm`
+- `scripts/CeladonMansion3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

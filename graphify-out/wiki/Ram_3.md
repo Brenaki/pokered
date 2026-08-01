@@ -1,6 +1,6 @@
 # Ram 3
 
-> 31 nodes · cohesion 0.29
+> 34 nodes · cohesion 0.26
 
 ## Key Concepts
 
@@ -29,15 +29,15 @@
 - **wChannelPitchSlideFrequencyStepsFractionalPart** (11 connections) — `ram/wram.asm`
 - **wChannelPitchSlideLengthModifiers** (11 connections) — `ram/wram.asm`
 - **wChannelVibratoDelayCounterReloadValues** (11 connections) — `ram/wram.asm`
-- *... and 6 more nodes in this community*
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Audio Engine 2.Asm](Audio_Engine_2.Asm.md) (17 shared connections)
-- [Audio Engine 3.Asm](Audio_Engine_3.Asm.md) (8 shared connections)
-- [Home 5](Home_5.md) (6 shared connections)
-- [Ram 5](Ram_5.md) (6 shared connections)
-- [Audio Engine 1.Asm](Audio_Engine_1.Asm.md) (5 shared connections)
+- [Audio Engine 3.Asm](Audio_Engine_3.Asm.md) (18 shared connections)
+- [Audio Engine 1.Asm](Audio_Engine_1.Asm.md) (11 shared connections)
+- [Audio Engine 2.Asm](Audio_Engine_2.Asm.md) (8 shared connections)
+- [Audio Engine 1.Asm 2](Audio_Engine_1.Asm_2.md) (6 shared connections)
+- [Ram 4](Ram_4.md) (6 shared connections)
 - [Audio Headers 3](Audio_Headers_3.md) (1 shared connections)
 - [Audio Headers](Audio_Headers.md) (1 shared connections)
 - [Audio Headers 2](Audio_Headers_2.md) (1 shared connections)
@@ -51,7 +51,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 180 (100%)
+- EXTRACTED: 198 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

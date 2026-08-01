@@ -1,50 +1,50 @@
 # Scripts 14
 
-> 57 nodes · cohesion 0.05
+> 58 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **scripts/Route15.asm** (58 connections) — `scripts/Route15.asm`
-- **Route15TalkToTrainer** (12 connections) — `scripts/Route15.asm`
-- **Route15_Script** (5 connections) — `scripts/Route15.asm`
-- **Route15Beauty1Text** (3 connections) — `scripts/Route15.asm`
-- **Route15Beauty2Text** (3 connections) — `scripts/Route15.asm`
-- **Route15Biker1Text** (3 connections) — `scripts/Route15.asm`
-- **Route15Biker2Text** (3 connections) — `scripts/Route15.asm`
-- **Route15CooltrainerF1Text** (3 connections) — `scripts/Route15.asm`
-- **Route15CooltrainerF2Text** (3 connections) — `scripts/Route15.asm`
-- **Route15CooltrainerF3Text** (3 connections) — `scripts/Route15.asm`
-- **Route15CooltrainerM1Text** (3 connections) — `scripts/Route15.asm`
-- **Route15CooltrainerM2Text** (3 connections) — `scripts/Route15.asm`
-- **Route15_ScriptPointers** (2 connections) — `scripts/Route15.asm`
-- **Route15CooltrainerF4Text** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader0** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader1** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader2** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader3** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader4** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader5** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader6** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader7** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader8** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader9** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeaders** (2 connections) — `scripts/Route15.asm`
-- *... and 32 more nodes in this community*
+- **scripts/Route13.asm** (59 connections) — `scripts/Route13.asm`
+- **Route13_Script** (5 connections) — `scripts/Route13.asm`
+- **Route13Beauty1Text** (4 connections) — `scripts/Route13.asm`
+- **Route13Beauty2Text** (4 connections) — `scripts/Route13.asm`
+- **Route13BikerText** (4 connections) — `scripts/Route13.asm`
+- **Route13CooltrainerF1Text** (4 connections) — `scripts/Route13.asm`
+- **Route13CooltrainerF2Text** (4 connections) — `scripts/Route13.asm`
+- **Route13CooltrainerF3Text** (4 connections) — `scripts/Route13.asm`
+- **Route13CooltrainerF4Text** (4 connections) — `scripts/Route13.asm`
+- **Route13CooltrainerM1Text** (4 connections) — `scripts/Route13.asm`
+- **Route13CooltrainerM2Text** (4 connections) — `scripts/Route13.asm`
+- **Route13CooltrainerM3Text** (4 connections) — `scripts/Route13.asm`
+- **Route13_ScriptPointers** (2 connections) — `scripts/Route13.asm`
+- **Route13TrainerHeader0** (2 connections) — `scripts/Route13.asm`
+- **Route13TrainerHeader1** (2 connections) — `scripts/Route13.asm`
+- **Route13TrainerHeader2** (2 connections) — `scripts/Route13.asm`
+- **Route13TrainerHeader3** (2 connections) — `scripts/Route13.asm`
+- **Route13TrainerHeader4** (2 connections) — `scripts/Route13.asm`
+- **Route13TrainerHeader5** (2 connections) — `scripts/Route13.asm`
+- **Route13TrainerHeader6** (2 connections) — `scripts/Route13.asm`
+- **Route13TrainerHeader7** (2 connections) — `scripts/Route13.asm`
+- **Route13TrainerHeader8** (2 connections) — `scripts/Route13.asm`
+- **Route13TrainerHeader9** (2 connections) — `scripts/Route13.asm`
+- **Route13TrainerHeaders** (2 connections) — `scripts/Route13.asm`
+- **Route13_TextPointers** (1 connections) — `scripts/Route13.asm`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Scripts](Scripts.md) (10 shared connections)
+- [Home 8](Home_8.md) (10 shared connections)
+- [Scripts 47](Scripts_47.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route15.asm`
+- `scripts/Route13.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (100%)
+- EXTRACTED: 91 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

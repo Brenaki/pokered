@@ -1,24 +1,25 @@
 # Scripts 103
 
-> 6 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **scripts/RedsHouse2F.asm** (7 connections) — `scripts/RedsHouse2F.asm`
-- **RedsHouse2F_Script** (4 connections) — `scripts/RedsHouse2F.asm`
-- **RedsHouse2F_ScriptPointers** (2 connections) — `scripts/RedsHouse2F.asm`
-- **RedsHouse2F_TextPointers** (1 connections) — `scripts/RedsHouse2F.asm`
-- **RedsHouse2FDefaultScript** (1 connections) — `scripts/RedsHouse2F.asm`
-- **RedsHouse2FNoopScript** (1 connections) — `scripts/RedsHouse2F.asm`
+- **scripts/SafariZoneNorth.asm** (9 connections) — `scripts/SafariZoneNorth.asm`
+- **SafariZoneNorth_Script** (2 connections) — `scripts/SafariZoneNorth.asm`
+- **SafariZoneNorth_TextPointers** (1 connections) — `scripts/SafariZoneNorth.asm`
+- **SafariZoneNorthRestHouseSignText** (1 connections) — `scripts/SafariZoneNorth.asm`
+- **SafariZoneNorthSignText** (1 connections) — `scripts/SafariZoneNorth.asm`
+- **SafariZoneNorthTrainerTips1Text** (1 connections) — `scripts/SafariZoneNorth.asm`
+- **SafariZoneNorthTrainerTips2Text** (1 connections) — `scripts/SafariZoneNorth.asm`
+- **SafariZoneNorthTrainerTips3Text** (1 connections) — `scripts/SafariZoneNorth.asm`
 
 ## Relationships
 
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/RedsHouse2F.asm`
+- `scripts/SafariZoneNorth.asm`
 
 ## Audit Trail
 

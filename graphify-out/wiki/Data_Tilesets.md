@@ -1,18 +1,10 @@
 # Data Tilesets
 
-> 32 nodes · cohesion 0.06
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
 - **data/tilesets/collision_tile_ids.asm** (26 connections) — `data/tilesets/collision_tile_ids.asm`
-- **LoadTilesetHeader** (9 connections) — `engine/overworld/tilesets.asm`
-- **engine/overworld/tilesets.asm** (5 connections) — `engine/overworld/tilesets.asm`
-- **data/tilesets/dungeon_tilesets.asm** (3 connections) — `data/tilesets/dungeon_tilesets.asm`
-- **data/tilesets/tileset_headers.asm** (3 connections) — `data/tilesets/tileset_headers.asm`
-- **wTilesetBank** (3 connections) — `ram/wram.asm`
-- **Club_Coll** (2 connections) — `data/tilesets/collision_tile_ids.asm`
-- **DungeonTilesets** (2 connections) — `data/tilesets/dungeon_tilesets.asm`
-- **Tilesets** (2 connections) — `data/tilesets/tileset_headers.asm`
 - **Cavern_Coll** (1 connections) — `data/tilesets/collision_tile_ids.asm`
 - **Cemetery_Coll** (1 connections) — `data/tilesets/collision_tile_ids.asm`
 - **Dojo_Coll** (1 connections) — `data/tilesets/collision_tile_ids.asm`
@@ -29,25 +21,25 @@
 - **Mart_Coll** (1 connections) — `data/tilesets/collision_tile_ids.asm`
 - **Museum_Coll** (1 connections) — `data/tilesets/collision_tile_ids.asm`
 - **Overworld_Coll** (1 connections) — `data/tilesets/collision_tile_ids.asm`
-- *... and 7 more nodes in this community*
+- **Plateau_Coll** (1 connections) — `data/tilesets/collision_tile_ids.asm`
+- **Pokecenter_Coll** (1 connections) — `data/tilesets/collision_tile_ids.asm`
+- **RedsHouse1_Coll** (1 connections) — `data/tilesets/collision_tile_ids.asm`
+- **RedsHouse2_Coll** (1 connections) — `data/tilesets/collision_tile_ids.asm`
+- **Ship_Coll** (1 connections) — `data/tilesets/collision_tile_ids.asm`
+- **ShipPort_Coll** (1 connections) — `data/tilesets/collision_tile_ids.asm`
+- **Underground_Coll** (1 connections) — `data/tilesets/collision_tile_ids.asm`
 
 ## Relationships
 
-- [Engine Battle 6](Engine_Battle_6.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Engine Movie 2](Engine_Movie_2.md) (1 shared connections)
 
 ## Source Files
 
 - `data/tilesets/collision_tile_ids.asm`
-- `data/tilesets/dungeon_tilesets.asm`
-- `data/tilesets/tileset_headers.asm`
-- `engine/overworld/tilesets.asm`
-- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

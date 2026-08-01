@@ -1,44 +1,43 @@
 # Scripts 79
 
-> 17 nodes · cohesion 0.16
+> 17 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **scripts/SilphCo3F.asm** (19 connections) — `scripts/SilphCo3F.asm`
-- **SilphCo3F_Script** (6 connections) — `scripts/SilphCo3F.asm`
-- **SilphCo3FGateCallbackScript** (6 connections) — `scripts/SilphCo3F.asm`
-- **SilphCo3FRocketText** (4 connections) — `scripts/SilphCo3F.asm`
-- **SilphCo3FScientistText** (4 connections) — `scripts/SilphCo3F.asm`
-- **SilphCo3F_ScriptPointers** (2 connections) — `scripts/SilphCo3F.asm`
-- **SilphCo3F_UnlockedDoorEventScript** (2 connections) — `scripts/SilphCo3F.asm`
-- **SilphCo3TrainerHeader0** (2 connections) — `scripts/SilphCo3F.asm`
-- **SilphCo3TrainerHeader1** (2 connections) — `scripts/SilphCo3F.asm`
-- **SilphCo3TrainerHeaders** (2 connections) — `scripts/SilphCo3F.asm`
-- **SilphCo3F_TextPointers** (1 connections) — `scripts/SilphCo3F.asm`
-- **SilphCo3FRocketAfterBattleText** (1 connections) — `scripts/SilphCo3F.asm`
-- **SilphCo3FRocketBattleText** (1 connections) — `scripts/SilphCo3F.asm`
-- **SilphCo3FRocketEndBattleText** (1 connections) — `scripts/SilphCo3F.asm`
-- **SilphCo3FScientistAfterBattleText** (1 connections) — `scripts/SilphCo3F.asm`
-- **SilphCo3FScientistBattleText** (1 connections) — `scripts/SilphCo3F.asm`
-- **SilphCo3FScientistEndBattleText** (1 connections) — `scripts/SilphCo3F.asm`
+- **scripts/PokemonMansionB1F.asm** (19 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1F_Script** (6 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FBurglarText** (4 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FScientistText** (4 connections) — `scripts/PokemonMansionB1F.asm`
+- **Mansion4Script_Switches** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **Mansion4TrainerHeader0** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **Mansion4TrainerHeader1** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **Mansion4TrainerHeaders** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1F_ScriptPointers** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1F_TextPointers** (1 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FBurglarAfterBattleText** (1 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FBurglarBattleText** (1 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FBurglarEndBattleText** (1 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FDiaryText** (1 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FScientistAfterBattleText** (1 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FScientistBattleText** (1 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FScientistEndBattleText** (1 connections) — `scripts/PokemonMansionB1F.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (3 shared connections)
-- [Scripts 9](Scripts_9.md) (2 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Engine Events 7](Engine_Events_7.md) (1 shared connections)
-- [Scripts 8](Scripts_8.md) (1 shared connections)
-- [Scripts 73](Scripts_73.md) (1 shared connections)
+- [Scripts 11](Scripts_11.md) (2 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Home 8](Home_8.md) (2 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts 47](Scripts_47.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SilphCo3F.asm`
+- `scripts/PokemonMansionB1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

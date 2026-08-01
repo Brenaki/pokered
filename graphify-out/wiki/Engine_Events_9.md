@@ -1,29 +1,51 @@
 # Engine Events 9
 
-> 7 nodes · cohesion 0.48
+> 17 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **engine/events/hidden_events/safari_game.asm** (10 connections) — `engine/events/hidden_events/safari_game.asm`
-- **SafariGameOverText** (6 connections) — `engine/events/hidden_events/safari_game.asm`
-- **SafariZoneCheck** (4 connections) — `engine/events/hidden_events/safari_game.asm`
-- **PrintSafariGameOverText** (3 connections) — `engine/events/hidden_events/safari_game.asm`
-- **GameOverText** (2 connections) — `engine/events/hidden_events/safari_game.asm`
-- **SafariZoneGameStillGoing** (2 connections) — `engine/events/hidden_events/safari_game.asm`
-- **TimesUpText** (2 connections) — `engine/events/hidden_events/safari_game.asm`
+- **DisplayPokemonCenterDialogue_** (19 connections) — `engine/events/pokecenter.asm`
+- **AnimateHealingMachine** (12 connections) — `engine/overworld/healing_machine.asm`
+- **engine/events/pokecenter.asm** (8 connections) — `engine/events/pokecenter.asm`
+- **MarowakAnim** (7 connections) — `engine/battle/ghost_marowak_anim.asm`
+- **engine/overworld/healing_machine.asm** (7 connections) — `engine/overworld/healing_machine.asm`
+- **CopyMonPicFromBGToSpriteVRAM** (6 connections) — `engine/battle/ghost_marowak_anim.asm`
+- **FlashSprite8Times** (4 connections) — `engine/overworld/healing_machine.asm`
+- **engine/battle/ghost_marowak_anim.asm** (4 connections) — `engine/battle/ghost_marowak_anim.asm`
+- **PokeCenterFlashingMonitorAndHealBall** (3 connections) — `engine/overworld/healing_machine.asm`
+- **NeedYourPokemonText** (2 connections) — `engine/events/pokecenter.asm`
+- **PokemonCenterFarewellText** (2 connections) — `engine/events/pokecenter.asm`
+- **PokemonCenterWelcomeText** (2 connections) — `engine/events/pokecenter.asm`
+- **PokemonFightingFitText** (2 connections) — `engine/events/pokecenter.asm`
+- **ShallWeHealYourPokemonText** (2 connections) — `engine/events/pokecenter.asm`
+- **CopyHealingMachineOAM** (2 connections) — `engine/overworld/healing_machine.asm`
+- **PokeCenterOAMData** (2 connections) — `engine/overworld/healing_machine.asm`
+- **gfx/overworld/heal_machine.2bpp** (1 connections) — `engine/overworld/healing_machine.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (3 shared connections)
-- [Scripts 17](Scripts_17.md) (3 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (6 shared connections)
+- [Ram 2](Ram_2.md) (6 shared connections)
+- [Engine Movie 5](Engine_Movie_5.md) (2 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Home 4](Home_4.md) (1 shared connections)
+- [Engine Battle 3](Engine_Battle_3.md) (1 shared connections)
+- [Engine Movie](Engine_Movie.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
+- [Engine Events 2](Engine_Events_2.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Home 9](Home_9.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/events/hidden_events/safari_game.asm`
+- `engine/battle/ghost_marowak_anim.asm`
+- `engine/events/pokecenter.asm`
+- `engine/overworld/healing_machine.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 52 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

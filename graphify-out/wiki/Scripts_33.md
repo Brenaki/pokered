@@ -1,52 +1,50 @@
 # Scripts 33
 
-> 42 nodes · cohesion 0.06
+> 41 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **scripts/Route16.asm** (44 connections) — `scripts/Route16.asm`
-- **Route16_Script** (5 connections) — `scripts/Route16.asm`
-- **Route16SnorlaxPostBattleScript** (5 connections) — `scripts/Route16.asm`
-- **Route16Biker1Text** (4 connections) — `scripts/Route16.asm`
-- **Route16Biker2Text** (4 connections) — `scripts/Route16.asm`
-- **Route16Biker3Text** (4 connections) — `scripts/Route16.asm`
-- **Route16Biker4Text** (4 connections) — `scripts/Route16.asm`
-- **Route16Biker5Text** (4 connections) — `scripts/Route16.asm`
-- **Route16Biker6Text** (4 connections) — `scripts/Route16.asm`
-- **Route16_ScriptPointers** (2 connections) — `scripts/Route16.asm`
-- **Route16ResetScripts** (2 connections) — `scripts/Route16.asm`
-- **Route16TrainerHeader0** (2 connections) — `scripts/Route16.asm`
-- **Route16TrainerHeader1** (2 connections) — `scripts/Route16.asm`
-- **Route16TrainerHeader2** (2 connections) — `scripts/Route16.asm`
-- **Route16TrainerHeader3** (2 connections) — `scripts/Route16.asm`
-- **Route16TrainerHeader4** (2 connections) — `scripts/Route16.asm`
-- **Route16TrainerHeader5** (2 connections) — `scripts/Route16.asm`
-- **Route16TrainerHeaders** (2 connections) — `scripts/Route16.asm`
-- **Route16_TextPointers** (1 connections) — `scripts/Route16.asm`
-- **Route16Biker1AfterBattleText** (1 connections) — `scripts/Route16.asm`
-- **Route16Biker1BattleText** (1 connections) — `scripts/Route16.asm`
-- **Route16Biker1EndBattleText** (1 connections) — `scripts/Route16.asm`
-- **Route16Biker2AfterBattleText** (1 connections) — `scripts/Route16.asm`
-- **Route16Biker2BattleText** (1 connections) — `scripts/Route16.asm`
-- **Route16Biker2EndBattleText** (1 connections) — `scripts/Route16.asm`
-- *... and 17 more nodes in this community*
+- **scripts/RocketHideoutB2F.asm** (51 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement1** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement10** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement11** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement12** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement13** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement14** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement15** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement16** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement17** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement18** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement19** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement2** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement20** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement21** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement22** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement23** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement24** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement25** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement26** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement27** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement28** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement29** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement3** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **RocketHideout2ArrowMovement30** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (6 shared connections)
-- [Scripts 9](Scripts_9.md) (6 shared connections)
-- [Scripts 3](Scripts_3.md) (2 shared connections)
-- [Home 2](Home_2.md) (2 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 153](Scripts_153.md) (3 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (2 shared connections)
+- [Scripts 155](Scripts_155.md) (2 shared connections)
+- [Scripts 156](Scripts_156.md) (2 shared connections)
 
 ## Source Files
 
-- `scripts/Route16.asm`
+- `scripts/RocketHideoutB2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

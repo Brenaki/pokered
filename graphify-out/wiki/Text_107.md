@@ -1,16 +1,15 @@
 # Text 107
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **text/VermilionOldRodHouse.asm** (8 connections) — `text/VermilionOldRodHouse.asm`
-- **_VermilionOldRodHouseFishingGuruDoYouLikeToFishText** (1 connections) — `text/VermilionOldRodHouse.asm`
-- **_VermilionOldRodHouseFishingGuruFishingIsAWayOfLifeText** (1 connections) — `text/VermilionOldRodHouse.asm`
-- **_VermilionOldRodHouseFishingGuruHowAreTheFishBitingText** (1 connections) — `text/VermilionOldRodHouse.asm`
-- **_VermilionOldRodHouseFishingGuruNoRoomText** (1 connections) — `text/VermilionOldRodHouse.asm`
-- **_VermilionOldRodHouseFishingGuruTakeThisText** (1 connections) — `text/VermilionOldRodHouse.asm`
-- **_VermilionOldRodHouseFishingGuruThatsSoDisappointingText** (1 connections) — `text/VermilionOldRodHouse.asm`
+- **text/CeladonMansion1F.asm** (7 connections) — `text/CeladonMansion1F.asm`
+- **_CeladonMansion1FClefairyText** (1 connections) — `text/CeladonMansion1F.asm`
+- **_CeladonMansion1FGrannyText** (1 connections) — `text/CeladonMansion1F.asm`
+- **_CeladonMansion1FManagersSuiteSignText** (1 connections) — `text/CeladonMansion1F.asm`
+- **_CeladonMansion1FMeowthText** (1 connections) — `text/CeladonMansion1F.asm`
+- **_CeladonMansion1FNidoranFText** (1 connections) — `text/CeladonMansion1F.asm`
 
 ## Relationships
 
@@ -18,11 +17,11 @@
 
 ## Source Files
 
-- `text/VermilionOldRodHouse.asm`
+- `text/CeladonMansion1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

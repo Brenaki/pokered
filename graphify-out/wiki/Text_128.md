@@ -1,14 +1,13 @@
 # Text 128
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **text/SaffronGates.asm** (6 connections) — `text/SaffronGates.asm`
-- **_SaffronGateGuardGeeImThirstyText** (1 connections) — `text/SaffronGates.asm`
-- **_SaffronGateGuardImParchedText** (1 connections) — `text/SaffronGates.asm`
-- **_SaffronGateGuardThanksForTheDrinkText** (1 connections) — `text/SaffronGates.asm`
-- **_SaffronGateGuardYouCanGoOnThroughText** (1 connections) — `text/SaffronGates.asm`
+- **text/CeladonMart2F.asm** (5 connections) — `text/CeladonMart2F.asm`
+- **_CeladonMart2FCurrentFloorSignText** (1 connections) — `text/CeladonMart2F.asm`
+- **_CeladonMart2FGirlText** (1 connections) — `text/CeladonMart2F.asm`
+- **_CeladonMart2FMiddleAgedManText** (1 connections) — `text/CeladonMart2F.asm`
 
 ## Relationships
 
@@ -16,11 +15,11 @@
 
 ## Source Files
 
-- `text/SaffronGates.asm`
+- `text/CeladonMart2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

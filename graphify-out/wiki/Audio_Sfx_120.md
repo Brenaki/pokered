@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **audio/sfx/pokedex_rating_3.asm** (5 connections) — `audio/sfx/pokedex_rating_3.asm`
-- **SFX_Pokedex_Rating_3_Ch5** (1 connections) — `audio/sfx/pokedex_rating_3.asm`
-- **SFX_Pokedex_Rating_3_Ch6** (1 connections) — `audio/sfx/pokedex_rating_3.asm`
-- **SFX_Pokedex_Rating_3_Ch7** (1 connections) — `audio/sfx/pokedex_rating_3.asm`
+- **audio/sfx/cry25_3.asm** (5 connections) — `audio/sfx/cry25_3.asm`
+- **SFX_Cry25_3_Ch5** (1 connections) — `audio/sfx/cry25_3.asm`
+- **SFX_Cry25_3_Ch6** (1 connections) — `audio/sfx/cry25_3.asm`
+- **SFX_Cry25_3_Ch8** (1 connections) — `audio/sfx/cry25_3.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `audio/sfx/pokedex_rating_3.asm`
+- `audio/sfx/cry25_3.asm`
 
 ## Audit Trail
 

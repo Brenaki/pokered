@@ -1,77 +1,63 @@
 # Engine Menus 2
 
-> 74 nodes · cohesion 0.06
+> 31 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **StatusScreen** (42 connections) — `engine/pokemon/status_screen.asm`
-- **RunPaletteCommand** (29 connections) — `home/palettes.asm`
-- **ShowPokedexDataInternal** (27 connections) — `engine/menus/pokedex.asm`
-- **StatusScreen2** (27 connections) — `engine/pokemon/status_screen.asm`
-- **PrintNumber** (24 connections) — `home/print_num.asm`
-- **WaitForTextScrollButtonPress** (23 connections) — `home/joypad2.asm`
-- **HandlePokedexListMenu** (22 connections) — `engine/menus/pokedex.asm`
-- **RunDefaultPaletteCommand** (22 connections) — `home/palettes.asm`
-- **engine/menus/pokedex.asm** (21 connections) — `engine/menus/pokedex.asm`
-- **GBPalNormal** (20 connections) — `home/palettes.asm`
-- **EndOfBattle** (19 connections) — `engine/battle/end_of_battle.asm`
-- **engine/pokemon/status_screen.asm** (18 connections) — `engine/pokemon/status_screen.asm`
-- **wPokedexOwned** (18 connections) — `ram/wram.asm`
-- **IndexToPokedex** (17 connections) — `engine/menus/pokedex.asm`
-- **LeaguePCShowMon** (16 connections) — `engine/menus/league_pc.asm`
-- **StartMenu_TrainerInfo** (16 connections) — `engine/menus/start_sub_menus.asm`
-- **GBPalWhiteOut** (15 connections) — `home/palettes.asm`
-- **JoypadLowSensitivity** (14 connections) — `home/joypad2.asm`
-- **DisplayDexRating** (13 connections) — `engine/events/pokedex_rating.asm`
-- **PKMNLeaguePC** (13 connections) — `engine/menus/league_pc.asm`
-- **HandlePokedexSideMenu** (13 connections) — `engine/menus/pokedex.asm`
-- **ShowPokedexMenu** (12 connections) — `engine/menus/pokedex.asm`
-- **LoadFrontSpriteByMonIndex** (11 connections) — `home/pokemon.asm`
-- **wPokedexSeen** (11 connections) — `ram/wram.asm`
-- **home/palettes.asm** (10 connections) — `home/palettes.asm`
-- *... and 49 more nodes in this community*
+- **MainMenu** (29 connections) — `engine/menus/main_menu.asm`
+- **engine/menus/main_menu.asm** (29 connections) — `engine/menus/main_menu.asm`
+- **LinkMenu** (23 connections) — `engine/menus/main_menu.asm`
+- **DisplayOptionMenu** (17 connections) — `engine/menus/main_menu.asm`
+- **Joypad** (12 connections) — `home/joypad.asm`
+- **TrySoftReset** (6 connections) — `engine/joypad.asm`
+- **CloseStartMenu** (6 connections) — `home/start_menu.asm`
+- **engine** (5 connections)
+- **engine/joypad.asm** (5 connections) — `engine/joypad.asm`
+- **_Joypad** (4 connections) — `engine/joypad.asm`
+- **SetCursorPositionsFromOptions** (4 connections) — `engine/menus/main_menu.asm`
+- **engine/play_time.asm** (4 connections) — `engine/play_time.asm`
+- **DiscardButtonPresses** (3 connections) — `engine/joypad.asm`
+- **CheckForPlayerNameInSRAM** (3 connections) — `engine/menus/main_menu.asm`
+- **InitOptions** (3 connections) — `engine/menus/main_menu.asm`
+- **SetOptionsFromCursorPositions** (3 connections) — `engine/menus/main_menu.asm`
+- **StartNewGame** (3 connections) — `engine/menus/main_menu.asm`
+- **TextSpeedOptionData** (3 connections) — `engine/menus/main_menu.asm`
+- **TrackPlayTime** (3 connections) — `engine/play_time.asm`
+- **BattleAnimationOptionText** (2 connections) — `engine/menus/main_menu.asm`
+- **BattleStyleOptionText** (2 connections) — `engine/menus/main_menu.asm`
+- **CableClubOptionsText** (2 connections) — `engine/menus/main_menu.asm`
+- **ContinueText** (2 connections) — `engine/menus/main_menu.asm`
+- **LinkCanceledText** (2 connections) — `engine/menus/main_menu.asm`
+- **NewGameText** (2 connections) — `engine/menus/main_menu.asm`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Engine Pokemon](Engine_Pokemon.md) (31 shared connections)
-- [Home 2](Home_2.md) (30 shared connections)
-- [Engine Menus](Engine_Menus.md) (15 shared connections)
-- [Ram](Ram.md) (12 shared connections)
-- [Engine Link](Engine_Link.md) (11 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (7 shared connections)
-- [Scripts 2](Scripts_2.md) (6 shared connections)
-- [Engine Movie](Engine_Movie.md) (4 shared connections)
-- [Engine Events 2](Engine_Events_2.md) (4 shared connections)
-- [Home](Home.md) (3 shared connections)
-- [Engine Movie 3](Engine_Movie_3.md) (3 shared connections)
-- [Engine Events](Engine_Events.md) (2 shared connections)
+- [Ram 2](Ram_2.md) (17 shared connections)
+- [Home](Home.md) (10 shared connections)
+- [Engine Menus](Engine_Menus.md) (8 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (6 shared connections)
+- [Engine Battle](Engine_Battle.md) (3 shared connections)
+- [Engine Movie 5](Engine_Movie_5.md) (3 shared connections)
+- [Engine Movie 3](Engine_Movie_3.md) (2 shared connections)
+- [Bank SRAM](Bank_SRAM.md) (2 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
+- [Home 6](Home_6.md) (2 shared connections)
+- [Engine Movie](Engine_Movie.md) (2 shared connections)
+- [Data Predef Pointers.Asm](Data_Predef_Pointers.Asm.md) (1 shared connections)
 
 ## Source Files
 
-- `data/pokemon/dex_order.asm`
-- `engine/battle/core.asm`
-- `engine/battle/end_of_battle.asm`
-- `engine/events/display_pokedex.asm`
-- `engine/events/hidden_events/oaks_lab_posters.asm`
-- `engine/events/pokedex_rating.asm`
-- `engine/gfx/hp_bar.asm`
-- `engine/menus/league_pc.asm`
-- `engine/menus/party_menu.asm`
-- `engine/menus/pokedex.asm`
-- `engine/menus/save.asm`
-- `engine/menus/start_sub_menus.asm`
-- `engine/pokemon/status_screen.asm`
-- `home/count_set_bits.asm`
-- `home/joypad2.asm`
-- `home/palettes.asm`
-- `home/pokemon.asm`
-- `home/print_num.asm`
-- `ram/sram.asm`
-- `ram/wram.asm`
+- `engine/joypad.asm`
+- `engine/menus/main_menu.asm`
+- `engine/movie/oak_speech/oak_speech2.asm`
+- `engine/play_time.asm`
+- `home/joypad.asm`
+- `home/start_menu.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 301 (100%)
+- EXTRACTED: 116 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,29 +1,26 @@
 # Engine Overworld 6
 
-> 7 nodes · cohesion 0.48
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **engine/overworld/field_move_messages.asm** (9 connections) — `engine/overworld/field_move_messages.asm`
-- **IsSurfingAllowed** (8 connections) — `engine/overworld/field_move_messages.asm`
-- **PrintStrengthText** (6 connections) — `engine/overworld/field_move_messages.asm`
-- **CanMoveBouldersText** (2 connections) — `engine/overworld/field_move_messages.asm`
-- **CurrentTooFastText** (2 connections) — `engine/overworld/field_move_messages.asm`
-- **CyclingIsFunText** (2 connections) — `engine/overworld/field_move_messages.asm`
-- **SeafoamIslandsB4FStairsCoords** (2 connections) — `engine/overworld/field_move_messages.asm`
+- **ReplaceTileBlock** (15 connections) — `engine/overworld/update_map.asm`
+- **engine/overworld/update_map.asm** (5 connections) — `engine/overworld/update_map.asm`
+- **CompareHLWithBC** (2 connections) — `engine/overworld/update_map.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (4 shared connections)
-- [Scripts 3](Scripts_3.md) (3 shared connections)
+- [Ram 2](Ram_2.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Engine Menus](Engine_Menus.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/overworld/field_move_messages.asm`
+- `engine/overworld/update_map.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

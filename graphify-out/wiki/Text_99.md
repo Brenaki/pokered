@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **text/CinnabarIsland.asm** (8 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandDoorIsLockedText** (1 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandGamblerText** (1 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandGirlText** (1 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandGymSignText** (1 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandPokemonLabSignText** (1 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandSignText** (1 connections) — `text/CinnabarIsland.asm`
+- **text/PokemonMansion1F.asm** (8 connections) — `text/PokemonMansion1F.asm`
+- **_PokemonMansion1FScientistAfterBattleText** (1 connections) — `text/PokemonMansion1F.asm`
+- **_PokemonMansion1FScientistBattleText** (1 connections) — `text/PokemonMansion1F.asm`
+- **_PokemonMansion1FScientistEndBattleText** (1 connections) — `text/PokemonMansion1F.asm`
+- **_PokemonMansion1FSwitchNotPressedText** (1 connections) — `text/PokemonMansion1F.asm`
+- **_PokemonMansion1FSwitchPressedText** (1 connections) — `text/PokemonMansion1F.asm`
+- **_PokemonMansion1FSwitchText** (1 connections) — `text/PokemonMansion1F.asm`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `text/CinnabarIsland.asm`
+- `text/PokemonMansion1F.asm`
 
 ## Audit Trail
 

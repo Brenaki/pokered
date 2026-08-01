@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **text/CeladonChiefHouse.asm** (5 connections) — `text/CeladonChiefHouse.asm`
-- **_CeladonChiefHouseChiefText** (1 connections) — `text/CeladonChiefHouse.asm`
-- **_CeladonChiefHouseRocketText** (1 connections) — `text/CeladonChiefHouse.asm`
-- **_CeladonChiefHouseSailorText** (1 connections) — `text/CeladonChiefHouse.asm`
+- **text/RocketHideoutB2F.asm** (5 connections) — `text/RocketHideoutB2F.asm`
+- **_RocketHideoutB2FRocketAfterBattleText** (1 connections) — `text/RocketHideoutB2F.asm`
+- **_RocketHideoutB2FRocketBattleText** (1 connections) — `text/RocketHideoutB2F.asm`
+- **_RocketHideoutB2FRocketEndBattleText** (1 connections) — `text/RocketHideoutB2F.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `text/CeladonChiefHouse.asm`
+- `text/RocketHideoutB2F.asm`
 
 ## Audit Trail
 

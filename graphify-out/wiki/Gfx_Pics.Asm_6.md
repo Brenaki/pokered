@@ -35,10 +35,9 @@
 
 - [Gfx Pics.Asm](Gfx_Pics.Asm.md) (70 shared connections)
 - [Gfx Pics.Asm 2](Gfx_Pics.Asm_2.md) (65 shared connections)
-- [Gfx Pics.Asm 4](Gfx_Pics.Asm_4.md) (60 shared connections)
-- [Gfx Pics.Asm 3](Gfx_Pics.Asm_3.md) (59 shared connections)
+- [Gfx Pics.Asm 3](Gfx_Pics.Asm_3.md) (61 shared connections)
+- [Gfx Pics.Asm 4](Gfx_Pics.Asm_4.md) (59 shared connections)
 - [Gfx Pics.Asm 5](Gfx_Pics.Asm_5.md) (55 shared connections)
-- [Engine Battle 14](Engine_Battle_14.md) (1 shared connections)
 - [Bank ROMX](Bank_ROMX.md) (1 shared connections)
 
 ## Source Files

@@ -1,77 +1,73 @@
 # Home
 
-> 154 nodes · cohesion 0.03
+> 106 nodes · cohesion 0.04
 
 ## Key Concepts
 
 - **home/overworld.asm** (70 connections) — `home/overworld.asm`
 - **OverworldLoopLessDelay** (46 connections) — `home/overworld.asm`
-- **engine/overworld** (30 connections)
 - **wStatusFlags4** (26 connections) — `ram/wram.asm`
+- **wStatusFlags6** (24 connections) — `ram/wram.asm`
+- **LoadMapHeader** (20 connections) — `home/overworld.asm`
 - **wMovementFlags** (20 connections) — `ram/wram.asm`
 - **engine/overworld/player_state.asm** (18 connections) — `engine/overworld/player_state.asm`
-- **DisableLCD** (18 connections) — `home/lcd.asm`
 - **AdvancePlayerSprite** (18 connections) — `home/overworld.asm`
-- **data/tilesets** (16 connections)
-- **EnableLCD** (16 connections) — `home/lcd.asm`
 - **EnterMap** (16 connections) — `home/overworld.asm`
-- **LoadMapData** (16 connections) — `home/overworld.asm`
-- **LoadPlayerSpriteGraphics** (15 connections) — `home/overworld.asm`
-- **ReloadMapData** (15 connections) — `home/reload_tiles.asm`
-- **TryPushingBoulder** (13 connections) — `engine/overworld/push_boulder.asm`
-- **CloseTextDisplay** (13 connections) — `home/text_script.asm`
-- **SwitchToMapRomBank** (12 connections) — `home/overworld.asm`
 - **WarpFound2** (12 connections) — `home/overworld.asm`
 - **GetTileAndCoordsInFrontOfPlayer** (11 connections) — `engine/overworld/player_state.asm`
-- **ReloadMapSpriteTilePatterns** (11 connections) — `home/reload_sprites.asm`
-- **RedrawMapView** (10 connections) — `engine/overworld/update_map.asm`
+- **PrepareForSpecialWarp** (11 connections) — `engine/overworld/special_warps.asm`
 - **CheckMapConnections** (10 connections) — `home/overworld.asm`
-- **LoadCurrentMapView** (10 connections) — `home/overworld.asm`
-- **vNPCSprites** (10 connections) — `ram/vram.asm`
 - **wWarpEntries** (10 connections) — `ram/wram.asm`
-- *... and 129 more nodes in this community*
+- **SpecialEnterMap** (9 connections) — `engine/menus/main_menu.asm`
+- **PrintSafariZoneSteps** (9 connections) — `engine/overworld/player_state.asm`
+- **GBFadeInFromWhite** (9 connections) — `home/fade.asm`
+- **CheckWarpsNoCollisionLoop** (9 connections) — `home/overworld.asm`
+- **CollisionCheckOnWater** (9 connections) — `home/overworld.asm`
+- **HandleBlackOut** (9 connections) — `home/overworld.asm`
+- **HandleLedges** (8 connections) — `engine/overworld/ledges.asm`
+- **HandleFlyWarpOrDungeonWarp** (8 connections) — `home/overworld.asm`
+- **JoypadOverworld** (8 connections) — `home/overworld.asm`
+- **LoadTileBlockMap** (8 connections) — `home/overworld.asm`
+- **RunMapScript** (8 connections) — `home/overworld.asm`
+- *... and 81 more nodes in this community*
 
 ## Relationships
 
-- [Home 2](Home_2.md) (17 shared connections)
-- [Engine Menus](Engine_Menus.md) (14 shared connections)
-- [Scripts 3](Scripts_3.md) (13 shared connections)
-- [Scripts 17](Scripts_17.md) (13 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (12 shared connections)
-- [Ram 2](Ram_2.md) (10 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (7 shared connections)
-- [Engine Movie](Engine_Movie.md) (6 shared connections)
-- [Engine Menus 2](Engine_Menus_2.md) (6 shared connections)
-- [Home 3](Home_3.md) (5 shared connections)
-- [Ram](Ram.md) (5 shared connections)
-- [Data Tilesets](Data_Tilesets.md) (4 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (14 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (12 shared connections)
+- [Scripts 2](Scripts_2.md) (10 shared connections)
+- [Engine Overworld 3](Engine_Overworld_3.md) (9 shared connections)
+- [Ram 2](Ram_2.md) (8 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (8 shared connections)
+- [Engine Menus](Engine_Menus.md) (6 shared connections)
+- [Scripts 4](Scripts_4.md) (5 shared connections)
+- [Home 5](Home_5.md) (4 shared connections)
+- [Scripts 6](Scripts_6.md) (3 shared connections)
+- [Engine Movie 2](Engine_Movie_2.md) (3 shared connections)
+- [Ram](Ram.md) (2 shared connections)
 
 ## Source Files
 
 - `data/maps/force_bike_surf.asm`
 - `data/tilesets/bike_riding_tilesets.asm`
-- `data/tilesets/door_tile_ids.asm`
-- `data/tilesets/ledge_tiles.asm`
 - `data/tilesets/pair_collision_tile_ids.asm`
-- `data/tilesets/spinner_tiles.asm`
 - `data/tilesets/warp_carpet_tile_ids.asm`
-- `data/tilesets/warp_pad_hole_tile_ids.asm`
-- `data/tilesets/warp_tile_ids.asm`
+- `engine/menus/main_menu.asm`
 - `engine/overworld/auto_movement.asm`
-- `engine/overworld/clear_variables.asm`
-- `engine/overworld/cut.asm`
-- `engine/overworld/daycare_exp.asm`
-- `engine/overworld/doors.asm`
-- `engine/overworld/is_player_just_outside_map.asm`
 - `engine/overworld/ledges.asm`
-- `engine/overworld/map_sprites.asm`
 - `engine/overworld/player_state.asm`
-- `engine/overworld/push_boulder.asm`
-- `engine/overworld/spinners.asm`
+- `engine/overworld/special_warps.asm`
+- `home/audio.asm`
+- `home/fade.asm`
+- `home/npc_movement.asm`
+- `home/overworld.asm`
+- `ram/wram.asm`
+- `scripts/RocketHideoutB3F.asm`
+- `scripts/ViridianGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 475 (100%)
+- EXTRACTED: 324 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

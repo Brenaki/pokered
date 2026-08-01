@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **audio/sfx/save_1.asm** (4 connections) — `audio/sfx/save_1.asm`
-- **SFX_Save_1_Ch5** (1 connections) — `audio/sfx/save_1.asm`
-- **SFX_Save_1_Ch6** (1 connections) — `audio/sfx/save_1.asm`
+- **audio/sfx/59_1.asm** (4 connections) — `audio/sfx/59_1.asm`
+- **SFX_59_1_Ch5** (1 connections) — `audio/sfx/59_1.asm`
+- **SFX_59_1_Ch6** (1 connections) — `audio/sfx/59_1.asm`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `audio/sfx/save_1.asm`
+- `audio/sfx/59_1.asm`
 
 ## Audit Trail
 

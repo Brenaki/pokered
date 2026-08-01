@@ -1,27 +1,29 @@
 # Scripts 102
 
-> 6 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **scripts/GameCornerPrizeRoom.asm** (7 connections) — `scripts/GameCornerPrizeRoom.asm`
-- **GameCornerPrizeRoom_Script** (2 connections) — `scripts/GameCornerPrizeRoom.asm`
-- **GameCornerPrizeRoom_TextPointers** (1 connections) — `scripts/GameCornerPrizeRoom.asm`
-- **GameCornerPrizeRoomBaldingGuyText** (1 connections) — `scripts/GameCornerPrizeRoom.asm`
-- **GameCornerPrizeRoomGamblerText** (1 connections) — `scripts/GameCornerPrizeRoom.asm`
-- **GameCornerPRizeRoomPrizeVendorText** (1 connections) — `scripts/GameCornerPrizeRoom.asm`
+- **scripts/PokemonTower1F.asm** (9 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1F_Script** (2 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1F_TextPointers** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FBaldingGuyText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FChannelerText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FGirlText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FMiddleAgedWomanText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FReceptionistText** (1 connections) — `scripts/PokemonTower1F.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/GameCornerPrizeRoom.asm`
+- `scripts/PokemonTower1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

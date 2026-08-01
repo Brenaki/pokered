@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **text/BluesHouse.asm** (9 connections) — `text/BluesHouse.asm`
-- **_BluesHouseDaisyBagFullText** (1 connections) — `text/BluesHouse.asm`
-- **_BluesHouseDaisyOfferMapText** (1 connections) — `text/BluesHouse.asm`
-- **_BluesHouseDaisyRivalAtLabText** (1 connections) — `text/BluesHouse.asm`
-- **_BluesHouseDaisyUseMapText** (1 connections) — `text/BluesHouse.asm`
-- **_BluesHouseDaisyWalkingText** (1 connections) — `text/BluesHouse.asm`
-- **_BluesHouseTownMapText** (1 connections) — `text/BluesHouse.asm`
-- **_GotMapText** (1 connections) — `text/BluesHouse.asm`
+- **text/CinnabarLabMetronomeRoom.asm** (9 connections) — `text/CinnabarLabMetronomeRoom.asm`
+- **_CinnabarLabMetronomeRoomAmberPipeText** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
+- **_CinnabarLabMetronomeRoomPCText** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
+- **_CinnabarLabMetronomeRoomScientist1ReceivedTM35Text** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
+- **_CinnabarLabMetronomeRoomScientist1Text** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
+- **_CinnabarLabMetronomeRoomScientist1TM35ExplanationText** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
+- **_CinnabarLabMetronomeRoomScientist1TM35NoRoomText** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
+- **_CinnabarLabMetronomeRoomScientist2Text** (1 connections) — `text/CinnabarLabMetronomeRoom.asm`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `text/BluesHouse.asm`
+- `text/CinnabarLabMetronomeRoom.asm`
 
 ## Audit Trail
 

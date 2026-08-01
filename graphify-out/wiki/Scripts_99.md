@@ -1,28 +1,31 @@
 # Scripts 99
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **scripts/UndergroundPathRoute7Copy.asm** (8 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7Copy_Script** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7Copy_TextPointers** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7CopyUnusedGirlText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7CopyUnusedGoesUnderSaffronText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7CopyUnusedMiddleAgedManText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
+- **scripts/SSAnneKitchen.asm** (11 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchen_Script** (2 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchen_TextPointers** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook1Text** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook2Text** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook3Text** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook4Text** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook5Text** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **SSAnneKitchenCook6Text** (1 connections) — `scripts/SSAnneKitchen.asm`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/UndergroundPathRoute7Copy.asm`
+- `scripts/SSAnneKitchen.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

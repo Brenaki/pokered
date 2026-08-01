@@ -1,12 +1,13 @@
 # Audio Sfx 129
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **audio/sfx/battle_1e.asm** (4 connections) — `audio/sfx/battle_1e.asm`
-- **SFX_Battle_1E_Ch5** (1 connections) — `audio/sfx/battle_1e.asm`
-- **SFX_Battle_1E_Ch8** (1 connections) — `audio/sfx/battle_1e.asm`
+- **audio/sfx/pokedex_rating_1.asm** (5 connections) — `audio/sfx/pokedex_rating_1.asm`
+- **SFX_Pokedex_Rating_1_Ch5** (1 connections) — `audio/sfx/pokedex_rating_1.asm`
+- **SFX_Pokedex_Rating_1_Ch6** (1 connections) — `audio/sfx/pokedex_rating_1.asm`
+- **SFX_Pokedex_Rating_1_Ch7** (1 connections) — `audio/sfx/pokedex_rating_1.asm`
 
 ## Relationships
 
@@ -14,11 +15,11 @@
 
 ## Source Files
 
-- `audio/sfx/battle_1e.asm`
+- `audio/sfx/pokedex_rating_1.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

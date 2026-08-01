@@ -1,37 +1,61 @@
 # Bank SRAM
 
-> 13 nodes · cohesion 0.28
+> 71 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ram/sram.asm** (23 connections) — `ram/sram.asm`
+- **engine/menus/save.asm** (41 connections) — `engine/menus/save.asm`
+- **ram/sram.asm** (24 connections) — `ram/sram.asm`
+- **ChangeBox** (21 connections) — `engine/menus/save.asm`
+- **LoadMainData** (21 connections) — `engine/menus/save.asm`
+- **SaveMainData** (17 connections) — `engine/menus/save.asm`
+- **SaveMenu** (16 connections) — `engine/menus/save.asm`
+- **LoadPartyAndDexData** (15 connections) — `engine/menus/save.asm`
+- **SavePartyAndDexData** (13 connections) — `engine/menus/save.asm`
+- **TryLoadSaveFile** (13 connections) — `engine/menus/save.asm`
+- **LoadCurrentBoxData** (12 connections) — `engine/menus/save.asm`
+- **CalcCheckSum** (11 connections) — `engine/menus/save.asm`
+- **DisplayChangeBoxMenu** (11 connections) — `engine/menus/save.asm`
 - **Save Data [SRAM]** (11 connections) — `ram/sram.asm`
-- **sPlayerName** (5 connections) — `ram/sram.asm`
-- **SRAM** (4 connections)
-- **sPartyData** (4 connections) — `ram/sram.asm`
-- **sSpriteData** (4 connections) — `ram/sram.asm`
-- **Saved Boxes 1 [SRAM]** (4 connections) — `ram/sram.asm`
-- **Saved Boxes 2 [SRAM]** (4 connections) — `ram/sram.asm`
-- **sBank2IndividualBoxChecksums** (3 connections) — `ram/sram.asm`
-- **sBank3AllBoxesChecksum** (2 connections) — `ram/sram.asm`
-- **sBank3IndividualBoxChecksums** (2 connections) — `ram/sram.asm`
-- **sMainDataCheckSum** (2 connections) — `ram/sram.asm`
-- **sTileAnimations** (2 connections) — `ram/sram.asm`
+- **SaveCurrentBoxData** (9 connections) — `engine/menus/save.asm`
+- **sGameData** (9 connections) — `ram/sram.asm`
+- **sGameDataEnd** (9 connections) — `ram/sram.asm`
+- **wBoxDataEnd** (9 connections) — `ram/wram.asm`
+- **CopyBoxToOrFromSRAM** (7 connections) — `engine/menus/save.asm`
+- **SaveGameData** (7 connections) — `engine/menus/save.asm`
+- **sMainData** (7 connections) — `ram/sram.asm`
+- **wBoxDataStart** (7 connections) — `ram/wram.asm`
+- **CalcIndividualBoxCheckSums** (6 connections) — `engine/menus/save.asm`
+- **CheckPreviousSaveFile** (6 connections) — `engine/menus/save.asm`
+- **EmptySRAMBoxesInBank** (6 connections) — `engine/menus/save.asm`
+- **SaveHallOfFameTeams** (6 connections) — `engine/menus/save.asm`
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [Ram 4](Ram_4.md) (8 shared connections)
-- [Engine Battle 14](Engine_Battle_14.md) (4 shared connections)
-- [Engine Menus 4](Engine_Menus_4.md) (2 shared connections)
-- [Engine Menus 2](Engine_Menus_2.md) (1 shared connections)
+- [Ram](Ram.md) (11 shared connections)
+- [Ram 2](Ram_2.md) (8 shared connections)
+- [Scripts](Scripts.md) (6 shared connections)
+- [Home 4](Home_4.md) (6 shared connections)
+- [Engine Menus](Engine_Menus.md) (5 shared connections)
+- [Engine Battle](Engine_Battle.md) (3 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (3 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (3 shared connections)
+- [Engine Events 3](Engine_Events_3.md) (2 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (2 shared connections)
+- [Home 3](Home_3.md) (1 shared connections)
+- [Engine Movie 5](Engine_Movie_5.md) (1 shared connections)
 
 ## Source Files
 
+- `engine/menus/save.asm`
+- `home/predef_text.asm`
 - `ram/sram.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (100%)
+- EXTRACTED: 238 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

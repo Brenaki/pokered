@@ -1,70 +1,60 @@
 # Scripts 10
 
-> 62 nodes · cohesion 0.05
+> 65 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **scripts/CeladonMartRoof.asm** (22 connections) — `scripts/CeladonMartRoof.asm`
-- **BikeShopClerkText** (21 connections) — `scripts/BikeShop.asm`
-- **CeladonMartRoofScript_GiveDrinkToGirl** (21 connections) — `scripts/CeladonMartRoof.asm`
-- **IsItemInBag** (20 connections) — `home/map_objects.asm`
-- **scripts/BikeShop.asm** (17 connections) — `scripts/BikeShop.asm`
-- **wNumBagItems** (17 connections) — `ram/wram.asm`
-- **GiveFossilToCinnabarLab** (13 connections) — `engine/events/cinnabar_lab.asm`
-- **GetQuantityOfItemInBag** (11 connections) — `engine/items/get_bag_item_quantity.asm`
-- **OaksLabOak1Text** (10 connections) — `scripts/OaksLab.asm`
-- **scripts/CinnabarLabFossilRoom.asm** (9 connections) — `scripts/CinnabarLabFossilRoom.asm`
-- **PrintFossilsInBag** (8 connections) — `engine/events/cinnabar_lab.asm`
-- **RemoveItemByID** (8 connections) — `engine/menus/pc.asm`
-- **wFilteredBagItems** (8 connections) — `ram/wram.asm`
-- **CinnabarLabFossilRoomScientist1Text** (7 connections) — `scripts/CinnabarLabFossilRoom.asm`
-- **WardensHouseWardenText** (7 connections) — `scripts/WardensHouse.asm`
-- **CeladonMartRoofLittleGirlText** (6 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofScript_GetDrinksInBag** (6 connections) — `scripts/CeladonMartRoof.asm`
-- **Lab4Script_GetFossilsInBag** (6 connections) — `scripts/CinnabarLabFossilRoom.asm`
-- **CopycatsHouse2FCopycatText** (6 connections) — `scripts/CopycatsHouse2F.asm`
-- **LoadFossilItemAndMonName** (5 connections) — `engine/events/cinnabar_lab.asm`
-- **engine/events/cinnabar_lab.asm** (5 connections) — `engine/events/cinnabar_lab.asm`
-- **OaksLabScript_RemoveParcel** (5 connections) — `scripts/OaksLab.asm`
-- **VermilionCitySailor1Text** (5 connections) — `scripts/VermilionCity.asm`
-- **wBagItems** (4 connections) — `ram/wram.asm`
-- **wFilteredBagItemsCount** (4 connections) — `ram/wram.asm`
-- *... and 37 more nodes in this community*
+- **scripts/CeruleanCity.asm** (34 connections) — `scripts/CeruleanCity.asm`
+- **CallFunctionInTable** (33 connections) — `home/array2.asm`
+- **scripts/BillsHouse.asm** (15 connections) — `scripts/BillsHouse.asm`
+- **scripts/CinnabarIsland.asm** (13 connections) — `scripts/CinnabarIsland.asm`
+- **scripts/Route5Gate.asm** (12 connections) — `scripts/Route5Gate.asm`
+- **SaffronGateGuardText** (9 connections) — `scripts/Route5Gate.asm`
+- **scripts/Route8Gate.asm** (8 connections) — `scripts/Route8Gate.asm`
+- **CeruleanCityRivalBattleScript** (7 connections) — `scripts/CeruleanCity.asm`
+- **CinnabarIsland_Script** (5 connections) — `scripts/CinnabarIsland.asm`
+- **BillsHouse_Script** (4 connections) — `scripts/BillsHouse.asm`
+- **CeruleanCity_Script** (4 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityRivalText** (4 connections) — `scripts/CeruleanCity.asm`
+- **CinnabarIslandDefaultScript** (4 connections) — `scripts/CinnabarIsland.asm`
+- **Route5Gate_Script** (4 connections) — `scripts/Route5Gate.asm`
+- **Route5GateMovePlayerUpScript** (4 connections) — `scripts/Route5Gate.asm`
+- **Route8Gate_Script** (4 connections) — `scripts/Route8Gate.asm`
+- **CeruleanCityClearScripts** (3 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityRocketDefeatedScript** (3 connections) — `scripts/CeruleanCity.asm`
+- **Route8GateMovePlayerRightScript** (3 connections) — `scripts/Route8Gate.asm`
+- **BillsHouse_ScriptPointers** (2 connections) — `scripts/BillsHouse.asm`
+- **BillsHousePCScript** (2 connections) — `scripts/BillsHouse.asm`
+- **BillsHousePokemonEntersMachineScript** (2 connections) — `scripts/BillsHouse.asm`
+- **BillsHousePokemonWalkToMachineScript** (2 connections) — `scripts/BillsHouse.asm`
+- **CeruleanCity_ScriptPointers** (2 connections) — `scripts/CeruleanCity.asm`
+- **CeruleanCityCoords1** (2 connections) — `scripts/CeruleanCity.asm`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (32 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (9 shared connections)
-- [Home 2](Home_2.md) (9 shared connections)
-- [Engine Menus](Engine_Menus.md) (5 shared connections)
-- [Scripts](Scripts.md) (3 shared connections)
-- [Scripts 3](Scripts_3.md) (3 shared connections)
-- [Engine Menus 2](Engine_Menus_2.md) (3 shared connections)
-- [Scripts 29](Scripts_29.md) (2 shared connections)
-- [Engine Items 4](Engine_Items_4.md) (2 shared connections)
-- [Bank HRAM](Bank_HRAM.md) (1 shared connections)
-- [Engine Events 2](Engine_Events_2.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (14 shared connections)
+- [Scripts](Scripts.md) (10 shared connections)
+- [Scripts 5](Scripts_5.md) (5 shared connections)
+- [Scripts 7](Scripts_7.md) (3 shared connections)
+- [Engine Movie 5](Engine_Movie_5.md) (3 shared connections)
+- [Scripts 4](Scripts_4.md) (2 shared connections)
+- [Scripts 6](Scripts_6.md) (2 shared connections)
+- [Scripts 11](Scripts_11.md) (1 shared connections)
+- [Engine Menus](Engine_Menus.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/events/cinnabar_lab.asm`
-- `engine/items/get_bag_item_quantity.asm`
-- `engine/menus/pc.asm`
-- `home/map_objects.asm`
-- `ram/wram.asm`
-- `scripts/BikeShop.asm`
-- `scripts/CeladonMartRoof.asm`
-- `scripts/CeruleanTrashedHouse.asm`
+- `home/array2.asm`
+- `scripts/BillsHouse.asm`
+- `scripts/CeruleanCity.asm`
 - `scripts/CinnabarIsland.asm`
-- `scripts/CinnabarLabFossilRoom.asm`
-- `scripts/CopycatsHouse2F.asm`
-- `scripts/OaksLab.asm`
-- `scripts/VermilionCity.asm`
-- `scripts/WardensHouse.asm`
+- `scripts/Route5Gate.asm`
+- `scripts/Route8Gate.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 170 (100%)
+- EXTRACTED: 118 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

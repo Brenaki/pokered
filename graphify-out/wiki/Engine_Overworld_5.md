@@ -1,49 +1,32 @@
 # Engine Overworld 5
 
-> 20 nodes · cohesion 0.14
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **engine/overworld/map_sprites.asm** (9 connections) — `engine/overworld/map_sprites.asm`
-- **LoadMapSpriteTilePatterns** (8 connections) — `engine/overworld/map_sprites.asm`
-- **InitOutsideMapSprites** (7 connections) — `engine/overworld/map_sprites.asm`
-- **PrepareOAMData** (5 connections) — `engine/gfx/sprite_oam.asm`
-- **data/maps/sprite_sets.asm** (5 connections) — `data/maps/sprite_sets.asm`
-- **GetSplitMapSpriteSetID** (4 connections) — `engine/overworld/map_sprites.asm`
-- **engine/gfx/sprite_oam.asm** (4 connections) — `engine/gfx/sprite_oam.asm`
-- **data/sprites** (3 connections)
-- **data/sprites/facings.asm** (3 connections) — `data/sprites/facings.asm`
-- **data/sprites/sprites.asm** (3 connections) — `data/sprites/sprites.asm`
-- **HideSprites** (3 connections) — `home/clear_sprites.asm`
-- **wSpriteSet** (3 connections) — `ram/wram.asm`
-- **wXCoord** (3 connections) — `ram/wram.asm`
-- **MapSpriteSets** (2 connections) — `data/maps/sprite_sets.asm`
-- **SplitMapSpriteSets** (2 connections) — `data/maps/sprite_sets.asm`
-- **SpriteSets** (2 connections) — `data/maps/sprite_sets.asm`
-- **SpriteFacingAndAnimationTable** (2 connections) — `data/sprites/facings.asm`
-- **SpriteSheetPointerTable** (2 connections) — `data/sprites/sprites.asm`
-- **GetSpriteScreenXY** (2 connections) — `engine/gfx/sprite_oam.asm`
-- **ReadSpriteSheetData** (2 connections) — `engine/overworld/map_sprites.asm`
+- **engine/overworld/field_move_messages.asm** (9 connections) — `engine/overworld/field_move_messages.asm`
+- **IsSurfingAllowed** (8 connections) — `engine/overworld/field_move_messages.asm`
+- **PrintStrengthText** (6 connections) — `engine/overworld/field_move_messages.asm`
+- **UsedStrengthText** (5 connections) — `engine/overworld/field_move_messages.asm`
+- **CanMoveBouldersText** (2 connections) — `engine/overworld/field_move_messages.asm`
+- **CurrentTooFastText** (2 connections) — `engine/overworld/field_move_messages.asm`
+- **CyclingIsFunText** (2 connections) — `engine/overworld/field_move_messages.asm`
+- **SeafoamIslandsB4FStairsCoords** (2 connections) — `engine/overworld/field_move_messages.asm`
 
 ## Relationships
 
-- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
-- [Home](Home.md) (2 shared connections)
-- [Engine Menus 3](Engine_Menus_3.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (3 shared connections)
+- [Scripts](Scripts.md) (3 shared connections)
+- [Engine Movie 5](Engine_Movie_5.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
 
 ## Source Files
 
-- `data/maps/sprite_sets.asm`
-- `data/sprites/facings.asm`
-- `data/sprites/sprites.asm`
-- `engine/gfx/sprite_oam.asm`
-- `engine/overworld/map_sprites.asm`
-- `home/clear_sprites.asm`
-- `ram/wram.asm`
+- `engine/overworld/field_move_messages.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

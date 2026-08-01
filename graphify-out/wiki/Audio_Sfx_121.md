@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **audio/sfx/psybeam.asm** (5 connections) — `audio/sfx/psybeam.asm`
-- **SFX_Psybeam_Ch5** (1 connections) — `audio/sfx/psybeam.asm`
-- **SFX_Psybeam_Ch6** (1 connections) — `audio/sfx/psybeam.asm`
-- **SFX_Psybeam_Ch8** (1 connections) — `audio/sfx/psybeam.asm`
+- **audio/sfx/get_item1_1.asm** (5 connections) — `audio/sfx/get_item1_1.asm`
+- **SFX_Get_Item1_1_Ch5** (1 connections) — `audio/sfx/get_item1_1.asm`
+- **SFX_Get_Item1_1_Ch6** (1 connections) — `audio/sfx/get_item1_1.asm`
+- **SFX_Get_Item1_1_Ch7** (1 connections) — `audio/sfx/get_item1_1.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `audio/sfx/psybeam.asm`
+- `audio/sfx/get_item1_1.asm`
 
 ## Audit Trail
 

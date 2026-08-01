@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **text/Route1.asm** (8 connections) — `text/Route1.asm`
-- **_Route1SignText** (1 connections) — `text/Route1.asm`
-- **_Route1Youngster1AlsoGotPokeballsText** (1 connections) — `text/Route1.asm`
-- **_Route1Youngster1GotPotionText** (1 connections) — `text/Route1.asm`
-- **_Route1Youngster1MartSampleText** (1 connections) — `text/Route1.asm`
-- **_Route1Youngster1NoRoomText** (1 connections) — `text/Route1.asm`
-- **_Route1Youngster2Text** (1 connections) — `text/Route1.asm`
+- **text/VermilionOldRodHouse.asm** (8 connections) — `text/VermilionOldRodHouse.asm`
+- **_VermilionOldRodHouseFishingGuruDoYouLikeToFishText** (1 connections) — `text/VermilionOldRodHouse.asm`
+- **_VermilionOldRodHouseFishingGuruFishingIsAWayOfLifeText** (1 connections) — `text/VermilionOldRodHouse.asm`
+- **_VermilionOldRodHouseFishingGuruHowAreTheFishBitingText** (1 connections) — `text/VermilionOldRodHouse.asm`
+- **_VermilionOldRodHouseFishingGuruNoRoomText** (1 connections) — `text/VermilionOldRodHouse.asm`
+- **_VermilionOldRodHouseFishingGuruTakeThisText** (1 connections) — `text/VermilionOldRodHouse.asm`
+- **_VermilionOldRodHouseFishingGuruThatsSoDisappointingText** (1 connections) — `text/VermilionOldRodHouse.asm`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `text/Route1.asm`
+- `text/VermilionOldRodHouse.asm`
 
 ## Audit Trail
 

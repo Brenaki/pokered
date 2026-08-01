@@ -33,15 +33,12 @@
 
 ## Relationships
 
+- [Scripts](Scripts.md) (4 shared connections)
+- [Home 8](Home_8.md) (4 shared connections)
 - [Scripts 2](Scripts_2.md) (3 shared connections)
-- [Scripts 9](Scripts_9.md) (3 shared connections)
 - [Scripts 4](Scripts_4.md) (2 shared connections)
-- [Scripts 3](Scripts_3.md) (2 shared connections)
-- [Ram 6](Ram_6.md) (1 shared connections)
+- [Scripts 47](Scripts_47.md) (1 shared connections)
 - [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Home 2](Home_2.md) (1 shared connections)
 
 ## Source Files
 

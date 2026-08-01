@@ -1,50 +1,53 @@
 # Scripts 54
 
-> 28 nodes · cohesion 0.08
+> 27 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **scripts/ViridianForest.asm** (29 connections) — `scripts/ViridianForest.asm`
-- **ViridianForest_Script** (5 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster2Text** (4 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster3Text** (4 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster4Text** (4 connections) — `scripts/ViridianForest.asm`
-- **ViridianForest_ScriptPointers** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestTrainerHeader0** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestTrainerHeader1** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestTrainerHeader2** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestTrainerHeaders** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForest_TextPointers** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestLeavingSignText** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestTrainerTips1Text** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestTrainerTips2Text** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestTrainerTips3Text** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestTrainerTips4Text** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestUseAntidoteSignText** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster1Text** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster2AfterBattleText** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster2BattleText** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster2EndBattleText** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster3AfterBattleText** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster3BattleText** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster3EndBattleText** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster4AfterBattleText** (1 connections) — `scripts/ViridianForest.asm`
-- *... and 3 more nodes in this community*
+- **scripts/SilphCo2F.asm** (30 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2F_Script** (6 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FGateCallbackScript** (6 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FRocket1Text** (4 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FRocket2Text** (4 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FScientist1Text** (4 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FScientist2Text** (4 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2F_ScriptPointers** (2 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2F_UnlockedDoorEventScript** (2 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2TrainerHeader0** (2 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2TrainerHeader1** (2 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2TrainerHeader2** (2 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2TrainerHeader3** (2 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2TrainerHeaders** (2 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2F_TextPointers** (1 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FRocket1AfterBattleText** (1 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FRocket1BattleText** (1 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FRocket1EndBattleText** (1 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FRocket2AfterBattleText** (1 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FRocket2BattleText** (1 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FRocket2EndBattleText** (1 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FScientist1AfterBattleText** (1 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FScientist1BattleText** (1 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FScientist1EndBattleText** (1 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FScientist2AfterBattleText** (1 connections) — `scripts/SilphCo2F.asm`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (3 shared connections)
-- [Scripts 9](Scripts_9.md) (3 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts](Scripts.md) (5 shared connections)
+- [Home 8](Home_8.md) (4 shared connections)
+- [Scripts 66](Scripts_66.md) (2 shared connections)
+- [Scripts 47](Scripts_47.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Engine Overworld 6](Engine_Overworld_6.md) (1 shared connections)
+- [Scripts 11](Scripts_11.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/ViridianForest.asm`
+- `scripts/SilphCo2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

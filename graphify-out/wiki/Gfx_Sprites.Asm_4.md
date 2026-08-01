@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **SilphWorkerFSprite** (3 connections) — `gfx/sprites.asm`
-- **gfx/sprites/silph_worker_f.2bpp** (2 connections) — `gfx/sprites.asm`
+- **CookSprite** (3 connections) — `gfx/sprites.asm`
+- **gfx/sprites/cook.2bpp** (2 connections) — `gfx/sprites.asm`
 
 ## Relationships
 

@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **text/Route4.asm** (8 connections) — `text/Route4.asm`
-- **_Route4CooltrainerF1Text** (1 connections) — `text/Route4.asm`
-- **_Route4CooltrainerF2AfterBattleText** (1 connections) — `text/Route4.asm`
-- **_Route4CooltrainerF2BattleText** (1 connections) — `text/Route4.asm`
-- **_Route4CooltrainerF2EndBattleText** (1 connections) — `text/Route4.asm`
-- **_Route4MtMoonSignText** (1 connections) — `text/Route4.asm`
-- **_Route4SignText** (1 connections) — `text/Route4.asm`
+- **text/VictoryRoad1F.asm** (8 connections) — `text/VictoryRoad1F.asm`
+- **_VictoryRoad1FCooltrainerFAfterBattleText** (1 connections) — `text/VictoryRoad1F.asm`
+- **_VictoryRoad1FCooltrainerFBattleText** (1 connections) — `text/VictoryRoad1F.asm`
+- **_VictoryRoad1FCooltrainerFEndBattleText** (1 connections) — `text/VictoryRoad1F.asm`
+- **_VictoryRoad1FCooltrainerMAfterBattleText** (1 connections) — `text/VictoryRoad1F.asm`
+- **_VictoryRoad1FCooltrainerMBattleText** (1 connections) — `text/VictoryRoad1F.asm`
+- **_VictoryRoad1FCooltrainerMEndBattleText** (1 connections) — `text/VictoryRoad1F.asm`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `text/Route4.asm`
+- `text/VictoryRoad1F.asm`
 
 ## Audit Trail
 

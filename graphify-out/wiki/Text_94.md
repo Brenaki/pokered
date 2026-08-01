@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **text/Museum2F.asm** (9 connections) — `text/Museum2F.asm`
-- **_Museum2FBrunetteGirlText** (1 connections) — `text/Museum2F.asm`
-- **_Museum2FGrampsText** (1 connections) — `text/Museum2F.asm`
-- **_Museum2FHikerText** (1 connections) — `text/Museum2F.asm`
-- **_Museum2FMoonStoneSignText** (1 connections) — `text/Museum2F.asm`
-- **_Museum2FScientistText** (1 connections) — `text/Museum2F.asm`
-- **_Museum2FSpaceShuttleSignText** (1 connections) — `text/Museum2F.asm`
-- **_Museum2FYoungsterText** (1 connections) — `text/Museum2F.asm`
+- **text/NameRatersHouse.asm** (9 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterATrulyImpeccableNameText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterComeAnyTimeYouLikeText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterGiveItANiceNameText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterPokemonHasBeenRenamedText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterWantMeToRateText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterWhatShouldWeNameItText** (1 connections) — `text/NameRatersHouse.asm`
+- **_NameRatersHouseNameRaterWhichPokemonText** (1 connections) — `text/NameRatersHouse.asm`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `text/Museum2F.asm`
+- `text/NameRatersHouse.asm`
 
 ## Audit Trail
 

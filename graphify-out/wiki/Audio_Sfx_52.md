@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **audio/sfx/cry0f_2.asm** (5 connections) — `audio/sfx/cry0f_2.asm`
-- **SFX_Cry0F_2_Ch5** (1 connections) — `audio/sfx/cry0f_2.asm`
-- **SFX_Cry0F_2_Ch6** (1 connections) — `audio/sfx/cry0f_2.asm`
-- **SFX_Cry0F_2_Ch8** (1 connections) — `audio/sfx/cry0f_2.asm`
+- **audio/sfx/cry0d_2.asm** (5 connections) — `audio/sfx/cry0d_2.asm`
+- **SFX_Cry0D_2_Ch5** (1 connections) — `audio/sfx/cry0d_2.asm`
+- **SFX_Cry0D_2_Ch6** (1 connections) — `audio/sfx/cry0d_2.asm`
+- **SFX_Cry0D_2_Ch8** (1 connections) — `audio/sfx/cry0d_2.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `audio/sfx/cry0f_2.asm`
+- `audio/sfx/cry0d_2.asm`
 
 ## Audit Trail
 

@@ -53,6 +53,8 @@ MACRO_CALL_RE = re.compile(r"\b(farcall|predef|callba|callab|homecall)\s+([A-Za-
 LD_PTR_RE = re.compile(r"\bld\s+(hl|de|bc),\s*([A-Za-z_.$][A-Za-z0-9_.$@]*)", re.IGNORECASE)
 DATA_REF_RE = re.compile(r"\b(dw|dba|dbw|dab|addr|bank)\s+([^;\n]+)", re.IGNORECASE)
 TOKEN_RE = re.compile(r"\b[A-Za-z_.$][A-Za-z0-9_.$@]*\b")
+MARKDOWN_HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*#*\s*$")
+INLINE_CODE_RE = re.compile(r"`([^`\n]+)`")
 
 CONDITIONS = {"z", "nz", "c", "nc"}
 DIRECTIVES = {
@@ -103,7 +105,7 @@ def supported_files() -> list[Path]:
             files.append(path)
         elif path.suffix.lower() in TOOL_EXTS and parts[:1] == ("tools",):
             files.append(path)
-        elif path.suffix.lower() in DOC_EXTS and (len(parts) == 1 or parts[0] in {".github"}):
+        elif path.suffix.lower() in DOC_EXTS and (len(parts) == 1 or parts[0] in {".github", "docs"}):
             files.append(path)
     return sorted(files, key=lambda p: rel(p))
 
@@ -115,6 +117,7 @@ class GraphBuilder:
         self.label_defs: dict[str, str] = {}
         self.file_labels: dict[str, list[str]] = defaultdict(list)
         self.file_sections: dict[str, list[tuple[int, str]]] = defaultdict(list)
+        self.markdown_headings: dict[tuple[str, int], str] = {}
         self.files = supported_files()
 
     def node(
@@ -193,6 +196,10 @@ class GraphBuilder:
                 self.edge(project, domain_id, "contains", source_file=r)
                 self.edge(domain_id, file_id, "contains", source_file=r)
 
+            if path.suffix.lower() in DOC_EXTS:
+                self.extract_markdown_headings(path, file_id, r)
+                continue
+
             current_section: str | None = None
             for line_no, raw in enumerate(path.read_text(encoding="utf-8", errors="ignore").splitlines(), 1):
                 line = strip_comment(raw)
@@ -236,6 +243,10 @@ class GraphBuilder:
         for path in self.files:
             r = rel(path)
             file_id = self.file_node(path)
+            if path.suffix.lower() in DOC_EXTS:
+                self.extract_markdown_references(path, file_id, r)
+                continue
+
             current_label = file_id
             current_section: str | None = None
             section_iter = iter(sorted(self.file_sections.get(r, [])))
@@ -266,6 +277,47 @@ class GraphBuilder:
 
                 for target in self.pointer_targets(line):
                     self.reference(current_label, target, "references", r, line_no)
+
+    def extract_markdown_headings(self, path: Path, file_id: str, source_file: str) -> None:
+        parents: list[tuple[int, str]] = []
+        for line_no, raw in enumerate(path.read_text(encoding="utf-8", errors="ignore").splitlines(), 1):
+            match = MARKDOWN_HEADING_RE.match(raw)
+            if not match:
+                continue
+            level = len(match.group(1))
+            label = match.group(2).strip()
+            node_id = self.node(
+                make_id(source_file, "heading", str(line_no), label),
+                label,
+                "section",
+                file_type="document",
+                source_file=source_file,
+                line=line_no,
+            )
+            while parents and parents[-1][0] >= level:
+                parents.pop()
+            parent_id = parents[-1][1] if parents else file_id
+            self.edge(parent_id, node_id, "contains", source_file=source_file, line=line_no)
+            parents.append((level, node_id))
+            self.markdown_headings[(source_file, line_no)] = node_id
+
+    def extract_markdown_references(self, path: Path, file_id: str, source_file: str) -> None:
+        current_section = file_id
+        for line_no, raw in enumerate(path.read_text(encoding="utf-8", errors="ignore").splitlines(), 1):
+            heading_id = self.markdown_headings.get((source_file, line_no))
+            if heading_id:
+                current_section = heading_id
+                continue
+            for value in INLINE_CODE_RE.findall(raw):
+                target = value.strip()
+                target_id = self.label_defs.get(target)
+                if target_id:
+                    self.edge(current_section, target_id, "references", source_file=source_file, line=line_no)
+                    continue
+                target_path = ROOT / target
+                if target_path.is_file():
+                    target_id = self.ensure_path_node(target, source_file=source_file, line=line_no)
+                    self.edge(current_section, target_id, "references", source_file=source_file, line=line_no)
 
     def ensure_path_node(self, target: str, *, source_file: str, line: int, asset: bool = False) -> str:
         target_path = (ROOT / target).resolve()

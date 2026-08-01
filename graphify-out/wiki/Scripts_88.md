@@ -1,39 +1,44 @@
 # Scripts 88
 
-> 12 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **scripts/PokemonTower2F.asm** (14 connections) — `scripts/PokemonTower2F.asm`
-- **PokemonTower2FDefeatedRivalScript** (8 connections) — `scripts/PokemonTower2F.asm`
-- **PokemonTower2FRivalText** (5 connections) — `scripts/PokemonTower2F.asm`
-- **PokemonTower2F_Script** (4 connections) — `scripts/PokemonTower2F.asm`
-- **PokemonTower2FRivalExitsScript** (3 connections) — `scripts/PokemonTower2F.asm`
-- **PokemonTower2F_ScriptPointers** (2 connections) — `scripts/PokemonTower2F.asm`
-- **PokemonTower2FResetRivalEncounter** (2 connections) — `scripts/PokemonTower2F.asm`
-- **PokemonTower2FRivalDownThenRightMovement** (2 connections) — `scripts/PokemonTower2F.asm`
-- **PokemonTower2FRivalEncounterEventCoords** (2 connections) — `scripts/PokemonTower2F.asm`
-- **PokemonTower2FRivalRightThenDownMovement** (2 connections) — `scripts/PokemonTower2F.asm`
-- **PokemonTower2F_TextPointers** (1 connections) — `scripts/PokemonTower2F.asm`
-- **PokemonTower2FChannelerText** (1 connections) — `scripts/PokemonTower2F.asm`
+- **scripts/SeafoamIslandsB4F.asm** (16 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4F_Script** (4 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4FArticunoBattleText** (4 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4FArticunoText** (4 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4FDefaultScript** (4 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4FObjectMoving3Script** (3 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **ArticunoTrainerHeader** (2 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4F_ScriptPointers** (2 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4FObjectMoving2Script** (2 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4FResetScript** (2 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4F_TextPointers** (1 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4FBouldersSignText** (1 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4FDangerSignText** (1 connections) — `scripts/SeafoamIslandsB4F.asm`
+- **SeafoamIslandsB4FObjectMoving1Script** (1 connections) — `scripts/SeafoamIslandsB4F.asm`
 
 ## Relationships
 
-- [Scripts 3](Scripts_3.md) (3 shared connections)
-- [Scripts 4](Scripts_4.md) (2 shared connections)
-- [Scripts 17](Scripts_17.md) (2 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 5](Scripts_5.md) (2 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts 6](Scripts_6.md) (2 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Home 8](Home_8.md) (2 shared connections)
+- [Scripts 10](Scripts_10.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Engine Movie 2](Engine_Movie_2.md) (1 shared connections)
+- [Home](Home.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/PokemonTower2F.asm`
+- `scripts/SeafoamIslandsB4F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

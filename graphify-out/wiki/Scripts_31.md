@@ -1,53 +1,53 @@
 # Scripts 31
 
-> 45 nodes · cohesion 0.05
+> 42 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **scripts/SaffronGym.asm** (49 connections) — `scripts/SaffronGym.asm`
-- **SaffronGym_Script** (7 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler1Text** (4 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler2Text** (4 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler3Text** (4 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymYoungster1Text** (4 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymYoungster2Text** (4 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymYoungster3Text** (4 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymYoungster4Text** (4 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymResetScripts** (3 connections) — `scripts/SaffronGym.asm`
-- **SaffronGym_ScriptPointers** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymSabrinaPostBattle** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymTrainerHeader0** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymTrainerHeader1** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymTrainerHeader2** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymTrainerHeader3** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymTrainerHeader4** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymTrainerHeader5** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymTrainerHeader6** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymTrainerHeaders** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGym_TextPointers** (1 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler1AfterBattleText** (1 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler1BattleText** (1 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler1EndBattleText** (1 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler2AfterBattleText** (1 connections) — `scripts/SaffronGym.asm`
-- *... and 20 more nodes in this community*
+- **scripts/Route16.asm** (45 connections) — `scripts/Route16.asm`
+- **Route16_Script** (5 connections) — `scripts/Route16.asm`
+- **Route16SnorlaxPostBattleScript** (5 connections) — `scripts/Route16.asm`
+- **Route16Biker1Text** (4 connections) — `scripts/Route16.asm`
+- **Route16Biker2Text** (4 connections) — `scripts/Route16.asm`
+- **Route16Biker3Text** (4 connections) — `scripts/Route16.asm`
+- **Route16Biker4Text** (4 connections) — `scripts/Route16.asm`
+- **Route16Biker5Text** (4 connections) — `scripts/Route16.asm`
+- **Route16Biker6Text** (4 connections) — `scripts/Route16.asm`
+- **Route16_ScriptPointers** (2 connections) — `scripts/Route16.asm`
+- **Route16ResetScripts** (2 connections) — `scripts/Route16.asm`
+- **Route16TrainerHeader0** (2 connections) — `scripts/Route16.asm`
+- **Route16TrainerHeader1** (2 connections) — `scripts/Route16.asm`
+- **Route16TrainerHeader2** (2 connections) — `scripts/Route16.asm`
+- **Route16TrainerHeader3** (2 connections) — `scripts/Route16.asm`
+- **Route16TrainerHeader4** (2 connections) — `scripts/Route16.asm`
+- **Route16TrainerHeader5** (2 connections) — `scripts/Route16.asm`
+- **Route16TrainerHeaders** (2 connections) — `scripts/Route16.asm`
+- **Route16_TextPointers** (1 connections) — `scripts/Route16.asm`
+- **Route16Biker1AfterBattleText** (1 connections) — `scripts/Route16.asm`
+- **Route16Biker1BattleText** (1 connections) — `scripts/Route16.asm`
+- **Route16Biker1EndBattleText** (1 connections) — `scripts/Route16.asm`
+- **Route16Biker2AfterBattleText** (1 connections) — `scripts/Route16.asm`
+- **Route16Biker2BattleText** (1 connections) — `scripts/Route16.asm`
+- **Route16Biker2EndBattleText** (1 connections) — `scripts/Route16.asm`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (8 shared connections)
-- [Scripts 9](Scripts_9.md) (7 shared connections)
-- [Scripts 5](Scripts_5.md) (2 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Ram 11](Ram_11.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 8](Scripts_8.md) (1 shared connections)
+- [Scripts](Scripts.md) (6 shared connections)
+- [Home 8](Home_8.md) (6 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 47](Scripts_47.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Engine Movie 5](Engine_Movie_5.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SaffronGym.asm`
+- `scripts/Route16.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 75 (100%)
+- EXTRACTED: 68 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

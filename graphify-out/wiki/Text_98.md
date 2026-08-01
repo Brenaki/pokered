@@ -1,17 +1,16 @@
 # Text 98
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **text/SSAnneCaptainsRoom.asm** (9 connections) — `text/SSAnneCaptainsRoom.asm`
-- **_SSAnneCaptainsRoomCaptainHM01NoRoomText** (1 connections) — `text/SSAnneCaptainsRoom.asm`
-- **_SSAnneCaptainsRoomCaptainIFeelMuchBetterText** (1 connections) — `text/SSAnneCaptainsRoom.asm`
-- **_SSAnneCaptainsRoomCaptainNotSickAnymoreText** (1 connections) — `text/SSAnneCaptainsRoom.asm`
-- **_SSAnneCaptainsRoomCaptainReceivedHM01Text** (1 connections) — `text/SSAnneCaptainsRoom.asm`
-- **_SSAnneCaptainsRoomRubCaptainsBackText** (1 connections) — `text/SSAnneCaptainsRoom.asm`
-- **_SSAnneCaptainsRoomSeasickBookText** (1 connections) — `text/SSAnneCaptainsRoom.asm`
-- **_SSAnneCaptainsRoomTrashText** (1 connections) — `text/SSAnneCaptainsRoom.asm`
+- **text/CinnabarIsland.asm** (8 connections) — `text/CinnabarIsland.asm`
+- **_CinnabarIslandDoorIsLockedText** (1 connections) — `text/CinnabarIsland.asm`
+- **_CinnabarIslandGamblerText** (1 connections) — `text/CinnabarIsland.asm`
+- **_CinnabarIslandGirlText** (1 connections) — `text/CinnabarIsland.asm`
+- **_CinnabarIslandGymSignText** (1 connections) — `text/CinnabarIsland.asm`
+- **_CinnabarIslandPokemonLabSignText** (1 connections) — `text/CinnabarIsland.asm`
+- **_CinnabarIslandSignText** (1 connections) — `text/CinnabarIsland.asm`
 
 ## Relationships
 
@@ -19,11 +18,11 @@
 
 ## Source Files
 
-- `text/SSAnneCaptainsRoom.asm`
+- `text/CinnabarIsland.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,44 +1,53 @@
 # Home 6
 
-> 21 nodes · cohesion 0.22
+> 22 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **home/uncompress.asm** (22 connections) — `home/uncompress.asm`
-- **SpriteDifferentialDecode** (10 connections) — `home/uncompress.asm`
-- **UncompressSpriteDataLoop** (9 connections) — `home/uncompress.asm`
-- **UncompressSpriteData** (7 connections) — `home/uncompress.asm`
-- **UnpackSprite** (7 connections) — `home/uncompress.asm`
-- **MoveToNextBufferPosition** (6 connections) — `home/uncompress.asm`
-- **XorSpriteChunks** (6 connections) — `home/uncompress.asm`
-- **ResetSpriteBufferPointers** (5 connections) — `home/uncompress.asm`
-- **UnpackSpriteMode2** (5 connections) — `home/uncompress.asm`
-- **ReadNextInputBit** (4 connections) — `home/uncompress.asm`
-- **StoreSpriteOutputPointer** (4 connections) — `home/uncompress.asm`
-- **ReadNextInputByte** (3 connections) — `home/uncompress.asm`
-- **ReverseNybble** (3 connections) — `home/uncompress.asm`
-- **DecodeNybble0Table** (2 connections) — `home/uncompress.asm`
-- **DecodeNybble0TableFlipped** (2 connections) — `home/uncompress.asm`
-- **DecodeNybble1Table** (2 connections) — `home/uncompress.asm`
-- **DecodeNybble1TableFlipped** (2 connections) — `home/uncompress.asm`
-- **DifferentialDecodeNybble** (2 connections) — `home/uncompress.asm`
-- **LengthEncodingOffsetList** (2 connections) — `home/uncompress.asm`
-- **NybbleReverseTable** (2 connections) — `home/uncompress.asm`
-- **WriteSpriteBitsToBuffer** (2 connections) — `home/uncompress.asm`
+- **CableClubNPC** (19 connections) — `engine/link/cable_club_npc.asm`
+- **home/serial.asm** (14 connections) — `home/serial.asm`
+- **engine/link/cable_club_npc.asm** (11 connections) — `engine/link/cable_club_npc.asm`
+- **Serial_SyncAndExchangeNybble** (10 connections) — `home/serial.asm`
+- **Serial_ExchangeByte** (8 connections) — `home/serial.asm`
+- **Serial_ExchangeLinkMenuSelection** (6 connections) — `home/serial.asm`
+- **wUnknownSerialCounter** (6 connections) — `ram/wram.asm`
+- **CloseLinkConnection** (4 connections) — `engine/link/cable_club_npc.asm`
+- **IsUnknownCounterZero** (4 connections) — `home/serial.asm`
+- **Serial_SendZeroByte** (4 connections) — `home/serial.asm`
+- **Serial_ExchangeBytes** (3 connections) — `home/serial.asm`
+- **Serial_ExchangeNybble** (3 connections) — `home/serial.asm`
+- **SetUnknownCounterToFFFF** (3 connections) — `home/serial.asm`
+- **CableClubNPCAreaReservedFor2FriendsLinkedByCableText** (2 connections) — `engine/link/cable_club_npc.asm`
+- **CableClubNPCLinkClosedBecauseOfInactivityText** (2 connections) — `engine/link/cable_club_npc.asm`
+- **CableClubNPCMakingPreparationsText** (2 connections) — `engine/link/cable_club_npc.asm`
+- **CableClubNPCPleaseApplyHereHaveToSaveText** (2 connections) — `engine/link/cable_club_npc.asm`
+- **CableClubNPCPleaseComeAgainText** (2 connections) — `engine/link/cable_club_npc.asm`
+- **CableClubNPCPleaseWaitText** (2 connections) — `engine/link/cable_club_npc.asm`
+- **CableClubNPCWelcomeText** (2 connections) — `engine/link/cable_club_npc.asm`
+- **Serial** (2 connections) — `home/serial.asm`
+- **WaitLoop_15Iterations** (2 connections) — `home/serial.asm`
 
 ## Relationships
 
-- [Engine Battle 14](Engine_Battle_14.md) (7 shared connections)
-- [Ram](Ram.md) (1 shared connections)
-- [Engine Movie 3](Engine_Movie_3.md) (1 shared connections)
+- [Engine Movie 3](Engine_Movie_3.md) (4 shared connections)
+- [Ram 2](Ram_2.md) (2 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
+- [Home](Home.md) (1 shared connections)
+- [Engine Movie 5](Engine_Movie_5.md) (1 shared connections)
+- [Scripts 8](Scripts_8.md) (1 shared connections)
 
 ## Source Files
 
-- `home/uncompress.asm`
+- `engine/link/cable_club_npc.asm`
+- `home/serial.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (100%)
+- EXTRACTED: 57 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

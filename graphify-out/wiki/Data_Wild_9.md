@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/wild/maps/nothing.asm** (3 connections) — `data/wild/maps/nothing.asm`
-- **NothingWildMons** (2 connections) — `data/wild/maps/nothing.asm`
+- **data/wild/maps/PokemonMansion1F.asm** (3 connections) — `data/wild/maps/PokemonMansion1F.asm`
+- **PokemonMansion1FWildMons** (2 connections) — `data/wild/maps/PokemonMansion1F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/wild/maps/nothing.asm`
+- `data/wild/maps/PokemonMansion1F.asm`
 
 ## Audit Trail
 

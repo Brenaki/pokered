@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **text/LoreleisRoom.asm** (6 connections) — `text/LoreleisRoom.asm`
-- **_LoreleisRoomLoreleiAfterBattleText** (1 connections) — `text/LoreleisRoom.asm`
-- **_LoreleisRoomLoreleiBeforeBattleText** (1 connections) — `text/LoreleisRoom.asm`
-- **_LoreleisRoomLoreleiDontRunAwayText** (1 connections) — `text/LoreleisRoom.asm`
-- **_LoreleisRoomLoreleiEndBattleText** (1 connections) — `text/LoreleisRoom.asm`
+- **text/Route16Gate2F.asm** (6 connections) — `text/Route16Gate2F.asm`
+- **_Route16Gate2FLeftBinocularsText** (1 connections) — `text/Route16Gate2F.asm`
+- **_Route16Gate2FLittleBoyText** (1 connections) — `text/Route16Gate2F.asm`
+- **_Route16Gate2FLittleGirlText** (1 connections) — `text/Route16Gate2F.asm`
+- **_Route16Gate2FRightBinocularsText** (1 connections) — `text/Route16Gate2F.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `text/LoreleisRoom.asm`
+- `text/Route16Gate2F.asm`
 
 ## Audit Trail
 

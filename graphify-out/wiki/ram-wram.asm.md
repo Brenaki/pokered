@@ -1,8 +1,8 @@
 # ram/wram.asm
 
-> God node · 921 connections · `ram/wram.asm`
+> God node · 922 connections · `ram/wram.asm`
 
-**Community:** [Ram](Ram.md)
+**Community:** [Bank WRAM0](Bank_WRAM0.md)
 
 ## Connections by Relation
 
@@ -35,10 +35,10 @@
 - wChannelFlags2 `EXTRACTED`
 - wEnemyBattleStatus1 `EXTRACTED`
 - wPlayerBattleStatus1 `EXTRACTED`
+- wDamage `EXTRACTED`
 - wEnemyBattleStatus2 `EXTRACTED`
 - wPlayerBattleStatus2 `EXTRACTED`
 - wChannelSoundIDs `EXTRACTED`
-- wMovementFlags `EXTRACTED`
 
 ---
 

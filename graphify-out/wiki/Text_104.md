@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **text/Route12SuperRodHouse.asm** (8 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruDoYouLikeToFishText** (1 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruFishingWayOfLifeText** (1 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruNoRoomText** (1 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruReceivedSuperRodText** (1 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruThatsDisappointingText** (1 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruTryFishingText** (1 connections) — `text/Route12SuperRodHouse.asm`
+- **text/Route1.asm** (8 connections) — `text/Route1.asm`
+- **_Route1SignText** (1 connections) — `text/Route1.asm`
+- **_Route1Youngster1AlsoGotPokeballsText** (1 connections) — `text/Route1.asm`
+- **_Route1Youngster1GotPotionText** (1 connections) — `text/Route1.asm`
+- **_Route1Youngster1MartSampleText** (1 connections) — `text/Route1.asm`
+- **_Route1Youngster1NoRoomText** (1 connections) — `text/Route1.asm`
+- **_Route1Youngster2Text** (1 connections) — `text/Route1.asm`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `text/Route12SuperRodHouse.asm`
+- `text/Route1.asm`
 
 ## Audit Trail
 

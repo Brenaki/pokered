@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **data/pokemon/dex_entries.asm** (155 connections) — `data/pokemon/dex_entries.asm`
+- **data/pokemon/dex_entries.asm** (157 connections) — `data/pokemon/dex_entries.asm`
 - **PokedexEntryPointers** (154 connections) — `data/pokemon/dex_entries.asm`
 - **AbraDexEntry** (2 connections) — `data/pokemon/dex_entries.asm`
 - **AerodactylDexEntry** (2 connections) — `data/pokemon/dex_entries.asm`

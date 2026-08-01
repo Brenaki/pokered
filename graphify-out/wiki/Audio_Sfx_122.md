@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **audio/sfx/psychic_m.asm** (5 connections) — `audio/sfx/psychic_m.asm`
-- **SFX_Psychic_M_Ch5** (1 connections) — `audio/sfx/psychic_m.asm`
-- **SFX_Psychic_M_Ch6** (1 connections) — `audio/sfx/psychic_m.asm`
-- **SFX_Psychic_M_Ch8** (1 connections) — `audio/sfx/psychic_m.asm`
+- **audio/sfx/get_item1_3.asm** (5 connections) — `audio/sfx/get_item1_3.asm`
+- **SFX_Get_Item1_3_Ch5** (1 connections) — `audio/sfx/get_item1_3.asm`
+- **SFX_Get_Item1_3_Ch6** (1 connections) — `audio/sfx/get_item1_3.asm`
+- **SFX_Get_Item1_3_Ch7** (1 connections) — `audio/sfx/get_item1_3.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `audio/sfx/psychic_m.asm`
+- `audio/sfx/get_item1_3.asm`
 
 ## Audit Trail
 

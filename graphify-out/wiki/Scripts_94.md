@@ -1,31 +1,33 @@
 # Scripts 94
 
-> 9 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **scripts/SSAnneKitchen.asm** (11 connections) — `scripts/SSAnneKitchen.asm`
-- **SSAnneKitchen_Script** (2 connections) — `scripts/SSAnneKitchen.asm`
-- **SSAnneKitchen_TextPointers** (1 connections) — `scripts/SSAnneKitchen.asm`
-- **SSAnneKitchenCook1Text** (1 connections) — `scripts/SSAnneKitchen.asm`
-- **SSAnneKitchenCook2Text** (1 connections) — `scripts/SSAnneKitchen.asm`
-- **SSAnneKitchenCook3Text** (1 connections) — `scripts/SSAnneKitchen.asm`
-- **SSAnneKitchenCook4Text** (1 connections) — `scripts/SSAnneKitchen.asm`
-- **SSAnneKitchenCook5Text** (1 connections) — `scripts/SSAnneKitchen.asm`
-- **SSAnneKitchenCook6Text** (1 connections) — `scripts/SSAnneKitchen.asm`
+- **Route15TalkToTrainer** (12 connections) — `scripts/Route15.asm`
+- **Route15Beauty1Text** (3 connections) — `scripts/Route15.asm`
+- **Route15Biker1Text** (3 connections) — `scripts/Route15.asm`
+- **Route15CooltrainerF1Text** (3 connections) — `scripts/Route15.asm`
+- **Route15CooltrainerM1Text** (3 connections) — `scripts/Route15.asm`
+- **Route15CooltrainerM2Text** (3 connections) — `scripts/Route15.asm`
+- **Route15TrainerHeader0** (2 connections) — `scripts/Route15.asm`
+- **Route15TrainerHeader2** (2 connections) — `scripts/Route15.asm`
+- **Route15TrainerHeader3** (2 connections) — `scripts/Route15.asm`
+- **Route15TrainerHeader4** (2 connections) — `scripts/Route15.asm`
+- **Route15TrainerHeader6** (2 connections) — `scripts/Route15.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
+- [Home 8](Home_8.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SSAnneKitchen.asm`
+- `scripts/Route15.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

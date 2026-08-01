@@ -1,55 +1,51 @@
 # Scripts 50
 
-> 28 nodes · cohesion 0.10
+> 28 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts/ChampionsRoom.asm** (30 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomRivalReadyToBattleScript** (8 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoom_DisplayTextID_AllowABSelectStart** (7 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomOakArrivesScript** (7 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomOakComeWithMeScript** (5 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomRivalDefeatedScript** (5 connections) — `scripts/ChampionsRoom.asm`
-- **wOptions** (4 connections) — `ram/wram.asm`
-- **ChampionsRoom_Script** (4 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomOakCongratulatesPlayerText** (4 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomRivalText** (4 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomOakCongratulatesPlayerScript** (3 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomOakDisappointedWithRivalScript** (3 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoom_ScriptPointers** (2 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomOakExitsScript** (2 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomRivalAfterBattleText** (2 connections) — `scripts/ChampionsRoom.asm`
-- **OakEntranceAfterVictoryMovement** (2 connections) — `scripts/ChampionsRoom.asm`
-- **OakExitChampionsRoomMovement** (2 connections) — `scripts/ChampionsRoom.asm`
-- **ResetRivalScript** (2 connections) — `scripts/ChampionsRoom.asm`
-- **RivalDefeatedText** (2 connections) — `scripts/ChampionsRoom.asm`
-- **RivalEntrance_RLEMovement** (2 connections) — `scripts/ChampionsRoom.asm`
-- **RivalVictoryText** (2 connections) — `scripts/ChampionsRoom.asm`
-- **WalkToHallOfFame_RLEMovement** (2 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoom_TextPointers** (1 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomCleanupScript** (1 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomDefaultScript** (1 connections) — `scripts/ChampionsRoom.asm`
+- **scripts/PokemonTower5F.asm** (30 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5F_Script** (5 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler2Text** (4 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler3Text** (4 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler4Text** (4 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler5Text** (4 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5F_ScriptPointers** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FPurifiedZoneCoords** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5TrainerHeader0** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5TrainerHeader1** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5TrainerHeader2** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5TrainerHeader3** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5TrainerHeaders** (2 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5F_TextPointers** (1 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler1Text** (1 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler2AfterBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler2BattleText** (1 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler2EndBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler3AfterBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler3BattleText** (1 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler3EndBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler4AfterBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler4BattleText** (1 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler4EndBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
+- **PokemonTower5FChanneler5AfterBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
 - *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 3](Scripts_3.md) (11 shared connections)
-- [Scripts 2](Scripts_2.md) (4 shared connections)
-- [Scripts 4](Scripts_4.md) (3 shared connections)
-- [Home 2](Home_2.md) (2 shared connections)
-- [Scripts 5](Scripts_5.md) (2 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 27](Scripts_27.md) (1 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Scripts](Scripts.md) (4 shared connections)
+- [Home 8](Home_8.md) (4 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts 47](Scripts_47.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `ram/wram.asm`
-- `scripts/ChampionsRoom.asm`
+- `scripts/PokemonTower5F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,14 +1,13 @@
 # Text 131
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **text/ViridianNicknameHouse.asm** (6 connections) — `text/ViridianNicknameHouse.asm`
-- **_ViridianNicknameHouseBaldingGuyText** (1 connections) — `text/ViridianNicknameHouse.asm`
-- **_ViridianNicknameHouseLittleGirlText** (1 connections) — `text/ViridianNicknameHouse.asm`
-- **_ViridianNicknameHouseSpearowText** (1 connections) — `text/ViridianNicknameHouse.asm`
-- **_ViridianNicknameHouseSpearySignText** (1 connections) — `text/ViridianNicknameHouse.asm`
+- **text/LavenderCuboneHouse.asm** (5 connections) — `text/LavenderCuboneHouse.asm`
+- **_LavenderCuboneHouseBrunetteGirlGhostIsGoneText** (1 connections) — `text/LavenderCuboneHouse.asm`
+- **_LavenderCuboneHouseBrunetteGirlPoorCubonesMotherText** (1 connections) — `text/LavenderCuboneHouse.asm`
+- **_LavenderCuboneHouseCuboneText** (1 connections) — `text/LavenderCuboneHouse.asm`
 
 ## Relationships
 
@@ -16,11 +15,11 @@
 
 ## Source Files
 
-- `text/ViridianNicknameHouse.asm`
+- `text/LavenderCuboneHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

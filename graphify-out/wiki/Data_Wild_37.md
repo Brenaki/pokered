@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/wild/maps/SeaRoutes.asm** (3 connections) — `data/wild/maps/SeaRoutes.asm`
-- **SeaRoutesWildMons** (2 connections) — `data/wild/maps/SeaRoutes.asm`
+- **data/wild/maps/VictoryRoad1F.asm** (3 connections) — `data/wild/maps/VictoryRoad1F.asm`
+- **VictoryRoad1FWildMons** (2 connections) — `data/wild/maps/VictoryRoad1F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/wild/maps/SeaRoutes.asm`
+- `data/wild/maps/VictoryRoad1F.asm`
 
 ## Audit Trail
 

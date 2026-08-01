@@ -1,53 +1,55 @@
 # Engine Items 2
 
-> 21 nodes · cohesion 0.17
+> 22 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **ItemUsePtrTable** (32 connections) — `engine/items/item_effects.asm`
-- **ItemUseNotTime** (24 connections) — `engine/items/item_effects.asm`
-- **PrintItemUseTextAndRemoveItem** (11 connections) — `engine/items/item_effects.asm`
-- **ItemUseXStat** (8 connections) — `engine/items/item_effects.asm`
-- **ItemUseCoinCase** (5 connections) — `engine/items/item_effects.asm`
-- **ItemUseDireHit** (5 connections) — `engine/items/item_effects.asm`
-- **ItemUseGuardSpec** (5 connections) — `engine/items/item_effects.asm`
-- **ItemUseRepelCommon** (5 connections) — `engine/items/item_effects.asm`
-- **ItemUseXAccuracy** (5 connections) — `engine/items/item_effects.asm`
-- **ItemUsePokeDoll** (4 connections) — `engine/items/item_effects.asm`
-- **ItemUseMaxRepel** (3 connections) — `engine/items/item_effects.asm`
-- **ItemUsePPUp** (3 connections) — `engine/items/item_effects.asm`
-- **ItemUseSuperRepel** (3 connections) — `engine/items/item_effects.asm`
-- **ItemUseTownMap** (3 connections) — `engine/items/item_effects.asm`
-- **ItemUseVitamin** (3 connections) — `engine/items/item_effects.asm`
-- **UnusableItem** (3 connections) — `engine/items/item_effects.asm`
-- **UseItem_** (3 connections) — `engine/items/item_effects.asm`
-- **CoinCaseNumCoinsText** (2 connections) — `engine/items/item_effects.asm`
-- **ItemUseNotTimeText** (2 connections) — `engine/items/item_effects.asm`
-- **ItemUsePokedex** (2 connections) — `engine/items/item_effects.asm`
-- **ItemUseRepel** (2 connections) — `engine/items/item_effects.asm`
+- **engine/items/town_map.asm** (31 connections) — `engine/items/town_map.asm`
+- **DisplayTownMap** (21 connections) — `engine/items/town_map.asm`
+- **DisplayWildLocations** (14 connections) — `engine/items/town_map.asm`
+- **DrawPlayerOrBirdSprite** (12 connections) — `engine/items/town_map.asm`
+- **TownMapSpriteBlinkingAnimation** (7 connections) — `engine/items/town_map.asm`
+- **wShadowOAMBackup** (5 connections) — `ram/wram.asm`
+- **wTownMapCoords** (5 connections) — `ram/wram.asm`
+- **TownMapCoordsToOAMCoords** (4 connections) — `engine/items/town_map.asm`
+- **BuildFlyLocationsList** (3 connections) — `engine/items/town_map.asm`
+- **TownMapCursor** (3 connections) — `engine/items/town_map.asm`
+- **WritePlayerOrBirdSpriteOAM** (3 connections) — `engine/items/town_map.asm`
+- **WriteSymmetricMonPartySpriteOAM** (3 connections) — `engine/items/town_map.asm`
+- **WriteTownMapSpriteOAM** (3 connections) — `engine/items/town_map.asm`
+- **ZeroOutDuplicatesInList** (3 connections) — `engine/items/town_map.asm`
+- **AreaUnknownText** (2 connections) — `engine/items/town_map.asm`
+- **MonNestIconEnd** (2 connections) — `engine/items/town_map.asm`
+- **MonsNestText** (2 connections) — `engine/items/town_map.asm`
+- **ToText** (2 connections) — `engine/items/town_map.asm`
+- **WriteAsymmetricMonPartySpriteOAM** (2 connections) — `engine/items/town_map.asm`
+- **TownMapCursorEnd** (1 connections) — `engine/items/town_map.asm`
+- **TownMapUpArrowEnd** (1 connections) — `engine/items/town_map.asm`
+- **gfx/town_map/town_map_cursor.1bpp** (1 connections) — `engine/items/town_map.asm`
 
 ## Relationships
 
-- [Engine Items](Engine_Items.md) (5 shared connections)
-- [Engine Items 5](Engine_Items_5.md) (4 shared connections)
-- [Engine Battle 16](Engine_Battle_16.md) (3 shared connections)
-- [Engine Items 6](Engine_Items_6.md) (3 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Engine Items 3](Engine_Items_3.md) (2 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
-- [Home 2](Home_2.md) (2 shared connections)
-- [Data Events 2](Data_Events_2.md) (1 shared connections)
-- [Engine Items 4](Engine_Items_4.md) (1 shared connections)
-- [Engine Items 7](Engine_Items_7.md) (1 shared connections)
-- [Engine Battle 11](Engine_Battle_11.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (7 shared connections)
+- [Ram](Ram.md) (6 shared connections)
+- [Data Maps 4](Data_Maps_4.md) (5 shared connections)
+- [Ram 2](Ram_2.md) (4 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (3 shared connections)
+- [Engine Battle 3](Engine_Battle_3.md) (3 shared connections)
+- [Data Maps 5](Data_Maps_5.md) (2 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Engine Slots](Engine_Slots.md) (1 shared connections)
+- [Engine Items](Engine_Items.md) (1 shared connections)
+- [Engine Movie 3](Engine_Movie_3.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/items/item_effects.asm`
+- `engine/items/town_map.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (100%)
+- EXTRACTED: 77 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

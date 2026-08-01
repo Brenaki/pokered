@@ -1,26 +1,27 @@
 # Scripts 98
 
-> 7 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **scripts/CinnabarLabTradeRoom.asm** (8 connections) — `scripts/CinnabarLabTradeRoom.asm`
-- **CinnabarLabTradeRoomDoTrade** (4 connections) — `scripts/CinnabarLabTradeRoom.asm`
-- **CinnabarLabTradeRoom_Script** (2 connections) — `scripts/CinnabarLabTradeRoom.asm`
-- **CinnabarLabTradeRoomGrampsText** (2 connections) — `scripts/CinnabarLabTradeRoom.asm`
-- **CinnabarLabTradeRoom_TextPointers** (1 connections) — `scripts/CinnabarLabTradeRoom.asm`
-- **CinnabarLabTradeRoomBeautyText** (1 connections) — `scripts/CinnabarLabTradeRoom.asm`
-- **CinnabarLabTradeRoomSuperNerdText** (1 connections) — `scripts/CinnabarLabTradeRoom.asm`
+- **scripts/LavenderTown.asm** (11 connections) — `scripts/LavenderTown.asm`
+- **LavenderTown_Script** (2 connections) — `scripts/LavenderTown.asm`
+- **LavenderTown_TextPointers** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownCooltrainerMText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownPokemonHouseSignText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownPokemonTowerSignText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownSignText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownSilphScopeSignText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownSuperNerdText** (1 connections) — `scripts/LavenderTown.asm`
 
 ## Relationships
 
 - [Scripts](Scripts.md) (1 shared connections)
-- [Engine Events 2](Engine_Events_2.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CinnabarLabTradeRoom.asm`
+- `scripts/LavenderTown.asm`
 
 ## Audit Trail
 

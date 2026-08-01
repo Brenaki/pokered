@@ -1,77 +1,77 @@
 # Scripts
 
-> 385 nodes · cohesion 0.01
+> 192 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **EnableAutoTextBoxDrawing** (249 connections) — `home/window.asm`
-- **scripts** (225 connections)
-- **scripts/CeladonMansion3F.asm** (12 connections) — `scripts/CeladonMansion3F.asm`
-- **scripts/CeladonDiner.asm** (9 connections) — `scripts/CeladonDiner.asm`
-- **scripts/CopycatsHouse2F.asm** (9 connections) — `scripts/CopycatsHouse2F.asm`
-- **scripts/RedsHouse1F.asm** (9 connections) — `scripts/RedsHouse1F.asm`
-- **scripts/SafariZoneNorth.asm** (9 connections) — `scripts/SafariZoneNorth.asm`
-- **engine/events/hidden_events/fighting_dojo.asm** (8 connections) — `engine/events/hidden_events/fighting_dojo.asm`
-- **scripts/CinnabarLabMetronomeRoom.asm** (8 connections) — `scripts/CinnabarLabMetronomeRoom.asm`
-- **scripts/Route8Gate.asm** (8 connections) — `scripts/Route8Gate.asm`
-- **scripts/SafariZoneWest.asm** (8 connections) — `scripts/SafariZoneWest.asm`
-- **scripts/SaffronPidgeyHouse.asm** (8 connections) — `scripts/SaffronPidgeyHouse.asm`
-- **scripts/ViridianNicknameHouse.asm** (8 connections) — `scripts/ViridianNicknameHouse.asm`
-- **engine/events/hidden_events/museum_fossils.asm** (7 connections) — `engine/events/hidden_events/museum_fossils.asm`
-- **scripts/CeladonChiefHouse.asm** (7 connections) — `scripts/CeladonChiefHouse.asm`
-- **scripts/CeladonHotel.asm** (7 connections) — `scripts/CeladonHotel.asm`
-- **scripts/CeladonMart1F.asm** (7 connections) — `scripts/CeladonMart1F.asm`
-- **scripts/CeladonMart4F.asm** (7 connections) — `scripts/CeladonMart4F.asm`
-- **scripts/CeruleanTrashedHouse.asm** (7 connections) — `scripts/CeruleanTrashedHouse.asm`
-- **scripts/CopycatsHouse1F.asm** (7 connections) — `scripts/CopycatsHouse1F.asm`
-- **scripts/FuchsiaBillsGrandpasHouse.asm** (7 connections) — `scripts/FuchsiaBillsGrandpasHouse.asm`
-- **scripts/FuchsiaMeetingRoom.asm** (7 connections) — `scripts/FuchsiaMeetingRoom.asm`
-- **scripts/NameRatersHouse.asm** (7 connections) — `scripts/NameRatersHouse.asm`
-- **scripts/PewterNidoranHouse.asm** (7 connections) — `scripts/PewterNidoranHouse.asm`
-- **scripts/Route1.asm** (7 connections) — `scripts/Route1.asm`
-- *... and 360 more nodes in this community*
+- **TextScriptEnd** (534 connections) — `home/overworld_text.asm`
+- **PrintText** (360 connections) — `home/window.asm`
+- **GiveItem** (49 connections) — `home/give.asm`
+- **YesNoChoice** (43 connections) — `home/yes_no.asm`
+- **scripts/FuchsiaCity.asm** (20 connections) — `scripts/FuchsiaCity.asm`
+- **IsItemInBag** (20 connections) — `home/map_objects.asm`
+- **wNumBagItems** (17 connections) — `ram/wram.asm`
+- **scripts/PokemonFanClub.asm** (13 connections) — `scripts/PokemonFanClub.asm`
+- **scripts/Museum1F.asm** (12 connections) — `scripts/Museum1F.asm`
+- **DisplayPokedex** (12 connections) — `home/map_objects.asm`
+- **GetQuantityOfItemInBag** (11 connections) — `engine/items/get_bag_item_quantity.asm`
+- **OaksLab_TextPointers2** (11 connections) — `scripts/OaksLab.asm`
+- **scripts/CinnabarLabFossilRoom.asm** (10 connections) — `scripts/CinnabarLabFossilRoom.asm`
+- **scripts/MrFujisHouse.asm** (10 connections) — `scripts/MrFujisHouse.asm`
+- **OaksLabOak1Text** (10 connections) — `scripts/OaksLab.asm`
+- **GameCornerClerk2Text** (9 connections) — `scripts/GameCorner.asm`
+- **GameCornerFishingGuruText** (9 connections) — `scripts/GameCorner.asm`
+- **GameCornerGentlemanText** (9 connections) — `scripts/GameCorner.asm`
+- **SilphCo6FBeatGiovanniPrintDEOrPrintHLScript** (9 connections) — `scripts/SilphCo6F.asm`
+- **RemoveItemByID** (8 connections) — `engine/menus/pc.asm`
+- **GivePokemon** (8 connections) — `home/give.asm`
+- **FightingDojoHitmonchanPokeBallText** (8 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoHitmonleePokeBallText** (8 connections) — `scripts/FightingDojo.asm`
+- **MtMoonB2FDomeFossilText** (8 connections) — `scripts/MtMoonB2F.asm`
+- **MtMoonB2FHelixFossilText** (8 connections) — `scripts/MtMoonB2F.asm`
+- *... and 167 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (36 shared connections)
-- [Scripts 6](Scripts_6.md) (11 shared connections)
-- [Scripts 4](Scripts_4.md) (9 shared connections)
-- [Home 2](Home_2.md) (8 shared connections)
-- [Scripts 5](Scripts_5.md) (7 shared connections)
-- [Scripts 3](Scripts_3.md) (7 shared connections)
-- [Scripts 10](Scripts_10.md) (6 shared connections)
-- [Scripts 29](Scripts_29.md) (6 shared connections)
-- [Scripts 18](Scripts_18.md) (4 shared connections)
-- [Engine Events 2](Engine_Events_2.md) (4 shared connections)
-- [Scripts 8](Scripts_8.md) (3 shared connections)
-- [Scripts 59](Scripts_59.md) (2 shared connections)
+- [Scripts 4](Scripts_4.md) (12 shared connections)
+- [Ram](Ram.md) (11 shared connections)
+- [Ram 2](Ram_2.md) (8 shared connections)
+- [Engine Events](Engine_Events.md) (8 shared connections)
+- [Scripts 2](Scripts_2.md) (8 shared connections)
+- [Engine Battle](Engine_Battle.md) (6 shared connections)
+- [Scripts 5](Scripts_5.md) (5 shared connections)
+- [Scripts 22](Scripts_22.md) (5 shared connections)
+- [Engine Events 3](Engine_Events_3.md) (5 shared connections)
+- [Engine Events 6](Engine_Events_6.md) (3 shared connections)
+- [Engine Battle 10](Engine_Battle_10.md) (3 shared connections)
+- [Scripts 15](Scripts_15.md) (3 shared connections)
 
 ## Source Files
 
-- `engine/events/hidden_events/fighting_dojo.asm`
-- `engine/events/hidden_events/museum_fossils.asm`
-- `engine/events/hidden_events/reds_room.asm`
-- `engine/events/hidden_events/vermilion_gym_trash.asm`
+- `engine/items/get_bag_item_quantity.asm`
+- `engine/menus/pc.asm`
+- `home/give.asm`
+- `home/map_objects.asm`
+- `home/overworld_text.asm`
+- `home/trainers.asm`
 - `home/window.asm`
-- `scripts/CeladonChiefHouse.asm`
+- `home/yes_no.asm`
+- `ram/wram.asm`
+- `scripts/BikeShop.asm`
+- `scripts/BillsHouse.asm`
+- `scripts/CeladonCity.asm`
 - `scripts/CeladonDiner.asm`
-- `scripts/CeladonHotel.asm`
-- `scripts/CeladonMansion2F.asm`
 - `scripts/CeladonMansion3F.asm`
-- `scripts/CeladonMansionRoof.asm`
 - `scripts/CeladonMansionRoofHouse.asm`
-- `scripts/CeladonMart1F.asm`
-- `scripts/CeladonMart4F.asm`
-- `scripts/CeruleanCave1F.asm`
-- `scripts/CeruleanCave2F.asm`
-- `scripts/CeruleanCity_2.asm`
-- `scripts/CeruleanMart.asm`
-- `scripts/CeruleanTradeHouse.asm`
+- `scripts/CeladonMart3F.asm`
+- `scripts/CeruleanCity.asm`
+- `scripts/CeruleanGym.asm`
 - `scripts/CeruleanTrashedHouse.asm`
+- `scripts/ChampionsRoom.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 672 (100%)
+- EXTRACTED: 526 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

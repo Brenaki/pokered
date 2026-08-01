@@ -1,14 +1,13 @@
 # Text 126
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **text/SafariZoneSecretHouse.asm** (6 connections) — `text/SafariZoneSecretHouse.asm`
-- **_SafariZoneSecretHouseFishingGuruHM03ExplanationText** (1 connections) — `text/SafariZoneSecretHouse.asm`
-- **_SafariZoneSecretHouseFishingGuruHM03NoRoomText** (1 connections) — `text/SafariZoneSecretHouse.asm`
-- **_SafariZoneSecretHouseFishingGuruReceivedHM03Text** (1 connections) — `text/SafariZoneSecretHouse.asm`
-- **_SafariZoneSecretHouseFishingGuruYouHaveWonText** (1 connections) — `text/SafariZoneSecretHouse.asm`
+- **text/CeladonHotel.asm** (5 connections) — `text/CeladonHotel.asm`
+- **_CeladonHotelBeautyText** (1 connections) — `text/CeladonHotel.asm`
+- **_CeladonHotelGrannyText** (1 connections) — `text/CeladonHotel.asm`
+- **_CeladonHotelSuperNerdText** (1 connections) — `text/CeladonHotel.asm`
 
 ## Relationships
 
@@ -16,11 +15,11 @@
 
 ## Source Files
 
-- `text/SafariZoneSecretHouse.asm`
+- `text/CeladonHotel.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

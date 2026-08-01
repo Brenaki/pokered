@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **text/Route16Gate2F.asm** (6 connections) — `text/Route16Gate2F.asm`
-- **_Route16Gate2FLeftBinocularsText** (1 connections) — `text/Route16Gate2F.asm`
-- **_Route16Gate2FLittleBoyText** (1 connections) — `text/Route16Gate2F.asm`
-- **_Route16Gate2FLittleGirlText** (1 connections) — `text/Route16Gate2F.asm`
-- **_Route16Gate2FRightBinocularsText** (1 connections) — `text/Route16Gate2F.asm`
+- **text/UndergroundPathRoute7Copy.asm** (6 connections) — `text/UndergroundPathRoute7Copy.asm`
+- **_UndergroundPathRoute7CopyUnusedGirlText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
+- **_UndergroundPathRoute7CopyUnusedGoesUnderSaffronText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
+- **_UndergroundPathRoute7CopyUnusedMiddleAgedManText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
+- **_UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `text/Route16Gate2F.asm`
+- `text/UndergroundPathRoute7Copy.asm`
 
 ## Audit Trail
 

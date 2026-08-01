@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **data/pokemon/dex_text.asm** (153 connections) — `data/pokemon/dex_text.asm`
+- **data/pokemon/dex_text.asm** (155 connections) — `data/pokemon/dex_text.asm`
 - **_AbraDexEntry** (1 connections) — `data/pokemon/dex_text.asm`
 - **_AerodactylDexEntry** (1 connections) — `data/pokemon/dex_text.asm`
 - **_AlakazamDexEntry** (1 connections) — `data/pokemon/dex_text.asm`

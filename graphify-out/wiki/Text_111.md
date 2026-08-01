@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **text/PokemonTower1F.asm** (7 connections) — `text/PokemonTower1F.asm`
-- **_PokemonTower1FBaldingGuyText** (1 connections) — `text/PokemonTower1F.asm`
-- **_PokemonTower1FChannelerText** (1 connections) — `text/PokemonTower1F.asm`
-- **_PokemonTower1FGirlText** (1 connections) — `text/PokemonTower1F.asm`
-- **_PokemonTower1FMiddleAgedWomanText** (1 connections) — `text/PokemonTower1F.asm`
-- **_PokemonTower1FReceptionistText** (1 connections) — `text/PokemonTower1F.asm`
+- **text/PokemonTower2F.asm** (7 connections) — `text/PokemonTower2F.asm`
+- **_PokemonTower2FChannelerText** (1 connections) — `text/PokemonTower2F.asm`
+- **_PokemonTower2FRivalDefeatedText** (1 connections) — `text/PokemonTower2F.asm`
+- **_PokemonTower2FRivalHowsYourDexText** (1 connections) — `text/PokemonTower2F.asm`
+- **_PokemonTower2FRivalVictoryText** (1 connections) — `text/PokemonTower2F.asm`
+- **_PokemonTower2FRivalWhatBringsYouHereText** (1 connections) — `text/PokemonTower2F.asm`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `text/PokemonTower1F.asm`
+- `text/PokemonTower2F.asm`
 
 ## Audit Trail
 

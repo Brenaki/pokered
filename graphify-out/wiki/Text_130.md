@@ -1,14 +1,13 @@
 # Text 130
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **text/UndergroundPathRoute7Copy.asm** (6 connections) — `text/UndergroundPathRoute7Copy.asm`
-- **_UndergroundPathRoute7CopyUnusedGirlText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
-- **_UndergroundPathRoute7CopyUnusedGoesUnderSaffronText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
-- **_UndergroundPathRoute7CopyUnusedMiddleAgedManText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
-- **_UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
+- **text/FuchsiaMeetingRoom.asm** (5 connections) — `text/FuchsiaMeetingRoom.asm`
+- **_FuchsiaMeetingRoomSafariZoneWorker1** (1 connections) — `text/FuchsiaMeetingRoom.asm`
+- **_FuchsiaMeetingRoomSafariZoneWorker2** (1 connections) — `text/FuchsiaMeetingRoom.asm`
+- **_FuchsiaMeetingRoomSafariZoneWorker3** (1 connections) — `text/FuchsiaMeetingRoom.asm`
 
 ## Relationships
 
@@ -16,11 +15,11 @@
 
 ## Source Files
 
-- `text/UndergroundPathRoute7Copy.asm`
+- `text/FuchsiaMeetingRoom.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

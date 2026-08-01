@@ -1,38 +1,36 @@
 # Scripts 87
 
-> 13 nodes · cohesion 0.24
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **scripts/ViridianMart.asm** (15 connections) — `scripts/ViridianMart.asm`
-- **ViridianMart_Script** (5 connections) — `scripts/ViridianMart.asm`
-- **ViridianMart_TextPointers** (5 connections) — `scripts/ViridianMart.asm`
-- **ViridianMartCheckParcelDeliveredScript** (4 connections) — `scripts/ViridianMart.asm`
-- **ViridianMartOaksParcelScript** (4 connections) — `scripts/ViridianMart.asm`
-- **ViridianMart_ScriptPointers** (2 connections) — `scripts/ViridianMart.asm`
-- **ViridianMart_TextPointers2** (2 connections) — `scripts/ViridianMart.asm`
-- **ViridianMartClerkSayHiToOakText** (2 connections) — `scripts/ViridianMart.asm`
-- **ViridianMartCooltrainerMText** (2 connections) — `scripts/ViridianMart.asm`
-- **ViridianMartYoungsterText** (2 connections) — `scripts/ViridianMart.asm`
-- **ViridianMartClerkParcelQuestText** (1 connections) — `scripts/ViridianMart.asm`
-- **ViridianMartClerkYouCameFromPalletTownText** (1 connections) — `scripts/ViridianMart.asm`
-- **ViridianMartNoopScript** (1 connections) — `scripts/ViridianMart.asm`
+- **scripts/CeladonMart3F.asm** (16 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3F_Script** (2 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3F_TextPointers** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FCurrentFloorSignText** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FFightingGameText** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FGameBoyKid1Text** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FGameBoyKid2Text** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FGameBoyKid3Text** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FLittleBoyText** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FPokemonPosterText** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FPuzzleGameText** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FRPGText** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FSNESText** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FSportsGameText** (1 connections) — `scripts/CeladonMart3F.asm`
 
 ## Relationships
 
-- [Scripts 3](Scripts_3.md) (2 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Home 2](Home_2.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/ViridianMart.asm`
+- `scripts/CeladonMart3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

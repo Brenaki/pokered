@@ -1,5 +1,166 @@
 {
-  "generated_at": "2026-08-01T18:10:01.027189+00:00",
-  "nodes": {},
+  "generated_at": "2026-08-01T19:00:50.835407+00:00",
+  "nodes": {
+    "data_types_type_matchups_asm_label_typeeffects": {
+      "code_fingerprint": "f7f2286029d4fe64c80ed6cc5f5c75ec1f1b8903a9eabd171deab49e23228d39",
+      "label": "TypeEffects",
+      "last": "2026-08-01T18:28:17.303727+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T18:28:17.303727+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
+        }
+      ],
+      "score": 0.999477727,
+      "source_file": "data/types/type_matchups.asm",
+      "status": "tentative",
+      "uses": 1
+    },
+    "engine_battle_core_asm_label_adjustdamageformovetype": {
+      "code_fingerprint": "928a66d1ac444fc913c7c658d9f7739eb6351e797b3276da64a5de9682a57a5f",
+      "label": "AdjustDamageForMoveType",
+      "last": "2026-08-01T18:28:17.303727+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T18:28:17.303727+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
+        }
+      ],
+      "score": 0.999477727,
+      "source_file": "engine/battle/core.asm",
+      "status": "tentative",
+      "uses": 1
+    },
+    "engine_battle_core_asm_label_battlerandom": {
+      "code_fingerprint": "928a66d1ac444fc913c7c658d9f7739eb6351e797b3276da64a5de9682a57a5f",
+      "label": "BattleRandom",
+      "last": "2026-08-01T18:28:17.303727+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T18:28:17.303727+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
+        }
+      ],
+      "score": 0.999477727,
+      "source_file": "engine/battle/core.asm",
+      "status": "tentative",
+      "uses": 1
+    },
+    "engine_battle_core_asm_label_calculatedamage": {
+      "code_fingerprint": "928a66d1ac444fc913c7c658d9f7739eb6351e797b3276da64a5de9682a57a5f",
+      "label": "CalculateDamage",
+      "last": "2026-08-01T18:28:17.303727+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T18:28:17.303727+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
+        }
+      ],
+      "score": 0.999477727,
+      "source_file": "engine/battle/core.asm",
+      "status": "tentative",
+      "uses": 1
+    },
+    "engine_battle_core_asm_label_criticalhittest": {
+      "code_fingerprint": "928a66d1ac444fc913c7c658d9f7739eb6351e797b3276da64a5de9682a57a5f",
+      "label": "CriticalHitTest",
+      "last": "2026-08-01T18:28:17.303727+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T18:28:17.303727+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
+        }
+      ],
+      "score": 0.999477727,
+      "source_file": "engine/battle/core.asm",
+      "status": "tentative",
+      "uses": 1
+    },
+    "engine_battle_core_asm_label_movehittest": {
+      "code_fingerprint": "928a66d1ac444fc913c7c658d9f7739eb6351e797b3276da64a5de9682a57a5f",
+      "label": "MoveHitTest",
+      "last": "2026-08-01T18:28:17.303727+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T18:28:17.303727+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
+        }
+      ],
+      "score": 0.999477727,
+      "source_file": "engine/battle/core.asm",
+      "status": "tentative",
+      "uses": 1
+    },
+    "engine_items_item_effects_asm_label_itemuseball": {
+      "code_fingerprint": "76b570b5216bbbcf6d9528c4704d931744a3740cce88afdc4f4f8f700449dda1",
+      "label": "ItemUseBall",
+      "last": "2026-08-01T18:28:17.303727+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T18:28:17.303727+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
+        }
+      ],
+      "score": 0.999477727,
+      "source_file": "engine/items/item_effects.asm",
+      "status": "tentative",
+      "uses": 1
+    },
+    "engine_items_item_effects_asm_label_itemusemedicine": {
+      "code_fingerprint": "76b570b5216bbbcf6d9528c4704d931744a3740cce88afdc4f4f8f700449dda1",
+      "label": "ItemUseMedicine",
+      "last": "2026-08-01T18:28:17.303727+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T18:28:17.303727+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
+        }
+      ],
+      "score": 0.999477727,
+      "source_file": "engine/items/item_effects.asm",
+      "status": "tentative",
+      "uses": 1
+    },
+    "engine_items_item_effects_asm_label_itemusepprestore": {
+      "code_fingerprint": "76b570b5216bbbcf6d9528c4704d931744a3740cce88afdc4f4f8f700449dda1",
+      "label": "ItemUsePPRestore",
+      "last": "2026-08-01T18:28:17.303727+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T18:28:17.303727+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
+        }
+      ],
+      "score": 0.999477727,
+      "source_file": "engine/items/item_effects.asm",
+      "status": "tentative",
+      "uses": 1
+    },
+    "engine_items_item_effects_asm_label_restorebonuspp": {
+      "code_fingerprint": "76b570b5216bbbcf6d9528c4704d931744a3740cce88afdc4f4f8f700449dda1",
+      "label": "RestoreBonusPP",
+      "last": "2026-08-01T18:28:17.303727+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T18:28:17.303727+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
+        }
+      ],
+      "score": 0.999477727,
+      "source_file": "engine/items/item_effects.asm",
+      "status": "tentative",
+      "uses": 1
+    }
+  },
   "version": 1
 }

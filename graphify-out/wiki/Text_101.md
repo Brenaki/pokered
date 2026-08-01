@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **text/RocketHideoutB3F.asm** (8 connections) — `text/RocketHideoutB3F.asm`
-- **_RocketHide3AfterBattleText3** (1 connections) — `text/RocketHideoutB3F.asm`
-- **_RocketHideout3BattleText** (1 connections) — `text/RocketHideoutB3F.asm`
-- **_RocketHideout3EndBattleText3** (1 connections) — `text/RocketHideoutB3F.asm`
-- **_RocketHideoutB3FRocket1AfterBattleText** (1 connections) — `text/RocketHideoutB3F.asm`
-- **_RocketHideoutB3FRocket1BattleText** (1 connections) — `text/RocketHideoutB3F.asm`
-- **_RocketHideoutB3FRocket1EndBattleText** (1 connections) — `text/RocketHideoutB3F.asm`
+- **text/Route11_2.asm** (8 connections) — `text/Route11_2.asm`
+- **_Route11DiglettsCaveSignText** (1 connections) — `text/Route11_2.asm`
+- **_Route11SuperNerd2AfterBattleText** (1 connections) — `text/Route11_2.asm`
+- **_Route11SuperNerd2EndBattleText** (1 connections) — `text/Route11_2.asm`
+- **_Route11Youngster4AfterBattleText** (1 connections) — `text/Route11_2.asm`
+- **_Route11Youngster4BattleText** (1 connections) — `text/Route11_2.asm`
+- **_Route11Youngster4EndBattleText** (1 connections) — `text/Route11_2.asm`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `text/RocketHideoutB3F.asm`
+- `text/Route11_2.asm`
 
 ## Audit Trail
 

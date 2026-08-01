@@ -1,51 +1,41 @@
 # Engine Overworld 4
 
-> 22 nodes · cohesion 0.16
+> 15 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **wSpriteStateData1** (13 connections) — `ram/wram.asm`
-- **engine/overworld/trainer_sight.asm** (12 connections) — `engine/overworld/trainer_sight.asm`
-- **TrainerEngage** (9 connections) — `engine/overworld/trainer_sight.asm`
-- **CalcPositionOfPlayerRelativeToNPC** (8 connections) — `engine/overworld/pathfinding.asm`
-- **PalletTownOakWalksToPlayerScript** (8 connections) — `scripts/PalletTown.asm`
-- **FindPathToPlayer** (6 connections) — `engine/overworld/pathfinding.asm`
-- **TrainerWalkUpToPlayer** (6 connections) — `engine/overworld/trainer_sight.asm`
-- **GetSpriteDataPointer** (5 connections) — `engine/overworld/trainer_sight.asm`
-- **CalcDifference** (5 connections) — `home/pathfinding.asm`
-- **_GetSpritePosition1** (4 connections) — `engine/overworld/trainer_sight.asm`
-- **_GetSpritePosition2** (4 connections) — `engine/overworld/trainer_sight.asm`
-- **ReadTrainerScreenPosition** (4 connections) — `engine/overworld/trainer_sight.asm`
-- **_SetSpritePosition1** (4 connections) — `engine/overworld/trainer_sight.asm`
-- **_SetSpritePosition2** (4 connections) — `engine/overworld/trainer_sight.asm`
-- **CheckPlayerIsInFrontOfSprite** (3 connections) — `engine/overworld/trainer_sight.asm`
-- **DivideBytes** (3 connections) — `home/pathfinding.asm`
-- **hDividend2** (3 connections) — `ram/hram.asm`
-- **hFindPathNumSteps** (3 connections) — `ram/hram.asm`
-- **hNPCPlayerRelativePosFlags** (3 connections) — `ram/hram.asm`
-- **hNPCPlayerYDistance** (3 connections) — `ram/hram.asm`
-- **hQuotient2** (3 connections) — `ram/hram.asm`
-- **CheckSpriteCanSeePlayer** (2 connections) — `engine/overworld/trainer_sight.asm`
+- **engine/overworld/map_sprites.asm** (9 connections) — `engine/overworld/map_sprites.asm`
+- **LoadMapSpriteTilePatterns** (8 connections) — `engine/overworld/map_sprites.asm`
+- **InitOutsideMapSprites** (7 connections) — `engine/overworld/map_sprites.asm`
+- **InitMapSprites** (6 connections) — `engine/overworld/map_sprites.asm`
+- **data/maps/sprite_sets.asm** (5 connections) — `data/maps/sprite_sets.asm`
+- **GetSplitMapSpriteSetID** (4 connections) — `engine/overworld/map_sprites.asm`
+- **data/sprites** (3 connections)
+- **data/sprites/sprites.asm** (3 connections) — `data/sprites/sprites.asm`
+- **wSpriteSet** (3 connections) — `ram/wram.asm`
+- **wXCoord** (3 connections) — `ram/wram.asm`
+- **MapSpriteSets** (2 connections) — `data/maps/sprite_sets.asm`
+- **SplitMapSpriteSets** (2 connections) — `data/maps/sprite_sets.asm`
+- **SpriteSets** (2 connections) — `data/maps/sprite_sets.asm`
+- **SpriteSheetPointerTable** (2 connections) — `data/sprites/sprites.asm`
+- **ReadSpriteSheetData** (2 connections) — `engine/overworld/map_sprites.asm`
 
 ## Relationships
 
-- [Scripts 3](Scripts_3.md) (6 shared connections)
-- [Home 2](Home_2.md) (2 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Engine Movie 3](Engine_Movie_3.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (3 shared connections)
+- [Engine Gfx 3](Engine_Gfx_3.md) (1 shared connections)
+- [Engine Overworld 3](Engine_Overworld_3.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/overworld/pathfinding.asm`
-- `engine/overworld/trainer_sight.asm`
-- `home/pathfinding.asm`
-- `ram/hram.asm`
+- `data/maps/sprite_sets.asm`
+- `data/sprites/sprites.asm`
+- `engine/overworld/map_sprites.asm`
 - `ram/wram.asm`
-- `scripts/PalletTown.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

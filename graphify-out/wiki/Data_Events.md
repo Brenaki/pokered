@@ -1,62 +1,52 @@
 # Data Events
 
-> 25 nodes · cohesion 0.11
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **GetPrizeMenuId** (14 connections) — `engine/events/prize_menu.asm`
 - **data/events** (11 connections)
-- **data/events/prizes.asm** (10 connections) — `data/events/prizes.asm`
-- **PrizeDifferentMenuPtrs** (8 connections) — `data/events/prizes.asm`
+- **PrintCardKeyText** (9 connections) — `engine/events/card_key.asm`
 - **CheckForHiddenEvent** (8 connections) — `engine/overworld/hidden_events.asm`
+- **engine/events/card_key.asm** (7 connections) — `engine/events/card_key.asm`
 - **engine/overworld/hidden_events.asm** (6 connections) — `engine/overworld/hidden_events.asm`
 - **data/events/hidden_events.asm** (4 connections) — `data/events/hidden_events.asm`
-- **wPrize1** (4 connections) — `ram/wram.asm`
-- **wPrize1Price** (4 connections) — `ram/wram.asm`
-- **data/events/hidden_coins.asm** (3 connections) — `data/events/hidden_coins.asm`
-- **wHiddenEventFunctionArgument** (3 connections) — `ram/wram.asm`
-- **wHiddenEventIndex** (3 connections) — `ram/wram.asm`
-- **wPrize2Price** (3 connections) — `ram/wram.asm`
-- **wPrize3Price** (3 connections) — `ram/wram.asm`
-- **HiddenCoinCoords** (2 connections) — `data/events/hidden_coins.asm`
+- **data/events/trades.asm** (4 connections) — `data/events/trades.asm`
+- **data/events/card_key_maps.asm** (3 connections) — `data/events/card_key_maps.asm`
+- **SilphCoMapList** (2 connections) — `data/events/card_key_maps.asm`
 - **HiddenEventMaps** (2 connections) — `data/events/hidden_events.asm`
 - **HiddenEventPointers** (2 connections) — `data/events/hidden_events.asm`
-- **NoThanksText** (2 connections) — `data/events/prizes.asm`
-- **PrizeMenuMon1Cost** (2 connections) — `data/events/prizes.asm`
-- **PrizeMenuMon1Entries** (2 connections) — `data/events/prizes.asm`
-- **PrizeMenuMon2Cost** (2 connections) — `data/events/prizes.asm`
-- **PrizeMenuMon2Entries** (2 connections) — `data/events/prizes.asm`
-- **PrizeMenuTMsCost** (2 connections) — `data/events/prizes.asm`
-- **PrizeMenuTMsEntries** (2 connections) — `data/events/prizes.asm`
+- **TradeMons** (2 connections) — `data/events/trades.asm`
+- **GetCoordsInFrontOfPlayer** (2 connections) — `engine/events/card_key.asm`
 - **CheckIfCoordsInFrontOfPlayerMatch** (2 connections) — `engine/overworld/hidden_events.asm`
+- **CardKeyFailText** (1 connections) — `engine/events/card_key.asm`
+- **CardKeySuccessText** (1 connections) — `engine/events/card_key.asm`
 
 ## Relationships
 
-- [Engine Events](Engine_Events.md) (2 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
-- [Home 3](Home_3.md) (2 shared connections)
-- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
+- [Engine Events](Engine_Events.md) (3 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
+- [Engine Events 5](Engine_Events_5.md) (1 shared connections)
+- [Data Events 3](Data_Events_3.md) (1 shared connections)
 - [Data Events 2](Data_Events_2.md) (1 shared connections)
-- [Engine Events 7](Engine_Events_7.md) (1 shared connections)
 - [Engine Slots](Engine_Slots.md) (1 shared connections)
-- [Engine Events 2](Engine_Events_2.md) (1 shared connections)
-- [Scripts 29](Scripts_29.md) (1 shared connections)
-- [Engine Menus](Engine_Menus.md) (1 shared connections)
-- [Bank HRAM](Bank_HRAM.md) (1 shared connections)
+- [Home](Home.md) (1 shared connections)
+- [Engine Overworld 6](Engine_Overworld_6.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 - [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 11](Scripts_11.md) (1 shared connections)
 
 ## Source Files
 
-- `data/events/hidden_coins.asm`
+- `data/events/card_key_maps.asm`
 - `data/events/hidden_events.asm`
-- `data/events/prizes.asm`
-- `engine/events/prize_menu.asm`
+- `data/events/trades.asm`
+- `engine/events/card_key.asm`
 - `engine/overworld/hidden_events.asm`
-- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
+- EXTRACTED: 37 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

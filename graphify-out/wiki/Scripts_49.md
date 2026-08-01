@@ -14,8 +14,8 @@
 - **SilphCo11FRocket1Text** (4 connections) — `scripts/SilphCo11F.asm`
 - **SilphCo11FRocket2Text** (4 connections) — `scripts/SilphCo11F.asm`
 - **SilphCo11FSetPlayerAndSpriteFacingDirectionScript** (4 connections) — `scripts/SilphCo11F.asm`
-- **SilphCo11FSilphPresidentText** (4 connections) — `scripts/SilphCo11F.asm`
 - **SilphCo11FTeamRocketLeavesScript** (4 connections) — `scripts/SilphCo11F.asm`
+- **SilphCo10FGiovanniILostAgainText** (2 connections) — `scripts/SilphCo11F.asm`
 - **SilphCo11F_ScriptPointers** (2 connections) — `scripts/SilphCo11F.asm`
 - **SilphCo11FResetCurScript** (2 connections) — `scripts/SilphCo11F.asm`
 - **SilphCo11FSetUnlockedDoorEventScript** (2 connections) — `scripts/SilphCo11F.asm`
@@ -33,18 +33,18 @@
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (6 shared connections)
-- [Scripts 3](Scripts_3.md) (4 shared connections)
-- [Home 2](Home_2.md) (3 shared connections)
-- [Scripts 5](Scripts_5.md) (2 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (2 shared connections)
-- [Scripts 9](Scripts_9.md) (2 shared connections)
+- [Scripts](Scripts.md) (4 shared connections)
+- [Scripts 2](Scripts_2.md) (4 shared connections)
+- [Scripts 66](Scripts_66.md) (2 shared connections)
+- [Home 5](Home_5.md) (2 shared connections)
+- [Engine Movie 5](Engine_Movie_5.md) (2 shared connections)
+- [Home 8](Home_8.md) (2 shared connections)
 - [Scripts 4](Scripts_4.md) (2 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 62](Scripts_62.md) (1 shared connections)
-- [Ram 9](Ram_9.md) (1 shared connections)
-- [Scripts 8](Scripts_8.md) (1 shared connections)
+- [Scripts 7](Scripts_7.md) (1 shared connections)
+- [Scripts 47](Scripts_47.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 11](Scripts_11.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
 
@@ -52,7 +52,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 68 (100%)
+- EXTRACTED: 65 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

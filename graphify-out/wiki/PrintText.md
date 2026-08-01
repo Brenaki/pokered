@@ -2,7 +2,7 @@
 
 > God node · 360 connections · `home/window.asm`
 
-**Community:** [Scripts 2](Scripts_2.md)
+**Community:** [Scripts](Scripts.md)
 
 ## Connections by Relation
 

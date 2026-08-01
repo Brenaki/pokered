@@ -1,52 +1,52 @@
 # Scripts 53
 
-> 28 nodes · cohesion 0.08
+> 27 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts/RocketHideoutB3F.asm** (31 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3F_Script** (5 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket1Text** (4 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket2Text** (4 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowTilePlayerMovement** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3TrainerHeader0** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3TrainerHeader1** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3TrainerHeaders** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3F_ScriptPointers** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement1** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement10** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement11** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement12** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement2** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement3** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement4** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement5** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement6** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement7** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement8** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement9** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3F_TextPointers** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket1AfterBattleText** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket1BattleText** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket1EndBattleText** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- *... and 3 more nodes in this community*
+- **scripts/FightingDojo.asm** (34 connections) — `scripts/FightingDojo.asm`
+- **FightingDojo_Script** (5 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt1Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt2Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt3Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt4Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoKarateMasterPostBattleScript** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojo_ScriptPointers** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoResetScripts** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoTrainerHeader0** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoTrainerHeader1** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoTrainerHeader2** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoTrainerHeader3** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoTrainerHeaders** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojo_TextPointers** (1 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt1AfterBattleText** (1 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt1BattleText** (1 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt1EndBattleText** (1 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt2AfterBattleText** (1 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt2BattleText** (1 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt2EndBattleText** (1 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt3AfterBattleText** (1 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt3BattleText** (1 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt3EndBattleText** (1 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt4AfterBattleText** (1 connections) — `scripts/FightingDojo.asm`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 9](Scripts_9.md) (2 shared connections)
-- [Scripts 3](Scripts_3.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts](Scripts.md) (7 shared connections)
+- [Home 8](Home_8.md) (4 shared connections)
+- [Scripts 2](Scripts_2.md) (3 shared connections)
+- [Scripts 7](Scripts_7.md) (1 shared connections)
+- [Scripts 47](Scripts_47.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/RocketHideoutB3F.asm`
+- `scripts/FightingDojo.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,49 +4,51 @@
 
 ## Key Concepts
 
-- **scripts/FightingDojo.asm** (33 connections) — `scripts/FightingDojo.asm`
-- **FightingDojo_Script** (5 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt1Text** (4 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt2Text** (4 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt3Text** (4 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt4Text** (4 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoKarateMasterPostBattleScript** (4 connections) — `scripts/FightingDojo.asm`
-- **FightingDojo_ScriptPointers** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoResetScripts** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoTrainerHeader0** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoTrainerHeader1** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoTrainerHeader2** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoTrainerHeader3** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoTrainerHeaders** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojo_TextPointers** (1 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt1AfterBattleText** (1 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt1BattleText** (1 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt1EndBattleText** (1 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt2AfterBattleText** (1 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt2BattleText** (1 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt2EndBattleText** (1 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt3AfterBattleText** (1 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt3BattleText** (1 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt3EndBattleText** (1 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt4AfterBattleText** (1 connections) — `scripts/FightingDojo.asm`
+- **scripts/VermilionGym.asm** (31 connections) — `scripts/VermilionGym.asm`
+- **VermilionGym_Script** (8 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymGentlemanText** (4 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSailorText** (4 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSuperNerdText** (4 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymResetScripts** (3 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSetDoorTile** (3 connections) — `scripts/VermilionGym.asm`
+- **VermilionGym_ScriptPointers** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymLTSurgeAfterBattleScript** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymLTSurgeReceivedThunderBadgeText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymTrainerHeader0** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymTrainerHeader1** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymTrainerHeader2** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymTrainerHeaders** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGym_TextPointers** (1 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymGentlemanAfterBattleText** (1 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymGentlemanBattleText** (1 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymGentlemanEndBattleText** (1 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymLTSurgeReceivedTM24Text** (1 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymLTSurgeThunderBadgeInfoText** (1 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymLTSurgeTM24NoRoomText** (1 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSailorAfterBattleText** (1 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSailorBattleText** (1 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSailorEndBattleText** (1 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSuperNerdAfterBattleText** (1 connections) — `scripts/VermilionGym.asm`
 - *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (7 shared connections)
-- [Scripts 9](Scripts_9.md) (4 shared connections)
-- [Scripts 3](Scripts_3.md) (3 shared connections)
+- [Scripts](Scripts.md) (4 shared connections)
+- [Home 8](Home_8.md) (3 shared connections)
+- [Scripts 7](Scripts_7.md) (2 shared connections)
+- [Scripts 47](Scripts_47.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
 - [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 11](Scripts_11.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/FightingDojo.asm`
+- `scripts/VermilionGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 47 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,58 +1,39 @@
 # Engine Battle 9
 
-> 30 nodes · cohesion 0.14
+> 15 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **engine/battle/trainer_ai.asm** (62 connections) — `engine/battle/trainer_ai.asm`
-- **AIPrintItemUse** (11 connections) — `engine/battle/trainer_ai.asm`
-- **AIIncreaseStat** (7 connections) — `engine/battle/trainer_ai.asm`
-- **AIPlayRestoringSFX** (6 connections) — `engine/battle/trainer_ai.asm`
-- **AIPrintItemUseAndUpdateHPBar** (6 connections) — `engine/battle/trainer_ai.asm`
-- **SwitchEnemyMon** (6 connections) — `engine/battle/trainer_ai.asm`
-- **AICureStatus** (5 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseFullHeal** (5 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseFullRestore** (5 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseGuardSpec** (5 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseXAttack** (5 connections) — `engine/battle/trainer_ai.asm`
-- **DecrementAICount** (5 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseDireHit** (4 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseXAccuracy** (4 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseXDefend** (4 connections) — `engine/battle/trainer_ai.asm`
-- **Rival3AI** (4 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseXSpeed** (3 connections) — `engine/battle/trainer_ai.asm`
-- **BlackbeltAI** (3 connections) — `engine/battle/trainer_ai.asm`
-- **BrockAI** (3 connections) — `engine/battle/trainer_ai.asm`
-- **BrunoAI** (3 connections) — `engine/battle/trainer_ai.asm`
-- **CooltrainerMAI** (3 connections) — `engine/battle/trainer_ai.asm`
-- **GiovanniAI** (3 connections) — `engine/battle/trainer_ai.asm`
-- **KogaAI** (3 connections) — `engine/battle/trainer_ai.asm`
-- **LtSurgeAI** (3 connections) — `engine/battle/trainer_ai.asm`
-- **MistyAI** (3 connections) — `engine/battle/trainer_ai.asm`
-- *... and 5 more nodes in this community*
+- **engine/battle/used_move_text.asm** (15 connections) — `engine/battle/used_move_text.asm`
+- **MoveNameText** (7 connections) — `engine/battle/used_move_text.asm`
+- **UsedMoveText** (7 connections) — `engine/battle/used_move_text.asm`
+- **DisplayUsedMoveText** (5 connections) — `engine/battle/used_move_text.asm`
+- **GetMoveGrammar** (3 connections) — `engine/battle/used_move_text.asm`
+- **UsedMove1Text** (3 connections) — `engine/battle/used_move_text.asm`
+- **UsedMoveText_CheckObedience** (3 connections) — `engine/battle/used_move_text.asm`
+- **data/moves/grammar.asm** (3 connections) — `data/moves/grammar.asm`
+- **MoveGrammar** (2 connections) — `data/moves/grammar.asm`
+- **EndUsedMove1Text** (2 connections) — `engine/battle/used_move_text.asm`
+- **EndUsedMove2Text** (2 connections) — `engine/battle/used_move_text.asm`
+- **EndUsedMove3Text** (2 connections) — `engine/battle/used_move_text.asm`
+- **EndUsedMove4Text** (2 connections) — `engine/battle/used_move_text.asm`
+- **EndUsedMove5Text** (2 connections) — `engine/battle/used_move_text.asm`
+- **UsedMove2Text** (2 connections) — `engine/battle/used_move_text.asm`
 
 ## Relationships
 
-- [Engine Battle 19](Engine_Battle_19.md) (18 shared connections)
-- [Engine Battle 10](Engine_Battle_10.md) (6 shared connections)
-- [Data Trainers 2](Data_Trainers_2.md) (6 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (5 shared connections)
-- [Engine Battle 16](Engine_Battle_16.md) (3 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Ram](Ram.md) (2 shared connections)
-- [Engine Battle 18](Engine_Battle_18.md) (1 shared connections)
-- [Engine Battle 2](Engine_Battle_2.md) (1 shared connections)
-- [Scripts 29](Scripts_29.md) (1 shared connections)
-- [Engine Battle 13](Engine_Battle_13.md) (1 shared connections)
-- [Data Trainers](Data_Trainers.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/battle/trainer_ai.asm`
+- `data/moves/grammar.asm`
+- `engine/battle/used_move_text.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 106 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

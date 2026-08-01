@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **audio/sfx/save_3.asm** (4 connections) — `audio/sfx/save_3.asm`
-- **SFX_Save_3_Ch5** (1 connections) — `audio/sfx/save_3.asm`
-- **SFX_Save_3_Ch6** (1 connections) — `audio/sfx/save_3.asm`
+- **audio/sfx/ball_poof.asm** (4 connections) — `audio/sfx/ball_poof.asm`
+- **SFX_Ball_Poof_Ch5** (1 connections) — `audio/sfx/ball_poof.asm`
+- **SFX_Ball_Poof_Ch8** (1 connections) — `audio/sfx/ball_poof.asm`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `audio/sfx/save_3.asm`
+- `audio/sfx/ball_poof.asm`
 
 ## Audit Trail
 

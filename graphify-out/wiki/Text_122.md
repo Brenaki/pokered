@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **text/Route11Gate2F.asm** (6 connections) — `text/Route11Gate2F.asm`
-- **_Route11Gate2FLeftBinocularsNoSnorlaxText** (1 connections) — `text/Route11Gate2F.asm`
-- **_Route11Gate2FLeftBinocularsSnorlaxText** (1 connections) — `text/Route11Gate2F.asm`
-- **_Route11Gate2FOaksAideItemfinderDescriptionText** (1 connections) — `text/Route11Gate2F.asm`
-- **_Route11Gate2FRightBinocularsText** (1 connections) — `text/Route11Gate2F.asm`
+- **text/SaffronGates.asm** (6 connections) — `text/SaffronGates.asm`
+- **_SaffronGateGuardGeeImThirstyText** (1 connections) — `text/SaffronGates.asm`
+- **_SaffronGateGuardImParchedText** (1 connections) — `text/SaffronGates.asm`
+- **_SaffronGateGuardThanksForTheDrinkText** (1 connections) — `text/SaffronGates.asm`
+- **_SaffronGateGuardYouCanGoOnThroughText** (1 connections) — `text/SaffronGates.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `text/Route11Gate2F.asm`
+- `text/SaffronGates.asm`
 
 ## Audit Trail
 

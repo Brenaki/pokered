@@ -1,46 +1,49 @@
 # Scripts 41
 
-> 35 nodes · cohesion 0.07
+> 33 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **scripts/Route6.asm** (36 connections) — `scripts/Route6.asm`
-- **Route6_Script** (5 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerF1Text** (4 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerF2Text** (4 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerM1Text** (4 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerM2Text** (4 connections) — `scripts/Route6.asm`
-- **Route6Youngster1Text** (4 connections) — `scripts/Route6.asm`
-- **Route6Youngster2Text** (4 connections) — `scripts/Route6.asm`
-- **Route6_ScriptPointers** (2 connections) — `scripts/Route6.asm`
-- **Route6TrainerHeader0** (2 connections) — `scripts/Route6.asm`
-- **Route6TrainerHeader1** (2 connections) — `scripts/Route6.asm`
-- **Route6TrainerHeader2** (2 connections) — `scripts/Route6.asm`
-- **Route6TrainerHeader3** (2 connections) — `scripts/Route6.asm`
-- **Route6TrainerHeader4** (2 connections) — `scripts/Route6.asm`
-- **Route6TrainerHeader5** (2 connections) — `scripts/Route6.asm`
-- **Route6TrainerHeaders** (2 connections) — `scripts/Route6.asm`
-- **Route6_TextPointers** (1 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerAfterBattleText** (1 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerF1BattleText** (1 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerF1EndBattleText** (1 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerF2AfterBattleText** (1 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerF2BattleText** (1 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerF2EndBattleText** (1 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerM1BattleText** (1 connections) — `scripts/Route6.asm`
-- **Route6CooltrainerM1EndBattleText** (1 connections) — `scripts/Route6.asm`
-- *... and 10 more nodes in this community*
+- **scripts/Route15.asm** (58 connections) — `scripts/Route15.asm`
+- **Route15_TextPointers** (1 connections) — `scripts/Route15.asm`
+- **Route15Beauty1AfterBattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15Beauty1BattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15Beauty1EndBattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15Beauty2AfterBattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15Beauty2BattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15Beauty2EndBattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15Biker1AfterBattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15Biker1BattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15Biker1EndBattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15Biker2AfterBattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15Biker2BattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15Biker2EndBattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15CooltrainerF1AfterBattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15CooltrainerF1BattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15CooltrainerF1EndBattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15CooltrainerF2AfterBattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15CooltrainerF2BattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15CooltrainerF2EndBattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15CooltrainerF3AfterBattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15CooltrainerF3BattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15CooltrainerF3EndBattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15CooltrainerF4AfterBattleText** (1 connections) — `scripts/Route15.asm`
+- **Route15CooltrainerF4BattleText** (1 connections) — `scripts/Route15.asm`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (6 shared connections)
-- [Scripts 9](Scripts_9.md) (6 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 94](Scripts_94.md) (11 shared connections)
+- [Scripts 154](Scripts_154.md) (3 shared connections)
+- [Scripts 157](Scripts_157.md) (2 shared connections)
+- [Scripts 158](Scripts_158.md) (2 shared connections)
+- [Scripts 159](Scripts_159.md) (2 shared connections)
+- [Scripts 160](Scripts_160.md) (2 shared connections)
+- [Scripts 161](Scripts_161.md) (2 shared connections)
 
 ## Source Files
 
-- `scripts/Route6.asm`
+- `scripts/Route15.asm`
 
 ## Audit Trail
 

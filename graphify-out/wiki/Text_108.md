@@ -1,16 +1,15 @@
 # Text 108
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **text/VictoryRoad1F.asm** (8 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerFAfterBattleText** (1 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerFBattleText** (1 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerFEndBattleText** (1 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerMAfterBattleText** (1 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerMBattleText** (1 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerMEndBattleText** (1 connections) — `text/VictoryRoad1F.asm`
+- **text/CinnabarLab.asm** (7 connections) — `text/CinnabarLab.asm`
+- **_CinnabarLabFishingGuruText** (1 connections) — `text/CinnabarLab.asm`
+- **_CinnabarLabMeetingRoomSignText** (1 connections) — `text/CinnabarLab.asm`
+- **_CinnabarLabPhotoText** (1 connections) — `text/CinnabarLab.asm`
+- **_CinnabarLabRAndDSignText** (1 connections) — `text/CinnabarLab.asm`
+- **_CinnabarLabTestingRoomSignText** (1 connections) — `text/CinnabarLab.asm`
 
 ## Relationships
 
@@ -18,11 +17,11 @@
 
 ## Source Files
 
-- `text/VictoryRoad1F.asm`
+- `text/CinnabarLab.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

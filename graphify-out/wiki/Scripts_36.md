@@ -1,58 +1,50 @@
 # Scripts 36
 
-> 41 nodes · cohesion 0.07
+> 37 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **scripts/SilphCo7F.asm** (44 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRivalAfterBattleScript** (8 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRivalStartBattleScript** (8 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7F_GateCallbackScript** (6 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7F_Script** (6 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FSetCurScript** (5 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7F_SetCardKeyDoorYScript** (4 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRivalExitScript** (4 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRocket1Text** (4 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRocket2Text** (4 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRocket3Text** (4 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FScientistText** (4 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRivalText** (3 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FSilphWorkerM2Text** (3 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FSilphWorkerM3Text** (3 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FSilphWorkerM4Text** (3 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7F_ScriptPointers** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7F_UnlockedDoorEventScript** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRivalDefeatedText** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRivalVictoryText** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FSetDefaultScript** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7TrainerHeader0** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7TrainerHeader1** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7TrainerHeader2** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7TrainerHeader3** (2 connections) — `scripts/SilphCo7F.asm`
-- *... and 16 more nodes in this community*
+- **scripts/Route10.asm** (38 connections) — `scripts/Route10.asm`
+- **Route10_Script** (5 connections) — `scripts/Route10.asm`
+- **Route10CooltrainerF1Text** (4 connections) — `scripts/Route10.asm`
+- **Route10CooltrainerF2Text** (4 connections) — `scripts/Route10.asm`
+- **Route10Hiker1Text** (4 connections) — `scripts/Route10.asm`
+- **Route10Hiker2Text** (4 connections) — `scripts/Route10.asm`
+- **Route10SuperNerd1Text** (4 connections) — `scripts/Route10.asm`
+- **Route10SuperNerd2Text** (4 connections) — `scripts/Route10.asm`
+- **Route10_ScriptPointers** (2 connections) — `scripts/Route10.asm`
+- **Route10TrainerHeader0** (2 connections) — `scripts/Route10.asm`
+- **Route10TrainerHeader1** (2 connections) — `scripts/Route10.asm`
+- **Route10TrainerHeader2** (2 connections) — `scripts/Route10.asm`
+- **Route10TrainerHeader3** (2 connections) — `scripts/Route10.asm`
+- **Route10TrainerHeader4** (2 connections) — `scripts/Route10.asm`
+- **Route10TrainerHeader5** (2 connections) — `scripts/Route10.asm`
+- **Route10TrainerHeaders** (2 connections) — `scripts/Route10.asm`
+- **Route10_TextPointers** (1 connections) — `scripts/Route10.asm`
+- **Route10CooltrainerF1AfterBattleText** (1 connections) — `scripts/Route10.asm`
+- **Route10CooltrainerF1BattleText** (1 connections) — `scripts/Route10.asm`
+- **Route10CooltrainerF1EndBattleText** (1 connections) — `scripts/Route10.asm`
+- **Route10CooltrainerF2AfterBattleText** (1 connections) — `scripts/Route10.asm`
+- **Route10CooltrainerF2BattleText** (1 connections) — `scripts/Route10.asm`
+- **Route10CooltrainerF2EndBattleText** (1 connections) — `scripts/Route10.asm`
+- **Route10Hiker1AfterBattleText** (1 connections) — `scripts/Route10.asm`
+- **Route10Hiker1BattleText** (1 connections) — `scripts/Route10.asm`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (13 shared connections)
-- [Scripts 3](Scripts_3.md) (5 shared connections)
-- [Scripts 9](Scripts_9.md) (4 shared connections)
-- [Scripts 17](Scripts_17.md) (2 shared connections)
-- [Scripts 5](Scripts_5.md) (2 shared connections)
-- [Engine Events 7](Engine_Events_7.md) (1 shared connections)
-- [Scripts 8](Scripts_8.md) (1 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 62](Scripts_62.md) (1 shared connections)
-- [Ram 9](Ram_9.md) (1 shared connections)
-- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts](Scripts.md) (6 shared connections)
+- [Home 8](Home_8.md) (6 shared connections)
+- [Scripts 47](Scripts_47.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SilphCo7F.asm`
+- `scripts/Route10.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (100%)
+- EXTRACTED: 58 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

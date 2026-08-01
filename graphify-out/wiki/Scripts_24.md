@@ -4,49 +4,50 @@
 
 ## Key Concepts
 
-- **scripts/RocketHideoutB2F.asm** (51 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideoutB2F_Script** (5 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideoutB2FRocketText** (4 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowTilePlayerMovement** (2 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2TrainerHeader0** (2 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2TrainerHeaders** (2 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideoutB2F_ScriptPointers** (2 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement1** (1 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement10** (1 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement11** (1 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement12** (1 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement13** (1 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement14** (1 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement15** (1 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement16** (1 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement17** (1 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement18** (1 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement19** (1 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement2** (1 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement20** (1 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement21** (1 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement22** (1 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement23** (1 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement24** (1 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideout2ArrowMovement25** (1 connections) — `scripts/RocketHideoutB2F.asm`
+- **scripts/Route12.asm** (50 connections) — `scripts/Route12.asm`
+- **Route12_Script** (5 connections) — `scripts/Route12.asm`
+- **Route12SnorlaxPostBattleScript** (5 connections) — `scripts/Route12.asm`
+- **Route12CooltrainerMText** (4 connections) — `scripts/Route12.asm`
+- **Route12Fisher1Text** (4 connections) — `scripts/Route12.asm`
+- **Route12Fisher2Text** (4 connections) — `scripts/Route12.asm`
+- **Route12Fisher3Text** (4 connections) — `scripts/Route12.asm`
+- **Route12Fisher4Text** (4 connections) — `scripts/Route12.asm`
+- **Route12Fisher5Text** (4 connections) — `scripts/Route12.asm`
+- **Route12SuperNerdText** (4 connections) — `scripts/Route12.asm`
+- **Route12_ScriptPointers** (2 connections) — `scripts/Route12.asm`
+- **Route12ResetScripts** (2 connections) — `scripts/Route12.asm`
+- **Route12TrainerHeader0** (2 connections) — `scripts/Route12.asm`
+- **Route12TrainerHeader1** (2 connections) — `scripts/Route12.asm`
+- **Route12TrainerHeader2** (2 connections) — `scripts/Route12.asm`
+- **Route12TrainerHeader3** (2 connections) — `scripts/Route12.asm`
+- **Route12TrainerHeader4** (2 connections) — `scripts/Route12.asm`
+- **Route12TrainerHeader5** (2 connections) — `scripts/Route12.asm`
+- **Route12TrainerHeader6** (2 connections) — `scripts/Route12.asm`
+- **Route12TrainerHeaders** (2 connections) — `scripts/Route12.asm`
+- **Route12_TextPointers** (1 connections) — `scripts/Route12.asm`
+- **Route12CooltrainerMAfterBattleText** (1 connections) — `scripts/Route12.asm`
+- **Route12CooltrainerMBattleText** (1 connections) — `scripts/Route12.asm`
+- **Route12CooltrainerMEndBattleText** (1 connections) — `scripts/Route12.asm`
+- **Route12Fisher1AfterBattleText** (1 connections) — `scripts/Route12.asm`
 - *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Home](Home.md) (2 shared connections)
-- [Scripts 3](Scripts_3.md) (1 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Scripts](Scripts.md) (7 shared connections)
+- [Home 8](Home_8.md) (7 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 47](Scripts_47.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Engine Movie 5](Engine_Movie_5.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/RocketHideoutB2F.asm`
+- `scripts/Route12.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (100%)
+- EXTRACTED: 76 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

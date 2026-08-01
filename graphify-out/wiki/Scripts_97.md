@@ -1,27 +1,28 @@
 # Scripts 97
 
-> 7 nodes · cohesion 0.43
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **scripts/CeruleanCaveB1F.asm** (9 connections) — `scripts/CeruleanCaveB1F.asm`
-- **CeruleanCaveB1F_Script** (5 connections) — `scripts/CeruleanCaveB1F.asm`
-- **CeruleanCaveB1FMewtwoText** (4 connections) — `scripts/CeruleanCaveB1F.asm`
-- **CeruleanCaveB1F_ScriptPointers** (2 connections) — `scripts/CeruleanCaveB1F.asm`
-- **CeruleanCaveB1FTrainerHeaders** (2 connections) — `scripts/CeruleanCaveB1F.asm`
-- **MewtwoTrainerHeader** (2 connections) — `scripts/CeruleanCaveB1F.asm`
-- **CeruleanCaveB1F_TextPointers** (1 connections) — `scripts/CeruleanCaveB1F.asm`
+- **scripts/CeladonMansion1F.asm** (10 connections) — `scripts/CeladonMansion1F.asm`
+- **CeladonMansion1_PlayCryScript** (6 connections) — `scripts/CeladonMansion1F.asm`
+- **CeladonMansion1F_Script** (2 connections) — `scripts/CeladonMansion1F.asm`
+- **CeladonMansion1FClefairyText** (2 connections) — `scripts/CeladonMansion1F.asm`
+- **CeladonMansion1FMeowthText** (2 connections) — `scripts/CeladonMansion1F.asm`
+- **CeladonMansion1FNidoranFText** (2 connections) — `scripts/CeladonMansion1F.asm`
+- **CeladonMansion1F_TextPointers** (1 connections) — `scripts/CeladonMansion1F.asm`
+- **CeladonMansion1FGrannyText** (1 connections) — `scripts/CeladonMansion1F.asm`
+- **CeladonMansion1FManagersSuiteSignText** (1 connections) — `scripts/CeladonMansion1F.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeruleanCaveB1F.asm`
+- `scripts/CeladonMansion1F.asm`
 
 ## Audit Trail
 

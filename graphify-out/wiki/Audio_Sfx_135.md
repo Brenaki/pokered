@@ -1,12 +1,13 @@
 # Audio Sfx 135
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **audio/sfx/denied_1.asm** (4 connections) — `audio/sfx/denied_1.asm`
-- **SFX_Denied_1_Ch5** (1 connections) — `audio/sfx/denied_1.asm`
-- **SFX_Denied_1_Ch6** (1 connections) — `audio/sfx/denied_1.asm`
+- **audio/sfx/unused_cry_3.asm** (5 connections) — `audio/sfx/unused_cry_3.asm`
+- **SFX_UnusedCry_3_Ch5** (1 connections) — `audio/sfx/unused_cry_3.asm`
+- **SFX_UnusedCry_3_Ch6** (1 connections) — `audio/sfx/unused_cry_3.asm`
+- **SFX_UnusedCry_3_Ch8** (1 connections) — `audio/sfx/unused_cry_3.asm`
 
 ## Relationships
 
@@ -14,11 +15,11 @@
 
 ## Source Files
 
-- `audio/sfx/denied_1.asm`
+- `audio/sfx/unused_cry_3.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **text/Route11_2.asm** (8 connections) — `text/Route11_2.asm`
-- **_Route11DiglettsCaveSignText** (1 connections) — `text/Route11_2.asm`
-- **_Route11SuperNerd2AfterBattleText** (1 connections) — `text/Route11_2.asm`
-- **_Route11SuperNerd2EndBattleText** (1 connections) — `text/Route11_2.asm`
-- **_Route11Youngster4AfterBattleText** (1 connections) — `text/Route11_2.asm`
-- **_Route11Youngster4BattleText** (1 connections) — `text/Route11_2.asm`
-- **_Route11Youngster4EndBattleText** (1 connections) — `text/Route11_2.asm`
+- **text/Route12Gate2F.asm** (8 connections) — `text/Route12Gate2F.asm`
+- **_Route12Gate2FBrunetteGirlReceivedTM39Text** (1 connections) — `text/Route12Gate2F.asm`
+- **_Route12Gate2FBrunetteGirlTM39ExplanationText** (1 connections) — `text/Route12Gate2F.asm`
+- **_Route12Gate2FBrunetteGirlTM39NoRoomText** (1 connections) — `text/Route12Gate2F.asm`
+- **_Route12Gate2FBrunetteGirlYouCanHaveThisText** (1 connections) — `text/Route12Gate2F.asm`
+- **_Route12Gate2FLeftBinocularsText** (1 connections) — `text/Route12Gate2F.asm`
+- **_Route12Gate2FRightBinocularsText** (1 connections) — `text/Route12Gate2F.asm`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `text/Route11_2.asm`
+- `text/Route12Gate2F.asm`
 
 ## Audit Trail
 

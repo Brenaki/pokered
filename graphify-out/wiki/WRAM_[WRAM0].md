@@ -2,7 +2,7 @@
 
 > God node · 595 connections · `ram/wram.asm`
 
-**Community:** [Ram](Ram.md)
+**Community:** [Bank WRAM0](Bank_WRAM0.md)
 
 ## Connections by Relation
 
@@ -14,9 +14,9 @@
 - wSimulatedJoypadStatesEnd `EXTRACTED`
 - wEnemyBattleStatus1 `EXTRACTED`
 - wPlayerBattleStatus1 `EXTRACTED`
+- wDamage `EXTRACTED`
 - wEnemyBattleStatus2 `EXTRACTED`
 - wPlayerBattleStatus2 `EXTRACTED`
-- wDamage `EXTRACTED`
 - wBuffer `EXTRACTED`
 - wTopMenuItemY `EXTRACTED`
 - wEnemyMoveEffect `EXTRACTED`

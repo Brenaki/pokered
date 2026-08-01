@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **audio/sfx/caught_mon.asm** (5 connections) — `audio/sfx/caught_mon.asm`
-- **SFX_Caught_Mon_Ch5** (1 connections) — `audio/sfx/caught_mon.asm`
-- **SFX_Caught_Mon_Ch6** (1 connections) — `audio/sfx/caught_mon.asm`
-- **SFX_Caught_Mon_Ch7** (1 connections) — `audio/sfx/caught_mon.asm`
+- **audio/sfx/battle_36.asm** (5 connections) — `audio/sfx/battle_36.asm`
+- **SFX_Battle_36_Ch5** (1 connections) — `audio/sfx/battle_36.asm`
+- **SFX_Battle_36_Ch6** (1 connections) — `audio/sfx/battle_36.asm`
+- **SFX_Battle_36_Ch8** (1 connections) — `audio/sfx/battle_36.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `audio/sfx/caught_mon.asm`
+- `audio/sfx/battle_36.asm`
 
 ## Audit Trail
 

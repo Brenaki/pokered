@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/wild/maps/RockTunnel1F.asm** (3 connections) — `data/wild/maps/RockTunnel1F.asm`
-- **RockTunnel1FWildMons** (2 connections) — `data/wild/maps/RockTunnel1F.asm`
+- **data/wild/maps/RockTunnelB1F.asm** (3 connections) — `data/wild/maps/RockTunnelB1F.asm`
+- **RockTunnelB1FWildMons** (2 connections) — `data/wild/maps/RockTunnelB1F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/wild/maps/RockTunnel1F.asm`
+- `data/wild/maps/RockTunnelB1F.asm`
 
 ## Audit Trail
 

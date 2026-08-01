@@ -1,48 +1,45 @@
 # Agents.Md
 
-> 10 nodes · cohesion 0.20
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **(root)** (16 connections)
-- **ram.asm** (6 connections) — `ram.asm`
-- **macros/ram.asm** (2 connections) — `macros/ram.asm`
-- **AGENTS.md** (1 connections) — `AGENTS.md`
-- **CLAUDE.md** (1 connections) — `CLAUDE.md`
-- **INSTALL.md** (1 connections) — `INSTALL.md`
-- **layout.link** (1 connections) — `layout.link`
-- **README.md** (1 connections) — `README.md`
-- **.rgbds-version** (1 connections) — `.rgbds-version`
-- **rgbdscheck.asm** (1 connections) — `rgbdscheck.asm`
+- **AGENTS.md** (15 connections) — `AGENTS.md`
+- **Contexto Por Grafos Com Graphify** (8 connections) — `AGENTS.md`
+- **CLAUDE.md** (6 connections) — `CLAUDE.md`
+- **graphify-out/graph.json** (4 connections) — `graphify-out/graph.json`
+- **12. Manutenção, aprovação e Graphify** (3 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **12.1 Regeneração** (3 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **Regras Ao Editar** (2 connections) — `AGENTS.md`
+- **graphify-out/graph.html** (2 connections) — `graphify-out/graph.html`
+- **Estrategia Para Reescrever Em C** (1 connections) — `AGENTS.md`
+- **Principios De Trabalho** (1 connections) — `AGENTS.md`
+- **Testes E Validacao** (1 connections) — `AGENTS.md`
+- **Definition Of Done** (1 connections) — `AGENTS.md`
+- **Contexto** (1 connections) — `AGENTS.md`
+- **12.2 Checklist de aprovação** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **.gitignore** (1 connections) — `.gitignore`
+- **graphify-out/GRAPH_REPORT.md** (1 connections) — `graphify-out/GRAPH_REPORT.md`
 
 ## Relationships
 
 - [Bank ROMX](Bank_ROMX.md) (2 shared connections)
-- [Audio Sfx](Audio_Sfx.md) (1 shared connections)
-- [Home 3](Home_3.md) (1 shared connections)
-- [Constants](Constants.md) (1 shared connections)
-- [Makefile](Makefile.md) (1 shared connections)
-- [Data Maps](Data_Maps.md) (1 shared connections)
-- [Bank HRAM](Bank_HRAM.md) (1 shared connections)
-- [Bank SRAM](Bank_SRAM.md) (1 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
-- [Ram](Ram.md) (1 shared connections)
+- [Makefile](Makefile.md) (2 shared connections)
+- [Tools 2](Tools_2.md) (1 shared connections)
 
 ## Source Files
 
-- `.rgbds-version`
+- `.gitignore`
 - `AGENTS.md`
 - `CLAUDE.md`
-- `INSTALL.md`
-- `README.md`
-- `layout.link`
-- `macros/ram.asm`
-- `ram.asm`
-- `rgbdscheck.asm`
+- `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- `graphify-out/GRAPH_REPORT.md`
+- `graphify-out/graph.html`
+- `graphify-out/graph.json`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

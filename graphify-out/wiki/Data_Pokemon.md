@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
+- **data/pokemon/evos_moves.asm** (196 connections) — `data/pokemon/evos_moves.asm`
 - **EvosMovesPointerTable** (195 connections) — `data/pokemon/evos_moves.asm`
-- **data/pokemon/evos_moves.asm** (193 connections) — `data/pokemon/evos_moves.asm`
 - **AbraEvosMoves** (2 connections) — `data/pokemon/evos_moves.asm`
 - **AerodactylEvosMoves** (2 connections) — `data/pokemon/evos_moves.asm`
 - **AlakazamEvosMoves** (2 connections) — `data/pokemon/evos_moves.asm`

@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **text/CeladonMart1F.asm** (5 connections) — `text/CeladonMart1F.asm`
-- **_CeladonMart1FCurrentFloorSignText** (1 connections) — `text/CeladonMart1F.asm`
-- **_CeladonMart1FDirectorySignText** (1 connections) — `text/CeladonMart1F.asm`
-- **_CeladonMart1FReceptionistText** (1 connections) — `text/CeladonMart1F.asm`
+- **text/SafariZoneEast.asm** (5 connections) — `text/SafariZoneEast.asm`
+- **_SafariZoneEastRestHouseSignText** (1 connections) — `text/SafariZoneEast.asm`
+- **_SafariZoneEastSignText** (1 connections) — `text/SafariZoneEast.asm`
+- **_SafariZoneEastTrainerTipsText** (1 connections) — `text/SafariZoneEast.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `text/CeladonMart1F.asm`
+- `text/SafariZoneEast.asm`
 
 ## Audit Trail
 

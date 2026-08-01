@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **text/CeladonMart5F.asm** (5 connections) — `text/CeladonMart5F.asm`
-- **_CeladonMart5FCurrentFloorSignText** (1 connections) — `text/CeladonMart5F.asm`
-- **_CeladonMart5FGentlemanText** (1 connections) — `text/CeladonMart5F.asm`
-- **_CeladonMart5FSailorText** (1 connections) — `text/CeladonMart5F.asm`
+- **text/VermilionPidgeyHouse.asm** (5 connections) — `text/VermilionPidgeyHouse.asm`
+- **_VermilionPidgeyHouseLetterText** (1 connections) — `text/VermilionPidgeyHouse.asm`
+- **_VermilionPidgeyHousePidgeyText** (1 connections) — `text/VermilionPidgeyHouse.asm`
+- **_VermilionPidgeyHouseYoungsterText** (1 connections) — `text/VermilionPidgeyHouse.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `text/CeladonMart5F.asm`
+- `text/VermilionPidgeyHouse.asm`
 
 ## Audit Trail
 

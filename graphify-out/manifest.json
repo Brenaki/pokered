@@ -9695,8 +9695,23 @@
     "semantic_hash": "0621ad4f0509c53f68ac37d40cc9c387"
   },
   "tools/graphify_rgbds.py": {
-    "mtime": 1785606519.5092092,
-    "ast_hash": "0ff364ff6548ffe85a8959abdf5ea0f4",
-    "semantic_hash": "0ff364ff6548ffe85a8959abdf5ea0f4"
+    "mtime": 1785609122.563616,
+    "ast_hash": "52febd83f727ebdd02511204ef7407ea",
+    "semantic_hash": "52febd83f727ebdd02511204ef7407ea"
+  },
+  "docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md": {
+    "mtime": 1785609243.1419759,
+    "ast_hash": "5edda9b97b28b1f55d7ccb9f6cb4e3fe",
+    "semantic_hash": "5edda9b97b28b1f55d7ccb9f6cb4e3fe"
+  },
+  "tools/generate_pokemon_catalog.py": {
+    "mtime": 1785611752.59137,
+    "ast_hash": "d8ea2b913e01d0ef551e1b8d37050ff7",
+    "semantic_hash": "d8ea2b913e01d0ef551e1b8d37050ff7"
+  },
+  "docs/002-2026-08-01-Informa\u00e7\u00f5es_sobre_Pokemons.md": {
+    "mtime": 1785611777.7648468,
+    "ast_hash": "e1600c09bffacd1af9e11deffc000bbf",
+    "semantic_hash": "e1600c09bffacd1af9e11deffc000bbf"
   }
 }

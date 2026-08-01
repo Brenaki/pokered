@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **text/BrunosRoom.asm** (6 connections) — `text/BrunosRoom.asm`
-- **_BrunoAfterBattleText** (1 connections) — `text/BrunosRoom.asm`
-- **_BrunoBeforeBattleText** (1 connections) — `text/BrunosRoom.asm`
-- **_BrunoEndBattleText** (1 connections) — `text/BrunosRoom.asm`
-- **_BrunosRoomBrunoDontRunAwayText** (1 connections) — `text/BrunosRoom.asm`
+- **text/Route16Gate1F.asm** (6 connections) — `text/Route16Gate1F.asm`
+- **_Route16Gate1FGamblerText** (1 connections) — `text/Route16Gate1F.asm`
+- **_Route16Gate1FGuardCyclingRoadExplanationText** (1 connections) — `text/Route16Gate1F.asm`
+- **_Route16Gate1FGuardNoPedestriansAllowedText** (1 connections) — `text/Route16Gate1F.asm`
+- **_Route16Gate1FGuardWaitUpText** (1 connections) — `text/Route16Gate1F.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `text/BrunosRoom.asm`
+- `text/Route16Gate1F.asm`
 
 ## Audit Trail
 

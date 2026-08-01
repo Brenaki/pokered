@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **audio/sfx/battle_2f.asm** (5 connections) — `audio/sfx/battle_2f.asm`
-- **SFX_Battle_2F_Ch5** (1 connections) — `audio/sfx/battle_2f.asm`
-- **SFX_Battle_2F_Ch6** (1 connections) — `audio/sfx/battle_2f.asm`
-- **SFX_Battle_2F_Ch8** (1 connections) — `audio/sfx/battle_2f.asm`
+- **audio/sfx/battle_2e.asm** (5 connections) — `audio/sfx/battle_2e.asm`
+- **SFX_Battle_2E_Ch5** (1 connections) — `audio/sfx/battle_2e.asm`
+- **SFX_Battle_2E_Ch6** (1 connections) — `audio/sfx/battle_2e.asm`
+- **SFX_Battle_2E_Ch8** (1 connections) — `audio/sfx/battle_2e.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `audio/sfx/battle_2f.asm`
+- `audio/sfx/battle_2e.asm`
 
 ## Audit Trail
 

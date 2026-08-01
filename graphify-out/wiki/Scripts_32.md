@@ -1,50 +1,50 @@
 # Scripts 32
 
-> 42 nodes · cohesion 0.07
+> 41 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **scripts/RockTunnel1F.asm** (43 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FTalkToTrainer** (9 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1F_Script** (5 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF1Text** (3 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF2Text** (3 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FHiker1Text** (3 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FHiker2Text** (3 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FHiker3Text** (3 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FSuperNerdText** (3 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1F_ScriptPointers** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF3Text** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1TrainerHeader0** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1TrainerHeader1** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1TrainerHeader2** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1TrainerHeader3** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1TrainerHeader4** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1TrainerHeader5** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1TrainerHeader6** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1TrainerHeaders** (2 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1F_TextPointers** (1 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF1AfterBattleText** (1 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF1BattleText** (1 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF1EndBattleText** (1 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF2AfterBattleText** (1 connections) — `scripts/RockTunnel1F.asm`
-- **RockTunnel1FCooltrainerF2BattleText** (1 connections) — `scripts/RockTunnel1F.asm`
-- *... and 17 more nodes in this community*
+- **scripts/MtMoon1F.asm** (42 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1F_Script** (5 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1FCooltrainerF1Text** (4 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1FCooltrainerF2Text** (4 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1FHikerText** (4 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1FSuperNerdText** (4 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1FYoungster1Text** (4 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1FYoungster2Text** (4 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1FYoungster3Text** (4 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1F_ScriptPointers** (2 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1TrainerHeader0** (2 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1TrainerHeader1** (2 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1TrainerHeader2** (2 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1TrainerHeader3** (2 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1TrainerHeader4** (2 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1TrainerHeader5** (2 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1TrainerHeader6** (2 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1TrainerHeaders** (2 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1F_TextPointers** (1 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1FBewareZubatSign** (1 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1FCooltrainerF1AfterBattleText** (1 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1FCooltrainerF1BattleText** (1 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1FCooltrainerF1EndBattleText** (1 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1FCooltrainerF2AfterBattleText** (1 connections) — `scripts/MtMoon1F.asm`
+- **MtMoon1FCooltrainerF2BattleText** (1 connections) — `scripts/MtMoon1F.asm`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Scripts](Scripts.md) (7 shared connections)
+- [Home 8](Home_8.md) (7 shared connections)
+- [Scripts 47](Scripts_47.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/RockTunnel1F.asm`
+- `scripts/MtMoon1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (100%)
+- EXTRACTED: 65 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,48 +4,50 @@
 
 ## Key Concepts
 
-- **scripts/PokemonTower5F.asm** (30 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5F_Script** (5 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler2Text** (4 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler3Text** (4 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler4Text** (4 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler5Text** (4 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5F_ScriptPointers** (2 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FPurifiedZoneCoords** (2 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5TrainerHeader0** (2 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5TrainerHeader1** (2 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5TrainerHeader2** (2 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5TrainerHeader3** (2 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5TrainerHeaders** (2 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5F_TextPointers** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler1Text** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler2AfterBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler2BattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler2EndBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler3AfterBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler3BattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler3EndBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler4AfterBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler4BattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler4EndBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
-- **PokemonTower5FChanneler5AfterBattleText** (1 connections) — `scripts/PokemonTower5F.asm`
+- **GateUpstairsScript_PrintIfFacingUp** (12 connections) — `scripts/Route12Gate2F.asm`
+- **scripts/Route11Gate2F.asm** (9 connections) — `scripts/Route11Gate2F.asm`
+- **scripts/Route12Gate2F.asm** (8 connections) — `scripts/Route12Gate2F.asm`
+- **scripts/Route16Gate2F.asm** (8 connections) — `scripts/Route16Gate2F.asm`
+- **scripts/Route18Gate2F.asm** (7 connections) — `scripts/Route18Gate2F.asm`
+- **scripts/Route15Gate2F.asm** (6 connections) — `scripts/Route15Gate2F.asm`
+- **DisableAutoTextBoxDrawing** (6 connections) — `home/window.asm`
+- **Route11Gate2FScriptEnd** (3 connections) — `scripts/Route11Gate2F.asm`
+- **Route18Gate2FYoungsterText** (3 connections) — `scripts/Route18Gate2F.asm`
+- **Route11Gate2F_Script** (2 connections) — `scripts/Route11Gate2F.asm`
+- **Route11Gate2FRightBinocularsText** (2 connections) — `scripts/Route11Gate2F.asm`
+- **Route11Gate2FYoungsterText** (2 connections) — `scripts/Route11Gate2F.asm`
+- **Route12Gate2F_Script** (2 connections) — `scripts/Route12Gate2F.asm`
+- **Route12Gate2FLeftBinocularsText** (2 connections) — `scripts/Route12Gate2F.asm`
+- **Route12Gate2FRightBinocularsText** (2 connections) — `scripts/Route12Gate2F.asm`
+- **Route15Gate2F_Script** (2 connections) — `scripts/Route15Gate2F.asm`
+- **Route15Gate2FBinocularsText** (2 connections) — `scripts/Route15Gate2F.asm`
+- **Route16Gate2F_Script** (2 connections) — `scripts/Route16Gate2F.asm`
+- **Route16Gate2FLeftBinocularsText** (2 connections) — `scripts/Route16Gate2F.asm`
+- **Route16Gate2FRightBinocularsText** (2 connections) — `scripts/Route16Gate2F.asm`
+- **Route18Gate2F_Script** (2 connections) — `scripts/Route18Gate2F.asm`
+- **Route18Gate2FLeftBinocularsText** (2 connections) — `scripts/Route18Gate2F.asm`
+- **Route18Gate2FRightBinocularsText** (2 connections) — `scripts/Route18Gate2F.asm`
+- **Route11Gate2F_TextPointers** (1 connections) — `scripts/Route11Gate2F.asm`
+- **Route12Gate2F_TextPointers** (1 connections) — `scripts/Route12Gate2F.asm`
 - *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (4 shared connections)
-- [Scripts 9](Scripts_9.md) (4 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts](Scripts.md) (8 shared connections)
+- [Ram](Ram.md) (4 shared connections)
 
 ## Source Files
 
-- `scripts/PokemonTower5F.asm`
+- `home/window.asm`
+- `scripts/Route11Gate2F.asm`
+- `scripts/Route12Gate2F.asm`
+- `scripts/Route15Gate2F.asm`
+- `scripts/Route16Gate2F.asm`
+- `scripts/Route18Gate2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
+- EXTRACTED: 47 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,52 +1,47 @@
 # Scripts 58
 
-> 26 nodes · cohesion 0.10
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **scripts/VictoryRoad3F.asm** (28 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3F_Script** (6 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF1Text** (4 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF2Text** (4 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM1Text** (4 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM2Text** (4 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCheckBoulderEventScript** (3 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3F_ScriptPointers** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3TrainerHeader0** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3TrainerHeader1** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3TrainerHeader2** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3TrainerHeader3** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3TrainerHeaders** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3F_TextPointers** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF1AfterBattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF1BattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF1EndBattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF2AfterBattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF2BattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF2EndBattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM1AfterBattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM1BattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM1EndBattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM2AfterBattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM2BattleText** (1 connections) — `scripts/VictoryRoad3F.asm`
+- **scripts/SaffronCity.asm** (27 connections) — `scripts/SaffronCity.asm`
+- **SaffronCity_Script** (2 connections) — `scripts/SaffronCity.asm`
+- **SaffronCity_TextPointers** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityFightingDojoSignText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityGentlemanText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityGymSignText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityMrPsychicsHouseSignText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityPidgeotText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRockerText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket1Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket2Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket3Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket4Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket5Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket6Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket7Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket8Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityRocket9Text** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityScientistText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCitySignText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCitySilphCoLatestProductSignText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCitySilphCoSignText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCitySilphWorkerFText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCitySilphWorkerMText** (1 connections) — `scripts/SaffronCity.asm`
+- **SaffronCityTrainerTips1Text** (1 connections) — `scripts/SaffronCity.asm`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (4 shared connections)
-- [Scripts 9](Scripts_9.md) (4 shared connections)
 - [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 8](Scripts_8.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/VictoryRoad3F.asm`
+- `scripts/SaffronCity.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

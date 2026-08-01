@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **text/CeladonHotel.asm** (5 connections) — `text/CeladonHotel.asm`
-- **_CeladonHotelBeautyText** (1 connections) — `text/CeladonHotel.asm`
-- **_CeladonHotelGrannyText** (1 connections) — `text/CeladonHotel.asm`
-- **_CeladonHotelSuperNerdText** (1 connections) — `text/CeladonHotel.asm`
+- **text/Route18Gate1F.asm** (5 connections) — `text/Route18Gate1F.asm`
+- **_Route18Gate1FGuardCyclingRoadUphillText** (1 connections) — `text/Route18Gate1F.asm`
+- **_Route18Gate1FGuardExcuseMeText** (1 connections) — `text/Route18Gate1F.asm`
+- **_Route18Gate1FGuardYouNeedABicycleText** (1 connections) — `text/Route18Gate1F.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `text/CeladonHotel.asm`
+- `text/Route18Gate1F.asm`
 
 ## Audit Trail
 

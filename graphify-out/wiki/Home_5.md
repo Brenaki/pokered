@@ -1,64 +1,59 @@
 # Home 5
 
-> 30 nodes · cohesion 0.10
+> 25 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **wChannelSoundIDs** (21 connections) — `ram/wram.asm`
-- **VBlank** (18 connections) — `home/vblank.asm`
-- **home/vcopy.asm** (16 connections) — `home/vcopy.asm`
-- **UpdateMusic6Times** (6 connections) — `home/audio.asm`
-- **UpdateMovingBgTiles** (6 connections) — `home/vcopy.asm`
-- **Audio1_UpdateMusic** (5 connections) — `audio/engine_1.asm`
-- **Audio2_UpdateMusic** (5 connections) — `audio/engine_2.asm`
-- **Audio3_UpdateMusic** (5 connections) — `audio/engine_3.asm`
-- **engine/gfx/oam_dma.asm** (5 connections) — `engine/gfx/oam_dma.asm`
-- **WriteDMACodeToHRAM** (3 connections) — `engine/gfx/oam_dma.asm`
-- **FadeOutAudio** (3 connections) — `home/fade_audio.asm`
-- **ClearBgMap** (3 connections) — `home/vcopy.asm`
-- **FlowerTile1** (3 connections) — `home/vcopy.asm`
-- **FlowerTile2** (3 connections) — `home/vcopy.asm`
-- **FlowerTile3** (3 connections) — `home/vcopy.asm`
-- **RedrawRowOrColumn** (3 connections) — `home/vcopy.asm`
-- **VBlankCopyBgMap** (3 connections) — `home/vcopy.asm`
-- **DMARoutine** (2 connections) — `engine/gfx/oam_dma.asm`
-- **hDMARoutine** (2 connections) — `engine/gfx/oam_dma.asm`
-- **ReadJoypad** (2 connections) — `home/joypad.asm`
-- **AutoBgMapTransfer** (2 connections) — `home/vcopy.asm`
-- **FillBgMapCommon** (2 connections) — `home/vcopy.asm`
-- **GetRowColAddressBgMap** (2 connections) — `home/vcopy.asm`
-- **TransferBgRows** (2 connections) — `home/vcopy.asm`
-- **VBlankCopy** (2 connections) — `home/vcopy.asm`
-- *... and 5 more nodes in this community*
+- **AnimateHallOfFame** (24 connections) — `engine/movie/hall_of_fame.asm`
+- **engine/movie/hall_of_fame.asm** (18 connections) — `engine/movie/hall_of_fame.asm`
+- **home/fade.asm** (17 connections) — `home/fade.asm`
+- **GBFadeOutToWhite** (11 connections) — `home/fade.asm`
+- **HoFShowMonOrPlayer** (10 connections) — `engine/movie/hall_of_fame.asm`
+- **GBFadeOutToBlack** (10 connections) — `home/fade.asm`
+- **GBFadeInFromBlack** (7 connections) — `home/fade.asm`
+- **PlayMapChangeSound** (4 connections) — `home/overworld.asm`
+- **HoFFadeOutScreenAndMusic** (3 connections) — `engine/movie/hall_of_fame.asm`
+- **FadePal4** (3 connections) — `home/fade.asm`
+- **GBFadeDecCommon** (3 connections) — `home/fade.asm`
+- **GBFadeIncCommon** (3 connections) — `home/fade.asm`
+- **DexRatingText** (2 connections) — `engine/movie/hall_of_fame.asm`
+- **DexSeenOwnedText** (2 connections) — `engine/movie/hall_of_fame.asm`
+- **HallOfFameText** (2 connections) — `engine/movie/hall_of_fame.asm`
+- **HoFLoadMonPlayerPicTileIDs** (2 connections) — `engine/movie/hall_of_fame.asm`
+- **HoFMoneyText** (2 connections) — `engine/movie/hall_of_fame.asm`
+- **HoFMonInfoText** (2 connections) — `engine/movie/hall_of_fame.asm`
+- **HoFPlayTimeText** (2 connections) — `engine/movie/hall_of_fame.asm`
+- **FadePal1** (2 connections) — `home/fade.asm`
+- **FadePal6** (2 connections) — `home/fade.asm`
+- **FadePal2** (1 connections) — `home/fade.asm`
+- **FadePal3** (1 connections) — `home/fade.asm`
+- **FadePal5** (1 connections) — `home/fade.asm`
+- **FadePal8** (1 connections) — `home/fade.asm`
 
 ## Relationships
 
-- [Ram 3](Ram_3.md) (3 shared connections)
-- [Home 2](Home_2.md) (1 shared connections)
-- [Scripts 17](Scripts_17.md) (1 shared connections)
-- [Audio Low Health Alarm.Asm](Audio_Low_Health_Alarm.Asm.md) (1 shared connections)
-- [Engine Overworld 5](Engine_Overworld_5.md) (1 shared connections)
-- [Engine Play Time.Asm](Engine_Play_Time.Asm.md) (1 shared connections)
-- [Engine Overworld 2](Engine_Overworld_2.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Ram 2](Ram_2.md) (9 shared connections)
+- [Ram](Ram.md) (6 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (5 shared connections)
+- [Engine Menus](Engine_Menus.md) (4 shared connections)
+- [Home 4](Home_4.md) (3 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Engine Movie 5](Engine_Movie_5.md) (2 shared connections)
+- [Home](Home.md) (2 shared connections)
+- [Bank SRAM](Bank_SRAM.md) (1 shared connections)
+- [Engine Movie 2](Engine_Movie_2.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Engine Movie 3](Engine_Movie_3.md) (1 shared connections)
 
 ## Source Files
 
-- `audio/engine_1.asm`
-- `audio/engine_2.asm`
-- `audio/engine_3.asm`
-- `engine/gfx/oam_dma.asm`
-- `home/audio.asm`
-- `home/fade_audio.asm`
-- `home/joypad.asm`
-- `home/vblank.asm`
-- `home/vcopy.asm`
-- `ram/wram.asm`
+- `engine/movie/hall_of_fame.asm`
+- `home/fade.asm`
+- `home/overworld.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (100%)
+- EXTRACTED: 71 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

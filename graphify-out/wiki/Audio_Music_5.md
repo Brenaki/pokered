@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **audio/music/titlescreen.asm** (6 connections) — `audio/music/titlescreen.asm`
-- **Music_TitleScreen_Ch1** (1 connections) — `audio/music/titlescreen.asm`
-- **Music_TitleScreen_Ch2** (1 connections) — `audio/music/titlescreen.asm`
-- **Music_TitleScreen_Ch3** (1 connections) — `audio/music/titlescreen.asm`
-- **Music_TitleScreen_Ch4** (1 connections) — `audio/music/titlescreen.asm`
+- **audio/music/vermilion.asm** (6 connections) — `audio/music/vermilion.asm`
+- **Music_Vermilion_Ch1** (1 connections) — `audio/music/vermilion.asm`
+- **Music_Vermilion_Ch2** (1 connections) — `audio/music/vermilion.asm`
+- **Music_Vermilion_Ch3** (1 connections) — `audio/music/vermilion.asm`
+- **Music_Vermilion_Ch4** (1 connections) — `audio/music/vermilion.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `audio/music/titlescreen.asm`
+- `audio/music/vermilion.asm`
 
 ## Audit Trail
 

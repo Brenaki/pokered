@@ -1,77 +1,65 @@
 # Engine Pokemon
 
-> 171 nodes · cohesion 0.03
+> 60 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **CopyData** (113 connections) — `home/copy.asm`
-- **AddNTimes** (71 connections) — `home/array.asm`
-- **GetMonHeader** (39 connections) — `home/pokemon.asm`
-- **ItemUseMedicine** (38 connections) — `engine/items/item_effects.asm`
-- **Evolution_PartyMonLoop** (36 connections) — `engine/pokemon/evos_moves.asm`
-- **wNameBuffer** (35 connections) — `ram/wram.asm`
-- **PlaySoundWaitForCurrent** (30 connections) — `home/delay.asm`
-- **GainExperience** (27 connections) — `engine/battle/experience.asm`
-- **ItemUseTMHM** (27 connections) — `engine/items/item_effects.asm`
-- **RedrawPartyMenu_** (27 connections) — `engine/menus/party_menu.asm`
-- **_AddPartyMon** (27 connections) — `engine/pokemon/add_mon.asm`
-- **GetPredefRegisters** (27 connections) — `home/predef.asm`
-- **DaycareGentlemanText** (27 connections) — `scripts/Daycare.asm`
-- **wPartyMonNicks** (26 connections) — `ram/wram.asm`
-- **LoadEnemyMonData** (25 connections) — `engine/battle/core.asm`
-- **FlagActionPredef** (25 connections) — `engine/flag_action.asm`
-- **home/pokemon.asm** (25 connections) — `home/pokemon.asm`
-- **GetMonName** (25 connections) — `home/names.asm`
-- **DisplayListMenuIDLoop** (22 connections) — `home/list_menu.asm`
-- **PrintListMenuEntries** (20 connections) — `home/list_menu.asm`
-- **_MoveMon** (18 connections) — `engine/pokemon/add_mon.asm`
-- **CopyToStringBuffer** (18 connections) — `home/copy_string.asm`
-- **GetPartyMonName** (18 connections) — `home/pokemon.asm`
-- **InGameTrade_DoTrade** (17 connections) — `engine/events/in_game_trades.asm`
-- **TryingToLearn** (17 connections) — `engine/pokemon/learn_move.asm`
-- *... and 146 more nodes in this community*
+- **engine/pokemon/bills_pc.asm** (43 connections) — `engine/pokemon/bills_pc.asm`
+- **BillsPCMenu** (26 connections) — `engine/pokemon/bills_pc.asm`
+- **DisplayDepositWithdrawMenu** (18 connections) — `engine/pokemon/bills_pc.asm`
+- **DisplayChooseQuantityMenu** (18 connections) — `home/list_menu.asm`
+- **BillsPCWithdraw** (17 connections) — `engine/pokemon/bills_pc.asm`
+- **BillsPCDeposit** (16 connections) — `engine/pokemon/bills_pc.asm`
+- **DisplayListMenuID** (15 connections) — `home/list_menu.asm`
+- **BillsPCRelease** (13 connections) — `engine/pokemon/bills_pc.asm`
+- **DisplayPCMainMenu** (13 connections) — `engine/pokemon/bills_pc.asm`
+- **home/move_mon.asm** (12 connections) — `home/move_mon.asm`
+- **home/list_menu.asm** (10 connections) — `home/list_menu.asm`
+- **GetTrainerInformation** (10 connections) — `home/trainers2.asm`
+- **BillsPC_** (9 connections) — `engine/pokemon/bills_pc.asm`
+- **GetCryData** (9 connections) — `home/pokemon.asm`
+- **RedPicFront** (7 connections) — `gfx/player.asm`
+- **BankswitchBack** (7 connections) — `home/bankswitch.asm`
+- **RemovePokemon** (7 connections) — `home/move_mon.asm`
+- **BankswitchHome** (6 connections) — `home/bankswitch.asm`
+- **wListScrollOffset** (6 connections) — `ram/wram.asm`
+- **DisplayMonListMenu** (5 connections) — `engine/pokemon/bills_pc.asm`
+- **home/bankswitch.asm** (5 connections) — `home/bankswitch.asm`
+- **BillsPCChangeBox** (4 connections) — `engine/pokemon/bills_pc.asm`
+- **KnowsHMMove** (4 connections) — `engine/pokemon/bills_pc.asm`
+- **ExitListMenu** (4 connections) — `home/list_menu.asm`
+- **MoveMon** (4 connections) — `home/move_mon.asm`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [Home 2](Home_2.md) (48 shared connections)
-- [Ram](Ram.md) (30 shared connections)
-- [Engine Menus 2](Engine_Menus_2.md) (27 shared connections)
-- [Scripts 2](Scripts_2.md) (21 shared connections)
-- [Engine Link](Engine_Link.md) (10 shared connections)
-- [Engine Menus](Engine_Menus.md) (10 shared connections)
-- [Engine Items](Engine_Items.md) (10 shared connections)
-- [Engine Battle 4](Engine_Battle_4.md) (9 shared connections)
-- [Engine Battle](Engine_Battle.md) (7 shared connections)
-- [Engine Movie](Engine_Movie.md) (7 shared connections)
-- [Engine Battle 11](Engine_Battle_11.md) (6 shared connections)
-- [Engine Battle 10](Engine_Battle_10.md) (6 shared connections)
+- [Ram 2](Ram_2.md) (15 shared connections)
+- [Ram](Ram.md) (14 shared connections)
+- [Engine Menus](Engine_Menus.md) (13 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (6 shared connections)
+- [Scripts](Scripts.md) (6 shared connections)
+- [Engine Battle](Engine_Battle.md) (4 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (4 shared connections)
+- [Scripts 2](Scripts_2.md) (3 shared connections)
+- [Engine Events 3](Engine_Events_3.md) (3 shared connections)
+- [Scripts 5](Scripts_5.md) (3 shared connections)
+- [Engine Events](Engine_Events.md) (2 shared connections)
+- [Bank SRAM](Bank_SRAM.md) (1 shared connections)
 
 ## Source Files
 
-- `data/items/names.asm`
-- `data/items/prices.asm`
-- `data/moves/tmhm_moves.asm`
-- `data/pokemon/base_stats.asm`
-- `data/pokemon/names.asm`
-- `engine/battle/core.asm`
-- `engine/battle/experience.asm`
-- `engine/battle/get_trainer_name.asm`
-- `engine/battle/misc.asm`
-- `engine/events/give_pokemon.asm`
-- `engine/events/heal_party.asm`
-- `engine/events/in_game_trades.asm`
-- `engine/events/poison.asm`
-- `engine/flag_action.asm`
-- `engine/gfx/palettes.asm`
-- `engine/items/item_effects.asm`
-- `engine/items/tms.asm`
-- `engine/menus/naming_screen.asm`
-- `engine/menus/party_menu.asm`
-- `engine/menus/start_sub_menus.asm`
+- `engine/pokemon/bills_pc.asm`
+- `gfx/player.asm`
+- `home/bankswitch.asm`
+- `home/list_menu.asm`
+- `home/move_mon.asm`
+- `home/pokemon.asm`
+- `home/trainers2.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 740 (100%)
+- EXTRACTED: 191 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

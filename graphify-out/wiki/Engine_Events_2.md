@@ -1,57 +1,77 @@
 # Engine Events 2
 
-> 43 nodes · cohesion 0.08
+> 58 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **engine/events/in_game_trades.asm** (33 connections) — `engine/events/in_game_trades.asm`
-- **DoInGameTradeDialogue** (24 connections) — `engine/events/in_game_trades.asm`
-- **InGameTrade_PrepareTradeData** (15 connections) — `engine/events/in_game_trades.asm`
-- **Trade_PrintEnemyMonInfoText** (10 connections) — `engine/movie/trade2.asm`
-- **Trade_PrintPlayerMonInfoText** (10 connections) — `engine/movie/trade2.asm`
-- **wPokedexNum** (8 connections) — `ram/wram.asm`
-- **TradeTextPointers1** (7 connections) — `engine/events/in_game_trades.asm`
-- **TradeTextPointers2** (7 connections) — `engine/events/in_game_trades.asm`
-- **TradeTextPointers3** (7 connections) — `engine/events/in_game_trades.asm`
-- **InGameTradeTextPointers** (5 connections) — `engine/events/in_game_trades.asm`
-- **engine/movie/trade2.asm** (5 connections) — `engine/movie/trade2.asm`
-- **wTradedEnemyMonOT** (5 connections) — `ram/wram.asm`
-- **wTradedEnemyMonOTID** (5 connections) — `ram/wram.asm`
-- **wTradedPlayerMonOT** (5 connections) — `ram/wram.asm`
-- **wCompletedInGameTradeFlags** (4 connections) — `ram/wram.asm`
-- **wInGameTradeMonNick** (4 connections) — `ram/wram.asm`
-- **wTradedPlayerMonOTID** (4 connections) — `ram/wram.asm`
-- **InGameTrade_CopyData** (3 connections) — `engine/events/in_game_trades.asm`
-- **InGameTrade_TrainerString** (3 connections) — `engine/events/in_game_trades.asm`
-- **Trade_MonInfoText** (3 connections) — `engine/movie/trade2.asm`
-- **data/events/trades.asm** (3 connections) — `data/events/trades.asm`
-- **wInGameTradeGiveMonName** (3 connections) — `ram/wram.asm`
-- **wInGameTradeReceiveMonName** (3 connections) — `ram/wram.asm`
-- **wInGameTradeTextPointerTableIndex** (3 connections) — `ram/wram.asm`
-- **wTradedPlayerMonSpecies** (3 connections) — `ram/wram.asm`
-- *... and 18 more nodes in this community*
+- **engine/events** (49 connections)
+- **engine/events/diploma.asm** (10 connections) — `engine/events/diploma.asm`
+- **_GivePokemon** (8 connections) — `engine/events/give_pokemon.asm`
+- **SetPokedexOwnedFlag** (8 connections) — `engine/events/give_pokemon.asm`
+- **engine/events/give_pokemon.asm** (7 connections) — `engine/events/give_pokemon.asm`
+- **engine/events/hidden_events/gym_statues.asm** (6 connections) — `engine/events/hidden_events/gym_statues.asm`
+- **engine/events/hidden_events/blues_room.asm** (5 connections) — `engine/events/hidden_events/blues_room.asm`
+- **GymStatues** (4 connections) — `engine/events/hidden_events/gym_statues.asm`
+- **engine/events/hidden_events/indigo_plateau_hq.asm** (4 connections) — `engine/events/hidden_events/indigo_plateau_hq.asm`
+- **engine/events/hidden_events/magazines.asm** (4 connections) — `engine/events/hidden_events/magazines.asm`
+- **engine/events/hidden_events/new_bike.asm** (4 connections) — `engine/events/hidden_events/new_bike.asm`
+- **engine/events/hidden_events/oaks_lab_email.asm** (4 connections) — `engine/events/hidden_events/oaks_lab_email.asm`
+- **engine/events/hidden_events/pokecenter_pc.asm** (4 connections) — `engine/events/hidden_events/pokecenter_pc.asm`
+- **engine/events/hidden_events/route_15_binoculars.asm** (4 connections) — `engine/events/hidden_events/route_15_binoculars.asm`
+- **engine/events/set_blackout_map.asm** (4 connections) — `engine/events/set_blackout_map.asm`
+- **SetLastBlackoutMap** (3 connections) — `engine/events/set_blackout_map.asm`
+- **StarterDex** (3 connections) — `engine/events/starter_dex.asm`
+- **data/maps/badge_maps.asm** (3 connections) — `data/maps/badge_maps.asm`
+- **data/maps/rest_house_maps.asm** (3 connections) — `data/maps/rest_house_maps.asm`
+- **engine/events/display_pokedex.asm** (3 connections) — `engine/events/display_pokedex.asm`
+- **engine/events/evolve_trade.asm** (3 connections) — `engine/events/evolve_trade.asm`
+- **engine/events/heal_party.asm** (3 connections) — `engine/events/heal_party.asm`
+- **engine/events/hidden_events/elevator.asm** (3 connections) — `engine/events/hidden_events/elevator.asm`
+- **engine/events/hidden_events/pokemon_stuff.asm** (3 connections) — `engine/events/hidden_events/pokemon_stuff.asm`
+- **engine/events/hidden_events/town_map.asm** (3 connections) — `engine/events/hidden_events/town_map.asm`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Engine Pokemon](Engine_Pokemon.md) (14 shared connections)
-- [Engine Menus 2](Engine_Menus_2.md) (4 shared connections)
-- [Home 2](Home_2.md) (2 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Engine Menus](Engine_Menus.md) (2 shared connections)
-- [Engine Overworld 2](Engine_Overworld_2.md) (1 shared connections)
-- [Bank HRAM](Bank_HRAM.md) (1 shared connections)
-- [Engine Movie](Engine_Movie.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (14 shared connections)
+- [Ram](Ram.md) (9 shared connections)
+- [Engine Events](Engine_Events.md) (4 shared connections)
+- [Engine Events 3](Engine_Events_3.md) (3 shared connections)
+- [Scripts 4](Scripts_4.md) (2 shared connections)
+- [Ram 2](Ram_2.md) (2 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
+- [Data Events](Data_Events.md) (1 shared connections)
+- [Scripts 15](Scripts_15.md) (1 shared connections)
+- [Engine Events 5](Engine_Events_5.md) (1 shared connections)
+- [Engine Events 14](Engine_Events_14.md) (1 shared connections)
 
 ## Source Files
 
-- `data/events/trades.asm`
-- `engine/events/in_game_trades.asm`
-- `engine/movie/trade2.asm`
-- `ram/wram.asm`
+- `data/maps/badge_maps.asm`
+- `data/maps/rest_house_maps.asm`
+- `engine/events/diploma.asm`
+- `engine/events/display_pokedex.asm`
+- `engine/events/evolve_trade.asm`
+- `engine/events/give_pokemon.asm`
+- `engine/events/heal_party.asm`
+- `engine/events/hidden_events/blues_room.asm`
+- `engine/events/hidden_events/elevator.asm`
+- `engine/events/hidden_events/gym_statues.asm`
+- `engine/events/hidden_events/indigo_plateau_hq.asm`
+- `engine/events/hidden_events/magazines.asm`
+- `engine/events/hidden_events/new_bike.asm`
+- `engine/events/hidden_events/oaks_lab_email.asm`
+- `engine/events/hidden_events/pokecenter_pc.asm`
+- `engine/events/hidden_events/pokemon_stuff.asm`
+- `engine/events/hidden_events/route_15_binoculars.asm`
+- `engine/events/hidden_events/town_map.asm`
+- `engine/events/poison.asm`
+- `engine/events/set_blackout_map.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 98 (100%)
+- EXTRACTED: 118 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

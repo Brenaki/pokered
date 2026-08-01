@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **text/RedsHouse1F.asm** (7 connections) — `text/RedsHouse1F.asm`
-- **_RedsHouse1FMomLookingGreatText** (1 connections) — `text/RedsHouse1F.asm`
-- **_RedsHouse1FMomWakeUpText** (1 connections) — `text/RedsHouse1F.asm`
-- **_RedsHouse1FMomYouShouldRestText** (1 connections) — `text/RedsHouse1F.asm`
-- **_RedsHouse1FTVStandByMeMovieText** (1 connections) — `text/RedsHouse1F.asm`
-- **_RedsHouse1FTVWrongSideText** (1 connections) — `text/RedsHouse1F.asm`
+- **text/SafariZoneNorth.asm** (7 connections) — `text/SafariZoneNorth.asm`
+- **_SafariZoneNorthRestHouseSignText** (1 connections) — `text/SafariZoneNorth.asm`
+- **_SafariZoneNorthSignText** (1 connections) — `text/SafariZoneNorth.asm`
+- **_SafariZoneNorthTrainerTips1Text** (1 connections) — `text/SafariZoneNorth.asm`
+- **_SafariZoneNorthTrainerTips2Text** (1 connections) — `text/SafariZoneNorth.asm`
+- **_SafariZoneNorthTrainerTips3Text** (1 connections) — `text/SafariZoneNorth.asm`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `text/RedsHouse1F.asm`
+- `text/SafariZoneNorth.asm`
 
 ## Audit Trail
 

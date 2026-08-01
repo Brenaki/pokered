@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **text/CeladonMart2F.asm** (5 connections) — `text/CeladonMart2F.asm`
-- **_CeladonMart2FCurrentFloorSignText** (1 connections) — `text/CeladonMart2F.asm`
-- **_CeladonMart2FGirlText** (1 connections) — `text/CeladonMart2F.asm`
-- **_CeladonMart2FMiddleAgedManText** (1 connections) — `text/CeladonMart2F.asm`
+- **text/SeafoamIslandsB4F.asm** (5 connections) — `text/SeafoamIslandsB4F.asm`
+- **_SeafoamIslandsB4FArticunoBattleText** (1 connections) — `text/SeafoamIslandsB4F.asm`
+- **_SeafoamIslandsB4FBouldersSignText** (1 connections) — `text/SeafoamIslandsB4F.asm`
+- **_SeafoamIslandsB4FDangerSignText** (1 connections) — `text/SeafoamIslandsB4F.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `text/CeladonMart2F.asm`
+- `text/SeafoamIslandsB4F.asm`
 
 ## Audit Trail
 

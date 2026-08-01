@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **LittleGirlSprite** (3 connections) — `gfx/sprites.asm`
-- **gfx/sprites/little_girl.2bpp** (2 connections) — `gfx/sprites.asm`
+- **BikeShopClerkSprite** (3 connections) — `gfx/sprites.asm`
+- **gfx/sprites/bike_shop_clerk.2bpp** (2 connections) — `gfx/sprites.asm`
 
 ## Relationships
 

@@ -1,47 +1,44 @@
 # Scripts 71
 
-> 19 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **scripts/VermilionCity.asm** (23 connections) — `scripts/VermilionCity.asm`
-- **VermilionCity_Script** (7 connections) — `scripts/VermilionCity.asm`
-- **SSAnneTicketCheckCoords** (3 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityGambler1Text** (3 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityPlayerAllowedToPassScript** (3 connections) — `scripts/VermilionCity.asm`
-- **VermilionCity_ScriptPointers** (2 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityLeftSSAnneCallbackScript** (2 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityPlayerExitShipScript** (2 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityPlayerMovingUp1Script** (2 connections) — `scripts/VermilionCity.asm`
-- **VermilionCity_TextPointers** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityBeautyText** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityGambler2Text** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityGymSignText** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityHarborSignText** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityNoticeSignText** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityPlayerMovingUp2Script** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCityPokemonFanClubSignText** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCitySailor2Text** (1 connections) — `scripts/VermilionCity.asm`
-- **VermilionCitySignText** (1 connections) — `scripts/VermilionCity.asm`
+- **scripts/PokemonTower3F.asm** (21 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3F_Script** (5 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler1Text** (4 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler2Text** (4 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler3Text** (4 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3F_ScriptPointers** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3TrainerHeader0** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3TrainerHeader1** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3TrainerHeader2** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3TrainerHeaders** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3F_TextPointers** (1 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler1AfterBattleText** (1 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler1BattleText** (1 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler1EndBattleText** (1 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler2AfterBattleText** (1 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler2BattleText** (1 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler2EndBattleText** (1 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler3AfterBattleText** (1 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler3BattleText** (1 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler3EndBattleText** (1 connections) — `scripts/PokemonTower3F.asm`
 
 ## Relationships
 
-- [Scripts 3](Scripts_3.md) (3 shared connections)
-- [Scripts 2](Scripts_2.md) (3 shared connections)
-- [Scripts 10](Scripts_10.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Engine Overworld 2](Engine_Overworld_2.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 8](Scripts_8.md) (1 shared connections)
-- [Engine Movie](Engine_Movie.md) (1 shared connections)
+- [Scripts](Scripts.md) (3 shared connections)
+- [Home 8](Home_8.md) (3 shared connections)
+- [Scripts 47](Scripts_47.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/VermilionCity.asm`
+- `scripts/PokemonTower3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

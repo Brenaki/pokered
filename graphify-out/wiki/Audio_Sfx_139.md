@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **audio/sfx/slots_new_spin.asm** (4 connections) — `audio/sfx/slots_new_spin.asm`
-- **SFX_Slots_New_Spin_Ch5** (1 connections) — `audio/sfx/slots_new_spin.asm`
-- **SFX_Slots_New_Spin_Ch6** (1 connections) — `audio/sfx/slots_new_spin.asm`
+- **audio/sfx/ball_toss.asm** (4 connections) — `audio/sfx/ball_toss.asm`
+- **SFX_Ball_Toss_Ch5** (1 connections) — `audio/sfx/ball_toss.asm`
+- **SFX_Ball_Toss_Ch6** (1 connections) — `audio/sfx/ball_toss.asm`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `audio/sfx/slots_new_spin.asm`
+- `audio/sfx/ball_toss.asm`
 
 ## Audit Trail
 

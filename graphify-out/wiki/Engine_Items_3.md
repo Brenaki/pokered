@@ -1,40 +1,53 @@
 # Engine Items 3
 
-> 12 nodes · cohesion 0.23
+> 21 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **ItemUseBait** (8 connections) — `engine/items/item_effects.asm`
-- **PrintSafariZoneBattleText** (7 connections) — `engine/battle/safari_zone.asm`
-- **ItemUseRock** (7 connections) — `engine/items/item_effects.asm`
-- **BaitRockCommon** (5 connections) — `engine/items/item_effects.asm`
-- **engine/battle/safari_zone.asm** (5 connections) — `engine/battle/safari_zone.asm`
-- **wSafariBaitFactor** (5 connections) — `ram/wram.asm`
-- **wEnemyMonActualCatchRate** (4 connections) — `ram/wram.asm`
-- **wSafariEscapeFactor** (4 connections) — `ram/wram.asm`
-- **SafariZoneAngryText** (2 connections) — `engine/battle/safari_zone.asm`
-- **SafariZoneEatingText** (2 connections) — `engine/battle/safari_zone.asm`
-- **ThrewBaitText** (2 connections) — `engine/items/item_effects.asm`
-- **ThrewRockText** (2 connections) — `engine/items/item_effects.asm`
+- **ItemUsePtrTable** (32 connections) — `engine/items/item_effects.asm`
+- **ItemUseNotTime** (24 connections) — `engine/items/item_effects.asm`
+- **PrintItemUseTextAndRemoveItem** (11 connections) — `engine/items/item_effects.asm`
+- **ItemUseXStat** (8 connections) — `engine/items/item_effects.asm`
+- **ItemUseCoinCase** (5 connections) — `engine/items/item_effects.asm`
+- **ItemUseDireHit** (5 connections) — `engine/items/item_effects.asm`
+- **ItemUseGuardSpec** (5 connections) — `engine/items/item_effects.asm`
+- **ItemUseRepelCommon** (5 connections) — `engine/items/item_effects.asm`
+- **ItemUseXAccuracy** (5 connections) — `engine/items/item_effects.asm`
+- **ItemUsePokeDoll** (4 connections) — `engine/items/item_effects.asm`
+- **ItemUseMaxRepel** (3 connections) — `engine/items/item_effects.asm`
+- **ItemUsePPUp** (3 connections) — `engine/items/item_effects.asm`
+- **ItemUseSuperRepel** (3 connections) — `engine/items/item_effects.asm`
+- **ItemUseTownMap** (3 connections) — `engine/items/item_effects.asm`
+- **ItemUseVitamin** (3 connections) — `engine/items/item_effects.asm`
+- **UnusableItem** (3 connections) — `engine/items/item_effects.asm`
+- **UseItem_** (3 connections) — `engine/items/item_effects.asm`
+- **CoinCaseNumCoinsText** (2 connections) — `engine/items/item_effects.asm`
+- **ItemUseNotTimeText** (2 connections) — `engine/items/item_effects.asm`
+- **ItemUsePokedex** (2 connections) — `engine/items/item_effects.asm`
+- **ItemUseRepel** (2 connections) — `engine/items/item_effects.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (3 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
-- [Home 2](Home_2.md) (1 shared connections)
-- [Engine Battle 21](Engine_Battle_21.md) (1 shared connections)
-- [Engine Movie](Engine_Movie.md) (1 shared connections)
-- [Engine Overworld 2](Engine_Overworld_2.md) (1 shared connections)
+- [Engine Battle 2](Engine_Battle_2.md) (5 shared connections)
+- [Engine Items](Engine_Items.md) (5 shared connections)
+- [Ram](Ram.md) (4 shared connections)
+- [Engine Items 4](Engine_Items_4.md) (4 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Engine Items 7](Engine_Items_7.md) (2 shared connections)
+- [Engine Items 5](Engine_Items_5.md) (2 shared connections)
+- [Data Events 3](Data_Events_3.md) (1 shared connections)
+- [Engine Menus](Engine_Menus.md) (1 shared connections)
+- [Engine Items 6](Engine_Items_6.md) (1 shared connections)
+- [Engine Movie 5](Engine_Movie_5.md) (1 shared connections)
+- [Ram 2](Ram_2.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/battle/safari_zone.asm`
 - `engine/items/item_effects.asm`
-- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

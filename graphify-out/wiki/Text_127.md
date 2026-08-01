@@ -1,14 +1,13 @@
 # Text 127
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **text/SafariZoneWest.asm** (6 connections) — `text/SafariZoneWest.asm`
-- **_SafariZoneWestFindWardensTeethSignText** (1 connections) — `text/SafariZoneWest.asm`
-- **_SafariZoneWestRestHouseSignText** (1 connections) — `text/SafariZoneWest.asm`
-- **_SafariZoneWestSignText** (1 connections) — `text/SafariZoneWest.asm`
-- **_SafariZoneWestTrainerTipsText** (1 connections) — `text/SafariZoneWest.asm`
+- **text/CeladonMart1F.asm** (5 connections) — `text/CeladonMart1F.asm`
+- **_CeladonMart1FCurrentFloorSignText** (1 connections) — `text/CeladonMart1F.asm`
+- **_CeladonMart1FDirectorySignText** (1 connections) — `text/CeladonMart1F.asm`
+- **_CeladonMart1FReceptionistText** (1 connections) — `text/CeladonMart1F.asm`
 
 ## Relationships
 
@@ -16,11 +15,11 @@
 
 ## Source Files
 
-- `text/SafariZoneWest.asm`
+- `text/CeladonMart1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

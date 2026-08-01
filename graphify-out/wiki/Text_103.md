@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **text/Route12Gate2F.asm** (8 connections) — `text/Route12Gate2F.asm`
-- **_Route12Gate2FBrunetteGirlReceivedTM39Text** (1 connections) — `text/Route12Gate2F.asm`
-- **_Route12Gate2FBrunetteGirlTM39ExplanationText** (1 connections) — `text/Route12Gate2F.asm`
-- **_Route12Gate2FBrunetteGirlTM39NoRoomText** (1 connections) — `text/Route12Gate2F.asm`
-- **_Route12Gate2FBrunetteGirlYouCanHaveThisText** (1 connections) — `text/Route12Gate2F.asm`
-- **_Route12Gate2FLeftBinocularsText** (1 connections) — `text/Route12Gate2F.asm`
-- **_Route12Gate2FRightBinocularsText** (1 connections) — `text/Route12Gate2F.asm`
+- **text/Route12SuperRodHouse.asm** (8 connections) — `text/Route12SuperRodHouse.asm`
+- **_Route12SuperRodHouseFishingGuruDoYouLikeToFishText** (1 connections) — `text/Route12SuperRodHouse.asm`
+- **_Route12SuperRodHouseFishingGuruFishingWayOfLifeText** (1 connections) — `text/Route12SuperRodHouse.asm`
+- **_Route12SuperRodHouseFishingGuruNoRoomText** (1 connections) — `text/Route12SuperRodHouse.asm`
+- **_Route12SuperRodHouseFishingGuruReceivedSuperRodText** (1 connections) — `text/Route12SuperRodHouse.asm`
+- **_Route12SuperRodHouseFishingGuruThatsDisappointingText** (1 connections) — `text/Route12SuperRodHouse.asm`
+- **_Route12SuperRodHouseFishingGuruTryFishingText** (1 connections) — `text/Route12SuperRodHouse.asm`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `text/Route12Gate2F.asm`
+- `text/Route12SuperRodHouse.asm`
 
 ## Audit Trail
 

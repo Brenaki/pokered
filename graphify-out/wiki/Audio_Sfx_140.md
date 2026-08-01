@@ -4,9 +4,9 @@
 
 ## Key Concepts
 
-- **audio/sfx/ss_anne_horn_3.asm** (4 connections) — `audio/sfx/ss_anne_horn_3.asm`
-- **SFX_SS_Anne_Horn_3_Ch5** (1 connections) — `audio/sfx/ss_anne_horn_3.asm`
-- **SFX_SS_Anne_Horn_3_Ch6** (1 connections) — `audio/sfx/ss_anne_horn_3.asm`
+- **audio/sfx/battle_1e.asm** (4 connections) — `audio/sfx/battle_1e.asm`
+- **SFX_Battle_1E_Ch5** (1 connections) — `audio/sfx/battle_1e.asm`
+- **SFX_Battle_1E_Ch8** (1 connections) — `audio/sfx/battle_1e.asm`
 
 ## Relationships
 
@@ -14,7 +14,7 @@
 
 ## Source Files
 
-- `audio/sfx/ss_anne_horn_3.asm`
+- `audio/sfx/battle_1e.asm`
 
 ## Audit Trail
 

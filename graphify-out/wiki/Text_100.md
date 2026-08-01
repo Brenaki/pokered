@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **text/PokemonMansion1F.asm** (8 connections) — `text/PokemonMansion1F.asm`
-- **_PokemonMansion1FScientistAfterBattleText** (1 connections) — `text/PokemonMansion1F.asm`
-- **_PokemonMansion1FScientistBattleText** (1 connections) — `text/PokemonMansion1F.asm`
-- **_PokemonMansion1FScientistEndBattleText** (1 connections) — `text/PokemonMansion1F.asm`
-- **_PokemonMansion1FSwitchNotPressedText** (1 connections) — `text/PokemonMansion1F.asm`
-- **_PokemonMansion1FSwitchPressedText** (1 connections) — `text/PokemonMansion1F.asm`
-- **_PokemonMansion1FSwitchText** (1 connections) — `text/PokemonMansion1F.asm`
+- **text/RocketHideoutB3F.asm** (8 connections) — `text/RocketHideoutB3F.asm`
+- **_RocketHide3AfterBattleText3** (1 connections) — `text/RocketHideoutB3F.asm`
+- **_RocketHideout3BattleText** (1 connections) — `text/RocketHideoutB3F.asm`
+- **_RocketHideout3EndBattleText3** (1 connections) — `text/RocketHideoutB3F.asm`
+- **_RocketHideoutB3FRocket1AfterBattleText** (1 connections) — `text/RocketHideoutB3F.asm`
+- **_RocketHideoutB3FRocket1BattleText** (1 connections) — `text/RocketHideoutB3F.asm`
+- **_RocketHideoutB3FRocket1EndBattleText** (1 connections) — `text/RocketHideoutB3F.asm`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `text/PokemonMansion1F.asm`
+- `text/RocketHideoutB3F.asm`
 
 ## Audit Trail
 

@@ -1,51 +1,53 @@
 # Scripts 62
 
-> 24 nodes · cohesion 0.11
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **scripts/SilphCo8F.asm** (25 connections) — `scripts/SilphCo8F.asm`
-- **hUnlockedSilphCoDoors** (8 connections) — `ram/hram.asm`
-- **SilphCo8F_Script** (6 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FGateCallbackScript** (5 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8F_SetCardKeyDoorYScript** (4 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket1Text** (4 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket2Text** (4 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FScientistText** (4 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8F_ScriptPointers** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8F_UnlockedDoorEventScript** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8TrainerHeader0** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8TrainerHeader1** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8TrainerHeader2** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8TrainerHeaders** (2 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8F_TextPointers** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket1AfterBattleText** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket1BattleText** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket1EndBattleText** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket2AfterBattleText** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket2BattleText** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FRocket2EndBattleText** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FScientistAfterBattleText** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FScientistBattleText** (1 connections) — `scripts/SilphCo8F.asm`
-- **SilphCo8FScientistEndBattleText** (1 connections) — `scripts/SilphCo8F.asm`
+- **scripts/RocketHideoutB4F.asm** (26 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FBeatGiovanniScript** (9 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4F_Script** (6 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FDoorCallbackScript** (4 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket1Text** (4 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket2Text** (4 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket3Text** (4 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideout4TrainerHeader0** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideout4TrainerHeader1** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideout4TrainerHeader2** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideout4TrainerHeaders** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4F_ScriptPointers** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FGiovanniHopeWeMeetAgainText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FSetDefaultScript** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4F_TextPointers** (1 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket1AfterBattleText** (1 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket1BattleText** (1 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket1EndBattleText** (1 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket2AfterBattleText** (1 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket2BattleText** (1 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket2EndBattleText** (1 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket3BattleText** (1 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket3EndBattleText** (1 connections) — `scripts/RocketHideoutB4F.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (4 shared connections)
-- [Scripts 9](Scripts_9.md) (3 shared connections)
-- [Scripts 28](Scripts_28.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Ram 9](Ram_9.md) (1 shared connections)
-- [Scripts 8](Scripts_8.md) (1 shared connections)
+- [Scripts](Scripts.md) (4 shared connections)
+- [Home 8](Home_8.md) (3 shared connections)
+- [Scripts 4](Scripts_4.md) (2 shared connections)
+- [Home 5](Home_5.md) (2 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 11](Scripts_11.md) (2 shared connections)
+- [Scripts 7](Scripts_7.md) (1 shared connections)
+- [Scripts 47](Scripts_47.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
 
-- `ram/hram.asm`
-- `scripts/SilphCo8F.asm`
+- `scripts/RocketHideoutB4F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 48 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

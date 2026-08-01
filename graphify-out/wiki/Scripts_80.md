@@ -1,43 +1,44 @@
 # Scripts 80
 
-> 16 nodes · cohesion 0.18
+> 17 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **scripts/SafariZoneGate.asm** (19 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneEntranceAutoWalk** (8 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGateReturnSimulatedJoypadStateScript** (5 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGateSafariZoneWorker1LeavingEarlyText** (5 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGate_Script** (4 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGateLeavingSafariScript** (4 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGateSafariZoneWorker2Text** (4 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGateSetScriptAfterMoveScript** (3 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGateWouldYouLikeToJoinScript** (3 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGate_ScriptPointers** (2 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGatePlayerMovingDownScript** (2 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGatePlayerMovingRightScript** (2 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGatePlayerMovingUpScript** (2 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGate_TextPointers** (1 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGateSafariZoneWorker1GoodHaulComeAgainText** (1 connections) — `scripts/SafariZoneGate.asm`
-- **SafariZoneGateSafariZoneWorker1Text** (1 connections) — `scripts/SafariZoneGate.asm`
+- **scripts/SilphCo3F.asm** (19 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3F_Script** (6 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FGateCallbackScript** (6 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FRocketText** (4 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FScientistText** (4 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3F_ScriptPointers** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3F_UnlockedDoorEventScript** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3TrainerHeader0** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3TrainerHeader1** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3TrainerHeaders** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3F_TextPointers** (1 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FRocketAfterBattleText** (1 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FRocketBattleText** (1 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FRocketEndBattleText** (1 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FScientistAfterBattleText** (1 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FScientistBattleText** (1 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FScientistEndBattleText** (1 connections) — `scripts/SilphCo3F.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (6 shared connections)
-- [Scripts 3](Scripts_3.md) (5 shared connections)
-- [Home 2](Home_2.md) (3 shared connections)
-- [Engine Events](Engine_Events.md) (1 shared connections)
-- [Engine Movie 3](Engine_Movie_3.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts](Scripts.md) (3 shared connections)
+- [Home 8](Home_8.md) (2 shared connections)
+- [Scripts 47](Scripts_47.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Engine Overworld 6](Engine_Overworld_6.md) (1 shared connections)
+- [Scripts 11](Scripts_11.md) (1 shared connections)
+- [Scripts 66](Scripts_66.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SafariZoneGate.asm`
+- `scripts/SilphCo3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
