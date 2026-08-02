@@ -1,54 +1,54 @@
 # Scripts 42
 
-> 36 nodes · cohesion 0.10
+> 35 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts/VictoryRoad2F.asm** (38 connections) — `scripts/VictoryRoad2F.asm`
-- **21.66 Mapa `VictoryRoad2F`** (17 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **VictoryRoad2F_Script** (8 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FCooltrainerMText** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FHikerText** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FMoltresText** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd1Text** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd2Text** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd3Text** (4 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FCheckBoulderEventScript** (3 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FReplaceTileBlockScript** (3 connections) — `scripts/VictoryRoad2F.asm`
-- **MoltresTrainerHeader** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2F_ScriptPointers** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FCooltrainerMAfterBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FCooltrainerMBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FCooltrainerMEndBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FHikerAfterBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FHikerBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FHikerEndBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FResetBoulderEventScript** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd1AfterBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd1BattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd1EndBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd2AfterBattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- **VictoryRoad2FSuperNerd2BattleText** (2 connections) — `scripts/VictoryRoad2F.asm`
-- *... and 11 more nodes in this community*
+- **scripts/PokemonMansionB1F.asm** (19 connections) — `scripts/PokemonMansionB1F.asm`
+- **scripts/PokemonMansion2F.asm** (17 connections) — `scripts/PokemonMansion2F.asm`
+- **21.16 Mapa `PokemonMansionB1F`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **PokemonMansion2F_Script** (6 connections) — `scripts/PokemonMansion2F.asm`
+- **PokemonMansionB1F_Script** (6 connections) — `scripts/PokemonMansionB1F.asm`
+- **21.14 Mapa `PokemonMansion2F`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Mansion2CheckReplaceSwitchDoorBlocks** (4 connections) — `scripts/PokemonMansion2F.asm`
+- **Mansion2ReplaceBlock** (4 connections) — `scripts/PokemonMansion2F.asm`
+- **PokemonMansion2FSuperNerdText** (4 connections) — `scripts/PokemonMansion2F.asm`
+- **MansionB1FCheckReplaceSwitchDoorBlocks** (4 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FBurglarText** (4 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FScientistText** (4 connections) — `scripts/PokemonMansionB1F.asm`
+- **Mansion2Script_Switches** (2 connections) — `scripts/PokemonMansion2F.asm`
+- **Mansion2TrainerHeader0** (2 connections) — `scripts/PokemonMansion2F.asm`
+- **Mansion2TrainerHeaders** (2 connections) — `scripts/PokemonMansion2F.asm`
+- **PokemonMansion2F_ScriptPointers** (2 connections) — `scripts/PokemonMansion2F.asm`
+- **PokemonMansion2FSuperNerdAfterBattleText** (2 connections) — `scripts/PokemonMansion2F.asm`
+- **PokemonMansion2FSuperNerdBattleText** (2 connections) — `scripts/PokemonMansion2F.asm`
+- **PokemonMansion2FSuperNerdEndBattleText** (2 connections) — `scripts/PokemonMansion2F.asm`
+- **Mansion4Script_Switches** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **Mansion4TrainerHeader0** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **Mansion4TrainerHeader1** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **Mansion4TrainerHeaders** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1F_ScriptPointers** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- **PokemonMansionB1FBurglarAfterBattleText** (2 connections) — `scripts/PokemonMansionB1F.asm`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (8 shared connections)
-- [Home 8](Home_8.md) (6 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 19](Scripts_19.md) (1 shared connections)
-- [Engine Overworld 8](Engine_Overworld_8.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (4 shared connections)
+- [Scripts 7](Scripts_7.md) (3 shared connections)
+- [Scripts 11](Scripts_11.md) (2 shared connections)
+- [Scripts 3](Scripts_3.md) (2 shared connections)
+- [Scripts 27](Scripts_27.md) (2 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/VictoryRoad2F.asm`
+- `scripts/PokemonMansion2F.asm`
+- `scripts/PokemonMansionB1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,24 +1,22 @@
 # Scripts 119
 
-> 7 nodes · cohesion 0.29
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **scripts/UndergroundPathRoute7Copy.asm** (8 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7Copy_Script** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7Copy_TextPointers** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7CopyUnusedGirlText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7CopyUnusedGoesUnderSaffronText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7CopyUnusedMiddleAgedManText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
-- **UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText** (1 connections) — `scripts/UndergroundPathRoute7Copy.asm`
+- **scripts/UndergroundPathRoute5.asm** (6 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathRoute5LittleGirlText** (3 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathEntranceRoute5_TextScriptEndingText** (2 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathRoute5_Script** (1 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathRoute5_TextPointers** (1 connections) — `scripts/UndergroundPathRoute5.asm`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Engine Events](Engine_Events.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/UndergroundPathRoute7Copy.asm`
+- `scripts/UndergroundPathRoute5.asm`
 
 ## Audit Trail
 

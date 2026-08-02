@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/wild/maps/VictoryRoad1F.asm** (3 connections) — `data/wild/maps/VictoryRoad1F.asm`
-- **VictoryRoad1FWildMons** (2 connections) — `data/wild/maps/VictoryRoad1F.asm`
+- **data/wild/maps/VictoryRoad2F.asm** (3 connections) — `data/wild/maps/VictoryRoad2F.asm`
+- **VictoryRoad2FWildMons** (2 connections) — `data/wild/maps/VictoryRoad2F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/wild/maps/VictoryRoad1F.asm`
+- `data/wild/maps/VictoryRoad2F.asm`
 
 ## Audit Trail
 

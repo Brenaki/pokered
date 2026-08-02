@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **text/FuchsiaGoodRodHouse.asm** (7 connections) — `text/FuchsiaGoodRodHouse.asm`
-- **_FuchsiaGoodRodHouseFishingGuruHowAreTheFishText** (1 connections) — `text/FuchsiaGoodRodHouse.asm`
-- **_FuchsiaGoodRodHouseFishingGuruNoRoomText** (1 connections) — `text/FuchsiaGoodRodHouse.asm`
-- **_FuchsiaGoodRodHouseFishingGuruReceivedGoodRodText** (1 connections) — `text/FuchsiaGoodRodHouse.asm`
-- **_FuchsiaGoodRodHouseFishingGuruText** (1 connections) — `text/FuchsiaGoodRodHouse.asm`
-- **_FuchsiaGoodRodHouseFishingGuruThatsSoDisappointingText** (1 connections) — `text/FuchsiaGoodRodHouse.asm`
+- **text/ViridianMart.asm** (7 connections) — `text/ViridianMart.asm`
+- **_ViridianMartClerkParcelQuestText** (1 connections) — `text/ViridianMart.asm`
+- **_ViridianMartClerkSayHiToOakText** (1 connections) — `text/ViridianMart.asm`
+- **_ViridianMartClerkYouCameFromPalletTownText** (1 connections) — `text/ViridianMart.asm`
+- **_ViridianMartCooltrainerMText** (1 connections) — `text/ViridianMart.asm`
+- **_ViridianMartYoungsterText** (1 connections) — `text/ViridianMart.asm`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `text/FuchsiaGoodRodHouse.asm`
+- `text/ViridianMart.asm`
 
 ## Audit Trail
 

@@ -1,53 +1,52 @@
 # Scripts 46
 
-> 32 nodes · cohesion 0.08
+> 31 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **GateUpstairsScript_PrintIfFacingUp** (12 connections) — `scripts/Route12Gate2F.asm`
-- **scripts/Route11Gate2F.asm** (9 connections) — `scripts/Route11Gate2F.asm`
-- **scripts/Route12Gate2F.asm** (8 connections) — `scripts/Route12Gate2F.asm`
-- **scripts/Route16Gate2F.asm** (8 connections) — `scripts/Route16Gate2F.asm`
-- **scripts/Route18Gate2F.asm** (7 connections) — `scripts/Route18Gate2F.asm`
-- **scripts/Route15Gate2F.asm** (6 connections) — `scripts/Route15Gate2F.asm`
-- **DisableAutoTextBoxDrawing** (6 connections) — `home/window.asm`
-- **Route11Gate2FLeftBinocularsText** (4 connections) — `scripts/Route11Gate2F.asm`
-- **Route12Gate2FBrunetteGirlText** (4 connections) — `scripts/Route12Gate2F.asm`
-- **Route11Gate2FScriptEnd** (3 connections) — `scripts/Route11Gate2F.asm`
-- **Route16Gate2FLittleBoyText** (3 connections) — `scripts/Route16Gate2F.asm`
-- **Route16Gate2FLittleGirlText** (3 connections) — `scripts/Route16Gate2F.asm`
-- **Route18Gate2FYoungsterText** (3 connections) — `scripts/Route18Gate2F.asm`
-- **Route11Gate2F_Script** (2 connections) — `scripts/Route11Gate2F.asm`
-- **Route11Gate2FRightBinocularsText** (2 connections) — `scripts/Route11Gate2F.asm`
-- **Route11Gate2FYoungsterText** (2 connections) — `scripts/Route11Gate2F.asm`
-- **Route12Gate2F_Script** (2 connections) — `scripts/Route12Gate2F.asm`
-- **Route12Gate2FLeftBinocularsText** (2 connections) — `scripts/Route12Gate2F.asm`
-- **Route12Gate2FRightBinocularsText** (2 connections) — `scripts/Route12Gate2F.asm`
-- **Route15Gate2F_Script** (2 connections) — `scripts/Route15Gate2F.asm`
-- **Route15Gate2FBinocularsText** (2 connections) — `scripts/Route15Gate2F.asm`
-- **Route16Gate2F_Script** (2 connections) — `scripts/Route16Gate2F.asm`
-- **Route16Gate2FLeftBinocularsText** (2 connections) — `scripts/Route16Gate2F.asm`
-- **Route16Gate2FRightBinocularsText** (2 connections) — `scripts/Route16Gate2F.asm`
-- **Route18Gate2F_Script** (2 connections) — `scripts/Route18Gate2F.asm`
-- *... and 7 more nodes in this community*
+- **scripts/RocketHideoutB1F.asm** (32 connections) — `scripts/RocketHideoutB1F.asm`
+- **21.25 Mapa `RocketHideoutB1F`** (16 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **RocketHideoutB1F_Script** (6 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideoutB1FRocket1Text** (4 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideoutB1FRocket2Text** (4 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideoutB1FRocket3Text** (4 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideoutB1FRocket4Text** (4 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideoutB1FRocket5Text** (4 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideout1TrainerHeader0** (2 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideout1TrainerHeader1** (2 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideout1TrainerHeader2** (2 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideout1TrainerHeader3** (2 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideout1TrainerHeader4** (2 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideout1TrainerHeaders** (2 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideoutB1F_ScriptPointers** (2 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideoutB1FRocket1AfterBattleText** (2 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideoutB1FRocket1BattleText** (2 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideoutB1FRocket1EndBattleText** (2 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideoutB1FRocket2AfterBattleText** (2 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideoutB1FRocket2BattleText** (2 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideoutB1FRocket2EndBattleText** (2 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideoutB1FRocket3AfterBattleText** (2 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideoutB1FRocket3BattleText** (2 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideoutB1FRocket3EndBattleText** (2 connections) — `scripts/RocketHideoutB1F.asm`
+- **RocketHideoutB1FRocket4AfterBattleText** (2 connections) — `scripts/RocketHideoutB1F.asm`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (13 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (4 shared connections)
+- [Scripts 2](Scripts_2.md) (5 shared connections)
+- [Scripts 7](Scripts_7.md) (5 shared connections)
+- [Scripts 11](Scripts_11.md) (2 shared connections)
+- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `home/window.asm`
-- `scripts/Route11Gate2F.asm`
-- `scripts/Route12Gate2F.asm`
-- `scripts/Route15Gate2F.asm`
-- `scripts/Route16Gate2F.asm`
-- `scripts/Route18Gate2F.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/RocketHideoutB1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (100%)
+- EXTRACTED: 65 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

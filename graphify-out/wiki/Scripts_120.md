@@ -1,27 +1,26 @@
 # Scripts 120
 
-> 6 nodes · cohesion 0.33
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **scripts/CeladonChiefHouse.asm** (7 connections) — `scripts/CeladonChiefHouse.asm`
-- **CeladonChiefHouse_Script** (2 connections) — `scripts/CeladonChiefHouse.asm`
-- **CeladonChiefHouse_TextPointers** (1 connections) — `scripts/CeladonChiefHouse.asm`
-- **CeladonChiefHouseChiefText** (1 connections) — `scripts/CeladonChiefHouse.asm`
-- **CeladonChiefHouseRocketText** (1 connections) — `scripts/CeladonChiefHouse.asm`
-- **CeladonChiefHouseSailorText** (1 connections) — `scripts/CeladonChiefHouse.asm`
+- **ViridianGym_Script** (6 connections) — `scripts/ViridianGym.asm`
+- **ViridianGym_ScriptPointers** (2 connections) — `scripts/ViridianGym.asm`
+- **ViridianGymTrainerHeaders** (2 connections) — `scripts/ViridianGym.asm`
 
 ## Relationships
 
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonChiefHouse.asm`
+- `scripts/ViridianGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

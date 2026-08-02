@@ -1,59 +1,52 @@
 # Scripts 44
 
-> 33 nodes · cohesion 0.10
+> 32 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **scripts/FightingDojo.asm** (34 connections) — `scripts/FightingDojo.asm`
-- **21.6 Mapa `FightingDojo`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **GivePokemon** (8 connections) — `home/give.asm`
-- **FightingDojoHitmonchanPokeBallText** (8 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoHitmonleePokeBallText** (8 connections) — `scripts/FightingDojo.asm`
-- **SilphCo7FSilphWorkerM1Text** (7 connections) — `scripts/SilphCo7F.asm`
-- **FightingDojo_Script** (5 connections) — `scripts/FightingDojo.asm`
-- **CeladonMansionRoofHouseEeveePokeballText** (4 connections) — `scripts/CeladonMansionRoofHouse.asm`
-- **FightingDojoBlackbelt1Text** (4 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt2Text** (4 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt3Text** (4 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt4Text** (4 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBetterNotGetGreedyText** (3 connections) — `scripts/FightingDojo.asm`
-- **FightingDojo_ScriptPointers** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt1AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt1BattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt1EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt2AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt2BattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt2EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt3AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt3BattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt3EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt4AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt4BattleText** (2 connections) — `scripts/FightingDojo.asm`
-- *... and 8 more nodes in this community*
+- **scripts/SSAnne1FRooms.asm** (32 connections) — `scripts/SSAnne1FRooms.asm`
+- **21.48 Mapa `SSAnne1FRooms`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **SSAnne1FRooms_Script** (5 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsCooltrainerFText** (4 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsGentleman1Text** (4 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsGentleman2Text** (4 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsYoungsterText** (4 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsWigglytuffText** (3 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRooms_ScriptPointers** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsCooltrainerFAfterBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsCooltrainerFBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsCooltrainerFEndBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsGentleman1AfterBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsGentleman1BattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsGentleman1EndBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsGentleman2AfterBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsGentleman2BattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsGentleman2EndBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsYoungsterAfterBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsYoungsterBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne1FRoomsYoungsterEndBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne8TrainerHeader0** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne8TrainerHeader1** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne8TrainerHeader2** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- **SSAnne8TrainerHeader3** (2 connections) — `scripts/SSAnne1FRooms.asm`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (14 shared connections)
-- [Home 8](Home_8.md) (4 shared connections)
-- [Scripts 19](Scripts_19.md) (3 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 4](Scripts_4.md) (2 shared connections)
-- [Scripts 76](Scripts_76.md) (2 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
-- [Engine Overworld 3](Engine_Overworld_3.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (5 shared connections)
+- [Scripts 7](Scripts_7.md) (4 shared connections)
+- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `home/give.asm`
-- `scripts/CeladonMansionRoofHouse.asm`
-- `scripts/FightingDojo.asm`
-- `scripts/SilphCo7F.asm`
+- `scripts/SSAnne1FRooms.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 82 (100%)
+- EXTRACTED: 60 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

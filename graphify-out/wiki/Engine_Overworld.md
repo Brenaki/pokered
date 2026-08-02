@@ -1,72 +1,62 @@
 # Engine Overworld
 
-> 76 nodes · cohesion 0.05
+> 33 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **DelayFrames** (143 connections) — `home/delay.asm`
 - **engine/overworld/player_animations.asm** (28 connections) — `engine/overworld/player_animations.asm`
-- **GetPredefRegisters** (27 connections) — `home/predef.asm`
-- **wPlayerName** (25 connections) — `ram/wram.asm`
 - **EnterMapAnim** (24 connections) — `engine/overworld/player_animations.asm`
 - **_LeaveMapAnim** (21 connections) — `engine/overworld/player_animations.asm`
 - **FishingAnim** (19 connections) — `engine/overworld/player_animations.asm`
-- **UpdateHPBar2** (17 connections) — `engine/gfx/hp_bar.asm`
-- **engine/gfx/hp_bar.asm** (13 connections) — `engine/gfx/hp_bar.asm`
-- **PrintSaveScreenText** (12 connections) — `engine/menus/main_menu.asm`
-- **HealEffect_** (11 connections) — `engine/battle/move_effects/heal.asm`
-- **DisplayContinueGameInfo** (10 connections) — `engine/menus/main_menu.asm`
-- **DrainHPEffect_** (9 connections) — `engine/battle/move_effects/drain_hp.asm`
-- **GetHPBarLength** (7 connections) — `engine/gfx/hp_bar.asm`
-- **PrintNumBadges** (7 connections) — `engine/menus/main_menu.asm`
-- **PrintNumOwnedMons** (7 connections) — `engine/menus/main_menu.asm`
-- **DrawHP** (7 connections) — `engine/pokemon/status_screen.asm`
-- **PrintPlayTime** (6 connections) — `engine/menus/main_menu.asm`
+- **vNPCSprites** (11 connections) — `ram/vram.asm`
+- **LoadBirdSpriteGraphics** (7 connections) — `engine/overworld/player_animations.asm`
 - **InitFacingDirectionList** (6 connections) — `engine/overworld/player_animations.asm`
 - **PlayerSpinInPlace** (6 connections) — `engine/overworld/player_animations.asm`
-- **engine/battle/move_effects/heal.asm** (6 connections) — `engine/battle/move_effects/heal.asm`
 - **wFacingDirectionList** (6 connections) — `ram/wram.asm`
-- **wHPBarOldHP** (6 connections) — `ram/wram.asm`
-- **RecoilEffect_** (5 connections) — `engine/battle/move_effects/recoil.asm`
-- **UpdateHPBar_PrintHPNumber** (5 connections) — `engine/gfx/hp_bar.asm`
-- *... and 51 more nodes in this community*
+- **IsPlayerStandingOnWarpPadOrHole** (5 connections) — `engine/overworld/player_animations.asm`
+- **LeaveMapThroughHoleAnim** (5 connections) — `engine/overworld/player_animations.asm`
+- **PlayerSpinWhileMovingDown** (5 connections) — `engine/overworld/player_animations.asm`
+- **PlayerSpinWhileMovingUpOrDown** (5 connections) — `engine/overworld/player_animations.asm`
+- **SpinPlayerSprite** (5 connections) — `engine/overworld/player_animations.asm`
+- **wFlyAnimUsingCoordList** (5 connections) — `ram/wram.asm`
+- **DoFlyAnimation** (4 connections) — `engine/overworld/player_animations.asm`
+- **RestoreFacingDirectionAndYScreenPos** (4 connections) — `engine/overworld/player_animations.asm`
+- **LoadBikePlayerSpriteGraphics** (4 connections) — `home/overworld.asm`
+- **wPlayerSpinInPlaceAnimFrameDelay** (4 connections) — `ram/wram.asm`
+- **wPlayerSpinWhileMovingUpOrDownAnimDeltaY** (4 connections) — `ram/wram.asm`
+- **FishingRodOAM** (3 connections) — `engine/overworld/player_animations.asm`
+- **GetPlayerTeleportAnimFrameDelay** (3 connections) — `engine/overworld/player_animations.asm`
+- **data/tilesets/warp_pad_hole_tile_ids.asm** (3 connections) — `data/tilesets/warp_pad_hole_tile_ids.asm`
+- **WarpPadAndHoleData** (2 connections) — `data/tilesets/warp_pad_hole_tile_ids.asm`
+- **FlyAnimationEnterScreenCoords** (2 connections) — `engine/overworld/player_animations.asm`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Home](Home.md) (9 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (8 shared connections)
-- [Engine Link](Engine_Link.md) (7 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (6 shared connections)
-- [Scripts](Scripts.md) (6 shared connections)
-- [Engine Battle 2](Engine_Battle_2.md) (5 shared connections)
-- [Engine Battle](Engine_Battle.md) (4 shared connections)
-- [Engine Movie 2](Engine_Movie_2.md) (4 shared connections)
-- [Ram](Ram.md) (4 shared connections)
-- [Scripts 5](Scripts_5.md) (4 shared connections)
-- [Home 6](Home_6.md) (3 shared connections)
-- [Home 2](Home_2.md) (2 shared connections)
+- [Engine Battle](Engine_Battle.md) (6 shared connections)
+- [Engine Movie](Engine_Movie.md) (4 shared connections)
+- [Scripts 11](Scripts_11.md) (4 shared connections)
+- [Engine Link](Engine_Link.md) (3 shared connections)
+- [Home 5](Home_5.md) (3 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (3 shared connections)
+- [Gfx Sprites.Asm](Gfx_Sprites.Asm.md) (2 shared connections)
+- [Gfx Sprites](Gfx_Sprites.md) (2 shared connections)
+- [Ram](Ram.md) (2 shared connections)
+- [Engine Menus 2](Engine_Menus_2.md) (2 shared connections)
+- [Home 7](Home_7.md) (1 shared connections)
+- [Home 4](Home_4.md) (1 shared connections)
 
 ## Source Files
 
 - `data/tilesets/warp_pad_hole_tile_ids.asm`
-- `engine/battle/animations.asm`
-- `engine/battle/move_effects/drain_hp.asm`
-- `engine/battle/move_effects/heal.asm`
-- `engine/battle/move_effects/recoil.asm`
-- `engine/gfx/hp_bar.asm`
-- `engine/gfx/screen_effects.asm`
-- `engine/menus/main_menu.asm`
-- `engine/menus/swap_items.asm`
 - `engine/overworld/player_animations.asm`
-- `engine/pokemon/status_screen.asm`
-- `home/delay.asm`
-- `home/pokemon.asm`
-- `home/predef.asm`
+- `home/overworld.asm`
+- `ram/vram.asm`
 - `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 213 (100%)
+- EXTRACTED: 111 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

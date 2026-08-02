@@ -1,12 +1,13 @@
 # Audio Sfx 133
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **audio/sfx/faint_thud.asm** (4 connections) — `audio/sfx/faint_thud.asm`
-- **SFX_Faint_Thud_Ch5** (1 connections) — `audio/sfx/faint_thud.asm`
-- **SFX_Faint_Thud_Ch8** (1 connections) — `audio/sfx/faint_thud.asm`
+- **audio/sfx/unused_cry_1.asm** (5 connections) — `audio/sfx/unused_cry_1.asm`
+- **SFX_UnusedCry_1_Ch5** (1 connections) — `audio/sfx/unused_cry_1.asm`
+- **SFX_UnusedCry_1_Ch6** (1 connections) — `audio/sfx/unused_cry_1.asm`
+- **SFX_UnusedCry_1_Ch8** (1 connections) — `audio/sfx/unused_cry_1.asm`
 
 ## Relationships
 
@@ -14,11 +15,11 @@
 
 ## Source Files
 
-- `audio/sfx/faint_thud.asm`
+- `audio/sfx/unused_cry_1.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

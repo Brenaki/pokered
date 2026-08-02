@@ -1,27 +1,28 @@
 # Scripts 107
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **scripts/LavenderTown.asm** (11 connections) — `scripts/LavenderTown.asm`
-- **LavenderTown_Script** (2 connections) — `scripts/LavenderTown.asm`
-- **LavenderTown_TextPointers** (1 connections) — `scripts/LavenderTown.asm`
-- **LavenderTownCooltrainerMText** (1 connections) — `scripts/LavenderTown.asm`
-- **LavenderTownPokemonHouseSignText** (1 connections) — `scripts/LavenderTown.asm`
-- **LavenderTownPokemonTowerSignText** (1 connections) — `scripts/LavenderTown.asm`
-- **LavenderTownSignText** (1 connections) — `scripts/LavenderTown.asm`
-- **LavenderTownSilphScopeSignText** (1 connections) — `scripts/LavenderTown.asm`
-- **LavenderTownSuperNerdText** (1 connections) — `scripts/LavenderTown.asm`
+- **scripts/Colosseum.asm** (5 connections) — `scripts/Colosseum.asm`
+- **scripts/TradeCenter.asm** (5 connections) — `scripts/TradeCenter.asm`
+- **TradeCenter_Script** (5 connections) — `scripts/TradeCenter.asm`
+- **Colosseum_Script** (2 connections) — `scripts/Colosseum.asm`
+- **Colosseum_TextPointers** (1 connections) — `scripts/Colosseum.asm`
+- **ColosseumOpponentText** (1 connections) — `scripts/Colosseum.asm`
+- **TradeCenter_TextPointers** (1 connections) — `scripts/TradeCenter.asm`
+- **TradeCenterOpponentText** (1 connections) — `scripts/TradeCenter.asm`
 
 ## Relationships
 
+- [Scripts 32](Scripts_32.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/LavenderTown.asm`
+- `scripts/Colosseum.asm`
+- `scripts/TradeCenter.asm`
 
 ## Audit Trail
 

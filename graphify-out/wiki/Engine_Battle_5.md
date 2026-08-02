@@ -1,57 +1,65 @@
 # Engine Battle 5
 
-> 49 nodes · cohesion 0.13
+> 42 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **engine/battle/trainer_ai.asm** (67 connections) — `engine/battle/trainer_ai.asm`
-- **TrainerAIPointers** (23 connections) — `data/trainers/ai_pointers.asm`
-- **7.4 Acoes especiais por treinador** (23 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **7.7 Tabela completa por classe** (20 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **AIPrintItemUse** (11 connections) — `engine/battle/trainer_ai.asm`
-- **AICheckIfHPBelowFraction** (10 connections) — `engine/battle/trainer_ai.asm`
-- **AgathaAI** (7 connections) — `engine/battle/trainer_ai.asm`
-- **AIIncreaseStat** (7 connections) — `engine/battle/trainer_ai.asm`
-- **CooltrainerFAI** (7 connections) — `engine/battle/trainer_ai.asm`
-- **AIPlayRestoringSFX** (6 connections) — `engine/battle/trainer_ai.asm`
-- **AIPrintItemUseAndUpdateHPBar** (6 connections) — `engine/battle/trainer_ai.asm`
-- **AISwitchIfEnoughMons** (6 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseSuperPotion** (6 connections) — `engine/battle/trainer_ai.asm`
-- **ErikaAI** (6 connections) — `engine/battle/trainer_ai.asm`
-- **LanceAI** (6 connections) — `engine/battle/trainer_ai.asm`
-- **LoreleiAI** (6 connections) — `engine/battle/trainer_ai.asm`
-- **Rival2AI** (6 connections) — `engine/battle/trainer_ai.asm`
-- **Rival3AI** (6 connections) — `engine/battle/trainer_ai.asm`
-- **SabrinaAI** (6 connections) — `engine/battle/trainer_ai.asm`
-- **SwitchEnemyMon** (6 connections) — `engine/battle/trainer_ai.asm`
-- **AICureStatus** (5 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseFullHeal** (5 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseFullRestore** (5 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseGuardSpec** (5 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseXAttack** (5 connections) — `engine/battle/trainer_ai.asm`
-- *... and 24 more nodes in this community*
+- **Divide** (25 connections) — `home/math.asm`
+- **engine/battle/common_text.asm** (23 connections) — `engine/battle/common_text.asm`
+- **Multiply** (18 connections) — `home/math.asm`
+- **PrintBeginningBattleText** (13 connections) — `engine/battle/common_text.asm`
+- **AdjustDamageForMoveType** (13 connections) — `engine/battle/core.asm`
+- **PlayerMon2Text** (9 connections) — `engine/battle/common_text.asm`
+- **PrintSendOutMonMessage** (8 connections) — `engine/battle/common_text.asm`
+- **PayDayEffect_** (7 connections) — `engine/battle/move_effects/pay_day.asm`
+- **CalcExperience** (6 connections) — `engine/pokemon/experience.asm`
+- **engine/pokemon/experience.asm** (6 connections) — `engine/pokemon/experience.asm`
+- **T_TYP_001_STAB_AND_SUPER_EFFECTIVE_STACK** (6 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
+- **type-system** (6 connections) — `rewrite/battle/contracts/traceability.json`
+- **PrintComeBackText** (5 connections) — `engine/battle/common_text.asm`
+- **PrintPlayerMon1Text** (5 connections) — `engine/battle/common_text.asm`
+- **engine/battle/move_effects/pay_day.asm** (4 connections) — `engine/battle/move_effects/pay_day.asm`
+- **BTL-TYP** (4 connections)
+- **T_TYP_002_DUAL_WEAKNESS_MULTIPLIES_TWICE** (4 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
+- **T_TYP_003_IMMUNITY_ZEROES_DAMAGE** (4 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
+- **ComeBackText** (3 connections) — `engine/battle/common_text.asm`
+- **DoItText** (3 connections) — `engine/battle/common_text.asm`
+- **EnoughText** (3 connections) — `engine/battle/common_text.asm`
+- **GetmText** (3 connections) — `engine/battle/common_text.asm`
+- **GoodText** (3 connections) — `engine/battle/common_text.asm`
+- **GoText** (3 connections) — `engine/battle/common_text.asm`
+- **OKExclamationText** (3 connections) — `engine/battle/common_text.asm`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Bank WRAM0](Bank_WRAM0.md) (12 shared connections)
-- [Engine Overworld 5](Engine_Overworld_5.md) (7 shared connections)
-- [Engine Battle 2](Engine_Battle_2.md) (6 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (2 shared connections)
+- [Ram](Ram.md) (4 shared connections)
+- [Scripts 2](Scripts_2.md) (4 shared connections)
+- [Scripts 5](Scripts_5.md) (2 shared connections)
+- [Scripts 11](Scripts_11.md) (1 shared connections)
 - [Engine Battle](Engine_Battle.md) (1 shared connections)
 - [Engine Pokemon 2](Engine_Pokemon_2.md) (1 shared connections)
-- [Data Trainers](Data_Trainers.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Docs 2](Docs_2.md) (1 shared connections)
+- [Engine Battle 8](Engine_Battle_8.md) (1 shared connections)
+- [Ram 3](Ram_3.md) (1 shared connections)
+- [Data Items](Data_Items.md) (1 shared connections)
+- [Rewrite](Rewrite.md) (1 shared connections)
 
 ## Source Files
 
-- `data/trainers/ai_pointers.asm`
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `engine/battle/trainer_ai.asm`
-- `ram/wram.asm`
+- `data/growth_rates.asm`
+- `engine/battle/common_text.asm`
+- `engine/battle/core.asm`
+- `engine/battle/move_effects/pay_day.asm`
+- `engine/pokemon/experience.asm`
+- `home/math.asm`
+- `rewrite/battle/contracts/cases/accuracy_critical_type.json`
+- `rewrite/battle/contracts/traceability.json`
 
 ## Audit Trail
 
-- EXTRACTED: 189 (100%)
+- EXTRACTED: 97 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

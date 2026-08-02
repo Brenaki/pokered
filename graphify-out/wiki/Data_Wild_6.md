@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/wild/maps/CeruleanCaveB1F.asm** (3 connections) — `data/wild/maps/CeruleanCaveB1F.asm`
-- **CeruleanCaveB1FWildMons** (2 connections) — `data/wild/maps/CeruleanCaveB1F.asm`
+- **data/wild/maps/MtMoonB1F.asm** (3 connections) — `data/wild/maps/MtMoonB1F.asm`
+- **MtMoonB1FWildMons** (2 connections) — `data/wild/maps/MtMoonB1F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/wild/maps/CeruleanCaveB1F.asm`
+- `data/wild/maps/MtMoonB1F.asm`
 
 ## Audit Trail
 

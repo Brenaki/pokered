@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **text/SafariZoneSecretHouse.asm** (6 connections) — `text/SafariZoneSecretHouse.asm`
-- **_SafariZoneSecretHouseFishingGuruHM03ExplanationText** (1 connections) — `text/SafariZoneSecretHouse.asm`
-- **_SafariZoneSecretHouseFishingGuruHM03NoRoomText** (1 connections) — `text/SafariZoneSecretHouse.asm`
-- **_SafariZoneSecretHouseFishingGuruReceivedHM03Text** (1 connections) — `text/SafariZoneSecretHouse.asm`
-- **_SafariZoneSecretHouseFishingGuruYouHaveWonText** (1 connections) — `text/SafariZoneSecretHouse.asm`
+- **text/UndergroundPathRoute7Copy.asm** (6 connections) — `text/UndergroundPathRoute7Copy.asm`
+- **_UndergroundPathRoute7CopyUnusedGirlText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
+- **_UndergroundPathRoute7CopyUnusedGoesUnderSaffronText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
+- **_UndergroundPathRoute7CopyUnusedMiddleAgedManText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
+- **_UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `text/SafariZoneSecretHouse.asm`
+- `text/UndergroundPathRoute7Copy.asm`
 
 ## Audit Trail
 

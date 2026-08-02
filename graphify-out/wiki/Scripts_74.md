@@ -1,10 +1,9 @@
 # Scripts 74
 
-> 22 nodes · cohesion 0.15
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **ExecuteCurMapScriptInTable** (72 connections) — `home/trainers.asm`
 - **scripts/PokemonTower3F.asm** (21 connections) — `scripts/PokemonTower3F.asm`
 - **21.17 Mapa `PokemonTower3F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
 - **PokemonTower3F_Script** (5 connections) — `scripts/PokemonTower3F.asm`
@@ -29,21 +28,19 @@
 
 ## Relationships
 
-- [Home 8](Home_8.md) (4 shared connections)
-- [Scripts](Scripts.md) (3 shared connections)
-- [Scripts 29](Scripts_29.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (3 shared connections)
+- [Scripts 7](Scripts_7.md) (3 shared connections)
+- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `home/trainers.asm`
 - `scripts/PokemonTower3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
+- EXTRACTED: 41 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

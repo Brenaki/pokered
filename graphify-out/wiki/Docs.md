@@ -5,6 +5,7 @@
 ## Key Concepts
 
 - **20. Inventario completo dos objetos de mapa** (209 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **20.26 Mapa `CeruleanGym`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
 - **20.27 Mapa `CeruleanMart`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
 - **20.28 Mapa `CeruleanPokecenter`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
 - **20.29 Mapa `CeruleanTradeHouse`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
@@ -28,7 +29,6 @@
 - **20.47 Mapa `FuchsiaBillsGrandpasHouse`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
 - **20.48 Mapa `FuchsiaCity`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
 - **20.49 Mapa `FuchsiaGoodRodHouse`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **20.50 Mapa `FuchsiaGym`** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
 - *... and 184 more nodes in this community*
 
 ## Relationships

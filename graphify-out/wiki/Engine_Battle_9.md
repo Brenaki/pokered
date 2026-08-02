@@ -1,48 +1,60 @@
 # Engine Battle 9
 
-> 22 nodes · cohesion 0.19
+> 30 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **engine/battle/common_text.asm** (23 connections) — `engine/battle/common_text.asm`
-- **PrintBeginningBattleText** (13 connections) — `engine/battle/common_text.asm`
-- **PlayerMon2Text** (9 connections) — `engine/battle/common_text.asm`
-- **PrintSendOutMonMessage** (8 connections) — `engine/battle/common_text.asm`
-- **PrintComeBackText** (5 connections) — `engine/battle/common_text.asm`
-- **PrintPlayerMon1Text** (5 connections) — `engine/battle/common_text.asm`
-- **ComeBackText** (3 connections) — `engine/battle/common_text.asm`
-- **DoItText** (3 connections) — `engine/battle/common_text.asm`
-- **EnoughText** (3 connections) — `engine/battle/common_text.asm`
-- **GetmText** (3 connections) — `engine/battle/common_text.asm`
-- **GoodText** (3 connections) — `engine/battle/common_text.asm`
-- **GoText** (3 connections) — `engine/battle/common_text.asm`
-- **OKExclamationText** (3 connections) — `engine/battle/common_text.asm`
-- **RetreatMon** (3 connections) — `engine/battle/common_text.asm`
-- **EnemyAppearedText** (2 connections) — `engine/battle/common_text.asm`
-- **EnemysWeakText** (2 connections) — `engine/battle/common_text.asm`
-- **GhostCantBeIDdText** (2 connections) — `engine/battle/common_text.asm`
-- **HookedMonAttackedText** (2 connections) — `engine/battle/common_text.asm`
-- **PlayerMon1Text** (2 connections) — `engine/battle/common_text.asm`
-- **TrainerWantsToFightText** (2 connections) — `engine/battle/common_text.asm`
-- **UnveiledGhostText** (2 connections) — `engine/battle/common_text.asm`
-- **WildMonAppearedText** (2 connections) — `engine/battle/common_text.asm`
+- **TransformEffect_** (20 connections) — `engine/battle/move_effects/transform.asm`
+- **HazeEffect_** (16 connections) — `engine/battle/move_effects/haze.asm`
+- **HandleBuildingRage** (12 connections) — `engine/battle/core.asm`
+- **MetronomePickMove** (10 connections) — `engine/battle/core.asm`
+- **MirrorMoveCopyMove** (10 connections) — `engine/battle/core.asm`
+- **CalculateModifiedStat** (9 connections) — `engine/battle/core.asm`
+- **ReloadMoveData** (9 connections) — `engine/battle/core.asm`
+- **wEnemyBattleStatus3** (8 connections) — `ram/wram.asm`
+- **wEnemyMoveNum** (8 connections) — `ram/wram.asm`
+- **wPlayerMoveNum** (8 connections) — `ram/wram.asm`
+- **wPlayerSelectedMove** (8 connections) — `ram/wram.asm`
+- **HandlePoisonBurnLeechSeed_DecreaseOwnHP** (7 connections) — `engine/battle/core.asm`
+- **engine/battle/move_effects/haze.asm** (7 connections) — `engine/battle/move_effects/haze.asm`
+- **wEnemyMonUnmodifiedAttack** (7 connections) — `ram/wram.asm`
+- **wEnemySelectedMove** (7 connections) — `ram/wram.asm`
+- **wPlayerBattleStatus3** (7 connections) — `ram/wram.asm`
+- **wPlayerMonStatMods** (7 connections) — `ram/wram.asm`
+- **wPlayerMonUnmodifiedAttack** (7 connections) — `ram/wram.asm`
+- **engine/battle/move_effects/transform.asm** (4 connections) — `engine/battle/move_effects/transform.asm`
+- **wEnemyToxicCounter** (4 connections) — `ram/wram.asm`
+- **wPlayerDisabledMoveNumber** (4 connections) — `ram/wram.asm`
+- **wPlayerToxicCounter** (4 connections) — `ram/wram.asm`
+- **IncrementMovePP** (3 connections) — `engine/battle/core.asm`
+- **wEnemyMonAttackMod** (3 connections) — `ram/wram.asm`
+- **AnimationTransformMon** (2 connections) — `engine/battle/animations.asm`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (5 shared connections)
+- [Engine Battle 3](Engine_Battle_3.md) (8 shared connections)
+- [Ram 3](Ram_3.md) (8 shared connections)
+- [Engine Battle 4](Engine_Battle_4.md) (5 shared connections)
 - [Engine Battle 2](Engine_Battle_2.md) (4 shared connections)
-- [Ram](Ram.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
-- [Scripts 8](Scripts_8.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (4 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (4 shared connections)
+- [Engine Battle 5](Engine_Battle_5.md) (2 shared connections)
+- [Engine Battle](Engine_Battle.md) (2 shared connections)
+- [Engine Battle 15](Engine_Battle_15.md) (1 shared connections)
+- [Engine Menus](Engine_Menus.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/battle/common_text.asm`
+- `engine/battle/animations.asm`
+- `engine/battle/core.asm`
+- `engine/battle/move_effects/haze.asm`
+- `engine/battle/move_effects/transform.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (100%)
+- EXTRACTED: 83 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

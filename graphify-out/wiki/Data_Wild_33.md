@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/wild/maps/SeafoamIslands1F.asm** (3 connections) — `data/wild/maps/SeafoamIslands1F.asm`
-- **SeafoamIslands1FWildMons** (2 connections) — `data/wild/maps/SeafoamIslands1F.asm`
+- **data/wild/maps/SeafoamIslandsB1F.asm** (3 connections) — `data/wild/maps/SeafoamIslandsB1F.asm`
+- **SeafoamIslandsB1FWildMons** (2 connections) — `data/wild/maps/SeafoamIslandsB1F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/wild/maps/SeafoamIslands1F.asm`
+- `data/wild/maps/SeafoamIslandsB1F.asm`
 
 ## Audit Trail
 

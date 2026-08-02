@@ -1,50 +1,50 @@
 # Data Maps
 
-> 433 nodes · cohesion 0.01
+> 671 nodes · cohesion 0.00
 
 ## Key Concepts
 
 - **maps.asm** (917 connections) — `maps.asm`
 - **data/maps** (460 connections)
 - **data/maps/objects/AgathasRoom.asm** (3 connections) — `data/maps/objects/AgathasRoom.asm`
+- **data/maps/objects/BikeShop.asm** (3 connections) — `data/maps/objects/BikeShop.asm`
 - **data/maps/objects/BillsHouse.asm** (3 connections) — `data/maps/objects/BillsHouse.asm`
 - **data/maps/objects/BluesHouse.asm** (3 connections) — `data/maps/objects/BluesHouse.asm`
 - **data/maps/objects/BrunosRoom.asm** (3 connections) — `data/maps/objects/BrunosRoom.asm`
+- **data/maps/objects/CeladonChiefHouse.asm** (3 connections) — `data/maps/objects/CeladonChiefHouse.asm`
+- **data/maps/objects/CeladonCity.asm** (3 connections) — `data/maps/objects/CeladonCity.asm`
 - **data/maps/objects/CeladonDiner.asm** (3 connections) — `data/maps/objects/CeladonDiner.asm`
 - **data/maps/objects/CeladonGym.asm** (3 connections) — `data/maps/objects/CeladonGym.asm`
 - **data/maps/objects/CeladonHotel.asm** (3 connections) — `data/maps/objects/CeladonHotel.asm`
 - **data/maps/objects/CeladonMansion1F.asm** (3 connections) — `data/maps/objects/CeladonMansion1F.asm`
+- **data/maps/objects/CeladonMansion2F.asm** (3 connections) — `data/maps/objects/CeladonMansion2F.asm`
 - **data/maps/objects/CeladonMansion3F.asm** (3 connections) — `data/maps/objects/CeladonMansion3F.asm`
 - **data/maps/objects/CeladonMansionRoof.asm** (3 connections) — `data/maps/objects/CeladonMansionRoof.asm`
+- **data/maps/objects/CeladonMansionRoofHouse.asm** (3 connections) — `data/maps/objects/CeladonMansionRoofHouse.asm`
+- **data/maps/objects/CeladonMart1F.asm** (3 connections) — `data/maps/objects/CeladonMart1F.asm`
+- **data/maps/objects/CeladonMart2F.asm** (3 connections) — `data/maps/objects/CeladonMart2F.asm`
 - **data/maps/objects/CeladonMart3F.asm** (3 connections) — `data/maps/objects/CeladonMart3F.asm`
+- **data/maps/objects/CeladonMart4F.asm** (3 connections) — `data/maps/objects/CeladonMart4F.asm`
 - **data/maps/objects/CeladonMart5F.asm** (3 connections) — `data/maps/objects/CeladonMart5F.asm`
-- **data/maps/objects/CeruleanCave2F.asm** (3 connections) — `data/maps/objects/CeruleanCave2F.asm`
-- **data/maps/objects/CeruleanCaveB1F.asm** (3 connections) — `data/maps/objects/CeruleanCaveB1F.asm`
-- **data/maps/objects/CeruleanGym.asm** (3 connections) — `data/maps/objects/CeruleanGym.asm`
-- **data/maps/objects/CeruleanMart.asm** (3 connections) — `data/maps/objects/CeruleanMart.asm`
-- **data/maps/objects/CeruleanTradeHouse.asm** (3 connections) — `data/maps/objects/CeruleanTradeHouse.asm`
-- **data/maps/objects/CinnabarGym.asm** (3 connections) — `data/maps/objects/CinnabarGym.asm`
-- **data/maps/objects/CinnabarLab.asm** (3 connections) — `data/maps/objects/CinnabarLab.asm`
-- **data/maps/objects/CinnabarLabFossilRoom.asm** (3 connections) — `data/maps/objects/CinnabarLabFossilRoom.asm`
-- **data/maps/objects/Colosseum.asm** (3 connections) — `data/maps/objects/Colosseum.asm`
-- **data/maps/objects/CopycatsHouse2F.asm** (3 connections) — `data/maps/objects/CopycatsHouse2F.asm`
-- **data/maps/objects/FuchsiaBillsGrandpasHouse.asm** (3 connections) — `data/maps/objects/FuchsiaBillsGrandpasHouse.asm`
-- *... and 408 more nodes in this community*
+- **data/maps/objects/CeladonMartElevator.asm** (3 connections) — `data/maps/objects/CeladonMartElevator.asm`
+- **data/maps/objects/CeladonMartRoof.asm** (3 connections) — `data/maps/objects/CeladonMartRoof.asm`
+- **data/maps/objects/CeladonPokecenter.asm** (3 connections) — `data/maps/objects/CeladonPokecenter.asm`
+- *... and 646 more nodes in this community*
 
 ## Relationships
 
-- [Data Maps 3](Data_Maps_3.md) (24 shared connections)
+- [Scripts](Scripts.md) (75 shared connections)
 - [Maps.Asm](Maps.Asm.md) (23 shared connections)
 - [Maps.Asm 3](Maps.Asm_3.md) (22 shared connections)
 - [Maps.Asm 2](Maps.Asm_2.md) (22 shared connections)
-- [Scripts 3](Scripts_3.md) (21 shared connections)
 - [Maps.Asm 7](Maps.Asm_7.md) (20 shared connections)
-- [Scripts 4](Scripts_4.md) (16 shared connections)
 - [Maps.Asm 5](Maps.Asm_5.md) (15 shared connections)
 - [Maps.Asm 4](Maps.Asm_4.md) (14 shared connections)
 - [Maps](Maps.md) (14 shared connections)
 - [Maps.Asm 6](Maps.Asm_6.md) (14 shared connections)
 - [Maps.Asm 11](Maps.Asm_11.md) (13 shared connections)
+- [Maps.Asm 8](Maps.Asm_8.md) (12 shared connections)
+- [Scripts 4](Scripts_4.md) (11 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 1477 (100%)
+- EXTRACTED: 1596 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,26 +1,28 @@
 # Docs 7
 
-> 9 nodes · cohesion 0.22
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **12. Fórmula de dano normal** (9 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **12.6 Tabela de tipos da ROM** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **12.1 Escolha dos atributos** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **12.2 Dano base** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **12.3 Ordem dos multiplicadores** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **12.4 STAB** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **12.5 Vantagem e resistência por tipo** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **12.7 Variação aleatória do dano** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **12.8 Exemplo reproduzível** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **7.1 Build dos assets** (6 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **7. Pipeline de graficos e sprites** (5 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **tools/gfx** (1 connections) — `tools/gfx`
+- **tools/pkmncompress** (1 connections) — `tools/pkmncompress`
 
 ## Relationships
 
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Ram 8](Ram_8.md) (1 shared connections)
+- [Gfx Sprites](Gfx_Sprites.md) (1 shared connections)
+- [Data Sgb](Data_Sgb.md) (1 shared connections)
+- [Home 6](Home_6.md) (1 shared connections)
+- [Makefile](Makefile.md) (1 shared connections)
+- [Engine Battle 11](Engine_Battle_11.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- `tools/gfx`
+- `tools/pkmncompress`
 
 ## Audit Trail
 

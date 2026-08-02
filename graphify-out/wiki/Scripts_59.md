@@ -1,58 +1,54 @@
 # Scripts 59
 
-> 29 nodes · cohesion 0.08
+> 28 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts/ViridianGym.asm** (72 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymCooltrainerM1Text** (4 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymCooltrainerM3Text** (4 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymHiker2Text** (4 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymHiker3Text** (4 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymRocker2Text** (4 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowTilePlayerMovement** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymTrainerHeader0** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymTrainerHeader3** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymTrainerHeader5** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymTrainerHeader6** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymTrainerHeader7** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGym_TextPointers** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement1** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement10** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement11** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement12** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement2** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement3** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement4** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement5** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement6** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement7** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement8** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement9** (1 connections) — `scripts/ViridianGym.asm`
-- *... and 4 more nodes in this community*
+- **GateUpstairsScript_PrintIfFacingUp** (12 connections) — `scripts/Route12Gate2F.asm`
+- **scripts/Route11Gate2F.asm** (9 connections) — `scripts/Route11Gate2F.asm`
+- **scripts/Route12Gate2F.asm** (8 connections) — `scripts/Route12Gate2F.asm`
+- **scripts/Route16Gate2F.asm** (8 connections) — `scripts/Route16Gate2F.asm`
+- **scripts/Route18Gate2F.asm** (7 connections) — `scripts/Route18Gate2F.asm`
+- **scripts/Route15Gate2F.asm** (6 connections) — `scripts/Route15Gate2F.asm`
+- **DisableAutoTextBoxDrawing** (6 connections) — `home/window.asm`
+- **Route11Gate2FScriptEnd** (3 connections) — `scripts/Route11Gate2F.asm`
+- **Route18Gate2FYoungsterText** (3 connections) — `scripts/Route18Gate2F.asm`
+- **Route11Gate2F_Script** (2 connections) — `scripts/Route11Gate2F.asm`
+- **Route11Gate2FRightBinocularsText** (2 connections) — `scripts/Route11Gate2F.asm`
+- **Route11Gate2FYoungsterText** (2 connections) — `scripts/Route11Gate2F.asm`
+- **Route12Gate2F_Script** (2 connections) — `scripts/Route12Gate2F.asm`
+- **Route12Gate2FLeftBinocularsText** (2 connections) — `scripts/Route12Gate2F.asm`
+- **Route12Gate2FRightBinocularsText** (2 connections) — `scripts/Route12Gate2F.asm`
+- **Route15Gate2F_Script** (2 connections) — `scripts/Route15Gate2F.asm`
+- **Route15Gate2FBinocularsText** (2 connections) — `scripts/Route15Gate2F.asm`
+- **Route16Gate2F_Script** (2 connections) — `scripts/Route16Gate2F.asm`
+- **Route16Gate2FLeftBinocularsText** (2 connections) — `scripts/Route16Gate2F.asm`
+- **Route16Gate2FRightBinocularsText** (2 connections) — `scripts/Route16Gate2F.asm`
+- **Route18Gate2F_Script** (2 connections) — `scripts/Route18Gate2F.asm`
+- **Route18Gate2FLeftBinocularsText** (2 connections) — `scripts/Route18Gate2F.asm`
+- **Route18Gate2FRightBinocularsText** (2 connections) — `scripts/Route18Gate2F.asm`
+- **Route11Gate2F_TextPointers** (1 connections) — `scripts/Route11Gate2F.asm`
+- **Route12Gate2F_TextPointers** (1 connections) — `scripts/Route12Gate2F.asm`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 64](Scripts_64.md) (24 shared connections)
-- [Scripts](Scripts.md) (5 shared connections)
-- [Home 8](Home_8.md) (5 shared connections)
-- [Scripts 160](Scripts_160.md) (3 shared connections)
-- [Scripts 161](Scripts_161.md) (3 shared connections)
-- [Scripts 162](Scripts_162.md) (2 shared connections)
-- [Scripts 163](Scripts_163.md) (2 shared connections)
-- [Scripts 7](Scripts_7.md) (2 shared connections)
-- [Scripts 164](Scripts_164.md) (2 shared connections)
-- [Scripts 165](Scripts_165.md) (2 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Engine Overworld 3](Engine_Overworld_3.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (8 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
+- [Engine Events](Engine_Events.md) (2 shared connections)
 
 ## Source Files
 
-- `scripts/ViridianGym.asm`
+- `home/window.asm`
+- `scripts/Route11Gate2F.asm`
+- `scripts/Route12Gate2F.asm`
+- `scripts/Route15Gate2F.asm`
+- `scripts/Route16Gate2F.asm`
+- `scripts/Route18Gate2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 85 (100%)
+- EXTRACTED: 47 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

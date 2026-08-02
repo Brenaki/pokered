@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/wild/maps/PokemonTower6F.asm** (3 connections) — `data/wild/maps/PokemonTower6F.asm`
-- **PokemonTower6FWildMons** (2 connections) — `data/wild/maps/PokemonTower6F.asm`
+- **data/wild/maps/PowerPlant.asm** (3 connections) — `data/wild/maps/PowerPlant.asm`
+- **PowerPlantWildMons** (2 connections) — `data/wild/maps/PowerPlant.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/wild/maps/PokemonTower6F.asm`
+- `data/wild/maps/PowerPlant.asm`
 
 ## Audit Trail
 

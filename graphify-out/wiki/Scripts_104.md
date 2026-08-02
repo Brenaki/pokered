@@ -1,27 +1,27 @@
 # Scripts 104
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **scripts/Museum2F.asm** (11 connections) — `scripts/Museum2F.asm`
-- **Museum2F_Script** (2 connections) — `scripts/Museum2F.asm`
-- **Museum2F_TextPointers** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FBrunetteGirlText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FGrampsText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FHikerText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FMoonStoneSignText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FScientistText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FSpaceShuttleSignText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FYoungsterText** (1 connections) — `scripts/Museum2F.asm`
+- **scripts/LavenderTown.asm** (11 connections) — `scripts/LavenderTown.asm`
+- **LavenderTown_Script** (2 connections) — `scripts/LavenderTown.asm`
+- **LavenderTown_TextPointers** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownCooltrainerMText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownPokemonHouseSignText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownPokemonTowerSignText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownSignText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownSilphScopeSignText** (1 connections) — `scripts/LavenderTown.asm`
+- **LavenderTownSuperNerdText** (1 connections) — `scripts/LavenderTown.asm`
 
 ## Relationships
 
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Museum2F.asm`
+- `scripts/LavenderTown.asm`
 
 ## Audit Trail
 

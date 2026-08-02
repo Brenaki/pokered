@@ -1,6 +1,70 @@
 {
-  "generated_at": "2026-08-01T22:07:15.381110+00:00",
+  "generated_at": "2026-08-02T01:02:36.828835+00:00",
   "nodes": {
+    "audio_engine_1_asm_label_audio1_playsound": {
+      "code_fingerprint": "0d06a1e2194d3b39de4183336da2c4ead6fba32f197ddbe70312ad025a19e0b4",
+      "label": "Audio1_PlaySound",
+      "last": "2026-08-01T22:22:45.088894+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T22:22:45.088894+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre Musicas, Efeitos sonoros, Audios, e Sprites dos personagem no jogo que existem no jogo. Quero saber como quais funções carregam essas informações, como que carrega, como renderiza informações que não estão na tela do jogador, recomendações para melhorias depois da reescrita, e etc. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
+        }
+      ],
+      "score": 0.997438284,
+      "source_file": "audio/engine_1.asm",
+      "status": "tentative",
+      "uses": 1
+    },
+    "audio_engine_1_asm_label_audio1_updatemusic": {
+      "code_fingerprint": "0d06a1e2194d3b39de4183336da2c4ead6fba32f197ddbe70312ad025a19e0b4",
+      "label": "Audio1_UpdateMusic",
+      "last": "2026-08-01T22:22:45.088894+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T22:22:45.088894+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre Musicas, Efeitos sonoros, Audios, e Sprites dos personagem no jogo que existem no jogo. Quero saber como quais funções carregam essas informações, como que carrega, como renderiza informações que não estão na tela do jogador, recomendações para melhorias depois da reescrita, e etc. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
+        }
+      ],
+      "score": 0.997438284,
+      "source_file": "audio/engine_1.asm",
+      "status": "tentative",
+      "uses": 1
+    },
+    "audio_engine_2_asm_label_audio2_updatemusic": {
+      "code_fingerprint": "9a49b72bdf1c6318662b2a829a779bacd92e6951abf20b26b2a965a809a455e6",
+      "label": "Audio2_UpdateMusic",
+      "last": "2026-08-01T22:22:45.088894+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T22:22:45.088894+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre Musicas, Efeitos sonoros, Audios, e Sprites dos personagem no jogo que existem no jogo. Quero saber como quais funções carregam essas informações, como que carrega, como renderiza informações que não estão na tela do jogador, recomendações para melhorias depois da reescrita, e etc. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
+        }
+      ],
+      "score": 0.997438284,
+      "source_file": "audio/engine_2.asm",
+      "status": "tentative",
+      "uses": 1
+    },
+    "audio_engine_3_asm_label_audio3_updatemusic": {
+      "code_fingerprint": "c75c83bba9aae71e885be80596eac03ffee42f9481c84c7771577ec86c094a77",
+      "label": "Audio3_UpdateMusic",
+      "last": "2026-08-01T22:22:45.088894+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T22:22:45.088894+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre Musicas, Efeitos sonoros, Audios, e Sprites dos personagem no jogo que existem no jogo. Quero saber como quais funções carregam essas informações, como que carrega, como renderiza informações que não estão na tela do jogador, recomendações para melhorias depois da reescrita, e etc. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
+        }
+      ],
+      "score": 0.997438284,
+      "source_file": "audio/engine_3.asm",
+      "status": "tentative",
+      "uses": 1
+    },
     "data_growth_rates_asm_label_growthratetable": {
       "code_fingerprint": "8aa91fa7193ea1126b97d97272be8c9851856859264db9403b3f1bbc0ec6c1af",
       "label": "GrowthRateTable",
@@ -12,7 +76,7 @@
           "q": "Quero documentar todas as informações sobre os pokemons que existem no jogo. Quero saber nome, peso, altura, tipo, quais ataques aprende, quais ataques pode aprender, onde spawnam, dificuldade de captura, tem evolução, quando evolui, quais os prerequisitos para evolução, status base, status no nivel 0 e status no nivel 99, etc. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 002-2026-08-01-Informações_sobre_Pokemons.md)"
         }
       ],
-      "score": 0.997275556,
+      "score": 0.994473542,
       "source_file": "data/growth_rates.asm",
       "status": "tentative",
       "uses": 1
@@ -28,7 +92,7 @@
           "q": "Quero documentar todas as informações sobre os pokemons que existem no jogo. Quero saber nome, peso, altura, tipo, quais ataques aprende, quais ataques pode aprender, onde spawnam, dificuldade de captura, tem evolução, quando evolui, quais os prerequisitos para evolução, status base, status no nivel 0 e status no nivel 99, etc. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 002-2026-08-01-Informações_sobre_Pokemons.md)"
         }
       ],
-      "score": 0.997275556,
+      "score": 0.994473542,
       "source_file": "data/moves/moves.asm",
       "status": "tentative",
       "uses": 1
@@ -44,7 +108,7 @@
           "q": "Quero documentar todas as informações sobre os pokemons que existem no jogo. Quero saber nome, peso, altura, tipo, quais ataques aprende, quais ataques pode aprender, onde spawnam, dificuldade de captura, tem evolução, quando evolui, quais os prerequisitos para evolução, status base, status no nivel 0 e status no nivel 99, etc. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 002-2026-08-01-Informações_sobre_Pokemons.md)"
         }
       ],
-      "score": 0.997275556,
+      "score": 0.994473542,
       "source_file": "data/pokemon/base_stats.asm",
       "status": "tentative",
       "uses": 1
@@ -60,7 +124,7 @@
           "q": "Quero documentar todas as informações sobre todas as IAs e compontamentos do NPCs que existem no jogo. Quero saber que algoritmo utilizam, quais tabelas são comparadas, se usa um perceptron simples para algo, ou apenas algoritmos deterministicos, etc. Quero também recomendações nessa reescrita para melhorar a IA dos npcs, podendo aprender o jeito que o jogador joga, andar pelo mapa, parar o jogador para conversar, e outras ações, se isso for possivel é claro, a ideia ainda é manter de forma fiel nessa reescrita, mas depois fazer modificações. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
         }
       ],
-      "score": 0.997665687,
+      "score": 0.994862577,
       "source_file": "data/trainers/ai_pointers.asm",
       "status": "tentative",
       "uses": 1
@@ -76,7 +140,7 @@
           "q": "Quero documentar todas as informações sobre todas as IAs e compontamentos do NPCs que existem no jogo. Quero saber que algoritmo utilizam, quais tabelas são comparadas, se usa um perceptron simples para algo, ou apenas algoritmos deterministicos, etc. Quero também recomendações nessa reescrita para melhorar a IA dos npcs, podendo aprender o jeito que o jogador joga, andar pelo mapa, parar o jogador para conversar, e outras ações, se isso for possivel é claro, a ideia ainda é manter de forma fiel nessa reescrita, mas depois fazer modificações. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
         }
       ],
-      "score": 0.997665687,
+      "score": 0.994862577,
       "source_file": "data/trainers/move_choices.asm",
       "status": "tentative",
       "uses": 1
@@ -92,7 +156,7 @@
           "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
         }
       ],
-      "score": 0.996492808,
+      "score": 0.993692993,
       "source_file": "data/types/type_matchups.asm",
       "status": "tentative",
       "uses": 1
@@ -108,7 +172,7 @@
           "q": "Quero documentar todas as informações sobre os pokemons que existem no jogo. Quero saber nome, peso, altura, tipo, quais ataques aprende, quais ataques pode aprender, onde spawnam, dificuldade de captura, tem evolução, quando evolui, quais os prerequisitos para evolução, status base, status no nivel 0 e status no nivel 99, etc. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 002-2026-08-01-Informações_sobre_Pokemons.md)"
         }
       ],
-      "score": 0.997275556,
+      "score": 0.994473542,
       "source_file": "data/wild/grass_water.asm",
       "status": "tentative",
       "uses": 1
@@ -124,7 +188,7 @@
           "q": "Quero documentar todas as informações sobre os pokemons que existem no jogo. Quero saber nome, peso, altura, tipo, quais ataques aprende, quais ataques pode aprender, onde spawnam, dificuldade de captura, tem evolução, quando evolui, quais os prerequisitos para evolução, status base, status no nivel 0 e status no nivel 99, etc. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 002-2026-08-01-Informações_sobre_Pokemons.md)"
         }
       ],
-      "score": 0.997275556,
+      "score": 0.994473542,
       "source_file": "docs/002-2026-08-01-Informações_sobre_Pokemons.md",
       "status": "tentative",
       "uses": 1
@@ -140,7 +204,7 @@
           "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
         }
       ],
-      "score": 0.996492808,
+      "score": 0.993692993,
       "source_file": "engine/battle/core.asm",
       "status": "tentative",
       "uses": 1
@@ -148,18 +212,23 @@
     "engine_battle_core_asm_label_battlerandom": {
       "code_fingerprint": "928a66d1ac444fc913c7c658d9f7739eb6351e797b3276da64a5de9682a57a5f",
       "label": "BattleRandom",
-      "last": "2026-08-01T18:28:17.303727+00:00",
+      "last": "2026-08-02T01:02:32.081640+00:00",
       "provenance": [
+        {
+          "date": "2026-08-02T01:02:32.081640+00:00",
+          "outcome": "useful",
+          "q": "How is the pre-C battle rewrite characterized against the ASM oracle, including trainer AI?"
+        },
         {
           "date": "2026-08-01T18:28:17.303727+00:00",
           "outcome": "useful",
           "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
         }
       ],
-      "score": 0.996492808,
+      "score": 1.993691723,
       "source_file": "engine/battle/core.asm",
-      "status": "tentative",
-      "uses": 1
+      "status": "preferred",
+      "uses": 2
     },
     "engine_battle_core_asm_label_calculatedamage": {
       "code_fingerprint": "928a66d1ac444fc913c7c658d9f7739eb6351e797b3276da64a5de9682a57a5f",
@@ -172,7 +241,7 @@
           "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
         }
       ],
-      "score": 0.996492808,
+      "score": 0.993692993,
       "source_file": "engine/battle/core.asm",
       "status": "tentative",
       "uses": 1
@@ -180,18 +249,23 @@
     "engine_battle_core_asm_label_criticalhittest": {
       "code_fingerprint": "928a66d1ac444fc913c7c658d9f7739eb6351e797b3276da64a5de9682a57a5f",
       "label": "CriticalHitTest",
-      "last": "2026-08-01T18:28:17.303727+00:00",
+      "last": "2026-08-02T01:02:32.081640+00:00",
       "provenance": [
+        {
+          "date": "2026-08-02T01:02:32.081640+00:00",
+          "outcome": "useful",
+          "q": "How is the pre-C battle rewrite characterized against the ASM oracle, including trainer AI?"
+        },
         {
           "date": "2026-08-01T18:28:17.303727+00:00",
           "outcome": "useful",
           "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
         }
       ],
-      "score": 0.996492808,
+      "score": 1.993691723,
       "source_file": "engine/battle/core.asm",
-      "status": "tentative",
-      "uses": 1
+      "status": "preferred",
+      "uses": 2
     },
     "engine_battle_core_asm_label_movehittest": {
       "code_fingerprint": "928a66d1ac444fc913c7c658d9f7739eb6351e797b3276da64a5de9682a57a5f",
@@ -204,7 +278,7 @@
           "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
         }
       ],
-      "score": 0.996492808,
+      "score": 0.993692993,
       "source_file": "engine/battle/core.asm",
       "status": "tentative",
       "uses": 1
@@ -220,7 +294,7 @@
           "q": "Quero documentar todas as informações sobre todas as IAs e compontamentos do NPCs que existem no jogo. Quero saber que algoritmo utilizam, quais tabelas são comparadas, se usa um perceptron simples para algo, ou apenas algoritmos deterministicos, etc. Quero também recomendações nessa reescrita para melhorar a IA dos npcs, podendo aprender o jeito que o jogador joga, andar pelo mapa, parar o jogador para conversar, e outras ações, se isso for possivel é claro, a ideia ainda é manter de forma fiel nessa reescrita, mas depois fazer modificações. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
         }
       ],
-      "score": 0.997665687,
+      "score": 0.994862577,
       "source_file": "engine/battle/trainer_ai.asm",
       "status": "tentative",
       "uses": 1
@@ -236,8 +310,24 @@
           "q": "Quero documentar todas as informações sobre todas as IAs e compontamentos do NPCs que existem no jogo. Quero saber que algoritmo utilizam, quais tabelas são comparadas, se usa um perceptron simples para algo, ou apenas algoritmos deterministicos, etc. Quero também recomendações nessa reescrita para melhorar a IA dos npcs, podendo aprender o jeito que o jogador joga, andar pelo mapa, parar o jogador para conversar, e outras ações, se isso for possivel é claro, a ideia ainda é manter de forma fiel nessa reescrita, mas depois fazer modificações. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
         }
       ],
-      "score": 0.997665687,
+      "score": 0.994862577,
       "source_file": "engine/battle/trainer_ai.asm",
+      "status": "tentative",
+      "uses": 1
+    },
+    "engine_gfx_sprite_oam_asm_label_prepareoamdata": {
+      "code_fingerprint": "d6daebd7c5a4666d05c81cbdd2d58776a1ce3f3fadd97f9f58f68fb539d878fc",
+      "label": "PrepareOAMData",
+      "last": "2026-08-01T22:22:45.088894+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T22:22:45.088894+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre Musicas, Efeitos sonoros, Audios, e Sprites dos personagem no jogo que existem no jogo. Quero saber como quais funções carregam essas informações, como que carrega, como renderiza informações que não estão na tela do jogador, recomendações para melhorias depois da reescrita, e etc. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
+        }
+      ],
+      "score": 0.997438284,
+      "source_file": "engine/gfx/sprite_oam.asm",
       "status": "tentative",
       "uses": 1
     },
@@ -252,7 +342,7 @@
           "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
         }
       ],
-      "score": 0.996492808,
+      "score": 0.993692993,
       "source_file": "engine/items/item_effects.asm",
       "status": "tentative",
       "uses": 1
@@ -268,7 +358,7 @@
           "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
         }
       ],
-      "score": 0.996492808,
+      "score": 0.993692993,
       "source_file": "engine/items/item_effects.asm",
       "status": "tentative",
       "uses": 1
@@ -284,7 +374,7 @@
           "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
         }
       ],
-      "score": 0.996492808,
+      "score": 0.993692993,
       "source_file": "engine/items/item_effects.asm",
       "status": "tentative",
       "uses": 1
@@ -300,7 +390,7 @@
           "q": "Quero documentar todas as informações sobre sistema de batalhas que existem no jogo. Quero entender como funciona os ataques, ataques criticos, ataques do mesmo tipo do pokemon, ataques que tem vantagem no tipo do pokemon adversario, ataque de status, itens de cura, itens de recuparar quantidade de vez de usar o ataque, itens de captura, funcionamento de chance de capiturar um pokemon, como conta a vida em batalha, como conta a quantidade de dado que vai dar em uma batalha, e outros pontos que estão dentro de uma batalha pokemon que existe nesse repositorio. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 001-2026-08-01-Batalhas_Pokemon.md)"
         }
       ],
-      "score": 0.996492808,
+      "score": 0.993692993,
       "source_file": "engine/items/item_effects.asm",
       "status": "tentative",
       "uses": 1
@@ -316,7 +406,7 @@
           "q": "Quero documentar todas as informações sobre todas as IAs e compontamentos do NPCs que existem no jogo. Quero saber que algoritmo utilizam, quais tabelas são comparadas, se usa um perceptron simples para algo, ou apenas algoritmos deterministicos, etc. Quero também recomendações nessa reescrita para melhorar a IA dos npcs, podendo aprender o jeito que o jogador joga, andar pelo mapa, parar o jogador para conversar, e outras ações, se isso for possivel é claro, a ideia ainda é manter de forma fiel nessa reescrita, mas depois fazer modificações. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
         }
       ],
-      "score": 0.997665687,
+      "score": 0.994862577,
       "source_file": "engine/overworld/movement.asm",
       "status": "tentative",
       "uses": 1
@@ -332,7 +422,7 @@
           "q": "Quero documentar todas as informações sobre todas as IAs e compontamentos do NPCs que existem no jogo. Quero saber que algoritmo utilizam, quais tabelas são comparadas, se usa um perceptron simples para algo, ou apenas algoritmos deterministicos, etc. Quero também recomendações nessa reescrita para melhorar a IA dos npcs, podendo aprender o jeito que o jogador joga, andar pelo mapa, parar o jogador para conversar, e outras ações, se isso for possivel é claro, a ideia ainda é manter de forma fiel nessa reescrita, mas depois fazer modificações. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
         }
       ],
-      "score": 0.997665687,
+      "score": 0.994862577,
       "source_file": "engine/overworld/pathfinding.asm",
       "status": "tentative",
       "uses": 1
@@ -348,7 +438,7 @@
           "q": "Quero documentar todas as informações sobre todas as IAs e compontamentos do NPCs que existem no jogo. Quero saber que algoritmo utilizam, quais tabelas são comparadas, se usa um perceptron simples para algo, ou apenas algoritmos deterministicos, etc. Quero também recomendações nessa reescrita para melhorar a IA dos npcs, podendo aprender o jeito que o jogador joga, andar pelo mapa, parar o jogador para conversar, e outras ações, se isso for possivel é claro, a ideia ainda é manter de forma fiel nessa reescrita, mas depois fazer modificações. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
         }
       ],
-      "score": 0.997665687,
+      "score": 0.994862577,
       "source_file": "engine/overworld/trainer_sight.asm",
       "status": "tentative",
       "uses": 1
@@ -364,8 +454,72 @@
           "q": "Quero documentar todas as informações sobre todas as IAs e compontamentos do NPCs que existem no jogo. Quero saber que algoritmo utilizam, quais tabelas são comparadas, se usa um perceptron simples para algo, ou apenas algoritmos deterministicos, etc. Quero também recomendações nessa reescrita para melhorar a IA dos npcs, podendo aprender o jeito que o jogador joga, andar pelo mapa, parar o jogador para conversar, e outras ações, se isso for possivel é claro, a ideia ainda é manter de forma fiel nessa reescrita, mas depois fazer modificações. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
         }
       ],
-      "score": 0.997665687,
+      "score": 0.994862577,
       "source_file": "engine/overworld/trainer_sight.asm",
+      "status": "tentative",
+      "uses": 1
+    },
+    "file_rewrite_battle_battle_characterization_emulator_py": {
+      "code_fingerprint": "180eaa18a8ba23ac88e73a7493471b3d07d1a11c2477b1985e290f5d8df9cf6a",
+      "label": "rewrite/battle/battle_characterization/emulator.py",
+      "last": "2026-08-02T01:02:32.081640+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-02T01:02:32.081640+00:00",
+          "outcome": "useful",
+          "q": "How is the pre-C battle rewrite characterized against the ASM oracle, including trainer AI?"
+        }
+      ],
+      "score": 0.999998731,
+      "source_file": "rewrite/battle/battle_characterization/emulator.py",
+      "status": "tentative",
+      "uses": 1
+    },
+    "file_rewrite_battle_contracts_traceability_json": {
+      "code_fingerprint": "108d1913faedd2bb5b3e324c327f5320817b4cb1f6e899bcfa4149483b1db40d",
+      "label": "rewrite/battle/contracts/traceability.json",
+      "last": "2026-08-02T01:02:32.081640+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-02T01:02:32.081640+00:00",
+          "outcome": "useful",
+          "q": "How is the pre-C battle rewrite characterized against the ASM oracle, including trainer AI?"
+        }
+      ],
+      "score": 0.999998731,
+      "source_file": "rewrite/battle/contracts/traceability.json",
+      "status": "tentative",
+      "uses": 1
+    },
+    "home_copy2_asm_label_copyvideodata": {
+      "code_fingerprint": "c500b3f94bdc664d08549bbe7d3c830b935bea26dfad70fb9b2a7ba1ef503fe8",
+      "label": "CopyVideoData",
+      "last": "2026-08-01T22:22:45.088894+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T22:22:45.088894+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre Musicas, Efeitos sonoros, Audios, e Sprites dos personagem no jogo que existem no jogo. Quero saber como quais funções carregam essas informações, como que carrega, como renderiza informações que não estão na tela do jogador, recomendações para melhorias depois da reescrita, e etc. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
+        }
+      ],
+      "score": 0.997438284,
+      "source_file": "home/copy2.asm",
+      "status": "tentative",
+      "uses": 1
+    },
+    "home_overworld_asm_label_loadplayerspritegraphics": {
+      "code_fingerprint": "2d84db7376753b9d98b1d1546c29bc050b3fe4f2b580b8aa7f6699ffef415b69",
+      "label": "LoadPlayerSpriteGraphics",
+      "last": "2026-08-01T22:22:45.088894+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T22:22:45.088894+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre Musicas, Efeitos sonoros, Audios, e Sprites dos personagem no jogo que existem no jogo. Quero saber como quais funções carregam essas informações, como que carrega, como renderiza informações que não estão na tela do jogador, recomendações para melhorias depois da reescrita, e etc. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
+        }
+      ],
+      "score": 0.997438284,
+      "source_file": "home/overworld.asm",
       "status": "tentative",
       "uses": 1
     },
@@ -380,8 +534,24 @@
           "q": "Quero documentar todas as informações sobre todas as IAs e compontamentos do NPCs que existem no jogo. Quero saber que algoritmo utilizam, quais tabelas são comparadas, se usa um perceptron simples para algo, ou apenas algoritmos deterministicos, etc. Quero também recomendações nessa reescrita para melhorar a IA dos npcs, podendo aprender o jeito que o jogador joga, andar pelo mapa, parar o jogador para conversar, e outras ações, se isso for possivel é claro, a ideia ainda é manter de forma fiel nessa reescrita, mas depois fazer modificações. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
         }
       ],
-      "score": 0.997665687,
+      "score": 0.994862577,
       "source_file": "home/pathfinding.asm",
+      "status": "tentative",
+      "uses": 1
+    },
+    "home_pics_asm_label_uncompressmonsprite": {
+      "code_fingerprint": "55d98bd3072c3609b702d310e191f3d0bc1b04e7f55a194c3dc3b932d382db5c",
+      "label": "UncompressMonSprite",
+      "last": "2026-08-01T22:22:45.088894+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-01T22:22:45.088894+00:00",
+          "outcome": "useful",
+          "q": "Quero documentar todas as informações sobre Musicas, Efeitos sonoros, Audios, e Sprites dos personagem no jogo que existem no jogo. Quero saber como quais funções carregam essas informações, como que carrega, como renderiza informações que não estão na tela do jogador, recomendações para melhorias depois da reescrita, e etc. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
+        }
+      ],
+      "score": 0.997438284,
+      "source_file": "home/pics.asm",
       "status": "tentative",
       "uses": 1
     },
@@ -396,8 +566,40 @@
           "q": "Quero documentar todas as informações sobre todas as IAs e compontamentos do NPCs que existem no jogo. Quero saber que algoritmo utilizam, quais tabelas são comparadas, se usa um perceptron simples para algo, ou apenas algoritmos deterministicos, etc. Quero também recomendações nessa reescrita para melhorar a IA dos npcs, podendo aprender o jeito que o jogador joga, andar pelo mapa, parar o jogador para conversar, e outras ações, se isso for possivel é claro, a ideia ainda é manter de forma fiel nessa reescrita, mas depois fazer modificações. Quero que descreva tudo o que foi solicitado com base na iso 9001 dentro da pasta docs colocar toda essa descrição em um arquivo markdown seguindo o padrão {numero com 3 digitos}-{ano}-{mes}-{dia}-{titulo_do_arquivo}.md (Exemplo: 003-2026-08-01-Funcionamento-das-IAs-Pokemon.md). No final commit e de push na main"
         }
       ],
-      "score": 0.997665687,
+      "score": 0.994862577,
       "source_file": "home/text_script.asm",
+      "status": "tentative",
+      "uses": 1
+    },
+    "rewrite_battle_contracts_traceability_json_traceability_capture_and_safari": {
+      "code_fingerprint": "108d1913faedd2bb5b3e324c327f5320817b4cb1f6e899bcfa4149483b1db40d",
+      "label": "capture-and-safari",
+      "last": "2026-08-02T01:02:32.081640+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-02T01:02:32.081640+00:00",
+          "outcome": "useful",
+          "q": "How is the pre-C battle rewrite characterized against the ASM oracle, including trainer AI?"
+        }
+      ],
+      "score": 0.999998731,
+      "source_file": "rewrite/battle/contracts/traceability.json",
+      "status": "tentative",
+      "uses": 1
+    },
+    "rewrite_battle_contracts_traceability_json_traceability_trainer_battle_ai": {
+      "code_fingerprint": "108d1913faedd2bb5b3e324c327f5320817b4cb1f6e899bcfa4149483b1db40d",
+      "label": "trainer-battle-ai",
+      "last": "2026-08-02T01:02:32.081640+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-02T01:02:32.081640+00:00",
+          "outcome": "useful",
+          "q": "How is the pre-C battle rewrite characterized against the ASM oracle, including trainer AI?"
+        }
+      ],
+      "score": 0.999998731,
+      "source_file": "rewrite/battle/contracts/traceability.json",
       "status": "tentative",
       "uses": 1
     }

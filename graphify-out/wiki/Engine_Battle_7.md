@@ -1,55 +1,55 @@
 # Engine Battle 7
 
-> 31 nodes · cohesion 0.10
+> 38 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **AnimationShowMonPic** (14 connections) — `engine/battle/animations.asm`
-- **AnimationHideMonPic** (10 connections) — `engine/battle/animations.asm`
-- **AnimationSubstitute** (10 connections) — `engine/battle/animations.asm`
-- **AnimationMinimizeMon** (9 connections) — `engine/battle/animations.asm`
-- **AnimationSlideMonDownAndHide** (9 connections) — `engine/battle/animations.asm`
-- **GetTileIDList** (9 connections) — `engine/battle/animations.asm`
-- **AnimationSlideMonDown** (8 connections) — `engine/battle/animations.asm`
-- **CopyPicTiles** (8 connections) — `engine/battle/animations.asm`
-- **CopyTempPicToMonPic** (8 connections) — `engine/battle/animations.asm`
-- **ReshowSubstituteAnim** (8 connections) — `engine/battle/animations.asm`
-- **AnimationSlideMonOff** (6 connections) — `engine/battle/animations.asm`
-- **CallWithTurnFlipped** (6 connections) — `engine/battle/animations.asm`
-- **wTempPic** (6 connections) — `ram/wram.asm`
-- **AnimationMoveMonHorizontally** (5 connections) — `engine/battle/animations.asm`
-- **AnimationShakeBackAndForth** (5 connections) — `engine/battle/animations.asm`
-- **ClearMonPicFromTileMap** (5 connections) — `engine/battle/animations.asm`
-- **GetMonSpriteTileMapPointerFromRowCount** (5 connections) — `engine/battle/animations.asm`
-- **AnimationHideEnemyMonPic** (4 connections) — `engine/battle/animations.asm`
-- **CopyTileIDsFromList** (4 connections) — `engine/battle/animations.asm`
-- **AnimationBoundUpAndDown** (3 connections) — `engine/battle/animations.asm`
-- **AnimationFlashEnemyMonPic** (3 connections) — `engine/battle/animations.asm`
-- **AnimationResetMonPosition** (3 connections) — `engine/battle/animations.asm`
-- **AnimationShowEnemyMonPic** (3 connections) — `engine/battle/animations.asm`
-- **AnimationSlideEnemyMonOff** (3 connections) — `engine/battle/animations.asm`
-- **AnimationSlideMonHalfOff** (3 connections) — `engine/battle/animations.asm`
-- *... and 6 more nodes in this community*
+- **engine/battle/battle_transitions.asm** (36 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition** (10 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransitions** (9 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_BlackScreen** (8 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_DoubleCircle** (8 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_Split** (8 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_TransferDelay3** (8 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_Circle** (7 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_Shrink** (6 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_Spiral** (6 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_FlashScreen_** (5 connections) — `engine/battle/battle_transitions.asm`
+- **LoadBattleTransitionTile** (5 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_Circle_Sub1** (4 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_Circle_Sub2** (4 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_CopyTiles1** (4 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_HorizontalStripes** (4 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_VerticalStripes** (4 connections) — `engine/battle/battle_transitions.asm`
+- **GetBattleTransitionID_IsDungeonMap** (4 connections) — `engine/battle/battle_transitions.asm`
+- **data/maps/dungeon_maps.asm** (4 connections) — `data/maps/dungeon_maps.asm`
+- **BattleTransition_CopyTiles2** (3 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_HalfCircle1** (3 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_HalfCircle2** (3 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransition_InwardSpiral** (3 connections) — `engine/battle/battle_transitions.asm`
+- **BattleTransitionTile** (3 connections) — `engine/battle/battle_transitions.asm`
+- **DungeonMaps1** (2 connections) — `data/maps/dungeon_maps.asm`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Home](Home.md) (7 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (4 shared connections)
 - [Engine Movie](Engine_Movie.md) (3 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (3 shared connections)
-- [Engine Battle](Engine_Battle.md) (2 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
-- [Gfx Sprites.Asm](Gfx_Sprites.Asm.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (3 shared connections)
+- [Engine Movie 3](Engine_Movie_3.md) (2 shared connections)
+- [Engine Movie 4](Engine_Movie_4.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Engine Link](Engine_Link.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
 
-- `data/tilemaps.asm`
-- `engine/battle/animations.asm`
-- `ram/wram.asm`
+- `data/maps/dungeon_maps.asm`
+- `engine/battle/battle_transitions.asm`
+- `gfx/overworld/battle_transition.2bpp`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (100%)
+- EXTRACTED: 94 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

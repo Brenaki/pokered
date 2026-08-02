@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **text/CinnabarLab.asm** (7 connections) — `text/CinnabarLab.asm`
-- **_CinnabarLabFishingGuruText** (1 connections) — `text/CinnabarLab.asm`
-- **_CinnabarLabMeetingRoomSignText** (1 connections) — `text/CinnabarLab.asm`
-- **_CinnabarLabPhotoText** (1 connections) — `text/CinnabarLab.asm`
-- **_CinnabarLabRAndDSignText** (1 connections) — `text/CinnabarLab.asm`
-- **_CinnabarLabTestingRoomSignText** (1 connections) — `text/CinnabarLab.asm`
+- **text/SSAnne2F.asm** (7 connections) — `text/SSAnne2F.asm`
+- **_SSAnne2FRivalCutMasterText** (1 connections) — `text/SSAnne2F.asm`
+- **_SSAnne2FRivalDefeatedText** (1 connections) — `text/SSAnne2F.asm`
+- **_SSAnne2FRivalText** (1 connections) — `text/SSAnne2F.asm`
+- **_SSAnne2FRivalVictoryText** (1 connections) — `text/SSAnne2F.asm`
+- **_SSAnne2FWaiterText** (1 connections) — `text/SSAnne2F.asm`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `text/CinnabarLab.asm`
+- `text/SSAnne2F.asm`
 
 ## Audit Trail
 

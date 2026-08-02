@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **audio/sfx/cry23_2.asm** (5 connections) — `audio/sfx/cry23_2.asm`
-- **SFX_Cry23_2_Ch5** (1 connections) — `audio/sfx/cry23_2.asm`
-- **SFX_Cry23_2_Ch6** (1 connections) — `audio/sfx/cry23_2.asm`
-- **SFX_Cry23_2_Ch8** (1 connections) — `audio/sfx/cry23_2.asm`
+- **audio/sfx/cry1f_3.asm** (5 connections) — `audio/sfx/cry1f_3.asm`
+- **SFX_Cry1F_3_Ch5** (1 connections) — `audio/sfx/cry1f_3.asm`
+- **SFX_Cry1F_3_Ch6** (1 connections) — `audio/sfx/cry1f_3.asm`
+- **SFX_Cry1F_3_Ch8** (1 connections) — `audio/sfx/cry1f_3.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `audio/sfx/cry23_2.asm`
+- `audio/sfx/cry1f_3.asm`
 
 ## Audit Trail
 

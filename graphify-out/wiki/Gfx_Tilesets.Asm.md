@@ -26,9 +26,9 @@
 - **gfx/blocksets/plateau.bst** (2 connections) — `gfx/blocksets/plateau.bst`
 - **gfx/blocksets/reds_house.bst** (2 connections) — `gfx/blocksets/reds_house.bst`
 - **gfx/blocksets/ship_port.bst** (2 connections) — `gfx/blocksets/ship_port.bst`
-- **gfx/tilesets/house.2bpp** (2 connections) — `gfx/tilesets.asm`
-- **gfx/tilesets/interior.2bpp** (2 connections) — `gfx/tilesets.asm`
-- **gfx/tilesets/mansion.2bpp** (2 connections) — `gfx/tilesets.asm`
+- **gfx/tilesets/house.2bpp** (2 connections) — `gfx/tilesets/house.2bpp`
+- **gfx/tilesets/interior.2bpp** (2 connections) — `gfx/tilesets/interior.2bpp`
+- **gfx/tilesets/mansion.2bpp** (2 connections) — `gfx/tilesets/mansion.2bpp`
 - *... and 6 more nodes in this community*
 
 ## Relationships
@@ -45,6 +45,13 @@
 - `gfx/blocksets/reds_house.bst`
 - `gfx/blocksets/ship_port.bst`
 - `gfx/tilesets.asm`
+- `gfx/tilesets/house.2bpp`
+- `gfx/tilesets/interior.2bpp`
+- `gfx/tilesets/mansion.2bpp`
+- `gfx/tilesets/overworld.2bpp`
+- `gfx/tilesets/plateau.2bpp`
+- `gfx/tilesets/reds_house.2bpp`
+- `gfx/tilesets/ship_port.2bpp`
 
 ## Audit Trail
 

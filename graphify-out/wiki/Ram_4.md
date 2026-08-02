@@ -1,53 +1,60 @@
 # Ram 4
 
-> 19 nodes · cohesion 0.12
+> 25 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **LoadMapHeader** (20 connections) — `home/overworld.asm`
-- **MarkTownVisitedAndLoadToggleableObjects** (8 connections) — `engine/overworld/toggleable_objects.asm`
-- **IsSpriteOrSignInFrontOfPlayer** (7 connections) — `home/overworld.asm`
-- **data/maps/toggleable_objects.asm** (5 connections) — `data/maps/toggleable_objects.asm`
-- **wSignCoords** (4 connections) — `ram/wram.asm`
-- **wSignTextIDs** (4 connections) — `ram/wram.asm`
-- **ToggleableObjectMapPointers** (3 connections) — `data/maps/toggleable_objects.asm`
-- **ToggleableObjectStates** (3 connections) — `data/maps/toggleable_objects.asm`
-- **IsSpriteInFrontOfPlayer2** (3 connections) — `home/overworld.asm`
-- **wCurMapHeader** (3 connections) — `ram/wram.asm`
-- **wEastConnectionHeader** (3 connections) — `ram/wram.asm`
-- **wMapBackgroundTile** (3 connections) — `ram/wram.asm`
-- **wNorthConnectionHeader** (3 connections) — `ram/wram.asm`
-- **wSouthConnectionHeader** (3 connections) — `ram/wram.asm`
-- **wTilesetTalkingOverTiles** (3 connections) — `ram/wram.asm`
-- **wTownVisitedFlag** (3 connections) — `ram/wram.asm`
-- **wWestConnectionHeader** (3 connections) — `ram/wram.asm`
-- **NoToggleData** (2 connections) — `data/maps/toggleable_objects.asm`
-- **CopyMapConnectionHeader** (2 connections) — `home/overworld.asm`
+- **Audio RAM [WRAM0]** (44 connections) — `ram/wram.asm`
+- **6.1 Modelo de execucao** (11 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **audio** (11 connections)
+- **6. Subsistema de audio** (7 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **audio/notes.asm** (6 connections) — `audio/notes.asm`
+- **wChannelNoteDelayCountersFractionalPart** (5 connections) — `ram/wram.asm`
+- **Music_DoLowHealthAlarm** (3 connections) — `audio/low_health_alarm.asm`
+- **6.6 Estado persistente do motor** (3 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **audio/low_health_alarm.asm** (3 connections) — `audio/low_health_alarm.asm`
+- **wAudioROMBank** (3 connections) — `ram/wram.asm`
+- **wAudioSavedROMBank** (3 connections) — `ram/wram.asm`
+- **wMuteAudioAndPauseMusic** (3 connections) — `ram/wram.asm`
+- **6.2 Canais e concorrencia** (2 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **6.3 Linguagem de comandos** (2 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **wDisableChannelOutputWhenSfxEnds** (2 connections) — `ram/wram.asm`
+- **wFrequencyModifier** (2 connections) — `ram/wram.asm`
+- **wMusicTempo** (2 connections) — `ram/wram.asm`
+- **wNewSoundID** (2 connections) — `ram/wram.asm`
+- **wSavedVolume** (2 connections) — `ram/wram.asm`
+- **wSfxHeaderPointer** (2 connections) — `ram/wram.asm`
+- **wSfxTempo** (2 connections) — `ram/wram.asm`
+- **wSoundID** (2 connections) — `ram/wram.asm`
+- **wStereoPanning** (2 connections) — `ram/wram.asm`
+- **wTempoModifier** (2 connections) — `ram/wram.asm`
+- **wUnusedMusicByte** (2 connections) — `ram/wram.asm`
 
 ## Relationships
 
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
-- [Engine Battle 2](Engine_Battle_2.md) (1 shared connections)
-- [Scripts 19](Scripts_19.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Data Maps 6](Data_Maps_6.md) (1 shared connections)
-- [Bank ROM0](Bank_ROM0.md) (1 shared connections)
-- [Data Tilesets 2](Data_Tilesets_2.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
-- [Home 5](Home_5.md) (1 shared connections)
-- [Engine Overworld 4](Engine_Overworld_4.md) (1 shared connections)
-- [Home 2](Home_2.md) (1 shared connections)
+- [Ram 5](Ram_5.md) (15 shared connections)
+- [Ram 6](Ram_6.md) (8 shared connections)
+- [Audio Engine 3.Asm](Audio_Engine_3.Asm.md) (7 shared connections)
+- [Scripts 11](Scripts_11.md) (4 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
+- [Audio Engine 1.Asm](Audio_Engine_1.Asm.md) (2 shared connections)
+- [Audio Engine 2.Asm](Audio_Engine_2.Asm.md) (2 shared connections)
+- [Audio Sfx 2](Audio_Sfx_2.md) (2 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
+- [Scripts 23](Scripts_23.md) (1 shared connections)
+- [Audio Sfx 3](Audio_Sfx_3.md) (1 shared connections)
 
 ## Source Files
 
-- `data/maps/toggleable_objects.asm`
-- `engine/overworld/toggleable_objects.asm`
-- `home/overworld.asm`
+- `audio/low_health_alarm.asm`
+- `audio/notes.asm`
+- `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
 - `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 74 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

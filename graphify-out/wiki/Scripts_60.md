@@ -1,53 +1,53 @@
 # Scripts 60
 
-> 28 nodes · cohesion 0.11
+> 27 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **scripts/PokemonTower6F.asm** (30 connections) — `scripts/PokemonTower6F.asm`
-- **21.20 Mapa `PokemonTower6F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **PokemonTower6FMarowakBattleScript** (6 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6F_Script** (5 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler1Text** (4 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler2Text** (4 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler3Text** (4 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FPlayerMovingScript** (3 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6F_ScriptPointers** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler1AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler1BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler1EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler2AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler2BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler2EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler3AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler3BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler3EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FGhostWasCubonesMotherText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FMarowakCoords** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FSetDefaultScript** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FSoulWasCalmedText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6TrainerHeader0** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6TrainerHeader1** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6TrainerHeader2** (2 connections) — `scripts/PokemonTower6F.asm`
-- *... and 3 more nodes in this community*
+- **scripts/FightingDojo.asm** (34 connections) — `scripts/FightingDojo.asm`
+- **21.6 Mapa `FightingDojo`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **FightingDojo_Script** (5 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt1Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt2Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt3Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt4Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojo_ScriptPointers** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt1AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt1BattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt1EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt2AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt2BattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt2EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt3AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt3BattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt3EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt4AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt4BattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt4EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoResetScripts** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoTrainerHeader0** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoTrainerHeader1** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoTrainerHeader2** (2 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoTrainerHeader3** (2 connections) — `scripts/FightingDojo.asm`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (4 shared connections)
-- [Home 8](Home_8.md) (3 shared connections)
-- [Home](Home.md) (3 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (7 shared connections)
+- [Scripts 7](Scripts_7.md) (4 shared connections)
+- [Scripts 3](Scripts_3.md) (2 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/PokemonTower6F.asm`
+- `scripts/FightingDojo.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (100%)
+- EXTRACTED: 59 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

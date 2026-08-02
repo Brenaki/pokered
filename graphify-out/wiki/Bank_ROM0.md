@@ -1,77 +1,65 @@
 # Bank ROM0
 
-> 122 nodes · cohesion 0.03
+> 46 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **home.asm** (74 connections) — `home.asm`
-- **home** (65 connections)
-- **5. Visao arquitetural** (42 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
 - **home/header.asm** (20 connections) — `home/header.asm`
-- **VBlank** (19 connections) — `home/vblank.asm`
-- **home/vcopy.asm** (18 connections) — `home/vcopy.asm`
+- **CableClubNPC** (19 connections) — `engine/link/cable_club_npc.asm`
 - **ROM0** (17 connections)
-- **PrintBCDNumber** (13 connections) — `home/print_bcd.asm`
-- **GetCryData** (11 connections) — `home/pokemon.asm`
-- **home/copy2.asm** (10 connections) — `home/copy2.asm`
-- **GetTrainerInformation** (10 connections) — `home/trainers2.asm`
-- **home/tilemap.asm** (9 connections) — `home/tilemap.asm`
-- **engine/gfx** (8 connections)
-- **PrepareOAMData** (8 connections) — `engine/gfx/sprite_oam.asm`
-- **home/npc_movement.asm** (7 connections) — `home/npc_movement.asm`
-- **home/vblank.asm** (7 connections) — `home/vblank.asm`
-- **BankswitchBack** (7 connections) — `home/bankswitch.asm`
-- **13. Controle de mudancas** (6 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **engine/gfx/oam_dma.asm** (6 connections) — `engine/gfx/oam_dma.asm`
-- **home/predef_text.asm** (6 connections) — `home/predef_text.asm`
-- **home/reload_tiles.asm** (6 connections) — `home/reload_tiles.asm`
-- **BankswitchHome** (6 connections) — `home/bankswitch.asm`
-- **PrintLetterDelay** (6 connections) — `home/print_text.asm`
-- **ResetPlayerSpriteData** (6 connections) — `home/reset_player_sprite.asm`
-- **UpdateMovingBgTiles** (6 connections) — `home/vcopy.asm`
-- *... and 97 more nodes in this community*
+- **home/serial.asm** (14 connections) — `home/serial.asm`
+- **engine/link/cable_club_npc.asm** (12 connections) — `engine/link/cable_club_npc.asm`
+- **Serial_SyncAndExchangeNybble** (10 connections) — `home/serial.asm`
+- **LinkBattleExchangeData** (8 connections) — `engine/battle/core.asm`
+- **Serial_ExchangeByte** (8 connections) — `home/serial.asm`
+- **Serial_ExchangeLinkMenuSelection** (6 connections) — `home/serial.asm`
+- **wUnknownSerialCounter** (6 connections) — `ram/wram.asm`
+- **CloseLinkConnection** (4 connections) — `engine/link/cable_club_npc.asm`
+- **IsUnknownCounterZero** (4 connections) — `home/serial.asm`
+- **Serial_SendZeroByte** (4 connections) — `home/serial.asm`
+- **NULL** (3 connections) — `home.asm`
+- **NULL [ROM0]** (3 connections) — `home.asm`
+- **Start** (3 connections) — `home/header.asm`
+- **Header [ROM0]** (3 connections) — `home/header.asm`
+- **Serial_ExchangeBytes** (3 connections) — `home/serial.asm`
+- **Serial_ExchangeNybble** (3 connections) — `home/serial.asm`
+- **SetUnknownCounterToFFFF** (3 connections) — `home/serial.asm`
+- **_Start** (3 connections) — `home/start.asm`
+- **CableClubNPCAreaReservedFor2FriendsLinkedByCableText** (2 connections) — `engine/link/cable_club_npc.asm`
+- **CableClubNPCLinkClosedBecauseOfInactivityText** (2 connections) — `engine/link/cable_club_npc.asm`
+- **CableClubNPCMakingPreparationsText** (2 connections) — `engine/link/cable_club_npc.asm`
+- **CableClubNPCPleaseApplyHereHaveToSaveText** (2 connections) — `engine/link/cable_club_npc.asm`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Home](Home.md) (28 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (17 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (15 shared connections)
-- [Scripts 5](Scripts_5.md) (10 shared connections)
-- [Engine Movie](Engine_Movie.md) (5 shared connections)
-- [Engine Debug](Engine_Debug.md) (4 shared connections)
-- [Engine Battle](Engine_Battle.md) (4 shared connections)
-- [Scripts](Scripts.md) (4 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (4 shared connections)
-- [Engine Gfx](Engine_Gfx.md) (4 shared connections)
-- [Engine Menus 2](Engine_Menus_2.md) (4 shared connections)
-- [Home 2](Home_2.md) (4 shared connections)
+- [Engine Movie 3](Engine_Movie_3.md) (5 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Ram](Ram.md) (2 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (1 shared connections)
+- [Home 5](Home_5.md) (1 shared connections)
+- [Engine Movie](Engine_Movie.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Engine Link](Engine_Link.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Engine Movie 4](Engine_Movie_4.md) (1 shared connections)
 
 ## Source Files
 
-- `data/maps/songs.asm`
-- `data/pokemon/cries.asm`
-- `data/trainers/pic_pointers_money.asm`
-- `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- `engine/gfx/load_pokedex_tiles.asm`
-- `engine/gfx/oam_dma.asm`
-- `engine/gfx/sprite_oam.asm`
-- `engine/slots/slot_machine.asm`
+- `engine/battle/core.asm`
+- `engine/link/cable_club_npc.asm`
 - `home.asm`
-- `home/array.asm`
-- `home/array2.asm`
-- `home/bankswitch.asm`
-- `home/clear_sprites.asm`
-- `home/compare.asm`
-- `home/copy.asm`
-- `home/copy2.asm`
-- `home/copy_string.asm`
-- `home/count_set_bits.asm`
-- `home/delay.asm`
-- `home/fade_audio.asm`
+- `home/header.asm`
+- `home/serial.asm`
+- `home/start.asm`
+- `home/timer.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 398 (100%)
+- EXTRACTED: 99 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

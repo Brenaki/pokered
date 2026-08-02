@@ -19,10 +19,10 @@
 
 ## Relationships
 
-- [Scripts](Scripts.md) (4 shared connections)
-- [Scripts 19](Scripts_19.md) (2 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Engine Overworld 4](Engine_Overworld_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (4 shared connections)
+- [Scripts 11](Scripts_11.md) (2 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
 
 ## Source Files
 

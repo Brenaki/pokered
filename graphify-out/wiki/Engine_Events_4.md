@@ -1,45 +1,46 @@
 # Engine Events 4
 
-> 22 nodes · cohesion 0.17
+> 20 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **engine/events/in_game_trades.asm** (34 connections) — `engine/events/in_game_trades.asm`
-- **TradeTextPointers1** (7 connections) — `engine/events/in_game_trades.asm`
-- **TradeTextPointers2** (7 connections) — `engine/events/in_game_trades.asm`
-- **TradeTextPointers3** (7 connections) — `engine/events/in_game_trades.asm`
-- **InGameTradeTextPointers** (5 connections) — `engine/events/in_game_trades.asm`
-- **AfterTrade1Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **AfterTrade2Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **AfterTrade3Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **ConnectCableText** (2 connections) — `engine/events/in_game_trades.asm`
-- **NoTrade1Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **NoTrade2Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **NoTrade3Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **Thanks1Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **Thanks2Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **Thanks3Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **TradedForText** (2 connections) — `engine/events/in_game_trades.asm`
-- **WannaTrade1Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **WannaTrade2Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **WannaTrade3Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **WrongMon1Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **WrongMon2Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **WrongMon3Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **engine/events/pokedex_rating.asm** (21 connections) — `engine/events/pokedex_rating.asm`
+- **DexRatingsTable** (18 connections) — `engine/events/pokedex_rating.asm`
+- **DisplayDexRating** (13 connections) — `engine/events/pokedex_rating.asm`
+- **DexCompletionText** (2 connections) — `engine/events/pokedex_rating.asm`
+- **DexRatingText_Own0To9** (2 connections) — `engine/events/pokedex_rating.asm`
+- **DexRatingText_Own100To109** (2 connections) — `engine/events/pokedex_rating.asm`
+- **DexRatingText_Own10To19** (2 connections) — `engine/events/pokedex_rating.asm`
+- **DexRatingText_Own110To119** (2 connections) — `engine/events/pokedex_rating.asm`
+- **DexRatingText_Own120To129** (2 connections) — `engine/events/pokedex_rating.asm`
+- **DexRatingText_Own130To139** (2 connections) — `engine/events/pokedex_rating.asm`
+- **DexRatingText_Own140To149** (2 connections) — `engine/events/pokedex_rating.asm`
+- **DexRatingText_Own150To151** (2 connections) — `engine/events/pokedex_rating.asm`
+- **DexRatingText_Own20To29** (2 connections) — `engine/events/pokedex_rating.asm`
+- **DexRatingText_Own30To39** (2 connections) — `engine/events/pokedex_rating.asm`
+- **DexRatingText_Own40To49** (2 connections) — `engine/events/pokedex_rating.asm`
+- **DexRatingText_Own50To59** (2 connections) — `engine/events/pokedex_rating.asm`
+- **DexRatingText_Own60To69** (2 connections) — `engine/events/pokedex_rating.asm`
+- **DexRatingText_Own70To79** (2 connections) — `engine/events/pokedex_rating.asm`
+- **DexRatingText_Own80To89** (2 connections) — `engine/events/pokedex_rating.asm`
+- **DexRatingText_Own90To99** (2 connections) — `engine/events/pokedex_rating.asm`
 
 ## Relationships
 
-- [Bank WRAM0](Bank_WRAM0.md) (8 shared connections)
-- [Home](Home.md) (1 shared connections)
-- [Data Events](Data_Events.md) (1 shared connections)
+- [Engine Menus 2](Engine_Menus_2.md) (2 shared connections)
+- [Scripts 11](Scripts_11.md) (1 shared connections)
+- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
+- [Ram 3](Ram_3.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/events/in_game_trades.asm`
+- `engine/events/pokedex_rating.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

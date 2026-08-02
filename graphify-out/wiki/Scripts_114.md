@@ -1,25 +1,24 @@
 # Scripts 114
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **scripts/CeladonPokecenter.asm** (8 connections) — `scripts/CeladonPokecenter.asm`
-- **CeladonPokecenter_Script** (3 connections) — `scripts/CeladonPokecenter.asm`
-- **CeladonPokecenter_TextPointers** (1 connections) — `scripts/CeladonPokecenter.asm`
-- **CeladonPokecenterBeautyText** (1 connections) — `scripts/CeladonPokecenter.asm`
-- **CeladonPokecenterGentlemanText** (1 connections) — `scripts/CeladonPokecenter.asm`
-- **CeladonPokecenterLinkReceptionistText** (1 connections) — `scripts/CeladonPokecenter.asm`
-- **CeladonPokecenterNurseText** (1 connections) — `scripts/CeladonPokecenter.asm`
+- **scripts/CopycatsHouse2F.asm** (9 connections) — `scripts/CopycatsHouse2F.asm`
+- **CopycatsHouse2F_Script** (2 connections) — `scripts/CopycatsHouse2F.asm`
+- **CopycatsHouse2F_TextPointers** (1 connections) — `scripts/CopycatsHouse2F.asm`
+- **CopycatsHouse2FDoduoText** (1 connections) — `scripts/CopycatsHouse2F.asm`
+- **CopycatsHouse2FRareDollText** (1 connections) — `scripts/CopycatsHouse2F.asm`
+- **CopycatsHouse2FSNESText** (1 connections) — `scripts/CopycatsHouse2F.asm`
 
 ## Relationships
 
-- [Scripts 6](Scripts_6.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonPokecenter.asm`
+- `scripts/CopycatsHouse2F.asm`
 
 ## Audit Trail
 

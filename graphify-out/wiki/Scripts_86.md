@@ -1,46 +1,44 @@
 # Scripts 86
 
-> 18 nodes · cohesion 0.16
+> 16 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **scripts/AgathasRoom.asm** (20 connections) — `scripts/AgathasRoom.asm`
-- **AgathasRoom_Script** (6 connections) — `scripts/AgathasRoom.asm`
-- **AgathasRoomAgathaEndBattleScript** (5 connections) — `scripts/AgathasRoom.asm`
-- **21.1 Mapa `AgathasRoom`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **AgathasRoomAgathaText** (4 connections) — `scripts/AgathasRoom.asm`
-- **AgathaShowOrHideExitBlock** (3 connections) — `scripts/AgathasRoom.asm`
-- **AgathasRoomPlayerIsMovingScript** (3 connections) — `scripts/AgathasRoom.asm`
-- **AgathaAfterBattleText** (2 connections) — `scripts/AgathasRoom.asm`
-- **AgathaBeforeBattleText** (2 connections) — `scripts/AgathasRoom.asm`
-- **AgathaEndBattleText** (2 connections) — `scripts/AgathasRoom.asm`
-- **AgathaEntranceCoords** (2 connections) — `scripts/AgathasRoom.asm`
-- **AgathasRoom_ScriptPointers** (2 connections) — `scripts/AgathasRoom.asm`
-- **AgathasRoomNoopScript** (2 connections) — `scripts/AgathasRoom.asm`
-- **AgathasRoomTrainerHeader0** (2 connections) — `scripts/AgathasRoom.asm`
-- **AgathasRoomTrainerHeaders** (2 connections) — `scripts/AgathasRoom.asm`
-- **ResetAgathaScript** (2 connections) — `scripts/AgathasRoom.asm`
-- **AgathasRoom_TextPointers** (1 connections) — `scripts/AgathasRoom.asm`
-- **AgathasRoomAgathaDontRunAwayText** (1 connections) — `scripts/AgathasRoom.asm`
+- **scripts/PokemonMansion1F.asm** (17 connections) — `scripts/PokemonMansion1F.asm`
+- **PokemonMansion1F_Script** (6 connections) — `scripts/PokemonMansion1F.asm`
+- **Mansion1CheckReplaceSwitchDoorBlocks** (5 connections) — `scripts/PokemonMansion1F.asm`
+- **21.13 Mapa `PokemonMansion1F`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **PokemonMansion1FScientistText** (4 connections) — `scripts/PokemonMansion1F.asm`
+- **Mansion1LoadHorizontalGateBlock** (3 connections) — `scripts/PokemonMansion1F.asm`
+- **Mansion1ReplaceBlock** (3 connections) — `scripts/PokemonMansion1F.asm`
+- **Mansion1LoadEmptyFloorTileBlock** (2 connections) — `scripts/PokemonMansion1F.asm`
+- **Mansion1Script_Switches** (2 connections) — `scripts/PokemonMansion1F.asm`
+- **Mansion1TrainerHeader0** (2 connections) — `scripts/PokemonMansion1F.asm`
+- **Mansion1TrainerHeaders** (2 connections) — `scripts/PokemonMansion1F.asm`
+- **PokemonMansion1F_ScriptPointers** (2 connections) — `scripts/PokemonMansion1F.asm`
+- **PokemonMansion1FScientistAfterBattleText** (2 connections) — `scripts/PokemonMansion1F.asm`
+- **PokemonMansion1FScientistBattleText** (2 connections) — `scripts/PokemonMansion1F.asm`
+- **PokemonMansion1FScientistEndBattleText** (2 connections) — `scripts/PokemonMansion1F.asm`
+- **PokemonMansion1F_TextPointers** (1 connections) — `scripts/PokemonMansion1F.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (3 shared connections)
-- [Scripts 19](Scripts_19.md) (2 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 11](Scripts_11.md) (1 shared connections)
+- [Engine Overworld 12](Engine_Overworld_12.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (1 shared connections)
+- [Scripts 27](Scripts_27.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Home 8](Home_8.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
+- [Scripts 7](Scripts_7.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/AgathasRoom.asm`
+- `scripts/PokemonMansion1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,31 +1,50 @@
 # Engine Battle 12
 
-> 5 nodes · cohesion 0.40
+> 18 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **MoveAnimation** (12 connections) — `engine/battle/animations.asm`
-- **TossBallAnimation** (4 connections) — `engine/battle/animations.asm`
-- **PlayBattleAnimationGotID** (3 connections) — `engine/battle/effects.asm`
-- **SetAnimationPalette** (2 connections) — `engine/battle/animations.asm`
-- **ShareMoveAnimations** (2 connections) — `engine/battle/animations.asm`
+- **engine/battle/used_move_text.asm** (15 connections) — `engine/battle/used_move_text.asm`
+- **data/moves** (11 connections)
+- **MoveNameText** (7 connections) — `engine/battle/used_move_text.asm`
+- **UsedMoveText** (7 connections) — `engine/battle/used_move_text.asm`
+- **DisplayUsedMoveText** (5 connections) — `engine/battle/used_move_text.asm`
+- **GetMoveGrammar** (3 connections) — `engine/battle/used_move_text.asm`
+- **UsedMove1Text** (3 connections) — `engine/battle/used_move_text.asm`
+- **UsedMoveText_CheckObedience** (3 connections) — `engine/battle/used_move_text.asm`
+- **data/moves/field_moves.asm** (3 connections) — `data/moves/field_moves.asm`
+- **data/moves/grammar.asm** (3 connections) — `data/moves/grammar.asm`
+- **FieldMoveDisplayData** (2 connections) — `data/moves/field_moves.asm`
+- **MoveGrammar** (2 connections) — `data/moves/grammar.asm`
+- **EndUsedMove1Text** (2 connections) — `engine/battle/used_move_text.asm`
+- **EndUsedMove2Text** (2 connections) — `engine/battle/used_move_text.asm`
+- **EndUsedMove3Text** (2 connections) — `engine/battle/used_move_text.asm`
+- **EndUsedMove4Text** (2 connections) — `engine/battle/used_move_text.asm`
+- **EndUsedMove5Text** (2 connections) — `engine/battle/used_move_text.asm`
+- **UsedMove2Text** (2 connections) — `engine/battle/used_move_text.asm`
 
 ## Relationships
 
-- [Engine Battle 8](Engine_Battle_8.md) (2 shared connections)
-- [Engine Battle 11](Engine_Battle_11.md) (1 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Ram](Ram.md) (2 shared connections)
+- [Data Moves](Data_Moves.md) (1 shared connections)
+- [Engine Battle 3](Engine_Battle_3.md) (1 shared connections)
+- [Engine Menus 7](Engine_Menus_7.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Engine Battle 4](Engine_Battle_4.md) (1 shared connections)
+- [Data Events](Data_Events.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Engine Items 9](Engine_Items_9.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/battle/animations.asm`
-- `engine/battle/effects.asm`
+- `data/moves/field_moves.asm`
+- `data/moves/grammar.asm`
+- `engine/battle/used_move_text.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

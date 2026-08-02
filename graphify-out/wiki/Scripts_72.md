@@ -1,52 +1,51 @@
 # Scripts 72
 
-> 23 nodes · cohesion 0.10
+> 23 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **scripts/PewterCity.asm** (28 connections) — `scripts/PewterCity.asm`
-- **PewterCityCheckPlayerLeavingEastScript** (6 connections) — `scripts/PewterCity.asm`
-- **SetSpritePosition2** (4 connections) — `home/trainers.asm`
-- **PewterCity_Script** (4 connections) — `scripts/PewterCity.asm`
-- **PewterCityResetSuperNerd1Script** (4 connections) — `scripts/PewterCity.asm`
-- **PewterCityResetYoungsterScript** (4 connections) — `scripts/PewterCity.asm`
-- **PewterCityDefaultScript** (3 connections) — `scripts/PewterCity.asm`
-- **PewterCityHideSuperNerd1Script** (3 connections) — `scripts/PewterCity.asm`
-- **PewterCityHideYoungsterScript** (3 connections) — `scripts/PewterCity.asm`
-- **MovementData_PewterGymGuyExit** (2 connections) — `scripts/PewterCity.asm`
-- **MovementData_PewterMuseumGuyExit** (2 connections) — `scripts/PewterCity.asm`
-- **PewterCity_ScriptPointers** (2 connections) — `scripts/PewterCity.asm`
-- **PewterCityPlayerLeavingEastCoords** (2 connections) — `scripts/PewterCity.asm`
-- **PewterCity_TextPointers** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityCooltrainerFText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityCooltrainerMText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityGymSignText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityMuseumSignText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityPoliceNoticeSignText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCitySignText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCitySuperNerd1ItsRightHereText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityTrainerTipsText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityYoungsterGoTakeOnBrockText** (1 connections) — `scripts/PewterCity.asm`
+- **scripts/SilphCo4F.asm** (25 connections) — `scripts/SilphCo4F.asm`
+- **21.58 Mapa `SilphCo4F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **SilphCo4F_Script** (6 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FGateCallbackScript** (6 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FRocket1Text** (4 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FRocket2Text** (4 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FScientistText** (4 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4F_ScriptPointers** (2 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FRocket1AfterBattleText** (2 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FRocket1BattleText** (2 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FRocket1EndBattleText** (2 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FRocket2AfterBattleText** (2 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FRocket2BattleText** (2 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FRocket2EndBattleText** (2 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FScientistAfterBattleText** (2 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FScientistBattleText** (2 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FScientistEndBattleText** (2 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FUnlockedDoorEventScript** (2 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4TrainerHeader0** (2 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4TrainerHeader1** (2 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4TrainerHeader2** (2 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4TrainerHeaders** (2 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4F_TextPointers** (1 connections) — `scripts/SilphCo4F.asm`
 
 ## Relationships
 
-- [Scripts 19](Scripts_19.md) (4 shared connections)
-- [Scripts](Scripts.md) (3 shared connections)
-- [Home 5](Home_5.md) (2 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Engine Overworld 5](Engine_Overworld_5.md) (1 shared connections)
-- [Scripts 29](Scripts_29.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 45](Scripts_45.md) (3 shared connections)
+- [Scripts 2](Scripts_2.md) (3 shared connections)
+- [Scripts 7](Scripts_7.md) (3 shared connections)
+- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Engine Overworld 12](Engine_Overworld_12.md) (1 shared connections)
+- [Scripts 11](Scripts_11.md) (1 shared connections)
 
 ## Source Files
 
-- `home/trainers.asm`
-- `scripts/PewterCity.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/SilphCo4F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

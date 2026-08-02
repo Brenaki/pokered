@@ -5,26 +5,27 @@
 ## Key Concepts
 
 - **data/wild/grass_water.asm** (63 connections) — `data/wild/grass_water.asm`
-- **data/wild/maps/CeruleanCave1F.asm** (3 connections) — `data/wild/maps/CeruleanCave1F.asm`
-- **data/wild/maps/PokemonMansionB1F.asm** (3 connections) — `data/wild/maps/PokemonMansionB1F.asm`
-- **data/wild/maps/PokemonTower4F.asm** (3 connections) — `data/wild/maps/PokemonTower4F.asm`
-- **data/wild/maps/RockTunnel1F.asm** (3 connections) — `data/wild/maps/RockTunnel1F.asm`
-- **data/wild/maps/Route10.asm** (3 connections) — `data/wild/maps/Route10.asm`
-- **data/wild/maps/Route14.asm** (3 connections) — `data/wild/maps/Route14.asm`
-- **data/wild/maps/Route23.asm** (3 connections) — `data/wild/maps/Route23.asm`
-- **data/wild/maps/Route8.asm** (3 connections) — `data/wild/maps/Route8.asm`
-- **PokemonMansionB1FWildMons** (2 connections) — `data/wild/maps/PokemonMansionB1F.asm`
-- **PokemonTower4FWildMons** (2 connections) — `data/wild/maps/PokemonTower4F.asm`
-- **RockTunnel1FWildMons** (2 connections) — `data/wild/maps/RockTunnel1F.asm`
-- **Route10WildMons** (2 connections) — `data/wild/maps/Route10.asm`
-- **Route14WildMons** (2 connections) — `data/wild/maps/Route14.asm`
-- **Route23WildMons** (2 connections) — `data/wild/maps/Route23.asm`
-- **Route8WildMons** (2 connections) — `data/wild/maps/Route8.asm`
+- **data/wild/maps/MtMoon1F.asm** (3 connections) — `data/wild/maps/MtMoon1F.asm`
+- **data/wild/maps/PokemonTower5F.asm** (3 connections) — `data/wild/maps/PokemonTower5F.asm`
+- **data/wild/maps/RockTunnelB1F.asm** (3 connections) — `data/wild/maps/RockTunnelB1F.asm`
+- **data/wild/maps/Route11.asm** (3 connections) — `data/wild/maps/Route11.asm`
+- **data/wild/maps/Route17.asm** (3 connections) — `data/wild/maps/Route17.asm`
+- **data/wild/maps/Route24.asm** (3 connections) — `data/wild/maps/Route24.asm`
+- **data/wild/maps/SafariZoneNorth.asm** (3 connections) — `data/wild/maps/SafariZoneNorth.asm`
+- **data/wild/maps/SeafoamIslands1F.asm** (3 connections) — `data/wild/maps/SeafoamIslands1F.asm`
+- **PokemonTower5FWildMons** (2 connections) — `data/wild/maps/PokemonTower5F.asm`
+- **RockTunnelB1FWildMons** (2 connections) — `data/wild/maps/RockTunnelB1F.asm`
+- **Route11WildMons** (2 connections) — `data/wild/maps/Route11.asm`
+- **Route17WildMons** (2 connections) — `data/wild/maps/Route17.asm`
+- **Route24WildMons** (2 connections) — `data/wild/maps/Route24.asm`
+- **SafariZoneNorthWildMons** (2 connections) — `data/wild/maps/SafariZoneNorth.asm`
+- **SeafoamIslands1FWildMons** (2 connections) — `data/wild/maps/SeafoamIslands1F.asm`
 
 ## Relationships
 
-- [Data Wild 2](Data_Wild_2.md) (9 shared connections)
 - [Data Wild](Data_Wild.md) (9 shared connections)
+- [Data Wild 2](Data_Wild_2.md) (8 shared connections)
+- [Data Wild 4](Data_Wild_4.md) (1 shared connections)
 - [Data Wild 5](Data_Wild_5.md) (1 shared connections)
 - [Data Wild 6](Data_Wild_6.md) (1 shared connections)
 - [Data Wild 7](Data_Wild_7.md) (1 shared connections)
@@ -34,19 +35,18 @@
 - [Data Wild 11](Data_Wild_11.md) (1 shared connections)
 - [Data Wild 12](Data_Wild_12.md) (1 shared connections)
 - [Data Wild 13](Data_Wild_13.md) (1 shared connections)
-- [Data Wild 14](Data_Wild_14.md) (1 shared connections)
 
 ## Source Files
 
 - `data/wild/grass_water.asm`
-- `data/wild/maps/CeruleanCave1F.asm`
-- `data/wild/maps/PokemonMansionB1F.asm`
-- `data/wild/maps/PokemonTower4F.asm`
-- `data/wild/maps/RockTunnel1F.asm`
-- `data/wild/maps/Route10.asm`
-- `data/wild/maps/Route14.asm`
-- `data/wild/maps/Route23.asm`
-- `data/wild/maps/Route8.asm`
+- `data/wild/maps/MtMoon1F.asm`
+- `data/wild/maps/PokemonTower5F.asm`
+- `data/wild/maps/RockTunnelB1F.asm`
+- `data/wild/maps/Route11.asm`
+- `data/wild/maps/Route17.asm`
+- `data/wild/maps/Route24.asm`
+- `data/wild/maps/SafariZoneNorth.asm`
+- `data/wild/maps/SeafoamIslands1F.asm`
 
 ## Audit Trail
 

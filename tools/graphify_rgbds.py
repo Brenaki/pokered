@@ -31,6 +31,10 @@ OUT = ROOT / "graphify-out"
 
 NOISE_DIRS = {
     ".git",
+    ".hypothesis",
+    ".pytest_cache",
+    ".venv",
+    ".worktrees",
     "graphify-out",
 }
 
@@ -42,6 +46,7 @@ ROOT_CODE_FILES = {
 }
 DOC_EXTS = {".md", ".yml", ".yaml"}
 TOOL_EXTS = {".c", ".h", ".py", ".sh"}
+STRUCTURED_EXTS = {".json", ".toml"}
 
 INCLUDE_RE = re.compile(r'\bINCLUDE\s+"([^"]+)"', re.IGNORECASE)
 INCBIN_RE = re.compile(r'\bINCBIN\s+"([^"]+)"', re.IGNORECASE)
@@ -55,6 +60,7 @@ DATA_REF_RE = re.compile(r"\b(dw|dba|dbw|dab|addr|bank)\s+([^;\n]+)", re.IGNOREC
 TOKEN_RE = re.compile(r"\b[A-Za-z_.$][A-Za-z0-9_.$@]*\b")
 MARKDOWN_HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*#*\s*$")
 INLINE_CODE_RE = re.compile(r"`([^`\n]+)`")
+PYTHON_DEF_RE = re.compile(r"^\s*(?:async\s+)?(class|def)\s+([A-Za-z_][A-Za-z0-9_]*)")
 
 CONDITIONS = {"z", "nz", "c", "nc"}
 DIRECTIVES = {
@@ -104,6 +110,8 @@ def supported_files() -> list[Path]:
         elif path.name in ROOT_CODE_FILES:
             files.append(path)
         elif path.suffix.lower() in TOOL_EXTS and parts[:1] == ("tools",):
+            files.append(path)
+        elif parts[:1] == ("rewrite",) and path.suffix.lower() in TOOL_EXTS | DOC_EXTS | STRUCTURED_EXTS:
             files.append(path)
         elif path.suffix.lower() in DOC_EXTS and (len(parts) == 1 or parts[0] in {".github", "docs"}):
             files.append(path)
@@ -181,6 +189,8 @@ class GraphBuilder:
             domain = "/".join(parts[:2])
         elif parts[0] in {"data", "audio", "gfx"} and len(parts) > 2:
             domain = "/".join(parts[:2])
+        elif parts[0] == "rewrite" and len(parts) > 2:
+            domain = "/".join(parts[:2])
         else:
             domain = parts[0]
         node_id = make_id("domain", domain)
@@ -198,6 +208,12 @@ class GraphBuilder:
 
             if path.suffix.lower() in DOC_EXTS:
                 self.extract_markdown_headings(path, file_id, r)
+                continue
+            if path.suffix.lower() == ".json":
+                self.extract_json_entities(path, file_id, r)
+                continue
+            if path.suffix.lower() == ".py":
+                self.extract_python_definitions(path, file_id, r)
                 continue
 
             current_section: str | None = None
@@ -245,6 +261,8 @@ class GraphBuilder:
             file_id = self.file_node(path)
             if path.suffix.lower() in DOC_EXTS:
                 self.extract_markdown_references(path, file_id, r)
+                continue
+            if path.suffix.lower() in STRUCTURED_EXTS or path.suffix.lower() == ".py":
                 continue
 
             current_label = file_id
@@ -300,6 +318,70 @@ class GraphBuilder:
             self.edge(parent_id, node_id, "contains", source_file=source_file, line=line_no)
             parents.append((level, node_id))
             self.markdown_headings[(source_file, line_no)] = node_id
+
+    def extract_python_definitions(self, path: Path, file_id: str, source_file: str) -> None:
+        for line_no, raw in enumerate(path.read_text(encoding="utf-8", errors="ignore").splitlines(), 1):
+            match = PYTHON_DEF_RE.match(raw)
+            if not match:
+                continue
+            kind, name = match.groups()
+            node_id = self.node(
+                make_id(source_file, kind, name, str(line_no)),
+                name,
+                "class" if kind == "class" else "function",
+                source_file=source_file,
+                line=line_no,
+            )
+            self.edge(file_id, node_id, "defines", source_file=source_file, line=line_no)
+
+    def extract_json_entities(self, path: Path, file_id: str, source_file: str) -> None:
+        try:
+            document = json.loads(path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            return
+
+        for case in document.get("cases", []):
+            case_name = case.get("id")
+            if not case_name:
+                continue
+            case_id = self.node(
+                make_id(source_file, "case", case_name),
+                case_name,
+                "test_case",
+                source_file=source_file,
+                line=1,
+            )
+            self.edge(file_id, case_id, "defines", source_file=source_file)
+            self.reference(case_id, case.get("entry_symbol", ""), "executes", source_file, 1)
+            for requirement in case.get("requirements", []):
+                requirement_id = self.node(
+                    make_id("requirement", requirement),
+                    requirement,
+                    "requirement",
+                    file_type="concept",
+                )
+                self.edge(case_id, requirement_id, "verifies", source_file=source_file)
+
+        for group in document.get("groups", []):
+            name = group.get("name")
+            if not name:
+                continue
+            group_id = self.node(
+                make_id(source_file, "traceability", name),
+                name,
+                "traceability_group",
+                source_file=source_file,
+                line=1,
+            )
+            self.edge(file_id, group_id, "defines", source_file=source_file)
+            for requirement in group.get("ids", []):
+                requirement_id = self.node(
+                    make_id("requirement", requirement),
+                    requirement,
+                    "requirement",
+                    file_type="concept",
+                )
+                self.edge(group_id, requirement_id, "controls", source_file=source_file)
 
     def extract_markdown_references(self, path: Path, file_id: str, source_file: str) -> None:
         current_section = file_id

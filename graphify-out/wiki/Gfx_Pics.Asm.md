@@ -1,12 +1,11 @@
 # Gfx Pics.Asm
 
-> 210 nodes · cohesion 0.02
+> 209 nodes · cohesion 0.02
 
 ## Key Concepts
 
 - **data/pokemon** (163 connections)
 - **Pics 3 [ROMX]** (140 connections) — `gfx/pics.asm`
-- **data/pokemon/mew.asm** (8 connections) — `data/pokemon/mew.asm`
 - **data/pokemon/base_stats/articuno.asm** (6 connections) — `data/pokemon/base_stats/articuno.asm`
 - **data/pokemon/base_stats/beedrill.asm** (6 connections) — `data/pokemon/base_stats/beedrill.asm`
 - **data/pokemon/base_stats/ditto.asm** (6 connections) — `data/pokemon/base_stats/ditto.asm`
@@ -29,22 +28,23 @@
 - **data/pokemon/base_stats/omastar.asm** (6 connections) — `data/pokemon/base_stats/omastar.asm`
 - **data/pokemon/base_stats/paras.asm** (6 connections) — `data/pokemon/base_stats/paras.asm`
 - **data/pokemon/base_stats/pikachu.asm** (6 connections) — `data/pokemon/base_stats/pikachu.asm`
-- *... and 185 more nodes in this community*
+- **data/pokemon/base_stats/poliwhirl.asm** (6 connections) — `data/pokemon/base_stats/poliwhirl.asm`
+- *... and 184 more nodes in this community*
 
 ## Relationships
 
-- [Gfx Pics.Asm 2](Gfx_Pics.Asm_2.md) (36 shared connections)
-- [Gfx Pics.Asm 3](Gfx_Pics.Asm_3.md) (30 shared connections)
-- [Gfx Pics.Asm 4](Gfx_Pics.Asm_4.md) (29 shared connections)
-- [Gfx Pics.Asm 5](Gfx_Pics.Asm_5.md) (26 shared connections)
-- [Bank ROMX](Bank_ROMX.md) (2 shared connections)
-- [Bank ROM0](Bank_ROM0.md) (1 shared connections)
+- [Gfx Pokemon](Gfx_Pokemon.md) (34 shared connections)
+- [Gfx Pics.Asm 2](Gfx_Pics.Asm_2.md) (30 shared connections)
+- [Gfx Pics.Asm 3](Gfx_Pics.Asm_3.md) (29 shared connections)
+- [Gfx Pics.Asm 4](Gfx_Pics.Asm_4.md) (26 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 - [Data Pokemon 2](Data_Pokemon_2.md) (1 shared connections)
-- [Engine Link](Engine_Link.md) (1 shared connections)
+- [Engine Menus](Engine_Menus.md) (1 shared connections)
 - [Data Pokemon 3](Data_Pokemon_3.md) (1 shared connections)
 - [Data Pokemon](Data_Pokemon.md) (1 shared connections)
 - [Engine Gfx](Engine_Gfx.md) (1 shared connections)
 - [Data Sgb](Data_Sgb.md) (1 shared connections)
+- [Engine Movie](Engine_Movie.md) (1 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 510 (100%)
+- EXTRACTED: 507 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

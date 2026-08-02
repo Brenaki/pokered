@@ -1,76 +1,58 @@
 # Scripts 7
 
-> 63 nodes · cohesion 0.08
+> 64 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **wStatusFlags3** (39 connections) — `ram/wram.asm`
-- **SaveEndBattleTextPointers** (32 connections) — `home/trainers.asm`
-- **scripts/CinnabarGym.asm** (29 connections) — `scripts/CinnabarGym.asm`
-- **EngageMapTrainer** (21 connections) — `home/trainers.asm`
-- **InitBattleEnemyParameters** (17 connections) — `home/trainers.asm`
-- **wObtainedBadges** (14 connections) — `ram/wram.asm`
-- **ViridianGymGiovanniText** (14 connections) — `scripts/ViridianGym.asm`
-- **CinnabarGymStartBattleScript** (13 connections) — `scripts/CinnabarGym.asm`
-- **wBeatGymFlags** (10 connections) — `ram/wram.asm`
-- **CeruleanGymMistyText** (10 connections) — `scripts/CeruleanGym.asm`
-- **PewterGymBrockText** (10 connections) — `scripts/PewterGym.asm`
-- **VermilionGymLTSurgeText** (10 connections) — `scripts/VermilionGym.asm`
-- **DisableWaitingAfterTextDisplay** (9 connections) — `home/reload_tiles.asm`
-- **CeladonGymErikaText** (9 connections) — `scripts/CeladonGym.asm`
-- **CeruleanCityRocketText** (9 connections) — `scripts/CeruleanCity.asm`
-- **FuchsiaGymKogaText** (9 connections) — `scripts/FuchsiaGym.asm`
-- **SaffronGymSabrinaText** (9 connections) — `scripts/SaffronGym.asm`
-- **PrintEndBattleText** (8 connections) — `home/trainers.asm`
-- **CinnabarGymReceiveTM38** (8 connections) — `scripts/CinnabarGym.asm`
-- **CinnabarGymSetTrainerHeader** (8 connections) — `scripts/CinnabarGym.asm`
-- **RocketHideoutB4FGiovanniText** (8 connections) — `scripts/RocketHideoutB4F.asm`
-- **Route24CooltrainerM1Text** (8 connections) — `scripts/Route24.asm`
-- **SilphCo11FGiovanniStartBattleScript** (8 connections) — `scripts/SilphCo11F.asm`
-- **ViridianGymReceiveTM27** (8 connections) — `scripts/ViridianGym.asm`
-- **CeladonGymReceiveTM21** (7 connections) — `scripts/CeladonGym.asm`
-- *... and 38 more nodes in this community*
+- **TalkToTrainer** (302 connections) — `home/trainers.asm`
+- **scripts/Route19.asm** (57 connections) — `scripts/Route19.asm`
+- **21.38 Mapa `Route19`** (31 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **CheckForEngagingTrainers** (7 connections) — `home/trainers.asm`
+- **StartTrainerBattle** (6 connections) — `home/trainers.asm`
+- **ReadTrainerHeaderInfo** (5 connections) — `home/trainers.asm`
+- **wCurMapScript** (5 connections) — `ram/wram.asm`
+- **Route19_Script** (5 connections) — `scripts/Route19.asm`
+- **StoreTrainerHeaderPointer** (4 connections) — `home/trainers.asm`
+- **TrainerFlagAction** (4 connections) — `home/trainers.asm`
+- **Route19CooltrainerM1Text** (4 connections) — `scripts/Route19.asm`
+- **Route19CooltrainerM2Text** (4 connections) — `scripts/Route19.asm`
+- **Route19Swimmer1Text** (4 connections) — `scripts/Route19.asm`
+- **Route19Swimmer2Text** (4 connections) — `scripts/Route19.asm`
+- **Route19Swimmer3Text** (4 connections) — `scripts/Route19.asm`
+- **Route19Swimmer4Text** (4 connections) — `scripts/Route19.asm`
+- **Route19Swimmer5Text** (4 connections) — `scripts/Route19.asm`
+- **Route19Swimmer6Text** (4 connections) — `scripts/Route19.asm`
+- **Route19Swimmer7Text** (4 connections) — `scripts/Route19.asm`
+- **Route19Swimmer8Text** (4 connections) — `scripts/Route19.asm`
+- **Route19_ScriptPointers** (2 connections) — `scripts/Route19.asm`
+- **Route19CooltrainerM1AfterBattleText** (2 connections) — `scripts/Route19.asm`
+- **Route19CooltrainerM1BattleText** (2 connections) — `scripts/Route19.asm`
+- **Route19CooltrainerM1EndBattleText** (2 connections) — `scripts/Route19.asm`
+- **Route19CooltrainerM2AfterBattleText** (2 connections) — `scripts/Route19.asm`
+- *... and 39 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (56 shared connections)
-- [Scripts 2](Scripts_2.md) (7 shared connections)
-- [Scripts 19](Scripts_19.md) (5 shared connections)
-- [Home 8](Home_8.md) (2 shared connections)
-- [Scripts 54](Scripts_54.md) (2 shared connections)
-- [Scripts 96](Scripts_96.md) (2 shared connections)
-- [Home 6](Home_6.md) (2 shared connections)
-- [Home](Home.md) (2 shared connections)
-- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
-- [Data Events](Data_Events.md) (1 shared connections)
-- [Engine Overworld 4](Engine_Overworld_4.md) (1 shared connections)
-- [Engine Battle 3](Engine_Battle_3.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (11 shared connections)
+- [Scripts 6](Scripts_6.md) (4 shared connections)
+- [Engine Overworld 3](Engine_Overworld_3.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Home 5](Home_5.md) (1 shared connections)
+- [Scripts 32](Scripts_32.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (1 shared connections)
+- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `home/hidden_events.asm`
-- `home/reload_tiles.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
 - `home/trainers.asm`
 - `ram/wram.asm`
-- `scripts/CeladonGym.asm`
-- `scripts/CeruleanCity.asm`
-- `scripts/CeruleanGym.asm`
-- `scripts/CinnabarGym.asm`
-- `scripts/FuchsiaGym.asm`
-- `scripts/GameCorner.asm`
-- `scripts/PewterGym.asm`
-- `scripts/PokemonTower2F.asm`
-- `scripts/RocketHideoutB4F.asm`
-- `scripts/Route24.asm`
-- `scripts/SSAnne2F.asm`
-- `scripts/SaffronGym.asm`
-- `scripts/SilphCo11F.asm`
-- `scripts/VermilionGym.asm`
-- `scripts/ViridianGym.asm`
+- `scripts/Route19.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 243 (100%)
+- EXTRACTED: 138 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

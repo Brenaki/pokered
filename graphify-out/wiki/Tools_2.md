@@ -1,35 +1,35 @@
 # Tools 2
 
-> 35 nodes · cohesion 0.06
+> 28 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **tools/generate_pokemon_catalog.py** (35 connections) — `tools/generate_pokemon_catalog.py`
-- **(data/pokemon/base_stats/[^\** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **acquisitions** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **assignments** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **base_exp** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **by_species** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **catch_rate** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **category** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **description** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **entries** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **evolutions** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **evolves_from** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **growth** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **height_feet** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **height_inches** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **initial_moves** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **item** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **level** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **level_moves** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **method** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **move_names** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **name** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **number** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **result** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **source** (1 connections) — `tools/generate_pokemon_catalog.py`
-- *... and 10 more nodes in this community*
+- **tools/generate_audio_sprite_document.py** (29 connections) — `tools/generate_audio_sprite_document.py`
+- **AudioConstant** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **AudioHeader** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **Cry** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **MapSong** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **OverworldSprite** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **PictureAsset** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **TrainerPicture** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **add_table** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **audio_data_sources** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **build_document** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **main** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **md** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **normalized_sfx_symbol** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_audio_constants** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_character_pictures** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_cries** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_graphics_directory_counts** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_headers** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_incbin_assets** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_map_songs** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_overworld_sprites** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_trainer_pictures** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **read** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **rel** (1 connections) — `tools/generate_audio_sprite_document.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
@@ -37,11 +37,11 @@
 
 ## Source Files
 
-- `tools/generate_pokemon_catalog.py`
+- `tools/generate_audio_sprite_document.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

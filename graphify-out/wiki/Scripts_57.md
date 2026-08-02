@@ -1,57 +1,60 @@
 # Scripts 57
 
-> 29 nodes · cohesion 0.10
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts/CeruleanCity.asm** (34 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityDefaultScript** (15 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityRivalDefeatedScript** (12 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityRivalBattleScript** (8 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCity_Script** (4 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityFaceRivalScript** (4 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityRivalCleanupScript** (4 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityClearScripts** (3 connections) — `scripts/CeruleanCity.asm`
-- **GetPointerWithinSpriteStateData2** (2 connections) — `home/map_objects.asm`
-- **CeruleanCity_ScriptPointers** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityCoords1** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityCoords2** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityMovement1** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityMovement3** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityMovement4** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityRivalDefeatedText** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityRivalIWentToBillsText** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityRivalVictoryText** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCity_TextPointers** (1 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityBikeShopSign** (1 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityCooltrainerF2Text** (1 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityCooltrainerMText** (1 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityGuardText** (1 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityGymSign** (1 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCitySignText** (1 connections) — `scripts/CeruleanCity.asm`
+- **scripts/PewterCity.asm** (28 connections) — `scripts/PewterCity.asm`
+- **PewterCitySuperNerd1ShowsPlayerMuseumScript** (11 connections) — `scripts/PewterCity.asm`
+- **PewterCityYoungsterShowsPlayerGymScript** (11 connections) — `scripts/PewterCity.asm`
+- **SetSpritePosition1** (8 connections) — `home/trainers.asm`
+- **OaksLabRivalEndBattleScript** (6 connections) — `scripts/OaksLab.asm`
+- **PewterCityCheckPlayerLeavingEastScript** (6 connections) — `scripts/PewterCity.asm`
+- **SetSpritePosition2** (4 connections) — `home/trainers.asm`
+- **PewterCity_Script** (4 connections) — `scripts/PewterCity.asm`
+- **PewterCityResetSuperNerd1Script** (4 connections) — `scripts/PewterCity.asm`
+- **PewterCityResetYoungsterScript** (4 connections) — `scripts/PewterCity.asm`
+- **SetSpriteImageIndexAfterSettingFacingDirection** (3 connections) — `home/map_objects.asm`
+- **OaksLabCalcRivalMovementScript** (3 connections) — `scripts/OaksLab.asm`
+- **PewterCityDefaultScript** (3 connections) — `scripts/PewterCity.asm`
+- **PewterCityHideSuperNerd1Script** (3 connections) — `scripts/PewterCity.asm`
+- **PewterCityHideYoungsterScript** (3 connections) — `scripts/PewterCity.asm`
+- **MovementData_PewterGymGuyExit** (2 connections) — `scripts/PewterCity.asm`
+- **MovementData_PewterMuseumGuyExit** (2 connections) — `scripts/PewterCity.asm`
+- **PewterCity_ScriptPointers** (2 connections) — `scripts/PewterCity.asm`
+- **PewterCityPlayerLeavingEastCoords** (2 connections) — `scripts/PewterCity.asm`
+- **PewterCity_TextPointers** (1 connections) — `scripts/PewterCity.asm`
+- **PewterCityCooltrainerFText** (1 connections) — `scripts/PewterCity.asm`
+- **PewterCityCooltrainerMText** (1 connections) — `scripts/PewterCity.asm`
+- **PewterCityGymSignText** (1 connections) — `scripts/PewterCity.asm`
+- **PewterCityMuseumSignText** (1 connections) — `scripts/PewterCity.asm`
+- **PewterCityPoliceNoticeSignText** (1 connections) — `scripts/PewterCity.asm`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (5 shared connections)
-- [Scripts 5](Scripts_5.md) (5 shared connections)
-- [Home 5](Home_5.md) (4 shared connections)
-- [Scripts](Scripts.md) (3 shared connections)
-- [Scripts 7](Scripts_7.md) (3 shared connections)
-- [Scripts 19](Scripts_19.md) (2 shared connections)
-- [Scripts 29](Scripts_29.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
-- [Scripts 21](Scripts_21.md) (1 shared connections)
+- [Scripts 11](Scripts_11.md) (7 shared connections)
+- [Scripts 3](Scripts_3.md) (6 shared connections)
+- [Scripts 2](Scripts_2.md) (3 shared connections)
+- [Scripts 64](Scripts_64.md) (3 shared connections)
+- [Engine Overworld 3](Engine_Overworld_3.md) (2 shared connections)
+- [Scripts 32](Scripts_32.md) (2 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Ram 3](Ram_3.md) (1 shared connections)
+- [Engine Menus](Engine_Menus.md) (1 shared connections)
+- [Scripts 16](Scripts_16.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
 - `home/map_objects.asm`
-- `scripts/CeruleanCity.asm`
+- `home/trainers.asm`
+- `scripts/OaksLab.asm`
+- `scripts/PewterCity.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (100%)
+- EXTRACTED: 64 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

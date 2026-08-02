@@ -1,41 +1,42 @@
 # Scripts 85
 
-> 19 nodes · cohesion 0.11
+> 17 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Route15TalkToTrainer** (12 connections) — `scripts/Route15.asm`
-- **Route15Beauty1Text** (3 connections) — `scripts/Route15.asm`
-- **Route15Beauty2Text** (3 connections) — `scripts/Route15.asm`
-- **Route15Biker1Text** (3 connections) — `scripts/Route15.asm`
-- **Route15Biker2Text** (3 connections) — `scripts/Route15.asm`
-- **Route15CooltrainerF1Text** (3 connections) — `scripts/Route15.asm`
-- **Route15CooltrainerF2Text** (3 connections) — `scripts/Route15.asm`
-- **Route15CooltrainerF3Text** (3 connections) — `scripts/Route15.asm`
-- **Route15CooltrainerM1Text** (3 connections) — `scripts/Route15.asm`
-- **Route15CooltrainerM2Text** (3 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader0** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader1** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader2** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader3** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader4** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader5** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader6** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader7** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader8** (2 connections) — `scripts/Route15.asm`
+- **scripts/ViridianCity.asm** (25 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityMovePlayerDownScript** (6 connections) — `scripts/ViridianCity.asm`
+- **ViridianCity_Script** (4 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityCheckGotPokedexScript** (4 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityCheckGymOpenScript** (4 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityDefaultScript** (4 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityPlayerMovingDownScript** (3 connections) — `scripts/ViridianCity.asm`
+- **ViridianCity_ScriptPointers** (2 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityOldManStartCatchTrainingScript** (2 connections) — `scripts/ViridianCity.asm`
+- **ViridianCity_TextPointers** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityGymLockedText** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityGymSignText** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityOldManYouNeedToWeakenTheTargetText** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCitySignText** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityTrainerTips1Text** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityTrainerTips2Text** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityYoungster1Text** (1 connections) — `scripts/ViridianCity.asm`
 
 ## Relationships
 
+- [Scripts 2](Scripts_2.md) (6 shared connections)
+- [Scripts 3](Scripts_3.md) (4 shared connections)
+- [Scripts 16](Scripts_16.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Home 8](Home_8.md) (1 shared connections)
+- [Engine Movie](Engine_Movie.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route15.asm`
+- `scripts/ViridianCity.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

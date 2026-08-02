@@ -1,29 +1,27 @@
 # Scripts 117
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **scripts/FuchsiaPokecenter.asm** (8 connections) — `scripts/FuchsiaPokecenter.asm`
-- **FuchsiaPokecenter_Script** (3 connections) — `scripts/FuchsiaPokecenter.asm`
-- **FuchsiaPokecenter_TextPointers** (1 connections) — `scripts/FuchsiaPokecenter.asm`
-- **FuchsiaPokecenterCooltrainerFText** (1 connections) — `scripts/FuchsiaPokecenter.asm`
-- **FuchsiaPokecenterLinkReceptionistText** (1 connections) — `scripts/FuchsiaPokecenter.asm`
-- **FuchsiaPokecenterNurseText** (1 connections) — `scripts/FuchsiaPokecenter.asm`
-- **FuchsiaPokecenterRockerText** (1 connections) — `scripts/FuchsiaPokecenter.asm`
+- **scripts/SafariZoneEastRestHouse.asm** (7 connections) — `scripts/SafariZoneEastRestHouse.asm`
+- **SafariZoneEastRestHouse_Script** (2 connections) — `scripts/SafariZoneEastRestHouse.asm`
+- **SafariZoneEastRestHouse_TextPointers** (1 connections) — `scripts/SafariZoneEastRestHouse.asm`
+- **SafariZoneEastRestHouseRockerText** (1 connections) — `scripts/SafariZoneEastRestHouse.asm`
+- **SafariZoneEastRestHouseScientistText** (1 connections) — `scripts/SafariZoneEastRestHouse.asm`
+- **SafariZoneEastRestHouseSilphWorkerMText** (1 connections) — `scripts/SafariZoneEastRestHouse.asm`
 
 ## Relationships
 
-- [Scripts 6](Scripts_6.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/FuchsiaPokecenter.asm`
+- `scripts/SafariZoneEastRestHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

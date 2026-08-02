@@ -1,37 +1,37 @@
 # Scripts 105
 
-> 10 nodes · cohesion 0.24
+> 9 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **scripts/Route16Gate1F.asm** (13 connections) — `scripts/Route16Gate1F.asm`
-- **Route16Gate1FIsBicycleInBagScript** (6 connections) — `scripts/Route16Gate1F.asm`
-- **Route16Gate1F_Script** (5 connections) — `scripts/Route16Gate1F.asm`
-- **Route16Gate1FGuardText** (4 connections) — `scripts/Route16Gate1F.asm`
-- **Route16Gate1FPlayerMovingRightScript** (3 connections) — `scripts/Route16Gate1F.asm`
-- **Route16Gate1F_ScriptPointers** (2 connections) — `scripts/Route16Gate1F.asm`
-- **Route16Gate1FPlayerMovingUpScript** (2 connections) — `scripts/Route16Gate1F.asm`
-- **Route16Gate1F_TextPointers** (1 connections) — `scripts/Route16Gate1F.asm`
-- **Route16Gate1FGamblerText** (1 connections) — `scripts/Route16Gate1F.asm`
-- **Route16Gate1FGuardWaitUpText** (1 connections) — `scripts/Route16Gate1F.asm`
+- **scripts/SilphCoElevator.asm** (10 connections) — `scripts/SilphCoElevator.asm`
+- **SilphCoElevatorCopyWarpMapsScript** (7 connections) — `scripts/SilphCoElevator.asm`
+- **SilphCoElevatorElevatorText** (5 connections) — `scripts/SilphCoElevator.asm`
+- **SilphCoElevator_Script** (4 connections) — `scripts/SilphCoElevator.asm`
+- **SilphCoElevatorShakeScript** (4 connections) — `scripts/SilphCoElevator.asm`
+- **SilphCoElevatorStoreWarpEntriesScript** (3 connections) — `scripts/SilphCoElevator.asm`
+- **SilphCoElevatorWarpMaps** (3 connections) — `scripts/SilphCoElevator.asm`
+- **SilphCoElevatorFloors** (2 connections) — `scripts/SilphCoElevator.asm`
+- **SilphCoElevator_TextPointers** (1 connections) — `scripts/SilphCoElevator.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
-- [Scripts 29](Scripts_29.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Home 2](Home_2.md) (1 shared connections)
-- [Scripts 8](Scripts_8.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
+- [Engine Movie](Engine_Movie.md) (2 shared connections)
+- [Scripts 11](Scripts_11.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Home 8](Home_8.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
+- [Scripts 98](Scripts_98.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Home 5](Home_5.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route16Gate1F.asm`
+- `scripts/SilphCoElevator.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

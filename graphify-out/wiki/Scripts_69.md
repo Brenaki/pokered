@@ -6,13 +6,13 @@
 
 - **scripts/PewterGym.asm** (25 connections) — `scripts/PewterGym.asm`
 - **PewterGymGuideText** (9 connections) — `scripts/PewterGym.asm`
-- **PewterGymScriptReceiveTM34** (8 connections) — `scripts/PewterGym.asm`
 - **PewterGym_Script** (7 connections) — `scripts/PewterGym.asm`
 - **21.12 Mapa `PewterGym`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
 - **PewterGymCooltrainerMText** (4 connections) — `scripts/PewterGym.asm`
 - **PewterGymResetScripts** (3 connections) — `scripts/PewterGym.asm`
 - **PewterGym_ScriptPointers** (2 connections) — `scripts/PewterGym.asm`
 - **PewterGymBrockPostBattle** (2 connections) — `scripts/PewterGym.asm`
+- **PewterGymBrockReceivedBoulderBadgeText** (2 connections) — `scripts/PewterGym.asm`
 - **PewterGymCooltrainerMAfterBattleText** (2 connections) — `scripts/PewterGym.asm`
 - **PewterGymCooltrainerMBattleText** (2 connections) — `scripts/PewterGym.asm`
 - **PewterGymCooltrainerMEndBattleText** (2 connections) — `scripts/PewterGym.asm`
@@ -30,14 +30,13 @@
 
 ## Relationships
 
-- [Scripts](Scripts.md) (5 shared connections)
-- [Scripts 7](Scripts_7.md) (4 shared connections)
-- [Scripts 19](Scripts_19.md) (2 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (4 shared connections)
+- [Scripts 6](Scripts_6.md) (2 shared connections)
+- [Scripts 27](Scripts_27.md) (1 shared connections)
 - [Ram](Ram.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Home 8](Home_8.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 11](Scripts_11.md) (1 shared connections)
+- [Scripts 7](Scripts_7.md) (1 shared connections)
 
 ## Source Files
 
@@ -46,7 +45,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

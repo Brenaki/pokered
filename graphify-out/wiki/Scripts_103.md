@@ -1,32 +1,36 @@
 # Scripts 103
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **scripts/CeladonMansion3F.asm** (12 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3F_Script** (2 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3F_TextPointers** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FDevRoomSignText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FGameProgramPCText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FGameScriptPCText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FGraphicArtistText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FPlayingGamePCText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FProgrammerText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FWriterText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **scripts/CeladonMartElevator.asm** (10 connections) — `scripts/CeladonMartElevator.asm`
+- **CeladonMartElevatorCopyWarpMapsScript** (7 connections) — `scripts/CeladonMartElevator.asm`
+- **CeladonMartElevatorText** (5 connections) — `scripts/CeladonMartElevator.asm`
+- **CeladonMartElevator_Script** (4 connections) — `scripts/CeladonMartElevator.asm`
+- **CeladonMartElevatorStoreWarpEntriesScript** (3 connections) — `scripts/CeladonMartElevator.asm`
+- **CeladonMartElevatorWarpMaps** (3 connections) — `scripts/CeladonMartElevator.asm`
+- **CeladonMartElevatorFloors** (2 connections) — `scripts/CeladonMartElevator.asm`
+- **CeladonMartElevatorShakeScript** (2 connections) — `scripts/CeladonMartElevator.asm`
+- **CeladonMartElevator_TextPointers** (1 connections) — `scripts/CeladonMartElevator.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 11](Scripts_11.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Home 8](Home_8.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
+- [Home 5](Home_5.md) (1 shared connections)
+- [Scripts 98](Scripts_98.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonMansion3F.asm`
+- `scripts/CeladonMartElevator.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 21 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

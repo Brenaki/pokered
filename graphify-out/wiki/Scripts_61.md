@@ -4,49 +4,50 @@
 
 ## Key Concepts
 
-- **scripts/VictoryRoad3F.asm** (28 connections) — `scripts/VictoryRoad3F.asm`
-- **21.67 Mapa `VictoryRoad3F`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **VictoryRoad3F_Script** (6 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF1Text** (4 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF2Text** (4 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM1Text** (4 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM2Text** (4 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCheckBoulderEventScript** (3 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3F_ScriptPointers** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF1AfterBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF1BattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF1EndBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF2AfterBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF2BattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerF2EndBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM1AfterBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM1BattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM1EndBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM2AfterBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM2BattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3FCooltrainerM2EndBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3TrainerHeader0** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3TrainerHeader1** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3TrainerHeader2** (2 connections) — `scripts/VictoryRoad3F.asm`
-- **VictoryRoad3TrainerHeader3** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **scripts/PowerPlant.asm** (27 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantInitBattleScript** (12 connections) — `scripts/PowerPlant.asm`
+- **PowerPlant_Script** (5 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantZapdosBattleText** (5 connections) — `scripts/PowerPlant.asm`
+- **21.22 Mapa `PowerPlant`** (3 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **PowerPlantElectrode1Text** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantElectrode2Text** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantVoltorb1Text** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantVoltorb2Text** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantVoltorb3Text** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantVoltorb4Text** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantVoltorb5Text** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantVoltorb6Text** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantZapdosText** (3 connections) — `scripts/PowerPlant.asm`
+- **PowerPlant_ScriptPointers** (2 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantTrainerHeaders** (2 connections) — `scripts/PowerPlant.asm`
+- **PowerPlantVoltorbBattleText** (2 connections) — `scripts/PowerPlant.asm`
+- **Voltorb0TrainerHeader** (2 connections) — `scripts/PowerPlant.asm`
+- **Voltorb1TrainerHeader** (2 connections) — `scripts/PowerPlant.asm`
+- **Voltorb2TrainerHeader** (2 connections) — `scripts/PowerPlant.asm`
+- **Voltorb3TrainerHeader** (2 connections) — `scripts/PowerPlant.asm`
+- **Voltorb4TrainerHeader** (2 connections) — `scripts/PowerPlant.asm`
+- **Voltorb5TrainerHeader** (2 connections) — `scripts/PowerPlant.asm`
+- **Voltorb6TrainerHeader** (2 connections) — `scripts/PowerPlant.asm`
+- **Voltorb7TrainerHeader** (2 connections) — `scripts/PowerPlant.asm`
 - *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (4 shared connections)
-- [Home 8](Home_8.md) (4 shared connections)
-- [Scripts 19](Scripts_19.md) (2 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 7](Scripts_7.md) (1 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/VictoryRoad3F.asm`
+- `scripts/PowerPlant.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

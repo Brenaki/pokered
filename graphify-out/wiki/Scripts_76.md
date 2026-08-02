@@ -1,48 +1,51 @@
 # Scripts 76
 
-> 22 nodes · cohesion 0.11
+> 20 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **scripts/FuchsiaCity.asm** (20 connections) — `scripts/FuchsiaCity.asm`
-- **DisplayPokedex** (12 connections) — `home/map_objects.asm`
-- **SSAnne2FRoomsGentleman3Text** (6 connections) — `scripts/SSAnne2FRooms.asm`
-- **FuchsiaCityChanseySignText** (4 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityFossilSignText** (4 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityKangaskhanSignText** (4 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityLaprasSignText** (4 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCitySlowpokeSignText** (4 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityVoltorbSignText** (4 connections) — `scripts/FuchsiaCity.asm`
-- **SilphCo10FPorygonText** (4 connections) — `scripts/SilphCo11F.asm`
-- **FuchsiaCity_Script** (2 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCity_TextPointers** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityErikText** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityGamblerText** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityGymSignText** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityPokemonText** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCitySafariGameSignText** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCitySafariZoneSignText** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCitySignText** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityWardensHomeSignText** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityYoungster1Text** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityYoungster2Text** (1 connections) — `scripts/FuchsiaCity.asm`
+- **scripts/LoreleisRoom.asm** (20 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoom_Script** (6 connections) — `scripts/LoreleisRoom.asm`
+- **IndigoPlateauLobby_Script** (5 connections) — `scripts/IndigoPlateauLobby.asm`
+- **LoreleisRoomLoreleiEndBattleScript** (5 connections) — `scripts/LoreleisRoom.asm`
+- **21.9 Mapa `LoreleisRoom`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **wElite4Flags** (4 connections) — `ram/wram.asm`
+- **LoreleiShowOrHideExitBlock** (4 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomLoreleiText** (4 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomPlayerIsMovingScript** (3 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleiEntranceCoords** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoom_ScriptPointers** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomLoreleiAfterBattleText** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomLoreleiBeforeBattleText** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomLoreleiEndBattleText** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomNoopScript** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomTrainerHeader0** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomTrainerHeaders** (2 connections) — `scripts/LoreleisRoom.asm`
+- **ResetLoreleiScript** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoom_TextPointers** (1 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomLoreleiDontRunAwayText** (1 connections) — `scripts/LoreleisRoom.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (16 shared connections)
-- [Home](Home.md) (2 shared connections)
+- [Scripts 3](Scripts_3.md) (3 shared connections)
+- [Scripts 11](Scripts_11.md) (3 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts 7](Scripts_7.md) (1 shared connections)
+- [Engine Movie](Engine_Movie.md) (1 shared connections)
 
 ## Source Files
 
-- `home/map_objects.asm`
-- `scripts/FuchsiaCity.asm`
-- `scripts/SSAnne2FRooms.asm`
-- `scripts/SilphCo11F.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `ram/wram.asm`
+- `scripts/IndigoPlateauLobby.asm`
+- `scripts/LoreleisRoom.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
+- EXTRACTED: 39 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

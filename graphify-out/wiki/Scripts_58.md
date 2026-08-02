@@ -1,53 +1,54 @@
 # Scripts 58
 
-> 29 nodes · cohesion 0.12
+> 28 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **scripts/Route23.asm** (32 connections) — `scripts/Route23.asm`
-- **Route23CheckForBadgeScript** (15 connections) — `scripts/Route23.asm`
-- **BadgeTextPointers** (9 connections) — `scripts/Route23.asm`
-- **Route23DefaultScript** (6 connections) — `scripts/Route23.asm`
-- **Route23_Script** (5 connections) — `scripts/Route23.asm`
-- **Route23CopyBadgeTextScript** (5 connections) — `scripts/Route23.asm`
-- **Route23MovePlayerDownScript** (4 connections) — `scripts/Route23.asm`
-- **Route23Guard1Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard2Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard3Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard4Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard5Text** (3 connections) — `scripts/Route23.asm`
-- **Route23OhThatIsTheBadgeText** (3 connections) — `scripts/Route23.asm`
-- **Route23PrintOhThatsTheBadgeTextScript** (3 connections) — `scripts/Route23.asm`
-- **Route23Swimmer1Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Swimmer2Text** (3 connections) — `scripts/Route23.asm`
-- **CascadeBadgeText** (2 connections) — `scripts/Route23.asm`
-- **EarthBadgeText** (2 connections) — `scripts/Route23.asm`
-- **MarshBadgeText** (2 connections) — `scripts/Route23.asm`
-- **RainbowBadgeText** (2 connections) — `scripts/Route23.asm`
-- **Route23_ScriptPointers** (2 connections) — `scripts/Route23.asm`
-- **Route23GuardsYCoords** (2 connections) — `scripts/Route23.asm`
-- **Route23PlayerMovingScript** (2 connections) — `scripts/Route23.asm`
-- **Route23ResetToDefaultScript** (2 connections) — `scripts/Route23.asm`
-- **SoulBadgeText** (2 connections) — `scripts/Route23.asm`
-- *... and 4 more nodes in this community*
+- **scripts/VermilionGym.asm** (31 connections) — `scripts/VermilionGym.asm`
+- **21.64 Mapa `VermilionGym`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **VermilionGym_Script** (8 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymGentlemanText** (4 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSailorText** (4 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSuperNerdText** (4 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymLTSurgeAfterBattleScript** (3 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymResetScripts** (3 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSetDoorTile** (3 connections) — `scripts/VermilionGym.asm`
+- **VermilionGym_ScriptPointers** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymGentlemanAfterBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymGentlemanBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymGentlemanEndBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymLTSurgeReceivedThunderBadgeText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSailorAfterBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSailorBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSailorEndBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSuperNerdAfterBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSuperNerdBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSuperNerdEndBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymTrainerHeader0** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymTrainerHeader1** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymTrainerHeader2** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymTrainerHeaders** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGym_TextPointers** (1 connections) — `scripts/VermilionGym.asm`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (11 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (3 shared connections)
-- [Scripts 19](Scripts_19.md) (2 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 29](Scripts_29.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 7](Scripts_7.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (4 shared connections)
+- [Scripts 7](Scripts_7.md) (3 shared connections)
+- [Scripts 6](Scripts_6.md) (2 shared connections)
+- [Scripts 11](Scripts_11.md) (2 shared connections)
+- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route23.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/VermilionGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (100%)
+- EXTRACTED: 56 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

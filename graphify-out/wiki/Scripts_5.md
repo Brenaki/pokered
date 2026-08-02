@@ -1,77 +1,72 @@
 # Scripts 5
 
-> 72 nodes · cohesion 0.05
+> 74 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **PlaySound** (130 connections) — `home/audio.asm`
-- **OverworldLoopLessDelay** (46 connections) — `home/overworld.asm`
-- **PlayDefaultMusic** (30 connections) — `home/audio.asm`
-- **PlayMusic** (26 connections) — `home/audio.asm`
-- **scripts/PokemonTower2F.asm** (14 connections) — `scripts/PokemonTower2F.asm`
-- **TryPushingBoulder** (13 connections) — `engine/overworld/push_boulder.asm`
-- **GetTileAndCoordsInFrontOfPlayer** (11 connections) — `engine/overworld/player_state.asm`
-- **home/audio.asm** (11 connections) — `home/audio.asm`
-- **ShakeElevator** (10 connections) — `engine/overworld/elevator.asm`
-- **PokemonTower2FDefeatedRivalScript** (10 connections) — `scripts/PokemonTower2F.asm`
-- **SSAnne2FDefaultScript** (10 connections) — `scripts/SSAnne2F.asm`
-- **PrintCardKeyText** (9 connections) — `engine/events/card_key.asm`
-- **engine/overworld/push_boulder.asm** (9 connections) — `engine/overworld/push_boulder.asm`
-- **CollisionCheckOnWater** (9 connections) — `home/overworld.asm`
-- **PewterPokecenterJigglypuffText** (9 connections) — `scripts/PewterPokecenter.asm`
-- **PokemonTower2FDefaultScript** (9 connections) — `scripts/PokemonTower2F.asm`
-- **HandleLedges** (8 connections) — `engine/overworld/ledges.asm`
-- **JoypadOverworld** (8 connections) — `home/overworld.asm`
-- **RunMapScript** (8 connections) — `home/overworld.asm`
-- **PlayPokedexRatingSfx** (7 connections) — `audio/pokedex_rating_sfx.asm`
-- **6.4 Musica contextual e batalha** (7 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **SafariZoneGameOver** (7 connections) — `engine/events/hidden_events/safari_game.asm`
-- **CheckForCollisionWhenPushingBoulder** (7 connections) — `engine/overworld/player_state.asm`
-- **engine/events/card_key.asm** (7 connections) — `engine/events/card_key.asm`
-- **CollisionCheckOnLand** (7 connections) — `home/overworld.asm`
-- *... and 47 more nodes in this community*
+- **scripts/GameCorner.asm** (35 connections) — `scripts/GameCorner.asm`
+- **HandlePrizeChoice** (21 connections) — `engine/events/prize_menu.asm`
+- **engine/events/prize_menu.asm** (20 connections) — `engine/events/prize_menu.asm`
+- **IsItemInBag** (20 connections) — `home/map_objects.asm`
+- **wPlayerMoney** (19 connections) — `ram/wram.asm`
+- **wPlayerCoins** (17 connections) — `ram/wram.asm`
+- **CeladonPrizeMenu** (14 connections) — `engine/events/prize_menu.asm`
+- **AddBCDPredef** (14 connections) — `engine/math/bcd.asm`
+- **GameCornerClerk1Text** (14 connections) — `scripts/GameCorner.asm`
+- **GameCornerDrawCoinBox** (14 connections) — `scripts/GameCorner.asm`
+- **Museum1FScientist1Text** (14 connections) — `scripts/Museum1F.asm`
+- **engine/math/bcd.asm** (13 connections) — `engine/math/bcd.asm`
+- **SubBCDPredef** (11 connections) — `engine/math/bcd.asm`
+- **HasEnoughMoney** (11 connections) — `home/money.asm`
+- **SlotMachine_PayCoinsToPlayer** (10 connections) — `engine/slots/slot_machine.asm`
+- **MtMoonPokecenterMagikarpSalesmanText** (10 connections) — `scripts/MtMoonPokecenter.asm`
+- **SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText** (10 connections) — `scripts/SafariZoneGate.asm`
+- **hCoins** (9 connections) — `ram/hram.asm`
+- **hMoney** (9 connections) — `ram/hram.asm`
+- **GameCornerClerk2Text** (9 connections) — `scripts/GameCorner.asm`
+- **GameCornerFishingGuruText** (9 connections) — `scripts/GameCorner.asm`
+- **GameCornerGentlemanText** (9 connections) — `scripts/GameCorner.asm`
+- **StringCmp** (8 connections) — `home/compare.asm`
+- **AddAmountSoldToMoney** (8 connections) — `home/inventory.asm`
+- **SubtractAmountPaidFromMoney_** (6 connections) — `engine/items/subtract_paid_money.asm`
+- *... and 49 more nodes in this community*
 
 ## Relationships
 
-- [Home 2](Home_2.md) (16 shared connections)
-- [Scripts 19](Scripts_19.md) (11 shared connections)
-- [Scripts 2](Scripts_2.md) (9 shared connections)
-- [Home](Home.md) (9 shared connections)
-- [Ram](Ram.md) (7 shared connections)
-- [Home 5](Home_5.md) (7 shared connections)
-- [Engine Overworld 3](Engine_Overworld_3.md) (6 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (5 shared connections)
-- [Scripts](Scripts.md) (5 shared connections)
-- [Scripts 4](Scripts_4.md) (3 shared connections)
-- [Scripts 7](Scripts_7.md) (3 shared connections)
-- [Ram 2](Ram_2.md) (3 shared connections)
+- [Scripts 2](Scripts_2.md) (27 shared connections)
+- [Home](Home.md) (7 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (6 shared connections)
+- [Home 3](Home_3.md) (5 shared connections)
+- [Engine Menus](Engine_Menus.md) (5 shared connections)
+- [Engine Link](Engine_Link.md) (4 shared connections)
+- [Scripts 11](Scripts_11.md) (4 shared connections)
+- [Ram](Ram.md) (3 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (3 shared connections)
+- [Scripts 3](Scripts_3.md) (3 shared connections)
+- [Engine Menus 2](Engine_Menus_2.md) (2 shared connections)
+- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
 
 ## Source Files
 
-- `audio/play_battle_music.asm`
-- `audio/pokedex_rating_sfx.asm`
-- `data/tilesets/pair_collision_tile_ids.asm`
-- `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- `engine/events/card_key.asm`
-- `engine/events/hidden_events/bills_house_pc.asm`
-- `engine/events/hidden_events/safari_game.asm`
-- `engine/items/item_effects.asm`
-- `engine/overworld/elevator.asm`
-- `engine/overworld/ledges.asm`
-- `engine/overworld/player_state.asm`
-- `engine/overworld/push_boulder.asm`
-- `home/audio.asm`
-- `home/npc_movement.asm`
-- `home/overworld.asm`
+- `data/events/prize_mon_levels.asm`
+- `engine/events/prize_menu.asm`
+- `engine/items/subtract_paid_money.asm`
+- `engine/math/bcd.asm`
+- `engine/slots/slot_machine.asm`
+- `home/compare.asm`
+- `home/inventory.asm`
+- `home/map_objects.asm`
+- `home/money.asm`
+- `ram/hram.asm`
 - `ram/wram.asm`
-- `scripts/OaksLab.asm`
-- `scripts/PalletTown.asm`
-- `scripts/PewterPokecenter.asm`
-- `scripts/PokemonTower2F.asm`
+- `scripts/GameCorner.asm`
+- `scripts/MtMoonPokecenter.asm`
+- `scripts/Museum1F.asm`
+- `scripts/SafariZoneGate.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 233 (100%)
+- EXTRACTED: 225 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

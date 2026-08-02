@@ -1,49 +1,50 @@
 # Scripts 73
 
-> 23 nodes · cohesion 0.11
+> 22 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **scripts/ViridianCity.asm** (25 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityMovePlayerDownScript** (6 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityOldManText** (5 connections) — `scripts/ViridianCity.asm`
-- **ViridianCity_Script** (4 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityCheckGotPokedexScript** (4 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityCheckGymOpenScript** (4 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityDefaultScript** (4 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityFisherText** (4 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityOldManSleepyText** (4 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityYoungster2Text** (4 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityGambler1Text** (3 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityGirlText** (3 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityPlayerMovingDownScript** (3 connections) — `scripts/ViridianCity.asm`
-- **ViridianCity_ScriptPointers** (2 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityOldManStartCatchTrainingScript** (2 connections) — `scripts/ViridianCity.asm`
-- **ViridianCity_TextPointers** (1 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityGymLockedText** (1 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityGymSignText** (1 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityOldManYouNeedToWeakenTheTargetText** (1 connections) — `scripts/ViridianCity.asm`
-- **ViridianCitySignText** (1 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityTrainerTips1Text** (1 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityTrainerTips2Text** (1 connections) — `scripts/ViridianCity.asm`
-- **ViridianCityYoungster1Text** (1 connections) — `scripts/ViridianCity.asm`
+- **scripts/CeruleanGym.asm** (25 connections) — `scripts/CeruleanGym.asm`
+- **21.5 Mapa `CeruleanGym`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **CeruleanGym_Script** (7 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymCooltrainerFText** (4 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymSwimmerText** (4 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyPostBattleScript** (3 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymResetScripts** (3 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGym_ScriptPointers** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymAfterBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymAfterBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymEndBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymEndBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyReceivedCascadeBadgeText** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymTrainerHeader0** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymTrainerHeader1** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymTrainerHeaders** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGym_TextPointers** (1 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyCascadeBadgeInfoText** (1 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyReceivedTM11Text** (1 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyTM11NoRoomText** (1 connections) — `scripts/CeruleanGym.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (15 shared connections)
-- [Scripts 2](Scripts_2.md) (4 shared connections)
-- [Scripts 29](Scripts_29.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (3 shared connections)
+- [Scripts 6](Scripts_6.md) (2 shared connections)
+- [Scripts 7](Scripts_7.md) (2 shared connections)
+- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 11](Scripts_11.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/ViridianCity.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/CeruleanGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

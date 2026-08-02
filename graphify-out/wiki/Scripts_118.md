@@ -1,24 +1,24 @@
 # Scripts 118
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **scripts/SafariZoneWest.asm** (8 connections) — `scripts/SafariZoneWest.asm`
-- **SafariZoneWest_Script** (2 connections) — `scripts/SafariZoneWest.asm`
-- **SafariZoneWest_TextPointers** (1 connections) — `scripts/SafariZoneWest.asm`
-- **SafariZoneWestFindWardensTeethSignText** (1 connections) — `scripts/SafariZoneWest.asm`
-- **SafariZoneWestRestHouseSignText** (1 connections) — `scripts/SafariZoneWest.asm`
-- **SafariZoneWestSignText** (1 connections) — `scripts/SafariZoneWest.asm`
-- **SafariZoneWestTrainerTipsText** (1 connections) — `scripts/SafariZoneWest.asm`
+- **scripts/ViridianNicknameHouse.asm** (8 connections) — `scripts/ViridianNicknameHouse.asm`
+- **ViridianNicknameHouse_Script** (2 connections) — `scripts/ViridianNicknameHouse.asm`
+- **ViridianNicknameHouse_TextPointers** (1 connections) — `scripts/ViridianNicknameHouse.asm`
+- **ViridianNicknameHouseBaldingGuyText** (1 connections) — `scripts/ViridianNicknameHouse.asm`
+- **ViridianNicknameHouseLittleGirlText** (1 connections) — `scripts/ViridianNicknameHouse.asm`
+- **ViridianNicknameHouseSpearySignText** (1 connections) — `scripts/ViridianNicknameHouse.asm`
 
 ## Relationships
 
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SafariZoneWest.asm`
+- `scripts/ViridianNicknameHouse.asm`
 
 ## Audit Trail
 

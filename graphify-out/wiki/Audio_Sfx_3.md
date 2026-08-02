@@ -1,25 +1,32 @@
 # Audio Sfx 3
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **audio/sfx/battle_27.asm** (5 connections) — `audio/sfx/battle_27.asm`
-- **SFX_Battle_27_Ch5** (1 connections) — `audio/sfx/battle_27.asm`
-- **SFX_Battle_27_Ch6** (1 connections) — `audio/sfx/battle_27.asm`
-- **SFX_Battle_27_Ch8** (1 connections) — `audio/sfx/battle_27.asm`
+- **Music_PokeFluteInBattle** (9 connections) — `audio/poke_flute.asm`
+- **audio/poke_flute.asm** (4 connections) — `audio/poke_flute.asm`
+- **audio/sfx/pokeflute_ch5_ch6.asm** (4 connections) — `audio/sfx/pokeflute_ch5_ch6.asm`
+- **audio/sfx/pokeflute_ch7.asm** (3 connections) — `audio/sfx/pokeflute_ch7.asm`
+- **Audio2_OverwriteChannelPointer** (2 connections) — `audio/poke_flute.asm`
+- **SFX_Pokeflute_Ch5** (2 connections) — `audio/sfx/pokeflute_ch5_ch6.asm`
+- **SFX_Pokeflute_Ch6** (2 connections) — `audio/sfx/pokeflute_ch5_ch6.asm`
+- **SFX_Pokeflute_Ch7** (2 connections) — `audio/sfx/pokeflute_ch7.asm`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Audio Engine 3.Asm](Audio_Engine_3.Asm.md) (1 shared connections)
 
 ## Source Files
 
-- `audio/sfx/battle_27.asm`
+- `audio/poke_flute.asm`
+- `audio/sfx/pokeflute_ch5_ch6.asm`
+- `audio/sfx/pokeflute_ch7.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

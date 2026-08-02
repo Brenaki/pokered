@@ -1,12 +1,13 @@
 # Audio Sfx 128
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **audio/sfx/battle_2b.asm** (4 connections) — `audio/sfx/battle_2b.asm`
-- **SFX_Battle_2B_Ch5** (1 connections) — `audio/sfx/battle_2b.asm`
-- **SFX_Battle_2B_Ch8** (1 connections) — `audio/sfx/battle_2b.asm`
+- **audio/sfx/get_key_item_3.asm** (5 connections) — `audio/sfx/get_key_item_3.asm`
+- **SFX_Get_Key_Item_3_Ch5** (1 connections) — `audio/sfx/get_key_item_3.asm`
+- **SFX_Get_Key_Item_3_Ch6** (1 connections) — `audio/sfx/get_key_item_3.asm`
+- **SFX_Get_Key_Item_3_Ch7** (1 connections) — `audio/sfx/get_key_item_3.asm`
 
 ## Relationships
 
@@ -14,11 +15,11 @@
 
 ## Source Files
 
-- `audio/sfx/battle_2b.asm`
+- `audio/sfx/get_key_item_3.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

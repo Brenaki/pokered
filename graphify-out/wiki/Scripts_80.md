@@ -1,49 +1,46 @@
 # Scripts 80
 
-> 20 nodes · cohesion 0.16
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **scripts/LancesRoom.asm** (20 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomDefaultScript** (10 connections) — `scripts/LancesRoom.asm`
-- **WalkToLance** (7 connections) — `scripts/LancesRoom.asm`
-- **LancesRoom_Script** (6 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomLanceEndBattleScript** (5 connections) — `scripts/LancesRoom.asm`
-- **21.8 Mapa `LancesRoom`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **LanceShowOrHideEntranceBlocks** (4 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomLanceText** (4 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomLanceAfterBattleText** (3 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomPlayerIsMovingScript** (3 connections) — `scripts/LancesRoom.asm`
-- **LancesRoom_ScriptPointers** (2 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomLanceBeforeBattleText** (2 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomLanceEndBattleText** (2 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomNoopScript** (2 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomTrainerHeader0** (2 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomTrainerHeaders** (2 connections) — `scripts/LancesRoom.asm`
-- **LanceTriggerMovementCoords** (2 connections) — `scripts/LancesRoom.asm`
-- **ResetLanceScript** (2 connections) — `scripts/LancesRoom.asm`
-- **WalkToLance_RLEList** (2 connections) — `scripts/LancesRoom.asm`
-- **LancesRoom_TextPointers** (1 connections) — `scripts/LancesRoom.asm`
+- **scripts/AgathasRoom.asm** (20 connections) — `scripts/AgathasRoom.asm`
+- **AgathasRoom_Script** (6 connections) — `scripts/AgathasRoom.asm`
+- **AgathasRoomAgathaEndBattleScript** (5 connections) — `scripts/AgathasRoom.asm`
+- **21.1 Mapa `AgathasRoom`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **AgathasRoomAgathaText** (4 connections) — `scripts/AgathasRoom.asm`
+- **AgathaShowOrHideExitBlock** (3 connections) — `scripts/AgathasRoom.asm`
+- **AgathasRoomPlayerIsMovingScript** (3 connections) — `scripts/AgathasRoom.asm`
+- **AgathaAfterBattleText** (2 connections) — `scripts/AgathasRoom.asm`
+- **AgathaBeforeBattleText** (2 connections) — `scripts/AgathasRoom.asm`
+- **AgathaEndBattleText** (2 connections) — `scripts/AgathasRoom.asm`
+- **AgathaEntranceCoords** (2 connections) — `scripts/AgathasRoom.asm`
+- **AgathasRoom_ScriptPointers** (2 connections) — `scripts/AgathasRoom.asm`
+- **AgathasRoomNoopScript** (2 connections) — `scripts/AgathasRoom.asm`
+- **AgathasRoomTrainerHeader0** (2 connections) — `scripts/AgathasRoom.asm`
+- **AgathasRoomTrainerHeaders** (2 connections) — `scripts/AgathasRoom.asm`
+- **ResetAgathaScript** (2 connections) — `scripts/AgathasRoom.asm`
+- **AgathasRoom_TextPointers** (1 connections) — `scripts/AgathasRoom.asm`
+- **AgathasRoomAgathaDontRunAwayText** (1 connections) — `scripts/AgathasRoom.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (7 shared connections)
-- [Scripts 19](Scripts_19.md) (3 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Home 8](Home_8.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (3 shared connections)
+- [Scripts 11](Scripts_11.md) (2 shared connections)
+- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts 7](Scripts_7.md) (1 shared connections)
+- [Engine Movie](Engine_Movie.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/LancesRoom.asm`
+- `scripts/AgathasRoom.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

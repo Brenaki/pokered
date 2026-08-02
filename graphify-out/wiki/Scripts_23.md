@@ -1,53 +1,59 @@
 # Scripts 23
 
-> 48 nodes · cohesion 0.07
+> 47 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **scripts/Route12.asm** (50 connections) — `scripts/Route12.asm`
-- **21.31 Mapa `Route12`** (22 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **Route12SnorlaxPostBattleScript** (6 connections) — `scripts/Route12.asm`
-- **Route12_Script** (5 connections) — `scripts/Route12.asm`
-- **Route12CooltrainerMText** (4 connections) — `scripts/Route12.asm`
-- **Route12Fisher1Text** (4 connections) — `scripts/Route12.asm`
-- **Route12Fisher2Text** (4 connections) — `scripts/Route12.asm`
-- **Route12Fisher3Text** (4 connections) — `scripts/Route12.asm`
-- **Route12Fisher4Text** (4 connections) — `scripts/Route12.asm`
-- **Route12Fisher5Text** (4 connections) — `scripts/Route12.asm`
-- **Route12SuperNerdText** (4 connections) — `scripts/Route12.asm`
-- **Route12_ScriptPointers** (2 connections) — `scripts/Route12.asm`
-- **Route12CooltrainerMAfterBattleText** (2 connections) — `scripts/Route12.asm`
-- **Route12CooltrainerMBattleText** (2 connections) — `scripts/Route12.asm`
-- **Route12CooltrainerMEndBattleText** (2 connections) — `scripts/Route12.asm`
-- **Route12Fisher1AfterBattleText** (2 connections) — `scripts/Route12.asm`
-- **Route12Fisher1BattleText** (2 connections) — `scripts/Route12.asm`
-- **Route12Fisher1EndBattleText** (2 connections) — `scripts/Route12.asm`
-- **Route12Fisher2AfterBattleText** (2 connections) — `scripts/Route12.asm`
-- **Route12Fisher2BattleText** (2 connections) — `scripts/Route12.asm`
-- **Route12Fisher2EndBattleText** (2 connections) — `scripts/Route12.asm`
-- **Route12Fisher3AfterBattleText** (2 connections) — `scripts/Route12.asm`
-- **Route12Fisher3BattleText** (2 connections) — `scripts/Route12.asm`
-- **Route12Fisher3EndBattleText** (2 connections) — `scripts/Route12.asm`
-- **Route12Fisher4AfterBattleText** (2 connections) — `scripts/Route12.asm`
-- *... and 23 more nodes in this community*
+- **scripts/Route22.asm** (36 connections) — `scripts/Route22.asm`
+- **Music_RivalAlternateStart** (16 connections) — `audio/alternate_tempo.asm`
+- **audio/music/meetrival.asm** (10 connections) — `audio/music/meetrival.asm`
+- **Route22Rival1AfterBattleScript** (10 connections) — `scripts/Route22.asm`
+- **Route22Rival2AfterBattleScript** (10 connections) — `scripts/Route22.asm`
+- **Route22Rival1StartBattleScript** (9 connections) — `scripts/Route22.asm`
+- **Route22Rival2StartBattleScript** (9 connections) — `scripts/Route22.asm`
+- **Music_Cities1AlternateTempo** (7 connections) — `audio/alternate_tempo.asm`
+- **audio/alternate_tempo.asm** (7 connections) — `audio/alternate_tempo.asm`
+- **Route22MoveRivalRightScript** (7 connections) — `scripts/Route22.asm`
+- **Music_RivalAlternateStartAndTempo** (6 connections) — `audio/alternate_tempo.asm`
+- **Music_RivalAlternateTempo** (6 connections) — `audio/alternate_tempo.asm`
+- **Route22FirstRivalBattleScript** (6 connections) — `scripts/Route22.asm`
+- **Route22SecondRivalBattleScript** (6 connections) — `scripts/Route22.asm`
+- **Audio1_OverwriteChannelPointer** (5 connections) — `audio/alternate_tempo.asm`
+- **Route22DefaultScript** (5 connections) — `scripts/Route22.asm`
+- **Route22Rival1Text** (5 connections) — `scripts/Route22.asm`
+- **Route22Rival2Text** (5 connections) — `scripts/Route22.asm`
+- **Route22_Script** (4 connections) — `scripts/Route22.asm`
+- **Route22MoveRival1** (4 connections) — `scripts/Route22.asm`
+- **Route22GetRivalTrainerNoByStarterScript** (3 connections) — `scripts/Route22.asm`
+- **Route22SetDefaultScript** (3 connections) — `scripts/Route22.asm`
+- **Music_MeetRival_Ch1_AlternateStart** (2 connections) — `audio/music/meetrival.asm`
+- **Music_MeetRival_Ch1_AlternateStartAndTempo** (2 connections) — `audio/music/meetrival.asm`
+- **Music_MeetRival_Ch1_AlternateTempo** (2 connections) — `audio/music/meetrival.asm`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (7 shared connections)
-- [Home 8](Home_8.md) (7 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Home](Home.md) (2 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 11](Scripts_11.md) (10 shared connections)
+- [Scripts 3](Scripts_3.md) (9 shared connections)
+- [Scripts 64](Scripts_64.md) (5 shared connections)
+- [Audio Engine 3.Asm](Audio_Engine_3.Asm.md) (4 shared connections)
+- [Scripts 6](Scripts_6.md) (4 shared connections)
+- [Scripts 2](Scripts_2.md) (4 shared connections)
+- [Engine Movie 3](Engine_Movie_3.md) (2 shared connections)
+- [Audio Music 2](Audio_Music_2.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Scripts 16](Scripts_16.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/Route12.asm`
+- `audio/alternate_tempo.asm`
+- `audio/music/meetrival.asm`
+- `scripts/Route22.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 97 (100%)
+- EXTRACTED: 122 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

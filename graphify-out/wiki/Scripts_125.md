@@ -1,27 +1,24 @@
 # Scripts 125
 
-> 6 nodes · cohesion 0.33
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **scripts/CeladonMart5F.asm** (7 connections) — `scripts/CeladonMart5F.asm`
-- **CeladonMart5F_Script** (2 connections) — `scripts/CeladonMart5F.asm`
-- **CeladonMart5F_TextPointers** (1 connections) — `scripts/CeladonMart5F.asm`
-- **CeladonMart5FCurrentFloorSignText** (1 connections) — `scripts/CeladonMart5F.asm`
-- **CeladonMart5FGentlemanText** (1 connections) — `scripts/CeladonMart5F.asm`
-- **CeladonMart5FSailorText** (1 connections) — `scripts/CeladonMart5F.asm`
+- **ViridianGymHiker3Text** (4 connections) — `scripts/ViridianGym.asm`
+- **ViridianGymTrainerHeader5** (2 connections) — `scripts/ViridianGym.asm`
 
 ## Relationships
 
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts 7](Scripts_7.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonMart5F.asm`
+- `scripts/ViridianGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

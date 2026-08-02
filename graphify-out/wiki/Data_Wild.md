@@ -1,33 +1,32 @@
 # Data Wild
 
-> 18 nodes · cohesion 0.11
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **data/wild** (64 connections)
-- **data/wild/maps/DiglettsCave.asm** (3 connections) — `data/wild/maps/DiglettsCave.asm`
+- **WildDataPointers** (62 connections) — `data/wild/grass_water.asm`
 - **data/wild/maps/PokemonMansion3F.asm** (3 connections) — `data/wild/maps/PokemonMansion3F.asm`
-- **data/wild/maps/PowerPlant.asm** (3 connections) — `data/wild/maps/PowerPlant.asm`
-- **data/wild/maps/Route21.asm** (3 connections) — `data/wild/maps/Route21.asm`
-- **data/wild/maps/Route3.asm** (3 connections) — `data/wild/maps/Route3.asm`
-- **data/wild/maps/Route7.asm** (3 connections) — `data/wild/maps/Route7.asm`
-- **data/wild/maps/Route9.asm** (3 connections) — `data/wild/maps/Route9.asm`
-- **data/wild/maps/SeafoamIslandsB1F.asm** (3 connections) — `data/wild/maps/SeafoamIslandsB1F.asm`
-- **data/wild/maps/ViridianForest.asm** (3 connections) — `data/wild/maps/ViridianForest.asm`
-- **DiglettsCaveWildMons** (2 connections) — `data/wild/maps/DiglettsCave.asm`
-- **PowerPlantWildMons** (2 connections) — `data/wild/maps/PowerPlant.asm`
-- **Route21WildMons** (2 connections) — `data/wild/maps/Route21.asm`
-- **Route3WildMons** (2 connections) — `data/wild/maps/Route3.asm`
-- **Route7WildMons** (2 connections) — `data/wild/maps/Route7.asm`
-- **Route9WildMons** (2 connections) — `data/wild/maps/Route9.asm`
-- **SeafoamIslandsB1FWildMons** (2 connections) — `data/wild/maps/SeafoamIslandsB1F.asm`
-- **ViridianForestWildMons** (2 connections) — `data/wild/maps/ViridianForest.asm`
+- **data/wild/maps/PokemonTower4F.asm** (3 connections) — `data/wild/maps/PokemonTower4F.asm`
+- **data/wild/maps/PokemonTower6F.asm** (3 connections) — `data/wild/maps/PokemonTower6F.asm`
+- **data/wild/maps/PokemonTower7F.asm** (3 connections) — `data/wild/maps/PokemonTower7F.asm`
+- **data/wild/maps/Route13.asm** (3 connections) — `data/wild/maps/Route13.asm`
+- **data/wild/maps/Route22.asm** (3 connections) — `data/wild/maps/Route22.asm`
+- **data/wild/maps/SeafoamIslandsB4F.asm** (3 connections) — `data/wild/maps/SeafoamIslandsB4F.asm`
+- **CeruleanCaveB1FWildMons** (2 connections) — `data/wild/maps/CeruleanCaveB1F.asm`
+- **MtMoon1FWildMons** (2 connections) — `data/wild/maps/MtMoon1F.asm`
+- **PokemonMansion3FWildMons** (2 connections) — `data/wild/maps/PokemonMansion3F.asm`
+- **PokemonTower4FWildMons** (2 connections) — `data/wild/maps/PokemonTower4F.asm`
+- **PokemonTower6FWildMons** (2 connections) — `data/wild/maps/PokemonTower6F.asm`
+- **PokemonTower7FWildMons** (2 connections) — `data/wild/maps/PokemonTower7F.asm`
+- **Route13WildMons** (2 connections) — `data/wild/maps/Route13.asm`
+- **Route22WildMons** (2 connections) — `data/wild/maps/Route22.asm`
+- **SeafoamIslandsB4FWildMons** (2 connections) — `data/wild/maps/SeafoamIslandsB4F.asm`
 
 ## Relationships
 
-- [Data Wild 3](Data_Wild_3.md) (9 shared connections)
-- [Data Wild 2](Data_Wild_2.md) (8 shared connections)
-- [Engine Items 3](Engine_Items_3.md) (2 shared connections)
+- [Data Wild 2](Data_Wild_2.md) (7 shared connections)
+- [Data Wild 3](Data_Wild_3.md) (7 shared connections)
+- [Data Wild 4](Data_Wild_4.md) (1 shared connections)
 - [Data Wild 5](Data_Wild_5.md) (1 shared connections)
 - [Data Wild 6](Data_Wild_6.md) (1 shared connections)
 - [Data Wild 7](Data_Wild_7.md) (1 shared connections)
@@ -40,19 +39,20 @@
 
 ## Source Files
 
-- `data/wild/maps/DiglettsCave.asm`
+- `data/wild/grass_water.asm`
+- `data/wild/maps/CeruleanCaveB1F.asm`
+- `data/wild/maps/MtMoon1F.asm`
 - `data/wild/maps/PokemonMansion3F.asm`
-- `data/wild/maps/PowerPlant.asm`
-- `data/wild/maps/Route21.asm`
-- `data/wild/maps/Route3.asm`
-- `data/wild/maps/Route7.asm`
-- `data/wild/maps/Route9.asm`
-- `data/wild/maps/SeafoamIslandsB1F.asm`
-- `data/wild/maps/ViridianForest.asm`
+- `data/wild/maps/PokemonTower4F.asm`
+- `data/wild/maps/PokemonTower6F.asm`
+- `data/wild/maps/PokemonTower7F.asm`
+- `data/wild/maps/Route13.asm`
+- `data/wild/maps/Route22.asm`
+- `data/wild/maps/SeafoamIslandsB4F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (100%)
+- EXTRACTED: 66 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

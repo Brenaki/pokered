@@ -1,64 +1,64 @@
 # Engine Overworld 3
 
-> 43 nodes · cohesion 0.08
+> 30 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **wStatusFlags4** (26 connections) — `ram/wram.asm`
-- **engine/overworld/auto_movement.asm** (25 connections) — `engine/overworld/auto_movement.asm`
-- **wMovementFlags** (20 connections) — `ram/wram.asm`
-- **PewterMovementScript_WalkToGym** (11 connections) — `engine/overworld/auto_movement.asm`
-- **PewterMovementScript_WalkToMuseum** (11 connections) — `engine/overworld/auto_movement.asm`
-- **PalletMovementScript_WalkToLab** (9 connections) — `engine/overworld/auto_movement.asm`
-- **LoadSpinnerArrowTiles** (8 connections) — `engine/overworld/spinners.asm`
-- **RunNPCMovementScript** (8 connections) — `home/npc_movement.asm`
-- **PalletMovementScriptPointerTable** (7 connections) — `engine/overworld/auto_movement.asm`
-- **PalletMovementScript_Done** (6 connections) — `engine/overworld/auto_movement.asm`
-- **PalletMovementScript_OakMoveLeft** (6 connections) — `engine/overworld/auto_movement.asm`
-- **PewterMovementScript_Done** (6 connections) — `engine/overworld/auto_movement.asm`
-- **engine/events/pewter_guys.asm** (6 connections) — `engine/events/pewter_guys.asm`
-- **engine/overworld/spinners.asm** (6 connections) — `engine/overworld/spinners.asm`
-- **PewterGuys** (5 connections) — `engine/events/pewter_guys.asm`
-- **PlayerStepOutFromDoor** (5 connections) — `engine/overworld/auto_movement.asm`
-- **data/tilesets/spinner_tiles.asm** (5 connections) — `data/tilesets/spinner_tiles.asm`
-- **PewterGuysCoordsTable** (4 connections) — `engine/events/pewter_guys.asm`
-- **_EndNPCMovementScript** (4 connections) — `engine/overworld/auto_movement.asm`
-- **PalletMovementScript_PlayerMoveLeft** (4 connections) — `engine/overworld/auto_movement.asm`
-- **PewterGymGuyMovementScriptPointerTable** (4 connections) — `engine/overworld/auto_movement.asm`
-- **PewterMuseumGuyMovementScriptPointerTable** (4 connections) — `engine/overworld/auto_movement.asm`
-- **SetEnemyTrainerToStayAndFaceAnyDirection** (4 connections) — `engine/overworld/auto_movement.asm`
-- **OaksLabDefaultScript** (4 connections) — `scripts/OaksLab.asm`
-- **RocketHideoutB2FPlayerSpinningScript** (4 connections) — `scripts/RocketHideoutB2F.asm`
-- *... and 18 more nodes in this community*
+- **wNPCMovementDirections2** (15 connections) — `ram/wram.asm`
+- **engine/overworld/trainer_sight.asm** (14 connections) — `engine/overworld/trainer_sight.asm`
+- **wSpriteStateData1** (14 connections) — `ram/wram.asm`
+- **TrainerEngage** (11 connections) — `engine/overworld/trainer_sight.asm`
+- **CalcPositionOfPlayerRelativeToNPC** (10 connections) — `engine/overworld/pathfinding.asm`
+- **FindPathToPlayer** (10 connections) — `engine/overworld/pathfinding.asm`
+- **OaksLabRivalChallengesPlayerScript** (10 connections) — `scripts/OaksLab.asm`
+- **PalletTownOakWalksToPlayerScript** (10 connections) — `scripts/PalletTown.asm`
+- **8. Comportamento dos NPCs no mapa** (9 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **engine/overworld/pathfinding.asm** (9 connections) — `engine/overworld/pathfinding.asm`
+- **TrainerWalkUpToPlayer** (8 connections) — `engine/overworld/trainer_sight.asm`
+- **wNPCMovementDirections** (6 connections) — `ram/wram.asm`
+- **ConvertNPCMovementDirectionsToJoypadMasks** (5 connections) — `engine/overworld/pathfinding.asm`
+- **GetSpriteDataPointer** (5 connections) — `engine/overworld/trainer_sight.asm`
+- **home/pathfinding.asm** (5 connections) — `home/pathfinding.asm`
+- **CalcDifference** (5 connections) — `home/pathfinding.asm`
+- **8.5 Visao de treinador e interrupcao do jogador** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **8.6 Busca de caminho existente** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **8.7 Movimento roteirizado** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **_GetSpritePosition1** (4 connections) — `engine/overworld/trainer_sight.asm`
+- **_GetSpritePosition2** (4 connections) — `engine/overworld/trainer_sight.asm`
+- **ReadTrainerScreenPosition** (4 connections) — `engine/overworld/trainer_sight.asm`
+- **_SetSpritePosition1** (4 connections) — `engine/overworld/trainer_sight.asm`
+- **_SetSpritePosition2** (4 connections) — `engine/overworld/trainer_sight.asm`
+- **8.2 Maquina de estados de movimento** (3 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (11 shared connections)
-- [Home 5](Home_5.md) (7 shared connections)
-- [Home](Home.md) (6 shared connections)
-- [Scripts 19](Scripts_19.md) (2 shared connections)
-- [Scripts 5](Scripts_5.md) (2 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
+- [Scripts 3](Scripts_3.md) (7 shared connections)
+- [Bank HRAM](Bank_HRAM.md) (5 shared connections)
+- [Engine Overworld 2](Engine_Overworld_2.md) (4 shared connections)
+- [Scripts 64](Scripts_64.md) (2 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Engine Events 2](Engine_Events_2.md) (1 shared connections)
+- [Scripts 7](Scripts_7.md) (1 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Scripts 32](Scripts_32.md) (1 shared connections)
+- [Engine Movie 4](Engine_Movie_4.md) (1 shared connections)
+- [Scripts 11](Scripts_11.md) (1 shared connections)
 - [Engine Movie](Engine_Movie.md) (1 shared connections)
-- [Data Tilesets 2](Data_Tilesets_2.md) (1 shared connections)
-- [Scripts 29](Scripts_29.md) (1 shared connections)
 
 ## Source Files
 
-- `data/tilesets/spinner_tiles.asm`
-- `engine/events/pewter_guys.asm`
-- `engine/overworld/auto_movement.asm`
-- `engine/overworld/spinners.asm`
-- `home/npc_movement.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `engine/overworld/pathfinding.asm`
+- `engine/overworld/trainer_sight.asm`
+- `home/pathfinding.asm`
 - `ram/wram.asm`
 - `scripts/OaksLab.asm`
-- `scripts/RocketHideoutB2F.asm`
-- `scripts/RocketHideoutB3F.asm`
-- `scripts/ViridianGym.asm`
+- `scripts/PalletTown.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 109 (100%)
+- EXTRACTED: 86 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

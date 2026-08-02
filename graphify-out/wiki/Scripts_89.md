@@ -1,40 +1,39 @@
 # Scripts 89
 
-> 18 nodes · cohesion 0.11
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **scripts/CeladonCity.asm** (21 connections) — `scripts/CeladonCity.asm`
-- **CeladonCity_Script** (2 connections) — `scripts/CeladonCity.asm`
-- **CeladonCity_TextPointers** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityDeptStoreSignText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityFisherText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityGameCornerSignText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityGirlText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityGramps1Text** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityGramps2Text** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityGymSignText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityLittleGirlText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityMansionSignText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityPrizeExchangeSignText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityRocket1Text** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityRocket2Text** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCitySignText** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityTrainerTips1Text** (1 connections) — `scripts/CeladonCity.asm`
-- **CeladonCityTrainerTips2Text** (1 connections) — `scripts/CeladonCity.asm`
+- **scripts/Route4.asm** (14 connections) — `scripts/Route4.asm`
+- **Route4_Script** (5 connections) — `scripts/Route4.asm`
+- **21.44 Mapa `Route4`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Route4CooltrainerF2Text** (4 connections) — `scripts/Route4.asm`
+- **Route4_ScriptPointers** (2 connections) — `scripts/Route4.asm`
+- **Route4CooltrainerF2AfterBattleText** (2 connections) — `scripts/Route4.asm`
+- **Route4CooltrainerF2BattleText** (2 connections) — `scripts/Route4.asm`
+- **Route4CooltrainerF2EndBattleText** (2 connections) — `scripts/Route4.asm`
+- **Route4TrainerHeader0** (2 connections) — `scripts/Route4.asm`
+- **Route4TrainerHeaders** (2 connections) — `scripts/Route4.asm`
+- **Route4_TextPointers** (1 connections) — `scripts/Route4.asm`
+- **Route4CooltrainerF1Text** (1 connections) — `scripts/Route4.asm`
+- **Route4MtMoonSignText** (1 connections) — `scripts/Route4.asm`
+- **Route4SignText** (1 connections) — `scripts/Route4.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (2 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts 7](Scripts_7.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonCity.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/Route4.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

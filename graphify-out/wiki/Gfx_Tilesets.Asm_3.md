@@ -26,9 +26,9 @@
 - **gfx/blocksets/lobby.bst** (2 connections) — `gfx/blocksets/lobby.bst`
 - **gfx/blocksets/ship.bst** (2 connections) — `gfx/blocksets/ship.bst`
 - **gfx/blocksets/underground.bst** (2 connections) — `gfx/blocksets/underground.bst`
-- **gfx/tilesets/cavern.2bpp** (2 connections) — `gfx/tilesets.asm`
-- **gfx/tilesets/cemetery.2bpp** (2 connections) — `gfx/tilesets.asm`
-- **gfx/tilesets/club.2bpp** (2 connections) — `gfx/tilesets.asm`
+- **gfx/tilesets/cavern.2bpp** (2 connections) — `gfx/tilesets/cavern.2bpp`
+- **gfx/tilesets/cemetery.2bpp** (2 connections) — `gfx/tilesets/cemetery.2bpp`
+- **gfx/tilesets/club.2bpp** (2 connections) — `gfx/tilesets/club.2bpp`
 - *... and 4 more nodes in this community*
 
 ## Relationships
@@ -45,6 +45,13 @@
 - `gfx/blocksets/ship.bst`
 - `gfx/blocksets/underground.bst`
 - `gfx/tilesets.asm`
+- `gfx/tilesets/cavern.2bpp`
+- `gfx/tilesets/cemetery.2bpp`
+- `gfx/tilesets/club.2bpp`
+- `gfx/tilesets/lab.2bpp`
+- `gfx/tilesets/lobby.2bpp`
+- `gfx/tilesets/ship.2bpp`
+- `gfx/tilesets/underground.2bpp`
 
 ## Audit Trail
 

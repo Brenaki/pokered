@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **text/MrPsychicsHouse.asm** (6 connections) — `text/MrPsychicsHouse.asm`
-- **_MrPsychicsHouseMrPsychicReceivedTM29Text** (1 connections) — `text/MrPsychicsHouse.asm`
-- **_MrPsychicsHouseMrPsychicTM29ExplanationText** (1 connections) — `text/MrPsychicsHouse.asm`
-- **_MrPsychicsHouseMrPsychicTM29NoRoomText** (1 connections) — `text/MrPsychicsHouse.asm`
-- **_MrPsychicsHouseMrPsychicYouWantedThisText** (1 connections) — `text/MrPsychicsHouse.asm`
+- **text/SafariZoneWest.asm** (6 connections) — `text/SafariZoneWest.asm`
+- **_SafariZoneWestFindWardensTeethSignText** (1 connections) — `text/SafariZoneWest.asm`
+- **_SafariZoneWestRestHouseSignText** (1 connections) — `text/SafariZoneWest.asm`
+- **_SafariZoneWestSignText** (1 connections) — `text/SafariZoneWest.asm`
+- **_SafariZoneWestTrainerTipsText** (1 connections) — `text/SafariZoneWest.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `text/MrPsychicsHouse.asm`
+- `text/SafariZoneWest.asm`
 
 ## Audit Trail
 

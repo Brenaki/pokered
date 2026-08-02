@@ -2,7 +2,7 @@
 
 > God node · 534 connections · `home/overworld_text.asm`
 
-**Community:** [Scripts](Scripts.md)
+**Community:** [Scripts 2](Scripts_2.md)
 
 ## Connections by Relation
 

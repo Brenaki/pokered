@@ -1,27 +1,24 @@
 # Scripts 121
 
-> 6 nodes · cohesion 0.33
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **scripts/CeladonHotel.asm** (7 connections) — `scripts/CeladonHotel.asm`
-- **CeladonHotel_Script** (2 connections) — `scripts/CeladonHotel.asm`
-- **CeladonHotel_TextPointers** (1 connections) — `scripts/CeladonHotel.asm`
-- **CeladonHotelBeautyText** (1 connections) — `scripts/CeladonHotel.asm`
-- **CeladonHotelGrannyText** (1 connections) — `scripts/CeladonHotel.asm`
-- **CeladonHotelSuperNerdText** (1 connections) — `scripts/CeladonHotel.asm`
+- **ViridianGymGymGuideText** (5 connections) — `scripts/ViridianGym.asm`
+- **ViridianGymGuidePostBattleText** (2 connections) — `scripts/ViridianGym.asm`
+- **ViridianGymGuidePreBattleText** (2 connections) — `scripts/ViridianGym.asm`
 
 ## Relationships
 
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonHotel.asm`
+- `scripts/ViridianGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

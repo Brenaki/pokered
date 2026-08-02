@@ -1,40 +1,42 @@
 # Scripts 98
 
-> 13 nodes · cohesion 0.17
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **scripts/PalletTown.asm** (19 connections) — `scripts/PalletTown.asm`
-- **PalletTown_Script** (4 connections) — `scripts/PalletTown.asm`
-- **PalletTownDaisyScript** (3 connections) — `scripts/PalletTown.asm`
-- **PalletTown_ScriptPointers** (2 connections) — `scripts/PalletTown.asm`
-- **PalletTownNoopScript** (2 connections) — `scripts/PalletTown.asm`
-- **PalletTownPlayerFollowsOakScript** (2 connections) — `scripts/PalletTown.asm`
-- **PalletTown_TextPointers** (1 connections) — `scripts/PalletTown.asm`
-- **PalletTownFisherText** (1 connections) — `scripts/PalletTown.asm`
-- **PalletTownGirlText** (1 connections) — `scripts/PalletTown.asm`
-- **PalletTownOaksLabSignText** (1 connections) — `scripts/PalletTown.asm`
-- **PalletTownPlayersHouseSignText** (1 connections) — `scripts/PalletTown.asm`
-- **PalletTownRivalsHouseSignText** (1 connections) — `scripts/PalletTown.asm`
-- **PalletTownSignText** (1 connections) — `scripts/PalletTown.asm`
+- **DisplayElevatorFloorMenu** (11 connections) — `engine/events/elevator.asm`
+- **scripts/RocketHideoutElevator.asm** (10 connections) — `scripts/RocketHideoutElevator.asm`
+- **RocketHideoutElevatorScript** (7 connections) — `scripts/RocketHideoutElevator.asm`
+- **RocketHideoutElevatorText** (7 connections) — `scripts/RocketHideoutElevator.asm`
+- **engine/events/elevator.asm** (4 connections) — `engine/events/elevator.asm`
+- **RocketHideoutElevator_Script** (4 connections) — `scripts/RocketHideoutElevator.asm`
+- **RocketHideoutElevatorStoreWarpEntriesScript** (3 connections) — `scripts/RocketHideoutElevator.asm`
+- **RocketHideoutElevatorWarpMaps** (3 connections) — `scripts/RocketHideoutElevator.asm`
+- **WhichFloorText** (2 connections) — `engine/events/elevator.asm`
+- **RocketHideoutElevatorFloors** (2 connections) — `scripts/RocketHideoutElevator.asm`
+- **RocketHideoutElevator_TextPointers** (1 connections) — `scripts/RocketHideoutElevator.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 2](Scripts_2.md) (3 shared connections)
+- [Scripts 11](Scripts_11.md) (2 shared connections)
+- [Ram](Ram.md) (2 shared connections)
+- [Home 5](Home_5.md) (2 shared connections)
+- [Engine Movie](Engine_Movie.md) (2 shared connections)
+- [Home](Home.md) (1 shared connections)
+- [Ram 3](Ram_3.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Home 8](Home_8.md) (1 shared connections)
 - [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Home 5](Home_5.md) (1 shared connections)
-- [Scripts 29](Scripts_29.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 19](Scripts_19.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/PalletTown.asm`
+- `engine/events/elevator.asm`
+- `scripts/RocketHideoutElevator.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

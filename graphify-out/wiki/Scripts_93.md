@@ -1,39 +1,35 @@
 # Scripts 93
 
-> 14 nodes · cohesion 0.20
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **scripts/Route4.asm** (14 connections) — `scripts/Route4.asm`
-- **Route4_Script** (5 connections) — `scripts/Route4.asm`
-- **21.44 Mapa `Route4`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **Route4CooltrainerF2Text** (4 connections) — `scripts/Route4.asm`
-- **Route4_ScriptPointers** (2 connections) — `scripts/Route4.asm`
-- **Route4CooltrainerF2AfterBattleText** (2 connections) — `scripts/Route4.asm`
-- **Route4CooltrainerF2BattleText** (2 connections) — `scripts/Route4.asm`
-- **Route4CooltrainerF2EndBattleText** (2 connections) — `scripts/Route4.asm`
-- **Route4TrainerHeader0** (2 connections) — `scripts/Route4.asm`
-- **Route4TrainerHeaders** (2 connections) — `scripts/Route4.asm`
-- **Route4_TextPointers** (1 connections) — `scripts/Route4.asm`
-- **Route4CooltrainerF1Text** (1 connections) — `scripts/Route4.asm`
-- **Route4MtMoonSignText** (1 connections) — `scripts/Route4.asm`
-- **Route4SignText** (1 connections) — `scripts/Route4.asm`
+- **scripts/FuchsiaCity.asm** (20 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCity_Script** (2 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCity_TextPointers** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityErikText** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityGamblerText** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityGymSignText** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityPokemonText** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCitySafariGameSignText** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCitySafariZoneSignText** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCitySignText** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityWardensHomeSignText** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityYoungster1Text** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityYoungster2Text** (1 connections) — `scripts/FuchsiaCity.asm`
 
 ## Relationships
 
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (6 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Home 8](Home_8.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/Route4.asm`
+- `scripts/FuchsiaCity.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

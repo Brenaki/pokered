@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **text/CeladonMansion1F.asm** (7 connections) — `text/CeladonMansion1F.asm`
-- **_CeladonMansion1FClefairyText** (1 connections) — `text/CeladonMansion1F.asm`
-- **_CeladonMansion1FGrannyText** (1 connections) — `text/CeladonMansion1F.asm`
-- **_CeladonMansion1FManagersSuiteSignText** (1 connections) — `text/CeladonMansion1F.asm`
-- **_CeladonMansion1FMeowthText** (1 connections) — `text/CeladonMansion1F.asm`
-- **_CeladonMansion1FNidoranFText** (1 connections) — `text/CeladonMansion1F.asm`
+- **text/FuchsiaGoodRodHouse.asm** (7 connections) — `text/FuchsiaGoodRodHouse.asm`
+- **_FuchsiaGoodRodHouseFishingGuruHowAreTheFishText** (1 connections) — `text/FuchsiaGoodRodHouse.asm`
+- **_FuchsiaGoodRodHouseFishingGuruNoRoomText** (1 connections) — `text/FuchsiaGoodRodHouse.asm`
+- **_FuchsiaGoodRodHouseFishingGuruReceivedGoodRodText** (1 connections) — `text/FuchsiaGoodRodHouse.asm`
+- **_FuchsiaGoodRodHouseFishingGuruText** (1 connections) — `text/FuchsiaGoodRodHouse.asm`
+- **_FuchsiaGoodRodHouseFishingGuruThatsSoDisappointingText** (1 connections) — `text/FuchsiaGoodRodHouse.asm`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `text/CeladonMansion1F.asm`
+- `text/FuchsiaGoodRodHouse.asm`
 
 ## Audit Trail
 

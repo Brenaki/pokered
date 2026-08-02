@@ -1,35 +1,32 @@
 # Tools 4
 
-> 28 nodes · cohesion 0.07
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **tools/graphify_rgbds.py** (29 connections) — `tools/graphify_rgbds.py`
-- **banks** (1 connections) — `tools/graphify_rgbds.py`
-- **by_type** (1 connections) — `tools/graphify_rgbds.py`
-- **confidence** (1 connections) — `tools/graphify_rgbds.py`
-- **current_section** (1 connections) — `tools/graphify_rgbds.py`
-- **dirs** (1 connections) — `tools/graphify_rgbds.py`
-- **file_type** (1 connections) — `tools/graphify_rgbds.py`
-- **files** (1 connections) — `tools/graphify_rgbds.py`
-- **label** (1 connections) — `tools/graphify_rgbds.py`
-- **line** (1 connections) — `tools/graphify_rgbds.py`
-- **node_id** (1 connections) — `tools/graphify_rgbds.py`
-- **node_type** (1 connections) — `tools/graphify_rgbds.py`
-- **out** (1 connections) — `tools/graphify_rgbds.py`
-- **parents** (1 connections) — `tools/graphify_rgbds.py`
-- **relation** (1 connections) — `tools/graphify_rgbds.py`
-- **seen** (1 connections) — `tools/graphify_rgbds.py`
-- **self.edges** (1 connections) — `tools/graphify_rgbds.py`
-- **self.file_labels** (1 connections) — `tools/graphify_rgbds.py`
-- **self.file_sections** (1 connections) — `tools/graphify_rgbds.py`
-- **self.label_defs** (1 connections) — `tools/graphify_rgbds.py`
-- **self.markdown_headings** (1 connections) — `tools/graphify_rgbds.py`
-- **self.nodes** (1 connections) — `tools/graphify_rgbds.py`
-- **source** (1 connections) — `tools/graphify_rgbds.py`
-- **source_file** (1 connections) — `tools/graphify_rgbds.py`
-- **target** (1 connections) — `tools/graphify_rgbds.py`
-- *... and 3 more nodes in this community*
+- **tools/generate_npc_ai_document.py** (23 connections) — `tools/generate_npc_ai_document.py`
+- **MovementCallsite** (1 connections) — `tools/generate_npc_ai_document.py`
+- **ObjectEvent** (1 connections) — `tools/generate_npc_ai_document.py`
+- **ScriptState** (1 connections) — `tools/generate_npc_ai_document.py`
+- **TrainerHeader** (1 connections) — `tools/generate_npc_ai_document.py`
+- **build_document** (1 connections) — `tools/generate_npc_ai_document.py`
+- **category** (1 connections) — `tools/generate_npc_ai_document.py`
+- **grouped** (1 connections) — `tools/generate_npc_ai_document.py`
+- **main** (1 connections) — `tools/generate_npc_ai_document.py`
+- **md_escape** (1 connections) — `tools/generate_npc_ai_document.py`
+- **nearest_label** (1 connections) — `tools/generate_npc_ai_document.py`
+- **parse_ai_actions** (1 connections) — `tools/generate_npc_ai_document.py`
+- **parse_move_layers** (1 connections) — `tools/generate_npc_ai_document.py`
+- **parse_movement_callsites** (1 connections) — `tools/generate_npc_ai_document.py`
+- **parse_object_events** (1 connections) — `tools/generate_npc_ai_document.py`
+- **parse_script_states** (1 connections) — `tools/generate_npc_ai_document.py`
+- **parse_trainer_classes** (1 connections) — `tools/generate_npc_ai_document.py`
+- **parse_trainer_headers** (1 connections) — `tools/generate_npc_ai_document.py`
+- **source** (1 connections) — `tools/generate_npc_ai_document.py`
+- **source** (1 connections) — `tools/generate_npc_ai_document.py`
+- **split_args** (1 connections) — `tools/generate_npc_ai_document.py`
+- **target** (1 connections) — `tools/generate_npc_ai_document.py`
+- **validate** (1 connections) — `tools/generate_npc_ai_document.py`
 
 ## Relationships
 
@@ -37,11 +34,11 @@
 
 ## Source Files
 
-- `tools/graphify_rgbds.py`
+- `tools/generate_npc_ai_document.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

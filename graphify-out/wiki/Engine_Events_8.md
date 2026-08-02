@@ -1,44 +1,48 @@
 # Engine Events 8
 
-> 17 nodes · cohesion 0.24
+> 14 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **engine/events/hidden_events/cinnabar_gym_quiz.asm** (18 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarGymQuiz_AskQuestion** (12 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarQuizQuestions** (8 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarGymQuiz** (6 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarGymQuizCorrectText** (6 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **UpdateCinnabarGymGateTileBlocks_** (6 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarGymGateFlagAction** (4 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarGymGateCoords** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarGymQuizIncorrectText** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarGymQuizIntroText** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarQuizQuestionsText1** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarQuizQuestionsText2** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarQuizQuestionsText3** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarQuizQuestionsText4** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarQuizQuestionsText5** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarQuizQuestionsText6** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **PrintCinnabarQuiz** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **DisplayPokemonCenterDialogue_** (19 connections) — `engine/events/pokecenter.asm`
+- **AnimateHealingMachine** (12 connections) — `engine/overworld/healing_machine.asm`
+- **engine/events/pokecenter.asm** (9 connections) — `engine/events/pokecenter.asm`
+- **engine/overworld/healing_machine.asm** (7 connections) — `engine/overworld/healing_machine.asm`
+- **FlashSprite8Times** (4 connections) — `engine/overworld/healing_machine.asm`
+- **PokeCenterFlashingMonitorAndHealBall** (3 connections) — `engine/overworld/healing_machine.asm`
+- **NeedYourPokemonText** (2 connections) — `engine/events/pokecenter.asm`
+- **PokemonCenterFarewellText** (2 connections) — `engine/events/pokecenter.asm`
+- **PokemonCenterWelcomeText** (2 connections) — `engine/events/pokecenter.asm`
+- **PokemonFightingFitText** (2 connections) — `engine/events/pokecenter.asm`
+- **ShallWeHealYourPokemonText** (2 connections) — `engine/events/pokecenter.asm`
+- **CopyHealingMachineOAM** (2 connections) — `engine/overworld/healing_machine.asm`
+- **PokeCenterOAMData** (2 connections) — `engine/overworld/healing_machine.asm`
+- **gfx/overworld/heal_machine.2bpp** (1 connections) — `gfx/overworld/heal_machine.2bpp`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (7 shared connections)
-- [Scripts 5](Scripts_5.md) (2 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
-- [Scripts 19](Scripts_19.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Engine Overworld 8](Engine_Overworld_8.md) (1 shared connections)
-- [Bank HRAM](Bank_HRAM.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (3 shared connections)
+- [Home](Home.md) (3 shared connections)
+- [Scripts 11](Scripts_11.md) (2 shared connections)
+- [Engine Menus](Engine_Menus.md) (2 shared connections)
+- [Ram 3](Ram_3.md) (1 shared connections)
+- [Bank ROMX](Bank_ROMX.md) (1 shared connections)
+- [Engine Movie](Engine_Movie.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Home 5](Home_5.md) (1 shared connections)
+- [Engine Link](Engine_Link.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- `engine/events/pokecenter.asm`
+- `engine/overworld/healing_machine.asm`
+- `gfx/overworld/heal_machine.2bpp`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

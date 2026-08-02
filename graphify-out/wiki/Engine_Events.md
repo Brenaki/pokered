@@ -1,70 +1,57 @@
 # Engine Events
 
-> 45 nodes · cohesion 0.09
+> 38 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **DisplayPokemartDialogue_** (36 connections) — `engine/events/pokemart.asm`
-- **VendingMachineMenu** (24 connections) — `engine/events/vending_machine.asm`
-- **wPlayerMoney** (19 connections) — `ram/wram.asm`
-- **engine/events/pokemart.asm** (15 connections) — `engine/events/pokemart.asm`
-- **Museum1FScientist1Text** (14 connections) — `scripts/Museum1F.asm`
-- **engine/math/bcd.asm** (13 connections) — `engine/math/bcd.asm`
-- **engine/events/vending_machine.asm** (12 connections) — `engine/events/vending_machine.asm`
-- **SubBCDPredef** (11 connections) — `engine/math/bcd.asm`
-- **HasEnoughMoney** (11 connections) — `home/money.asm`
-- **MtMoonPokecenterMagikarpSalesmanText** (10 connections) — `scripts/MtMoonPokecenter.asm`
-- **SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText** (10 connections) — `scripts/SafariZoneGate.asm`
-- **hMoney** (9 connections) — `ram/hram.asm`
-- **StringCmp** (8 connections) — `home/compare.asm`
-- **AddAmountSoldToMoney** (8 connections) — `home/inventory.asm`
-- **SubtractAmountPaidFromMoney_** (6 connections) — `engine/items/subtract_paid_money.asm`
-- **DivideBCD_getNextDigit** (6 connections) — `engine/math/bcd.asm`
-- **wPriceTemp** (5 connections) — `ram/wram.asm`
-- **LoadVendingMachineItem** (3 connections) — `engine/events/vending_machine.asm`
-- **DivideBCD** (3 connections) — `engine/math/bcd.asm`
-- **data/items/vending_prices.asm** (3 connections) — `data/items/vending_prices.asm`
-- **VendingPrices** (2 connections) — `data/items/vending_prices.asm`
-- **PokemartAnythingElseText** (2 connections) — `engine/events/pokemart.asm`
-- **PokemartBoughtItemText** (2 connections) — `engine/events/pokemart.asm`
-- **PokemartBuyingGreetingText** (2 connections) — `engine/events/pokemart.asm`
-- **PokemartItemBagEmptyText** (2 connections) — `engine/events/pokemart.asm`
-- *... and 20 more nodes in this community*
+- **engine/events/in_game_trades.asm** (34 connections) — `engine/events/in_game_trades.asm`
+- **DoInGameTradeDialogue** (24 connections) — `engine/events/in_game_trades.asm`
+- **InGameTrade_PrepareTradeData** (15 connections) — `engine/events/in_game_trades.asm`
+- **InGameTrade_CopyDataToReceivedMon** (9 connections) — `engine/events/in_game_trades.asm`
+- **TradeTextPointers1** (7 connections) — `engine/events/in_game_trades.asm`
+- **TradeTextPointers2** (7 connections) — `engine/events/in_game_trades.asm`
+- **TradeTextPointers3** (7 connections) — `engine/events/in_game_trades.asm`
+- **InGameTradeTextPointers** (5 connections) — `engine/events/in_game_trades.asm`
+- **wTradedEnemyMonOT** (5 connections) — `ram/wram.asm`
+- **wTradedEnemyMonOTID** (5 connections) — `ram/wram.asm`
+- **wTradedPlayerMonOT** (5 connections) — `ram/wram.asm`
+- **wCompletedInGameTradeFlags** (4 connections) — `ram/wram.asm`
+- **wInGameTradeMonNick** (4 connections) — `ram/wram.asm`
+- **wTradedPlayerMonOTID** (4 connections) — `ram/wram.asm`
+- **InGameTrade_CopyData** (3 connections) — `engine/events/in_game_trades.asm`
+- **InGameTrade_GetReceivedMonPointer** (3 connections) — `engine/events/in_game_trades.asm`
+- **InGameTrade_TrainerString** (3 connections) — `engine/events/in_game_trades.asm`
+- **wInGameTradeGiveMonName** (3 connections) — `ram/wram.asm`
+- **wInGameTradeReceiveMonName** (3 connections) — `ram/wram.asm`
+- **wInGameTradeTextPointerTableIndex** (3 connections) — `ram/wram.asm`
+- **wTradedPlayerMonSpecies** (3 connections) — `ram/wram.asm`
+- **AfterTrade1Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **AfterTrade2Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **AfterTrade3Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **ConnectCableText** (2 connections) — `engine/events/in_game_trades.asm`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (15 shared connections)
-- [Home](Home.md) (15 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (4 shared connections)
-- [Engine Pokemon 2](Engine_Pokemon_2.md) (3 shared connections)
-- [Engine Menus 2](Engine_Menus_2.md) (3 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (3 shared connections)
-- [Engine Debug 2](Engine_Debug_2.md) (2 shared connections)
-- [Ram](Ram.md) (2 shared connections)
-- [Bank HRAM](Bank_HRAM.md) (2 shared connections)
-- [Scripts 8](Scripts_8.md) (2 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (7 shared connections)
+- [Ram 3](Ram_3.md) (4 shared connections)
+- [Data Events](Data_Events.md) (2 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (2 shared connections)
+- [Engine Menus](Engine_Menus.md) (2 shared connections)
 - [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Home](Home.md) (1 shared connections)
+- [Engine Overworld 2](Engine_Overworld_2.md) (1 shared connections)
+- [Ram 11](Ram_11.md) (1 shared connections)
+- [Engine Battle 10](Engine_Battle_10.md) (1 shared connections)
 
 ## Source Files
 
-- `data/items/vending_prices.asm`
-- `engine/events/pokemart.asm`
-- `engine/events/vending_machine.asm`
-- `engine/items/subtract_paid_money.asm`
-- `engine/math/bcd.asm`
-- `home/compare.asm`
-- `home/inventory.asm`
-- `home/money.asm`
-- `ram/hram.asm`
+- `engine/events/in_game_trades.asm`
 - `ram/wram.asm`
-- `scripts/MtMoonPokecenter.asm`
-- `scripts/Museum1F.asm`
-- `scripts/SafariZoneGate.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 143 (100%)
+- EXTRACTED: 86 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

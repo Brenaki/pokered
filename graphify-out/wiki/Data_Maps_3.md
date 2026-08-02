@@ -1,56 +1,37 @@
 # Data Maps 3
 
-> 24 nodes · cohesion 0.04
+> 12 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **data/maps/objects/ChampionsRoom.asm** (3 connections) — `data/maps/objects/ChampionsRoom.asm`
-- **data/maps/objects/CinnabarPokecenter.asm** (3 connections) — `data/maps/objects/CinnabarPokecenter.asm`
-- **data/maps/objects/Daycare.asm** (3 connections) — `data/maps/objects/Daycare.asm`
-- **data/maps/objects/PokemonTower3F.asm** (3 connections) — `data/maps/objects/PokemonTower3F.asm`
-- **data/maps/objects/Route18Gate2F.asm** (3 connections) — `data/maps/objects/Route18Gate2F.asm`
-- **data/maps/objects/Route22.asm** (3 connections) — `data/maps/objects/Route22.asm`
-- **data/maps/objects/Route23.asm** (3 connections) — `data/maps/objects/Route23.asm`
-- **data/maps/objects/SaffronMart.asm** (3 connections) — `data/maps/objects/SaffronMart.asm`
-- **data/maps/objects/SilphCo10F.asm** (3 connections) — `data/maps/objects/SilphCo10F.asm`
-- **data/maps/objects/SSAnne2FRooms.asm** (3 connections) — `data/maps/objects/SSAnne2FRooms.asm`
-- **data/maps/objects/UndergroundPathWestEast.asm** (3 connections) — `data/maps/objects/UndergroundPathWestEast.asm`
-- **data/maps/objects/VictoryRoad3F.asm** (3 connections) — `data/maps/objects/VictoryRoad3F.asm`
-- **ChampionsRoom_Object** (1 connections) — `data/maps/objects/ChampionsRoom.asm`
-- **CinnabarPokecenter_Object** (1 connections) — `data/maps/objects/CinnabarPokecenter.asm`
-- **Daycare_Object** (1 connections) — `data/maps/objects/Daycare.asm`
-- **PokemonTower3F_Object** (1 connections) — `data/maps/objects/PokemonTower3F.asm`
-- **Route18Gate2F_Object** (1 connections) — `data/maps/objects/Route18Gate2F.asm`
-- **Route22_Object** (1 connections) — `data/maps/objects/Route22.asm`
-- **Route23_Object** (1 connections) — `data/maps/objects/Route23.asm`
-- **SaffronMart_Object** (1 connections) — `data/maps/objects/SaffronMart.asm`
-- **SilphCo10F_Object** (1 connections) — `data/maps/objects/SilphCo10F.asm`
-- **SSAnne2FRooms_Object** (1 connections) — `data/maps/objects/SSAnne2FRooms.asm`
-- **UndergroundPathWestEast_Object** (1 connections) — `data/maps/objects/UndergroundPathWestEast.asm`
-- **VictoryRoad3F_Object** (1 connections) — `data/maps/objects/VictoryRoad3F.asm`
+- **LoadSpecialWarpData** (14 connections) — `engine/overworld/special_warps.asm`
+- **data/maps/special_warps.asm** (10 connections) — `data/maps/special_warps.asm`
+- **engine/overworld/special_warps.asm** (5 connections) — `engine/overworld/special_warps.asm`
+- **wCurMap** (3 connections) — `ram/wram.asm`
+- **ColosseumFriendWarp** (2 connections) — `data/maps/special_warps.asm`
+- **ColosseumPlayerWarp** (2 connections) — `data/maps/special_warps.asm`
+- **DungeonWarpData** (2 connections) — `data/maps/special_warps.asm`
+- **DungeonWarpList** (2 connections) — `data/maps/special_warps.asm`
+- **FlyWarpDataPtr** (2 connections) — `data/maps/special_warps.asm`
+- **NewGameWarp** (2 connections) — `data/maps/special_warps.asm`
+- **TradeCenterFriendWarp** (2 connections) — `data/maps/special_warps.asm`
+- **TradeCenterPlayerWarp** (2 connections) — `data/maps/special_warps.asm`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Home 5](Home_5.md) (2 shared connections)
+- [Home 4](Home_4.md) (1 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
 
 ## Source Files
 
-- `data/maps/objects/ChampionsRoom.asm`
-- `data/maps/objects/CinnabarPokecenter.asm`
-- `data/maps/objects/Daycare.asm`
-- `data/maps/objects/PokemonTower3F.asm`
-- `data/maps/objects/Route18Gate2F.asm`
-- `data/maps/objects/Route22.asm`
-- `data/maps/objects/Route23.asm`
-- `data/maps/objects/SSAnne2FRooms.asm`
-- `data/maps/objects/SaffronMart.asm`
-- `data/maps/objects/SilphCo10F.asm`
-- `data/maps/objects/UndergroundPathWestEast.asm`
-- `data/maps/objects/VictoryRoad3F.asm`
+- `data/maps/special_warps.asm`
+- `engine/overworld/special_warps.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

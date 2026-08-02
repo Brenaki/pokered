@@ -1,10 +1,9 @@
 # Gfx Pics.Asm 3
 
-> 179 nodes · cohesion 0.02
+> 177 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **data/pokemon/base_stats.asm** (154 connections) — `data/pokemon/base_stats.asm`
 - **Pics 4 [ROMX]** (122 connections) — `gfx/pics.asm`
 - **data/pokemon/base_stats/abra.asm** (6 connections) — `data/pokemon/base_stats/abra.asm`
 - **data/pokemon/base_stats/alakazam.asm** (6 connections) — `data/pokemon/base_stats/alakazam.asm`
@@ -29,20 +28,16 @@
 - **data/pokemon/base_stats/muk.asm** (6 connections) — `data/pokemon/base_stats/muk.asm`
 - **data/pokemon/base_stats/persian.asm** (6 connections) — `data/pokemon/base_stats/persian.asm`
 - **data/pokemon/base_stats/pidgeot.asm** (6 connections) — `data/pokemon/base_stats/pidgeot.asm`
-- *... and 154 more nodes in this community*
+- **data/pokemon/base_stats/pidgeotto.asm** (6 connections) — `data/pokemon/base_stats/pidgeotto.asm`
+- *... and 152 more nodes in this community*
 
 ## Relationships
 
-- [Gfx Pics.Asm](Gfx_Pics.Asm.md) (34 shared connections)
-- [Gfx Pics.Asm 2](Gfx_Pics.Asm_2.md) (32 shared connections)
-- [Gfx Pics.Asm 4](Gfx_Pics.Asm_4.md) (29 shared connections)
-- [Gfx Pics.Asm 5](Gfx_Pics.Asm_5.md) (26 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Engine Battle 11](Engine_Battle_11.md) (2 shared connections)
 - [Bank ROMX](Bank_ROMX.md) (1 shared connections)
 
 ## Source Files
 
-- `data/pokemon/base_stats.asm`
 - `data/pokemon/base_stats/abra.asm`
 - `data/pokemon/base_stats/alakazam.asm`
 - `data/pokemon/base_stats/butterfree.asm`
@@ -62,10 +57,11 @@
 - `data/pokemon/base_stats/magikarp.asm`
 - `data/pokemon/base_stats/marowak.asm`
 - `data/pokemon/base_stats/metapod.asm`
+- `data/pokemon/base_stats/mewtwo.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 447 (100%)
+- EXTRACTED: 296 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

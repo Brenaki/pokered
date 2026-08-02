@@ -1,15 +1,14 @@
 # Text 112
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **text/PokemonTower2F.asm** (7 connections) — `text/PokemonTower2F.asm`
-- **_PokemonTower2FChannelerText** (1 connections) — `text/PokemonTower2F.asm`
-- **_PokemonTower2FRivalDefeatedText** (1 connections) — `text/PokemonTower2F.asm`
-- **_PokemonTower2FRivalHowsYourDexText** (1 connections) — `text/PokemonTower2F.asm`
-- **_PokemonTower2FRivalVictoryText** (1 connections) — `text/PokemonTower2F.asm`
-- **_PokemonTower2FRivalWhatBringsYouHereText** (1 connections) — `text/PokemonTower2F.asm`
+- **text/MrPsychicsHouse.asm** (6 connections) — `text/MrPsychicsHouse.asm`
+- **_MrPsychicsHouseMrPsychicReceivedTM29Text** (1 connections) — `text/MrPsychicsHouse.asm`
+- **_MrPsychicsHouseMrPsychicTM29ExplanationText** (1 connections) — `text/MrPsychicsHouse.asm`
+- **_MrPsychicsHouseMrPsychicTM29NoRoomText** (1 connections) — `text/MrPsychicsHouse.asm`
+- **_MrPsychicsHouseMrPsychicYouWantedThisText** (1 connections) — `text/MrPsychicsHouse.asm`
 
 ## Relationships
 
@@ -17,11 +16,11 @@
 
 ## Source Files
 
-- `text/PokemonTower2F.asm`
+- `text/MrPsychicsHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

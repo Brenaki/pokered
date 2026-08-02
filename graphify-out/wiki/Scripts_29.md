@@ -1,61 +1,54 @@
 # Scripts 29
 
-> 46 nodes · cohesion 0.05
+> 43 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **CallFunctionInTable** (34 connections) — `home/array2.asm`
-- **scripts/BillsHouse.asm** (15 connections) — `scripts/BillsHouse.asm`
-- **scripts/ViridianMart.asm** (15 connections) — `scripts/ViridianMart.asm`
-- **scripts/HallOfFame.asm** (12 connections) — `scripts/HallOfFame.asm`
-- **scripts/Route18Gate1F.asm** (11 connections) — `scripts/Route18Gate1F.asm`
-- **scripts/RedsHouse2F.asm** (7 connections) — `scripts/RedsHouse2F.asm`
-- **Route18Gate1F_Script** (5 connections) — `scripts/Route18Gate1F.asm`
-- **ViridianMart_Script** (5 connections) — `scripts/ViridianMart.asm`
-- **ViridianMart_TextPointers** (5 connections) — `scripts/ViridianMart.asm`
-- **BillsHouse_Script** (4 connections) — `scripts/BillsHouse.asm`
-- **HallOfFame_Script** (4 connections) — `scripts/HallOfFame.asm`
-- **RedsHouse2F_Script** (4 connections) — `scripts/RedsHouse2F.asm`
-- **SafariZoneGate_Script** (4 connections) — `scripts/SafariZoneGate.asm`
-- **ViridianMartCheckParcelDeliveredScript** (4 connections) — `scripts/ViridianMart.asm`
-- **BillsHousePokemonEntersMachineScript** (3 connections) — `scripts/BillsHouse.asm`
-- **Museum1F_Script** (3 connections) — `scripts/Museum1F.asm`
-- **Route18Gate1FPlayerMovingRightScript** (3 connections) — `scripts/Route18Gate1F.asm`
-- **BillsHouse_ScriptPointers** (2 connections) — `scripts/BillsHouse.asm`
-- **BillsHouseCleanupScript** (2 connections) — `scripts/BillsHouse.asm`
-- **BillsHouseDefaultScript** (2 connections) — `scripts/BillsHouse.asm`
-- **HallOfFame_ScriptPointers** (2 connections) — `scripts/HallOfFame.asm`
-- **HallOfFameEntryMovement** (2 connections) — `scripts/HallOfFame.asm`
-- **HallOfFameNoopScript** (2 connections) — `scripts/HallOfFame.asm`
-- **Museum1F_ScriptPointers** (2 connections) — `scripts/Museum1F.asm`
-- **RedsHouse2F_ScriptPointers** (2 connections) — `scripts/RedsHouse2F.asm`
-- *... and 21 more nodes in this community*
+- **scripts/Route16.asm** (45 connections) — `scripts/Route16.asm`
+- **21.35 Mapa `Route16`** (19 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Route16SnorlaxPostBattleScript** (6 connections) — `scripts/Route16.asm`
+- **Route16_Script** (5 connections) — `scripts/Route16.asm`
+- **Route16Biker1Text** (4 connections) — `scripts/Route16.asm`
+- **Route16Biker2Text** (4 connections) — `scripts/Route16.asm`
+- **Route16Biker3Text** (4 connections) — `scripts/Route16.asm`
+- **Route16Biker4Text** (4 connections) — `scripts/Route16.asm`
+- **Route16Biker5Text** (4 connections) — `scripts/Route16.asm`
+- **Route16Biker6Text** (4 connections) — `scripts/Route16.asm`
+- **Route16_ScriptPointers** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker1AfterBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker1BattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker1EndBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker2AfterBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker2BattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker2EndBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker3AfterBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker3BattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker3EndBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker4AfterBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16biker4BattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker4EndBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker5AfterBattleText** (2 connections) — `scripts/Route16.asm`
+- **Route16Biker5BattleText** (2 connections) — `scripts/Route16.asm`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (7 shared connections)
-- [Scripts 4](Scripts_4.md) (6 shared connections)
-- [Scripts](Scripts.md) (4 shared connections)
-- [Home 5](Home_5.md) (2 shared connections)
-- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
-- [Scripts 19](Scripts_19.md) (1 shared connections)
-- [Home 2](Home_2.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (6 shared connections)
+- [Scripts 7](Scripts_7.md) (6 shared connections)
+- [Scripts 3](Scripts_3.md) (2 shared connections)
+- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Engine Movie](Engine_Movie.md) (1 shared connections)
+- [Engine Menus](Engine_Menus.md) (1 shared connections)
 
 ## Source Files
 
-- `home/array2.asm`
-- `scripts/BillsHouse.asm`
-- `scripts/HallOfFame.asm`
-- `scripts/Museum1F.asm`
-- `scripts/RedsHouse2F.asm`
-- `scripts/Route18Gate1F.asm`
-- `scripts/SafariZoneGate.asm`
-- `scripts/ViridianMart.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/Route16.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (100%)
+- EXTRACTED: 86 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

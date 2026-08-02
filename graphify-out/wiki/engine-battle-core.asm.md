@@ -2,14 +2,14 @@
 
 > God node · 229 connections · `engine/battle/core.asm`
 
-**Community:** [Engine Battle](Engine_Battle.md)
+**Community:** [Engine Battle 2](Engine_Battle_2.md)
 
 ## Connections by Relation
 
 ### defines
 - CheckEnemyStatusConditions `EXTRACTED`
-- BattleRandom `EXTRACTED`
 - CheckPlayerStatusConditions `EXTRACTED`
+- BattleRandom `EXTRACTED`
 - EnemySendOutFirstMon `EXTRACTED`
 - PartyMenuOrRockOrRun `EXTRACTED`
 - DisplayBattleMenu `EXTRACTED`
@@ -17,9 +17,9 @@
 - MainInBattleLoop `EXTRACTED`
 - StartBattle `EXTRACTED`
 - FaintEnemyPokemon `EXTRACTED`
+- MoveHitTest `EXTRACTED`
 - EnemyCheckIfMirrorMoveEffect `EXTRACTED`
 - MirrorMoveCheck `EXTRACTED`
-- MoveHitTest `EXTRACTED`
 - TryRunningFromBattle `EXTRACTED`
 - DrawPlayerHUDAndHPBar `EXTRACTED`
 - InitBattleCommon `EXTRACTED`

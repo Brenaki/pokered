@@ -1,36 +1,32 @@
 # Scripts 102
 
-> 11 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **scripts/CinnabarIsland.asm** (13 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIsland_Script** (5 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIslandPlayerMovingScript** (3 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIsland_ScriptPointers** (2 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIsland_TextPointers** (1 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIslandDoorIsLockedText** (1 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIslandGamblerText** (1 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIslandGirlText** (1 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIslandGymSignText** (1 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIslandPokemonLabSignText** (1 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIslandSignText** (1 connections) — `scripts/CinnabarIsland.asm`
+- **scripts/CeladonMansion1F.asm** (10 connections) — `scripts/CeladonMansion1F.asm`
+- **CeladonMansion1_PlayCryScript** (6 connections) — `scripts/CeladonMansion1F.asm`
+- **CeladonMansion1F_Script** (2 connections) — `scripts/CeladonMansion1F.asm`
+- **CeladonMansion1FClefairyText** (2 connections) — `scripts/CeladonMansion1F.asm`
+- **CeladonMansion1FMeowthText** (2 connections) — `scripts/CeladonMansion1F.asm`
+- **CeladonMansion1FNidoranFText** (2 connections) — `scripts/CeladonMansion1F.asm`
+- **CeladonMansion1F_TextPointers** (1 connections) — `scripts/CeladonMansion1F.asm`
+- **CeladonMansion1FGrannyText** (1 connections) — `scripts/CeladonMansion1F.asm`
+- **CeladonMansion1FManagersSuiteSignText** (1 connections) — `scripts/CeladonMansion1F.asm`
 
 ## Relationships
 
 - [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Scripts 29](Scripts_29.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 19](Scripts_19.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CinnabarIsland.asm`
+- `scripts/CeladonMansion1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

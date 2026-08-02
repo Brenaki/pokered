@@ -1,63 +1,77 @@
 # Ram 3
 
-> 30 nodes · cohesion 0.07
+> 120 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **Audio RAM [WRAM0]** (44 connections) — `ram/wram.asm`
-- **6.1 Modelo de execucao** (11 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **audio** (11 connections)
-- **wChannelNoteSpeeds** (11 connections) — `ram/wram.asm`
-- **wChannelReturnAddresses** (11 connections) — `ram/wram.asm`
-- **6. Subsistema de audio** (7 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **audio/notes.asm** (6 connections) — `audio/notes.asm`
-- **6.5 Gritos de Pokemon** (5 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **wChannelNoteDelayCountersFractionalPart** (5 connections) — `ram/wram.asm`
-- **Music_DoLowHealthAlarm** (3 connections) — `audio/low_health_alarm.asm`
-- **6.6 Estado persistente do motor** (3 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **audio/low_health_alarm.asm** (3 connections) — `audio/low_health_alarm.asm`
-- **audio/play_battle_music.asm** (3 connections) — `audio/play_battle_music.asm`
-- **wAudioROMBank** (3 connections) — `ram/wram.asm`
-- **wAudioSavedROMBank** (3 connections) — `ram/wram.asm`
-- **wMuteAudioAndPauseMusic** (3 connections) — `ram/wram.asm`
-- **6.2 Canais e concorrencia** (2 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **6.3 Linguagem de comandos** (2 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **audio/wave_samples.asm** (2 connections) — `audio/wave_samples.asm`
-- **wDisableChannelOutputWhenSfxEnds** (2 connections) — `ram/wram.asm`
-- **wFrequencyModifier** (2 connections) — `ram/wram.asm`
-- **wMusicTempo** (2 connections) — `ram/wram.asm`
-- **wNewSoundID** (2 connections) — `ram/wram.asm`
-- **wSavedVolume** (2 connections) — `ram/wram.asm`
-- **wSfxHeaderPointer** (2 connections) — `ram/wram.asm`
-- *... and 5 more nodes in this community*
+- **AddNTimes** (71 connections) — `home/array.asm`
+- **GetMonHeader** (39 connections) — `home/pokemon.asm`
+- **GainExperience** (29 connections) — `engine/battle/experience.asm`
+- **_AddPartyMon** (27 connections) — `engine/pokemon/add_mon.asm`
+- **LoadEnemyMonData** (25 connections) — `engine/battle/core.asm`
+- **_MoveMon** (18 connections) — `engine/pokemon/add_mon.asm`
+- **engine/battle/draw_hud_pokeball_gfx.asm** (18 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **Moves** (15 connections) — `data/moves/moves.asm`
+- **_AddEnemyMonToPlayerParty** (15 connections) — `engine/pokemon/add_mon.asm`
+- **wPartyCount** (15 connections) — `ram/wram.asm`
+- **LoadBattleMonFromParty** (14 connections) — `engine/battle/core.asm`
+- **LoadEnemyMonFromParty** (14 connections) — `engine/battle/core.asm`
+- **HealParty** (14 connections) — `engine/events/heal_party.asm`
+- **_RemovePokemon** (14 connections) — `engine/pokemon/remove_mon.asm`
+- **wPartyMonOT** (14 connections) — `ram/wram.asm`
+- **wPartySpecies** (14 connections) — `ram/wram.asm`
+- **GetCurrentMove** (13 connections) — `engine/battle/core.asm`
+- **SendNewMonToBox** (13 connections) — `engine/items/item_effects.asm`
+- **engine/battle/experience.asm** (12 connections) — `engine/battle/experience.asm`
+- **wPartyMons** (12 connections) — `ram/wram.asm`
+- **SwitchPartyMon_InitVarOrSwapData** (11 connections) — `engine/menus/start_sub_menus.asm`
+- **WriteMonMoves** (11 connections) — `engine/pokemon/evos_moves.asm`
+- **SkipFixedLengthTextEntries** (11 connections) — `home/array.asm`
+- **FarCopyData** (11 connections) — `home/copy.asm`
+- **CalcStats** (11 connections) — `home/move_mon.asm`
+- *... and 95 more nodes in this community*
 
 ## Relationships
 
-- [Ram 2](Ram_2.md) (21 shared connections)
-- [Audio Engine 1.Asm](Audio_Engine_1.Asm.md) (7 shared connections)
-- [Scripts 5](Scripts_5.md) (6 shared connections)
-- [Bank ROM0](Bank_ROM0.md) (3 shared connections)
-- [Audio Engine 1.Asm 2](Audio_Engine_1.Asm_2.md) (2 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
-- [Ram](Ram.md) (1 shared connections)
-- [Scripts 21](Scripts_21.md) (1 shared connections)
-- [Audio Engine 2.Asm](Audio_Engine_2.Asm.md) (1 shared connections)
-- [Audio Engine 3.Asm](Audio_Engine_3.Asm.md) (1 shared connections)
-- [Audio Sfx 2](Audio_Sfx_2.md) (1 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (35 shared connections)
+- [Home](Home.md) (5 shared connections)
+- [Engine Battle 5](Engine_Battle_5.md) (5 shared connections)
+- [Engine Menus 2](Engine_Menus_2.md) (5 shared connections)
+- [Engine Battle 4](Engine_Battle_4.md) (4 shared connections)
+- [Engine Menus](Engine_Menus.md) (4 shared connections)
+- [Engine Link](Engine_Link.md) (4 shared connections)
+- [Engine Items 2](Engine_Items_2.md) (3 shared connections)
+- [Engine Battle 10](Engine_Battle_10.md) (3 shared connections)
+- [Bank SRAM](Bank_SRAM.md) (3 shared connections)
+- [Engine Battle 9](Engine_Battle_9.md) (2 shared connections)
+- [Engine Battle 8](Engine_Battle_8.md) (2 shared connections)
 
 ## Source Files
 
-- `audio/low_health_alarm.asm`
-- `audio/notes.asm`
-- `audio/play_battle_music.asm`
-- `audio/wave_samples.asm`
-- `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- `ram/wram.asm`
+- `data/items/names.asm`
+- `data/moves/moves.asm`
+- `data/pokemon/names.asm`
+- `engine/battle/core.asm`
+- `engine/battle/draw_hud_pokeball_gfx.asm`
+- `engine/battle/experience.asm`
+- `engine/battle/misc.asm`
+- `engine/events/heal_party.asm`
+- `engine/flag_action.asm`
+- `engine/items/item_effects.asm`
+- `engine/menus/start_sub_menus.asm`
+- `engine/menus/text_box.asm`
+- `engine/pokemon/add_mon.asm`
+- `engine/pokemon/evos_moves.asm`
+- `engine/pokemon/experience.asm`
+- `engine/pokemon/load_mon_data.asm`
+- `engine/pokemon/remove_mon.asm`
+- `engine/pokemon/status_screen.asm`
+- `gfx/battle/balls.2bpp`
+- `home/array.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (100%)
+- EXTRACTED: 372 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

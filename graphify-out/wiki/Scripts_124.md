@@ -1,27 +1,24 @@
 # Scripts 124
 
-> 6 nodes · cohesion 0.33
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **scripts/CeladonMart4F.asm** (7 connections) — `scripts/CeladonMart4F.asm`
-- **CeladonMart4F_Script** (2 connections) — `scripts/CeladonMart4F.asm`
-- **CeladonMart4F_TextPointers** (1 connections) — `scripts/CeladonMart4F.asm`
-- **CeladonMart4FCurrentFloorSignText** (1 connections) — `scripts/CeladonMart4F.asm`
-- **CeladonMart4FSuperNerdText** (1 connections) — `scripts/CeladonMart4F.asm`
-- **CeladonMart4FYoungsterText** (1 connections) — `scripts/CeladonMart4F.asm`
+- **ViridianGymHiker2Text** (4 connections) — `scripts/ViridianGym.asm`
+- **ViridianGymTrainerHeader3** (2 connections) — `scripts/ViridianGym.asm`
 
 ## Relationships
 
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts 7](Scripts_7.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonMart4F.asm`
+- `scripts/ViridianGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

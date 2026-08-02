@@ -1,52 +1,52 @@
 # Ram 5
 
-> 17 nodes · cohesion 0.12
+> 22 nodes · cohesion 0.41
 
 ## Key Concepts
 
-- **CableClub_DoBattleOrTradeAgain** (28 connections) — `engine/link/cable_club.asm`
-- **Tilemap [WRAM0]** (9 connections) — `ram/wram.asm`
-- **wOverworldMap** (7 connections) — `ram/wram.asm`
-- **wTileMap** (6 connections) — `ram/wram.asm`
-- **macros/scripts/maps.asm** (5 connections) — `macros/scripts/maps.asm`
-- **wEventFlags** (5 connections) — `ram/wram.asm`
-- **Overworld Map [WRAM0]** (5 connections) — `ram/wram.asm`
-- **macros/coords.asm** (4 connections) — `macros/coords.asm`
-- **wLinkBattleRandomNumberList** (4 connections) — `ram/wram.asm`
-- **wOptions** (4 connections) — `ram/wram.asm`
-- **wSurroundingTiles** (4 connections) — `ram/wram.asm`
-- **wTrainerHeaderPtr** (4 connections) — `ram/wram.asm`
-- **wOverworldMapEnd** (3 connections) — `ram/wram.asm`
-- **wSerialEnemyDataBlock** (3 connections) — `ram/wram.asm`
-- **wSerialEnemyMonsPatchList** (3 connections) — `ram/wram.asm`
-- **wSerialPartyMonsPatchList** (3 connections) — `ram/wram.asm`
-- **wShadowOAMBackupEnd** (2 connections) — `ram/wram.asm`
+- **wChannelFlags1** (38 connections) — `ram/wram.asm`
+- **Audio1_PlaySound** (30 connections) — `audio/engine_1.asm`
+- **Audio2_PlaySound** (30 connections) — `audio/engine_2.asm`
+- **Audio3_PlaySound** (30 connections) — `audio/engine_3.asm`
+- **wChannelNoteDelayCounters** (17 connections) — `ram/wram.asm`
+- **wChannelPitchSlideTargetFrequencyHighBytes** (14 connections) — `ram/wram.asm`
+- **wChannelPitchSlideTargetFrequencyLowBytes** (14 connections) — `ram/wram.asm`
+- **Audio1_InitPitchSlideVars** (12 connections) — `audio/engine_1.asm`
+- **Audio2_InitPitchSlideVars** (12 connections) — `audio/engine_2.asm`
+- **Audio3_InitPitchSlideVars** (12 connections) — `audio/engine_3.asm`
+- **Audio1_ApplyPitchSlide** (11 connections) — `audio/engine_1.asm`
+- **Audio2_ApplyPitchSlide** (11 connections) — `audio/engine_2.asm`
+- **Audio3_ApplyPitchSlide** (11 connections) — `audio/engine_3.asm`
+- **wChannelNoteSpeeds** (11 connections) — `ram/wram.asm`
+- **wChannelPitchSlideCurrentFrequencyFractionalPart** (11 connections) — `ram/wram.asm`
+- **wChannelPitchSlideCurrentFrequencyHighBytes** (11 connections) — `ram/wram.asm`
+- **wChannelPitchSlideCurrentFrequencyLowBytes** (11 connections) — `ram/wram.asm`
+- **wChannelPitchSlideFrequencySteps** (11 connections) — `ram/wram.asm`
+- **wChannelPitchSlideFrequencyStepsFractionalPart** (11 connections) — `ram/wram.asm`
+- **wChannelPitchSlideLengthModifiers** (11 connections) — `ram/wram.asm`
+- **Audio2_pitch_slide** (10 connections) — `audio/engine_2.asm`
+- **wChannelLoopCounters** (8 connections) — `ram/wram.asm`
 
 ## Relationships
 
-- [Bank WRAM0](Bank_WRAM0.md) (7 shared connections)
-- [Home](Home.md) (4 shared connections)
-- [Ram](Ram.md) (3 shared connections)
-- [Scripts 5](Scripts_5.md) (2 shared connections)
-- [Home 7](Home_7.md) (2 shared connections)
-- [Engine Debug](Engine_Debug.md) (1 shared connections)
-- [Engine Link](Engine_Link.md) (1 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
-- [Engine Slots](Engine_Slots.md) (1 shared connections)
-- [Engine Movie 2](Engine_Movie_2.md) (1 shared connections)
-- [Engine Battle 7](Engine_Battle_7.md) (1 shared connections)
-- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
+- [Ram 6](Ram_6.md) (21 shared connections)
+- [Audio Engine 2.Asm](Audio_Engine_2.Asm.md) (9 shared connections)
+- [Audio Engine 3.Asm](Audio_Engine_3.Asm.md) (8 shared connections)
+- [Audio Engine 1.Asm](Audio_Engine_1.Asm.md) (5 shared connections)
+- [Audio Headers 3](Audio_Headers_3.md) (1 shared connections)
+- [Audio Headers](Audio_Headers.md) (1 shared connections)
+- [Audio Headers 2](Audio_Headers_2.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/link/cable_club.asm`
-- `macros/coords.asm`
-- `macros/scripts/maps.asm`
+- `audio/engine_1.asm`
+- `audio/engine_2.asm`
+- `audio/engine_3.asm`
 - `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 140 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
