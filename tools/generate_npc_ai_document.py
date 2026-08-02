@@ -12,7 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = ROOT / "docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md"
-BASELINE_COMMIT = "51079046aab46619f2ac5d9127ecf5be70e9a5e8"
+BASELINE_COMMIT = "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
 
 
 @dataclass(frozen=True)
@@ -258,7 +258,7 @@ def build_document() -> str:
 |---|---|
 | Identificacao | AI-NPC-003 |
 | Arquivo | `003-2026-08-01-Funcionamento-das-IAs-Pokemon.md` |
-| Revisao | 1.0 |
+| Revisao | 1.1 |
 | Data de emissao | 2026-08-01 |
 | Situacao | Emitido para revisao e uso tecnico interno |
 | Responsavel pelo processo | Equipe de reescrita ASM para C |
@@ -273,6 +273,7 @@ def build_document() -> str:
 | Revisao | Data | Alteracao | Autor | Aprovacao |
 |---|---|---|---|---|
 | 1.0 | 2026-08-01 | Emissao inicial da especificacao e dos inventarios completos | Codex | Pendente |
+| 1.1 | 2026-08-01 | Vinculo com oraculo ASM, matriz de IA de batalha e gate pre-C | Codex | Pendente |
 
 ## 1. Finalidade e relacao com a ISO 9001
 
@@ -931,12 +932,16 @@ por agentes e `graphify-out/graph.json`.
 - assertions de 47 classes, 918 objetos, 322 cabecalhos e 199 estados;
 - verificacao de sintaxe do gerador e reproducibilidade do Markdown;
 - atualizacao do grafo e export HTML apos emissao.
+- `rewrite/battle/contracts/cases/trainer_ai.json` executa AI-T01..AI-T12 nas ROMs Red/Blue;
+- `rewrite/battle/tests/test_source_inventory.py` verifica as 47 politicas e ausencia de perceptron;
+- `rewrite/battle/contracts/traceability.json` controla AI-REQ, AI-R e os casos de aceitacao;
+- `rewrite/battle/tests/test_c_rewrite_gate.py` bloqueia producao C antes da revisao humana.
 
 ### 17.2 Checklist do aprovador
 
 - [ ] Escopo e modos fiel/melhorado aprovados.
 - [ ] Bugs historicos classificados entre preservar e corrigir.
-- [ ] Casos TDD possuem fixtures e responsavel.
+- [x] Casos TDD da IA de batalha possuem fixtures ASM e rastreabilidade.
 - [ ] Inventarios conferem com o baseline.
 - [ ] Modelo de aprendizado possui opt-out, reset e schema de save.
 - [ ] Graphify e links de fonte estao atualizados.

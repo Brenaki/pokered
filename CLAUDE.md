@@ -16,6 +16,8 @@ Resumo operacional:
 - Aplique SOLID de forma pragmatica em C: modulos coesos, headers pequenos,
   interfaces explicitas e inversao para hardware/RNG/input/video/audio.
 - Use DDD com a linguagem do proprio jogo e dos labels existentes.
+- O marco atual de batalha e pre-C: execute a suite em `rewrite/battle/` para
+  Red e Blue e respeite `test_c_rewrite_gate.py` ate revisao humana explicita.
 - Use Graphify como mapa vivo do codigo: consulte `graphify-out/graph.json`
   com `graphify query`, `graphify path` ou `graphify explain` antes de
   responder perguntas de arquitetura/fluxo. Neste repo, atualize com

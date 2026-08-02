@@ -42,6 +42,8 @@ efeitos colaterais, layout de memoria e comportamento observavel.
 - `make tidy` remove objetos, ROMs, simbolos, mapas e patches gerados.
 - `make clean` executa `tidy` e tambem remove graficos compilados.
 - `make RGBDS=path/to/rgbds/` usa uma instalacao local do RGBDS.
+- `BATTLE_TEST_VARIANTS=red,blue uv run --project rewrite/battle --frozen pytest rewrite/battle/tests`
+  executa o contrato de caracterizacao da batalha nas duas ROMs.
 - `$(cat graphify-out/.graphify_python) tools/graphify_rgbds.py .` cria ou
   atualiza o grafo ASM-aware e a wiki navegavel por agentes.
 - `graphify query "pergunta"` consulta `graphify-out/graph.json` quando o grafo
@@ -156,6 +158,12 @@ Ao criar notas de estudo, prefira arquivos pequenos em `docs/rewrite/` com:
 
 Use uma camada C paralela antes de substituir comportamento real da ROM. O
 assembly deve continuar compilando enquanto o C amadurece por testes.
+
+O marco atual de batalha e deliberadamente pre-C. Enquanto
+`rewrite/battle/tests/test_c_rewrite_gate.py` existir, nao adicione `.c` ou `.h`
+em `rewrite/`. Revise primeiro `rewrite/battle/contracts/traceability.json`, os
+casos ASM e os riscos isolados; a liberacao do gate deve ser uma decisao humana
+registrada em commit proprio.
 
 Fluxo recomendado:
 

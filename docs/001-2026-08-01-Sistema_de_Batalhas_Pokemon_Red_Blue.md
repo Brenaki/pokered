@@ -6,13 +6,13 @@
 |---|---|
 | Identificação | BTL-001 |
 | Arquivo | `001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md` |
-| Revisão | 1.0 |
+| Revisão | 1.1 |
 | Data de emissão | 2026-08-01 |
 | Situação | Emitido para revisão e uso técnico interno |
 | Responsável pelo processo | Equipe de reescrita ASM para C |
 | Elaborado por | Análise automatizada e verificação direta do código-fonte |
 | Aprovador | Pendente de designação |
-| Baseline do código | commit `9c8d8f44e5c5850414ea3e8bdb5795f78bcb7db5` |
+| Baseline do código | commit `2b9f524537649e22d11bedaaee6eb81832fbbcb0` |
 | Abrangência | ROM Pokémon Red/Blue deste repositório |
 | Classificação | Informação documentada interna |
 
@@ -21,6 +21,7 @@
 | Revisão | Data | Alteração | Autor | Aprovação |
 |---|---|---|---|---|
 | 1.0 | 2026-08-01 | Emissão inicial da especificação do sistema de batalhas | Codex | Pendente |
+| 1.1 | 2026-08-01 | Inclusão do oráculo ASM Red/Blue, matriz executável, riscos isolados e gate pré-C | Codex | Pendente |
 
 ## 1. Finalidade e relação com a ISO 9001
 
@@ -1277,13 +1278,24 @@ A emissão 1.0 foi construída por:
 5. identificação separada de regra, apresentação e defeito legado;
 6. registro da baseline Git para repetibilidade.
 
-### 26.1 Checklist de aprovação
+### 26.1 Evidência executável da revisão 1.1
+
+- `rewrite/battle/contracts/cases/*.json` chama rotinas da ROM de produção por símbolo;
+- `rewrite/battle/tests/test_move_catalog_asm.py` lê os 165 movimentos nas ROMs;
+- `rewrite/battle/tests/test_asm_properties.py` enumera sono e o exemplo de captura 71/151;
+- `rewrite/battle/contracts/traceability.json` atribui exatamente um responsável a cada ID controlado;
+- `rewrite/battle/contracts/compatibility_hazards.md` isola hangs, link/UI e mutações persistentes;
+- `rewrite/battle/tests/test_c_rewrite_gate.py` impede código C antes da revisão humana deste marco;
+- `.github/workflows/battle-characterization.yml` executa o contrato para Red e Blue.
+- `rewrite/battle/contracts/validation.md` registra `497 passed` na validação local Red/Blue.
+
+### 26.2 Checklist de aprovação
 
 - [ ] Responsável técnico confirmou as fórmulas de dano e captura.
 - [ ] Responsável técnico confirmou status, itens e fluxo de turno.
 - [ ] Matriz de tipos foi comparada com `TypeEffects`.
 - [ ] Não conformidades receberam disposição inicial.
-- [ ] Casos TDD foram incorporados ao plano ou à suíte.
+- [x] Casos TDD foram incorporados à suíte de caracterização ASM.
 - [ ] Grafo foi regenerado após a inclusão deste documento.
 - [ ] Aprovador e data de aprovação foram registrados.
 
