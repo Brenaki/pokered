@@ -1,0 +1,137 @@
+{
+  "protocol_version": 1,
+  "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0",
+  "groups": [
+    {
+      "name": "turn-flow-hp-link",
+      "ids": ["BTL-FLW", "T-BTL-001", "T-BTL-002", "T-LNK-001", "T-HP-001", "T-HP-002"],
+      "method": "asm+structural",
+      "status": "covered",
+      "evidence": [
+        "rewrite/battle/contracts/cases/combat_math.json",
+        "rewrite/battle/contracts/cases/turn_status_pp.json",
+        "rewrite/battle/tests/test_source_inventory.py"
+      ]
+    },
+    {
+      "name": "battle-end",
+      "ids": ["BTL-END", "T-END-001"],
+      "method": "isolated-hazard",
+      "status": "covered",
+      "evidence": [
+        "rewrite/battle/contracts/compatibility_hazards.md",
+        "rewrite/battle/tests/test_source_inventory.py"
+      ]
+    },
+    {
+      "name": "move-catalog-and-pp",
+      "ids": ["BTL-MOV", "T-PP-001", "T-PP-002", "T-PP-003"],
+      "method": "asm+structural",
+      "status": "covered",
+      "evidence": [
+        "rewrite/battle/contracts/cases/turn_status_pp.json",
+        "rewrite/battle/tests/test_move_catalog_asm.py",
+        "rewrite/battle/tests/test_source_inventory.py"
+      ]
+    },
+    {
+      "name": "accuracy",
+      "ids": ["BTL-ACC", "T-ACC-001", "T-ACC-002", "T-ACC-003", "NC-02"],
+      "method": "asm",
+      "status": "covered",
+      "evidence": ["rewrite/battle/contracts/cases/accuracy_critical_type.json"]
+    },
+    {
+      "name": "critical-hits",
+      "ids": ["BTL-CRT", "T-CRT-001", "T-CRT-002", "T-CRT-003", "NC-01"],
+      "method": "asm",
+      "status": "covered",
+      "evidence": ["rewrite/battle/contracts/cases/accuracy_critical_type.json"]
+    },
+    {
+      "name": "damage",
+      "ids": ["BTL-DMG", "T-DMG-001", "T-DMG-002", "T-DMG-003", "T-DMG-004", "NC-10"],
+      "method": "asm",
+      "status": "covered",
+      "evidence": [
+        "rewrite/battle/contracts/cases/combat_math.json",
+        "rewrite/battle/contracts/cases/turn_status_pp.json"
+      ]
+    },
+    {
+      "name": "type-system",
+      "ids": ["BTL-TYP", "T-TYP-001", "T-TYP-002", "T-TYP-003", "NC-03"],
+      "method": "asm+structural",
+      "status": "covered",
+      "evidence": [
+        "rewrite/battle/contracts/cases/accuracy_critical_type.json",
+        "rewrite/battle/tests/test_source_inventory.py"
+      ]
+    },
+    {
+      "name": "status-and-residual",
+      "ids": ["BTL-STA", "T-STA-001", "T-STA-002", "T-STA-003", "T-STA-004", "NC-07", "NC-11", "NC-12"],
+      "method": "asm+structural",
+      "status": "covered",
+      "evidence": [
+        "rewrite/battle/contracts/cases/turn_status_pp.json",
+        "rewrite/battle/tests/test_asm_properties.py",
+        "rewrite/battle/tests/test_source_inventory.py"
+      ]
+    },
+    {
+      "name": "medicine-and-pp-items",
+      "ids": ["BTL-ITM", "T-ITM-001", "T-ITM-002", "T-ITM-003", "NC-06"],
+      "method": "asm",
+      "status": "covered",
+      "evidence": ["rewrite/battle/contracts/cases/items_capture.json"]
+    },
+    {
+      "name": "capture-and-safari",
+      "ids": ["BTL-CAP", "T-CAP-001", "T-CAP-002", "T-CAP-003", "T-CAP-004", "T-CAP-005", "T-SAF-001", "NC-15"],
+      "method": "asm+structural",
+      "status": "covered",
+      "evidence": [
+        "rewrite/battle/contracts/cases/items_capture.json",
+        "rewrite/battle/tests/test_asm_properties.py"
+      ]
+    },
+    {
+      "name": "randomness",
+      "ids": ["BTL-RNG"],
+      "method": "asm",
+      "status": "covered",
+      "evidence": [
+        "rewrite/battle/contracts/cases/accuracy_critical_type.json",
+        "rewrite/battle/contracts/cases/turn_status_pp.json",
+        "rewrite/battle/contracts/cases/items_capture.json"
+      ]
+    },
+    {
+      "name": "trainer-battle-ai",
+      "ids": [
+        "T-AI-001",
+        "AI-T01", "AI-T02", "AI-T03", "AI-T04", "AI-T05", "AI-T06",
+        "AI-T07", "AI-T08", "AI-T09", "AI-T10", "AI-T11", "AI-T12",
+        "AI-R01", "AI-R02", "AI-R03", "AI-R04", "AI-R05", "AI-R06",
+        "AI-REQ-001", "AI-REQ-002", "AI-REQ-003", "NC-04", "NC-05"
+      ],
+      "method": "asm+structural",
+      "status": "covered",
+      "evidence": [
+        "rewrite/battle/contracts/cases/trainer_ai.json",
+        "rewrite/battle/tests/test_source_inventory.py"
+      ]
+    },
+    {
+      "name": "isolated-compatibility-hazards",
+      "ids": ["NC-08", "NC-09", "NC-13", "NC-14"],
+      "method": "isolated-hazard",
+      "status": "covered",
+      "evidence": [
+        "rewrite/battle/contracts/compatibility_hazards.md",
+        "rewrite/battle/tests/test_source_inventory.py"
+      ]
+    }
+  ]
+}

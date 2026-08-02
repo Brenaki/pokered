@@ -1,0 +1,563 @@
+{
+  "protocol_version": 1,
+  "cases": [
+    {
+      "id": "T_ITM_001_POTION_CANNOT_REVIVE",
+      "requirements": ["T-ITM-001", "BTL-ITM"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUseMedicine.healHP",
+      "initial": {
+        "registers": {"HL": 53611, "D": 0},
+        "memory": [
+          {"symbol": "wCurItem", "value": 20},
+          {"symbol": "wPartyMon1HP", "value": [0, 0]},
+          {"symbol": "wPartyMon1MaxHP", "value": [0, 100]}
+        ]
+      },
+      "stubs": [
+        {"symbol": "ItemUseMedicine.healingItemNoEffect", "event": "no_effect"},
+        {"symbol": "ItemUseMedicine.doneHealing", "event": "healed"}
+      ],
+      "observe": {"registers": [], "memory": ["wPartyMon1HP:2"]},
+      "expected": {
+        "red": {"memory": {"wPartyMon1HP:2": [0, 0]}, "events": [{"type": "stub", "name": "no_effect", "symbol": "ItemUseMedicine.healingItemNoEffect"}]},
+        "blue": {"memory": {"wPartyMon1HP:2": [0, 0]}, "events": [{"type": "stub", "name": "no_effect", "symbol": "ItemUseMedicine.healingItemNoEffect"}]}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUseMedicine.healHP",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_ITM_002_POTION_ADDS_TWENTY",
+      "requirements": ["T-ITM-001", "BTL-ITM"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUseMedicine.healHP",
+      "initial": {
+        "registers": {"HL": 53611, "D": 0},
+        "memory": [
+          {"symbol": "wCurItem", "value": 20},
+          {"symbol": "wPlayerMonNumber", "value": 1},
+          {"symbol": "wPartyMon1HP", "value": [0, 1]},
+          {"symbol": "wPartyMon1MaxHP", "value": [0, 100]}
+        ]
+      },
+      "stubs": [
+        {"symbol": "ItemUseMedicine.healingItemNoEffect", "event": "no_effect"},
+        {"symbol": "ItemUseMedicine.doneHealing", "event": "healed"}
+      ],
+      "observe": {"registers": [], "memory": ["wPartyMon1HP:2"]},
+      "expected": {
+        "red": {"memory": {"wPartyMon1HP:2": [0, 21]}, "events": [{"type": "stub", "name": "healed", "symbol": "ItemUseMedicine.doneHealing"}]},
+        "blue": {"memory": {"wPartyMon1HP:2": [0, 21]}, "events": [{"type": "stub", "name": "healed", "symbol": "ItemUseMedicine.doneHealing"}]}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUseMedicine.healHP",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_ITM_003_POTION_SATURATES_AT_MAX_HP",
+      "requirements": ["T-ITM-001", "BTL-ITM"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUseMedicine.healHP",
+      "initial": {
+        "registers": {"HL": 53611, "D": 0},
+        "memory": [
+          {"symbol": "wCurItem", "value": 20},
+          {"symbol": "wPlayerMonNumber", "value": 1},
+          {"symbol": "wPartyMon1HP", "value": [0, 99]},
+          {"symbol": "wPartyMon1MaxHP", "value": [0, 100]}
+        ]
+      },
+      "stubs": [
+        {"symbol": "ItemUseMedicine.healingItemNoEffect", "event": "no_effect"},
+        {"symbol": "ItemUseMedicine.doneHealing", "event": "healed"}
+      ],
+      "observe": {"registers": [], "memory": ["wPartyMon1HP:2"]},
+      "expected": {
+        "red": {"memory": {"wPartyMon1HP:2": [0, 100]}, "events": [{"type": "stub", "name": "healed", "symbol": "ItemUseMedicine.doneHealing"}]},
+        "blue": {"memory": {"wPartyMon1HP:2": [0, 100]}, "events": [{"type": "stub", "name": "healed", "symbol": "ItemUseMedicine.doneHealing"}]}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUseMedicine.healHP",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_ITM_004_POTION_AT_FULL_HP_HAS_NO_EFFECT",
+      "requirements": ["T-ITM-001", "BTL-ITM"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUseMedicine.healHP",
+      "initial": {
+        "registers": {"HL": 53611, "D": 0},
+        "memory": [
+          {"symbol": "wCurItem", "value": 20},
+          {"symbol": "wPartyMon1HP", "value": [0, 100]},
+          {"symbol": "wPartyMon1MaxHP", "value": [0, 100]}
+        ]
+      },
+      "stubs": [
+        {"symbol": "ItemUseMedicine.healingItemNoEffect", "event": "no_effect"},
+        {"symbol": "ItemUseMedicine.doneHealing", "event": "healed"}
+      ],
+      "observe": {"registers": [], "memory": ["wPartyMon1HP:2"]},
+      "expected": {
+        "red": {"memory": {"wPartyMon1HP:2": [0, 100]}, "events": [{"type": "stub", "name": "no_effect", "symbol": "ItemUseMedicine.healingItemNoEffect"}]},
+        "blue": {"memory": {"wPartyMon1HP:2": [0, 100]}, "events": [{"type": "stub", "name": "no_effect", "symbol": "ItemUseMedicine.healingItemNoEffect"}]}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUseMedicine.healHP",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_ITM_005_REVIVE_USES_FLOORED_HALF_MAX_HP",
+      "requirements": ["T-ITM-002", "BTL-ITM"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUseMedicine.healHP",
+      "initial": {
+        "registers": {"HL": 53611, "D": 0},
+        "memory": [
+          {"symbol": "wCurItem", "value": 53},
+          {"symbol": "wIsInBattle", "value": 0},
+          {"symbol": "wPlayerMonNumber", "value": 1},
+          {"symbol": "wPartyMon1HP", "value": [0, 0]},
+          {"symbol": "wPartyMon1MaxHP", "value": [0, 101]}
+        ]
+      },
+      "stubs": [
+        {"symbol": "ItemUseMedicine.healingItemNoEffect", "event": "no_effect"},
+        {"symbol": "ItemUseMedicine.doneHealing", "event": "healed"}
+      ],
+      "observe": {"registers": [], "memory": ["wPartyMon1HP:2"]},
+      "expected": {
+        "red": {"memory": {"wPartyMon1HP:2": [0, 50]}, "events": [{"type": "stub", "name": "healed", "symbol": "ItemUseMedicine.doneHealing"}]},
+        "blue": {"memory": {"wPartyMon1HP:2": [0, 50]}, "events": [{"type": "stub", "name": "healed", "symbol": "ItemUseMedicine.doneHealing"}]}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUseMedicine.setCurrentHPToHalfMaxHP",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_ITM_006_REVIVE_ON_LIVING_MON_HAS_NO_EFFECT",
+      "requirements": ["T-ITM-002", "BTL-ITM"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUseMedicine.healHP",
+      "initial": {
+        "registers": {"HL": 53611, "D": 0},
+        "memory": [
+          {"symbol": "wCurItem", "value": 53},
+          {"symbol": "wPartyMon1HP", "value": [0, 1]},
+          {"symbol": "wPartyMon1MaxHP", "value": [0, 100]}
+        ]
+      },
+      "stubs": [
+        {"symbol": "ItemUseMedicine.healingItemNoEffect", "event": "no_effect"},
+        {"symbol": "ItemUseMedicine.doneHealing", "event": "healed"}
+      ],
+      "observe": {"registers": [], "memory": ["wPartyMon1HP:2"]},
+      "expected": {
+        "red": {"memory": {"wPartyMon1HP:2": [0, 1]}, "events": [{"type": "stub", "name": "no_effect", "symbol": "ItemUseMedicine.healingItemNoEffect"}]},
+        "blue": {"memory": {"wPartyMon1HP:2": [0, 1]}, "events": [{"type": "stub", "name": "no_effect", "symbol": "ItemUseMedicine.healingItemNoEffect"}]}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUseMedicine.healHP",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_ITM_007_SUCCESSFUL_MEDICINE_REMOVES_ITEM",
+      "requirements": ["T-ITM-001", "BTL-ITM"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUseMedicine.doneHealing",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wPseudoItemID", "value": 0},
+          {"symbol": "wCurItem", "value": 20},
+          {"symbol": "wIsInBattle", "value": 1}
+        ]
+      },
+      "stubs": [
+        {"symbol": "RemoveUsedItem", "event": "remove_item"},
+        {"symbol": "PlaySoundWaitForCurrent"},
+        {"symbol": "UpdateHPBar2"},
+        {"symbol": "ClearScreen"},
+        {"symbol": "RedrawPartyMenu"},
+        {"symbol": "DelayFrames"},
+        {"symbol": "WaitForTextScrollButtonPress"},
+        {"symbol": "GBPalWhiteOut"}
+      ],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "remove_item", "symbol": "RemoveUsedItem"}]},
+        "blue": {"events": [{"type": "stub", "name": "remove_item", "symbol": "RemoveUsedItem"}]}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUseMedicine.doneHealing",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_ITM_008_ETHER_PRESERVES_PP_UP_BITS",
+      "requirements": ["T-ITM-003", "BTL-ITM", "BTL-MOV"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUsePPRestore.restorePP",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wPPRestoreItem", "value": 80},
+          {"symbol": "wPartyMon1PP", "value": 133}
+        ]
+      },
+      "stubs": [
+        {"symbol": "GetMaxPP", "memory": [{"symbol": "wMaxPP", "value": 20}]},
+        {"symbol": "GetSelectedMoveOffset", "registers": {"HL": 53619}}
+      ],
+      "observe": {"registers": [], "memory": ["wPartyMon1PP"]},
+      "expected": {
+        "red": {"memory": {"wPartyMon1PP": [143]}},
+        "blue": {"memory": {"wPartyMon1PP": [143]}}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUsePPRestore.restorePP",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_ITM_009_MAX_ETHER_FULL_PP_WITH_PP_UP_IS_BUGGED",
+      "requirements": ["T-ITM-003", "BTL-ITM", "BTL-MOV"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUsePPRestore.restorePP",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wPPRestoreItem", "value": 81},
+          {"symbol": "wPartyMon1PP", "value": 148}
+        ]
+      },
+      "stubs": [
+        {"symbol": "GetMaxPP", "memory": [{"symbol": "wMaxPP", "value": 20}]},
+        {"symbol": "GetSelectedMoveOffset", "registers": {"HL": 53619}}
+      ],
+      "observe": {"registers": [], "memory": ["wPartyMon1PP"]},
+      "expected": {
+        "red": {"memory": {"wPartyMon1PP": [148]}},
+        "blue": {"memory": {"wPartyMon1PP": [148]}}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUsePPRestore.fullyRestorePP",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0",
+        "notes": "The raw PP byte is compared to max PP before masking PP Up bits."
+      }
+    },
+    {
+      "id": "T_CAP_002_STATUS_UNDERFLOW_CAPTURES",
+      "requirements": ["T-CAP-002", "BTL-CAP"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUseBall.checkForAilments",
+      "initial": {
+        "registers": {"B": 24},
+        "memory": [
+          {"symbol": "wCurItem", "value": 4},
+          {"symbol": "wEnemyMonStatus", "value": 1},
+          {"symbol": "wEnemyMonActualCatchRate", "value": 45},
+          {"symbol": "wEnemyMonHP", "value": [0, 44]},
+          {"symbol": "wEnemyMonMaxHP", "value": [0, 133]}
+        ]
+      },
+      "stubs": [{"symbol": "ItemUseBall.captured", "event": "captured"}, {"symbol": "ItemUseBall.failedToCapture", "event": "failed"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "captured", "symbol": "ItemUseBall.captured"}]},
+        "blue": {"events": [{"type": "stub", "name": "captured", "symbol": "ItemUseBall.captured"}]}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUseBall.checkForAilments",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_CAP_003_RAND_ONE_EQUALS_STATUS_CONTINUES",
+      "requirements": ["T-CAP-002", "BTL-CAP"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUseBall.checkForAilments",
+      "initial": {
+        "registers": {"B": 25},
+        "memory": [
+          {"symbol": "wCurItem", "value": 4},
+          {"symbol": "wEnemyMonStatus", "value": 1},
+          {"symbol": "wEnemyMonActualCatchRate", "value": 45},
+          {"symbol": "wEnemyMonHP", "value": [0, 44]},
+          {"symbol": "wEnemyMonMaxHP", "value": [0, 133]}
+        ]
+      },
+      "stubs": [{"symbol": "ItemUseBall.captured", "event": "captured"}, {"symbol": "ItemUseBall.failedToCapture", "event": "failed"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "captured", "symbol": "ItemUseBall.captured"}]},
+        "blue": {"events": [{"type": "stub", "name": "captured", "symbol": "ItemUseBall.captured"}]}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUseBall.checkForAilments",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_CAP_004_RAND_ONE_EQUALS_STATUS_PLUS_CATCH_RATE",
+      "requirements": ["T-CAP-002", "BTL-CAP"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUseBall.checkForAilments",
+      "initial": {
+        "registers": {"B": 70},
+        "memory": [
+          {"symbol": "wCurItem", "value": 4},
+          {"symbol": "wEnemyMonStatus", "value": 1},
+          {"symbol": "wEnemyMonActualCatchRate", "value": 45},
+          {"symbol": "wEnemyMonHP", "value": [0, 44]},
+          {"symbol": "wEnemyMonMaxHP", "value": [0, 133]}
+        ]
+      },
+      "stubs": [{"symbol": "ItemUseBall.captured", "event": "captured"}, {"symbol": "ItemUseBall.failedToCapture", "event": "failed"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "captured", "symbol": "ItemUseBall.captured"}]},
+        "blue": {"events": [{"type": "stub", "name": "captured", "symbol": "ItemUseBall.captured"}]}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUseBall.checkForAilments",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_CAP_005_RAND_ONE_ABOVE_STATUS_PLUS_CATCH_RATE_FAILS",
+      "requirements": ["T-CAP-002", "BTL-CAP"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUseBall.checkForAilments",
+      "initial": {
+        "registers": {"B": 71},
+        "memory": [
+          {"symbol": "wCurItem", "value": 4},
+          {"symbol": "wEnemyMonStatus", "value": 1},
+          {"symbol": "wEnemyMonActualCatchRate", "value": 45},
+          {"symbol": "wEnemyMonHP", "value": [0, 44]},
+          {"symbol": "wEnemyMonMaxHP", "value": [0, 133]}
+        ]
+      },
+      "stubs": [{"symbol": "ItemUseBall.captured", "event": "captured"}, {"symbol": "ItemUseBall.failedToCapture", "event": "failed"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "failed", "symbol": "ItemUseBall.failedToCapture"}]},
+        "blue": {"events": [{"type": "stub", "name": "failed", "symbol": "ItemUseBall.failedToCapture"}]}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUseBall.checkForAilments",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_CAP_006_W_255_CONSUMES_SECOND_RANDOM",
+      "requirements": ["T-CAP-003", "BTL-CAP", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUseBall.checkForAilments",
+      "initial": {
+        "registers": {"B": 0},
+        "memory": [
+          {"symbol": "wCurItem", "value": 4},
+          {"symbol": "wEnemyMonStatus", "value": 0},
+          {"symbol": "wEnemyMonActualCatchRate", "value": 255},
+          {"symbol": "wEnemyMonHP", "value": [0, 1]},
+          {"symbol": "wEnemyMonMaxHP", "value": [0, 12]}
+        ]
+      },
+      "rng": [255],
+      "rng_symbol": "Random",
+      "stubs": [{"symbol": "ItemUseBall.captured", "event": "captured"}, {"symbol": "ItemUseBall.failedToCapture", "event": "failed"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "rng", "source": "Random", "value": 255}, {"type": "stub", "name": "captured", "symbol": "ItemUseBall.captured"}], "rng_consumed": [255]},
+        "blue": {"events": [{"type": "rng", "source": "Random", "value": 255}, {"type": "stub", "name": "captured", "symbol": "ItemUseBall.captured"}], "rng_consumed": [255]}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUseBall.skip3",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_CAP_007_W_256_CAPTURES_WITHOUT_SECOND_RANDOM",
+      "requirements": ["T-CAP-003", "BTL-CAP", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUseBall.checkForAilments",
+      "initial": {
+        "registers": {"B": 0},
+        "memory": [
+          {"symbol": "wCurItem", "value": 4},
+          {"symbol": "wEnemyMonStatus", "value": 0},
+          {"symbol": "wEnemyMonActualCatchRate", "value": 255},
+          {"symbol": "wEnemyMonHP", "value": [0, 44]},
+          {"symbol": "wEnemyMonMaxHP", "value": [0, 133]}
+        ]
+      },
+      "stubs": [{"symbol": "ItemUseBall.captured", "event": "captured"}, {"symbol": "ItemUseBall.failedToCapture", "event": "failed"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "captured", "symbol": "ItemUseBall.captured"}], "rng_consumed": []},
+        "blue": {"events": [{"type": "stub", "name": "captured", "symbol": "ItemUseBall.captured"}], "rng_consumed": []}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUseBall.skip3",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_CAP_008_RAND_TWO_EQUAL_X_CAPTURES",
+      "requirements": ["T-CAP-004", "BTL-CAP", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUseBall.checkForAilments",
+      "initial": {
+        "registers": {"B": 0},
+        "memory": [
+          {"symbol": "wCurItem", "value": 4},
+          {"symbol": "wEnemyMonStatus", "value": 0},
+          {"symbol": "wEnemyMonActualCatchRate", "value": 255},
+          {"symbol": "wEnemyMonHP", "value": [0, 16]},
+          {"symbol": "wEnemyMonMaxHP", "value": [0, 19]}
+        ]
+      },
+      "rng": [100],
+      "rng_symbol": "Random",
+      "stubs": [{"symbol": "ItemUseBall.captured", "event": "captured"}, {"symbol": "ItemUseBall.failedToCapture", "event": "failed"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "rng", "source": "Random", "value": 100}, {"type": "stub", "name": "captured", "symbol": "ItemUseBall.captured"}], "rng_consumed": [100]},
+        "blue": {"events": [{"type": "rng", "source": "Random", "value": 100}, {"type": "stub", "name": "captured", "symbol": "ItemUseBall.captured"}], "rng_consumed": [100]}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUseBall.skip3",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_CAP_009_RAND_TWO_ABOVE_X_FAILS",
+      "requirements": ["T-CAP-004", "BTL-CAP", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUseBall.checkForAilments",
+      "initial": {
+        "registers": {"B": 0},
+        "memory": [
+          {"symbol": "wCurItem", "value": 4},
+          {"symbol": "wEnemyMonStatus", "value": 0},
+          {"symbol": "wEnemyMonActualCatchRate", "value": 255},
+          {"symbol": "wEnemyMonHP", "value": [0, 16]},
+          {"symbol": "wEnemyMonMaxHP", "value": [0, 19]}
+        ]
+      },
+      "rng": [101],
+      "rng_symbol": "Random",
+      "stubs": [{"symbol": "ItemUseBall.captured", "event": "captured"}, {"symbol": "ItemUseBall.failedToCapture", "event": "failed"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "rng", "source": "Random", "value": 101}, {"type": "stub", "name": "failed", "symbol": "ItemUseBall.failedToCapture"}], "rng_consumed": [101]},
+        "blue": {"events": [{"type": "rng", "source": "Random", "value": 101}, {"type": "stub", "name": "failed", "symbol": "ItemUseBall.failedToCapture"}], "rng_consumed": [101]}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUseBall.skip3",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_CAP_010_MASTER_BALL_CANNOT_CATCH_TRAINER_MON",
+      "requirements": ["T-CAP-005", "BTL-CAP"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUseBall",
+      "initial": {"registers": {}, "memory": [{"symbol": "wIsInBattle", "value": 2}, {"symbol": "wCurItem", "value": 1}]},
+      "stubs": [{"symbol": "ThrowBallAtTrainerMon", "event": "trainer_block"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "trainer_block", "symbol": "ThrowBallAtTrainerMon"}]},
+        "blue": {"events": [{"type": "stub", "name": "trainer_block", "symbol": "ThrowBallAtTrainerMon"}]}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUseBall",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_CAP_011_MASTER_BALL_BLOCKED_BY_FULL_PARTY_AND_BOX",
+      "requirements": ["T-CAP-005", "BTL-CAP"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ItemUseBall",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wIsInBattle", "value": 1},
+          {"symbol": "wBattleType", "value": 0},
+          {"symbol": "wPartyCount", "value": 6},
+          {"symbol": "wBoxCount", "value": 20},
+          {"symbol": "wCurItem", "value": 1}
+        ]
+      },
+      "stubs": [{"symbol": "BoxFullCannotThrowBall", "event": "storage_block"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "storage_block", "symbol": "BoxFullCannotThrowBall"}]},
+        "blue": {"events": [{"type": "stub", "name": "storage_block", "symbol": "BoxFullCannotThrowBall"}]}
+      },
+      "provenance": {
+        "source": "engine/items/item_effects.asm:ItemUseBall",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_SAF_001_BAIT_COUNTER_DECREMENTS",
+      "requirements": ["T-SAF-001", "BTL-CAP"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "PrintSafariZoneBattleText",
+      "initial": {
+        "registers": {},
+        "memory": [{"symbol": "wSafariBaitFactor", "value": 2}, {"symbol": "wSafariEscapeFactor", "value": 3}]
+      },
+      "stubs": [{"symbol": "LoadScreenTilesFromBuffer1"}, {"symbol": "PrintText"}],
+      "observe": {"registers": [], "memory": ["wSafariBaitFactor", "wSafariEscapeFactor"]},
+      "expected": {
+        "red": {"memory": {"wSafariBaitFactor": [1], "wSafariEscapeFactor": [3]}},
+        "blue": {"memory": {"wSafariBaitFactor": [1], "wSafariEscapeFactor": [3]}}
+      },
+      "provenance": {
+        "source": "engine/battle/safari_zone.asm:PrintSafariZoneBattleText",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_SAF_002_ROCK_EXPIRY_RESTORES_BASE_CATCH_RATE",
+      "requirements": ["T-SAF-001", "BTL-CAP"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "PrintSafariZoneBattleText",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wSafariBaitFactor", "value": 0},
+          {"symbol": "wSafariEscapeFactor", "value": 1},
+          {"symbol": "wEnemyMonSpecies", "value": 1},
+          {"symbol": "wEnemyMonActualCatchRate", "value": 90}
+        ]
+      },
+      "stubs": [
+        {"symbol": "GetMonHeader", "memory": [{"symbol": "wMonHCatchRate", "value": 45}]},
+        {"symbol": "LoadScreenTilesFromBuffer1"},
+        {"symbol": "PrintText"}
+      ],
+      "observe": {"registers": [], "memory": ["wSafariEscapeFactor", "wEnemyMonActualCatchRate"]},
+      "expected": {
+        "red": {"memory": {"wSafariEscapeFactor": [0], "wEnemyMonActualCatchRate": [45]}},
+        "blue": {"memory": {"wSafariEscapeFactor": [0], "wEnemyMonActualCatchRate": [45]}}
+      },
+      "provenance": {
+        "source": "engine/battle/safari_zone.asm:PrintSafariZoneBattleText",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    }
+  ]
+}

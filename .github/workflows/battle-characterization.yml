@@ -1,0 +1,74 @@
+name: Battle characterization
+
+on:
+  push:
+    branches: [master, rewrite/battle-system]
+    paths:
+      - "engine/battle/**"
+      - "engine/items/item_effects.asm"
+      - "data/battle/**"
+      - "data/moves/**"
+      - "data/trainers/**"
+      - "data/types/**"
+      - "constants/**"
+      - "rewrite/battle/**"
+      - "docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md"
+      - "docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md"
+      - ".github/workflows/battle-characterization.yml"
+  pull_request:
+    paths:
+      - "engine/battle/**"
+      - "engine/items/item_effects.asm"
+      - "data/battle/**"
+      - "data/moves/**"
+      - "data/trainers/**"
+      - "data/types/**"
+      - "constants/**"
+      - "rewrite/battle/**"
+      - "docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md"
+      - "docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md"
+      - ".github/workflows/battle-characterization.yml"
+
+env:
+  rgbds_version: v1.0.2+hotfix
+  UV_FROZEN: "1"
+
+jobs:
+  asm-oracle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Checkout RGBDS
+        uses: actions/checkout@v7
+        with:
+          path: rgbds
+          ref: ${{ env.rgbds_version }}
+          repository: gbdev/rgbds
+
+      - name: Install RGBDS build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -yq bison libpng-dev pkg-config
+
+      - name: Build RGBDS
+        working-directory: rgbds
+        run: make -j$(nproc)
+
+      - name: Build Red and Blue debug ROMs
+        run: make DEBUG=1 RGBDS="$PWD/rgbds/" -j$(nproc) pokered.gbc pokeblue.gbc
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+
+      - name: Sync characterization environment
+        run: uv sync --project rewrite/battle --extra test
+
+      - name: Run Red and Blue ASM contracts
+        env:
+          BATTLE_TEST_VARIANTS: red,blue
+        run: uv run --project rewrite/battle pytest rewrite/battle/tests

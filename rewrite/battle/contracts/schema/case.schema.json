@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pokered.local/contracts/battle-case-v1.schema.json",
+  "title": "Pokemon Red/Blue battle ASM cases",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["protocol_version", "cases"],
+  "properties": {
+    "protocol_version": {"const": 1},
+    "cases": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/case"}
+    }
+  },
+  "$defs": {
+    "integer": {
+      "oneOf": [
+        {"type": "integer", "minimum": 0, "maximum": 65535},
+        {"type": "string", "pattern": "^(0[xX][0-9a-fA-F]+|[0-9]+)$"}
+      ]
+    },
+    "memory": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["symbol", "value"],
+      "properties": {
+        "symbol": {"type": "string", "minLength": 1},
+        "value": {
+          "oneOf": [
+            {"$ref": "#/$defs/integer"},
+            {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/integer"}}
+          ]
+        }
+      }
+    },
+    "case": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "requirements", "entry_symbol", "initial", "observe", "provenance"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9_-]+$"},
+        "requirements": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+        "variants": {"type": "array", "items": {"enum": ["red", "blue"]}, "uniqueItems": true},
+        "entry_symbol": {"type": "string", "minLength": 1},
+        "initial": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "registers": {"type": "object", "additionalProperties": {"$ref": "#/$defs/integer"}},
+            "memory": {"type": "array", "items": {"$ref": "#/$defs/memory"}}
+          }
+        },
+        "observe": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "registers": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+            "memory": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+          }
+        },
+        "rng": {"type": "array", "items": {"$ref": "#/$defs/integer"}},
+        "rng_symbol": {"type": "string"},
+        "stubs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["symbol"],
+            "properties": {
+              "symbol": {"type": "string"},
+              "registers": {"type": "object", "additionalProperties": {"$ref": "#/$defs/integer"}},
+              "memory": {"type": "array", "items": {"$ref": "#/$defs/memory"}},
+              "event": {"type": "string"}
+            }
+          }
+        },
+        "max_frames": {"type": "integer", "minimum": 1, "maximum": 3600},
+        "expected": {"type": ["object", "null"]},
+        "provenance": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["source", "baseline"],
+          "properties": {
+            "source": {"type": "string"},
+            "baseline": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+            "notes": {"type": "string"}
+          }
+        }
+      }
+    }
+  }
+}

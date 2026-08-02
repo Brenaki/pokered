@@ -1,0 +1,67 @@
+{
+  "protocol_version": 1,
+  "cases": [
+    {
+      "id": "T_HP_001_MINIMUM_BAR_PIXEL",
+      "requirements": ["T-HP-001", "T-HP-002", "BTL-DMG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "GetHPBarLength",
+      "initial": {
+        "registers": {"BC": 1, "DE": 100},
+        "memory": []
+      },
+      "observe": {"registers": ["BC", "DE", "E"], "memory": ["hDividend:4", "hDivisor"]},
+      "expected": {
+        "red": {"registers": {"E": 1}},
+        "blue": {"registers": {"E": 1}}
+      },
+      "provenance": {
+        "source": "engine/gfx/hp_bar.asm:GetHPBarLength",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_HP_002_HALF_BAR",
+      "requirements": ["T-HP-002"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "GetHPBarLength",
+      "initial": {
+        "registers": {"BC": 50, "DE": 100},
+        "memory": []
+      },
+      "observe": {"registers": ["BC", "DE", "E"], "memory": ["hDividend:4", "hDivisor"]},
+      "expected": {
+        "red": {"registers": {"E": 24}},
+        "blue": {"registers": {"E": 24}}
+      },
+      "provenance": {
+        "source": "engine/gfx/hp_bar.asm:GetHPBarLength",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_DMG_001_NEUTRAL_DAMAGE",
+      "requirements": ["T-DMG-001", "BTL-DMG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "CalculateDamage",
+      "initial": {
+        "registers": {"B": 100, "C": 80, "D": 80, "E": 50},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wPlayerMoveEffect", "value": 0},
+          {"symbol": "wDamage", "value": [0, 0]}
+        ]
+      },
+      "observe": {"registers": [], "memory": ["wDamage:2"]},
+      "expected": {
+        "red": {"memory": {"wDamage:2": [0, 46]}},
+        "blue": {"memory": {"wDamage:2": [0, 46]}}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:CalculateDamage",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0",
+        "notes": "Section 12.8 before STAB, type effectiveness, and randomization."
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "baseline_commit": "2b9f524537649e22d11bedaaee6eb81832fbbcb0",
+  "rgbds_version": "v1.0.2+hotfix",
+  "pyboy_version": "2.7.0",
+  "rom_hash_source": "roms.sha1",
+  "behavior_mode": "GEN1_FIDELITY",
+  "golden_update_policy": "explicit-review-only"
+}

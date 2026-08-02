@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pokered.local/contracts/battle-result-v1.schema.json",
+  "title": "Pokemon Red/Blue battle result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["case_id", "variant", "termination", "registers", "memory", "events", "rng_consumed", "frames"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "variant": {"enum": ["red", "blue"]},
+    "termination": {"enum": ["returned", "timeout", "fault"]},
+    "registers": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0, "maximum": 65535}},
+    "memory": {
+      "type": "object",
+      "additionalProperties": {"type": "array", "items": {"type": "integer", "minimum": 0, "maximum": 255}}
+    },
+    "events": {"type": "array", "items": {"type": "object"}},
+    "rng_consumed": {"type": "array", "items": {"type": "integer", "minimum": 0, "maximum": 255}},
+    "frames": {"type": "integer", "minimum": 0}
+  }
+}
