@@ -1,32 +1,36 @@
 # Engine Items 7
 
-> 8 nodes · cohesion 0.32
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **ItemUseBait** (8 connections) — `engine/items/item_effects.asm`
-- **ItemUseRock** (7 connections) — `engine/items/item_effects.asm`
-- **BaitRockCommon** (5 connections) — `engine/items/item_effects.asm`
-- **wSafariBaitFactor** (5 connections) — `ram/wram.asm`
-- **wEnemyMonActualCatchRate** (4 connections) — `ram/wram.asm`
-- **wSafariEscapeFactor** (4 connections) — `ram/wram.asm`
-- **ThrewBaitText** (2 connections) — `engine/items/item_effects.asm`
-- **ThrewRockText** (2 connections) — `engine/items/item_effects.asm`
+- **ItemUseEscapeRope** (9 connections) — `engine/items/item_effects.asm`
+- **ItemUseItemfinder** (9 connections) — `engine/items/item_effects.asm`
+- **ItemUseReloadOverworldData** (8 connections) — `engine/items/item_effects.asm`
+- **data/tilesets/escape_rope_tilesets.asm** (3 connections) — `data/tilesets/escape_rope_tilesets.asm`
+- **EscapeRopeTilesets** (2 connections) — `data/tilesets/escape_rope_tilesets.asm`
+- **ItemfinderFoundItemText** (2 connections) — `engine/items/item_effects.asm`
+- **ItemfinderFoundNothingText** (2 connections) — `engine/items/item_effects.asm`
 
 ## Relationships
 
-- [Engine Battle](Engine_Battle.md) (2 shared connections)
+- [Engine Items 3](Engine_Items_3.md) (2 shared connections)
 - [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Engine Overworld 2](Engine_Overworld_2.md) (1 shared connections)
+- [Home](Home.md) (2 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
+- [Engine Events 6](Engine_Events_6.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
 
 ## Source Files
 
+- `data/tilesets/escape_rope_tilesets.asm`
 - `engine/items/item_effects.asm`
-- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

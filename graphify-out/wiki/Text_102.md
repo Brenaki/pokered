@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **text/Route12Gate2F.asm** (8 connections) — `text/Route12Gate2F.asm`
-- **_Route12Gate2FBrunetteGirlReceivedTM39Text** (1 connections) — `text/Route12Gate2F.asm`
-- **_Route12Gate2FBrunetteGirlTM39ExplanationText** (1 connections) — `text/Route12Gate2F.asm`
-- **_Route12Gate2FBrunetteGirlTM39NoRoomText** (1 connections) — `text/Route12Gate2F.asm`
-- **_Route12Gate2FBrunetteGirlYouCanHaveThisText** (1 connections) — `text/Route12Gate2F.asm`
-- **_Route12Gate2FLeftBinocularsText** (1 connections) — `text/Route12Gate2F.asm`
-- **_Route12Gate2FRightBinocularsText** (1 connections) — `text/Route12Gate2F.asm`
+- **text/Route4.asm** (8 connections) — `text/Route4.asm`
+- **_Route4CooltrainerF1Text** (1 connections) — `text/Route4.asm`
+- **_Route4CooltrainerF2AfterBattleText** (1 connections) — `text/Route4.asm`
+- **_Route4CooltrainerF2BattleText** (1 connections) — `text/Route4.asm`
+- **_Route4CooltrainerF2EndBattleText** (1 connections) — `text/Route4.asm`
+- **_Route4MtMoonSignText** (1 connections) — `text/Route4.asm`
+- **_Route4SignText** (1 connections) — `text/Route4.asm`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `text/Route12Gate2F.asm`
+- `text/Route4.asm`
 
 ## Audit Trail
 

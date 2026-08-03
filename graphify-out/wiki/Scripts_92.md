@@ -1,37 +1,36 @@
 # Scripts 92
 
-> 13 nodes · cohesion 0.27
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **scripts/CeruleanBadgeHouse.asm** (14 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseBadgeTextPointers** (10 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseMiddleAgedManText** (7 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseBoulderBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseCascadeBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseEarthBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseMarshBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseRainbowBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseSoulBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseThunderBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouseVolcanoBadgeText** (2 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouse_Script** (1 connections) — `scripts/CeruleanBadgeHouse.asm`
-- **CeruleanBadgeHouse_TextPointers** (1 connections) — `scripts/CeruleanBadgeHouse.asm`
+- **scripts/PokemonTower2F.asm** (14 connections) — `scripts/PokemonTower2F.asm`
+- **PokemonTower2FDefeatedRivalScript** (10 connections) — `scripts/PokemonTower2F.asm`
+- **PokemonTower2F_Script** (4 connections) — `scripts/PokemonTower2F.asm`
+- **PokemonTower2F_ScriptPointers** (2 connections) — `scripts/PokemonTower2F.asm`
+- **PokemonTower2FResetRivalEncounter** (2 connections) — `scripts/PokemonTower2F.asm`
+- **PokemonTower2FRivalDownThenRightMovement** (2 connections) — `scripts/PokemonTower2F.asm`
+- **PokemonTower2FRivalEncounterEventCoords** (2 connections) — `scripts/PokemonTower2F.asm`
+- **PokemonTower2FRivalRightThenDownMovement** (2 connections) — `scripts/PokemonTower2F.asm`
+- **PokemonTower2F_TextPointers** (1 connections) — `scripts/PokemonTower2F.asm`
+- **PokemonTower2FChannelerText** (1 connections) — `scripts/PokemonTower2F.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Home](Home.md) (1 shared connections)
-- [Home 8](Home_8.md) (1 shared connections)
-- [Ram 3](Ram_3.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (3 shared connections)
+- [Scripts 6](Scripts_6.md) (2 shared connections)
+- [Scripts 13](Scripts_13.md) (1 shared connections)
+- [Scripts 10](Scripts_10.md) (1 shared connections)
+- [Scripts 8](Scripts_8.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeruleanBadgeHouse.asm`
+- `scripts/PokemonTower2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

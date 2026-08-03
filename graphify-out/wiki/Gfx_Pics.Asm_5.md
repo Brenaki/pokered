@@ -33,12 +33,12 @@
 
 ## Relationships
 
-- [Gfx Pics.Asm](Gfx_Pics.Asm.md) (70 shared connections)
-- [Gfx Pokemon](Gfx_Pokemon.md) (65 shared connections)
-- [Gfx Pics.Asm 3](Gfx_Pics.Asm_3.md) (60 shared connections)
-- [Gfx Pics.Asm 2](Gfx_Pics.Asm_2.md) (59 shared connections)
+- [Gfx Pokemon](Gfx_Pokemon.md) (70 shared connections)
+- [Gfx Pics.Asm](Gfx_Pics.Asm.md) (65 shared connections)
+- [Gfx Pics.Asm 2](Gfx_Pics.Asm_2.md) (60 shared connections)
+- [Gfx Pics.Asm 3](Gfx_Pics.Asm_3.md) (59 shared connections)
 - [Gfx Pics.Asm 4](Gfx_Pics.Asm_4.md) (55 shared connections)
-- [Engine Battle 11](Engine_Battle_11.md) (1 shared connections)
+- [Engine Battle 9](Engine_Battle_9.md) (1 shared connections)
 - [Bank ROMX](Bank_ROMX.md) (1 shared connections)
 
 ## Source Files

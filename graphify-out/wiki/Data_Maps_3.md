@@ -1,12 +1,11 @@
 # Data Maps 3
 
-> 12 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.31
 
 ## Key Concepts
 
 - **LoadSpecialWarpData** (14 connections) — `engine/overworld/special_warps.asm`
 - **data/maps/special_warps.asm** (10 connections) — `data/maps/special_warps.asm`
-- **engine/overworld/special_warps.asm** (5 connections) — `engine/overworld/special_warps.asm`
 - **wCurMap** (3 connections) — `ram/wram.asm`
 - **ColosseumFriendWarp** (2 connections) — `data/maps/special_warps.asm`
 - **ColosseumPlayerWarp** (2 connections) — `data/maps/special_warps.asm`
@@ -19,9 +18,8 @@
 
 ## Relationships
 
-- [Home 5](Home_5.md) (2 shared connections)
-- [Home 4](Home_4.md) (1 shared connections)
-- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Home](Home.md) (2 shared connections)
+- [Scripts 10](Scripts_10.md) (1 shared connections)
 
 ## Source Files
 
@@ -31,7 +29,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

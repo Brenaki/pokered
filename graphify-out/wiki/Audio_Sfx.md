@@ -24,11 +24,11 @@
 - **audio/sfx/battle_16.asm** (3 connections) — `audio/sfx/battle_16.asm`
 - **audio/sfx/battle_18.asm** (3 connections) — `audio/sfx/battle_18.asm`
 - **audio/sfx/battle_1b.asm** (3 connections) — `audio/sfx/battle_1b.asm`
+- **audio/sfx/battle_1c.asm** (3 connections) — `audio/sfx/battle_1c.asm`
 - **audio/sfx/battle_21.asm** (3 connections) — `audio/sfx/battle_21.asm`
 - **audio/sfx/battle_22.asm** (3 connections) — `audio/sfx/battle_22.asm`
 - **audio/sfx/battle_25.asm** (3 connections) — `audio/sfx/battle_25.asm`
-- **audio/sfx/collision_1.asm** (3 connections) — `audio/sfx/collision_1.asm`
-- **audio/sfx/cut_1.asm** (3 connections) — `audio/sfx/cut_1.asm`
+- **audio/sfx/battle_26.asm** (3 connections) — `audio/sfx/battle_26.asm`
 - *... and 179 more nodes in this community*
 
 ## Relationships
@@ -58,16 +58,16 @@
 - `audio/sfx/battle_16.asm`
 - `audio/sfx/battle_18.asm`
 - `audio/sfx/battle_1b.asm`
+- `audio/sfx/battle_1c.asm`
 - `audio/sfx/battle_21.asm`
 - `audio/sfx/battle_22.asm`
 - `audio/sfx/battle_24.asm`
 - `audio/sfx/battle_25.asm`
+- `audio/sfx/battle_26.asm`
 - `audio/sfx/collision_1.asm`
+- `audio/sfx/collision_3.asm`
 - `audio/sfx/cry01_1.asm`
 - `audio/sfx/cry10_1.asm`
-- `audio/sfx/cry14_1.asm`
-- `audio/sfx/cry1c_1.asm`
-- `audio/sfx/cry1e_1.asm`
 
 ## Audit Trail
 

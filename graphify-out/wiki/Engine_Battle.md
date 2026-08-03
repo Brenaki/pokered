@@ -1,69 +1,77 @@
 # Engine Battle
 
-> 152 nodes · cohesion 0.03
+> 275 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **engine/battle/animations.asm** (144 connections) — `engine/battle/animations.asm`
-- **DelayFrames** (143 connections) — `home/delay.asm`
-- **AnimationShowMonPic** (14 connections) — `engine/battle/animations.asm`
-- **HideSubstituteShowMonAnim** (12 connections) — `engine/battle/animations.asm`
-- **MoveAnimation** (12 connections) — `engine/battle/animations.asm`
-- **AnimationFallingObjects** (11 connections) — `engine/battle/animations.asm`
-- **PlayAnimation** (11 connections) — `engine/battle/animations.asm`
-- **AnimationCleanOAM** (10 connections) — `engine/battle/animations.asm`
-- **AnimationHideMonPic** (10 connections) — `engine/battle/animations.asm`
-- **AnimationSubstitute** (10 connections) — `engine/battle/animations.asm`
-- **AnimationWavyScreen** (10 connections) — `engine/battle/animations.asm`
-- **AnimationMinimizeMon** (9 connections) — `engine/battle/animations.asm`
-- **AnimationSlideMonDownAndHide** (9 connections) — `engine/battle/animations.asm`
-- **ChangeMonPic** (9 connections) — `engine/battle/animations.asm`
-- **GetTileIDList** (9 connections) — `engine/battle/animations.asm`
-- **PlaySubanimation** (9 connections) — `engine/battle/animations.asm`
-- **PlayEnemyMoveAnimation** (9 connections) — `engine/battle/core.asm`
-- **AnimationFlashScreen** (8 connections) — `engine/battle/animations.asm`
-- **AnimationShootBallsUpward** (8 connections) — `engine/battle/animations.asm`
-- **AnimationSlideMonDown** (8 connections) — `engine/battle/animations.asm`
-- **AnimationTypePointerTable** (8 connections) — `engine/battle/animations.asm`
-- **CopyPicTiles** (8 connections) — `engine/battle/animations.asm`
-- **CopyTempPicToMonPic** (8 connections) — `engine/battle/animations.asm`
-- **LoadMoveAnimationTiles** (8 connections) — `engine/battle/animations.asm`
-- **ReshowSubstituteAnim** (8 connections) — `engine/battle/animations.asm`
-- *... and 127 more nodes in this community*
+- **engine/battle/core.asm** (229 connections) — `engine/battle/core.asm`
+- **LoadScreenTilesFromBuffer1** (44 connections) — `home/tilemap.asm`
+- **5. Visão arquitetural e fontes de verdade** (43 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **CheckEnemyStatusConditions** (40 connections) — `engine/battle/core.asm`
+- **CheckPlayerStatusConditions** (39 connections) — `engine/battle/core.asm`
+- **SaveScreenTilesToBuffer1** (38 connections) — `home/tilemap.asm`
+- **EnemySendOutFirstMon** (34 connections) — `engine/battle/core.asm`
+- **DisplayTextBoxID** (32 connections) — `home/textbox.asm`
+- **ClearScreenArea** (31 connections) — `home/copy2.asm`
+- **PlaySoundWaitForCurrent** (30 connections) — `home/delay.asm`
+- **DisplayBattleMenu** (26 connections) — `engine/battle/core.asm`
+- **25. Rastreabilidade consolidada** (25 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **FlagActionPredef** (25 connections) — `engine/flag_action.asm`
+- **Divide** (25 connections) — `home/math.asm`
+- **MainInBattleLoop** (24 connections) — `engine/battle/core.asm`
+- **StartBattle** (24 connections) — `engine/battle/core.asm`
+- **FaintEnemyPokemon** (23 connections) — `engine/battle/core.asm`
+- **EndOfBattle** (22 connections) — `engine/battle/end_of_battle.asm`
+- **wDamage** (22 connections) — `ram/wram.asm`
+- **EnemyCheckIfMirrorMoveEffect** (21 connections) — `engine/battle/core.asm`
+- **IsInArray** (21 connections) — `home/array2.asm`
+- **27. Referências internas** (20 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **MirrorMoveCheck** (20 connections) — `engine/battle/core.asm`
+- **TryRunningFromBattle** (20 connections) — `engine/battle/core.asm`
+- **DrawPlayerHUDAndHPBar** (19 connections) — `engine/battle/core.asm`
+- *... and 250 more nodes in this community*
 
 ## Relationships
 
-- [Engine Items 2](Engine_Items_2.md) (12 shared connections)
-- [Engine Movie](Engine_Movie.md) (11 shared connections)
-- [Scripts 11](Scripts_11.md) (10 shared connections)
-- [Engine Movie 3](Engine_Movie_3.md) (8 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (8 shared connections)
-- [Home](Home.md) (7 shared connections)
-- [Engine Menus](Engine_Menus.md) (7 shared connections)
-- [Engine Link](Engine_Link.md) (6 shared connections)
-- [Ram](Ram.md) (4 shared connections)
-- [Engine Movie 4](Engine_Movie_4.md) (3 shared connections)
-- [Engine Pokemon 2](Engine_Pokemon_2.md) (3 shared connections)
-- [Engine Battle 2](Engine_Battle_2.md) (3 shared connections)
+- [Engine Battle 2](Engine_Battle_2.md) (90 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (60 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (54 shared connections)
+- [Scripts 2](Scripts_2.md) (47 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (44 shared connections)
+- [Ram](Ram.md) (19 shared connections)
+- [Engine Menus](Engine_Menus.md) (12 shared connections)
+- [Engine Gfx 2](Engine_Gfx_2.md) (12 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (10 shared connections)
+- [Engine Movie](Engine_Movie.md) (8 shared connections)
+- [Rewrite 4](Rewrite_4.md) (7 shared connections)
+- [Constants](Constants.md) (6 shared connections)
 
 ## Source Files
 
-- `data/battle_anims/base_coords.asm`
-- `data/battle_anims/special_effect_pointers.asm`
-- `data/battle_anims/special_effects.asm`
-- `data/moves/sfx.asm`
-- `engine/battle/animations.asm`
+- `data/battle/always_happen_effects.asm`
+- `data/battle/critical_hit_moves.asm`
+- `data/battle/residual_effects_1.asm`
+- `data/battle/residual_effects_2.asm`
+- `data/battle/set_damage_effects.asm`
+- `data/battle/special_effects.asm`
+- `data/battle/stat_names.asm`
+- `data/battle/unused_critical_hit_moves.asm`
+- `data/moves/moves.asm`
+- `data/text_boxes.asm`
+- `data/types/type_matchups.asm`
+- `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
 - `engine/battle/core.asm`
-- `engine/battle/scroll_draw_trainer_pic.asm`
-- `engine/gfx/screen_effects.asm`
-- `engine/movie/intro.asm`
-- `gfx/battle/move_anim_0.2bpp`
-- `home/delay.asm`
-- `ram/wram.asm`
+- `engine/battle/decrement_pp.asm`
+- `engine/battle/effects.asm`
+- `engine/battle/end_of_battle.asm`
+- `engine/battle/move_effects/drain_hp.asm`
+- `engine/battle/print_type.asm`
+- `engine/battle/safari_zone.asm`
+- `engine/events/hidden_events/museum_fossils.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 424 (100%)
+- EXTRACTED: 1220 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

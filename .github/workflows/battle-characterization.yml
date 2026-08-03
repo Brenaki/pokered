@@ -68,7 +68,13 @@ jobs:
       - name: Sync characterization environment
         run: uv sync --project rewrite/battle --extra test
 
-      - name: Run Red and Blue ASM contracts
+      - name: Validate generated C battle tables
+        run: uv run --project rewrite/battle battle-c-tables --check
+
+      - name: Build and test portable C battle library
+        run: make -C rewrite/battle test shared
+
+      - name: Run Red, Blue, and C differential contracts
         env:
           BATTLE_TEST_VARIANTS: red,blue
         run: uv run --project rewrite/battle pytest rewrite/battle/tests

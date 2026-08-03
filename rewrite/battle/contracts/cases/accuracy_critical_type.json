@@ -357,6 +357,33 @@
         "source": "engine/battle/core.asm:CriticalHitTest",
         "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
       }
+    },
+    {
+      "id": "T_CRT_005_ZERO_POWER_SKIPS_RANDOMNESS",
+      "requirements": ["BTL-CRT", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "CriticalHitTest",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wBattleMonSpecies", "value": 1},
+          {"symbol": "wPlayerMoveNum", "value": [14, 50, 0]},
+          {"symbol": "wPlayerBattleStatus2", "value": 0}
+        ]
+      },
+      "rng": [],
+      "stubs": [{"symbol": "GetMonHeader", "memory": [{"symbol": "wMonHBaseSpeed", "value": 100}]}],
+      "observe": {"registers": [], "memory": ["wCriticalHitOrOHKO"]},
+      "expected": {
+        "red": {"memory": {"wCriticalHitOrOHKO": [0]}, "rng_consumed": []},
+        "blue": {"memory": {"wCriticalHitOrOHKO": [0]}, "rng_consumed": []}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:CriticalHitTest",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0",
+        "notes": "A zero-power move returns before BattleRandom."
+      }
     }
   ]
 }

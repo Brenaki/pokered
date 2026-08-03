@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **text/FuchsiaGoodRodHouse.asm** (7 connections) — `text/FuchsiaGoodRodHouse.asm`
-- **_FuchsiaGoodRodHouseFishingGuruHowAreTheFishText** (1 connections) — `text/FuchsiaGoodRodHouse.asm`
-- **_FuchsiaGoodRodHouseFishingGuruNoRoomText** (1 connections) — `text/FuchsiaGoodRodHouse.asm`
-- **_FuchsiaGoodRodHouseFishingGuruReceivedGoodRodText** (1 connections) — `text/FuchsiaGoodRodHouse.asm`
-- **_FuchsiaGoodRodHouseFishingGuruText** (1 connections) — `text/FuchsiaGoodRodHouse.asm`
-- **_FuchsiaGoodRodHouseFishingGuruThatsSoDisappointingText** (1 connections) — `text/FuchsiaGoodRodHouse.asm`
+- **text/PokemonTower2F.asm** (7 connections) — `text/PokemonTower2F.asm`
+- **_PokemonTower2FChannelerText** (1 connections) — `text/PokemonTower2F.asm`
+- **_PokemonTower2FRivalDefeatedText** (1 connections) — `text/PokemonTower2F.asm`
+- **_PokemonTower2FRivalHowsYourDexText** (1 connections) — `text/PokemonTower2F.asm`
+- **_PokemonTower2FRivalVictoryText** (1 connections) — `text/PokemonTower2F.asm`
+- **_PokemonTower2FRivalWhatBringsYouHereText** (1 connections) — `text/PokemonTower2F.asm`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `text/FuchsiaGoodRodHouse.asm`
+- `text/PokemonTower2F.asm`
 
 ## Audit Trail
 

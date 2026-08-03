@@ -1,42 +1,44 @@
 # Engine Events 9
 
-> 12 nodes · cohesion 0.30
+> 11 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **VendingMachineMenu** (24 connections) — `engine/events/vending_machine.asm`
-- **engine/events/vending_machine.asm** (12 connections) — `engine/events/vending_machine.asm`
-- **LoadVendingMachineItem** (3 connections) — `engine/events/vending_machine.asm`
-- **data/items/vending_prices.asm** (3 connections) — `data/items/vending_prices.asm`
-- **VendingPrices** (2 connections) — `data/items/vending_prices.asm`
-- **DrinkPriceText** (2 connections) — `engine/events/vending_machine.asm`
-- **DrinkText** (2 connections) — `engine/events/vending_machine.asm`
-- **VendingMachineText1** (2 connections) — `engine/events/vending_machine.asm`
-- **VendingMachineText4** (2 connections) — `engine/events/vending_machine.asm`
-- **VendingMachineText5** (2 connections) — `engine/events/vending_machine.asm`
-- **VendingMachineText6** (2 connections) — `engine/events/vending_machine.asm`
-- **VendingMachineText7** (2 connections) — `engine/events/vending_machine.asm`
+- **ReplaceTileBlock** (15 connections) — `engine/overworld/update_map.asm`
+- **PrintCardKeyText** (9 connections) — `engine/events/card_key.asm`
+- **engine/events/card_key.asm** (7 connections) — `engine/events/card_key.asm`
+- **GameCornerPosterText** (6 connections) — `scripts/GameCorner.asm`
+- **engine/overworld/update_map.asm** (5 connections) — `engine/overworld/update_map.asm`
+- **data/events/card_key_maps.asm** (3 connections) — `data/events/card_key_maps.asm`
+- **SilphCoMapList** (2 connections) — `data/events/card_key_maps.asm`
+- **GetCoordsInFrontOfPlayer** (2 connections) — `engine/events/card_key.asm`
+- **CompareHLWithBC** (2 connections) — `engine/overworld/update_map.asm`
+- **CardKeyFailText** (1 connections) — `engine/events/card_key.asm`
+- **CardKeySuccessText** (1 connections) — `engine/events/card_key.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (3 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
 - [Home](Home.md) (2 shared connections)
-- [Engine Menus](Engine_Menus.md) (2 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
-- [Engine Link](Engine_Link.md) (1 shared connections)
-- [Engine Menus 2](Engine_Menus_2.md) (1 shared connections)
-- [Bank HRAM](Bank_HRAM.md) (1 shared connections)
+- [Scripts 6](Scripts_6.md) (2 shared connections)
+- [Scripts 46](Scripts_46.md) (1 shared connections)
+- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Engine Gfx 2](Engine_Gfx_2.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 
 ## Source Files
 
-- `data/items/vending_prices.asm`
-- `engine/events/vending_machine.asm`
+- `data/events/card_key_maps.asm`
+- `engine/events/card_key.asm`
+- `engine/overworld/update_map.asm`
+- `scripts/GameCorner.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

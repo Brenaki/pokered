@@ -1,38 +1,47 @@
 # Docs 6
 
-> 9 nodes · cohesion 0.33
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Contexto Por Grafos Com Graphify** (8 connections) — `AGENTS.md`
-- **CLAUDE.md** (6 connections) — `CLAUDE.md`
-- **graphify-out/graph.json** (5 connections) — `graphify-out/graph.json`
-- **12. Manutenção, aprovação e Graphify** (3 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **12.1 Regeneração** (3 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **16. Controle de mudancas e Graphify** (3 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **graphify-out/graph.html** (3 connections) — `graphify-out/graph.html`
-- **12.2 Checklist de aprovação** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **graphify-out/GRAPH_REPORT.md** (1 connections) — `graphify-out/GRAPH_REPORT.md`
+- **Sistema de Batalhas de Pokémon Red/Blue** (30 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **21. Não conformidades e riscos conhecidos** (4 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **20. IA, RNG e batalha por link** (3 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **20.2 Aleatoriedade** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **Controle do documento** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **13. Movimentos com dano ou fluxo especial** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **19. Desobediência** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **20.1 IA** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **21.1 Política de decisão** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **28. Aprovação** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **Histórico de revisões** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **1. Finalidade e relação com a ISO 9001** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **9. Validação antes do movimento** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **3. Objetivos da qualidade** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **4. Termos e convenções** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
 
 ## Relationships
 
-- [Agents.Md](Agents.Md.md) (2 shared connections)
-- [Makefile](Makefile.md) (1 shared connections)
-- [Tools 3](Tools_3.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (5 shared connections)
+- [Engine Battle 2](Engine_Battle_2.md) (1 shared connections)
+- [Rewrite 3](Rewrite_3.md) (1 shared connections)
+- [Docs 14](Docs_14.md) (1 shared connections)
+- [Docs 15](Docs_15.md) (1 shared connections)
+- [Docs 16](Docs_16.md) (1 shared connections)
+- [Rewrite 8](Rewrite_8.md) (1 shared connections)
+- [Docs 17](Docs_17.md) (1 shared connections)
+- [Docs 18](Docs_18.md) (1 shared connections)
+- [Docs 12](Docs_12.md) (1 shared connections)
+- [Docs 19](Docs_19.md) (1 shared connections)
+- [Docs 20](Docs_20.md) (1 shared connections)
 
 ## Source Files
 
-- `AGENTS.md`
-- `CLAUDE.md`
-- `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `graphify-out/GRAPH_REPORT.md`
-- `graphify-out/graph.html`
-- `graphify-out/graph.json`
+- `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 37 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

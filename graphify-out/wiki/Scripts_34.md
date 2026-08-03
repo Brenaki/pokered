@@ -1,55 +1,51 @@
 # Scripts 34
 
-> 39 nodes · cohesion 0.09
+> 43 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts/Route24.asm** (41 connections) — `scripts/Route24.asm`
-- **21.41 Mapa `Route24`** (19 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **Route24_Script** (5 connections) — `scripts/Route24.asm`
-- **Route24AfterRocketBattleScript** (5 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerF1Text** (4 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerF2Text** (4 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerM2Text** (4 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerM3Text** (4 connections) — `scripts/Route24.asm`
-- **Route24Youngster1Text** (4 connections) — `scripts/Route24.asm`
-- **Route24Youngster2Text** (4 connections) — `scripts/Route24.asm`
-- **Route24PlayerMovingScript** (3 connections) — `scripts/Route24.asm`
-- **Route24_ScriptPointers** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerF1AfterBattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerF1BattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerF1EndBattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerF2AfterBattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerF2BattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerF2EndBattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerM2AfterBattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerM2BattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerM2EndBattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerM3AfterBattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerM3BattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24CooltrainerM3EndBattleText** (2 connections) — `scripts/Route24.asm`
-- **Route24SetDefaultScript** (2 connections) — `scripts/Route24.asm`
-- *... and 14 more nodes in this community*
+- **scripts/RockTunnel1F.asm** (43 connections) — `scripts/RockTunnel1F.asm`
+- **21.23 Mapa `RockTunnel1F`** (22 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **RockTunnel1FTalkToTrainer** (9 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1F_Script** (5 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FCooltrainerF1Text** (3 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FCooltrainerF2Text** (3 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FHiker1Text** (3 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FHiker2Text** (3 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FHiker3Text** (3 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FSuperNerdText** (3 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1F_ScriptPointers** (2 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FCooltrainerF1AfterBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FCooltrainerF1BattleText** (2 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FCooltrainerF1EndBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FCooltrainerF2AfterBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FCooltrainerF2BattleText** (2 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FCooltrainerF2EndBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FCooltrainerF3AfterBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FCooltrainerF3BattleText** (2 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FCooltrainerF3EndBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FCooltrainerF3Text** (2 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FHiker1AfterBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FHiker1BattleText** (2 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FHiker1EndBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
+- **RockTunnel1FHiker2AfterBattleText** (2 connections) — `scripts/RockTunnel1F.asm`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (6 shared connections)
-- [Scripts 7](Scripts_7.md) (6 shared connections)
-- [Scripts 3](Scripts_3.md) (2 shared connections)
-- [Scripts 6](Scripts_6.md) (1 shared connections)
-- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Engine Menus](Engine_Menus.md) (1 shared connections)
-- [Engine Movie](Engine_Movie.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 14](Scripts_14.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/Route24.asm`
+- `scripts/RockTunnel1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 83 (100%)
+- EXTRACTED: 81 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

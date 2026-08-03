@@ -1,21 +1,19 @@
 # Ram 10
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **wCanEvolveFlags** (6 connections) — `ram/wram.asm`
-- **wPartyAndBillsPCSavedMenuItem** (5 connections) — `ram/wram.asm`
-- **InitBattleVariables** (4 connections) — `engine/battle/init_battle_variables.asm`
-- **wPlayerHPBarColor** (4 connections) — `ram/wram.asm`
+- **OAM Buffer [WRAM0]** (4 connections) — `ram/wram.asm`
+- **wShadowOAMEnd** (2 connections) — `ram/wram.asm`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Engine Battle 7](Engine_Battle_7.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/battle/init_battle_variables.asm`
 - `ram/wram.asm`
 
 ## Audit Trail

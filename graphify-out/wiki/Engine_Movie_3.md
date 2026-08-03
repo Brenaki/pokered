@@ -1,66 +1,62 @@
 # Engine Movie 3
 
-> 58 nodes · cohesion 0.08
+> 39 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **engine/movie/trade.asm** (51 connections) — `engine/movie/trade.asm`
-- **DelayFrame** (51 connections) — `home/vblank.asm`
-- **EmotionBubble** (15 connections) — `engine/overworld/emotion_bubbles.asm`
-- **Trade_AnimLeftToRight** (12 connections) — `engine/movie/trade.asm`
-- **Trade_AnimRightToLeft** (12 connections) — `engine/movie/trade.asm`
-- **Trade_ShowEnemyMon** (11 connections) — `engine/movie/trade.asm`
-- **Trade_AnimateBallEnteringLinkCable** (10 connections) — `engine/movie/trade.asm`
-- **Trade_DrawOpenEndOfLinkCable** (10 connections) — `engine/movie/trade.asm`
-- **Trade_ShowPlayerMon** (10 connections) — `engine/movie/trade.asm`
-- **vBGMap1** (10 connections) — `ram/vram.asm`
-- **Trade_DrawLeftGameboy** (9 connections) — `engine/movie/trade.asm`
-- **Trade_DrawRightGameboy** (9 connections) — `engine/movie/trade.asm`
-- **Trade_ClearTileMap** (8 connections) — `engine/movie/trade.asm`
-- **CopyScreenTileBufferToVRAM** (8 connections) — `home/copy2.asm`
-- **Trade_Delay80** (7 connections) — `engine/movie/trade.asm`
-- **Trade_LoadMonSprite** (7 connections) — `engine/movie/trade.asm`
-- **AnimCut** (7 connections) — `engine/overworld/cut2.asm`
-- **WriteOAMBlock** (7 connections) — `home/oam.asm`
-- **PrintTradeFarewellText** (6 connections) — `engine/movie/trade.asm`
-- **Trade_AnimMonMoveVertical** (6 connections) — `engine/movie/trade.asm`
-- **Trade_CopyCableTilesOffScreen** (6 connections) — `engine/movie/trade.asm`
-- **Trade_CopyTileMapToVRAM** (6 connections) — `engine/movie/trade.asm`
-- **Trade_InitGameboyTransferGfx** (6 connections) — `engine/movie/trade.asm`
-- **Trade_SlideTextBoxOffScreen** (6 connections) — `engine/movie/trade.asm`
-- **InternalClockTradeAnim** (5 connections) — `engine/movie/trade.asm`
-- *... and 33 more nodes in this community*
+- **engine/movie/intro.asm** (35 connections) — `engine/movie/intro.asm`
+- **PlayIntroScene** (16 connections) — `engine/movie/intro.asm`
+- **LoadIntroGraphics** (12 connections) — `engine/movie/intro.asm`
+- **IntroDrawBlackBars** (5 connections) — `engine/movie/intro.asm`
+- **AnimateIntroNidorino** (4 connections) — `engine/movie/intro.asm`
+- **FightIntroFrontMon** (4 connections) — `engine/movie/intro.asm`
+- **GameFreakIntro** (4 connections) — `engine/movie/intro.asm`
+- **IntroClearScreen** (4 connections) — `engine/movie/intro.asm`
+- **IntroMoveMon** (4 connections) — `engine/movie/intro.asm`
+- **UpdateIntroNidorinoOAM** (4 connections) — `engine/movie/intro.asm`
+- **FightIntroBackMon** (3 connections) — `engine/movie/intro.asm`
+- **FightIntroFrontMon2** (3 connections) — `engine/movie/intro.asm`
+- **FightIntroFrontMon3** (3 connections) — `engine/movie/intro.asm`
+- **InitIntroNidorinoOAM** (3 connections) — `engine/movie/intro.asm`
+- **FightIntroBackMonEnd** (2 connections) — `engine/movie/intro.asm`
+- **FightIntroFrontMonEnd** (2 connections) — `engine/movie/intro.asm`
+- **GameFreakIntroEnd** (2 connections) — `engine/movie/intro.asm`
+- **IntroClearCommon** (2 connections) — `engine/movie/intro.asm`
+- **IntroClearMiddleOfScreen** (2 connections) — `engine/movie/intro.asm`
+- **IntroCopyTiles** (2 connections) — `engine/movie/intro.asm`
+- **IntroNidorinoAnimation1** (2 connections) — `engine/movie/intro.asm`
+- **IntroNidorinoAnimation2** (2 connections) — `engine/movie/intro.asm`
+- **IntroNidorinoAnimation3** (2 connections) — `engine/movie/intro.asm`
+- **IntroNidorinoAnimation4** (2 connections) — `engine/movie/intro.asm`
+- **IntroNidorinoAnimation5** (2 connections) — `engine/movie/intro.asm`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Engine Battle](Engine_Battle.md) (9 shared connections)
-- [Engine Menus](Engine_Menus.md) (8 shared connections)
-- [Scripts 2](Scripts_2.md) (5 shared connections)
-- [Engine Link](Engine_Link.md) (5 shared connections)
-- [Engine Menus 2](Engine_Menus_2.md) (5 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (5 shared connections)
-- [Home](Home.md) (4 shared connections)
-- [Engine Movie](Engine_Movie.md) (3 shared connections)
-- [Engine Battle 10](Engine_Battle_10.md) (3 shared connections)
-- [Scripts 11](Scripts_11.md) (2 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (6 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (4 shared connections)
+- [Engine Battle 7](Engine_Battle_7.md) (2 shared connections)
 - [Engine Items 2](Engine_Items_2.md) (2 shared connections)
-- [Engine Overworld 8](Engine_Overworld_8.md) (2 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Engine Movie 2](Engine_Movie_2.md) (1 shared connections)
+- [Engine Battle 12](Engine_Battle_12.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/battle/animations.asm`
 - `engine/movie/intro.asm`
-- `engine/movie/trade.asm`
-- `engine/overworld/cut2.asm`
-- `engine/overworld/emotion_bubbles.asm`
-- `home/copy2.asm`
-- `home/oam.asm`
-- `home/vblank.asm`
-- `ram/vram.asm`
+- `gfx/intro/blue_jigglypuff_1.2bpp`
+- `gfx/intro/blue_jigglypuff_2.2bpp`
+- `gfx/intro/blue_jigglypuff_3.2bpp`
+- `gfx/intro/gengar.2bpp`
+- `gfx/intro/red_nidorino_1.2bpp`
+- `gfx/intro/red_nidorino_2.2bpp`
+- `gfx/intro/red_nidorino_3.2bpp`
+- `gfx/splash/gamefreak_logo.2bpp`
+- `gfx/splash/gamefreak_presents.2bpp`
 
 ## Audit Trail
 
-- EXTRACTED: 193 (100%)
+- EXTRACTED: 77 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,77 +1,77 @@
 # Scripts 2
 
-> 144 nodes · cohesion 0.03
+> 151 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **TextScriptEnd** (534 connections) — `home/overworld_text.asm`
 - **PrintText** (360 connections) — `home/window.asm`
 - **GiveItem** (49 connections) — `home/give.asm`
+- **ItemUseBall** (47 connections) — `engine/items/item_effects.asm`
 - **YesNoChoice** (43 connections) — `home/yes_no.asm`
-- **scripts/PokemonFanClub.asm** (13 connections) — `scripts/PokemonFanClub.asm`
-- **scripts/Museum1F.asm** (12 connections) — `scripts/Museum1F.asm`
-- **DisplayPokedex** (12 connections) — `home/map_objects.asm`
-- **scripts/MrFujisHouse.asm** (10 connections) — `scripts/MrFujisHouse.asm`
-- **GivePokemon** (8 connections) — `home/give.asm`
-- **FightingDojoHitmonchanPokeBallText** (8 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoHitmonleePokeBallText** (8 connections) — `scripts/FightingDojo.asm`
-- **MtMoonB2FDomeFossilText** (8 connections) — `scripts/MtMoonB2F.asm`
-- **MtMoonB2FHelixFossilText** (8 connections) — `scripts/MtMoonB2F.asm`
-- **SilphCo7FSilphWorkerM1Text** (7 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo9FNurseText** (7 connections) — `scripts/SilphCo9F.asm`
-- **WardensHouseWardenText** (7 connections) — `scripts/WardensHouse.asm`
-- **BillsHouseBillSSTicketText** (6 connections) — `scripts/BillsHouse.asm`
-- **CopycatsHouse2FCopycatText** (6 connections) — `scripts/CopycatsHouse2F.asm`
-- **FuchsiaGoodRodHouseFishingGuruText** (6 connections) — `scripts/FuchsiaGoodRodHouse.asm`
-- **GameCornerPosterText** (6 connections) — `scripts/GameCorner.asm`
-- **PokemonFanClubChairmanText** (6 connections) — `scripts/PokemonFanClub.asm`
-- **PokemonMansion1FSwitchText** (6 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion2FSwitchText** (6 connections) — `scripts/PokemonMansion2F.asm`
-- **Route12SuperRodHouseFishingGuruText** (6 connections) — `scripts/Route12SuperRodHouse.asm`
-- **Route16Gate1FIsBicycleInBagScript** (6 connections) — `scripts/Route16Gate1F.asm`
-- *... and 119 more nodes in this community*
+- **DisplayPokemartDialogue_** (36 connections) — `engine/events/pokemart.asm`
+- **VendingMachineMenu** (24 connections) — `engine/events/vending_machine.asm`
+- **engine/menus/players_pc.asm** (23 connections) — `engine/menus/players_pc.asm`
+- **PlayerPCMenu** (21 connections) — `engine/menus/players_pc.asm`
+- **wPlayerMoney** (19 connections) — `ram/wram.asm`
+- **PlayerPCDeposit** (18 connections) — `engine/menus/players_pc.asm`
+- **PlayerPCWithdraw** (18 connections) — `engine/menus/players_pc.asm`
+- **DisplayChooseQuantityMenu** (18 connections) — `home/list_menu.asm`
+- **wNumBagItems** (17 connections) — `ram/wram.asm`
+- **OaksAideScript** (15 connections) — `engine/events/oaks_aide.asm`
+- **engine/events/pokemart.asm** (15 connections) — `engine/events/pokemart.asm`
+- **Museum1FScientist1Text** (14 connections) — `scripts/Museum1F.asm`
+- **PlayerPCToss** (13 connections) — `engine/menus/players_pc.asm`
+- **TossItem_** (12 connections) — `engine/items/item_effects.asm`
+- **engine/events/vending_machine.asm** (12 connections) — `engine/events/vending_machine.asm`
+- **SubBCDPredef** (11 connections) — `engine/math/bcd.asm`
+- **RemoveItemFromInventory** (11 connections) — `home/inventory.asm`
+- **HasEnoughMoney** (11 connections) — `home/money.asm`
+- **PrepareNewGameDebug** (10 connections) — `engine/debug/debug_party.asm`
+- **FoundHiddenItemText** (10 connections) — `engine/events/hidden_items.asm`
+- **ThrowBallAtTrainerMon** (10 connections) — `engine/items/item_effects.asm`
+- *... and 126 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 11](Scripts_11.md) (15 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (40 shared connections)
+- [Scripts 4](Scripts_4.md) (36 shared connections)
+- [Engine Battle](Engine_Battle.md) (31 shared connections)
+- [Engine Items](Engine_Items.md) (15 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (7 shared connections)
+- [Engine Menus](Engine_Menus.md) (7 shared connections)
+- [Ram](Ram.md) (6 shared connections)
 - [Home](Home.md) (6 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (6 shared connections)
-- [Scripts 5](Scripts_5.md) (5 shared connections)
-- [Scripts 38](Scripts_38.md) (5 shared connections)
-- [Engine Pokemon 2](Engine_Pokemon_2.md) (5 shared connections)
-- [Scripts 3](Scripts_3.md) (3 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (3 shared connections)
-- [Engine Menus 2](Engine_Menus_2.md) (3 shared connections)
-- [Scripts 39](Scripts_39.md) (3 shared connections)
-- [Scripts](Scripts.md) (3 shared connections)
-- [Engine Movie](Engine_Movie.md) (2 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (6 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (5 shared connections)
+- [Scripts 6](Scripts_6.md) (4 shared connections)
+- [Scripts 13](Scripts_13.md) (4 shared connections)
 
 ## Source Files
 
+- `data/items/vending_prices.asm`
+- `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- `engine/battle/core.asm`
+- `engine/debug/debug_party.asm`
+- `engine/events/give_pokemon.asm`
+- `engine/events/hidden_items.asm`
+- `engine/events/oaks_aide.asm`
+- `engine/events/pokemart.asm`
+- `engine/events/vending_machine.asm`
+- `engine/items/item_effects.asm`
+- `engine/items/subtract_paid_money.asm`
+- `engine/math/bcd.asm`
+- `engine/menus/oaks_pc.asm`
+- `engine/menus/pc.asm`
+- `engine/menus/players_pc.asm`
+- `home/compare.asm`
 - `home/give.asm`
-- `home/map_objects.asm`
-- `home/overworld_text.asm`
-- `home/trainers.asm`
-- `home/window.asm`
-- `home/yes_no.asm`
-- `scripts/BikeShop.asm`
-- `scripts/BillsHouse.asm`
-- `scripts/CeladonCity.asm`
-- `scripts/CeladonDiner.asm`
-- `scripts/CeladonMansion3F.asm`
-- `scripts/CeladonMansionRoofHouse.asm`
-- `scripts/CeladonMart3F.asm`
-- `scripts/CeruleanCity.asm`
-- `scripts/CeruleanGym.asm`
-- `scripts/CeruleanTrashedHouse.asm`
-- `scripts/ChampionsRoom.asm`
-- `scripts/CinnabarGym.asm`
-- `scripts/CinnabarLabMetronomeRoom.asm`
-- `scripts/CopycatsHouse2F.asm`
+- `home/inventory.asm`
+- `home/item.asm`
+- `home/list_menu.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 404 (100%)
+- EXTRACTED: 525 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

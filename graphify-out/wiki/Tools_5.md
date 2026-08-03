@@ -1,40 +1,44 @@
 # Tools 5
 
-> 11 nodes · cohesion 0.24
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **tools** (11 connections)
-- **common.h** (4 connections) — `tools/gfx.c`
-- **tools/gfx.c** (4 connections) — `tools/gfx.c`
-- **tools/pkmncompress.c** (4 connections) — `tools/pkmncompress.c`
-- **tools/make_patch.c** (3 connections) — `tools/make_patch.c`
-- **tools/scan_includes.c** (3 connections) — `tools/scan_includes.c`
-- **tools/common.h** (1 connections) — `tools/common.h`
-- **default** (1 connections) — `tools/gfx.c`
-- **default** (1 connections) — `tools/make_patch.c`
-- **default** (1 connections) — `tools/pkmncompress.c`
-- **default** (1 connections) — `tools/scan_includes.c`
+- **tools/generate_npc_ai_document.py** (23 connections) — `tools/generate_npc_ai_document.py`
+- **MovementCallsite** (1 connections) — `tools/generate_npc_ai_document.py`
+- **ObjectEvent** (1 connections) — `tools/generate_npc_ai_document.py`
+- **ScriptState** (1 connections) — `tools/generate_npc_ai_document.py`
+- **TrainerHeader** (1 connections) — `tools/generate_npc_ai_document.py`
+- **build_document** (1 connections) — `tools/generate_npc_ai_document.py`
+- **category** (1 connections) — `tools/generate_npc_ai_document.py`
+- **grouped** (1 connections) — `tools/generate_npc_ai_document.py`
+- **main** (1 connections) — `tools/generate_npc_ai_document.py`
+- **md_escape** (1 connections) — `tools/generate_npc_ai_document.py`
+- **nearest_label** (1 connections) — `tools/generate_npc_ai_document.py`
+- **parse_ai_actions** (1 connections) — `tools/generate_npc_ai_document.py`
+- **parse_move_layers** (1 connections) — `tools/generate_npc_ai_document.py`
+- **parse_movement_callsites** (1 connections) — `tools/generate_npc_ai_document.py`
+- **parse_object_events** (1 connections) — `tools/generate_npc_ai_document.py`
+- **parse_script_states** (1 connections) — `tools/generate_npc_ai_document.py`
+- **parse_trainer_classes** (1 connections) — `tools/generate_npc_ai_document.py`
+- **parse_trainer_headers** (1 connections) — `tools/generate_npc_ai_document.py`
+- **source** (1 connections) — `tools/generate_npc_ai_document.py`
+- **source** (1 connections) — `tools/generate_npc_ai_document.py`
+- **split_args** (1 connections) — `tools/generate_npc_ai_document.py`
+- **target** (1 connections) — `tools/generate_npc_ai_document.py`
+- **validate** (1 connections) — `tools/generate_npc_ai_document.py`
 
 ## Relationships
 
-- [Tools 2](Tools_2.md) (1 shared connections)
-- [Tools 4](Tools_4.md) (1 shared connections)
-- [Tools](Tools.md) (1 shared connections)
-- [Tools 3](Tools_3.md) (1 shared connections)
-- [Makefile](Makefile.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `tools/common.h`
-- `tools/gfx.c`
-- `tools/make_patch.c`
-- `tools/pkmncompress.c`
-- `tools/scan_includes.c`
+- `tools/generate_npc_ai_document.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

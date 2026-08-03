@@ -1,53 +1,57 @@
 # Scripts 54
 
-> 29 nodes · cohesion 0.09
+> 30 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **scripts/RocketHideoutB3F.asm** (31 connections) — `scripts/RocketHideoutB3F.asm`
-- **21.27 Mapa `RocketHideoutB3F`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **RocketHideoutB3F_Script** (5 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket1Text** (4 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket2Text** (4 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowTilePlayerMovement** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3TrainerHeader0** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3TrainerHeader1** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3TrainerHeaders** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3F_ScriptPointers** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket1AfterBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket1BattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket1EndBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket2AfterBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket2BattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket2EndBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement1** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement10** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement11** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement12** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement2** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement3** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement4** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement5** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement6** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- *... and 4 more nodes in this community*
+- **scripts/VermilionGym.asm** (31 connections) — `scripts/VermilionGym.asm`
+- **21.64 Mapa `VermilionGym`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **VermilionGym_Script** (8 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymLTSurgeReceiveTM24Script** (7 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymGentlemanText** (4 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSailorText** (4 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSuperNerdText** (4 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymGymGuideText** (3 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymLTSurgeAfterBattleScript** (3 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymResetScripts** (3 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSetDoorTile** (3 connections) — `scripts/VermilionGym.asm`
+- **VermilionGym_ScriptPointers** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymGentlemanAfterBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymGentlemanBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymGentlemanEndBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymLTSurgeReceivedThunderBadgeText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSailorAfterBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSailorBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSailorEndBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSuperNerdAfterBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSuperNerdBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymSuperNerdEndBattleText** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymTrainerHeader0** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymTrainerHeader1** (2 connections) — `scripts/VermilionGym.asm`
+- **VermilionGymTrainerHeader2** (2 connections) — `scripts/VermilionGym.asm`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
+- [Scripts 4](Scripts_4.md) (4 shared connections)
+- [Scripts 10](Scripts_10.md) (3 shared connections)
+- [Scripts 14](Scripts_14.md) (3 shared connections)
 - [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 7](Scripts_7.md) (2 shared connections)
-- [Scripts 3](Scripts_3.md) (1 shared connections)
-- [Home 5](Home_5.md) (1 shared connections)
-- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (1 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/RocketHideoutB3F.asm`
+- `scripts/VermilionGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
+- EXTRACTED: 63 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,53 +1,54 @@
 # Scripts 27
 
-> 43 nodes · cohesion 0.08
+> 48 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ExecuteCurMapScriptInTable** (72 connections) — `home/trainers.asm`
-- **scripts/MtMoon1F.asm** (42 connections) — `scripts/MtMoon1F.asm`
-- **21.10 Mapa `MtMoon1F`** (22 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **MtMoon1F_Script** (5 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FCooltrainerF1Text** (4 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FCooltrainerF2Text** (4 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FHikerText** (4 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FSuperNerdText** (4 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FYoungster1Text** (4 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FYoungster2Text** (4 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FYoungster3Text** (4 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1F_ScriptPointers** (2 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FCooltrainerF1AfterBattleText** (2 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FCooltrainerF1BattleText** (2 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FCooltrainerF1EndBattleText** (2 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FCooltrainerF2AfterBattleText** (2 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FCooltrainerF2BattleText** (2 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FCooltrainerF2EndBattleText** (2 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FHikerAfterBattleText** (2 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FHikerBattleText** (2 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FHikerEndBattleText** (2 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FSuperNerdAfterBattleText** (2 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FSuperNerdBattleText** (2 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FSuperNerdEndBattleText** (2 connections) — `scripts/MtMoon1F.asm`
-- **MtMoon1FYoungster1AfterBattleText** (2 connections) — `scripts/MtMoon1F.asm`
-- *... and 18 more nodes in this community*
+- **scripts/Route12.asm** (50 connections) — `scripts/Route12.asm`
+- **21.31 Mapa `Route12`** (22 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Route12SnorlaxPostBattleScript** (6 connections) — `scripts/Route12.asm`
+- **Route12_Script** (5 connections) — `scripts/Route12.asm`
+- **Route12CooltrainerMText** (4 connections) — `scripts/Route12.asm`
+- **Route12Fisher1Text** (4 connections) — `scripts/Route12.asm`
+- **Route12Fisher2Text** (4 connections) — `scripts/Route12.asm`
+- **Route12Fisher3Text** (4 connections) — `scripts/Route12.asm`
+- **Route12Fisher4Text** (4 connections) — `scripts/Route12.asm`
+- **Route12Fisher5Text** (4 connections) — `scripts/Route12.asm`
+- **Route12SuperNerdText** (4 connections) — `scripts/Route12.asm`
+- **Route12_ScriptPointers** (2 connections) — `scripts/Route12.asm`
+- **Route12CooltrainerMAfterBattleText** (2 connections) — `scripts/Route12.asm`
+- **Route12CooltrainerMBattleText** (2 connections) — `scripts/Route12.asm`
+- **Route12CooltrainerMEndBattleText** (2 connections) — `scripts/Route12.asm`
+- **Route12Fisher1AfterBattleText** (2 connections) — `scripts/Route12.asm`
+- **Route12Fisher1BattleText** (2 connections) — `scripts/Route12.asm`
+- **Route12Fisher1EndBattleText** (2 connections) — `scripts/Route12.asm`
+- **Route12Fisher2AfterBattleText** (2 connections) — `scripts/Route12.asm`
+- **Route12Fisher2BattleText** (2 connections) — `scripts/Route12.asm`
+- **Route12Fisher2EndBattleText** (2 connections) — `scripts/Route12.asm`
+- **Route12Fisher3AfterBattleText** (2 connections) — `scripts/Route12.asm`
+- **Route12Fisher3BattleText** (2 connections) — `scripts/Route12.asm`
+- **Route12Fisher3EndBattleText** (2 connections) — `scripts/Route12.asm`
+- **Route12Fisher4AfterBattleText** (2 connections) — `scripts/Route12.asm`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 7](Scripts_7.md) (8 shared connections)
-- [Scripts 2](Scripts_2.md) (7 shared connections)
-- [Scripts 16](Scripts_16.md) (1 shared connections)
-- [Scripts 3](Scripts_3.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (7 shared connections)
+- [Scripts 14](Scripts_14.md) (7 shared connections)
+- [Scripts 3](Scripts_3.md) (2 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `home/trainers.asm`
-- `scripts/MtMoon1F.asm`
+- `scripts/Route12.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 89 (100%)
+- EXTRACTED: 97 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

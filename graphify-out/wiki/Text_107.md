@@ -1,16 +1,15 @@
 # Text 107
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **text/VictoryRoad1F.asm** (8 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerFAfterBattleText** (1 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerFBattleText** (1 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerFEndBattleText** (1 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerMAfterBattleText** (1 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerMBattleText** (1 connections) — `text/VictoryRoad1F.asm`
-- **_VictoryRoad1FCooltrainerMEndBattleText** (1 connections) — `text/VictoryRoad1F.asm`
+- **text/PokemonTower1F.asm** (7 connections) — `text/PokemonTower1F.asm`
+- **_PokemonTower1FBaldingGuyText** (1 connections) — `text/PokemonTower1F.asm`
+- **_PokemonTower1FChannelerText** (1 connections) — `text/PokemonTower1F.asm`
+- **_PokemonTower1FGirlText** (1 connections) — `text/PokemonTower1F.asm`
+- **_PokemonTower1FMiddleAgedWomanText** (1 connections) — `text/PokemonTower1F.asm`
+- **_PokemonTower1FReceptionistText** (1 connections) — `text/PokemonTower1F.asm`
 
 ## Relationships
 
@@ -18,11 +17,11 @@
 
 ## Source Files
 
-- `text/VictoryRoad1F.asm`
+- `text/PokemonTower1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

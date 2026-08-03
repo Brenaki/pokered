@@ -1,53 +1,77 @@
 # Rewrite 2
 
-> 44 nodes · cohesion 0.10
+> 76 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **trainer-battle-ai** (25 connections) — `rewrite/battle/contracts/traceability.json`
-- **rewrite/battle/contracts/cases/trainer_ai.json** (18 connections) — `rewrite/battle/contracts/cases/trainer_ai.json`
-- **BTL-AI** (16 connections)
-- **AIEnemyTrainerChooseMoves** (12 connections) — `engine/battle/trainer_ai.asm`
-- **AI-REQ-002** (10 connections)
-- **AI-REQ-001** (8 connections)
-- **AI_T03_LAYER_TWO_ONLY_AT_ENCOURAGEMENT_ONE** (6 connections) — `rewrite/battle/contracts/cases/trainer_ai.json`
-- **AI_T05_DUAL_TYPE_USES_FIRST_TABLE_MATCH** (6 connections) — `rewrite/battle/contracts/cases/trainer_ai.json`
-- **AI_T08_BLAINE_CAN_WASTE_SUPER_POTION_AT_FULL_HP** (6 connections) — `rewrite/battle/contracts/cases/trainer_ai.json`
-- **AI_T09_COOLTRAINER_F_HEALS_WITHOUT_25_PERCENT_GATE** (6 connections) — `rewrite/battle/contracts/cases/trainer_ai.json`
-- **AI_T09_COOLTRAINER_F_SWITCHES_WITHOUT_25_PERCENT_GATE** (6 connections) — `rewrite/battle/contracts/cases/trainer_ai.json`
-- **AI-T10** (5 connections)
-- **AI_T01_CLASS_WITHOUT_LAYERS_RETURNS_ORIGINAL_MOVES** (5 connections) — `rewrite/battle/contracts/cases/trainer_ai.json`
-- **AI_T02_EXISTING_STATUS_DISCOURAGES_STATUS_MOVE** (5 connections) — `rewrite/battle/contracts/cases/trainer_ai.json`
-- **AI_T04_SUPER_EFFECTIVE_MOVE_IS_ENCOURAGED** (5 connections) — `rewrite/battle/contracts/cases/trainer_ai.json`
-- **AI_T06_DISABLED_SLOT_IS_REMOVED** (5 connections) — `rewrite/battle/contracts/cases/trainer_ai.json`
-- **AI_T07_TIED_MINIMUMS_KEEP_ALL_EXISTING_SLOTS** (5 connections) — `rewrite/battle/contracts/cases/trainer_ai.json`
-- **AI_T10_AGATHA_ROLL_127_CAN_HEAL** (5 connections) — `rewrite/battle/contracts/cases/trainer_ai.json`
-- **AI_T10_AGATHA_ROLL_128_DOES_NOT_ACT** (5 connections) — `rewrite/battle/contracts/cases/trainer_ai.json`
-- **AI_T10_AGATHA_ROLL_19_SWITCHES** (5 connections) — `rewrite/battle/contracts/cases/trainer_ai.json`
-- **AI_T10_AGATHA_ROLL_20_CAN_HEAL** (5 connections) — `rewrite/battle/contracts/cases/trainer_ai.json`
-- **AI_T11_SWITCH_REQUIRES_TWO_LIVING_PARTY_MEMBERS** (5 connections) — `rewrite/battle/contracts/cases/trainer_ai.json`
-- **AI_T12_USED_ACTION_DECREMENTS_ITEM_COUNT** (5 connections) — `rewrite/battle/contracts/cases/trainer_ai.json`
-- **AI-R02** (3 connections)
-- **AI-T09** (3 connections)
-- *... and 19 more nodes in this community*
+- **rewrite/battle** (46 connections)
+- **rewrite/battle/battle_characterization/inventory.py** (10 connections) — `rewrite/battle/battle_characterization/inventory.py`
+- **rewrite/battle/battle_characterization/symbols.py** (8 connections) — `rewrite/battle/battle_characterization/symbols.py`
+- **rewrite/battle/battle_characterization/generate_c_tables.py** (7 connections) — `rewrite/battle/battle_characterization/generate_c_tables.py`
+- **rewrite/battle/tests/test_contracts.py** (7 connections) — `rewrite/battle/tests/test_contracts.py`
+- **rewrite/battle/battle_characterization/contracts.py** (5 connections) — `rewrite/battle/battle_characterization/contracts.py`
+- **rewrite/battle/battle_characterization/cli.py** (4 connections) — `rewrite/battle/battle_characterization/cli.py`
+- **rewrite/battle/tests/conftest.py** (4 connections) — `rewrite/battle/tests/conftest.py`
+- **rewrite/battle/tests/test_generated_c_tables.py** (4 connections) — `rewrite/battle/tests/test_generated_c_tables.py`
+- **Battle Characterization** (4 connections) — `rewrite/battle/README.md`
+- **rewrite/battle/battle_characterization/expected.py** (3 connections) — `rewrite/battle/battle_characterization/expected.py`
+- **rewrite/battle/battle_characterization/traceability.py** (3 connections) — `rewrite/battle/battle_characterization/traceability.py`
+- **rewrite/battle/contracts/validation.md** (3 connections) — `rewrite/battle/contracts/validation.md`
+- **rewrite/battle/tests/test_asm_cases.py** (3 connections) — `rewrite/battle/tests/test_asm_cases.py`
+- **rewrite/battle/battle_characterization/paths.py** (2 connections) — `rewrite/battle/battle_characterization/paths.py`
+- **rewrite/battle/contracts/coverage_policy.md** (2 connections) — `rewrite/battle/contracts/coverage_policy.md`
+- **rewrite/battle/README.md** (2 connections) — `rewrite/battle/README.md`
+- **Validation record** (2 connections) — `rewrite/battle/contracts/validation.md`
+- **Design boundaries** (2 connections) — `rewrite/battle/README.md`
+- **rewrite/battle/battle_characterization/__init__.py** (1 connections) — `rewrite/battle/battle_characterization/__init__.py`
+- **rewrite/battle/contracts/baseline.json** (1 connections) — `rewrite/battle/contracts/baseline.json`
+- **rewrite/battle/contracts/schema/case.schema.json** (1 connections) — `rewrite/battle/contracts/schema/case.schema.json`
+- **rewrite/battle/contracts/schema/result.schema.json** (1 connections) — `rewrite/battle/contracts/schema/result.schema.json`
+- **rewrite/battle/pyproject.toml** (1 connections) — `rewrite/battle/pyproject.toml`
+- **rewrite/battle/src/gen1_combat_tables.generated.h** (1 connections) — `rewrite/battle/src/gen1_combat_tables.generated.h`
+- *... and 51 more nodes in this community*
 
 ## Relationships
 
-- [Engine Battle 6](Engine_Battle_6.md) (8 shared connections)
-- [Engine Battle 10](Engine_Battle_10.md) (2 shared connections)
-- [Data Trainers 2](Data_Trainers_2.md) (1 shared connections)
-- [Docs 2](Docs_2.md) (1 shared connections)
-- [Engine Battle 14](Engine_Battle_14.md) (1 shared connections)
+- [Rewrite](Rewrite.md) (7 shared connections)
+- [Rewrite 8](Rewrite_8.md) (5 shared connections)
+- [Rewrite 4](Rewrite_4.md) (2 shared connections)
+- [Rewrite 5](Rewrite_5.md) (2 shared connections)
+- [Engine Battle 4](Engine_Battle_4.md) (2 shared connections)
+- [Rewrite 6](Rewrite_6.md) (1 shared connections)
+- [Rewrite 10](Rewrite_10.md) (1 shared connections)
+- [Rewrite 9](Rewrite_9.md) (1 shared connections)
+- [Rewrite 7](Rewrite_7.md) (1 shared connections)
+- [Rewrite 3](Rewrite_3.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Rewrite 11](Rewrite_11.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/battle/trainer_ai.asm`
-- `rewrite/battle/contracts/cases/trainer_ai.json`
-- `rewrite/battle/contracts/traceability.json`
+- `rewrite/battle/README.md`
+- `rewrite/battle/battle_characterization/__init__.py`
+- `rewrite/battle/battle_characterization/cli.py`
+- `rewrite/battle/battle_characterization/contracts.py`
+- `rewrite/battle/battle_characterization/expected.py`
+- `rewrite/battle/battle_characterization/generate_c_tables.py`
+- `rewrite/battle/battle_characterization/inventory.py`
+- `rewrite/battle/battle_characterization/paths.py`
+- `rewrite/battle/battle_characterization/symbols.py`
+- `rewrite/battle/battle_characterization/traceability.py`
+- `rewrite/battle/contracts/baseline.json`
+- `rewrite/battle/contracts/coverage_policy.md`
+- `rewrite/battle/contracts/schema/case.schema.json`
+- `rewrite/battle/contracts/schema/result.schema.json`
+- `rewrite/battle/contracts/validation.md`
+- `rewrite/battle/pyproject.toml`
+- `rewrite/battle/src/gen1_combat_tables.generated.h`
+- `rewrite/battle/src/gen1_trainer_tables.generated.h`
+- `rewrite/battle/tests/conftest.py`
+- `rewrite/battle/tests/test_asm_cases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 112 (100%)
+- EXTRACTED: 100 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

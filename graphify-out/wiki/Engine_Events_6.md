@@ -1,41 +1,55 @@
 # Engine Events 6
 
-> 18 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **engine/events/hidden_events/bench_guys.asm** (21 connections) — `engine/events/hidden_events/bench_guys.asm`
-- **SaffronCityPokecenterBenchGuyText** (5 connections) — `engine/events/hidden_events/bench_guys.asm`
-- **SaffronCityPokecenterBenchGuyText1** (2 connections) — `engine/events/hidden_events/bench_guys.asm`
-- **SaffronCityPokecenterBenchGuyText2** (2 connections) — `engine/events/hidden_events/bench_guys.asm`
-- **CeladonCityHotelText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
-- **CeladonCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
-- **CeruleanCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
-- **CinnabarIslandPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
-- **FuchsiaCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
-- **LavenderCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
-- **MtMoonPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
-- **PewterCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
-- **RockTunnelPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
-- **UnusedBenchGuyText1** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
-- **UnusedBenchGuyText2** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
-- **UnusedBenchGuyText3** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
-- **VermilionCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
-- **ViridianCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **data/events** (11 connections)
+- **HiddenCoins** (11 connections) — `engine/events/hidden_items.asm`
+- **engine/events/hidden_items.asm** (11 connections) — `engine/events/hidden_items.asm`
+- **HiddenItems** (7 connections) — `engine/events/hidden_items.asm`
+- **HiddenItemNear** (7 connections) — `engine/items/itemfinder.asm`
+- **wObtainedHiddenItemsFlags** (5 connections) — `ram/wram.asm`
+- **engine/items/itemfinder.asm** (4 connections) — `engine/items/itemfinder.asm`
+- **HiddenItemCoords** (3 connections) — `data/events/hidden_item_coords.asm`
+- **FindHiddenItemOrCoinsIndex** (3 connections) — `engine/events/hidden_items.asm`
+- **data/events/hidden_coins.asm** (3 connections) — `data/events/hidden_coins.asm`
+- **data/events/hidden_item_coords.asm** (3 connections) — `data/events/hidden_item_coords.asm`
+- **wObtainedHiddenCoinsFlags** (3 connections) — `ram/wram.asm`
+- **HiddenCoinCoords** (2 connections) — `data/events/hidden_coins.asm`
+- **HiddenItemBagFullText** (2 connections) — `engine/events/hidden_items.asm`
+- **Sub5ClampTo0** (2 connections) — `engine/items/itemfinder.asm`
+- **IsInRestOfArray** (2 connections) — `home/array2.asm`
+- **DroppedHiddenCoinsText** (1 connections) — `engine/events/hidden_items.asm`
+- **FoundHiddenCoinsText** (1 connections) — `engine/events/hidden_items.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Engine Battle](Engine_Battle.md) (3 shared connections)
+- [Scripts 46](Scripts_46.md) (3 shared connections)
+- [Data Events](Data_Events.md) (2 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Engine Events 4](Engine_Events_4.md) (1 shared connections)
+- [Data Events 3](Data_Events_3.md) (1 shared connections)
+- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
+- [Data Events 2](Data_Events_2.md) (1 shared connections)
+- [Engine Events 8](Engine_Events_8.md) (1 shared connections)
+- [Engine Slots](Engine_Slots.md) (1 shared connections)
 - [Engine Slots 2](Engine_Slots_2.md) (1 shared connections)
-- [Data Events](Data_Events.md) (1 shared connections)
+- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/events/hidden_events/bench_guys.asm`
+- `data/events/hidden_coins.asm`
+- `data/events/hidden_item_coords.asm`
+- `engine/events/hidden_items.asm`
+- `engine/items/itemfinder.asm`
+- `home/array2.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

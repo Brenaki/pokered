@@ -1,12 +1,14 @@
 # Data Tilemaps.Asm
 
-> 22 nodes · cohesion 0.09
+> 24 nodes · cohesion 0.09
 
 ## Key Concepts
 
 - **data/tilemaps.asm** (13 connections) — `data/tilemaps.asm`
+- **CopyDownscaledMonTiles** (7 connections) — `engine/battle/animations.asm`
 - **DownscaledMonTiles_3x3** (3 connections) — `data/tilemaps.asm`
 - **DownscaledMonTiles_5x5** (3 connections) — `data/tilemaps.asm`
+- **CopyTileIDs_NoBGTransfer** (3 connections) — `engine/battle/animations.asm`
 - **GameBoyTiles** (2 connections) — `data/tilemaps.asm`
 - **GengarIntroTiles1** (2 connections) — `data/tilemaps.asm`
 - **GengarIntroTiles2** (2 connections) — `data/tilemaps.asm`
@@ -29,11 +31,12 @@
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Engine Gfx 2](Engine_Gfx_2.md) (1 shared connections)
 
 ## Source Files
 
 - `data/tilemaps.asm`
+- `engine/battle/animations.asm`
 - `gfx/intro/gengar_1.tilemap`
 - `gfx/intro/gengar_2.tilemap`
 - `gfx/intro/gengar_3.tilemap`
@@ -47,7 +50,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

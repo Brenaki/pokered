@@ -4,31 +4,31 @@
 
 ## Key Concepts
 
-- **tools/graphify_rgbds.py** (29 connections) — `tools/graphify_rgbds.py`
-- **GraphBuilder** (1 connections) — `tools/graphify_rgbds.py`
-- **call_targets** (1 connections) — `tools/graphify_rgbds.py`
-- **community_label** (1 connections) — `tools/graphify_rgbds.py`
-- **detection** (1 connections) — `tools/graphify_rgbds.py`
-- **domain_node** (1 connections) — `tools/graphify_rgbds.py`
-- **edge** (1 connections) — `tools/graphify_rgbds.py`
-- **ensure_path_node** (1 connections) — `tools/graphify_rgbds.py`
-- **extract_json_entities** (1 connections) — `tools/graphify_rgbds.py`
-- **extract_label** (1 connections) — `tools/graphify_rgbds.py`
-- **extract_markdown_headings** (1 connections) — `tools/graphify_rgbds.py`
-- **extract_markdown_references** (1 connections) — `tools/graphify_rgbds.py`
-- **extract_python_definitions** (1 connections) — `tools/graphify_rgbds.py`
-- **extraction** (1 connections) — `tools/graphify_rgbds.py`
-- **file_node** (1 connections) — `tools/graphify_rgbds.py`
-- **first_pass** (1 connections) — `tools/graphify_rgbds.py`
-- **__init__** (1 connections) — `tools/graphify_rgbds.py`
-- **main** (1 connections) — `tools/graphify_rgbds.py`
-- **node** (1 connections) — `tools/graphify_rgbds.py`
-- **pointer_targets** (1 connections) — `tools/graphify_rgbds.py`
-- **reference** (1 connections) — `tools/graphify_rgbds.py`
-- **rel** (1 connections) — `tools/graphify_rgbds.py`
-- **second_pass** (1 connections) — `tools/graphify_rgbds.py`
-- **strip_comment** (1 connections) — `tools/graphify_rgbds.py`
-- **supported_files** (1 connections) — `tools/graphify_rgbds.py`
+- **tools/generate_audio_sprite_document.py** (29 connections) — `tools/generate_audio_sprite_document.py`
+- **AudioConstant** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **AudioHeader** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **Cry** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **MapSong** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **OverworldSprite** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **PictureAsset** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **TrainerPicture** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **add_table** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **audio_data_sources** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **build_document** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **main** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **md** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **normalized_sfx_symbol** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_audio_constants** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_character_pictures** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_cries** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_graphics_directory_counts** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_headers** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_incbin_assets** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_map_songs** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_overworld_sprites** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **parse_trainer_pictures** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **read** (1 connections) — `tools/generate_audio_sprite_document.py`
+- **rel** (1 connections) — `tools/generate_audio_sprite_document.py`
 - *... and 3 more nodes in this community*
 
 ## Relationships
@@ -37,7 +37,7 @@
 
 ## Source Files
 
-- `tools/graphify_rgbds.py`
+- `tools/generate_audio_sprite_document.py`
 
 ## Audit Trail
 

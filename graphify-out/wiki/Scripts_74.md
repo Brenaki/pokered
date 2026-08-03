@@ -1,42 +1,42 @@
 # Scripts 74
 
-> 21 nodes · cohesion 0.16
+> 20 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **scripts/PokemonTower3F.asm** (21 connections) — `scripts/PokemonTower3F.asm`
-- **21.17 Mapa `PokemonTower3F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **PokemonTower3F_Script** (5 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler1Text** (4 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler2Text** (4 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler3Text** (4 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3F_ScriptPointers** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler1AfterBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler1BattleText** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler1EndBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler2AfterBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler2BattleText** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler2EndBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler3AfterBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler3BattleText** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3FChanneler3EndBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3TrainerHeader0** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3TrainerHeader1** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3TrainerHeader2** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3TrainerHeaders** (2 connections) — `scripts/PokemonTower3F.asm`
-- **PokemonTower3F_TextPointers** (1 connections) — `scripts/PokemonTower3F.asm`
+- **scripts/ViridianCity.asm** (25 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityMovePlayerDownScript** (6 connections) — `scripts/ViridianCity.asm`
+- **ViridianCity_Script** (4 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityCheckGotPokedexScript** (4 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityCheckGymOpenScript** (4 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityDefaultScript** (4 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityOldManSleepyText** (4 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityGambler1Text** (3 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityGirlText** (3 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityPlayerMovingDownScript** (3 connections) — `scripts/ViridianCity.asm`
+- **ViridianCity_ScriptPointers** (2 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityOldManStartCatchTrainingScript** (2 connections) — `scripts/ViridianCity.asm`
+- **ViridianCity_TextPointers** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityGymLockedText** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityGymSignText** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityOldManYouNeedToWeakenTheTargetText** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCitySignText** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityTrainerTips1Text** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityTrainerTips2Text** (1 connections) — `scripts/ViridianCity.asm`
+- **ViridianCityYoungster1Text** (1 connections) — `scripts/ViridianCity.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (3 shared connections)
-- [Scripts 7](Scripts_7.md) (3 shared connections)
-- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (6 shared connections)
+- [Scripts 3](Scripts_3.md) (4 shared connections)
+- [Scripts 4](Scripts_4.md) (3 shared connections)
+- [Scripts 8](Scripts_8.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/PokemonTower3F.asm`
+- `scripts/ViridianCity.asm`
 
 ## Audit Trail
 

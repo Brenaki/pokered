@@ -1,39 +1,38 @@
 # Scripts 89
 
-> 14 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **scripts/Route4.asm** (14 connections) — `scripts/Route4.asm`
-- **Route4_Script** (5 connections) — `scripts/Route4.asm`
-- **21.44 Mapa `Route4`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **Route4CooltrainerF2Text** (4 connections) — `scripts/Route4.asm`
-- **Route4_ScriptPointers** (2 connections) — `scripts/Route4.asm`
-- **Route4CooltrainerF2AfterBattleText** (2 connections) — `scripts/Route4.asm`
-- **Route4CooltrainerF2BattleText** (2 connections) — `scripts/Route4.asm`
-- **Route4CooltrainerF2EndBattleText** (2 connections) — `scripts/Route4.asm`
-- **Route4TrainerHeader0** (2 connections) — `scripts/Route4.asm`
-- **Route4TrainerHeaders** (2 connections) — `scripts/Route4.asm`
-- **Route4_TextPointers** (1 connections) — `scripts/Route4.asm`
-- **Route4CooltrainerF1Text** (1 connections) — `scripts/Route4.asm`
-- **Route4MtMoonSignText** (1 connections) — `scripts/Route4.asm`
-- **Route4SignText** (1 connections) — `scripts/Route4.asm`
+- **scripts/SSAnne2F.asm** (17 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FRivalText** (7 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2F_Script** (4 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2F_ScriptPointers** (2 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FNoopScript** (2 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FResetScripts** (2 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FRivalDefeatedText** (2 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FRivalVictoryText** (2 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2F_TextPointers** (1 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FRivalCutMasterText** (1 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FWaiterText** (1 connections) — `scripts/SSAnne2F.asm`
 
 ## Relationships
 
-- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (4 shared connections)
+- [Scripts 10](Scripts_10.md) (2 shared connections)
+- [Scripts 13](Scripts_13.md) (1 shared connections)
+- [Scripts 8](Scripts_8.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 - [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Scripts 7](Scripts_7.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/Route4.asm`
+- `scripts/SSAnne2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,36 +1,25 @@
 # Scripts 103
 
-> 9 nodes · cohesion 0.39
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **scripts/CeladonMartElevator.asm** (10 connections) — `scripts/CeladonMartElevator.asm`
-- **CeladonMartElevatorCopyWarpMapsScript** (7 connections) — `scripts/CeladonMartElevator.asm`
-- **CeladonMartElevatorText** (5 connections) — `scripts/CeladonMartElevator.asm`
-- **CeladonMartElevator_Script** (4 connections) — `scripts/CeladonMartElevator.asm`
-- **CeladonMartElevatorStoreWarpEntriesScript** (3 connections) — `scripts/CeladonMartElevator.asm`
-- **CeladonMartElevatorWarpMaps** (3 connections) — `scripts/CeladonMartElevator.asm`
-- **CeladonMartElevatorFloors** (2 connections) — `scripts/CeladonMartElevator.asm`
-- **CeladonMartElevatorShakeScript** (2 connections) — `scripts/CeladonMartElevator.asm`
-- **CeladonMartElevator_TextPointers** (1 connections) — `scripts/CeladonMartElevator.asm`
+- **scripts/Colosseum.asm** (5 connections) — `scripts/Colosseum.asm`
+- **Colosseum_Script** (2 connections) — `scripts/Colosseum.asm`
+- **Colosseum_TextPointers** (1 connections) — `scripts/Colosseum.asm`
+- **ColosseumOpponentText** (1 connections) — `scripts/Colosseum.asm`
 
 ## Relationships
 
-- [Scripts 11](Scripts_11.md) (1 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
-- [Home 8](Home_8.md) (1 shared connections)
-- [Ram](Ram.md) (1 shared connections)
-- [Home 5](Home_5.md) (1 shared connections)
-- [Scripts 98](Scripts_98.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonMartElevator.asm`
+- `scripts/Colosseum.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

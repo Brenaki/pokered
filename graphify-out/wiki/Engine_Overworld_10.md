@@ -1,35 +1,30 @@
 # Engine Overworld 10
 
-> 9 nodes · cohesion 0.31
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **LoadSpinnerArrowTiles** (8 connections) — `engine/overworld/spinners.asm`
-- **engine/overworld/spinners.asm** (6 connections) — `engine/overworld/spinners.asm`
-- **data/tilesets/spinner_tiles.asm** (5 connections) — `data/tilesets/spinner_tiles.asm`
-- **RocketHideoutB2FPlayerSpinningScript** (4 connections) — `scripts/RocketHideoutB2F.asm`
-- **FacilitySpinnerArrows** (2 connections) — `data/tilesets/spinner_tiles.asm`
-- **GymSpinnerArrows** (2 connections) — `data/tilesets/spinner_tiles.asm`
-- **SpinnerArrowAnimTiles** (2 connections) — `engine/overworld/spinners.asm`
-- **SpinnerPlayerFacingDirections** (2 connections) — `engine/overworld/spinners.asm`
-- **gfx/overworld/spinners.2bpp** (1 connections) — `gfx/overworld/spinners.2bpp`
+- **AnimCut** (7 connections) — `engine/overworld/cut2.asm`
+- **engine/overworld/cut2.asm** (5 connections) — `engine/overworld/cut2.asm`
+- **AnimCutGrass_SwapOAMEntries** (4 connections) — `engine/overworld/cut2.asm`
+- **AnimCutGrass_UpdateOAMEntries** (4 connections) — `engine/overworld/cut2.asm`
+- **AdjustOAMBlockXPos2** (3 connections) — `engine/battle/animations.asm`
+- **AdjustOAMBlockYPos2** (2 connections) — `engine/battle/animations.asm`
 
 ## Relationships
 
-- [Engine Link](Engine_Link.md) (1 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
-- [Home 5](Home_5.md) (1 shared connections)
+- [Engine Movie 2](Engine_Movie_2.md) (2 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Engine Battle 4](Engine_Battle_4.md) (1 shared connections)
 
 ## Source Files
 
-- `data/tilesets/spinner_tiles.asm`
-- `engine/overworld/spinners.asm`
-- `gfx/overworld/spinners.2bpp`
-- `scripts/RocketHideoutB2F.asm`
+- `engine/battle/animations.asm`
+- `engine/overworld/cut2.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

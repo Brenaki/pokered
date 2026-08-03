@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **text/ChampionsRoom.asm** (10 connections) — `text/ChampionsRoom.asm`
-- **_ChampionsRoomOakComeWithMeText** (1 connections) — `text/ChampionsRoom.asm`
-- **_ChampionsRoomOakCongratulatesPlayerText** (1 connections) — `text/ChampionsRoom.asm`
-- **_ChampionsRoomOakDisappointedWithRivalText** (1 connections) — `text/ChampionsRoom.asm`
-- **_ChampionsRoomOakText** (1 connections) — `text/ChampionsRoom.asm`
-- **_ChampionsRoomRivalAfterBattleText** (1 connections) — `text/ChampionsRoom.asm`
-- **_ChampionsRoomRivalIntroText** (1 connections) — `text/ChampionsRoom.asm`
-- **_RivalDefeatedText** (1 connections) — `text/ChampionsRoom.asm`
-- **_RivalVictoryText** (1 connections) — `text/ChampionsRoom.asm`
+- **text/CinnabarLabFossilRoom.asm** (10 connections) — `text/CinnabarLabFossilRoom.asm`
+- **_CinnabarLabFossilRoomScientist1ComeAgainText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
+- **_CinnabarLabFossilRoomScientist1FossilIsBackToLifeText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
+- **_CinnabarLabFossilRoomScientist1GoForAWalkText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
+- **_CinnabarLabFossilRoomScientist1GoForAWalkText2** (1 connections) — `text/CinnabarLabFossilRoom.asm`
+- **_CinnabarLabFossilRoomScientist1NoFossilsText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
+- **_CinnabarLabFossilRoomScientist1SeesFossilText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
+- **_CinnabarLabFossilRoomScientist1TakesFossilText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
+- **_CinnabarLabFossilRoomScientist1Text** (1 connections) — `text/CinnabarLabFossilRoom.asm`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `text/ChampionsRoom.asm`
+- `text/CinnabarLabFossilRoom.asm`
 
 ## Audit Trail
 

@@ -1,50 +1,57 @@
 # Scripts 63
 
-> 26 nodes · cohesion 0.13
+> 25 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **scripts/SSAnne2FRooms.asm** (33 connections) — `scripts/SSAnne2FRooms.asm`
-- **21.49 Mapa `SSAnne2FRooms`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **SSAnne2FRooms_Script** (4 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsCooltrainerFText** (4 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsFisherText** (4 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGentleman1Text** (4 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGentleman2Text** (4 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRooms_ScriptPointers** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsCooltrainerFAfterBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsCooltrainerFBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsCooltrainerFEndBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsFisherAfterBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsFisherBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsFisherEndBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGentleman1AfterBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGentleman1BattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGentleman1EndBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGentleman2AfterBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGentleman2BattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGentleman2EndBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne9TrainerHeader0** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne9TrainerHeader1** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne9TrainerHeader2** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne9TrainerHeader3** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne9TrainerHeaders** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- *... and 1 more nodes in this community*
+- **scripts/RocketHideoutB4F.asm** (26 connections) — `scripts/RocketHideoutB4F.asm`
+- **21.28 Mapa `RocketHideoutB4F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **RocketHideoutB4FBeatGiovanniScript** (10 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4F_Script** (6 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket3AfterBattleText** (5 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FDoorCallbackScript** (4 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket1Text** (4 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket2Text** (4 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket3Text** (4 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideout4TrainerHeader0** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideout4TrainerHeader1** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideout4TrainerHeader2** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideout4TrainerHeaders** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4F_ScriptPointers** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FGiovanniHopeWeMeetAgainText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket1AfterBattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket1BattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket1EndBattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket2AfterBattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket2BattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket2EndBattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket3BattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FRocket3EndBattleText** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4FSetDefaultScript** (2 connections) — `scripts/RocketHideoutB4F.asm`
+- **RocketHideoutB4F_TextPointers** (1 connections) — `scripts/RocketHideoutB4F.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (11 shared connections)
-- [Scripts 7](Scripts_7.md) (4 shared connections)
-- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (4 shared connections)
+- [Scripts 10](Scripts_10.md) (3 shared connections)
+- [Scripts 13](Scripts_13.md) (3 shared connections)
+- [Scripts 14](Scripts_14.md) (3 shared connections)
+- [Scripts 9](Scripts_9.md) (2 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/SSAnne2FRooms.asm`
+- `scripts/RocketHideoutB4F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (100%)
+- EXTRACTED: 60 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

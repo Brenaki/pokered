@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **audio/music/dungeon3.asm** (6 connections) — `audio/music/dungeon3.asm`
-- **Music_Dungeon3_Ch1** (1 connections) — `audio/music/dungeon3.asm`
-- **Music_Dungeon3_Ch2** (1 connections) — `audio/music/dungeon3.asm`
-- **Music_Dungeon3_Ch3** (1 connections) — `audio/music/dungeon3.asm`
-- **Music_Dungeon3_Ch4** (1 connections) — `audio/music/dungeon3.asm`
+- **audio/music/lavender.asm** (6 connections) — `audio/music/lavender.asm`
+- **Music_Lavender_Ch1** (1 connections) — `audio/music/lavender.asm`
+- **Music_Lavender_Ch2** (1 connections) — `audio/music/lavender.asm`
+- **Music_Lavender_Ch3** (1 connections) — `audio/music/lavender.asm`
+- **Music_Lavender_Ch4** (1 connections) — `audio/music/lavender.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `audio/music/dungeon3.asm`
+- `audio/music/lavender.asm`
 
 ## Audit Trail
 

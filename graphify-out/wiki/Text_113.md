@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **text/RockTunnelB1F_2.asm** (6 connections) — `text/RockTunnelB1F_2.asm`
-- **_RockTunnelB1FHiker3AfterBattleText** (1 connections) — `text/RockTunnelB1F_2.asm`
-- **_RockTunnelB1FSuperNerd3AfterBattleText** (1 connections) — `text/RockTunnelB1F_2.asm`
-- **_RockTunnelB1FSuperNerd3BattleText** (1 connections) — `text/RockTunnelB1F_2.asm`
-- **_RockTunnelB1FSuperNerd3EndBattleText** (1 connections) — `text/RockTunnelB1F_2.asm`
+- **text/AgathasRoom.asm** (6 connections) — `text/AgathasRoom.asm`
+- **_AgathaAfterBattleText** (1 connections) — `text/AgathasRoom.asm`
+- **_AgathaBeforeBattleText** (1 connections) — `text/AgathasRoom.asm`
+- **_AgathaEndBattleText** (1 connections) — `text/AgathasRoom.asm`
+- **_AgathasRoomAgathaDontRunAwayText** (1 connections) — `text/AgathasRoom.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `text/RockTunnelB1F_2.asm`
+- `text/AgathasRoom.asm`
 
 ## Audit Trail
 

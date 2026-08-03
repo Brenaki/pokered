@@ -1,50 +1,43 @@
 # Ram 6
 
-> 21 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **wChannelSoundIDs** (21 connections) — `ram/wram.asm`
-- **Audio1_ApplyMusicAffects** (14 connections) — `audio/engine_1.asm`
-- **Audio2_ApplyMusicAffects** (14 connections) — `audio/engine_2.asm`
-- **Audio3_ApplyMusicAffects** (14 connections) — `audio/engine_3.asm`
-- **wChannelVibratoDelayCounters** (14 connections) — `ram/wram.asm`
-- **wChannelDutyCyclePatterns** (11 connections) — `ram/wram.asm`
-- **wChannelFrequencyLowBytes** (11 connections) — `ram/wram.asm`
-- **wChannelVibratoDelayCounterReloadValues** (11 connections) — `ram/wram.asm`
-- **wChannelVibratoExtents** (11 connections) — `ram/wram.asm`
-- **wChannelVibratoRates** (11 connections) — `ram/wram.asm`
-- **Audio2_vibrato** (9 connections) — `audio/engine_2.asm`
-- **UpdateMusic6Times** (7 connections) — `home/audio.asm`
-- **Audio1_PlayNextNote** (6 connections) — `audio/engine_1.asm`
-- **Audio2_PlayNextNote** (6 connections) — `audio/engine_2.asm`
-- **Audio3_PlayNextNote** (6 connections) — `audio/engine_3.asm`
-- **Audio1_UpdateMusic** (5 connections) — `audio/engine_1.asm`
-- **Audio2_UpdateMusic** (5 connections) — `audio/engine_2.asm`
-- **Audio3_UpdateMusic** (5 connections) — `audio/engine_3.asm`
-- **Audio1_ApplyDutyCyclePattern** (4 connections) — `audio/engine_1.asm`
-- **Audio2_ApplyDutyCyclePattern** (4 connections) — `audio/engine_2.asm`
-- **Audio3_ApplyDutyCyclePattern** (4 connections) — `audio/engine_3.asm`
+- **9. Tabelas e comparacoes utilizadas** (15 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **ReadTrainer** (10 connections) — `engine/battle/read_trainer_party.asm`
+- **LoneMoves** (4 connections) — `data/trainers/special_moves.asm`
+- **TeamMoves** (4 connections) — `data/trainers/special_moves.asm`
+- **wAmountMoneyWon** (4 connections) — `ram/wram.asm`
+- **wTrainerBaseMoney** (4 connections) — `ram/wram.asm`
+- **7.6 Golpes especiais dos times** (3 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **engine/battle/read_trainer_party.asm** (3 connections) — `engine/battle/read_trainer_party.asm`
+- **wTrainerClass** (3 connections) — `ram/wram.asm`
+- **wTrainerNo** (3 connections) — `ram/wram.asm`
 
 ## Relationships
 
-- [Ram 5](Ram_5.md) (13 shared connections)
-- [Audio Engine 3.Asm](Audio_Engine_3.Asm.md) (6 shared connections)
-- [Audio Engine 2.Asm](Audio_Engine_2.Asm.md) (5 shared connections)
-- [Audio Engine 1.Asm](Audio_Engine_1.Asm.md) (3 shared connections)
-- [Engine Menus](Engine_Menus.md) (1 shared connections)
+- [Engine Battle 4](Engine_Battle_4.md) (4 shared connections)
+- [Engine Battle](Engine_Battle.md) (2 shared connections)
+- [Data Trainers](Data_Trainers.md) (2 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
+- [Engine Overworld 2](Engine_Overworld_2.md) (1 shared connections)
+- [Constants](Constants.md) (1 shared connections)
+- [Scripts 46](Scripts_46.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
 
 ## Source Files
 
-- `audio/engine_1.asm`
-- `audio/engine_2.asm`
-- `audio/engine_3.asm`
-- `home/audio.asm`
+- `data/trainers/special_moves.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `engine/battle/read_trainer_party.asm`
 - `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

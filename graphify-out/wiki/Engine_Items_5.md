@@ -1,43 +1,45 @@
 # Engine Items 5
 
-> 11 nodes · cohesion 0.20
+> 13 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **FishingInit** (10 connections) — `engine/items/item_effects.asm`
-- **ItemUseGoodRod** (7 connections) — `engine/items/item_effects.asm`
-- **ItemUseOldRod** (5 connections) — `engine/items/item_effects.asm`
-- **ItemUseSuperRod** (5 connections) — `engine/items/item_effects.asm`
-- **ItemUseText00** (5 connections) — `engine/items/item_effects.asm`
-- **ReadSuperRodData** (5 connections) — `engine/items/item_effects.asm`
-- **RodResponse** (5 connections) — `engine/items/item_effects.asm`
-- **data/wild/good_rod.asm** (4 connections) — `data/wild/good_rod.asm`
-- **data/wild/super_rod.asm** (4 connections) — `data/wild/super_rod.asm`
-- **GoodRodMons** (2 connections) — `data/wild/good_rod.asm`
-- **SuperRodData** (2 connections) — `data/wild/super_rod.asm`
+- **engine/items** (10 connections)
+- **CheckIfMoveIsKnown** (4 connections) — `engine/items/tmhm.asm`
+- **engine/items/inventory.asm** (4 connections) — `engine/items/inventory.asm`
+- **engine/items/tm_prices.asm** (4 connections) — `engine/items/tm_prices.asm`
+- **engine/items/tmhm.asm** (4 connections) — `engine/items/tmhm.asm`
+- **GetMachinePrice** (3 connections) — `engine/items/tm_prices.asm`
+- **data/items/tm_prices.asm** (3 connections) — `data/items/tm_prices.asm`
+- **engine/items/get_bag_item_quantity.asm** (3 connections) — `engine/items/get_bag_item_quantity.asm`
+- **engine/items/subtract_paid_money.asm** (3 connections) — `engine/items/subtract_paid_money.asm`
+- **TechnicalMachinePrices** (2 connections) — `data/items/tm_prices.asm`
+- **RemoveItemFromInventory_** (2 connections) — `engine/items/inventory.asm`
+- **AlreadyKnowsText** (2 connections) — `engine/items/tmhm.asm`
+- **AddItemToInventory_** (1 connections) — `engine/items/inventory.asm`
 
 ## Relationships
 
-- [Engine Items 3](Engine_Items_3.md) (3 shared connections)
-- [Engine Overworld 2](Engine_Overworld_2.md) (2 shared connections)
-- [Engine Items 6](Engine_Items_6.md) (1 shared connections)
-- [Engine Items 8](Engine_Items_8.md) (1 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Engine Pokemon 2](Engine_Pokemon_2.md) (1 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
-- [Ram 2](Ram_2.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Engine Items](Engine_Items.md) (1 shared connections)
+- [Engine Events 6](Engine_Events_6.md) (1 shared connections)
+- [Engine Menus](Engine_Menus.md) (1 shared connections)
+- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Engine Slots 2](Engine_Slots_2.md) (1 shared connections)
 
 ## Source Files
 
-- `data/wild/good_rod.asm`
-- `data/wild/super_rod.asm`
-- `engine/items/item_effects.asm`
+- `data/items/tm_prices.asm`
+- `engine/items/get_bag_item_quantity.asm`
+- `engine/items/inventory.asm`
+- `engine/items/subtract_paid_money.asm`
+- `engine/items/tm_prices.asm`
+- `engine/items/tmhm.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

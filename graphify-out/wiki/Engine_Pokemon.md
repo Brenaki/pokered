@@ -1,77 +1,77 @@
 # Engine Pokemon
 
-> 77 nodes · cohesion 0.06
+> 97 nodes · cohesion 0.05
 
 ## Key Concepts
 
 - **CopyData** (113 connections) — `home/copy.asm`
+- **AddNTimes** (71 connections) — `home/array.asm`
+- **GetMonHeader** (39 connections) — `home/pokemon.asm`
 - **Evolution_PartyMonLoop** (36 connections) — `engine/pokemon/evos_moves.asm`
 - **wNameBuffer** (35 connections) — `ram/wram.asm`
-- **PlaySoundWaitForCurrent** (30 connections) — `home/delay.asm`
-- **ItemUseTMHM** (27 connections) — `engine/items/item_effects.asm`
-- **wPartyMonNicks** (26 connections) — `ram/wram.asm`
+- **GainExperience** (29 connections) — `engine/battle/experience.asm`
+- **LoadEnemyMonData** (25 connections) — `engine/battle/core.asm`
+- **ItemUsePPRestore** (25 connections) — `engine/items/item_effects.asm`
 - **GetMonName** (25 connections) — `home/names.asm`
-- **DisplayListMenuIDLoop** (22 connections) — `home/list_menu.asm`
-- **PrintListMenuEntries** (20 connections) — `home/list_menu.asm`
+- **DoInGameTradeDialogue** (24 connections) — `engine/events/in_game_trades.asm`
 - **GetItemName** (20 connections) — `home/names.asm`
 - **engine/pokemon/evos_moves.asm** (18 connections) — `engine/pokemon/evos_moves.asm`
-- **CopyToStringBuffer** (18 connections) — `home/copy_string.asm`
-- **GetPartyMonName** (18 connections) — `home/pokemon.asm`
 - **TryingToLearn** (17 connections) — `engine/pokemon/learn_move.asm`
 - **engine/pokemon/learn_move.asm** (16 connections) — `engine/pokemon/learn_move.asm`
-- **MoveSelectionMenu** (15 connections) — `engine/battle/core.asm`
 - **GetName** (15 connections) — `home/names2.asm`
-- **GetPrizeMenuId** (14 connections) — `engine/events/prize_menu.asm`
-- **GetMoveName** (14 connections) — `home/names.asm`
+- **LoadEnemyMonFromParty** (14 connections) — `engine/battle/core.asm`
+- **HealParty** (14 connections) — `engine/events/heal_party.asm`
 - **GiveFossilToCinnabarLab** (13 connections) — `engine/events/cinnabar_lab.asm`
 - **DontAbandonLearning** (13 connections) — `engine/pokemon/learn_move.asm`
+- **engine/battle/experience.asm** (12 connections) — `engine/battle/experience.asm`
 - **home/names.asm** (12 connections) — `home/names.asm`
-- **LearnMoveFromLevelUp** (9 connections) — `engine/pokemon/evos_moves.asm`
-- **LearnMove** (9 connections) — `engine/pokemon/learn_move.asm`
-- **LoadMonData** (9 connections) — `home/pokemon.asm`
-- *... and 52 more nodes in this community*
+- **engine/pokemon** (11 connections)
+- **WriteMonMoves** (11 connections) — `engine/pokemon/evos_moves.asm`
+- **FarCopyData** (11 connections) — `home/copy.asm`
+- **GetMaxPP** (9 connections) — `engine/items/item_effects.asm`
+- *... and 72 more nodes in this community*
 
 ## Relationships
 
-- [Ram 3](Ram_3.md) (25 shared connections)
-- [Home](Home.md) (19 shared connections)
-- [Scripts 2](Scripts_2.md) (14 shared connections)
-- [Engine Menus](Engine_Menus.md) (12 shared connections)
-- [Ram](Ram.md) (9 shared connections)
-- [Engine Link](Engine_Link.md) (8 shared connections)
-- [Engine Menus 2](Engine_Menus_2.md) (4 shared connections)
-- [Bank HRAM](Bank_HRAM.md) (4 shared connections)
-- [Engine Items](Engine_Items.md) (4 shared connections)
-- [Engine Menus 4](Engine_Menus_4.md) (4 shared connections)
-- [Engine Pokemon 2](Engine_Pokemon_2.md) (4 shared connections)
-- [Scripts 11](Scripts_11.md) (3 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (46 shared connections)
+- [Engine Battle](Engine_Battle.md) (36 shared connections)
+- [Scripts 2](Scripts_2.md) (22 shared connections)
+- [Ram](Ram.md) (20 shared connections)
+- [Engine Menus](Engine_Menus.md) (8 shared connections)
+- [Engine Items](Engine_Items.md) (7 shared connections)
+- [Engine Gfx 2](Engine_Gfx_2.md) (4 shared connections)
+- [Engine Battle 5](Engine_Battle_5.md) (4 shared connections)
+- [Data Pokemon](Data_Pokemon.md) (4 shared connections)
+- [Engine Battle 2](Engine_Battle_2.md) (3 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (3 shared connections)
+- [Scripts 4](Scripts_4.md) (3 shared connections)
 
 ## Source Files
 
-- `data/moves/hm_moves.asm`
+- `data/growth_rates.asm`
+- `data/pokemon/base_stats.asm`
 - `engine/battle/core.asm`
+- `engine/battle/experience.asm`
 - `engine/battle/get_trainer_name.asm`
 - `engine/battle/misc.asm`
 - `engine/events/cinnabar_lab.asm`
+- `engine/events/heal_party.asm`
 - `engine/events/in_game_trades.asm`
-- `engine/events/prize_menu.asm`
-- `engine/gfx/palettes.asm`
 - `engine/items/item_effects.asm`
-- `engine/movie/hall_of_fame.asm`
+- `engine/pokemon/add_mon.asm`
 - `engine/pokemon/evos_moves.asm`
+- `engine/pokemon/experience.asm`
 - `engine/pokemon/learn_move.asm`
-- `home/bankswitch.asm`
+- `engine/pokemon/load_mon_data.asm`
+- `engine/pokemon/remove_mon.asm`
+- `engine/pokemon/set_types.asm`
+- `home/array.asm`
 - `home/copy.asm`
-- `home/copy_string.asm`
-- `home/delay.asm`
-- `home/item_price.asm`
-- `home/list_menu.asm`
 - `home/names.asm`
-- `home/names2.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 329 (100%)
+- EXTRACTED: 402 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

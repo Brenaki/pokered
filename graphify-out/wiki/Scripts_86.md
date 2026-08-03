@@ -1,44 +1,40 @@
 # Scripts 86
 
-> 16 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **scripts/PokemonMansion1F.asm** (17 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1F_Script** (6 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1CheckReplaceSwitchDoorBlocks** (5 connections) — `scripts/PokemonMansion1F.asm`
-- **21.13 Mapa `PokemonMansion1F`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **PokemonMansion1FScientistText** (4 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1LoadHorizontalGateBlock** (3 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1ReplaceBlock** (3 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1LoadEmptyFloorTileBlock** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1Script_Switches** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1TrainerHeader0** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1TrainerHeaders** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1F_ScriptPointers** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1FScientistAfterBattleText** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1FScientistBattleText** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1FScientistEndBattleText** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1F_TextPointers** (1 connections) — `scripts/PokemonMansion1F.asm`
+- **scripts/Route22Gate.asm** (14 connections) — `scripts/Route22Gate.asm`
+- **Route22GateGuardText** (6 connections) — `scripts/Route22Gate.asm`
+- **Route22GateDefaultScript** (5 connections) — `scripts/Route22Gate.asm`
+- **Route22GateGuardNoBoulderbadgeText** (5 connections) — `scripts/Route22Gate.asm`
+- **Route22Gate_Script** (4 connections) — `scripts/Route22Gate.asm`
+- **Route22GatePlayerMovingScript** (3 connections) — `scripts/Route22Gate.asm`
+- **Route22Gate_ScriptPointers** (2 connections) — `scripts/Route22Gate.asm`
+- **Route22GateGuardGoRightAheadText** (2 connections) — `scripts/Route22Gate.asm`
+- **Route22GateGuardICantLetYouPassText** (2 connections) — `scripts/Route22Gate.asm`
+- **Route22GateNoopScript** (2 connections) — `scripts/Route22Gate.asm`
+- **Route22GateScriptCoords** (2 connections) — `scripts/Route22Gate.asm`
+- **Route22Gate_TextPointers** (1 connections) — `scripts/Route22Gate.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
-- [Engine Overworld 12](Engine_Overworld_12.md) (1 shared connections)
-- [Scripts 3](Scripts_3.md) (1 shared connections)
-- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (4 shared connections)
+- [Scripts 8](Scripts_8.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 7](Scripts_7.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/PokemonMansion1F.asm`
+- `scripts/Route22Gate.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

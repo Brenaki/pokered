@@ -1,52 +1,51 @@
 # Ram 5
 
-> 22 nodes · cohesion 0.41
+> 25 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **wChannelFlags1** (38 connections) — `ram/wram.asm`
-- **Audio1_PlaySound** (30 connections) — `audio/engine_1.asm`
-- **Audio2_PlaySound** (30 connections) — `audio/engine_2.asm`
-- **Audio3_PlaySound** (30 connections) — `audio/engine_3.asm`
-- **wChannelNoteDelayCounters** (17 connections) — `ram/wram.asm`
-- **wChannelPitchSlideTargetFrequencyHighBytes** (14 connections) — `ram/wram.asm`
-- **wChannelPitchSlideTargetFrequencyLowBytes** (14 connections) — `ram/wram.asm`
-- **Audio1_InitPitchSlideVars** (12 connections) — `audio/engine_1.asm`
-- **Audio2_InitPitchSlideVars** (12 connections) — `audio/engine_2.asm`
-- **Audio3_InitPitchSlideVars** (12 connections) — `audio/engine_3.asm`
-- **Audio1_ApplyPitchSlide** (11 connections) — `audio/engine_1.asm`
-- **Audio2_ApplyPitchSlide** (11 connections) — `audio/engine_2.asm`
-- **Audio3_ApplyPitchSlide** (11 connections) — `audio/engine_3.asm`
-- **wChannelNoteSpeeds** (11 connections) — `ram/wram.asm`
-- **wChannelPitchSlideCurrentFrequencyFractionalPart** (11 connections) — `ram/wram.asm`
-- **wChannelPitchSlideCurrentFrequencyHighBytes** (11 connections) — `ram/wram.asm`
-- **wChannelPitchSlideCurrentFrequencyLowBytes** (11 connections) — `ram/wram.asm`
-- **wChannelPitchSlideFrequencySteps** (11 connections) — `ram/wram.asm`
-- **wChannelPitchSlideFrequencyStepsFractionalPart** (11 connections) — `ram/wram.asm`
-- **wChannelPitchSlideLengthModifiers** (11 connections) — `ram/wram.asm`
-- **Audio2_pitch_slide** (10 connections) — `audio/engine_2.asm`
-- **wChannelLoopCounters** (8 connections) — `ram/wram.asm`
+- **LoadMainData** (21 connections) — `engine/menus/save.asm`
+- **SaveMainData** (17 connections) — `engine/menus/save.asm`
+- **LoadPartyAndDexData** (15 connections) — `engine/menus/save.asm`
+- **SavePartyAndDexData** (13 connections) — `engine/menus/save.asm`
+- **LoadCurrentBoxData** (12 connections) — `engine/menus/save.asm`
+- **CalcCheckSum** (11 connections) — `engine/menus/save.asm`
+- **SaveCurrentBoxData** (9 connections) — `engine/menus/save.asm`
+- **sGameData** (9 connections) — `ram/sram.asm`
+- **sGameDataEnd** (9 connections) — `ram/sram.asm`
+- **wBoxDataEnd** (9 connections) — `ram/wram.asm`
+- **sMainData** (7 connections) — `ram/sram.asm`
+- **wBoxDataStart** (7 connections) — `ram/wram.asm`
+- **CheckPreviousSaveFile** (6 connections) — `engine/menus/save.asm`
+- **sCurBoxData** (6 connections) — `ram/sram.asm`
+- **wPokedexSeenEnd** (5 connections) — `ram/wram.asm`
+- **wSpriteDataEnd** (5 connections) — `ram/wram.asm`
+- **wSpriteDataStart** (5 connections) — `ram/wram.asm`
+- **CheckSumFailed** (4 connections) — `engine/menus/save.asm`
+- **GoodCheckSum** (4 connections) — `engine/menus/save.asm`
+- **TryLoadSaveFileIgnoreChecksum** (4 connections) — `engine/menus/save.asm`
+- **wCurMapTileset** (4 connections) — `ram/wram.asm`
+- **wMainDataEnd** (4 connections) — `ram/wram.asm`
+- **wMainDataStart** (4 connections) — `ram/wram.asm`
+- **wPartyDataEnd** (4 connections) — `ram/wram.asm`
+- **wPartyDataStart** (4 connections) — `ram/wram.asm`
 
 ## Relationships
 
-- [Ram 6](Ram_6.md) (21 shared connections)
-- [Audio Engine 2.Asm](Audio_Engine_2.Asm.md) (9 shared connections)
-- [Audio Engine 3.Asm](Audio_Engine_3.Asm.md) (8 shared connections)
-- [Audio Engine 1.Asm](Audio_Engine_1.Asm.md) (5 shared connections)
-- [Audio Headers 3](Audio_Headers_3.md) (1 shared connections)
-- [Audio Headers](Audio_Headers.md) (1 shared connections)
-- [Audio Headers 2](Audio_Headers_2.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (6 shared connections)
+- [Bank SRAM](Bank_SRAM.md) (6 shared connections)
+- [Engine Movie](Engine_Movie.md) (2 shared connections)
+- [Home](Home.md) (2 shared connections)
 
 ## Source Files
 
-- `audio/engine_1.asm`
-- `audio/engine_2.asm`
-- `audio/engine_3.asm`
+- `engine/menus/save.asm`
+- `ram/sram.asm`
 - `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 140 (100%)
+- EXTRACTED: 78 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

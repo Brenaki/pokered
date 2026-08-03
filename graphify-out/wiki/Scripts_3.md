@@ -1,6 +1,6 @@
 # Scripts 3
 
-> 83 nodes · cohesion 0.08
+> 138 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -10,45 +10,47 @@
 - **StartSimulatingJoypadStates** (40 connections) — `home/map_objects.asm`
 - **MoveSprite** (38 connections) — `home/pathfinding.asm`
 - **ArePlayerCoordsInArray** (34 connections) — `home/map_objects.asm`
+- **scripts/ChampionsRoom.asm** (30 connections) — `scripts/ChampionsRoom.asm`
+- **SetSpriteFacingDirectionAndDelay** (30 connections) — `home/map_objects.asm`
 - **CheckFightingMapTrainers** (28 connections) — `home/trainers.asm`
+- **home/map_objects.asm** (25 connections) — `home/map_objects.asm`
 - **wSimulatedJoypadStatesEnd** (25 connections) — `ram/wram.asm`
+- **wMovementFlags** (20 connections) — `ram/wram.asm`
+- **OaksLabOakGivesPokedexScript** (17 connections) — `scripts/OaksLab.asm`
 - **DecodeRLEList** (16 connections) — `home/map_objects.asm`
 - **SetSpriteMovementBytesToFF** (16 connections) — `home/map_objects.asm`
 - **wStatusFlags7** (15 connections) — `ram/wram.asm`
 - **OaksLabRivalArrivesAtOaksRequestScript** (12 connections) — `scripts/OaksLab.asm`
-- **MtMoonB2FMoveSuperNerdScript** (11 connections) — `scripts/MtMoonB2F.asm`
+- **PewterCitySuperNerd1ShowsPlayerMuseumScript** (11 connections) — `scripts/PewterCity.asm`
+- **PewterCityYoungsterShowsPlayerGymScript** (11 connections) — `scripts/PewterCity.asm`
 - **PokemonTower5FDefaultScript** (11 connections) — `scripts/PokemonTower5F.asm`
 - **SilphCo7FDefaultScript** (11 connections) — `scripts/SilphCo7F.asm`
-- **LancesRoomDefaultScript** (10 connections) — `scripts/LancesRoom.asm`
+- **OaksLabRivalChallengesPlayerScript** (10 connections) — `scripts/OaksLab.asm`
+- **SilphCo7FRivalAfterBattleScript** (10 connections) — `scripts/SilphCo7F.asm`
 - **SSAnne2FDefaultScript** (10 connections) — `scripts/SSAnne2F.asm`
-- **AgathasRoomDefaultScript** (9 connections) — `scripts/AgathasRoom.asm`
-- **BrunosRoomDefaultScript** (9 connections) — `scripts/BrunosRoom.asm`
-- **GameCornerRocketBattleScript** (9 connections) — `scripts/GameCorner.asm`
-- **LoreleisRoomDefaultScript** (9 connections) — `scripts/LoreleisRoom.asm`
-- **OaksLabPlayerEntersLabScript** (9 connections) — `scripts/OaksLab.asm`
-- **RocketHideoutB2FDefaultScript** (9 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideoutB3FDefaultScript** (9 connections) — `scripts/RocketHideoutB3F.asm`
-- **Route16Gate1FDefaultScript** (9 connections) — `scripts/Route16Gate1F.asm`
-- *... and 58 more nodes in this community*
+- **SSAnne2FRivalAfterBattleScript** (10 connections) — `scripts/SSAnne2F.asm`
+- *... and 113 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 11](Scripts_11.md) (42 shared connections)
-- [Scripts 64](Scripts_64.md) (19 shared connections)
-- [Scripts 16](Scripts_16.md) (12 shared connections)
-- [Scripts 57](Scripts_57.md) (12 shared connections)
-- [Engine Menus](Engine_Menus.md) (12 shared connections)
-- [Scripts 32](Scripts_32.md) (11 shared connections)
-- [Scripts 23](Scripts_23.md) (10 shared connections)
-- [Scripts 39](Scripts_39.md) (9 shared connections)
-- [Engine Movie](Engine_Movie.md) (8 shared connections)
-- [Scripts 6](Scripts_6.md) (7 shared connections)
-- [Engine Overworld 3](Engine_Overworld_3.md) (7 shared connections)
-- [Scripts 56](Scripts_56.md) (6 shared connections)
+- [Scripts 13](Scripts_13.md) (45 shared connections)
+- [Scripts 6](Scripts_6.md) (31 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (25 shared connections)
+- [Scripts 8](Scripts_8.md) (14 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (14 shared connections)
+- [Scripts 10](Scripts_10.md) (11 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (10 shared connections)
+- [Scripts 42](Scripts_42.md) (9 shared connections)
+- [Scripts 33](Scripts_33.md) (7 shared connections)
+- [Scripts 51](Scripts_51.md) (7 shared connections)
+- [Scripts 4](Scripts_4.md) (7 shared connections)
+- [Scripts 46](Scripts_46.md) (6 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `engine/overworld/auto_movement.asm`
+- `engine/overworld/ledges.asm`
 - `home/map_objects.asm`
 - `home/pathfinding.asm`
 - `home/text_script.asm`
@@ -64,14 +66,12 @@
 - `scripts/FightingDojo.asm`
 - `scripts/GameCorner.asm`
 - `scripts/HallOfFame.asm`
-- `scripts/LancesRoom.asm`
 - `scripts/LoreleisRoom.asm`
 - `scripts/MtMoonB2F.asm`
-- `scripts/Museum1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 559 (100%)
+- EXTRACTED: 722 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

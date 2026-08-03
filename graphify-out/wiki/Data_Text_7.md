@@ -1,30 +1,27 @@
 # Data Text 7
 
-> 21 nodes · cohesion 0.10
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **data/text/text_1.asm** (22 connections) — `data/text/text_1.asm`
-- **_BoulderText** (1 connections) — `data/text/text_1.asm`
-- **_CardKeyFailText** (1 connections) — `data/text/text_1.asm`
-- **_CardKeySuccessText1** (1 connections) — `data/text/text_1.asm`
-- **_CardKeySuccessText2** (1 connections) — `data/text/text_1.asm`
-- **_ExclamationText** (1 connections) — `data/text/text_1.asm`
-- **_FoundItemText** (1 connections) — `data/text/text_1.asm`
-- **_GroundRoseText** (1 connections) — `data/text/text_1.asm`
-- **_ItsABiteText** (1 connections) — `data/text/text_1.asm`
-- **_MartSignText** (1 connections) — `data/text/text_1.asm`
-- **_NoMoreRoomForItemText** (1 connections) — `data/text/text_1.asm`
-- **_NoNibbleText** (1 connections) — `data/text/text_1.asm`
-- **_NothingHereText** (1 connections) — `data/text/text_1.asm`
-- **_OaksAideComeBackText** (1 connections) — `data/text/text_1.asm`
-- **_OaksAideGotItemText** (1 connections) — `data/text/text_1.asm`
-- **_OaksAideHereYouGoText** (1 connections) — `data/text/text_1.asm`
-- **_OaksAideHiText** (1 connections) — `data/text/text_1.asm`
-- **_OaksAideNoRoomText** (1 connections) — `data/text/text_1.asm`
-- **_OaksAideUhOhText** (1 connections) — `data/text/text_1.asm`
-- **_PokeCenterSignText** (1 connections) — `data/text/text_1.asm`
-- **_TrainerNameText** (1 connections) — `data/text/text_1.asm`
+- **data/text/text_5.asm** (19 connections) — `data/text/text_5.asm`
+- **_BoxIsFullText** (1 connections) — `data/text/text_5.asm`
+- **_CableClubNPCMakingPreparationsText** (1 connections) — `data/text/text_5.asm`
+- **_CableClubNPCPleaseComeAgainText** (1 connections) — `data/text/text_5.asm`
+- **_CanMoveBouldersText** (1 connections) — `data/text/text_5.asm`
+- **_CannotFlyHereText** (1 connections) — `data/text/text_5.asm`
+- **_CannotGetOffHereText** (1 connections) — `data/text/text_5.asm`
+- **_CannotUseItemsHereText** (1 connections) — `data/text/text_5.asm`
+- **_CannotUseTeleportNowText** (1 connections) — `data/text/text_5.asm`
+- **_CurrentTooFastText** (1 connections) — `data/text/text_5.asm`
+- **_CyclingIsFunText** (1 connections) — `data/text/text_5.asm`
+- **_FlashLightsAreaText** (1 connections) — `data/text/text_5.asm`
+- **_GotMonText** (1 connections) — `data/text/text_5.asm`
+- **_NewBadgeRequiredText** (1 connections) — `data/text/text_5.asm`
+- **_NotHealthyEnoughText** (1 connections) — `data/text/text_5.asm`
+- **_SentToBoxText** (1 connections) — `data/text/text_5.asm`
+- **_UsedStrengthText** (1 connections) — `data/text/text_5.asm`
+- **_WarpToLastPokemonCenterText** (1 connections) — `data/text/text_5.asm`
 
 ## Relationships
 
@@ -32,11 +29,11 @@
 
 ## Source Files
 
-- `data/text/text_1.asm`
+- `data/text/text_5.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

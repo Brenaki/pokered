@@ -1,6 +1,6 @@
 # Battle characterization coverage policy
 
-This gate exists before the first C production file. A requirement is `covered`
+This gate was established before the first C production file. A requirement is `covered`
 when its source location and expected compatibility policy are reviewable through
 one of these evidence methods:
 
@@ -13,6 +13,7 @@ one of these evidence methods:
 
 `covered` does not mean that every combination of a state machine has been
 enumerated. It means the migration has a named oracle or an explicit hazard
-boundary. C implementation remains blocked by `test_c_rewrite_gate.py` until a
-human reviews this milestone and intentionally replaces that gate with C/ASM
-differential tests.
+boundary. The human review was recorded on 2026-08-03. C implementation is now
+allowed only for IDs claimed by `c_milestone` in `traceability.json`, with native
+C tests and C/ASM differential evidence. Unclaimed contexts remain
+characterization-only.

@@ -1,36 +1,31 @@
 # Scripts 91
 
-> 14 nodes · cohesion 0.14
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **scripts/CeladonMart3F.asm** (16 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3F_Script** (2 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3F_TextPointers** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FCurrentFloorSignText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FFightingGameText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FGameBoyKid1Text** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FGameBoyKid2Text** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FGameBoyKid3Text** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FLittleBoyText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FPokemonPosterText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FPuzzleGameText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FRPGText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FSNESText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FSportsGameText** (1 connections) — `scripts/CeladonMart3F.asm`
+- **scripts/Museum2F.asm** (11 connections) — `scripts/Museum2F.asm`
+- **Museum2F_Script** (2 connections) — `scripts/Museum2F.asm`
+- **Museum2F_TextPointers** (1 connections) — `scripts/Museum2F.asm`
+- **Museum2FBrunetteGirlText** (1 connections) — `scripts/Museum2F.asm`
+- **Museum2FGrampsText** (1 connections) — `scripts/Museum2F.asm`
+- **Museum2FHikerText** (1 connections) — `scripts/Museum2F.asm`
+- **Museum2FMoonStoneSignText** (1 connections) — `scripts/Museum2F.asm`
+- **Museum2FScientistText** (1 connections) — `scripts/Museum2F.asm`
+- **Museum2FSpaceShuttleSignText** (1 connections) — `scripts/Museum2F.asm`
+- **Museum2FYoungsterText** (1 connections) — `scripts/Museum2F.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonMart3F.asm`
+- `scripts/Museum2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

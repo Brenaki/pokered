@@ -1,50 +1,44 @@
 # Scripts 73
 
-> 22 nodes · cohesion 0.13
+> 20 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **scripts/CeruleanGym.asm** (25 connections) — `scripts/CeruleanGym.asm`
-- **21.5 Mapa `CeruleanGym`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **CeruleanGym_Script** (7 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymCooltrainerFText** (4 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymSwimmerText** (4 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymMistyPostBattleScript** (3 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymResetScripts** (3 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGym_ScriptPointers** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymAfterBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymAfterBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymEndBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymEndBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymMistyReceivedCascadeBadgeText** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymTrainerHeader0** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymTrainerHeader1** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymTrainerHeaders** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGym_TextPointers** (1 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymMistyCascadeBadgeInfoText** (1 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymMistyReceivedTM11Text** (1 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymMistyTM11NoRoomText** (1 connections) — `scripts/CeruleanGym.asm`
+- **scripts/FuchsiaCity.asm** (20 connections) — `scripts/FuchsiaCity.asm`
+- **DisplayPokedex** (12 connections) — `home/map_objects.asm`
+- **FuchsiaCityChanseySignText** (4 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityFossilSignText** (4 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityKangaskhanSignText** (4 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityLaprasSignText** (4 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCitySlowpokeSignText** (4 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityVoltorbSignText** (4 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCity_Script** (2 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCity_TextPointers** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityErikText** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityGamblerText** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityGymSignText** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityPokemonText** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCitySafariGameSignText** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCitySafariZoneSignText** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCitySignText** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityWardensHomeSignText** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityYoungster1Text** (1 connections) — `scripts/FuchsiaCity.asm`
+- **FuchsiaCityYoungster2Text** (1 connections) — `scripts/FuchsiaCity.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (3 shared connections)
-- [Scripts 6](Scripts_6.md) (2 shared connections)
-- [Scripts 7](Scripts_7.md) (2 shared connections)
-- [Scripts 27](Scripts_27.md) (1 shared connections)
-- [Ram](Ram.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (6 shared connections)
+- [Scripts 2](Scripts_2.md) (6 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/CeruleanGym.asm`
+- `home/map_objects.asm`
+- `scripts/FuchsiaCity.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 37 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

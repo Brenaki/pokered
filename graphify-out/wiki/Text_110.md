@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **text/ViridianMart.asm** (7 connections) — `text/ViridianMart.asm`
-- **_ViridianMartClerkParcelQuestText** (1 connections) — `text/ViridianMart.asm`
-- **_ViridianMartClerkSayHiToOakText** (1 connections) — `text/ViridianMart.asm`
-- **_ViridianMartClerkYouCameFromPalletTownText** (1 connections) — `text/ViridianMart.asm`
-- **_ViridianMartCooltrainerMText** (1 connections) — `text/ViridianMart.asm`
-- **_ViridianMartYoungsterText** (1 connections) — `text/ViridianMart.asm`
+- **text/Route16FlyHouse.asm** (7 connections) — `text/Route16FlyHouse.asm`
+- **_Route16FlyHouseBrunetteGirlHM02ExplanationText** (1 connections) — `text/Route16FlyHouse.asm`
+- **_Route16FlyHouseBrunetteGirlHM02NoRoomText** (1 connections) — `text/Route16FlyHouse.asm`
+- **_Route16FlyHouseBrunetteGirlReceivedHM02Text** (1 connections) — `text/Route16FlyHouse.asm`
+- **_Route16FlyHouseBrunetteGirlText** (1 connections) — `text/Route16FlyHouse.asm`
+- **_Route16FlyHouseFearowText** (1 connections) — `text/Route16FlyHouse.asm`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `text/ViridianMart.asm`
+- `text/Route16FlyHouse.asm`
 
 ## Audit Trail
 

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **text/SSAnne2F.asm** (7 connections) — `text/SSAnne2F.asm`
-- **_SSAnne2FRivalCutMasterText** (1 connections) — `text/SSAnne2F.asm`
-- **_SSAnne2FRivalDefeatedText** (1 connections) — `text/SSAnne2F.asm`
-- **_SSAnne2FRivalText** (1 connections) — `text/SSAnne2F.asm`
-- **_SSAnne2FRivalVictoryText** (1 connections) — `text/SSAnne2F.asm`
-- **_SSAnne2FWaiterText** (1 connections) — `text/SSAnne2F.asm`
+- **text/RedsHouse1F.asm** (7 connections) — `text/RedsHouse1F.asm`
+- **_RedsHouse1FMomLookingGreatText** (1 connections) — `text/RedsHouse1F.asm`
+- **_RedsHouse1FMomWakeUpText** (1 connections) — `text/RedsHouse1F.asm`
+- **_RedsHouse1FMomYouShouldRestText** (1 connections) — `text/RedsHouse1F.asm`
+- **_RedsHouse1FTVStandByMeMovieText** (1 connections) — `text/RedsHouse1F.asm`
+- **_RedsHouse1FTVWrongSideText** (1 connections) — `text/RedsHouse1F.asm`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `text/SSAnne2F.asm`
+- `text/RedsHouse1F.asm`
 
 ## Audit Trail
 

@@ -1,63 +1,59 @@
 # Engine Battle 3
 
-> 108 nodes · cohesion 0.05
+> 76 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **engine/battle/effects.asm** (100 connections) — `engine/battle/effects.asm`
-- **MoveEffectPointerTable** (38 connections) — `data/moves/effects_pointers.asm`
-- **BattleRandom** (35 connections) — `engine/battle/core.asm`
-- **25. Rastreabilidade consolidada** (25 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **MainInBattleLoop** (24 connections) — `engine/battle/core.asm`
-- **MoveHitTest** (23 connections) — `engine/battle/core.asm`
-- **wEnemyBattleStatus1** (23 connections) — `ram/wram.asm`
-- **wPlayerBattleStatus1** (23 connections) — `ram/wram.asm`
-- **StatModifierDownEffect** (21 connections) — `engine/battle/effects.asm`
-- **PoisonEffect** (18 connections) — `engine/battle/effects.asm`
-- **UpdateStatDone** (18 connections) — `engine/battle/effects.asm`
-- **StatModifierUpEffect** (17 connections) — `engine/battle/effects.asm`
-- **SwitchAndTeleportEffect** (14 connections) — `engine/battle/effects.asm`
-- **wEnemyMoveEffect** (14 connections) — `ram/wram.asm`
-- **FreezeBurnParalyzeEffect** (13 connections) — `engine/battle/effects.asm`
-- **wPlayerMoveEffect** (13 connections) — `ram/wram.asm`
-- **DisableEffect** (12 connections) — `engine/battle/effects.asm`
-- **MimicEffect** (12 connections) — `engine/battle/effects.asm`
-- **ConfusionSideEffectSuccess** (11 connections) — `engine/battle/effects.asm`
-- **SleepEffect** (11 connections) — `engine/battle/effects.asm`
-- **TwoToFiveAttacksEffect** (11 connections) — `engine/battle/effects.asm`
-- **ExecuteEnemyMove** (10 connections) — `engine/battle/core.asm`
-- **ExecutePlayerMove** (10 connections) — `engine/battle/core.asm`
-- **BideEffect** (10 connections) — `engine/battle/effects.asm`
-- **PlayCurrentMoveAnimation** (10 connections) — `engine/battle/effects.asm`
-- *... and 83 more nodes in this community*
+- **engine/battle/animations.asm** (144 connections) — `engine/battle/animations.asm`
+- **AnimationFallingObjects** (11 connections) — `engine/battle/animations.asm`
+- **AnimationFlashScreen** (8 connections) — `engine/battle/animations.asm`
+- **AnimationTypePointerTable** (8 connections) — `engine/battle/animations.asm`
+- **SetAnimationBGPalette** (8 connections) — `engine/battle/animations.asm`
+- **PlayApplyingAttackSound** (7 connections) — `engine/battle/animations.asm`
+- **AnimationSlideMonOff** (6 connections) — `engine/battle/animations.asm`
+- **CallWithTurnFlipped** (6 connections) — `engine/battle/animations.asm`
+- **ClearMonPicFromTileMap** (5 connections) — `engine/battle/animations.asm`
+- **AnimationBlinkEnemyMon** (4 connections) — `engine/battle/animations.asm`
+- **AnimationFlashMonPic** (4 connections) — `engine/battle/animations.asm`
+- **AnimationFlashScreenLong** (4 connections) — `engine/battle/animations.asm`
+- **BlinkEnemyMonSprite** (4 connections) — `engine/battle/animations.asm`
+- **CopyTileIDsFromList** (4 connections) — `engine/battle/animations.asm`
+- **FallingObjects_InitMovementData** (4 connections) — `engine/battle/animations.asm`
+- **FallingObjects_UpdateOAMEntry** (4 connections) — `engine/battle/animations.asm`
+- **ShakeScreenHorizontallyHeavy** (4 connections) — `engine/battle/animations.asm`
+- **ShakeScreenHorizontallyLight** (4 connections) — `engine/battle/animations.asm`
+- **ShakeScreenVertically** (4 connections) — `engine/battle/animations.asm`
+- **AnimationFlashEnemyMonPic** (3 connections) — `engine/battle/animations.asm`
+- **AnimationPetalsFalling** (3 connections) — `engine/battle/animations.asm`
+- **AnimationResetMonPosition** (3 connections) — `engine/battle/animations.asm`
+- **AnimationShakeScreenHorizontallyFast** (3 connections) — `engine/battle/animations.asm`
+- **AnimationShakeScreenHorizontallySlow** (3 connections) — `engine/battle/animations.asm`
+- **AnimationShowEnemyMonPic** (3 connections) — `engine/battle/animations.asm`
+- *... and 51 more nodes in this community*
 
 ## Relationships
 
-- [Engine Battle 2](Engine_Battle_2.md) (25 shared connections)
-- [Engine Battle 4](Engine_Battle_4.md) (20 shared connections)
-- [Scripts 2](Scripts_2.md) (17 shared connections)
-- [Engine Battle 9](Engine_Battle_9.md) (13 shared connections)
-- [Ram](Ram.md) (12 shared connections)
-- [Ram 3](Ram_3.md) (8 shared connections)
-- [Engine Battle 5](Engine_Battle_5.md) (7 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (7 shared connections)
-- [Home](Home.md) (7 shared connections)
-- [Engine Battle](Engine_Battle.md) (7 shared connections)
-- [Bank ROM0](Bank_ROM0.md) (2 shared connections)
-- [Rewrite](Rewrite.md) (2 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (38 shared connections)
+- [Engine Battle 7](Engine_Battle_7.md) (24 shared connections)
+- [Engine Battle 12](Engine_Battle_12.md) (12 shared connections)
+- [Scripts 6](Scripts_6.md) (4 shared connections)
+- [Data Tilemaps.Asm](Data_Tilemaps.Asm.md) (3 shared connections)
+- [Data Battle Anims 3](Data_Battle_Anims_3.md) (3 shared connections)
+- [Ram](Ram.md) (2 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
+- [Engine Gfx 2](Engine_Gfx_2.md) (2 shared connections)
+- [Engine Overworld 10](Engine_Overworld_10.md) (2 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
 
 ## Source Files
 
-- `data/battle/stat_modifiers.asm`
-- `data/moves/effects_pointers.asm`
-- `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- `engine/battle/core.asm`
-- `engine/battle/effects.asm`
-- `ram/wram.asm`
+- `engine/battle/animations.asm`
+- `gfx/battle/move_anim_0.2bpp`
 
 ## Audit Trail
 
-- EXTRACTED: 427 (100%)
+- EXTRACTED: 225 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

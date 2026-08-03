@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **audio/music/lavender.asm** (6 connections) — `audio/music/lavender.asm`
-- **Music_Lavender_Ch1** (1 connections) — `audio/music/lavender.asm`
-- **Music_Lavender_Ch2** (1 connections) — `audio/music/lavender.asm`
-- **Music_Lavender_Ch3** (1 connections) — `audio/music/lavender.asm`
-- **Music_Lavender_Ch4** (1 connections) — `audio/music/lavender.asm`
+- **audio/music/museumguy.asm** (6 connections) — `audio/music/museumguy.asm`
+- **Music_MuseumGuy_Ch1** (1 connections) — `audio/music/museumguy.asm`
+- **Music_MuseumGuy_Ch2** (1 connections) — `audio/music/museumguy.asm`
+- **Music_MuseumGuy_Ch3** (1 connections) — `audio/music/museumguy.asm`
+- **Music_MuseumGuy_Ch4** (1 connections) — `audio/music/museumguy.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `audio/music/lavender.asm`
+- `audio/music/museumguy.asm`
 
 ## Audit Trail
 

@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **text/Route1.asm** (8 connections) — `text/Route1.asm`
-- **_Route1SignText** (1 connections) — `text/Route1.asm`
-- **_Route1Youngster1AlsoGotPokeballsText** (1 connections) — `text/Route1.asm`
-- **_Route1Youngster1GotPotionText** (1 connections) — `text/Route1.asm`
-- **_Route1Youngster1MartSampleText** (1 connections) — `text/Route1.asm`
-- **_Route1Youngster1NoRoomText** (1 connections) — `text/Route1.asm`
-- **_Route1Youngster2Text** (1 connections) — `text/Route1.asm`
+- **text/VictoryRoad1F.asm** (8 connections) — `text/VictoryRoad1F.asm`
+- **_VictoryRoad1FCooltrainerFAfterBattleText** (1 connections) — `text/VictoryRoad1F.asm`
+- **_VictoryRoad1FCooltrainerFBattleText** (1 connections) — `text/VictoryRoad1F.asm`
+- **_VictoryRoad1FCooltrainerFEndBattleText** (1 connections) — `text/VictoryRoad1F.asm`
+- **_VictoryRoad1FCooltrainerMAfterBattleText** (1 connections) — `text/VictoryRoad1F.asm`
+- **_VictoryRoad1FCooltrainerMBattleText** (1 connections) — `text/VictoryRoad1F.asm`
+- **_VictoryRoad1FCooltrainerMEndBattleText** (1 connections) — `text/VictoryRoad1F.asm`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `text/Route1.asm`
+- `text/VictoryRoad1F.asm`
 
 ## Audit Trail
 

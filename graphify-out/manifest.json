@@ -9675,14 +9675,14 @@
     "semantic_hash": "696e5e8a33f0517400449f08f8cc7175"
   },
   "AGENTS.md": {
-    "mtime": 1785632345.9258332,
-    "ast_hash": "42d05a308508d53ed5d4a5107a6cb84f",
-    "semantic_hash": "42d05a308508d53ed5d4a5107a6cb84f"
+    "mtime": 1785732944.91627,
+    "ast_hash": "eee7a02b3189f3c39267c55670645efc",
+    "semantic_hash": "eee7a02b3189f3c39267c55670645efc"
   },
   "CLAUDE.md": {
-    "mtime": 1785632346.0258327,
-    "ast_hash": "91f7e1271d542f409a27f710e17c611b",
-    "semantic_hash": "91f7e1271d542f409a27f710e17c611b"
+    "mtime": 1785732916.7063897,
+    "ast_hash": "c5ec1a45c84b5ef6f4c6b10f1d04341b",
+    "semantic_hash": "c5ec1a45c84b5ef6f4c6b10f1d04341b"
   },
   "INSTALL.md": {
     "mtime": 1785629056.9787006,
@@ -9695,14 +9695,14 @@
     "semantic_hash": "0621ad4f0509c53f68ac37d40cc9c387"
   },
   "tools/graphify_rgbds.py": {
-    "mtime": 1785632329.5759196,
-    "ast_hash": "33410a62f778ac34f2993823763efeae",
-    "semantic_hash": "33410a62f778ac34f2993823763efeae"
+    "mtime": 1785733413.6310701,
+    "ast_hash": "7010e2f24b5502b985af26f3066c353c",
+    "semantic_hash": "7010e2f24b5502b985af26f3066c353c"
   },
   "docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md": {
-    "mtime": 1785632499.6290207,
-    "ast_hash": "b02ff62d17a15ca056b89e5bf24207fc",
-    "semantic_hash": "b02ff62d17a15ca056b89e5bf24207fc"
+    "mtime": 1785733201.1691089,
+    "ast_hash": "6905703f6d2b73a13a47a17b5774ec60",
+    "semantic_hash": "6905703f6d2b73a13a47a17b5774ec60"
   },
   "tools/generate_pokemon_catalog.py": {
     "mtime": 1785629057.2793028,
@@ -9715,14 +9715,14 @@
     "semantic_hash": "e1600c09bffacd1af9e11deffc000bbf"
   },
   "tools/generate_npc_ai_document.py": {
-    "mtime": 1785632238.3364005,
-    "ast_hash": "808006cb665f2085d7897ede398f09c7",
-    "semantic_hash": "808006cb665f2085d7897ede398f09c7"
+    "mtime": 1785732917.061388,
+    "ast_hash": "b14587c49b223a5df4fa1c19251ce60f",
+    "semantic_hash": "b14587c49b223a5df4fa1c19251ce60f"
   },
   "docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md": {
-    "mtime": 1785632244.8483663,
-    "ast_hash": "b6e92328a5a38a4a96ec8192d3fbe937",
-    "semantic_hash": "b6e92328a5a38a4a96ec8192d3fbe937"
+    "mtime": 1785732916.9743884,
+    "ast_hash": "5b00f45ad2594df11a998373001dda51",
+    "semantic_hash": "5b00f45ad2594df11a998373001dda51"
   },
   "tools/generate_audio_sprite_document.py": {
     "mtime": 1785629057.2793028,
@@ -9780,9 +9780,9 @@
     "semantic_hash": "68befba8df5c15df5bd672b0ac262e4b"
   },
   "rewrite/battle/battle_characterization/traceability.py": {
-    "mtime": 1785630375.0161824,
-    "ast_hash": "59f525cc42e8b4d265d5a1cf113c5604",
-    "semantic_hash": "59f525cc42e8b4d265d5a1cf113c5604"
+    "mtime": 1785732831.7667367,
+    "ast_hash": "50885d77277ca1ccb720f186587bb71c",
+    "semantic_hash": "50885d77277ca1ccb720f186587bb71c"
   },
   "rewrite/battle/contracts/baseline.json": {
     "mtime": 1785629357.5715446,
@@ -9790,9 +9790,9 @@
     "semantic_hash": "fbaaa472218d424c5d4c084a8696f19b"
   },
   "rewrite/battle/contracts/cases/accuracy_critical_type.json": {
-    "mtime": 1785631350.0421078,
-    "ast_hash": "6441ff5b855b3e05a33aabe43b8ac17a",
-    "semantic_hash": "6441ff5b855b3e05a33aabe43b8ac17a"
+    "mtime": 1785733616.8500354,
+    "ast_hash": "074f17b9ba68281c5eed8f5742bac9e2",
+    "semantic_hash": "074f17b9ba68281c5eed8f5742bac9e2"
   },
   "rewrite/battle/contracts/cases/combat_math.json": {
     "mtime": 1785630011.976947,
@@ -9805,9 +9805,9 @@
     "semantic_hash": "9df49ad33223269b8544b13405c0114b"
   },
   "rewrite/battle/contracts/cases/trainer_ai.json": {
-    "mtime": 1785630994.2779875,
-    "ast_hash": "f9c1f942ff40176e213352e2896bf3bb",
-    "semantic_hash": "f9c1f942ff40176e213352e2896bf3bb"
+    "mtime": 1785732471.958711,
+    "ast_hash": "ad34375f89a429481d9ab7a4120b8738",
+    "semantic_hash": "ad34375f89a429481d9ab7a4120b8738"
   },
   "rewrite/battle/contracts/cases/turn_status_pp.json": {
     "mtime": 1785632032.1114829,
@@ -9825,19 +9825,19 @@
     "semantic_hash": "7292e909a8bb3f095c1c69bcd9bf75f3"
   },
   "rewrite/battle/contracts/traceability.json": {
-    "mtime": 1785632084.7682073,
-    "ast_hash": "cc207269b62d858774e3f21342e6de8f",
-    "semantic_hash": "cc207269b62d858774e3f21342e6de8f"
+    "mtime": 1785733207.321321,
+    "ast_hash": "459027bd60a81522067f11f4224103a1",
+    "semantic_hash": "459027bd60a81522067f11f4224103a1"
   },
   "rewrite/battle/pyproject.toml": {
-    "mtime": 1785632238.053402,
-    "ast_hash": "7843901df9d701f4b24a594f90d4c062",
-    "semantic_hash": "7843901df9d701f4b24a594f90d4c062"
+    "mtime": 1785732608.8389316,
+    "ast_hash": "bd7bc6addd4f69855f8c7a7fb184400e",
+    "semantic_hash": "bd7bc6addd4f69855f8c7a7fb184400e"
   },
   "rewrite/battle/tests/conftest.py": {
-    "mtime": 1785630375.1521816,
-    "ast_hash": "a4ec571c195c3b32ab8b8b0656fa8393",
-    "semantic_hash": "a4ec571c195c3b32ab8b8b0656fa8393"
+    "mtime": 1785732215.2341712,
+    "ast_hash": "828a10b63298edc2e1b69a5f4c514176",
+    "semantic_hash": "828a10b63298edc2e1b69a5f4c514176"
   },
   "rewrite/battle/tests/test_asm_cases.py": {
     "mtime": 1785630375.3981805,
@@ -9850,14 +9850,14 @@
     "semantic_hash": "4254159ff10fe9519e12d67340a531ad"
   },
   "rewrite/battle/tests/test_c_rewrite_gate.py": {
-    "mtime": 1785632119.697024,
-    "ast_hash": "89a3643305675ebc0953fa5e745012d1",
-    "semantic_hash": "89a3643305675ebc0953fa5e745012d1"
+    "mtime": 1785731743.5778453,
+    "ast_hash": "088cef541503a2f1518c76012e9d41eb",
+    "semantic_hash": "088cef541503a2f1518c76012e9d41eb"
   },
   "rewrite/battle/tests/test_contracts.py": {
-    "mtime": 1785630375.235181,
-    "ast_hash": "0bcbbee68fe0bfe265c8d71c1bcf0ede",
-    "semantic_hash": "0bcbbee68fe0bfe265c8d71c1bcf0ede"
+    "mtime": 1785732831.8507364,
+    "ast_hash": "8712d099fe992d64f8e9d91d361c4b80",
+    "semantic_hash": "8712d099fe992d64f8e9d91d361c4b80"
   },
   "rewrite/battle/tests/test_move_catalog_asm.py": {
     "mtime": 1785631825.6435761,
@@ -9870,9 +9870,9 @@
     "semantic_hash": "cf618b824b8c6c7b3f66b3b702d92eb2"
   },
   ".github/workflows/battle-characterization.yml": {
-    "mtime": 1785632238.1444016,
-    "ast_hash": "ef5a6c9d01f272afb185cc4fc108c0b8",
-    "semantic_hash": "ef5a6c9d01f272afb185cc4fc108c0b8"
+    "mtime": 1785732831.5987372,
+    "ast_hash": "4c234964257c21039adf1041c38047dd",
+    "semantic_hash": "4c234964257c21039adf1041c38047dd"
   },
   "rewrite/README.md": {
     "mtime": 1785629355.8407023,
@@ -9880,9 +9880,9 @@
     "semantic_hash": "997e4cde38caf5fd5b5525b80269ce33"
   },
   "rewrite/battle/README.md": {
-    "mtime": 1785632237.9634025,
-    "ast_hash": "380976df1c79a96c0a8d26c217b43962",
-    "semantic_hash": "380976df1c79a96c0a8d26c217b43962"
+    "mtime": 1785732831.940736,
+    "ast_hash": "b26150c4f41b2529cae310857d701bde",
+    "semantic_hash": "b26150c4f41b2529cae310857d701bde"
   },
   "rewrite/battle/contracts/compatibility_hazards.md": {
     "mtime": 1785631989.7007043,
@@ -9890,13 +9890,83 @@
     "semantic_hash": "082556416736a2ac213f5b519f4bb06b"
   },
   "rewrite/battle/contracts/coverage_policy.md": {
-    "mtime": 1785631989.6147048,
-    "ast_hash": "1b9b8cdfee31a9a6683e7cd29901d838",
-    "semantic_hash": "1b9b8cdfee31a9a6683e7cd29901d838"
+    "mtime": 1785732916.7943892,
+    "ast_hash": "9f1d937dd76537307aed0c9a86cc33b4",
+    "semantic_hash": "9f1d937dd76537307aed0c9a86cc33b4"
   },
   "rewrite/battle/contracts/validation.md": {
-    "mtime": 1785632499.5070212,
-    "ast_hash": "a5b4f41e0ccb9bf7f0f3e026b114081b",
-    "semantic_hash": "a5b4f41e0ccb9bf7f0f3e026b114081b"
+    "mtime": 1785733748.2473512,
+    "ast_hash": "7653ce5c6844add74b607756c362fc86",
+    "semantic_hash": "7653ce5c6844add74b607756c362fc86"
+  },
+  "rewrite/battle/Makefile": {
+    "mtime": 1785732831.5147376,
+    "ast_hash": "97b287b8a9207d3298005efe0ca37050",
+    "semantic_hash": "97b287b8a9207d3298005efe0ca37050"
+  },
+  "rewrite/battle/battle_characterization/c_runner.py": {
+    "mtime": 1785733577.9812357,
+    "ast_hash": "42b4f9c32f838de7dae352051ab91c36",
+    "semantic_hash": "42b4f9c32f838de7dae352051ab91c36"
+  },
+  "rewrite/battle/battle_characterization/generate_c_tables.py": {
+    "mtime": 1785732608.7519321,
+    "ast_hash": "a9107beb5e7c6d2540d7454f0e9db01b",
+    "semantic_hash": "a9107beb5e7c6d2540d7454f0e9db01b"
+  },
+  "rewrite/battle/include/pokered/battle/combat_math.h": {
+    "mtime": 1785733577.7012372,
+    "ast_hash": "d3a34120c3100985db53deda5da82dc1",
+    "semantic_hash": "d3a34120c3100985db53deda5da82dc1"
+  },
+  "rewrite/battle/include/pokered/battle/common.h": {
+    "mtime": 1785731743.0638483,
+    "ast_hash": "df8596674f462893e273d1a90258eded",
+    "semantic_hash": "df8596674f462893e273d1a90258eded"
+  },
+  "rewrite/battle/include/pokered/battle/trainer_ai.h": {
+    "mtime": 1785732737.5611982,
+    "ast_hash": "de8b55e626a20256252fd6415b0cac2b",
+    "semantic_hash": "de8b55e626a20256252fd6415b0cac2b"
+  },
+  "rewrite/battle/src/combat_math.c": {
+    "mtime": 1785733577.7932367,
+    "ast_hash": "9a614dd9a1c262847d8cacce78eac8b2",
+    "semantic_hash": "9a614dd9a1c262847d8cacce78eac8b2"
+  },
+  "rewrite/battle/src/common.c": {
+    "mtime": 1785731743.4038463,
+    "ast_hash": "567581b01e1dfdc22d4342f30f2f1b6b",
+    "semantic_hash": "567581b01e1dfdc22d4342f30f2f1b6b"
+  },
+  "rewrite/battle/src/gen1_combat_tables.generated.h": {
+    "mtime": 1785732615.0110507,
+    "ast_hash": "80aa598cbe4096eabe6595074642e22b",
+    "semantic_hash": "80aa598cbe4096eabe6595074642e22b"
+  },
+  "rewrite/battle/src/gen1_trainer_tables.generated.h": {
+    "mtime": 1785732615.0116265,
+    "ast_hash": "505dd4ca558fbcd70f15f0e5df6f5732",
+    "semantic_hash": "505dd4ca558fbcd70f15f0e5df6f5732"
+  },
+  "rewrite/battle/src/trainer_ai.c": {
+    "mtime": 1785732737.6571977,
+    "ast_hash": "65d08d1c8195b63190c0fe7cb393b554",
+    "semantic_hash": "65d08d1c8195b63190c0fe7cb393b554"
+  },
+  "rewrite/battle/tests/c/test_main.c": {
+    "mtime": 1785733577.8892362,
+    "ast_hash": "365736da8026047b1c90fa9a41078221",
+    "semantic_hash": "365736da8026047b1c90fa9a41078221"
+  },
+  "rewrite/battle/tests/test_c_differential.py": {
+    "mtime": 1785732215.3191707,
+    "ast_hash": "d01c86c04355f659cbe7d2ec375a339c",
+    "semantic_hash": "d01c86c04355f659cbe7d2ec375a339c"
+  },
+  "rewrite/battle/tests/test_generated_c_tables.py": {
+    "mtime": 1785732632.5437965,
+    "ast_hash": "8bd5fbda0c5996d6587377a013314e13",
+    "semantic_hash": "8bd5fbda0c5996d6587377a013314e13"
   }
 }

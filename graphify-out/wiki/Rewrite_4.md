@@ -1,47 +1,57 @@
 # Rewrite 4
 
-> 22 nodes · cohesion 0.19
+> 61 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **rewrite/battle/contracts/cases/items_capture.json** (22 connections) — `rewrite/battle/contracts/cases/items_capture.json`
-- **BTL-CAP** (13 connections)
-- **capture-and-safari** (9 connections) — `rewrite/battle/contracts/traceability.json`
-- **T-CAP-002** (5 connections)
-- **T_CAP_006_W_255_CONSUMES_SECOND_RANDOM** (4 connections) — `rewrite/battle/contracts/cases/items_capture.json`
-- **T_CAP_007_W_256_CAPTURES_WITHOUT_SECOND_RANDOM** (4 connections) — `rewrite/battle/contracts/cases/items_capture.json`
-- **T_CAP_008_RAND_TWO_EQUAL_X_CAPTURES** (4 connections) — `rewrite/battle/contracts/cases/items_capture.json`
-- **T_CAP_009_RAND_TWO_ABOVE_X_FAILS** (4 connections) — `rewrite/battle/contracts/cases/items_capture.json`
-- **T_CAP_010_MASTER_BALL_CANNOT_CATCH_TRAINER_MON** (4 connections) — `rewrite/battle/contracts/cases/items_capture.json`
-- **T_CAP_011_MASTER_BALL_BLOCKED_BY_FULL_PARTY_AND_BOX** (4 connections) — `rewrite/battle/contracts/cases/items_capture.json`
-- **T_SAF_001_BAIT_COUNTER_DECREMENTS** (4 connections) — `rewrite/battle/contracts/cases/items_capture.json`
-- **T_SAF_002_ROCK_EXPIRY_RESTORES_BASE_CATCH_RATE** (4 connections) — `rewrite/battle/contracts/cases/items_capture.json`
-- **T-CAP-003** (3 connections)
-- **T-CAP-004** (3 connections)
-- **T-CAP-005** (3 connections)
-- **T-SAF-001** (3 connections)
-- **T_CAP_002_STATUS_UNDERFLOW_CAPTURES** (3 connections) — `rewrite/battle/contracts/cases/items_capture.json`
-- **T_CAP_003_RAND_ONE_EQUALS_STATUS_CONTINUES** (3 connections) — `rewrite/battle/contracts/cases/items_capture.json`
-- **T_CAP_004_RAND_ONE_EQUALS_STATUS_PLUS_CATCH_RATE** (3 connections) — `rewrite/battle/contracts/cases/items_capture.json`
-- **T_CAP_005_RAND_ONE_ABOVE_STATUS_PLUS_CATCH_RATE_FAILS** (3 connections) — `rewrite/battle/contracts/cases/items_capture.json`
-- **NC-15** (1 connections)
-- **T-CAP-001** (1 connections)
+- **BTL-RNG** (27 connections)
+- **rewrite/battle/contracts/traceability.json** (18 connections) — `rewrite/battle/contracts/traceability.json`
+- **CriticalHitTest** (17 connections) — `engine/battle/core.asm`
+- **rewrite/battle/contracts/cases/accuracy_critical_type.json** (16 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
+- **BTL-DMG** (13 connections)
+- **BTL-CRT** (8 connections)
+- **damage** (7 connections) — `rewrite/battle/contracts/traceability.json`
+- **BTL-ACC** (6 connections)
+- **T-DMG-003** (6 connections)
+- **T_TYP_001_STAB_AND_SUPER_EFFECTIVE_STACK** (6 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
+- **accuracy** (6 connections) — `rewrite/battle/contracts/traceability.json`
+- **critical-hits** (6 connections) — `rewrite/battle/contracts/traceability.json`
+- **type-system** (6 connections) — `rewrite/battle/contracts/traceability.json`
+- **BTL-TYP** (5 connections)
+- **T-DMG-002** (5 connections)
+- **T_ACC_002_MAXIMUM_ACCURACY_CAN_MISS** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
+- **T_ACC_003_ROLL_BELOW_ACCURACY_HITS** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
+- **T_CRT_001_REGULAR_CRITICAL_THRESHOLD** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
+- **T_CRT_002_FOCUS_ENERGY_REDUCES_CRITICAL_RATE** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
+- **T_CRT_003_HIGH_CRITICAL_MOVE_CAP** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
+- **T_CRT_004_HIGH_CRITICAL_MOVE_STILL_FAILS_AT_255** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
+- **T_RNG_001_MINIMUM_DAMAGE_FACTOR** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
+- **T_RNG_002_REJECTS_FACTOR_BELOW_217** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
+- **T_RNG_003_MAXIMUM_DAMAGE_FACTOR** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
+- **T_DMG_004_CRITICAL_IGNORES_CURRENT_STATS_AND_REFLECT** (5 connections) — `rewrite/battle/contracts/cases/turn_status_pp.json`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [Rewrite 8](Rewrite_8.md) (9 shared connections)
-- [Rewrite](Rewrite.md) (4 shared connections)
-- [Engine Items 4](Engine_Items_4.md) (2 shared connections)
-- [Engine Battle 4](Engine_Battle_4.md) (2 shared connections)
+- [Engine Battle](Engine_Battle.md) (13 shared connections)
+- [Engine Battle 2](Engine_Battle_2.md) (7 shared connections)
+- [Rewrite 5](Rewrite_5.md) (3 shared connections)
+- [Rewrite 3](Rewrite_3.md) (2 shared connections)
+- [Rewrite 7](Rewrite_7.md) (2 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
 
 ## Source Files
 
-- `rewrite/battle/contracts/cases/items_capture.json`
+- `data/battle/critical_hit_moves.asm`
+- `engine/battle/core.asm`
+- `rewrite/battle/contracts/cases/accuracy_critical_type.json`
+- `rewrite/battle/contracts/cases/combat_math.json`
+- `rewrite/battle/contracts/cases/turn_status_pp.json`
 - `rewrite/battle/contracts/traceability.json`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (100%)
+- EXTRACTED: 141 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

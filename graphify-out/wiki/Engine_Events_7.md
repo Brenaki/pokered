@@ -1,6 +1,6 @@
 # Engine Events 7
 
-> 17 nodes · cohesion 0.24
+> 18 nodes · cohesion 0.22
 
 ## Key Concepts
 
@@ -11,6 +11,7 @@
 - **CinnabarGymQuizCorrectText** (6 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
 - **UpdateCinnabarGymGateTileBlocks_** (6 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
 - **CinnabarGymGateFlagAction** (4 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **hGymGateIndex** (3 connections) — `ram/hram.asm`
 - **CinnabarGymGateCoords** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
 - **CinnabarGymQuizIncorrectText** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
 - **CinnabarGymQuizIntroText** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
@@ -24,17 +25,19 @@
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (5 shared connections)
-- [Scripts 11](Scripts_11.md) (3 shared connections)
+- [Scripts 2](Scripts_2.md) (3 shared connections)
+- [Scripts 4](Scripts_4.md) (2 shared connections)
+- [Scripts 6](Scripts_6.md) (2 shared connections)
 - [Engine Pokemon 2](Engine_Pokemon_2.md) (2 shared connections)
-- [Home](Home.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Engine Overworld 12](Engine_Overworld_12.md) (1 shared connections)
-- [Bank HRAM](Bank_HRAM.md) (1 shared connections)
+- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
 
 ## Source Files
 
 - `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- `ram/hram.asm`
 
 ## Audit Trail
 

@@ -1,62 +1,77 @@
 # Bank WRAM0
 
-> 38 nodes · cohesion 0.06
+> 212 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **CableClub_DoBattleOrTradeAgain** (28 connections) — `engine/link/cable_club.asm`
-- **WRAM0** (10 connections)
-- **wCardKeyDoorY** (9 connections) — `ram/wram.asm`
-- **Tilemap [WRAM0]** (9 connections) — `ram/wram.asm`
-- **Sprite State Data [WRAM0]** (8 connections) — `ram/wram.asm`
-- **ReturnToCableClubRoom** (7 connections) — `engine/link/cable_club.asm`
-- **ClearVariablesOnEnterMap** (7 connections) — `engine/overworld/clear_variables.asm`
-- **wOverworldMap** (7 connections) — `ram/wram.asm`
-- **wFontLoaded** (6 connections) — `ram/wram.asm`
-- **wMapSpriteExtraData** (6 connections) — `ram/wram.asm`
-- **wTileMap** (6 connections) — `ram/wram.asm`
-- **8.1 Modelo de dados** (5 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **wSpriteDataEnd** (5 connections) — `ram/wram.asm`
-- **wSpriteDataStart** (5 connections) — `ram/wram.asm`
-- **wSpriteStateData2** (5 connections) — `ram/wram.asm`
-- **Overworld Map [WRAM0]** (5 connections) — `ram/wram.asm`
-- **macros/coords.asm** (4 connections) — `macros/coords.asm`
-- **wLinkBattleRandomNumberList** (4 connections) — `ram/wram.asm`
-- **wOptions** (4 connections) — `ram/wram.asm`
-- **wSurroundingTiles** (4 connections) — `ram/wram.asm`
-- **wTileMapBackup** (4 connections) — `ram/wram.asm`
-- **wTrainerHeaderPtr** (4 connections) — `ram/wram.asm`
-- **OAM Buffer [WRAM0]** (4 connections) — `ram/wram.asm`
-- **wOverworldMapEnd** (3 connections) — `ram/wram.asm`
-- **wSerialEnemyDataBlock** (3 connections) — `ram/wram.asm`
-- *... and 13 more nodes in this community*
+- **UpdateSprites** (72 connections) — `home/update_sprites.asm`
+- **wStatusFlags5** (58 connections) — `ram/wram.asm`
+- **ClearScreen** (48 connections) — `home/copy2.asm`
+- **StatusScreen** (42 connections) — `engine/pokemon/status_screen.asm`
+- **HandleMenuInput** (40 connections) — `home/window.asm`
+- **ItemUseMedicine** (39 connections) — `engine/items/item_effects.asm`
+- **StartMenu_Pokemon** (36 connections) — `engine/menus/start_sub_menus.asm`
+- **DisplayNamingScreen** (34 connections) — `engine/menus/naming_screen.asm`
+- **ClearSprites** (32 connections) — `home/clear_sprites.asm`
+- **PartyMenuOrRockOrRun** (31 connections) — `engine/battle/core.asm`
+- **StartMenu_Item** (30 connections) — `engine/menus/start_sub_menus.asm`
+- **RunPaletteCommand** (29 connections) — `home/palettes.asm`
+- **DrawTrainerInfo** (28 connections) — `engine/menus/start_sub_menus.asm`
+- **ItemUseTMHM** (27 connections) — `engine/items/item_effects.asm`
+- **RedrawPartyMenu_** (27 connections) — `engine/menus/party_menu.asm`
+- **ShowPokedexDataInternal** (27 connections) — `engine/menus/pokedex.asm`
+- **_AddPartyMon** (27 connections) — `engine/pokemon/add_mon.asm`
+- **StatusScreen2** (27 connections) — `engine/pokemon/status_screen.asm`
+- **DaycareGentlemanText** (27 connections) — `scripts/Daycare.asm`
+- **home/pokemon.asm** (26 connections) — `home/pokemon.asm`
+- **wPartyMonNicks** (26 connections) — `ram/wram.asm`
+- **PromptUserToPlaySlots** (25 connections) — `engine/slots/slot_machine.asm`
+- **engine/menus/start_sub_menus.asm** (25 connections) — `engine/menus/start_sub_menus.asm`
+- **GBPalWhiteOutWithDelay3** (25 connections) — `home/palettes.asm`
+- **PrintNumber** (24 connections) — `home/print_num.asm`
+- *... and 187 more nodes in this community*
 
 ## Relationships
 
-- [Ram 3](Ram_3.md) (4 shared connections)
-- [Engine Overworld 3](Engine_Overworld_3.md) (2 shared connections)
-- [Scripts 11](Scripts_11.md) (2 shared connections)
-- [Engine Menus](Engine_Menus.md) (2 shared connections)
-- [Engine Battle](Engine_Battle.md) (2 shared connections)
-- [Bank ROM0](Bank_ROM0.md) (2 shared connections)
-- [Engine Items 2](Engine_Items_2.md) (2 shared connections)
-- [Scripts 32](Scripts_32.md) (1 shared connections)
-- [Engine Menus 2](Engine_Menus_2.md) (1 shared connections)
-- [Engine Link](Engine_Link.md) (1 shared connections)
-- [Engine Movie](Engine_Movie.md) (1 shared connections)
-- [Engine Overworld 2](Engine_Overworld_2.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (59 shared connections)
+- [Engine Battle](Engine_Battle.md) (54 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (53 shared connections)
+- [Ram](Ram.md) (39 shared connections)
+- [Scripts 2](Scripts_2.md) (36 shared connections)
+- [Engine Menus](Engine_Menus.md) (31 shared connections)
+- [Home](Home.md) (31 shared connections)
+- [Engine Movie](Engine_Movie.md) (18 shared connections)
+- [Engine Items 2](Engine_Items_2.md) (13 shared connections)
+- [Scripts 6](Scripts_6.md) (12 shared connections)
+- [Engine Menus 3](Engine_Menus_3.md) (12 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (11 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `data/items/key_items.asm`
+- `data/items/names.asm`
+- `data/items/prices.asm`
+- `data/items/use_overworld.asm`
+- `data/items/use_party.asm`
+- `data/pokemon/dex_order.asm`
+- `data/pokemon/names.asm`
+- `engine/battle/animations.asm`
+- `engine/battle/core.asm`
+- `engine/battle/misc.asm`
+- `engine/events/diploma.asm`
+- `engine/events/display_pokedex.asm`
+- `engine/events/hidden_events/town_map.asm`
+- `engine/events/in_game_trades.asm`
+- `engine/events/poison.asm`
+- `engine/flag_action.asm`
+- `engine/gfx/mon_icons.asm`
+- `engine/items/item_effects.asm`
+- `engine/items/town_map.asm`
 - `engine/link/cable_club.asm`
-- `engine/overworld/clear_variables.asm`
-- `macros/coords.asm`
-- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (100%)
+- EXTRACTED: 1129 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

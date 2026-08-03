@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **text/Route12SuperRodHouse.asm** (8 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruDoYouLikeToFishText** (1 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruFishingWayOfLifeText** (1 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruNoRoomText** (1 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruReceivedSuperRodText** (1 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruThatsDisappointingText** (1 connections) — `text/Route12SuperRodHouse.asm`
-- **_Route12SuperRodHouseFishingGuruTryFishingText** (1 connections) — `text/Route12SuperRodHouse.asm`
+- **text/VermilionOldRodHouse.asm** (8 connections) — `text/VermilionOldRodHouse.asm`
+- **_VermilionOldRodHouseFishingGuruDoYouLikeToFishText** (1 connections) — `text/VermilionOldRodHouse.asm`
+- **_VermilionOldRodHouseFishingGuruFishingIsAWayOfLifeText** (1 connections) — `text/VermilionOldRodHouse.asm`
+- **_VermilionOldRodHouseFishingGuruHowAreTheFishBitingText** (1 connections) — `text/VermilionOldRodHouse.asm`
+- **_VermilionOldRodHouseFishingGuruNoRoomText** (1 connections) — `text/VermilionOldRodHouse.asm`
+- **_VermilionOldRodHouseFishingGuruTakeThisText** (1 connections) — `text/VermilionOldRodHouse.asm`
+- **_VermilionOldRodHouseFishingGuruThatsSoDisappointingText** (1 connections) — `text/VermilionOldRodHouse.asm`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `text/Route12SuperRodHouse.asm`
+- `text/VermilionOldRodHouse.asm`
 
 ## Audit Trail
 

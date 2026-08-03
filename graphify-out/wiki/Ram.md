@@ -1,61 +1,62 @@
 # Ram
 
-> 463 nodes · cohesion 0.01
+> 472 nodes · cohesion 0.01
 
 ## Key Concepts
 
 - **ram/wram.asm** (926 connections) — `ram/wram.asm`
 - **WRAM [WRAM0]** (595 connections) — `ram/wram.asm`
+- **InGameTrade_PrepareTradeData** (15 connections) — `engine/events/in_game_trades.asm`
 - **LoadGymLeaderAndCityName** (12 connections) — `home/trainers.asm`
 - **DrawBadges** (7 connections) — `engine/menus/draw_badges.asm`
+- **wItemList** (7 connections) — `ram/wram.asm`
+- **SetPartyMenuHPBarColor** (6 connections) — `engine/menus/party_menu.asm`
 - **wElevatorWarpMaps** (6 connections) — `ram/wram.asm`
 - **wHPBarOldHP** (6 connections) — `ram/wram.asm`
-- **wPlayerUsedMove** (6 connections) — `ram/wram.asm`
-- **wEnemyBideAccumulatedDamage** (5 connections) — `ram/wram.asm`
-- **wRedrawRowOrColumnSrcTiles** (5 connections) — `ram/wram.asm`
-- **ParalyzeEffect_** (4 connections) — `engine/battle/move_effects/paralyze.asm`
-- **wBoxMonCounts** (4 connections) — `ram/wram.asm`
-- **wEnemyConfusedCounter** (4 connections) — `ram/wram.asm`
-- **wEnemyDisabledMove** (4 connections) — `ram/wram.asm`
+- **wLoadedMon** (6 connections) — `ram/wram.asm`
+- **wUpdateSpritesEnabled** (6 connections) — `ram/wram.asm`
+- **wBattleMonNick** (5 connections) — `ram/wram.asm`
+- **wCurItem** (5 connections) — `ram/wram.asm`
+- **wCurrentMenuItem** (5 connections) — `ram/wram.asm`
+- **wFieldMoves** (5 connections) — `ram/wram.asm`
+- **wMonHSpriteDim** (5 connections) — `ram/wram.asm`
+- **wPartyMenuHPBarColors** (5 connections) — `ram/wram.asm`
+- **wTradedEnemyMonOT** (5 connections) — `ram/wram.asm`
+- **wTradedEnemyMonOTID** (5 connections) — `ram/wram.asm`
+- **wTradedPlayerMonOT** (5 connections) — `ram/wram.asm`
 - **wEnemyHPBarColor** (4 connections) — `ram/wram.asm`
-- **wEnemyMonMinimized** (4 connections) — `ram/wram.asm`
+- **wEnemyMonUnmodifiedLevel** (4 connections) — `ram/wram.asm`
 - **wEnemyStatsToDouble** (4 connections) — `ram/wram.asm`
-- **wEnemySubstituteHP** (4 connections) — `ram/wram.asm`
 - **wFallingObjectsMovementData** (4 connections) — `ram/wram.asm`
 - **wFilteredBagItemsCount** (4 connections) — `ram/wram.asm`
-- **wHoFTeamNo** (4 connections) — `ram/wram.asm`
-- **wHPBarMaxHP** (4 connections) — `ram/wram.asm`
-- **wHPBarNewHP** (4 connections) — `ram/wram.asm`
-- **wListPointer** (4 connections) — `ram/wram.asm`
-- **wMonPartySpritesSavedOAM** (4 connections) — `ram/wram.asm`
-- **wPlayerBideAccumulatedDamage** (4 connections) — `ram/wram.asm`
-- *... and 438 more nodes in this community*
+- *... and 447 more nodes in this community*
 
 ## Relationships
 
-- [Ram 2](Ram_2.md) (167 shared connections)
-- [Ram 3](Ram_3.md) (80 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (40 shared connections)
-- [Engine Slots](Engine_Slots.md) (40 shared connections)
-- [Engine Battle 9](Engine_Battle_9.md) (26 shared connections)
-- [Engine Events](Engine_Events.md) (19 shared connections)
-- [Ram 4](Ram_4.md) (16 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (13 shared connections)
-- [Ram 5](Ram_5.md) (12 shared connections)
-- [Engine Battle 3](Engine_Battle_3.md) (12 shared connections)
-- [Engine Battle 10](Engine_Battle_10.md) (10 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (8 shared connections)
+- [Ram 2](Ram_2.md) (168 shared connections)
+- [Engine Battle 2](Engine_Battle_2.md) (58 shared connections)
+- [Engine Slots](Engine_Slots.md) (42 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (36 shared connections)
+- [Engine Battle 5](Engine_Battle_5.md) (24 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (23 shared connections)
+- [Engine Battle](Engine_Battle.md) (22 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (18 shared connections)
+- [Ram 4](Ram_4.md) (17 shared connections)
+- [Ram 3](Ram_3.md) (17 shared connections)
+- [Home](Home.md) (17 shared connections)
+- [Ram 5](Ram_5.md) (10 shared connections)
 
 ## Source Files
 
-- `engine/battle/move_effects/paralyze.asm`
+- `engine/events/in_game_trades.asm`
 - `engine/menus/draw_badges.asm`
+- `engine/menus/party_menu.asm`
 - `home/trainers.asm`
 - `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 1524 (100%)
+- EXTRACTED: 1538 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

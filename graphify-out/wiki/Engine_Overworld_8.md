@@ -1,34 +1,31 @@
 # Engine Overworld 8
 
-> 10 nodes · cohesion 0.27
+> 8 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **engine/overworld/emotion_bubbles.asm** (9 connections) — `engine/overworld/emotion_bubbles.asm`
-- **EmotionBubblesPointerTable** (5 connections) — `engine/overworld/emotion_bubbles.asm`
-- **HappyEmote** (3 connections) — `engine/overworld/emotion_bubbles.asm`
-- **QuestionEmote** (3 connections) — `engine/overworld/emotion_bubbles.asm`
-- **ShockEmote** (3 connections) — `engine/overworld/emotion_bubbles.asm`
-- **EmotionBubblesOAMBlock** (2 connections) — `engine/overworld/emotion_bubbles.asm`
-- **EmotionBubbles** (1 connections) — `engine/overworld/emotion_bubbles.asm`
-- **gfx/emotes/happy.2bpp** (1 connections) — `gfx/emotes/happy.2bpp`
-- **gfx/emotes/question.2bpp** (1 connections) — `gfx/emotes/question.2bpp`
-- **gfx/emotes/shock.2bpp** (1 connections) — `gfx/emotes/shock.2bpp`
+- **LoadSpinnerArrowTiles** (8 connections) — `engine/overworld/spinners.asm`
+- **engine/overworld/spinners.asm** (6 connections) — `engine/overworld/spinners.asm`
+- **data/tilesets/spinner_tiles.asm** (5 connections) — `data/tilesets/spinner_tiles.asm`
+- **FacilitySpinnerArrows** (2 connections) — `data/tilesets/spinner_tiles.asm`
+- **GymSpinnerArrows** (2 connections) — `data/tilesets/spinner_tiles.asm`
+- **SpinnerArrowAnimTiles** (2 connections) — `engine/overworld/spinners.asm`
+- **SpinnerPlayerFacingDirections** (2 connections) — `engine/overworld/spinners.asm`
+- **gfx/overworld/spinners.2bpp** (1 connections) — `gfx/overworld/spinners.2bpp`
 
 ## Relationships
 
-- [Engine Movie 3](Engine_Movie_3.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
 
 ## Source Files
 
-- `engine/overworld/emotion_bubbles.asm`
-- `gfx/emotes/happy.2bpp`
-- `gfx/emotes/question.2bpp`
-- `gfx/emotes/shock.2bpp`
+- `data/tilesets/spinner_tiles.asm`
+- `engine/overworld/spinners.asm`
+- `gfx/overworld/spinners.2bpp`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

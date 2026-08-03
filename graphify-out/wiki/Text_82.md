@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **text/CinnabarLabFossilRoom.asm** (10 connections) — `text/CinnabarLabFossilRoom.asm`
-- **_CinnabarLabFossilRoomScientist1ComeAgainText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
-- **_CinnabarLabFossilRoomScientist1FossilIsBackToLifeText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
-- **_CinnabarLabFossilRoomScientist1GoForAWalkText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
-- **_CinnabarLabFossilRoomScientist1GoForAWalkText2** (1 connections) — `text/CinnabarLabFossilRoom.asm`
-- **_CinnabarLabFossilRoomScientist1NoFossilsText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
-- **_CinnabarLabFossilRoomScientist1SeesFossilText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
-- **_CinnabarLabFossilRoomScientist1TakesFossilText** (1 connections) — `text/CinnabarLabFossilRoom.asm`
-- **_CinnabarLabFossilRoomScientist1Text** (1 connections) — `text/CinnabarLabFossilRoom.asm`
+- **text/Daycare.asm** (10 connections) — `text/Daycare.asm`
+- **_DaycareGentlemanComeSeeMeInAWhileText** (1 connections) — `text/Daycare.asm`
+- **_DaycareGentlemanGotMonBackText** (1 connections) — `text/Daycare.asm`
+- **_DaycareGentlemanIntroText** (1 connections) — `text/Daycare.asm`
+- **_DaycareGentlemanMonHasGrownText** (1 connections) — `text/Daycare.asm`
+- **_DaycareGentlemanMonNeedsMoreTimeText** (1 connections) — `text/Daycare.asm`
+- **_DaycareGentlemanOweMoneyText** (1 connections) — `text/Daycare.asm`
+- **_DaycareGentlemanWhichMonText** (1 connections) — `text/Daycare.asm`
+- **_DaycareGentlemanWillLookAfterMonText** (1 connections) — `text/Daycare.asm`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `text/CinnabarLabFossilRoom.asm`
+- `text/Daycare.asm`
 
 ## Audit Trail
 

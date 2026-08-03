@@ -1,52 +1,51 @@
 # Scripts 18
 
-> 52 nodes · cohesion 0.07
+> 57 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **scripts/Route25.asm** (53 connections) — `scripts/Route25.asm`
-- **21.42 Mapa `Route25`** (28 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **Route25_Script** (6 connections) — `scripts/Route25.asm`
-- **Route25CooltrainerF1Text** (4 connections) — `scripts/Route25.asm`
-- **Route25CooltrainerF2Text** (4 connections) — `scripts/Route25.asm`
-- **Route25CooltrainerMText** (4 connections) — `scripts/Route25.asm`
-- **Route25Hiker1Text** (4 connections) — `scripts/Route25.asm`
-- **Route25Hiker2Text** (4 connections) — `scripts/Route25.asm`
-- **Route25Hiker3Text** (4 connections) — `scripts/Route25.asm`
-- **Route25Youngster1Text** (4 connections) — `scripts/Route25.asm`
-- **Route25Youngster2Text** (4 connections) — `scripts/Route25.asm`
-- **Route25Youngster3Text** (4 connections) — `scripts/Route25.asm`
-- **Route25_ScriptPointers** (2 connections) — `scripts/Route25.asm`
-- **Route25CooltrainerF1AfterBattleText** (2 connections) — `scripts/Route25.asm`
-- **Route25CooltrainerF1BattleText** (2 connections) — `scripts/Route25.asm`
-- **Route25CooltrainerF1EndBattleText** (2 connections) — `scripts/Route25.asm`
-- **Route25CooltrainerF2AfterBattleText** (2 connections) — `scripts/Route25.asm`
-- **Route25CooltrainerF2BattleText** (2 connections) — `scripts/Route25.asm`
-- **Route25CooltrainerF2EndBattleText** (2 connections) — `scripts/Route25.asm`
-- **Route25CooltrainerMAfterBattleText** (2 connections) — `scripts/Route25.asm`
-- **Route25CooltrainerMBattleText** (2 connections) — `scripts/Route25.asm`
-- **Route25CooltrainerMEndBattleText** (2 connections) — `scripts/Route25.asm`
-- **Route25Hiker1AfterBattleText** (2 connections) — `scripts/Route25.asm`
-- **Route25Hiker1BattleText** (2 connections) — `scripts/Route25.asm`
-- **Route25Hiker1EndBattleText** (2 connections) — `scripts/Route25.asm`
-- *... and 27 more nodes in this community*
+- **scripts/Route14.asm** (57 connections) — `scripts/Route14.asm`
+- **21.33 Mapa `Route14`** (31 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Route14_Script** (5 connections) — `scripts/Route14.asm`
+- **Route14Biker1Text** (4 connections) — `scripts/Route14.asm`
+- **Route14Biker2Text** (4 connections) — `scripts/Route14.asm`
+- **Route14Biker3Text** (4 connections) — `scripts/Route14.asm`
+- **Route14Biker4Text** (4 connections) — `scripts/Route14.asm`
+- **Route14CooltrainerM1Text** (4 connections) — `scripts/Route14.asm`
+- **Route14CooltrainerM2Text** (4 connections) — `scripts/Route14.asm`
+- **Route14CooltrainerM3Text** (4 connections) — `scripts/Route14.asm`
+- **Route14CooltrainerM4Text** (4 connections) — `scripts/Route14.asm`
+- **Route14CooltrainerM5Text** (4 connections) — `scripts/Route14.asm`
+- **Route14CooltrainerM6Text** (4 connections) — `scripts/Route14.asm`
+- **Route14_ScriptPointers** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker1AfterBattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker1BattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker1EndBattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker2AfterBattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker2BattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker2EndBattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker3AfterBattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker3BattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker3EndBattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker4AfterBattleText** (2 connections) — `scripts/Route14.asm`
+- **Route14Biker4BattleText** (2 connections) — `scripts/Route14.asm`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (9 shared connections)
-- [Scripts 7](Scripts_7.md) (9 shared connections)
-- [Scripts 11](Scripts_11.md) (2 shared connections)
-- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (10 shared connections)
+- [Scripts 14](Scripts_14.md) (10 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/Route25.asm`
+- `scripts/Route14.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 110 (100%)
+- EXTRACTED: 119 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

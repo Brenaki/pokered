@@ -6,12 +6,12 @@
 |---|---|
 | Identificação | BTL-001 |
 | Arquivo | `001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md` |
-| Revisão | 1.1 |
+| Revisão | 1.2 |
 | Data de emissão | 2026-08-01 |
 | Situação | Emitido para revisão e uso técnico interno |
 | Responsável pelo processo | Equipe de reescrita ASM para C |
 | Elaborado por | Análise automatizada e verificação direta do código-fonte |
-| Aprovador | Pendente de designação |
+| Aprovador | Solicitante do projeto para o marco C inicial |
 | Baseline do código | commit `2b9f524537649e22d11bedaaee6eb81832fbbcb0` |
 | Abrangência | ROM Pokémon Red/Blue deste repositório |
 | Classificação | Informação documentada interna |
@@ -22,6 +22,7 @@
 |---|---|---|---|---|
 | 1.0 | 2026-08-01 | Emissão inicial da especificação do sistema de batalhas | Codex | Pendente |
 | 1.1 | 2026-08-01 | Inclusão do oráculo ASM Red/Blue, matriz executável, riscos isolados e gate pré-C | Codex | Pendente |
+| 1.2 | 2026-08-03 | Aprovação do gate e implementação C17 diferencial de CombatMath e TrainerAI | Codex | Solicitante do projeto |
 
 ## 1. Finalidade e relação com a ISO 9001
 
@@ -1287,15 +1288,27 @@ A emissão 1.0 foi construída por:
 - `rewrite/battle/contracts/compatibility_hazards.md` isola hangs, link/UI e mutações persistentes;
 - `rewrite/battle/tests/test_c_rewrite_gate.py` impede código C antes da revisão humana deste marco;
 - `.github/workflows/battle-characterization.yml` executa o contrato para Red e Blue.
-- `rewrite/battle/contracts/validation.md` registra `497 passed` na validação local Red/Blue.
+- a revisão 1.1 registrou `497 passed` na validação local Red/Blue antes da inclusão do C.
 
-### 26.2 Checklist de aprovação
+### 26.2 Evidência executável da revisão 1.2
+
+Evidência executável da revisão 1.2:
+
+- `rewrite/battle/include/pokered/battle/` define a API portátil sem dependência de RAM ou emulador;
+- `rewrite/battle/tests/c/test_main.c` cobre os 256 bytes de RNG com ASan/UBSan;
+- `rewrite/battle/tests/test_c_differential.py` projeta ASM e C no mesmo `BattleResult`;
+- `battle-c-tables --check` garante que tipos, críticos, estágios e políticas C derivam do RGBDS;
+- os contratos de IA incluem todas as políticas especiais e as fronteiras de seleção dos quatro slots;
+- `ENHANCED` retorna não suportado e não se mistura ao perfil fiel.
+
+### 26.3 Checklist de aprovação
 
 - [ ] Responsável técnico confirmou as fórmulas de dano e captura.
 - [ ] Responsável técnico confirmou status, itens e fluxo de turno.
 - [ ] Matriz de tipos foi comparada com `TypeEffects`.
 - [ ] Não conformidades receberam disposição inicial.
 - [x] Casos TDD foram incorporados à suíte de caracterização ASM.
+- [x] Marco C inicial de CombatMath e TrainerAI foi aprovado pelo solicitante em 2026-08-03.
 - [ ] Grafo foi regenerado após a inclusão deste documento.
 - [ ] Aprovador e data de aprovação foram registrados.
 

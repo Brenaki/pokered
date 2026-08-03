@@ -1,47 +1,55 @@
 # Scripts 65
 
-> 26 nodes · cohesion 0.08
+> 25 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **scripts/SaffronCity.asm** (27 connections) — `scripts/SaffronCity.asm`
-- **SaffronCity_Script** (2 connections) — `scripts/SaffronCity.asm`
-- **SaffronCity_TextPointers** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityFightingDojoSignText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityGentlemanText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityGymSignText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityMrPsychicsHouseSignText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityPidgeotText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRockerText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket1Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket2Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket3Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket4Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket5Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket6Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket7Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket8Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityRocket9Text** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityScientistText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCitySignText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCitySilphCoLatestProductSignText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCitySilphCoSignText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCitySilphWorkerFText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCitySilphWorkerMText** (1 connections) — `scripts/SaffronCity.asm`
-- **SaffronCityTrainerTips1Text** (1 connections) — `scripts/SaffronCity.asm`
-- *... and 1 more nodes in this community*
+- **scripts/SilphCo9F.asm** (25 connections) — `scripts/SilphCo9F.asm`
+- **21.63 Mapa `SilphCo9F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **hUnlockedSilphCoDoors** (8 connections) — `ram/hram.asm`
+- **SilphCo9F_Script** (6 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FGateCallbackScript** (6 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9F_SetCardKeyDoorYScript** (4 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket1Text** (4 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket2Text** (4 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FScientistText** (4 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9F_ScriptPointers** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9F_SetUnlockedSilphCoDoorsScript** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket1AfterBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket1BattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket1EndBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket2AfterBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket2BattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket2EndBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FScientistAfterBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FScientistBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FScientistEndBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9TrainerHeader0** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9TrainerHeader1** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9TrainerHeader2** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9TrainerHeaders** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9F_TextPointers** (1 connections) — `scripts/SilphCo9F.asm`
 
 ## Relationships
 
+- [Scripts 4](Scripts_4.md) (3 shared connections)
+- [Scripts 14](Scripts_14.md) (3 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
+- [Ram 9](Ram_9.md) (1 shared connections)
+- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/SaffronCity.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `ram/hram.asm`
+- `scripts/SilphCo9F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 52 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

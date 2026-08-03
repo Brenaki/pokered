@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **text/SaffronGates.asm** (6 connections) — `text/SaffronGates.asm`
-- **_SaffronGateGuardGeeImThirstyText** (1 connections) — `text/SaffronGates.asm`
-- **_SaffronGateGuardImParchedText** (1 connections) — `text/SaffronGates.asm`
-- **_SaffronGateGuardThanksForTheDrinkText** (1 connections) — `text/SaffronGates.asm`
-- **_SaffronGateGuardYouCanGoOnThroughText** (1 connections) — `text/SaffronGates.asm`
+- **text/UndergroundPathRoute7Copy.asm** (6 connections) — `text/UndergroundPathRoute7Copy.asm`
+- **_UndergroundPathRoute7CopyUnusedGirlText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
+- **_UndergroundPathRoute7CopyUnusedGoesUnderSaffronText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
+- **_UndergroundPathRoute7CopyUnusedMiddleAgedManText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
+- **_UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `text/SaffronGates.asm`
+- `text/UndergroundPathRoute7Copy.asm`
 
 ## Audit Trail
 

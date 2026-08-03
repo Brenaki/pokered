@@ -1,77 +1,76 @@
 # Scripts 6
 
-> 70 nodes · cohesion 0.07
+> 83 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **wStatusFlags3** (39 connections) — `ram/wram.asm`
-- **home/trainers.asm** (33 connections) — `home/trainers.asm`
-- **SaveEndBattleTextPointers** (32 connections) — `home/trainers.asm`
-- **scripts/CinnabarGym.asm** (29 connections) — `scripts/CinnabarGym.asm`
-- **EngageMapTrainer** (21 connections) — `home/trainers.asm`
-- **InitBattleEnemyParameters** (17 connections) — `home/trainers.asm`
-- **wObtainedBadges** (14 connections) — `ram/wram.asm`
-- **ViridianGymGiovanniText** (14 connections) — `scripts/ViridianGym.asm`
-- **CinnabarGymStartBattleScript** (13 connections) — `scripts/CinnabarGym.asm`
-- **wBeatGymFlags** (10 connections) — `ram/wram.asm`
-- **CeruleanGymMistyText** (10 connections) — `scripts/CeruleanGym.asm`
-- **PewterGymBrockText** (10 connections) — `scripts/PewterGym.asm`
-- **VermilionGymLTSurgeText** (10 connections) — `scripts/VermilionGym.asm`
-- **DisableWaitingAfterTextDisplay** (9 connections) — `home/reload_tiles.asm`
-- **CeladonGymErikaText** (9 connections) — `scripts/CeladonGym.asm`
-- **CeruleanCityRocketText** (9 connections) — `scripts/CeruleanCity.asm`
-- **FuchsiaGymKogaText** (9 connections) — `scripts/FuchsiaGym.asm`
-- **SaffronGymSabrinaText** (9 connections) — `scripts/SaffronGym.asm`
-- **PrintEndBattleText** (8 connections) — `home/trainers.asm`
-- **CinnabarGymReceiveTM38** (8 connections) — `scripts/CinnabarGym.asm`
-- **CinnabarGymSetTrainerHeader** (8 connections) — `scripts/CinnabarGym.asm`
-- **PewterGymScriptReceiveTM34** (8 connections) — `scripts/PewterGym.asm`
-- **RocketHideoutB4FGiovanniText** (8 connections) — `scripts/RocketHideoutB4F.asm`
-- **Route24CooltrainerM1Text** (8 connections) — `scripts/Route24.asm`
-- **SilphCo11FGiovanniStartBattleScript** (8 connections) — `scripts/SilphCo11F.asm`
-- *... and 45 more nodes in this community*
+- **PlaySound** (130 connections) — `home/audio.asm`
+- **5. Visao arquitetural** (42 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **scripts/Route22.asm** (36 connections) — `scripts/Route22.asm`
+- **PlayMusic** (26 connections) — `home/audio.asm`
+- **Music_RivalAlternateStart** (16 connections) — `audio/alternate_tempo.asm`
+- **TryPushingBoulder** (13 connections) — `engine/overworld/push_boulder.asm`
+- **home/audio.asm** (11 connections) — `home/audio.asm`
+- **audio/music/meetrival.asm** (10 connections) — `audio/music/meetrival.asm`
+- **Route22Rival1AfterBattleScript** (10 connections) — `scripts/Route22.asm`
+- **Route22Rival2AfterBattleScript** (10 connections) — `scripts/Route22.asm`
+- **engine/overworld/push_boulder.asm** (9 connections) — `engine/overworld/push_boulder.asm`
+- **PewterPokecenterJigglypuffText** (9 connections) — `scripts/PewterPokecenter.asm`
+- **Route22Rival1StartBattleScript** (9 connections) — `scripts/Route22.asm`
+- **Route22Rival2StartBattleScript** (9 connections) — `scripts/Route22.asm`
+- **PrepareOAMData** (8 connections) — `engine/gfx/sprite_oam.asm`
+- **Music_Cities1AlternateTempo** (7 connections) — `audio/alternate_tempo.asm`
+- **6.4 Musica contextual e batalha** (7 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **SafariZoneGameOver** (7 connections) — `engine/events/hidden_events/safari_game.asm`
+- **audio/alternate_tempo.asm** (7 connections) — `audio/alternate_tempo.asm`
+- **Route22MoveRivalRightScript** (7 connections) — `scripts/Route22.asm`
+- **Music_RivalAlternateStartAndTempo** (6 connections) — `audio/alternate_tempo.asm`
+- **Music_RivalAlternateTempo** (6 connections) — `audio/alternate_tempo.asm`
+- **BillsHousePC** (6 connections) — `engine/events/hidden_events/bills_house_pc.asm`
+- **PlayedFluteHadEffectText** (6 connections) — `engine/items/item_effects.asm`
+- **DoBoulderDustAnimation** (6 connections) — `engine/overworld/push_boulder.asm`
+- *... and 58 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (59 shared connections)
-- [Scripts 3](Scripts_3.md) (12 shared connections)
-- [Scripts 11](Scripts_11.md) (9 shared connections)
-- [Scripts 7](Scripts_7.md) (6 shared connections)
-- [Ram](Ram.md) (2 shared connections)
-- [Scripts 57](Scripts_57.md) (2 shared connections)
-- [Engine Pokemon 2](Engine_Pokemon_2.md) (2 shared connections)
-- [Engine Menus](Engine_Menus.md) (2 shared connections)
-- [Scripts 73](Scripts_73.md) (2 shared connections)
-- [Scripts 69](Scripts_69.md) (2 shared connections)
-- [Scripts 48](Scripts_48.md) (2 shared connections)
-- [Scripts 96](Scripts_96.md) (2 shared connections)
+- [Scripts 3](Scripts_3.md) (19 shared connections)
+- [Scripts 13](Scripts_13.md) (10 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (9 shared connections)
+- [Audio Engine 1.Asm](Audio_Engine_1.Asm.md) (5 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (4 shared connections)
+- [Scripts 4](Scripts_4.md) (4 shared connections)
+- [Scripts 10](Scripts_10.md) (4 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (3 shared connections)
+- [Home 4](Home_4.md) (3 shared connections)
+- [Scripts](Scripts.md) (3 shared connections)
+- [Home](Home.md) (3 shared connections)
+- [Ram 3](Ram_3.md) (3 shared connections)
 
 ## Source Files
 
-- `data/trainers/encounter_types.asm`
-- `home/hidden_events.asm`
-- `home/reload_tiles.asm`
-- `home/trainers.asm`
-- `ram/wram.asm`
-- `scripts/CeladonGym.asm`
-- `scripts/CeruleanCity.asm`
-- `scripts/CeruleanGym.asm`
-- `scripts/CinnabarGym.asm`
-- `scripts/FightingDojo.asm`
-- `scripts/FuchsiaGym.asm`
-- `scripts/GameCorner.asm`
-- `scripts/PewterGym.asm`
-- `scripts/PokemonTower2F.asm`
-- `scripts/RocketHideoutB4F.asm`
-- `scripts/Route24.asm`
-- `scripts/SSAnne2F.asm`
-- `scripts/SaffronGym.asm`
-- `scripts/SilphCo11F.asm`
-- `scripts/VermilionGym.asm`
+- `audio/alternate_tempo.asm`
+- `audio/music/meetrival.asm`
+- `audio/play_battle_music.asm`
+- `data/maps/songs.asm`
+- `data/pokemon/cries.asm`
+- `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- `engine/events/hidden_events/bills_house_pc.asm`
+- `engine/events/hidden_events/safari_game.asm`
+- `engine/gfx/oam_dma.asm`
+- `engine/gfx/sprite_oam.asm`
+- `engine/items/item_effects.asm`
+- `engine/overworld/push_boulder.asm`
+- `home/audio.asm`
+- `home/clear_sprites.asm`
+- `home/fade_audio.asm`
+- `home/npc_movement.asm`
+- `scripts/PalletTown.asm`
+- `scripts/PewterPokecenter.asm`
+- `scripts/Route22.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 293 (100%)
+- EXTRACTED: 250 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

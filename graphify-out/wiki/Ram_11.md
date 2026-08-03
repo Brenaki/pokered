@@ -1,27 +1,23 @@
 # Ram 11
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **6. Aleatoriedade e reprodutibilidade** (6 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **hRandomAdd** (4 connections) — `ram/hram.asm`
-- **hRandomSub** (3 connections) — `ram/hram.asm`
+- **Stack [WRAM0]** (3 connections) — `ram/wram.asm`
+- **wStack** (2 connections) — `ram/wram.asm`
 
 ## Relationships
 
-- [Engine Battle 3](Engine_Battle_3.md) (1 shared connections)
-- [Data Items](Data_Items.md) (1 shared connections)
-- [Engine Overworld 2](Engine_Overworld_2.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `ram/hram.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

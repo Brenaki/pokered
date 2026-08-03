@@ -1,6 +1,6 @@
 # Data Sgb
 
-> 81 nodes · cohesion 0.05
+> 85 nodes · cohesion 0.05
 
 ## Key Concepts
 
@@ -9,6 +9,7 @@
 - **SetPalFunctions** (16 connections) — `engine/gfx/palettes.asm`
 - **LoadSGB** (14 connections) — `engine/gfx/palettes.asm`
 - **PrepareSuperNintendoVRAMTransfer** (12 connections) — `engine/gfx/palettes.asm`
+- **CopyGfxToSuperNintendoVRAM** (8 connections) — `engine/gfx/palettes.asm`
 - **SendSGBPacket** (8 connections) — `engine/gfx/palettes.asm`
 - **SetPal_Battle** (8 connections) — `engine/gfx/palettes.asm`
 - **SetPal_Pokedex** (7 connections) — `engine/gfx/palettes.asm`
@@ -22,24 +23,22 @@
 - **BlkPacket_WholeScreen** (5 connections) — `data/sgb/sgb_packets.asm`
 - **PalPacket_Empty** (5 connections) — `data/sgb/sgb_packets.asm`
 - **7.4 Paletas** (5 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **InitPartyMenuBlkPacket** (5 connections) — `engine/gfx/palettes.asm`
 - **_RunPaletteCommand** (5 connections) — `engine/gfx/palettes.asm`
 - **SendMltReq1Packet** (5 connections) — `engine/gfx/palettes.asm`
 - **SendSGBPackets** (5 connections) — `engine/gfx/palettes.asm`
+- **UpdatePartyMenuBlkPacket** (5 connections) — `engine/gfx/palettes.asm`
 - **data/sgb/sgb_palettes.asm** (5 connections) — `data/sgb/sgb_palettes.asm`
-- **BorderPalettes** (4 connections) — `data/sgb/sgb_border.asm`
-- **SGBBorderGraphics** (4 connections) — `data/sgb/sgb_border.asm`
-- **data/sgb** (4 connections)
-- *... and 56 more nodes in this community*
+- *... and 60 more nodes in this community*
 
 ## Relationships
 
-- [Engine Pokemon](Engine_Pokemon.md) (7 shared connections)
-- [Ram](Ram.md) (3 shared connections)
-- [Ram 12](Ram_12.md) (3 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (9 shared connections)
+- [Ram](Ram.md) (4 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
 - [Bank VRAM](Bank_VRAM.md) (2 shared connections)
-- [Engine Menus](Engine_Menus.md) (1 shared connections)
-- [Engine Movie 4](Engine_Movie_4.md) (1 shared connections)
-- [Engine Link](Engine_Link.md) (1 shared connections)
+- [Home 3](Home_3.md) (1 shared connections)
+- [Engine Gfx 2](Engine_Gfx_2.md) (1 shared connections)
 
 ## Source Files
 
@@ -57,7 +56,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 187 (100%)
+- EXTRACTED: 199 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

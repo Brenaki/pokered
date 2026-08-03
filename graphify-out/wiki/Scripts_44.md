@@ -1,52 +1,51 @@
 # Scripts 44
 
-> 32 nodes · cohesion 0.10
+> 36 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts/SSAnne1FRooms.asm** (32 connections) — `scripts/SSAnne1FRooms.asm`
-- **21.48 Mapa `SSAnne1FRooms`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **SSAnne1FRooms_Script** (5 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsCooltrainerFText** (4 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGentleman1Text** (4 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGentleman2Text** (4 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsYoungsterText** (4 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsWigglytuffText** (3 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRooms_ScriptPointers** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsCooltrainerFAfterBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsCooltrainerFBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsCooltrainerFEndBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGentleman1AfterBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGentleman1BattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGentleman1EndBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGentleman2AfterBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGentleman2BattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsGentleman2EndBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsYoungsterAfterBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsYoungsterBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne1FRoomsYoungsterEndBattleText** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne8TrainerHeader0** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne8TrainerHeader1** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne8TrainerHeader2** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- **SSAnne8TrainerHeader3** (2 connections) — `scripts/SSAnne1FRooms.asm`
-- *... and 7 more nodes in this community*
+- **scripts/Route6.asm** (36 connections) — `scripts/Route6.asm`
+- **21.45 Mapa `Route6`** (18 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Route6_Script** (5 connections) — `scripts/Route6.asm`
+- **Route6CooltrainerF1Text** (4 connections) — `scripts/Route6.asm`
+- **Route6CooltrainerF2Text** (4 connections) — `scripts/Route6.asm`
+- **Route6CooltrainerM1Text** (4 connections) — `scripts/Route6.asm`
+- **Route6CooltrainerM2Text** (4 connections) — `scripts/Route6.asm`
+- **Route6Youngster1Text** (4 connections) — `scripts/Route6.asm`
+- **Route6Youngster2Text** (4 connections) — `scripts/Route6.asm`
+- **Route6_ScriptPointers** (2 connections) — `scripts/Route6.asm`
+- **Route6CooltrainerAfterBattleText** (2 connections) — `scripts/Route6.asm`
+- **Route6CooltrainerF1BattleText** (2 connections) — `scripts/Route6.asm`
+- **Route6CooltrainerF1EndBattleText** (2 connections) — `scripts/Route6.asm`
+- **Route6CooltrainerF2AfterBattleText** (2 connections) — `scripts/Route6.asm`
+- **Route6CooltrainerF2BattleText** (2 connections) — `scripts/Route6.asm`
+- **Route6CooltrainerF2EndBattleText** (2 connections) — `scripts/Route6.asm`
+- **Route6CooltrainerM1BattleText** (2 connections) — `scripts/Route6.asm`
+- **Route6CooltrainerM1EndBattleText** (2 connections) — `scripts/Route6.asm`
+- **Route6CooltrainerM2AfterBattleText** (2 connections) — `scripts/Route6.asm`
+- **Route6CooltrainerM2BattleText** (2 connections) — `scripts/Route6.asm`
+- **Route6CooltrainerM2EndBattleText** (2 connections) — `scripts/Route6.asm`
+- **Route6TrainerHeader0** (2 connections) — `scripts/Route6.asm`
+- **Route6TrainerHeader1** (2 connections) — `scripts/Route6.asm`
+- **Route6TrainerHeader2** (2 connections) — `scripts/Route6.asm`
+- **Route6TrainerHeader3** (2 connections) — `scripts/Route6.asm`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (5 shared connections)
-- [Scripts 7](Scripts_7.md) (4 shared connections)
-- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (6 shared connections)
+- [Scripts 14](Scripts_14.md) (6 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/SSAnne1FRooms.asm`
+- `scripts/Route6.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (100%)
+- EXTRACTED: 73 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

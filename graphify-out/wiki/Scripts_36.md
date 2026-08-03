@@ -1,52 +1,55 @@
 # Scripts 36
 
-> 38 nodes · cohesion 0.09
+> 42 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **scripts/SSAnneB1FRooms.asm** (38 connections) — `scripts/SSAnneB1FRooms.asm`
-- **21.50 Mapa `SSAnneB1FRooms`** (19 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **SSAnneB1FRooms_Script** (5 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnneB1FRoomsFisherText** (4 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnneB1FRoomsSailor1Text** (4 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnneB1FRoomsSailor2Text** (4 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnneB1FRoomsSailor3Text** (4 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnneB1FRoomsSailor4Text** (4 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnneB1FRoomsSailor5Text** (4 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnneB1FRoomsMachokeText** (3 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnne10TrainerHeader0** (2 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnne10TrainerHeader1** (2 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnne10TrainerHeader2** (2 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnne10TrainerHeader3** (2 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnne10TrainerHeader4** (2 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnne10TrainerHeader5** (2 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnne10TrainerHeaders** (2 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnneB1FRooms_ScriptPointers** (2 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnneB1FRoomsFisherAfterBattleText** (2 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnneB1FRoomsFisherBattleText** (2 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnneB1FRoomsFisherEndBattleText** (2 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnneB1FRoomsSailor1AfterBattleText** (2 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnneB1FRoomsSailor1BattleText** (2 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnneB1FRoomsSailor1EndBattleText** (2 connections) — `scripts/SSAnneB1FRooms.asm`
-- **SSAnneB1FRoomsSailor2AfterBattleText** (2 connections) — `scripts/SSAnneB1FRooms.asm`
-- *... and 13 more nodes in this community*
+- **scripts/FuchsiaGym.asm** (44 connections) — `scripts/FuchsiaGym.asm`
+- **21.7 Mapa `FuchsiaGym`** (19 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **FuchsiaGym_Script** (7 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker1Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker2Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker3Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker4Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker5Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker6Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymGymGuideText** (3 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymKogaPostBattleScript** (3 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymResetScripts** (3 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGym_ScriptPointers** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker1AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker1BattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker1EndBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker2AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker2BattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker2EndBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker3AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker3BattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker3EndBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker4AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker4BattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker4EndBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (7 shared connections)
-- [Scripts 7](Scripts_7.md) (6 shared connections)
-- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (7 shared connections)
+- [Scripts 14](Scripts_14.md) (6 shared connections)
+- [Scripts 10](Scripts_10.md) (2 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/SSAnneB1FRooms.asm`
+- `scripts/FuchsiaGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (100%)
+- EXTRACTED: 87 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

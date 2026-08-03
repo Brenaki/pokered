@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **text/LavenderTown.asm** (11 connections) — `text/LavenderTown.asm`
-- **_LavenderTownCooltrainerMText** (1 connections) — `text/LavenderTown.asm`
-- **_LavenderTownLittleGirlDoYouBelieveInGhostsText** (1 connections) — `text/LavenderTown.asm`
-- **_LavenderTownLittleGirlHaHaGuessNotText** (1 connections) — `text/LavenderTown.asm`
-- **_LavenderTownLittleGirlSoThereAreBelieversText** (1 connections) — `text/LavenderTown.asm`
-- **_LavenderTownPokemonHouseSignText** (1 connections) — `text/LavenderTown.asm`
-- **_LavenderTownPokemonTowerSignText** (1 connections) — `text/LavenderTown.asm`
-- **_LavenderTownSignText** (1 connections) — `text/LavenderTown.asm`
-- **_LavenderTownSilphScopeSignText** (1 connections) — `text/LavenderTown.asm`
-- **_LavenderTownSuperNerdText** (1 connections) — `text/LavenderTown.asm`
+- **text/PokemonTower3F.asm** (11 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler1AfterBattleText** (1 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler1BattleText** (1 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler1EndBattleText** (1 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler2AfterBattleText** (1 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler2BattleText** (1 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler2EndBattleText** (1 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler3AfterBattleText** (1 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler3BattleText** (1 connections) — `text/PokemonTower3F.asm`
+- **_PokemonTower3FChanneler3EndBattleText** (1 connections) — `text/PokemonTower3F.asm`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `text/LavenderTown.asm`
+- `text/PokemonTower3F.asm`
 
 ## Audit Trail
 

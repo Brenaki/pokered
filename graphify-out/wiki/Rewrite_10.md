@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **rewrite/battle/battle_characterization/inventory.py** (10 connections) — `rewrite/battle/battle_characterization/inventory.py`
-- **MoveRow** (1 connections) — `rewrite/battle/battle_characterization/inventory.py`
-- **constant_values** (1 connections) — `rewrite/battle/battle_characterization/inventory.py`
-- **controlled_ids** (1 connections) — `rewrite/battle/battle_characterization/inventory.py`
-- **effect_pointers** (1 connections) — `rewrite/battle/battle_characterization/inventory.py`
-- **move_rows** (1 connections) — `rewrite/battle/battle_characterization/inventory.py`
-- **_number** (1 connections) — `rewrite/battle/battle_characterization/inventory.py`
-- **trainer_ai_pointer_rows** (1 connections) — `rewrite/battle/battle_characterization/inventory.py`
-- **trainer_move_choice_rows** (1 connections) — `rewrite/battle/battle_characterization/inventory.py`
-- **type_rows** (1 connections) — `rewrite/battle/battle_characterization/inventory.py`
+- **rewrite/battle/battle_characterization/case.py** (10 connections) — `rewrite/battle/battle_characterization/case.py`
+- **BattleCase** (1 connections) — `rewrite/battle/battle_characterization/case.py`
+- **BattleResult** (1 connections) — `rewrite/battle/battle_characterization/case.py`
+- **MemoryValue** (1 connections) — `rewrite/battle/battle_characterization/case.py`
+- **Stub** (1 connections) — `rewrite/battle/battle_characterization/case.py`
+- **from_dict** (1 connections) — `rewrite/battle/battle_characterization/case.py`
+- **from_dict** (1 connections) — `rewrite/battle/battle_characterization/case.py`
+- **load_case** (1 connections) — `rewrite/battle/battle_characterization/case.py`
+- **parse_int** (1 connections) — `rewrite/battle/battle_characterization/case.py`
+- **to_dict** (1 connections) — `rewrite/battle/battle_characterization/case.py`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `rewrite/battle/battle_characterization/inventory.py`
+- `rewrite/battle/battle_characterization/case.py`
 
 ## Audit Trail
 

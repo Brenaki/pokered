@@ -1,56 +1,55 @@
 # Scripts 45
 
-> 32 nodes · cohesion 0.10
+> 34 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts/SilphCo6F.asm** (29 connections) — `scripts/SilphCo6F.asm`
-- **21.60 Mapa `SilphCo6F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **SilphCo6FBeatGiovanniPrintDEOrPrintHLScript** (9 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo4F_SetCardKeyDoorYScript** (6 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo6F_Script** (6 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6F_GateCallbackScript** (5 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket1Text** (4 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket2Text** (4 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FScientistText** (4 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo4FSilphWorkerMText** (3 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo5FSilphWorkerMText** (3 connections) — `scripts/SilphCo5F.asm`
-- **SilphCo6FSilphWorkerF1Text** (3 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FSilphWorkerF2Text** (3 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FSilphWorkerM1Text** (3 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FSilphWorkerM2Text** (3 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FSilphWorkerM3Text** (3 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6F_ScriptPointers** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6F_UnlockedDoorEventScript** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket1AfterBattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket1BattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket1EndBattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket2AfterBattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket2BattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket2EndBattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FScientistAfterBattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- *... and 7 more nodes in this community*
+- **scripts/PokemonTower7F.asm** (34 connections) — `scripts/PokemonTower7F.asm`
+- **21.21 Mapa `PokemonTower7F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **wToggleableObjectList** (7 connections) — `ram/wram.asm`
+- **PokemonTower7FEndBattleScript** (7 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7F_Script** (5 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocketLeaveMovementScript** (5 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FHideNPCScript** (4 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket1Text** (4 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket2Text** (4 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket3Text** (4 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FWarpToMrFujiHouseScript** (4 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7F_ScriptPointers** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FNPCCoordMovementTable** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket1AfterBattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket1BattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket1EndBattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket2AfterBattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket2BattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket2EndBattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket3AfterBattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket3BattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket3EndBattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FSetDefaultScript** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7TrainerHeader0** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7TrainerHeader1** (2 connections) — `scripts/PokemonTower7F.asm`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (11 shared connections)
-- [Scripts 7](Scripts_7.md) (3 shared connections)
-- [Scripts 49](Scripts_49.md) (1 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
-- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts 13](Scripts_13.md) (4 shared connections)
+- [Scripts 4](Scripts_4.md) (3 shared connections)
+- [Scripts 14](Scripts_14.md) (3 shared connections)
+- [Scripts 33](Scripts_33.md) (2 shared connections)
+- [Scripts 3](Scripts_3.md) (2 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 10](Scripts_10.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/SilphCo4F.asm`
-- `scripts/SilphCo5F.asm`
-- `scripts/SilphCo6F.asm`
+- `ram/wram.asm`
+- `scripts/PokemonTower7F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 70 (100%)
+- EXTRACTED: 65 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

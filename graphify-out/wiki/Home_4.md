@@ -1,61 +1,63 @@
 # Home 4
 
-> 37 nodes · cohesion 0.10
+> 25 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **home/overworld.asm** (70 connections) — `home/overworld.asm`
-- **AdvancePlayerSprite** (18 connections) — `home/overworld.asm`
-- **LoadPlayerSpriteGraphics** (17 connections) — `home/overworld.asm`
-- **CheckWarpsNoCollisionLoop** (9 connections) — `home/overworld.asm`
-- **LoadTileBlockMap** (8 connections) — `home/overworld.asm`
-- **CopyToRedrawRowOrColumnSrcTiles** (6 connections) — `home/overworld.asm`
-- **ForceBikeOrSurf** (6 connections) — `home/overworld.asm`
-- **LoadWalkingPlayerSpriteGraphics** (6 connections) — `home/overworld.asm`
-- **wCurrentTileBlockMapViewPointer** (6 connections) — `ram/wram.asm`
-- **LoadSurfingPlayerSpriteGraphics** (5 connections) — `home/overworld.asm`
-- **IsBikeRidingAllowed** (4 connections) — `home/overworld.asm`
-- **LoadDestinationWarpPosition** (4 connections) — `home/overworld.asm`
-- **LoadPlayerSpriteGraphicsCommon** (4 connections) — `home/overworld.asm`
-- **ScheduleColumnRedrawHelper** (4 connections) — `home/overworld.asm`
-- **ScheduleEastColumnRedraw** (4 connections) — `home/overworld.asm`
-- **ScheduleNorthRowRedraw** (4 connections) — `home/overworld.asm`
-- **ReplaceTreeTileBlock** (3 connections) — `engine/overworld/cut.asm`
-- **data/tilesets/bike_riding_tilesets.asm** (3 connections) — `data/tilesets/bike_riding_tilesets.asm`
-- **CheckWarpsNoCollisionRetry2** (3 connections) — `home/overworld.asm`
-- **ContinueCheckWarpsNoCollisionLoop** (3 connections) — `home/overworld.asm`
-- **DoBikeSpeedup** (3 connections) — `home/overworld.asm`
-- **ScheduleSouthRowRedraw** (3 connections) — `home/overworld.asm`
-- **ScheduleWestColumnRedraw** (3 connections) — `home/overworld.asm`
-- **wXBlockCoord** (3 connections) — `ram/wram.asm`
-- **wXOffsetSinceLastSpecialWarp** (3 connections) — `ram/wram.asm`
-- *... and 12 more nodes in this community*
+- **wChannelSoundIDs** (21 connections) — `ram/wram.asm`
+- **VBlank** (19 connections) — `home/vblank.asm`
+- **home/vcopy.asm** (18 connections) — `home/vcopy.asm`
+- **UpdateMusic6Times** (7 connections) — `home/audio.asm`
+- **UpdateMovingBgTiles** (6 connections) — `home/vcopy.asm`
+- **Audio1_UpdateMusic** (5 connections) — `audio/engine_1.asm`
+- **Audio2_UpdateMusic** (5 connections) — `audio/engine_2.asm`
+- **Audio3_UpdateMusic** (5 connections) — `audio/engine_3.asm`
+- **RedrawRowOrColumn** (4 connections) — `home/vcopy.asm`
+- **AutoBgMapTransfer** (3 connections) — `home/vcopy.asm`
+- **ClearBgMap** (3 connections) — `home/vcopy.asm`
+- **FlowerTile1** (3 connections) — `home/vcopy.asm`
+- **FlowerTile2** (3 connections) — `home/vcopy.asm`
+- **FlowerTile3** (3 connections) — `home/vcopy.asm`
+- **VBlankCopyBgMap** (3 connections) — `home/vcopy.asm`
+- **ReadJoypad** (2 connections) — `home/joypad.asm`
+- **FillBgMapCommon** (2 connections) — `home/vcopy.asm`
+- **GetRowColAddressBgMap** (2 connections) — `home/vcopy.asm`
+- **TransferBgRows** (2 connections) — `home/vcopy.asm`
+- **VBlankCopy** (2 connections) — `home/vcopy.asm`
+- **VBlankCopyDouble** (2 connections) — `home/vcopy.asm`
+- **gfx/tilesets/flower/flower1.2bpp** (1 connections) — `gfx/tilesets/flower/flower1.2bpp`
+- **gfx/tilesets/flower/flower2.2bpp** (1 connections) — `gfx/tilesets/flower/flower2.2bpp`
+- **gfx/tilesets/flower/flower3.2bpp** (1 connections) — `gfx/tilesets/flower/flower3.2bpp`
+- **FillBgMap** (1 connections) — `home/vcopy.asm`
 
 ## Relationships
 
-- [Home 5](Home_5.md) (20 shared connections)
-- [Engine Overworld 4](Engine_Overworld_4.md) (9 shared connections)
-- [Engine Menus](Engine_Menus.md) (5 shared connections)
-- [Ram 2](Ram_2.md) (4 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (4 shared connections)
-- [Ram](Ram.md) (3 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
-- [Gfx Sprites](Gfx_Sprites.md) (2 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
-- [Engine Items 6](Engine_Items_6.md) (1 shared connections)
-- [Engine Movie 2](Engine_Movie_2.md) (1 shared connections)
-- [Home 7](Home_7.md) (1 shared connections)
+- [Ram 3](Ram_3.md) (3 shared connections)
+- [Scripts 6](Scripts_6.md) (3 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Ram 4](Ram_4.md) (1 shared connections)
+- [Data Text Boxes.Asm](Data_Text_Boxes.Asm.md) (1 shared connections)
+- [Engine Items 4](Engine_Items_4.md) (1 shared connections)
+- [Home](Home.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
 
-- `data/tilesets/bike_riding_tilesets.asm`
-- `engine/overworld/cut.asm`
-- `home/overworld.asm`
+- `audio/engine_1.asm`
+- `audio/engine_2.asm`
+- `audio/engine_3.asm`
+- `gfx/tilesets/flower/flower1.2bpp`
+- `gfx/tilesets/flower/flower2.2bpp`
+- `gfx/tilesets/flower/flower3.2bpp`
+- `home/audio.asm`
+- `home/joypad.asm`
+- `home/vblank.asm`
+- `home/vcopy.asm`
 - `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 123 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

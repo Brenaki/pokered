@@ -1,6 +1,39 @@
 {
-  "protocol_version": 1,
+  "protocol_version": 2,
   "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0",
+  "c_milestone": {
+    "name": "combat-math-and-trainer-ai-v1",
+    "behavior_mode": "GEN1_FIDELITY",
+    "status": "implemented",
+    "implemented_ids": [
+      "BTL-ACC", "T-ACC-001", "T-ACC-002", "T-ACC-003", "NC-02",
+      "BTL-CRT", "T-CRT-001", "T-CRT-002", "T-CRT-003", "NC-01",
+      "BTL-DMG", "T-DMG-001", "T-DMG-002", "T-DMG-003", "T-DMG-004",
+      "BTL-TYP", "T-TYP-001", "T-TYP-002", "T-TYP-003", "NC-03",
+      "BTL-RNG",
+      "AI-T01", "AI-T02", "AI-T03", "AI-T04", "AI-T05", "AI-T06",
+      "AI-T07", "AI-T08", "AI-T09", "AI-T10", "AI-T11", "AI-T12",
+      "AI-R01", "AI-R02", "AI-R03", "AI-R04", "AI-R06",
+      "AI-REQ-001", "AI-REQ-002", "AI-REQ-003", "NC-04"
+    ],
+    "evidence": [
+      "rewrite/battle/include/pokered/battle/combat_math.h",
+      "rewrite/battle/include/pokered/battle/trainer_ai.h",
+      "rewrite/battle/tests/c/test_main.c",
+      "rewrite/battle/tests/test_c_differential.py",
+      "rewrite/battle/tests/test_generated_c_tables.py",
+      "rewrite/battle/contracts/validation.md"
+    ],
+    "remaining_contexts": [
+      "Battle turn orchestration",
+      "Conditions and move effects",
+      "PP and enemy PP policy",
+      "Items and Capture",
+      "Progression and battle end",
+      "Link battle and Presentation",
+      "Overworld NPC behavior"
+    ]
+  },
   "groups": [
     {
       "name": "turn-flow-hp-link",

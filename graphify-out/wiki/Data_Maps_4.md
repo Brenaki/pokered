@@ -1,23 +1,34 @@
 # Data Maps 4
 
-> 2 nodes · cohesion 1.00
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **data/maps/map_header_pointers.asm** (3 connections) — `data/maps/map_header_pointers.asm`
-- **MapHeaderPointers** (2 connections) — `data/maps/map_header_pointers.asm`
+- **engine/overworld/map_sprites.asm** (11 connections) — `engine/overworld/map_sprites.asm`
+- **InitOutsideMapSprites** (7 connections) — `engine/overworld/map_sprites.asm`
+- **data/maps/sprite_sets.asm** (5 connections) — `data/maps/sprite_sets.asm`
+- **GetSplitMapSpriteSetID** (4 connections) — `engine/overworld/map_sprites.asm`
+- **wSpriteSet** (3 connections) — `ram/wram.asm`
+- **wXCoord** (3 connections) — `ram/wram.asm`
+- **MapSpriteSets** (2 connections) — `data/maps/sprite_sets.asm`
+- **SplitMapSpriteSets** (2 connections) — `data/maps/sprite_sets.asm`
+- **SpriteSets** (2 connections) — `data/maps/sprite_sets.asm`
+- **ReadSpriteSheetData** (2 connections) — `engine/overworld/map_sprites.asm`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Bank WRAM0](Bank_WRAM0.md) (3 shared connections)
+- [Bank ROMX](Bank_ROMX.md) (1 shared connections)
 
 ## Source Files
 
-- `data/maps/map_header_pointers.asm`
+- `data/maps/sprite_sets.asm`
+- `engine/overworld/map_sprites.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

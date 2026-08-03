@@ -1,54 +1,53 @@
 # Scripts 59
 
-> 28 nodes · cohesion 0.09
+> 27 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **GateUpstairsScript_PrintIfFacingUp** (12 connections) — `scripts/Route12Gate2F.asm`
-- **scripts/Route11Gate2F.asm** (9 connections) — `scripts/Route11Gate2F.asm`
-- **scripts/Route12Gate2F.asm** (8 connections) — `scripts/Route12Gate2F.asm`
-- **scripts/Route16Gate2F.asm** (8 connections) — `scripts/Route16Gate2F.asm`
-- **scripts/Route18Gate2F.asm** (7 connections) — `scripts/Route18Gate2F.asm`
-- **scripts/Route15Gate2F.asm** (6 connections) — `scripts/Route15Gate2F.asm`
-- **DisableAutoTextBoxDrawing** (6 connections) — `home/window.asm`
-- **Route11Gate2FScriptEnd** (3 connections) — `scripts/Route11Gate2F.asm`
-- **Route18Gate2FYoungsterText** (3 connections) — `scripts/Route18Gate2F.asm`
-- **Route11Gate2F_Script** (2 connections) — `scripts/Route11Gate2F.asm`
-- **Route11Gate2FRightBinocularsText** (2 connections) — `scripts/Route11Gate2F.asm`
-- **Route11Gate2FYoungsterText** (2 connections) — `scripts/Route11Gate2F.asm`
-- **Route12Gate2F_Script** (2 connections) — `scripts/Route12Gate2F.asm`
-- **Route12Gate2FLeftBinocularsText** (2 connections) — `scripts/Route12Gate2F.asm`
-- **Route12Gate2FRightBinocularsText** (2 connections) — `scripts/Route12Gate2F.asm`
-- **Route15Gate2F_Script** (2 connections) — `scripts/Route15Gate2F.asm`
-- **Route15Gate2FBinocularsText** (2 connections) — `scripts/Route15Gate2F.asm`
-- **Route16Gate2F_Script** (2 connections) — `scripts/Route16Gate2F.asm`
-- **Route16Gate2FLeftBinocularsText** (2 connections) — `scripts/Route16Gate2F.asm`
-- **Route16Gate2FRightBinocularsText** (2 connections) — `scripts/Route16Gate2F.asm`
-- **Route18Gate2F_Script** (2 connections) — `scripts/Route18Gate2F.asm`
-- **Route18Gate2FLeftBinocularsText** (2 connections) — `scripts/Route18Gate2F.asm`
-- **Route18Gate2FRightBinocularsText** (2 connections) — `scripts/Route18Gate2F.asm`
-- **Route11Gate2F_TextPointers** (1 connections) — `scripts/Route11Gate2F.asm`
-- **Route12Gate2F_TextPointers** (1 connections) — `scripts/Route12Gate2F.asm`
-- *... and 3 more nodes in this community*
+- **scripts/VictoryRoad3F.asm** (28 connections) — `scripts/VictoryRoad3F.asm`
+- **21.67 Mapa `VictoryRoad3F`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **VictoryRoad3F_Script** (6 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF1Text** (4 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF2Text** (4 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM1Text** (4 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM2Text** (4 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCheckBoulderEventScript** (3 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3F_ScriptPointers** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF1AfterBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF1BattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF1EndBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF2AfterBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF2BattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF2EndBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM1AfterBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM1BattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM1EndBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM2AfterBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM2BattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM2EndBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3TrainerHeader0** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3TrainerHeader1** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3TrainerHeader2** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3TrainerHeader3** (2 connections) — `scripts/VictoryRoad3F.asm`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (8 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
-- [Engine Events](Engine_Events.md) (2 shared connections)
+- [Scripts 4](Scripts_4.md) (4 shared connections)
+- [Scripts 14](Scripts_14.md) (4 shared connections)
+- [Scripts 13](Scripts_13.md) (1 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
 
 ## Source Files
 
-- `home/window.asm`
-- `scripts/Route11Gate2F.asm`
-- `scripts/Route12Gate2F.asm`
-- `scripts/Route15Gate2F.asm`
-- `scripts/Route16Gate2F.asm`
-- `scripts/Route18Gate2F.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/VictoryRoad3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (100%)
+- EXTRACTED: 56 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

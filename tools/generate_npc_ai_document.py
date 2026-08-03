@@ -258,12 +258,12 @@ def build_document() -> str:
 |---|---|
 | Identificacao | AI-NPC-003 |
 | Arquivo | `003-2026-08-01-Funcionamento-das-IAs-Pokemon.md` |
-| Revisao | 1.1 |
+| Revisao | 1.2 |
 | Data de emissao | 2026-08-01 |
 | Situacao | Emitido para revisao e uso tecnico interno |
 | Responsavel pelo processo | Equipe de reescrita ASM para C |
 | Elaborado por | Gerador deterministico, Graphify e verificacao direta do codigo-fonte |
-| Aprovador | Pendente de designacao |
+| Aprovador | Solicitante do projeto para o marco C inicial |
 | Baseline do codigo | commit `{BASELINE_COMMIT}` |
 | Abrangencia | IA de batalha, movimento, percepcao, interacao e scripts de NPC da ROM Red/Blue |
 | Classificacao | Informacao documentada interna |
@@ -274,6 +274,7 @@ def build_document() -> str:
 |---|---|---|---|---|
 | 1.0 | 2026-08-01 | Emissao inicial da especificacao e dos inventarios completos | Codex | Pendente |
 | 1.1 | 2026-08-01 | Vinculo com oraculo ASM, matriz de IA de batalha e gate pre-C | Codex | Pendente |
+| 1.2 | 2026-08-03 | Implementacao C17 da IA de batalha fiel, diferencial ASM/C e tabelas geradas | Codex | Solicitante do projeto |
 
 ## 1. Finalidade e relacao com a ISO 9001
 
@@ -935,13 +936,18 @@ por agentes e `graphify-out/graph.json`.
 - `rewrite/battle/contracts/cases/trainer_ai.json` executa AI-T01..AI-T12 nas ROMs Red/Blue;
 - `rewrite/battle/tests/test_source_inventory.py` verifica as 47 politicas e ausencia de perceptron;
 - `rewrite/battle/contracts/traceability.json` controla AI-REQ, AI-R e os casos de aceitacao;
-- `rewrite/battle/tests/test_c_rewrite_gate.py` bloqueia producao C antes da revisao humana.
+- `rewrite/battle/include/pokered/battle/trainer_ai.h` define observacao imutavel e decisao tipada;
+- `rewrite/battle/tests/c/test_main.c` cobre as 47 classes, handlers e todos os bytes RNG;
+- `rewrite/battle/tests/test_c_differential.py` compara C com os contratos ASM Red/Blue;
+- `battle-c-tables --check` deriva camadas e politicas diretamente das tabelas RGBDS;
+- `ENHANCED` permanece explicitamente nao suportado nesta revisao.
 
 ### 17.2 Checklist do aprovador
 
 - [ ] Escopo e modos fiel/melhorado aprovados.
 - [ ] Bugs historicos classificados entre preservar e corrigir.
 - [x] Casos TDD da IA de batalha possuem fixtures ASM e rastreabilidade.
+- [x] Marco C fiel da IA de batalha aprovado pelo solicitante em 2026-08-03.
 - [ ] Inventarios conferem com o baseline.
 - [ ] Modelo de aprendizado possui opt-out, reset e schema de save.
 - [ ] Graphify e links de fonte estao atualizados.

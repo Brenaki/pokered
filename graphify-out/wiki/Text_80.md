@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **text/CeladonDiner.asm** (10 connections) — `text/CeladonDiner.asm`
-- **_CeladonDinerCookText** (1 connections) — `text/CeladonDiner.asm`
-- **_CeladonDinerFisherText** (1 connections) — `text/CeladonDiner.asm`
-- **_CeladonDinerGymGuideCoinCaseNoRoomText** (1 connections) — `text/CeladonDiner.asm`
-- **_CeladonDinerGymGuideImFlatOutBustedText** (1 connections) — `text/CeladonDiner.asm`
-- **_CeladonDinerGymGuideReceivedCoinCaseText** (1 connections) — `text/CeladonDiner.asm`
-- **_CeladonDinerGymGuideWinItBackText** (1 connections) — `text/CeladonDiner.asm`
-- **_CeladonDinerMiddleAgedManText** (1 connections) — `text/CeladonDiner.asm`
-- **_CeladonDinerMiddleAgedWomanText** (1 connections) — `text/CeladonDiner.asm`
+- **text/ChampionsRoom.asm** (10 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomOakComeWithMeText** (1 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomOakCongratulatesPlayerText** (1 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomOakDisappointedWithRivalText** (1 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomOakText** (1 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomRivalAfterBattleText** (1 connections) — `text/ChampionsRoom.asm`
+- **_ChampionsRoomRivalIntroText** (1 connections) — `text/ChampionsRoom.asm`
+- **_RivalDefeatedText** (1 connections) — `text/ChampionsRoom.asm`
+- **_RivalVictoryText** (1 connections) — `text/ChampionsRoom.asm`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `text/CeladonDiner.asm`
+- `text/ChampionsRoom.asm`
 
 ## Audit Trail
 

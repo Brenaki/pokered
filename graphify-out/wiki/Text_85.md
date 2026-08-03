@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **text/PokemonMansion2F.asm** (10 connections) — `text/PokemonMansion2F.asm`
-- **_PokemonMansion2FDiary1Text** (1 connections) — `text/PokemonMansion2F.asm`
-- **_PokemonMansion2FDiary2Text** (1 connections) — `text/PokemonMansion2F.asm`
-- **_PokemonMansion2FSuperNerdAfterBattleText** (1 connections) — `text/PokemonMansion2F.asm`
-- **_PokemonMansion2FSuperNerdBattleText** (1 connections) — `text/PokemonMansion2F.asm`
-- **_PokemonMansion2FSuperNerdEndBattleText** (1 connections) — `text/PokemonMansion2F.asm`
-- **_PokemonMansion2FSwitchNotPressedText** (1 connections) — `text/PokemonMansion2F.asm`
-- **_PokemonMansion2FSwitchPressedText** (1 connections) — `text/PokemonMansion2F.asm`
-- **_PokemonMansion2FSwitchText** (1 connections) — `text/PokemonMansion2F.asm`
+- **text/Route24.asm** (10 connections) — `text/Route24.asm`
+- **_Route24CooltrainerM1DefeatedText** (1 connections) — `text/Route24.asm`
+- **_Route24CooltrainerM1JoinTeamRocketText** (1 connections) — `text/Route24.asm`
+- **_Route24CooltrainerM1NoRoomText** (1 connections) — `text/Route24.asm`
+- **_Route24CooltrainerM1ReceivedNuggetText** (1 connections) — `text/Route24.asm`
+- **_Route24CooltrainerM1YouBeatOurContestText** (1 connections) — `text/Route24.asm`
+- **_Route24CooltrainerM1YouCouldBecomeATopLeaderText** (1 connections) — `text/Route24.asm`
+- **_Route24CooltrainerM1YouJustEarnedAPrizeText** (1 connections) — `text/Route24.asm`
+- **_Route24CooltrainerM2BattleText** (1 connections) — `text/Route24.asm`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `text/PokemonMansion2F.asm`
+- `text/Route24.asm`
 
 ## Audit Trail
 

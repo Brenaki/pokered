@@ -1,54 +1,60 @@
 # Scripts 42
 
-> 35 nodes · cohesion 0.09
+> 37 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **scripts/PokemonMansionB1F.asm** (19 connections) — `scripts/PokemonMansionB1F.asm`
-- **scripts/PokemonMansion2F.asm** (17 connections) — `scripts/PokemonMansion2F.asm`
-- **21.16 Mapa `PokemonMansionB1F`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **PokemonMansion2F_Script** (6 connections) — `scripts/PokemonMansion2F.asm`
-- **PokemonMansionB1F_Script** (6 connections) — `scripts/PokemonMansionB1F.asm`
-- **21.14 Mapa `PokemonMansion2F`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **Mansion2CheckReplaceSwitchDoorBlocks** (4 connections) — `scripts/PokemonMansion2F.asm`
-- **Mansion2ReplaceBlock** (4 connections) — `scripts/PokemonMansion2F.asm`
-- **PokemonMansion2FSuperNerdText** (4 connections) — `scripts/PokemonMansion2F.asm`
-- **MansionB1FCheckReplaceSwitchDoorBlocks** (4 connections) — `scripts/PokemonMansionB1F.asm`
-- **PokemonMansionB1FBurglarText** (4 connections) — `scripts/PokemonMansionB1F.asm`
-- **PokemonMansionB1FScientistText** (4 connections) — `scripts/PokemonMansionB1F.asm`
-- **Mansion2Script_Switches** (2 connections) — `scripts/PokemonMansion2F.asm`
-- **Mansion2TrainerHeader0** (2 connections) — `scripts/PokemonMansion2F.asm`
-- **Mansion2TrainerHeaders** (2 connections) — `scripts/PokemonMansion2F.asm`
-- **PokemonMansion2F_ScriptPointers** (2 connections) — `scripts/PokemonMansion2F.asm`
-- **PokemonMansion2FSuperNerdAfterBattleText** (2 connections) — `scripts/PokemonMansion2F.asm`
-- **PokemonMansion2FSuperNerdBattleText** (2 connections) — `scripts/PokemonMansion2F.asm`
-- **PokemonMansion2FSuperNerdEndBattleText** (2 connections) — `scripts/PokemonMansion2F.asm`
-- **Mansion4Script_Switches** (2 connections) — `scripts/PokemonMansionB1F.asm`
-- **Mansion4TrainerHeader0** (2 connections) — `scripts/PokemonMansionB1F.asm`
-- **Mansion4TrainerHeader1** (2 connections) — `scripts/PokemonMansionB1F.asm`
-- **Mansion4TrainerHeaders** (2 connections) — `scripts/PokemonMansionB1F.asm`
-- **PokemonMansionB1F_ScriptPointers** (2 connections) — `scripts/PokemonMansionB1F.asm`
-- **PokemonMansionB1FBurglarAfterBattleText** (2 connections) — `scripts/PokemonMansionB1F.asm`
-- *... and 10 more nodes in this community*
+- **wStatusFlags1** (15 connections) — `ram/wram.asm`
+- **scripts/Route5Gate.asm** (12 connections) — `scripts/Route5Gate.asm`
+- **SaffronGateGuardText** (9 connections) — `scripts/Route5Gate.asm`
+- **RemoveGuardDrink** (8 connections) — `engine/events/saffron_guards.asm`
+- **scripts/Route6Gate.asm** (8 connections) — `scripts/Route6Gate.asm`
+- **scripts/Route7Gate.asm** (8 connections) — `scripts/Route7Gate.asm`
+- **scripts/Route8Gate.asm** (8 connections) — `scripts/Route8Gate.asm`
+- **Route5GateDefaultScript** (7 connections) — `scripts/Route5Gate.asm`
+- **Route6GateDefaultScript** (7 connections) — `scripts/Route6Gate.asm`
+- **Route7DefaultScript** (7 connections) — `scripts/Route7Gate.asm`
+- **Route8GateDefaultScript** (7 connections) — `scripts/Route8Gate.asm`
+- **Route5GateMovePlayerUpScript** (5 connections) — `scripts/Route5Gate.asm`
+- **engine/events/saffron_guards.asm** (4 connections) — `engine/events/saffron_guards.asm`
+- **Route5Gate_Script** (4 connections) — `scripts/Route5Gate.asm`
+- **Route6Gate_Script** (4 connections) — `scripts/Route6Gate.asm`
+- **Route7Gate_Script** (4 connections) — `scripts/Route7Gate.asm`
+- **Route8Gate_Script** (4 connections) — `scripts/Route8Gate.asm`
+- **data/items/guard_drink_items.asm** (3 connections) — `data/items/guard_drink_items.asm`
+- **Route5GatePlayerMovingScript** (3 connections) — `scripts/Route5Gate.asm`
+- **Route6GateMovePlayerDownScript** (3 connections) — `scripts/Route6Gate.asm`
+- **Route6GatePlayerMovingScript** (3 connections) — `scripts/Route6Gate.asm`
+- **Route7GateMovePlayerLeftScript** (3 connections) — `scripts/Route7Gate.asm`
+- **Route7PlayerMovingScript** (3 connections) — `scripts/Route7Gate.asm`
+- **Route8GateMovePlayerRightScript** (3 connections) — `scripts/Route8Gate.asm`
+- **Route8GatePlayerMovingScript** (3 connections) — `scripts/Route8Gate.asm`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (4 shared connections)
-- [Scripts 7](Scripts_7.md) (3 shared connections)
-- [Scripts 11](Scripts_11.md) (2 shared connections)
-- [Scripts 3](Scripts_3.md) (2 shared connections)
-- [Scripts 27](Scripts_27.md) (2 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
+- [Scripts 3](Scripts_3.md) (9 shared connections)
+- [Scripts 8](Scripts_8.md) (4 shared connections)
+- [Scripts](Scripts.md) (4 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (4 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (3 shared connections)
+- [Scripts 46](Scripts_46.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/PokemonMansion2F.asm`
-- `scripts/PokemonMansionB1F.asm`
+- `data/items/guard_drink_items.asm`
+- `engine/events/saffron_guards.asm`
+- `ram/wram.asm`
+- `scripts/Route5Gate.asm`
+- `scripts/Route6Gate.asm`
+- `scripts/Route7Gate.asm`
+- `scripts/Route8Gate.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (100%)
+- EXTRACTED: 81 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,55 +1,54 @@
 # Scripts 50
 
-> 30 nodes · cohesion 0.12
+> 31 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **scripts/Route23.asm** (32 connections) — `scripts/Route23.asm`
-- **Route23CheckForBadgeScript** (15 connections) — `scripts/Route23.asm`
-- **BadgeTextPointers** (9 connections) — `scripts/Route23.asm`
-- **Route23DefaultScript** (6 connections) — `scripts/Route23.asm`
-- **Route23_Script** (5 connections) — `scripts/Route23.asm`
-- **Route23CopyBadgeTextScript** (5 connections) — `scripts/Route23.asm`
-- **Route23YouDontHaveTheBadgeYetText** (5 connections) — `scripts/Route23.asm`
-- **Route23MovePlayerDownScript** (4 connections) — `scripts/Route23.asm`
-- **Route23Guard1Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard2Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard3Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard4Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard5Text** (3 connections) — `scripts/Route23.asm`
-- **Route23OhThatIsTheBadgeText** (3 connections) — `scripts/Route23.asm`
-- **Route23PrintOhThatsTheBadgeTextScript** (3 connections) — `scripts/Route23.asm`
-- **Route23Swimmer1Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Swimmer2Text** (3 connections) — `scripts/Route23.asm`
-- **CascadeBadgeText** (2 connections) — `scripts/Route23.asm`
-- **EarthBadgeText** (2 connections) — `scripts/Route23.asm`
-- **MarshBadgeText** (2 connections) — `scripts/Route23.asm`
-- **RainbowBadgeText** (2 connections) — `scripts/Route23.asm`
-- **Route23_ScriptPointers** (2 connections) — `scripts/Route23.asm`
-- **Route23GuardsYCoords** (2 connections) — `scripts/Route23.asm`
-- **Route23PlayerMovingScript** (2 connections) — `scripts/Route23.asm`
-- **Route23ResetToDefaultScript** (2 connections) — `scripts/Route23.asm`
-- *... and 5 more nodes in this community*
+- **scripts/SilphCo5F.asm** (32 connections) — `scripts/SilphCo5F.asm`
+- **21.59 Mapa `SilphCo5F`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **SilphCo5F_Script** (6 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FGateCallbackScript** (6 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRockerText** (4 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRocket1Text** (4 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRocket2Text** (4 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FScientistText** (4 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5F_ScriptPointers** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5F_SetUnlockedSilphCoDoorsScript** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRockerAfterBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRockerBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRockerEndBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRocket1AfterBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRocket1BattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRocket1EndBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRocket2AfterBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRocket2BattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FRocket2EndBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FScientistAfterBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FScientistBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5FScientistEndBattleText** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5TrainerHeader0** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5TrainerHeader1** (2 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo5TrainerHeader2** (2 connections) — `scripts/SilphCo5F.asm`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (10 shared connections)
-- [Scripts 11](Scripts_11.md) (2 shared connections)
-- [Home](Home.md) (2 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
-- [Scripts 3](Scripts_3.md) (2 shared connections)
-- [Scripts 16](Scripts_16.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (4 shared connections)
+- [Scripts 14](Scripts_14.md) (4 shared connections)
+- [Scripts 20](Scripts_20.md) (2 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 6](Scripts_6.md) (1 shared connections)
-- [Engine Pokemon 2](Engine_Pokemon_2.md) (1 shared connections)
+- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route23.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/SilphCo5F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (100%)
+- EXTRACTED: 63 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

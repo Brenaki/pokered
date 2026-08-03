@@ -6,13 +6,15 @@ not from a second implementation of the formulas.
 
 ## Quality gate
 
-Before any battle C source is added:
+The pre-C milestone was approved on 2026-08-03. Every C battle slice must now:
 
 1. build Red and Blue with RGBDS `v1.0.2+hotfix` and debug symbols;
 2. run source-table, contract, and ASM behavior tests;
-3. verify every controlled requirement has traceable evidence;
-4. review changes to golden results explicitly;
-5. keep `GEN1_FIDELITY` behavior, including documented Generation I defects.
+3. run the native C tests with sanitizers;
+4. compare supported routines through the same reviewed ASM contracts;
+5. verify every claimed C requirement has traceable evidence;
+6. review changes to golden results explicitly;
+7. keep `GEN1_FIDELITY` behavior, including documented Generation I defects.
 
 Pixel output, animation timing, text, and audio are presentation concerns and
 are not part of this semantic gate.
@@ -22,6 +24,7 @@ are not part of this semantic gate.
 ```sh
 uv sync --project rewrite/battle --frozen --extra test
 make DEBUG=1 pokered.gbc pokeblue.gbc
+make -C rewrite/battle check
 BATTLE_TEST_VARIANTS=red,blue \
   uv run --project rewrite/battle --frozen pytest rewrite/battle/tests
 uv run --project rewrite/battle battle-asm run \
@@ -36,14 +39,17 @@ Golden files are never updated by the normal test command. Use the explicit
 in the controlled documents.
 
 The suite contains reviewed JSON examples, exhaustive reads of all 165 move
-records, and ASM property enumerations. See `contracts/traceability.json` for the
-owner and evidence method of every controlled ID. Full battle-end, intentional
-divide-by-zero, Counter history, and transformed-capture save mutation remain
-isolated in `contracts/compatibility_hazards.md`.
+records, native C enumeration of every RNG byte for the implemented routines,
+and ASM property enumerations. See `contracts/traceability.json` for both the
+characterization owner and the C milestone evidence. Full battle-end,
+intentional divide-by-zero, Counter history, and transformed-capture save
+mutation remain isolated in `contracts/compatibility_hazards.md`.
 
 ## Design boundaries
 
-The future implementation will use the bounded contexts `Battle`,
-`CombatMath`, `Conditions`, `Items`, `Capture`, `TrainerAI`, and `Progression`.
-The language-neutral JSON case/result protocol is the compatibility boundary.
-The ASM runner is its first adapter; the C runner will be a later adapter.
+The implementation uses the bounded contexts `Battle`, `CombatMath`,
+`Conditions`, `Items`, `Capture`, `TrainerAI`, and `Progression`.
+`CombatMath` and battle `TrainerAI` are the first portable C17 slice. The
+language-neutral case/result protocol is the compatibility boundary, with ASM
+and C runners projecting into the same semantic result. `ENHANCED` is reserved
+in the public API and deliberately unsupported until fidelity is complete.

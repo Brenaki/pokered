@@ -1,51 +1,49 @@
 # Scripts 72
 
-> 23 nodes · cohesion 0.15
+> 20 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **scripts/SilphCo4F.asm** (25 connections) — `scripts/SilphCo4F.asm`
-- **21.58 Mapa `SilphCo4F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **SilphCo4F_Script** (6 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FGateCallbackScript** (6 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FRocket1Text** (4 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FRocket2Text** (4 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FScientistText** (4 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4F_ScriptPointers** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FRocket1AfterBattleText** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FRocket1BattleText** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FRocket1EndBattleText** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FRocket2AfterBattleText** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FRocket2BattleText** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FRocket2EndBattleText** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FScientistAfterBattleText** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FScientistBattleText** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FScientistEndBattleText** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4FUnlockedDoorEventScript** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4TrainerHeader0** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4TrainerHeader1** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4TrainerHeader2** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4TrainerHeaders** (2 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo4F_TextPointers** (1 connections) — `scripts/SilphCo4F.asm`
+- **scripts/LancesRoom.asm** (20 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomDefaultScript** (10 connections) — `scripts/LancesRoom.asm`
+- **WalkToLance** (7 connections) — `scripts/LancesRoom.asm`
+- **LancesRoom_Script** (6 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomLanceEndBattleScript** (5 connections) — `scripts/LancesRoom.asm`
+- **21.8 Mapa `LancesRoom`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **LanceShowOrHideEntranceBlocks** (4 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomLanceText** (4 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomLanceAfterBattleText** (3 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomPlayerIsMovingScript** (3 connections) — `scripts/LancesRoom.asm`
+- **LancesRoom_ScriptPointers** (2 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomLanceBeforeBattleText** (2 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomLanceEndBattleText** (2 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomNoopScript** (2 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomTrainerHeader0** (2 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomTrainerHeaders** (2 connections) — `scripts/LancesRoom.asm`
+- **LanceTriggerMovementCoords** (2 connections) — `scripts/LancesRoom.asm`
+- **ResetLanceScript** (2 connections) — `scripts/LancesRoom.asm`
+- **WalkToLance_RLEList** (2 connections) — `scripts/LancesRoom.asm`
+- **LancesRoom_TextPointers** (1 connections) — `scripts/LancesRoom.asm`
 
 ## Relationships
 
-- [Scripts 45](Scripts_45.md) (3 shared connections)
-- [Scripts 2](Scripts_2.md) (3 shared connections)
-- [Scripts 7](Scripts_7.md) (3 shared connections)
-- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (7 shared connections)
+- [Scripts 9](Scripts_9.md) (2 shared connections)
+- [Scripts 33](Scripts_33.md) (2 shared connections)
+- [Scripts 4](Scripts_4.md) (2 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Engine Overworld 12](Engine_Overworld_12.md) (1 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Scripts 14](Scripts_14.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/SilphCo4F.asm`
+- `scripts/LancesRoom.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 47 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

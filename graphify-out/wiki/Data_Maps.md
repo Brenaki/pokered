@@ -33,7 +33,7 @@
 
 ## Relationships
 
-- [Scripts](Scripts.md) (75 shared connections)
+- [Scripts](Scripts.md) (76 shared connections)
 - [Maps.Asm](Maps.Asm.md) (23 shared connections)
 - [Maps.Asm 3](Maps.Asm_3.md) (22 shared connections)
 - [Maps.Asm 2](Maps.Asm_2.md) (22 shared connections)
@@ -43,8 +43,8 @@
 - [Maps](Maps.md) (14 shared connections)
 - [Maps.Asm 6](Maps.Asm_6.md) (14 shared connections)
 - [Maps.Asm 11](Maps.Asm_11.md) (13 shared connections)
+- [Scripts 5](Scripts_5.md) (12 shared connections)
 - [Maps.Asm 8](Maps.Asm_8.md) (12 shared connections)
-- [Scripts 4](Scripts_4.md) (11 shared connections)
 
 ## Source Files
 

@@ -1,32 +1,30 @@
 # Engine Events 10
 
-> 10 nodes · cohesion 0.36
+> 7 nodes · cohesion 0.48
 
 ## Key Concepts
 
-- **engine/events/hidden_events/school_notebooks.asm** (12 connections) — `engine/events/hidden_events/school_notebooks.asm`
-- **ViridianSchoolNotebook** (9 connections) — `engine/events/hidden_events/school_notebooks.asm`
-- **TurnPageSchoolNotebook** (5 connections) — `engine/events/hidden_events/school_notebooks.asm`
-- **TurnPageText** (2 connections) — `engine/events/hidden_events/school_notebooks.asm`
-- **ViridianSchoolNotebookText1** (2 connections) — `engine/events/hidden_events/school_notebooks.asm`
-- **ViridianSchoolNotebookText2** (2 connections) — `engine/events/hidden_events/school_notebooks.asm`
-- **ViridianSchoolNotebookText3** (2 connections) — `engine/events/hidden_events/school_notebooks.asm`
-- **ViridianSchoolNotebookText4** (2 connections) — `engine/events/hidden_events/school_notebooks.asm`
-- **ViridianSchoolNotebookText5** (2 connections) — `engine/events/hidden_events/school_notebooks.asm`
-- **TMNotebook** (1 connections) — `engine/events/hidden_events/school_notebooks.asm`
+- **engine/events/hidden_events/safari_game.asm** (11 connections) — `engine/events/hidden_events/safari_game.asm`
+- **SafariGameOverText** (6 connections) — `engine/events/hidden_events/safari_game.asm`
+- **SafariZoneCheck** (4 connections) — `engine/events/hidden_events/safari_game.asm`
+- **PrintSafariGameOverText** (3 connections) — `engine/events/hidden_events/safari_game.asm`
+- **GameOverText** (2 connections) — `engine/events/hidden_events/safari_game.asm`
+- **SafariZoneGameStillGoing** (2 connections) — `engine/events/hidden_events/safari_game.asm`
+- **TimesUpText** (2 connections) — `engine/events/hidden_events/safari_game.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (4 shared connections)
-- [Engine Slots 2](Engine_Slots_2.md) (1 shared connections)
+- [Scripts 6](Scripts_6.md) (3 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/events/hidden_events/school_notebooks.asm`
+- `engine/events/hidden_events/safari_game.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

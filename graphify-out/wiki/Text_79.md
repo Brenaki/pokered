@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **text/BillsHouse.asm** (10 connections) — `text/BillsHouse.asm`
-- **_BillsHouseBillCheckOutMyRarePokemonText** (1 connections) — `text/BillsHouse.asm`
-- **_BillsHouseBillImNotAPokemonText** (1 connections) — `text/BillsHouse.asm`
-- **_BillsHouseBillNoYouGottaHelpText** (1 connections) — `text/BillsHouse.asm`
-- **_BillsHouseBillThankYouText** (1 connections) — `text/BillsHouse.asm`
-- **_BillsHouseBillUseSeparationSystemText** (1 connections) — `text/BillsHouse.asm`
-- **_BillsHouseBillWhyDontYouGoInsteadOfMeText** (1 connections) — `text/BillsHouse.asm`
-- **_SSTicketNoRoomText** (1 connections) — `text/BillsHouse.asm`
-- **_SSTicketReceivedText** (1 connections) — `text/BillsHouse.asm`
+- **text/CeladonDiner.asm** (10 connections) — `text/CeladonDiner.asm`
+- **_CeladonDinerCookText** (1 connections) — `text/CeladonDiner.asm`
+- **_CeladonDinerFisherText** (1 connections) — `text/CeladonDiner.asm`
+- **_CeladonDinerGymGuideCoinCaseNoRoomText** (1 connections) — `text/CeladonDiner.asm`
+- **_CeladonDinerGymGuideImFlatOutBustedText** (1 connections) — `text/CeladonDiner.asm`
+- **_CeladonDinerGymGuideReceivedCoinCaseText** (1 connections) — `text/CeladonDiner.asm`
+- **_CeladonDinerGymGuideWinItBackText** (1 connections) — `text/CeladonDiner.asm`
+- **_CeladonDinerMiddleAgedManText** (1 connections) — `text/CeladonDiner.asm`
+- **_CeladonDinerMiddleAgedWomanText** (1 connections) — `text/CeladonDiner.asm`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `text/BillsHouse.asm`
+- `text/CeladonDiner.asm`
 
 ## Audit Trail
 

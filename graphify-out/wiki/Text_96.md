@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **text/PokemonMansionB1F.asm** (9 connections) — `text/PokemonMansionB1F.asm`
-- **_PokemonMansionB1FBurglarAfterBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
-- **_PokemonMansionB1FBurglarBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
-- **_PokemonMansionB1FBurglarEndBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
-- **_PokemonMansionB1FDiaryText** (1 connections) — `text/PokemonMansionB1F.asm`
-- **_PokemonMansionB1FScientistAfterBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
-- **_PokemonMansionB1FScientistBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
-- **_PokemonMansionB1FScientistEndBattleText** (1 connections) — `text/PokemonMansionB1F.asm`
+- **text/SSAnneCaptainsRoom.asm** (9 connections) — `text/SSAnneCaptainsRoom.asm`
+- **_SSAnneCaptainsRoomCaptainHM01NoRoomText** (1 connections) — `text/SSAnneCaptainsRoom.asm`
+- **_SSAnneCaptainsRoomCaptainIFeelMuchBetterText** (1 connections) — `text/SSAnneCaptainsRoom.asm`
+- **_SSAnneCaptainsRoomCaptainNotSickAnymoreText** (1 connections) — `text/SSAnneCaptainsRoom.asm`
+- **_SSAnneCaptainsRoomCaptainReceivedHM01Text** (1 connections) — `text/SSAnneCaptainsRoom.asm`
+- **_SSAnneCaptainsRoomRubCaptainsBackText** (1 connections) — `text/SSAnneCaptainsRoom.asm`
+- **_SSAnneCaptainsRoomSeasickBookText** (1 connections) — `text/SSAnneCaptainsRoom.asm`
+- **_SSAnneCaptainsRoomTrashText** (1 connections) — `text/SSAnneCaptainsRoom.asm`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `text/PokemonMansionB1F.asm`
+- `text/SSAnneCaptainsRoom.asm`
 
 ## Audit Trail
 

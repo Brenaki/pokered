@@ -1,53 +1,51 @@
 # Scripts 60
 
-> 27 nodes · cohesion 0.12
+> 27 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **scripts/FightingDojo.asm** (34 connections) — `scripts/FightingDojo.asm`
-- **21.6 Mapa `FightingDojo`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **FightingDojo_Script** (5 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt1Text** (4 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt2Text** (4 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt3Text** (4 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt4Text** (4 connections) — `scripts/FightingDojo.asm`
-- **FightingDojo_ScriptPointers** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt1AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt1BattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt1EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt2AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt2BattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt2EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt3AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt3BattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt3EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt4AfterBattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt4BattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoBlackbelt4EndBattleText** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoResetScripts** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoTrainerHeader0** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoTrainerHeader1** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoTrainerHeader2** (2 connections) — `scripts/FightingDojo.asm`
-- **FightingDojoTrainerHeader3** (2 connections) — `scripts/FightingDojo.asm`
+- **scripts/CeladonDiner.asm** (9 connections) — `scripts/CeladonDiner.asm`
+- **scripts/PokemonTower1F.asm** (9 connections) — `scripts/PokemonTower1F.asm`
+- **scripts/SafariZoneEast.asm** (7 connections) — `scripts/SafariZoneEast.asm`
+- **scripts/SafariZoneWestRestHouse.asm** (7 connections) — `scripts/SafariZoneWestRestHouse.asm`
+- **CeladonDiner_Script** (2 connections) — `scripts/CeladonDiner.asm`
+- **PokemonTower1F_Script** (2 connections) — `scripts/PokemonTower1F.asm`
+- **SafariZoneEast_Script** (2 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneWestRestHouse_Script** (2 connections) — `scripts/SafariZoneWestRestHouse.asm`
+- **CeladonDiner_TextPointers** (1 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDinerCookText** (1 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDinerFisherText** (1 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDinerMiddleAgedManText** (1 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDinerMiddleAgedWomanText** (1 connections) — `scripts/CeladonDiner.asm`
+- **PokemonTower1F_TextPointers** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FBaldingGuyText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FChannelerText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FGirlText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FMiddleAgedWomanText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FReceptionistText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **SafariZoneEast_TextPointers** (1 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneEastRestHouseSignText** (1 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneEastSignText** (1 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneEastTrainerTipsText** (1 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneWestRestHouse_TextPointers** (1 connections) — `scripts/SafariZoneWestRestHouse.asm`
+- **SafariZoneWestRestHouseCooltrainerMText** (1 connections) — `scripts/SafariZoneWestRestHouse.asm`
 - *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (7 shared connections)
-- [Scripts 7](Scripts_7.md) (4 shared connections)
-- [Scripts 3](Scripts_3.md) (2 shared connections)
-- [Scripts 6](Scripts_6.md) (1 shared connections)
-- [Scripts 27](Scripts_27.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts](Scripts.md) (4 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/FightingDojo.asm`
+- `scripts/CeladonDiner.asm`
+- `scripts/PokemonTower1F.asm`
+- `scripts/SafariZoneEast.asm`
+- `scripts/SafariZoneWestRestHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

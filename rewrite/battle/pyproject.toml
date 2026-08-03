@@ -20,6 +20,7 @@ test = [
 
 [project.scripts]
 battle-asm = "battle_characterization.cli:main"
+battle-c-tables = "battle_characterization.generate_c_tables:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["battle_characterization"]

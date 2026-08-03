@@ -2,7 +2,7 @@
 
 > God node · 229 connections · `engine/battle/core.asm`
 
-**Community:** [Engine Battle 2](Engine_Battle_2.md)
+**Community:** [Engine Battle](Engine_Battle.md)
 
 ## Connections by Relation
 
@@ -24,9 +24,9 @@
 - DrawPlayerHUDAndHPBar `EXTRACTED`
 - InitBattleCommon `EXTRACTED`
 - ChooseNextMon `EXTRACTED`
+- CriticalHitTest `EXTRACTED`
 - DrawEnemyHUDAndHPBar `EXTRACTED`
 - SelectMenuItem `EXTRACTED`
-- SendOutMon `EXTRACTED`
 
 ### imports
 - engine/battle/used_move_text.asm `EXTRACTED`

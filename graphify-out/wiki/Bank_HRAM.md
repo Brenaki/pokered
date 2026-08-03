@@ -1,6 +1,6 @@
 # Bank HRAM
 
-> 165 nodes · cohesion 0.02
+> 163 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -11,12 +11,10 @@
 - **hItemPrice** (4 connections) — `ram/hram.asm`
 - **hMultiplicand** (4 connections) — `ram/hram.asm`
 - **hDexWeight** (3 connections) — `ram/hram.asm`
-- **hDivideBCDDivisor** (3 connections) — `ram/hram.asm`
 - **hDividend** (3 connections) — `ram/hram.asm`
 - **hDividend2** (3 connections) — `ram/hram.asm`
 - **hEnemySpeed** (3 connections) — `ram/hram.asm`
 - **hFindPathNumSteps** (3 connections) — `ram/hram.asm`
-- **hGymGateIndex** (3 connections) — `ram/hram.asm`
 - **hItemAlreadyFound** (3 connections) — `ram/hram.asm`
 - **hNPCPlayerRelativePosFlags** (3 connections) — `ram/hram.asm`
 - **hNPCPlayerYDistance** (3 connections) — `ram/hram.asm`
@@ -29,13 +27,18 @@
 - **hVendingMachinePrice** (3 connections) — `ram/hram.asm`
 - **hAutoBGTransferDest** (2 connections) — `ram/hram.asm`
 - **hAutoBGTransferEnabled** (2 connections) — `ram/hram.asm`
-- *... and 140 more nodes in this community*
+- **hAutoBGTransferPortion** (2 connections) — `ram/hram.asm`
+- **hBackupGymGateIndex** (2 connections) — `ram/hram.asm`
+- *... and 138 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (4 shared connections)
-- [Ram 11](Ram_11.md) (4 shared connections)
-- [Scripts 49](Scripts_49.md) (2 shared connections)
+- [Docs 5](Docs_5.md) (4 shared connections)
+- [Scripts 46](Scripts_46.md) (2 shared connections)
+- [Engine Math](Engine_Math.md) (2 shared connections)
+- [Engine Events 7](Engine_Events_7.md) (2 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 65](Scripts_65.md) (2 shared connections)
 
 ## Source Files
 

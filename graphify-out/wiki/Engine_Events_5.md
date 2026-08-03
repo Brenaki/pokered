@@ -1,52 +1,46 @@
 # Engine Events 5
 
-> 18 nodes · cohesion 0.16
+> 20 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **HiddenCoins** (11 connections) — `engine/events/hidden_items.asm`
-- **engine/events/hidden_items.asm** (11 connections) — `engine/events/hidden_items.asm`
-- **FoundHiddenItemText** (10 connections) — `engine/events/hidden_items.asm`
-- **HiddenItems** (7 connections) — `engine/events/hidden_items.asm`
-- **HiddenItemNear** (7 connections) — `engine/items/itemfinder.asm`
-- **wObtainedHiddenItemsFlags** (5 connections) — `ram/wram.asm`
-- **engine/items/itemfinder.asm** (4 connections) — `engine/items/itemfinder.asm`
-- **HiddenItemCoords** (3 connections) — `data/events/hidden_item_coords.asm`
-- **FindHiddenItemOrCoinsIndex** (3 connections) — `engine/events/hidden_items.asm`
-- **data/events/hidden_coins.asm** (3 connections) — `data/events/hidden_coins.asm`
-- **data/events/hidden_item_coords.asm** (3 connections) — `data/events/hidden_item_coords.asm`
-- **wObtainedHiddenCoinsFlags** (3 connections) — `ram/wram.asm`
-- **HiddenCoinCoords** (2 connections) — `data/events/hidden_coins.asm`
-- **HiddenItemBagFullText** (2 connections) — `engine/events/hidden_items.asm`
-- **Sub5ClampTo0** (2 connections) — `engine/items/itemfinder.asm`
-- **IsInRestOfArray** (2 connections) — `home/array2.asm`
-- **DroppedHiddenCoinsText** (1 connections) — `engine/events/hidden_items.asm`
-- **FoundHiddenCoinsText** (1 connections) — `engine/events/hidden_items.asm`
+- **engine/events/hidden_events/school_blackboard.asm** (22 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianSchoolBlackboard** (14 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **LinkCableHelp** (13 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianBlackboardStatusPointers** (7 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **LinkCableInfoTexts** (5 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **HowToLinkText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **LinkCableHelpText1** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **LinkCableHelpText2** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **LinkCableInfoText1** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **LinkCableInfoText2** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **LinkCableInfoText3** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **StatusAilmentText1** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **StatusAilmentText2** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianBlackboardBurnText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianBlackboardFrozenText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianBlackboardPoisonText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianBlackboardPrlzText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianBlackboardSleepText** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianSchoolBlackboardText1** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
+- **ViridianSchoolBlackboardText2** (2 connections) — `engine/events/hidden_events/school_blackboard.asm`
 
 ## Relationships
 
-- [Home](Home.md) (4 shared connections)
-- [Scripts 2](Scripts_2.md) (3 shared connections)
-- [Scripts 5](Scripts_5.md) (3 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
-- [Engine Pokemon 2](Engine_Pokemon_2.md) (1 shared connections)
-- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
-- [Scripts 38](Scripts_38.md) (1 shared connections)
-- [Engine Slots 2](Engine_Slots_2.md) (1 shared connections)
+- [Engine Menus](Engine_Menus.md) (4 shared connections)
+- [Engine Battle](Engine_Battle.md) (4 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (4 shared connections)
+- [Scripts 4](Scripts_4.md) (2 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
 
 ## Source Files
 
-- `data/events/hidden_coins.asm`
-- `data/events/hidden_item_coords.asm`
-- `engine/events/hidden_items.asm`
-- `engine/items/itemfinder.asm`
-- `home/array2.asm`
-- `ram/wram.asm`
+- `engine/events/hidden_events/school_blackboard.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 53 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

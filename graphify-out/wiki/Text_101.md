@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **text/Route11_2.asm** (8 connections) — `text/Route11_2.asm`
-- **_Route11DiglettsCaveSignText** (1 connections) — `text/Route11_2.asm`
-- **_Route11SuperNerd2AfterBattleText** (1 connections) — `text/Route11_2.asm`
-- **_Route11SuperNerd2EndBattleText** (1 connections) — `text/Route11_2.asm`
-- **_Route11Youngster4AfterBattleText** (1 connections) — `text/Route11_2.asm`
-- **_Route11Youngster4BattleText** (1 connections) — `text/Route11_2.asm`
-- **_Route11Youngster4EndBattleText** (1 connections) — `text/Route11_2.asm`
+- **text/Route1.asm** (8 connections) — `text/Route1.asm`
+- **_Route1SignText** (1 connections) — `text/Route1.asm`
+- **_Route1Youngster1AlsoGotPokeballsText** (1 connections) — `text/Route1.asm`
+- **_Route1Youngster1GotPotionText** (1 connections) — `text/Route1.asm`
+- **_Route1Youngster1MartSampleText** (1 connections) — `text/Route1.asm`
+- **_Route1Youngster1NoRoomText** (1 connections) — `text/Route1.asm`
+- **_Route1Youngster2Text** (1 connections) — `text/Route1.asm`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `text/Route11_2.asm`
+- `text/Route1.asm`
 
 ## Audit Trail
 

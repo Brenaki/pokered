@@ -1,55 +1,52 @@
 # Engine Battle 7
 
-> 38 nodes · cohesion 0.12
+> 22 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **engine/battle/battle_transitions.asm** (36 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition** (10 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransitions** (9 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_BlackScreen** (8 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_DoubleCircle** (8 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_Split** (8 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_TransferDelay3** (8 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_Circle** (7 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_Shrink** (6 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_Spiral** (6 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_FlashScreen_** (5 connections) — `engine/battle/battle_transitions.asm`
-- **LoadBattleTransitionTile** (5 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_Circle_Sub1** (4 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_Circle_Sub2** (4 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_CopyTiles1** (4 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_HorizontalStripes** (4 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_VerticalStripes** (4 connections) — `engine/battle/battle_transitions.asm`
-- **GetBattleTransitionID_IsDungeonMap** (4 connections) — `engine/battle/battle_transitions.asm`
-- **data/maps/dungeon_maps.asm** (4 connections) — `data/maps/dungeon_maps.asm`
-- **BattleTransition_CopyTiles2** (3 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_HalfCircle1** (3 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_HalfCircle2** (3 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransition_InwardSpiral** (3 connections) — `engine/battle/battle_transitions.asm`
-- **BattleTransitionTile** (3 connections) — `engine/battle/battle_transitions.asm`
-- **DungeonMaps1** (2 connections) — `data/maps/dungeon_maps.asm`
-- *... and 13 more nodes in this community*
+- **wShadowOAM** (33 connections) — `ram/wram.asm`
+- **AnimationCleanOAM** (10 connections) — `engine/battle/animations.asm`
+- **PlaySubanimation** (9 connections) — `engine/battle/animations.asm`
+- **AnimationShootBallsUpward** (8 connections) — `engine/battle/animations.asm`
+- **LoadMoveAnimationTiles** (8 connections) — `engine/battle/animations.asm`
+- **AnimationSpiralBallsInward** (7 connections) — `engine/battle/animations.asm`
+- **InitMultipleObjectsOAM** (6 connections) — `engine/battle/animations.asm`
+- **TradeJumpPokeball** (6 connections) — `engine/battle/animations.asm`
+- **TradeShakePokeball** (6 connections) — `engine/battle/animations.asm`
+- **AnimationShootManyBallsUpward** (5 connections) — `engine/battle/animations.asm`
+- **_AnimationWaterDroplets** (5 connections) — `engine/battle/animations.asm`
+- **DrawFrameBlock** (5 connections) — `engine/battle/animations.asm`
+- **BattleAnimWriteOAMEntry** (4 connections) — `engine/battle/animations.asm`
+- **DoGrowlSpecialEffects** (4 connections) — `engine/battle/animations.asm`
+- **ShakeEnemyHUD_WritePlayerMonPicOAM** (4 connections) — `engine/battle/animations.asm`
+- **AnimationWaterDropletsEverywhere** (3 connections) — `engine/battle/animations.asm`
+- **BallMoveDistances1** (2 connections) — `engine/battle/animations.asm`
+- **BallMoveDistances2** (2 connections) — `engine/battle/animations.asm`
+- **MoveAnimationTilesPointers** (2 connections) — `engine/battle/animations.asm`
+- **SpiralBallAnimationCoordinates** (2 connections) — `engine/battle/animations.asm`
+- **UpwardBallsAnimXCoordinatesEnemyTurn** (2 connections) — `engine/battle/animations.asm`
+- **UpwardBallsAnimXCoordinatesPlayerTurn** (2 connections) — `engine/battle/animations.asm`
 
 ## Relationships
 
-- [Engine Movie](Engine_Movie.md) (3 shared connections)
-- [Engine Battle](Engine_Battle.md) (3 shared connections)
-- [Engine Movie 3](Engine_Movie_3.md) (2 shared connections)
-- [Engine Movie 4](Engine_Movie_4.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (7 shared connections)
+- [Engine Movie 2](Engine_Movie_2.md) (3 shared connections)
+- [Scripts 6](Scripts_6.md) (3 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
+- [Data Battle Anims 3](Data_Battle_Anims_3.md) (2 shared connections)
+- [Engine Battle 3](Engine_Battle_3.md) (1 shared connections)
 - [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
-- [Engine Link](Engine_Link.md) (1 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Data Battle Anims](Data_Battle_Anims.md) (1 shared connections)
+- [Engine Battle 12](Engine_Battle_12.md) (1 shared connections)
 
 ## Source Files
 
-- `data/maps/dungeon_maps.asm`
-- `engine/battle/battle_transitions.asm`
-- `gfx/overworld/battle_transition.2bpp`
+- `engine/battle/animations.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 94 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

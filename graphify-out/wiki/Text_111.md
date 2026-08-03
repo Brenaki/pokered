@@ -1,14 +1,15 @@
 # Text 111
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **text/AgathasRoom.asm** (6 connections) — `text/AgathasRoom.asm`
-- **_AgathaAfterBattleText** (1 connections) — `text/AgathasRoom.asm`
-- **_AgathaBeforeBattleText** (1 connections) — `text/AgathasRoom.asm`
-- **_AgathaEndBattleText** (1 connections) — `text/AgathasRoom.asm`
-- **_AgathasRoomAgathaDontRunAwayText** (1 connections) — `text/AgathasRoom.asm`
+- **text/SafariZoneNorth.asm** (7 connections) — `text/SafariZoneNorth.asm`
+- **_SafariZoneNorthRestHouseSignText** (1 connections) — `text/SafariZoneNorth.asm`
+- **_SafariZoneNorthSignText** (1 connections) — `text/SafariZoneNorth.asm`
+- **_SafariZoneNorthTrainerTips1Text** (1 connections) — `text/SafariZoneNorth.asm`
+- **_SafariZoneNorthTrainerTips2Text** (1 connections) — `text/SafariZoneNorth.asm`
+- **_SafariZoneNorthTrainerTips3Text** (1 connections) — `text/SafariZoneNorth.asm`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `text/AgathasRoom.asm`
+- `text/SafariZoneNorth.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

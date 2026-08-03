@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **text/SafariZoneWest.asm** (6 connections) — `text/SafariZoneWest.asm`
-- **_SafariZoneWestFindWardensTeethSignText** (1 connections) — `text/SafariZoneWest.asm`
-- **_SafariZoneWestRestHouseSignText** (1 connections) — `text/SafariZoneWest.asm`
-- **_SafariZoneWestSignText** (1 connections) — `text/SafariZoneWest.asm`
-- **_SafariZoneWestTrainerTipsText** (1 connections) — `text/SafariZoneWest.asm`
+- **text/SaffronGates.asm** (6 connections) — `text/SaffronGates.asm`
+- **_SaffronGateGuardGeeImThirstyText** (1 connections) — `text/SaffronGates.asm`
+- **_SaffronGateGuardImParchedText** (1 connections) — `text/SaffronGates.asm`
+- **_SaffronGateGuardThanksForTheDrinkText** (1 connections) — `text/SaffronGates.asm`
+- **_SaffronGateGuardYouCanGoOnThroughText** (1 connections) — `text/SaffronGates.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `text/SafariZoneWest.asm`
+- `text/SaffronGates.asm`
 
 ## Audit Trail
 

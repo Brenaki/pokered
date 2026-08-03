@@ -19,10 +19,10 @@
 ## Relationships
 
 - [Ram](Ram.md) (2 shared connections)
-- [Engine Slots 2](Engine_Slots_2.md) (1 shared connections)
+- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
 - [Bank HRAM](Bank_HRAM.md) (1 shared connections)
-- [Scripts 32](Scripts_32.md) (1 shared connections)
+- [Scripts 13](Scripts_13.md) (1 shared connections)
 
 ## Source Files
 

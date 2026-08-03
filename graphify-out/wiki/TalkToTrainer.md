@@ -2,7 +2,7 @@
 
 > God node · 302 connections · `home/trainers.asm`
 
-**Community:** [Scripts 7](Scripts_7.md)
+**Community:** [Scripts 14](Scripts_14.md)
 
 ## Connections by Relation
 

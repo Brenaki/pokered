@@ -1,19 +1,15 @@
 # Scripts 101
 
-> 10 nodes · cohesion 0.20
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **scripts/Museum2F.asm** (11 connections) — `scripts/Museum2F.asm`
-- **Museum2F_Script** (2 connections) — `scripts/Museum2F.asm`
-- **Museum2F_TextPointers** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FBrunetteGirlText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FGrampsText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FHikerText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FMoonStoneSignText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FScientistText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FSpaceShuttleSignText** (1 connections) — `scripts/Museum2F.asm`
-- **Museum2FYoungsterText** (1 connections) — `scripts/Museum2F.asm`
+- **scripts/SafariZoneEastRestHouse.asm** (7 connections) — `scripts/SafariZoneEastRestHouse.asm`
+- **SafariZoneEastRestHouse_Script** (2 connections) — `scripts/SafariZoneEastRestHouse.asm`
+- **SafariZoneEastRestHouse_TextPointers** (1 connections) — `scripts/SafariZoneEastRestHouse.asm`
+- **SafariZoneEastRestHouseRockerText** (1 connections) — `scripts/SafariZoneEastRestHouse.asm`
+- **SafariZoneEastRestHouseScientistText** (1 connections) — `scripts/SafariZoneEastRestHouse.asm`
+- **SafariZoneEastRestHouseSilphWorkerMText** (1 connections) — `scripts/SafariZoneEastRestHouse.asm`
 
 ## Relationships
 
@@ -21,11 +17,11 @@
 
 ## Source Files
 
-- `scripts/Museum2F.asm`
+- `scripts/SafariZoneEastRestHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

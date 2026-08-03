@@ -10,9 +10,9 @@
 - **home/serial.asm** (14 connections) — `home/serial.asm`
 - **engine/link/cable_club_npc.asm** (12 connections) — `engine/link/cable_club_npc.asm`
 - **Serial_SyncAndExchangeNybble** (10 connections) — `home/serial.asm`
-- **LinkBattleExchangeData** (8 connections) — `engine/battle/core.asm`
 - **Serial_ExchangeByte** (8 connections) — `home/serial.asm`
 - **Serial_ExchangeLinkMenuSelection** (6 connections) — `home/serial.asm`
+- **Serial_PrintWaitingTextAndSyncAndExchangeNybble** (6 connections) — `home/serial.asm`
 - **wUnknownSerialCounter** (6 connections) — `ram/wram.asm`
 - **CloseLinkConnection** (4 connections) — `engine/link/cable_club_npc.asm`
 - **IsUnknownCounterZero** (4 connections) — `home/serial.asm`
@@ -33,22 +33,19 @@
 
 ## Relationships
 
-- [Engine Movie 3](Engine_Movie_3.md) (5 shared connections)
+- [Engine Movie 2](Engine_Movie_2.md) (4 shared connections)
+- [Engine Battle](Engine_Battle.md) (3 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
 - [Scripts 2](Scripts_2.md) (2 shared connections)
 - [Ram](Ram.md) (2 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
 - [Engine Pokemon 2](Engine_Pokemon_2.md) (1 shared connections)
-- [Home 5](Home_5.md) (1 shared connections)
-- [Engine Movie](Engine_Movie.md) (1 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
-- [Engine Link](Engine_Link.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Engine Movie 4](Engine_Movie_4.md) (1 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
+- [Home 4](Home_4.md) (1 shared connections)
+- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/battle/core.asm`
 - `engine/link/cable_club_npc.asm`
 - `home.asm`
 - `home/header.asm`

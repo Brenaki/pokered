@@ -1,57 +1,53 @@
 # Rewrite
 
-> 73 nodes · cohesion 0.06
+> 91 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **rewrite/battle/contracts/cases/turn_status_pp.json** (22 connections) — `rewrite/battle/contracts/cases/turn_status_pp.json`
-- **BTL-RNG** (20 connections)
-- **CriticalHitTest** (16 connections) — `engine/battle/core.asm`
-- **rewrite/battle/contracts/cases/accuracy_critical_type.json** (15 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
-- **RandomizeDamage** (12 connections) — `engine/battle/core.asm`
-- **BTL-DMG** (12 connections)
-- **status-and-residual** (9 connections) — `rewrite/battle/contracts/traceability.json`
-- **BTL-STA** (8 connections)
-- **damage** (7 connections) — `rewrite/battle/contracts/traceability.json`
-- **turn-flow-hp-link** (7 connections) — `rewrite/battle/contracts/traceability.json`
-- **BTL-CRT** (6 connections)
-- **accuracy** (6 connections) — `rewrite/battle/contracts/traceability.json`
-- **critical-hits** (6 connections) — `rewrite/battle/contracts/traceability.json`
-- **BTL-ACC** (5 connections)
-- **T-DMG-003** (5 connections)
-- **T_ACC_002_MAXIMUM_ACCURACY_CAN_MISS** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
-- **T_ACC_003_ROLL_BELOW_ACCURACY_HITS** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
-- **T_CRT_001_REGULAR_CRITICAL_THRESHOLD** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
-- **T_CRT_002_FOCUS_ENERGY_REDUCES_CRITICAL_RATE** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
-- **T_CRT_003_HIGH_CRITICAL_MOVE_CAP** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
-- **T_CRT_004_HIGH_CRITICAL_MOVE_STILL_FAILS_AT_255** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
-- **T_RNG_001_MINIMUM_DAMAGE_FACTOR** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
-- **T_RNG_002_REJECTS_FACTOR_BELOW_217** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
-- **T_RNG_003_MAXIMUM_DAMAGE_FACTOR** (5 connections) — `rewrite/battle/contracts/cases/accuracy_critical_type.json`
-- **T_HP_001_MINIMUM_BAR_PIXEL** (5 connections) — `rewrite/battle/contracts/cases/combat_math.json`
-- *... and 48 more nodes in this community*
+- **rewrite/battle/tests/c/test_main.c** (24 connections) — `rewrite/battle/tests/c/test_main.c`
+- **rewrite/battle/include/pokered/battle/combat_math.h** (18 connections) — `rewrite/battle/include/pokered/battle/combat_math.h`
+- **rewrite/battle/include/pokered/battle/trainer_ai.h** (18 connections) — `rewrite/battle/include/pokered/battle/trainer_ai.h`
+- **rewrite/battle/src/combat_math.c** (18 connections) — `rewrite/battle/src/combat_math.c`
+- **rewrite/battle/src/trainer_ai.c** (15 connections) — `rewrite/battle/src/trainer_ai.c`
+- **main** (11 connections) — `rewrite/battle/tests/c/test_main.c`
+- **test_all_random_bytes** (9 connections) — `rewrite/battle/tests/c/test_main.c`
+- **trainer_ai_decide** (7 connections) — `rewrite/battle/src/trainer_ai.c`
+- **random_source** (7 connections) — `rewrite/battle/tests/c/test_main.c`
+- **rewrite/battle/include/pokered/battle/common.h** (6 connections) — `rewrite/battle/include/pokered/battle/common.h`
+- **battle_random_next** (6 connections) — `rewrite/battle/include/pokered/battle/common.h`
+- **test_critical_hits** (6 connections) — `rewrite/battle/tests/c/test_main.c`
+- **test_damage** (6 connections) — `rewrite/battle/tests/c/test_main.c`
+- **trainer_ai_score_moves** (5 connections) — `rewrite/battle/src/trainer_ai.c`
+- **test_accuracy** (5 connections) — `rewrite/battle/tests/c/test_main.c`
+- **test_policy_table_and_mode** (5 connections) — `rewrite/battle/tests/c/test_main.c`
+- **trainer_ai_choose_move** (4 connections) — `rewrite/battle/include/pokered/battle/trainer_ai.h`
+- **trainer_ai_choose_special_action** (4 connections) — `rewrite/battle/include/pokered/battle/trainer_ai.h`
+- **combat_math_roll_critical** (4 connections) — `rewrite/battle/src/combat_math.c`
+- **test_damage_randomization** (4 connections) — `rewrite/battle/tests/c/test_main.c`
+- **test_trainer_ai_decision_orchestration** (4 connections) — `rewrite/battle/tests/c/test_main.c`
+- **test_trainer_move_scoring** (4 connections) — `rewrite/battle/tests/c/test_main.c`
+- **test_trainer_move_selection** (4 connections) — `rewrite/battle/tests/c/test_main.c`
+- **pokered/battle/combat_math.h** (3 connections) — `rewrite/battle/include/pokered/battle/trainer_ai.h`
+- **rewrite/battle/src/common.c** (3 connections) — `rewrite/battle/src/common.c`
+- *... and 66 more nodes in this community*
 
 ## Relationships
 
-- [Engine Battle 2](Engine_Battle_2.md) (8 shared connections)
-- [Engine Battle 3](Engine_Battle_3.md) (6 shared connections)
-- [Ram 3](Ram_3.md) (6 shared connections)
-- [Engine Battle 5](Engine_Battle_5.md) (5 shared connections)
-- [Engine Battle 4](Engine_Battle_4.md) (4 shared connections)
-- [Engine Battle 8](Engine_Battle_8.md) (4 shared connections)
-- [Engine Battle 13](Engine_Battle_13.md) (4 shared connections)
+- [Docs 5](Docs_5.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/battle/core.asm`
-- `rewrite/battle/contracts/cases/accuracy_critical_type.json`
-- `rewrite/battle/contracts/cases/combat_math.json`
-- `rewrite/battle/contracts/cases/turn_status_pp.json`
-- `rewrite/battle/contracts/traceability.json`
+- `rewrite/battle/include/pokered/battle/combat_math.h`
+- `rewrite/battle/include/pokered/battle/common.h`
+- `rewrite/battle/include/pokered/battle/trainer_ai.h`
+- `rewrite/battle/src/combat_math.c`
+- `rewrite/battle/src/common.c`
+- `rewrite/battle/src/trainer_ai.c`
+- `rewrite/battle/tests/c/test_main.c`
 
 ## Audit Trail
 
-- EXTRACTED: 186 (100%)
+- EXTRACTED: 151 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

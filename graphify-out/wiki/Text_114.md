@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **text/Route11Gate2F.asm** (6 connections) — `text/Route11Gate2F.asm`
-- **_Route11Gate2FLeftBinocularsNoSnorlaxText** (1 connections) — `text/Route11Gate2F.asm`
-- **_Route11Gate2FLeftBinocularsSnorlaxText** (1 connections) — `text/Route11Gate2F.asm`
-- **_Route11Gate2FOaksAideItemfinderDescriptionText** (1 connections) — `text/Route11Gate2F.asm`
-- **_Route11Gate2FRightBinocularsText** (1 connections) — `text/Route11Gate2F.asm`
+- **text/Route16Gate1F.asm** (6 connections) — `text/Route16Gate1F.asm`
+- **_Route16Gate1FGamblerText** (1 connections) — `text/Route16Gate1F.asm`
+- **_Route16Gate1FGuardCyclingRoadExplanationText** (1 connections) — `text/Route16Gate1F.asm`
+- **_Route16Gate1FGuardNoPedestriansAllowedText** (1 connections) — `text/Route16Gate1F.asm`
+- **_Route16Gate1FGuardWaitUpText** (1 connections) — `text/Route16Gate1F.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `text/Route11Gate2F.asm`
+- `text/Route16Gate1F.asm`
 
 ## Audit Trail
 

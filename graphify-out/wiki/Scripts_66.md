@@ -1,47 +1,54 @@
 # Scripts 66
 
-> 25 nodes · cohesion 0.08
+> 24 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **21.69 Mapa `ViridianGym`** (25 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **ViridianGymCooltrainerM1AfterBattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymCooltrainerM1BattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymCooltrainerM1EndBattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymCooltrainerM2AfterBattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymCooltrainerM2BattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymCooltrainerM2EndBattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymCooltrainerM3AfterBattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymCooltrainerM3BattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymCooltrainerM3EndBattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymHiker1AfterBattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymHiker1BattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymHiker1EndBattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymHiker2AfterBattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymHiker2BattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymHiker2EndBattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymHiker3AfterBattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymHiker3BattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymHiker3EndBattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymRocker1AfterBattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymRocker1BattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymRocker1EndBattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymRocker2AfterBattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymRocker2BattleText** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymRocker2EndBattleText** (2 connections) — `scripts/ViridianGym.asm`
+- **scripts/CeruleanGym.asm** (25 connections) — `scripts/CeruleanGym.asm`
+- **21.5 Mapa `CeruleanGym`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **CeruleanGym_Script** (7 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymReceiveTM11** (7 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymCooltrainerFText** (4 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymSwimmerText** (4 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymGymGuideText** (3 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyPostBattleScript** (3 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymResetScripts** (3 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGym_ScriptPointers** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymAfterBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymAfterBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymEndBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymEndBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyReceivedCascadeBadgeText** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymTrainerHeader0** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymTrainerHeader1** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymTrainerHeaders** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGym_TextPointers** (1 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyCascadeBadgeInfoText** (1 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyReceivedTM11Text** (1 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyTM11NoRoomText** (1 connections) — `scripts/CeruleanGym.asm`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Scripts 10](Scripts_10.md) (3 shared connections)
+- [Scripts 4](Scripts_4.md) (3 shared connections)
+- [Scripts 14](Scripts_14.md) (2 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/ViridianGym.asm`
+- `scripts/CeruleanGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

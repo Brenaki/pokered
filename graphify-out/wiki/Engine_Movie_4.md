@@ -1,67 +1,49 @@
 # Engine Movie 4
 
-> 40 nodes · cohesion 0.09
+> 21 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **FillMemory** (38 connections) — `home/tilemap.asm`
-- **engine/movie/credits.asm** (19 connections) — `engine/movie/credits.asm`
-- **VermilionDockSSAnneLeavesScript** (18 connections) — `scripts/VermilionDock.asm`
-- **Init** (17 connections) — `home/init.asm`
-- **HallOfFamePC** (15 connections) — `engine/movie/credits.asm`
-- **Credits** (14 connections) — `engine/movie/credits.asm`
-- **DisplayCreditsMon** (13 connections) — `engine/movie/credits.asm`
-- **scripts/VermilionDock.asm** (11 connections) — `scripts/VermilionDock.asm`
-- **HallOfFameResetEventsAndSaveScript** (10 connections) — `scripts/HallOfFame.asm`
-- **VermilionDock_EraseSSAnne** (8 connections) — `scripts/VermilionDock.asm`
-- **home/init.asm** (6 connections) — `home/init.asm`
-- **VermilionDock_Script** (6 connections) — `scripts/VermilionDock.asm`
-- **SoftReset** (5 connections) — `home/init.asm`
-- **StopAllSounds** (5 connections) — `home/init.asm`
-- **data/credits** (4 connections)
-- **FadeInCredits** (4 connections) — `engine/movie/credits.asm`
-- **FillMiddleOfScreenWithWhite** (4 connections) — `engine/movie/credits.asm`
-- **ClearVram** (4 connections) — `home/init.asm`
-- **VermilionDock_EmitSmokePuff** (4 connections) — `scripts/VermilionDock.asm`
-- **ClearAllSRAMBanks** (3 connections) — `engine/menus/save.asm`
-- **CreditsCopyTileMapToVRAM** (3 connections) — `engine/movie/credits.asm`
-- **FillFourRowsWithBlack** (3 connections) — `engine/movie/credits.asm`
-- **ScrollCreditsMonLeft** (3 connections) — `engine/movie/credits.asm`
-- **TheEndGfx** (3 connections) — `engine/movie/credits.asm`
-- **data/credits/credits_mons.asm** (3 connections) — `data/credits/credits_mons.asm`
-- *... and 15 more nodes in this community*
+- **engine/movie/splash.asm** (19 connections) — `engine/movie/splash.asm`
+- **LoadShootingStarGraphics** (12 connections) — `engine/movie/splash.asm`
+- **AnimateShootingStar** (11 connections) — `engine/movie/splash.asm`
+- **SmallStarsWaveCoordsPointerTable** (7 connections) — `engine/movie/splash.asm`
+- **MoveAnimationTiles1** (4 connections) — `engine/battle/animations.asm`
+- **FallingStar** (3 connections) — `engine/movie/splash.asm`
+- **MoveDownSmallStars** (3 connections) — `engine/movie/splash.asm`
+- **GameFreakLogoOAMData** (2 connections) — `engine/movie/splash.asm`
+- **GameFreakLogoOAMDataEnd** (2 connections) — `engine/movie/splash.asm`
+- **GameFreakShootingStarOAMData** (2 connections) — `engine/movie/splash.asm`
+- **GameFreakShootingStarOAMDataEnd** (2 connections) — `engine/movie/splash.asm`
+- **SmallStarsEmptyWave** (2 connections) — `engine/movie/splash.asm`
+- **SmallStarsOAM** (2 connections) — `engine/movie/splash.asm`
+- **SmallStarsOAMEnd** (2 connections) — `engine/movie/splash.asm`
+- **SmallStarsWave1Coords** (2 connections) — `engine/movie/splash.asm`
+- **SmallStarsWave2Coords** (2 connections) — `engine/movie/splash.asm`
+- **SmallStarsWave3Coords** (2 connections) — `engine/movie/splash.asm`
+- **SmallStarsWave4Coords** (2 connections) — `engine/movie/splash.asm`
+- **FallingStarEnd** (1 connections) — `engine/movie/splash.asm`
+- **gfx/battle/move_anim_1.2bpp** (1 connections) — `gfx/battle/move_anim_1.2bpp`
+- **gfx/splash/falling_star.2bpp** (1 connections) — `gfx/splash/falling_star.2bpp`
 
 ## Relationships
 
-- [Engine Battle](Engine_Battle.md) (7 shared connections)
-- [Engine Link](Engine_Link.md) (6 shared connections)
-- [Engine Movie](Engine_Movie.md) (6 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (6 shared connections)
-- [Scripts 11](Scripts_11.md) (5 shared connections)
-- [Engine Menus](Engine_Menus.md) (5 shared connections)
-- [Home](Home.md) (4 shared connections)
-- [Data Credits](Data_Credits.md) (3 shared connections)
-- [Engine Movie 3](Engine_Movie_3.md) (3 shared connections)
-- [Ram](Ram.md) (3 shared connections)
 - [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
-- [Scripts 3](Scripts_3.md) (2 shared connections)
+- [Engine Items 2](Engine_Items_2.md) (2 shared connections)
+- [Engine Battle 7](Engine_Battle_7.md) (2 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
 
 ## Source Files
 
-- `data/credits/credits_mons.asm`
-- `data/credits/credits_order.asm`
-- `engine/menus/save.asm`
-- `engine/movie/credits.asm`
-- `gfx/credits/the_end.2bpp`
-- `home/init.asm`
-- `home/tilemap.asm`
-- `ram/wram.asm`
-- `scripts/HallOfFame.asm`
-- `scripts/VermilionDock.asm`
+- `engine/battle/animations.asm`
+- `engine/movie/splash.asm`
+- `gfx/battle/move_anim_1.2bpp`
+- `gfx/splash/falling_star.2bpp`
 
 ## Audit Trail
 
-- EXTRACTED: 132 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

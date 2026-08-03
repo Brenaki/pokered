@@ -14,9 +14,9 @@
 
 ## Relationships
 
-- [Engine Menus](Engine_Menus.md) (1 shared connections)
-- [Engine Link](Engine_Link.md) (1 shared connections)
-- [Home 4](Home_4.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Home](Home.md) (1 shared connections)
 
 ## Source Files
 

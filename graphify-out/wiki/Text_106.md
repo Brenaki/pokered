@@ -1,16 +1,15 @@
 # Text 106
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **text/VermilionOldRodHouse.asm** (8 connections) — `text/VermilionOldRodHouse.asm`
-- **_VermilionOldRodHouseFishingGuruDoYouLikeToFishText** (1 connections) — `text/VermilionOldRodHouse.asm`
-- **_VermilionOldRodHouseFishingGuruFishingIsAWayOfLifeText** (1 connections) — `text/VermilionOldRodHouse.asm`
-- **_VermilionOldRodHouseFishingGuruHowAreTheFishBitingText** (1 connections) — `text/VermilionOldRodHouse.asm`
-- **_VermilionOldRodHouseFishingGuruNoRoomText** (1 connections) — `text/VermilionOldRodHouse.asm`
-- **_VermilionOldRodHouseFishingGuruTakeThisText** (1 connections) — `text/VermilionOldRodHouse.asm`
-- **_VermilionOldRodHouseFishingGuruThatsSoDisappointingText** (1 connections) — `text/VermilionOldRodHouse.asm`
+- **text/CinnabarLab.asm** (7 connections) — `text/CinnabarLab.asm`
+- **_CinnabarLabFishingGuruText** (1 connections) — `text/CinnabarLab.asm`
+- **_CinnabarLabMeetingRoomSignText** (1 connections) — `text/CinnabarLab.asm`
+- **_CinnabarLabPhotoText** (1 connections) — `text/CinnabarLab.asm`
+- **_CinnabarLabRAndDSignText** (1 connections) — `text/CinnabarLab.asm`
+- **_CinnabarLabTestingRoomSignText** (1 connections) — `text/CinnabarLab.asm`
 
 ## Relationships
 
@@ -18,11 +17,11 @@
 
 ## Source Files
 
-- `text/VermilionOldRodHouse.asm`
+- `text/CinnabarLab.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

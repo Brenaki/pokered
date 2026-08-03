@@ -15,8 +15,8 @@
 
 ## Relationships
 
-- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
-- [Audio Engine 3.Asm](Audio_Engine_3.Asm.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Audio Engine 1.Asm](Audio_Engine_1.Asm.md) (1 shared connections)
 
 ## Source Files
 

@@ -17,4 +17,10 @@ def load_traceability() -> dict[str, Any]:
 
 
 def evidence_paths(matrix: dict[str, Any]) -> list[Path]:
-    return [REPO_ROOT / path for group in matrix["groups"] for path in group["evidence"]]
+    characterization = [
+        REPO_ROOT / path for group in matrix["groups"] for path in group["evidence"]
+    ]
+    implementation = [
+        REPO_ROOT / path for path in matrix.get("c_milestone", {}).get("evidence", [])
+    ]
+    return characterization + implementation

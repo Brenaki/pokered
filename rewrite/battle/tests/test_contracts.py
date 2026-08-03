@@ -47,3 +47,11 @@ def test_traceability_covers_every_controlled_requirement() -> None:
 def test_traceability_evidence_exists() -> None:
     missing = [path.relative_to(REPO_ROOT) for path in evidence_paths(load_traceability()) if not path.exists()]
     assert not missing, f"missing traceability evidence: {missing}"
+
+
+def test_c_milestone_only_claims_controlled_requirements() -> None:
+    milestone = load_traceability()["c_milestone"]
+    assert milestone["behavior_mode"] == "GEN1_FIDELITY"
+    assert milestone["status"] == "implemented"
+    assert set(milestone["implemented_ids"]) <= controlled_ids()
+    assert len(milestone["implemented_ids"]) == len(set(milestone["implemented_ids"]))

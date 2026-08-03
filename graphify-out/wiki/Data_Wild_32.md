@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/wild/maps/SafariZoneWest.asm** (3 connections) — `data/wild/maps/SafariZoneWest.asm`
-- **SafariZoneWestWildMons** (2 connections) — `data/wild/maps/SafariZoneWest.asm`
+- **data/wild/maps/SeafoamIslands1F.asm** (3 connections) — `data/wild/maps/SeafoamIslands1F.asm`
+- **SeafoamIslands1FWildMons** (2 connections) — `data/wild/maps/SeafoamIslands1F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/wild/maps/SafariZoneWest.asm`
+- `data/wild/maps/SeafoamIslands1F.asm`
 
 ## Audit Trail
 

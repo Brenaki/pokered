@@ -1,11 +1,14 @@
 # Scripts 14
 
-> 57 nodes · cohesion 0.06
+> 60 nodes · cohesion 0.06
 
 ## Key Concepts
 
+- **TalkToTrainer** (302 connections) — `home/trainers.asm`
 - **scripts/Route11.asm** (57 connections) — `scripts/Route11.asm`
 - **21.30 Mapa `Route11`** (31 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **StartTrainerBattle** (6 connections) — `home/trainers.asm`
+- **wCurMapScript** (5 connections) — `ram/wram.asm`
 - **Route11_Script** (5 connections) — `scripts/Route11.asm`
 - **Route11Gambler1Text** (4 connections) — `scripts/Route11.asm`
 - **Route11Gambler2Text** (4 connections) — `scripts/Route11.asm`
@@ -26,26 +29,29 @@
 - **Route11Gambler2EndBattleText** (2 connections) — `scripts/Route11.asm`
 - **Route11Gambler3AfterBattleText** (2 connections) — `scripts/Route11.asm`
 - **Route11Gambler3BattleText** (2 connections) — `scripts/Route11.asm`
-- **Route11Gambler3EndBattleText** (2 connections) — `scripts/Route11.asm`
-- **Route11Gambler4AfterBattleText** (2 connections) — `scripts/Route11.asm`
-- **Route11Gambler4BattleText** (2 connections) — `scripts/Route11.asm`
-- *... and 32 more nodes in this community*
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (10 shared connections)
-- [Scripts 7](Scripts_7.md) (10 shared connections)
-- [Scripts 27](Scripts_27.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (10 shared connections)
+- [Scripts 10](Scripts_10.md) (4 shared connections)
+- [Scripts 33](Scripts_33.md) (4 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts 13](Scripts_13.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `home/trainers.asm`
+- `ram/wram.asm`
 - `scripts/Route11.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 119 (100%)
+- EXTRACTED: 133 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

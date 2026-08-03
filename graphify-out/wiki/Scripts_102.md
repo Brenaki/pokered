@@ -1,32 +1,26 @@
 # Scripts 102
 
-> 9 nodes · cohesion 0.31
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **scripts/CeladonMansion1F.asm** (10 connections) — `scripts/CeladonMansion1F.asm`
-- **CeladonMansion1_PlayCryScript** (6 connections) — `scripts/CeladonMansion1F.asm`
-- **CeladonMansion1F_Script** (2 connections) — `scripts/CeladonMansion1F.asm`
-- **CeladonMansion1FClefairyText** (2 connections) — `scripts/CeladonMansion1F.asm`
-- **CeladonMansion1FMeowthText** (2 connections) — `scripts/CeladonMansion1F.asm`
-- **CeladonMansion1FNidoranFText** (2 connections) — `scripts/CeladonMansion1F.asm`
-- **CeladonMansion1F_TextPointers** (1 connections) — `scripts/CeladonMansion1F.asm`
-- **CeladonMansion1FGrannyText** (1 connections) — `scripts/CeladonMansion1F.asm`
-- **CeladonMansion1FManagersSuiteSignText** (1 connections) — `scripts/CeladonMansion1F.asm`
+- **scripts/UndergroundPathRoute5.asm** (6 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathRoute5LittleGirlText** (3 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathEntranceRoute5_TextScriptEndingText** (2 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathRoute5_Script** (1 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathRoute5_TextPointers** (1 connections) — `scripts/UndergroundPathRoute5.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonMansion1F.asm`
+- `scripts/UndergroundPathRoute5.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

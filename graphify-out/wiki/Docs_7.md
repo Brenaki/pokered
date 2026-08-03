@@ -1,32 +1,37 @@
 # Docs 7
 
-> 4 nodes · cohesion 0.50
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **7.1 Build dos assets** (6 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **7. Pipeline de graficos e sprites** (5 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **tools/gfx** (1 connections) — `tools/gfx`
-- **tools/pkmncompress** (1 connections) — `tools/pkmncompress`
+- **14. Inventarios gerados** (9 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **data/pokemon/mew.asm** (8 connections) — `data/pokemon/mew.asm`
+- **MewPicBack** (3 connections) — `data/pokemon/mew.asm`
+- **14.7 Imagens comprimidas de personagens ativas** (3 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **MewBaseStats** (2 connections) — `data/pokemon/mew.asm`
+- **14.5 Sprites de overworld** (2 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **14.8 Cobertura dos PNGs no repositorio** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **14.1 Musicas enderecaveis** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **14.2 Musica por mapa** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **14.3 Efeitos, instrumentos e gritos-base** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **14.4 Gritos por indice interno** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **gfx/pokemon/back/mewb.pic** (1 connections) — `gfx/pokemon/back/mewb.pic`
 
 ## Relationships
 
-- [Ram 8](Ram_8.md) (1 shared connections)
-- [Gfx Sprites](Gfx_Sprites.md) (1 shared connections)
-- [Data Sgb](Data_Sgb.md) (1 shared connections)
-- [Home 6](Home_6.md) (1 shared connections)
-- [Makefile](Makefile.md) (1 shared connections)
-- [Engine Battle 11](Engine_Battle_11.md) (1 shared connections)
+- [Gfx Pics.Asm 5](Gfx_Pics.Asm_5.md) (2 shared connections)
+- [Gfx Pokemon](Gfx_Pokemon.md) (2 shared connections)
+- [Home](Home.md) (1 shared connections)
 
 ## Source Files
 
+- `data/pokemon/mew.asm`
 - `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- `tools/gfx`
-- `tools/pkmncompress`
+- `gfx/pokemon/back/mewb.pic`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

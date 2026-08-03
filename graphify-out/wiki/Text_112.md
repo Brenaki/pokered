@@ -1,14 +1,15 @@
 # Text 112
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **text/MrPsychicsHouse.asm** (6 connections) — `text/MrPsychicsHouse.asm`
-- **_MrPsychicsHouseMrPsychicReceivedTM29Text** (1 connections) — `text/MrPsychicsHouse.asm`
-- **_MrPsychicsHouseMrPsychicTM29ExplanationText** (1 connections) — `text/MrPsychicsHouse.asm`
-- **_MrPsychicsHouseMrPsychicTM29NoRoomText** (1 connections) — `text/MrPsychicsHouse.asm`
-- **_MrPsychicsHouseMrPsychicYouWantedThisText** (1 connections) — `text/MrPsychicsHouse.asm`
+- **text/SSAnne2F.asm** (7 connections) — `text/SSAnne2F.asm`
+- **_SSAnne2FRivalCutMasterText** (1 connections) — `text/SSAnne2F.asm`
+- **_SSAnne2FRivalDefeatedText** (1 connections) — `text/SSAnne2F.asm`
+- **_SSAnne2FRivalText** (1 connections) — `text/SSAnne2F.asm`
+- **_SSAnne2FRivalVictoryText** (1 connections) — `text/SSAnne2F.asm`
+- **_SSAnne2FWaiterText** (1 connections) — `text/SSAnne2F.asm`
 
 ## Relationships
 
@@ -16,11 +17,11 @@
 
 ## Source Files
 
-- `text/MrPsychicsHouse.asm`
+- `text/SSAnne2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

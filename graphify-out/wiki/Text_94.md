@@ -4,14 +4,14 @@
 
 ## Key Concepts
 
-- **text/NameRatersHouse.asm** (9 connections) — `text/NameRatersHouse.asm`
-- **_NameRatersHouseNameRaterATrulyImpeccableNameText** (1 connections) — `text/NameRatersHouse.asm`
-- **_NameRatersHouseNameRaterComeAnyTimeYouLikeText** (1 connections) — `text/NameRatersHouse.asm`
-- **_NameRatersHouseNameRaterGiveItANiceNameText** (1 connections) — `text/NameRatersHouse.asm`
-- **_NameRatersHouseNameRaterPokemonHasBeenRenamedText** (1 connections) — `text/NameRatersHouse.asm`
-- **_NameRatersHouseNameRaterWantMeToRateText** (1 connections) — `text/NameRatersHouse.asm`
-- **_NameRatersHouseNameRaterWhatShouldWeNameItText** (1 connections) — `text/NameRatersHouse.asm`
-- **_NameRatersHouseNameRaterWhichPokemonText** (1 connections) — `text/NameRatersHouse.asm`
+- **text/PokemonMansion3F.asm** (9 connections) — `text/PokemonMansion3F.asm`
+- **_PokemonMansion3FDiaryText** (1 connections) — `text/PokemonMansion3F.asm`
+- **_PokemonMansion3FScientistAfterBattleText** (1 connections) — `text/PokemonMansion3F.asm`
+- **_PokemonMansion3FScientistBattleText** (1 connections) — `text/PokemonMansion3F.asm`
+- **_PokemonMansion3FScientistEndBattleText** (1 connections) — `text/PokemonMansion3F.asm`
+- **_PokemonMansion3FSuperNerdAfterBattleText** (1 connections) — `text/PokemonMansion3F.asm`
+- **_PokemonMansion3FSuperNerdBattleText** (1 connections) — `text/PokemonMansion3F.asm`
+- **_PokemonMansion3FSuperNerdEndBattleText** (1 connections) — `text/PokemonMansion3F.asm`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 
 ## Source Files
 
-- `text/NameRatersHouse.asm`
+- `text/PokemonMansion3F.asm`
 
 ## Audit Trail
 

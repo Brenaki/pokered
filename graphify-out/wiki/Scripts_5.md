@@ -1,72 +1,63 @@
 # Scripts 5
 
-> 74 nodes · cohesion 0.05
+> 86 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **scripts/GameCorner.asm** (35 connections) — `scripts/GameCorner.asm`
-- **HandlePrizeChoice** (21 connections) — `engine/events/prize_menu.asm`
-- **engine/events/prize_menu.asm** (20 connections) — `engine/events/prize_menu.asm`
-- **IsItemInBag** (20 connections) — `home/map_objects.asm`
-- **wPlayerMoney** (19 connections) — `ram/wram.asm`
-- **wPlayerCoins** (17 connections) — `ram/wram.asm`
-- **CeladonPrizeMenu** (14 connections) — `engine/events/prize_menu.asm`
-- **AddBCDPredef** (14 connections) — `engine/math/bcd.asm`
-- **GameCornerClerk1Text** (14 connections) — `scripts/GameCorner.asm`
-- **GameCornerDrawCoinBox** (14 connections) — `scripts/GameCorner.asm`
-- **Museum1FScientist1Text** (14 connections) — `scripts/Museum1F.asm`
-- **engine/math/bcd.asm** (13 connections) — `engine/math/bcd.asm`
-- **SubBCDPredef** (11 connections) — `engine/math/bcd.asm`
-- **HasEnoughMoney** (11 connections) — `home/money.asm`
-- **SlotMachine_PayCoinsToPlayer** (10 connections) — `engine/slots/slot_machine.asm`
-- **MtMoonPokecenterMagikarpSalesmanText** (10 connections) — `scripts/MtMoonPokecenter.asm`
-- **SafariZoneGateSafariZoneWorker1WouldYouLikeToJoinText** (10 connections) — `scripts/SafariZoneGate.asm`
-- **hCoins** (9 connections) — `ram/hram.asm`
-- **hMoney** (9 connections) — `ram/hram.asm`
-- **GameCornerClerk2Text** (9 connections) — `scripts/GameCorner.asm`
-- **GameCornerFishingGuruText** (9 connections) — `scripts/GameCorner.asm`
-- **GameCornerGentlemanText** (9 connections) — `scripts/GameCorner.asm`
-- **StringCmp** (8 connections) — `home/compare.asm`
-- **AddAmountSoldToMoney** (8 connections) — `home/inventory.asm`
-- **SubtractAmountPaidFromMoney_** (6 connections) — `engine/items/subtract_paid_money.asm`
-- *... and 49 more nodes in this community*
+- **Serial_TryEstablishingExternallyClockedConnection** (13 connections) — `home/serial.asm`
+- **scripts/MtMoonPokecenter.asm** (11 connections) — `scripts/MtMoonPokecenter.asm`
+- **scripts/CeladonPokecenter.asm** (8 connections) — `scripts/CeladonPokecenter.asm`
+- **scripts/CeruleanPokecenter.asm** (8 connections) — `scripts/CeruleanPokecenter.asm`
+- **scripts/CinnabarPokecenter.asm** (8 connections) — `scripts/CinnabarPokecenter.asm`
+- **scripts/FuchsiaPokecenter.asm** (8 connections) — `scripts/FuchsiaPokecenter.asm`
+- **scripts/IndigoPlateauLobby.asm** (8 connections) — `scripts/IndigoPlateauLobby.asm`
+- **scripts/LavenderPokecenter.asm** (8 connections) — `scripts/LavenderPokecenter.asm`
+- **scripts/PewterPokecenter.asm** (8 connections) — `scripts/PewterPokecenter.asm`
+- **scripts/RockTunnelPokecenter.asm** (8 connections) — `scripts/RockTunnelPokecenter.asm`
+- **scripts/SaffronPokecenter.asm** (8 connections) — `scripts/SaffronPokecenter.asm`
+- **scripts/VermilionPokecenter.asm** (8 connections) — `scripts/VermilionPokecenter.asm`
+- **scripts/ViridianPokecenter.asm** (8 connections) — `scripts/ViridianPokecenter.asm`
+- **IndigoPlateauLobby_Script** (5 connections) — `scripts/IndigoPlateauLobby.asm`
+- **wElite4Flags** (4 connections) — `ram/wram.asm`
+- **CeladonPokecenter_Script** (3 connections) — `scripts/CeladonPokecenter.asm`
+- **CeruleanPokecenter_Script** (3 connections) — `scripts/CeruleanPokecenter.asm`
+- **CinnabarPokecenter_Script** (3 connections) — `scripts/CinnabarPokecenter.asm`
+- **FuchsiaPokecenter_Script** (3 connections) — `scripts/FuchsiaPokecenter.asm`
+- **LavenderPokecenter_Script** (3 connections) — `scripts/LavenderPokecenter.asm`
+- **MtMoonPokecenter_Script** (3 connections) — `scripts/MtMoonPokecenter.asm`
+- **PewterPokecenter_Script** (3 connections) — `scripts/PewterPokecenter.asm`
+- **RockTunnelPokecenter_Script** (3 connections) — `scripts/RockTunnelPokecenter.asm`
+- **SaffronPokecenter_Script** (3 connections) — `scripts/SaffronPokecenter.asm`
+- **VermilionPokecenter_Script** (3 connections) — `scripts/VermilionPokecenter.asm`
+- *... and 61 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (27 shared connections)
-- [Home](Home.md) (7 shared connections)
-- [Engine Pokemon](Engine_Pokemon.md) (6 shared connections)
-- [Home 3](Home_3.md) (5 shared connections)
-- [Engine Menus](Engine_Menus.md) (5 shared connections)
-- [Engine Link](Engine_Link.md) (4 shared connections)
-- [Scripts 11](Scripts_11.md) (4 shared connections)
-- [Ram](Ram.md) (3 shared connections)
-- [Engine Pokemon 2](Engine_Pokemon_2.md) (3 shared connections)
-- [Scripts 3](Scripts_3.md) (3 shared connections)
-- [Engine Menus 2](Engine_Menus_2.md) (2 shared connections)
-- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
+- [Scripts](Scripts.md) (12 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
 
 ## Source Files
 
-- `data/events/prize_mon_levels.asm`
-- `engine/events/prize_menu.asm`
-- `engine/items/subtract_paid_money.asm`
-- `engine/math/bcd.asm`
-- `engine/slots/slot_machine.asm`
-- `home/compare.asm`
-- `home/inventory.asm`
-- `home/map_objects.asm`
-- `home/money.asm`
-- `ram/hram.asm`
+- `home/serial.asm`
 - `ram/wram.asm`
-- `scripts/GameCorner.asm`
+- `scripts/CeladonPokecenter.asm`
+- `scripts/CeruleanPokecenter.asm`
+- `scripts/CinnabarPokecenter.asm`
+- `scripts/FuchsiaPokecenter.asm`
+- `scripts/IndigoPlateauLobby.asm`
+- `scripts/LavenderPokecenter.asm`
 - `scripts/MtMoonPokecenter.asm`
-- `scripts/Museum1F.asm`
-- `scripts/SafariZoneGate.asm`
+- `scripts/PewterPokecenter.asm`
+- `scripts/RockTunnelPokecenter.asm`
+- `scripts/SaffronPokecenter.asm`
+- `scripts/VermilionPokecenter.asm`
+- `scripts/ViridianPokecenter.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 225 (100%)
+- EXTRACTED: 100 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

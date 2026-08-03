@@ -1,60 +1,66 @@
 # Scripts 4
 
-> 78 nodes · cohesion 0.03
+> 132 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **Serial_TryEstablishingExternallyClockedConnection** (13 connections) — `home/serial.asm`
-- **scripts/MtMoonPokecenter.asm** (11 connections) — `scripts/MtMoonPokecenter.asm`
-- **scripts/CeladonPokecenter.asm** (8 connections) — `scripts/CeladonPokecenter.asm`
-- **scripts/CeruleanPokecenter.asm** (8 connections) — `scripts/CeruleanPokecenter.asm`
-- **scripts/CinnabarPokecenter.asm** (8 connections) — `scripts/CinnabarPokecenter.asm`
-- **scripts/FuchsiaPokecenter.asm** (8 connections) — `scripts/FuchsiaPokecenter.asm`
-- **scripts/LavenderPokecenter.asm** (8 connections) — `scripts/LavenderPokecenter.asm`
-- **scripts/PewterPokecenter.asm** (8 connections) — `scripts/PewterPokecenter.asm`
-- **scripts/RockTunnelPokecenter.asm** (8 connections) — `scripts/RockTunnelPokecenter.asm`
-- **scripts/SaffronPokecenter.asm** (8 connections) — `scripts/SaffronPokecenter.asm`
-- **scripts/VermilionPokecenter.asm** (8 connections) — `scripts/VermilionPokecenter.asm`
-- **scripts/ViridianPokecenter.asm** (8 connections) — `scripts/ViridianPokecenter.asm`
-- **CeladonPokecenter_Script** (3 connections) — `scripts/CeladonPokecenter.asm`
-- **CeruleanPokecenter_Script** (3 connections) — `scripts/CeruleanPokecenter.asm`
-- **CinnabarPokecenter_Script** (3 connections) — `scripts/CinnabarPokecenter.asm`
-- **FuchsiaPokecenter_Script** (3 connections) — `scripts/FuchsiaPokecenter.asm`
-- **LavenderPokecenter_Script** (3 connections) — `scripts/LavenderPokecenter.asm`
-- **MtMoonPokecenter_Script** (3 connections) — `scripts/MtMoonPokecenter.asm`
-- **PewterPokecenter_Script** (3 connections) — `scripts/PewterPokecenter.asm`
-- **RockTunnelPokecenter_Script** (3 connections) — `scripts/RockTunnelPokecenter.asm`
-- **SaffronPokecenter_Script** (3 connections) — `scripts/SaffronPokecenter.asm`
-- **VermilionPokecenter_Script** (3 connections) — `scripts/VermilionPokecenter.asm`
-- **ViridianPokecenter_Script** (3 connections) — `scripts/ViridianPokecenter.asm`
-- **CeladonPokecenter_TextPointers** (1 connections) — `scripts/CeladonPokecenter.asm`
-- **CeladonPokecenterBeautyText** (1 connections) — `scripts/CeladonPokecenter.asm`
-- *... and 53 more nodes in this community*
+- **TextScriptEnd** (534 connections) — `home/overworld_text.asm`
+- **scripts/OaksLab.asm** (71 connections) — `scripts/OaksLab.asm`
+- **scripts/SSAnne2FRooms.asm** (33 connections) — `scripts/SSAnne2FRooms.asm`
+- **21.49 Mapa `SSAnne2FRooms`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **scripts/PokemonFanClub.asm** (13 connections) — `scripts/PokemonFanClub.asm`
+- **OaksLabMonChoiceMenu** (13 connections) — `scripts/OaksLab.asm`
+- **scripts/Museum1F.asm** (12 connections) — `scripts/Museum1F.asm`
+- **engine/events/hidden_events/vermilion_gym_trash.asm** (11 connections) — `engine/events/hidden_events/vermilion_gym_trash.asm`
+- **OaksLab_TextPointers2** (11 connections) — `scripts/OaksLab.asm`
+- **home/overworld_text.asm** (10 connections) — `home/overworld_text.asm`
+- **scripts/MrFujisHouse.asm** (10 connections) — `scripts/MrFujisHouse.asm`
+- **OaksLabOak1Text** (10 connections) — `scripts/OaksLab.asm`
+- **OaksLabShowPokeBallPokemonScript** (10 connections) — `scripts/OaksLab.asm`
+- **RedsHouse1FMomHealScript** (10 connections) — `scripts/RedsHouse1F.asm`
+- **scripts/RedsHouse1F.asm** (9 connections) — `scripts/RedsHouse1F.asm`
+- **OaksLabSelectedPokeBallScript** (8 connections) — `scripts/OaksLab.asm`
+- **OaksLabRivalStartBattleScript** (7 connections) — `scripts/OaksLab.asm`
+- **GymTrashScript** (6 connections) — `engine/events/hidden_events/vermilion_gym_trash.asm`
+- **OaksLabLastMonScript** (6 connections) — `scripts/OaksLab.asm`
+- **OaksLabScript_RemoveParcel** (5 connections) — `scripts/OaksLab.asm`
+- **VermilionGymTrashFailText** (4 connections) — `engine/events/hidden_events/vermilion_gym_trash.asm`
+- **VermilionGymTrashSuccessPlaySfx** (4 connections) — `engine/events/hidden_events/vermilion_gym_trash.asm`
+- **VermilionGymTrashSuccessText1** (4 connections) — `engine/events/hidden_events/vermilion_gym_trash.asm`
+- **VermilionGymTrashSuccessText3** (4 connections) — `engine/events/hidden_events/vermilion_gym_trash.asm`
+- **OaksLab_Script** (4 connections) — `scripts/OaksLab.asm`
+- *... and 107 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (11 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Scripts 11](Scripts_11.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (42 shared connections)
+- [Scripts 3](Scripts_3.md) (17 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (8 shared connections)
+- [Scripts](Scripts.md) (5 shared connections)
+- [Scripts 6](Scripts_6.md) (5 shared connections)
+- [Scripts 13](Scripts_13.md) (5 shared connections)
+- [Scripts 33](Scripts_33.md) (4 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (4 shared connections)
+- [Scripts 14](Scripts_14.md) (4 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (3 shared connections)
+- [Bank ROMX](Bank_ROMX.md) (2 shared connections)
+- [Scripts 8](Scripts_8.md) (2 shared connections)
 
 ## Source Files
 
-- `home/serial.asm`
-- `scripts/CeladonPokecenter.asm`
-- `scripts/CeruleanPokecenter.asm`
-- `scripts/CinnabarPokecenter.asm`
-- `scripts/FuchsiaPokecenter.asm`
-- `scripts/LavenderPokecenter.asm`
-- `scripts/MtMoonPokecenter.asm`
-- `scripts/PewterPokecenter.asm`
-- `scripts/RockTunnelPokecenter.asm`
-- `scripts/SaffronPokecenter.asm`
-- `scripts/VermilionPokecenter.asm`
-- `scripts/ViridianPokecenter.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `engine/events/hidden_events/vermilion_gym_trash.asm`
+- `home/overworld_text.asm`
+- `scripts/MrFujisHouse.asm`
+- `scripts/Museum1F.asm`
+- `scripts/OaksLab.asm`
+- `scripts/PokemonFanClub.asm`
+- `scripts/RedsHouse1F.asm`
+- `scripts/SSAnne2FRooms.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (100%)
+- EXTRACTED: 334 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
