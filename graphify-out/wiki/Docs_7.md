@@ -1,30 +1,37 @@
 # Docs 7
 
-> 9 nodes · cohesion 0.22
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **12. Fórmula de dano normal** (9 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **12.6 Tabela de tipos da ROM** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **12.1 Escolha dos atributos** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **12.2 Dano base** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **12.3 Ordem dos multiplicadores** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **12.4 STAB** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **12.5 Vantagem e resistência por tipo** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **12.7 Variação aleatória do dano** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **12.8 Exemplo reproduzível** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **14. Inventarios gerados** (9 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **data/pokemon/mew.asm** (8 connections) — `data/pokemon/mew.asm`
+- **MewPicBack** (3 connections) — `data/pokemon/mew.asm`
+- **14.7 Imagens comprimidas de personagens ativas** (3 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **MewBaseStats** (2 connections) — `data/pokemon/mew.asm`
+- **14.5 Sprites de overworld** (2 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **14.8 Cobertura dos PNGs no repositorio** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **14.1 Musicas enderecaveis** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **14.2 Musica por mapa** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **14.3 Efeitos, instrumentos e gritos-base** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **14.4 Gritos por indice interno** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **gfx/pokemon/back/mewb.pic** (1 connections) — `gfx/pokemon/back/mewb.pic`
 
 ## Relationships
 
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Gfx Pics.Asm 5](Gfx_Pics.Asm_5.md) (2 shared connections)
+- [Gfx Pokemon](Gfx_Pokemon.md) (2 shared connections)
+- [Home](Home.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- `data/pokemon/mew.asm`
+- `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- `gfx/pokemon/back/mewb.pic`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,61 +1,57 @@
 # Scripts 29
 
-> 46 nodes · cohesion 0.05
+> 48 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **CallFunctionInTable** (34 connections) — `home/array2.asm`
-- **scripts/BillsHouse.asm** (15 connections) — `scripts/BillsHouse.asm`
-- **scripts/ViridianMart.asm** (15 connections) — `scripts/ViridianMart.asm`
-- **scripts/HallOfFame.asm** (12 connections) — `scripts/HallOfFame.asm`
-- **scripts/Route18Gate1F.asm** (11 connections) — `scripts/Route18Gate1F.asm`
-- **scripts/RedsHouse2F.asm** (7 connections) — `scripts/RedsHouse2F.asm`
-- **Route18Gate1F_Script** (5 connections) — `scripts/Route18Gate1F.asm`
-- **ViridianMart_Script** (5 connections) — `scripts/ViridianMart.asm`
-- **ViridianMart_TextPointers** (5 connections) — `scripts/ViridianMart.asm`
-- **BillsHouse_Script** (4 connections) — `scripts/BillsHouse.asm`
-- **HallOfFame_Script** (4 connections) — `scripts/HallOfFame.asm`
-- **RedsHouse2F_Script** (4 connections) — `scripts/RedsHouse2F.asm`
-- **SafariZoneGate_Script** (4 connections) — `scripts/SafariZoneGate.asm`
-- **ViridianMartCheckParcelDeliveredScript** (4 connections) — `scripts/ViridianMart.asm`
-- **BillsHousePokemonEntersMachineScript** (3 connections) — `scripts/BillsHouse.asm`
-- **Museum1F_Script** (3 connections) — `scripts/Museum1F.asm`
-- **Route18Gate1FPlayerMovingRightScript** (3 connections) — `scripts/Route18Gate1F.asm`
-- **BillsHouse_ScriptPointers** (2 connections) — `scripts/BillsHouse.asm`
-- **BillsHouseCleanupScript** (2 connections) — `scripts/BillsHouse.asm`
-- **BillsHouseDefaultScript** (2 connections) — `scripts/BillsHouse.asm`
-- **HallOfFame_ScriptPointers** (2 connections) — `scripts/HallOfFame.asm`
-- **HallOfFameEntryMovement** (2 connections) — `scripts/HallOfFame.asm`
-- **HallOfFameNoopScript** (2 connections) — `scripts/HallOfFame.asm`
-- **Museum1F_ScriptPointers** (2 connections) — `scripts/Museum1F.asm`
-- **RedsHouse2F_ScriptPointers** (2 connections) — `scripts/RedsHouse2F.asm`
-- *... and 21 more nodes in this community*
+- **scripts/SilphCo2F.asm** (30 connections) — `scripts/SilphCo2F.asm`
+- **scripts/SilphCo10F.asm** (19 connections) — `scripts/SilphCo10F.asm`
+- **21.56 Mapa `SilphCo2F`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **21.54 Mapa `SilphCo10F`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **SilphCo10F_Script** (6 connections) — `scripts/SilphCo10F.asm`
+- **SilphCo2F_Script** (6 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2F_SetCardKeyDoorYScript** (6 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FGateCallbackScript** (6 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo10FGateCallbackScript** (5 connections) — `scripts/SilphCo10F.asm`
+- **SilphCo10FRocketText** (4 connections) — `scripts/SilphCo10F.asm`
+- **SilphCo10FScientistText** (4 connections) — `scripts/SilphCo10F.asm`
+- **SilphCo2FRocket1Text** (4 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FRocket2Text** (4 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FScientist1Text** (4 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo2FScientist2Text** (4 connections) — `scripts/SilphCo2F.asm`
+- **SilphCo10FSilphWorkerFText** (3 connections) — `scripts/SilphCo10F.asm`
+- **SilphCo10F_ScriptPointers** (2 connections) — `scripts/SilphCo10F.asm`
+- **SilphCo10F_SetUnlockedSilphCoDoorsScript** (2 connections) — `scripts/SilphCo10F.asm`
+- **SilphCo10FRocketAfterBattleText** (2 connections) — `scripts/SilphCo10F.asm`
+- **SilphCo10FRocketBattleText** (2 connections) — `scripts/SilphCo10F.asm`
+- **SilphCo10FRocketEndBattleText** (2 connections) — `scripts/SilphCo10F.asm`
+- **SilphCo10FScientistAfterBattleText** (2 connections) — `scripts/SilphCo10F.asm`
+- **SilphCo10FScientistBattleText** (2 connections) — `scripts/SilphCo10F.asm`
+- **SilphCo10FScientistEndBattleText** (2 connections) — `scripts/SilphCo10F.asm`
+- **SilphCo10TrainerHeader0** (2 connections) — `scripts/SilphCo10F.asm`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (7 shared connections)
-- [Scripts 4](Scripts_4.md) (6 shared connections)
-- [Scripts](Scripts.md) (4 shared connections)
-- [Home 5](Home_5.md) (2 shared connections)
-- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
-- [Scripts 19](Scripts_19.md) (1 shared connections)
-- [Home 2](Home_2.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (7 shared connections)
+- [Scripts 14](Scripts_14.md) (6 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 33](Scripts_33.md) (2 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Scripts 9](Scripts_9.md) (2 shared connections)
+- [Scripts 65](Scripts_65.md) (1 shared connections)
+- [Ram 9](Ram_9.md) (1 shared connections)
+- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
 
 ## Source Files
 
-- `home/array2.asm`
-- `scripts/BillsHouse.asm`
-- `scripts/HallOfFame.asm`
-- `scripts/Museum1F.asm`
-- `scripts/RedsHouse2F.asm`
-- `scripts/Route18Gate1F.asm`
-- `scripts/SafariZoneGate.asm`
-- `scripts/ViridianMart.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/SilphCo10F.asm`
+- `scripts/SilphCo2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (100%)
+- EXTRACTED: 102 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

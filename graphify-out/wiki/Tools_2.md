@@ -1,35 +1,35 @@
 # Tools 2
 
-> 35 nodes · cohesion 0.06
+> 30 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **tools/generate_pokemon_catalog.py** (35 connections) — `tools/generate_pokemon_catalog.py`
-- **(data/pokemon/base_stats/[^\** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **acquisitions** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **assignments** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **base_exp** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **by_species** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **catch_rate** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **category** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **description** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **entries** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **evolutions** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **evolves_from** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **growth** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **height_feet** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **height_inches** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **initial_moves** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **item** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **level** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **level_moves** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **method** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **move_names** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **name** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **number** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **result** (1 connections) — `tools/generate_pokemon_catalog.py`
-- **source** (1 connections) — `tools/generate_pokemon_catalog.py`
-- *... and 10 more nodes in this community*
+- **tools/graphify_rgbds.py** (31 connections) — `tools/graphify_rgbds.py`
+- **GraphBuilder** (1 connections) — `tools/graphify_rgbds.py`
+- **call_targets** (1 connections) — `tools/graphify_rgbds.py`
+- **community_label** (1 connections) — `tools/graphify_rgbds.py`
+- **detection** (1 connections) — `tools/graphify_rgbds.py`
+- **domain_node** (1 connections) — `tools/graphify_rgbds.py`
+- **edge** (1 connections) — `tools/graphify_rgbds.py`
+- **ensure_path_node** (1 connections) — `tools/graphify_rgbds.py`
+- **extract_c_definitions** (1 connections) — `tools/graphify_rgbds.py`
+- **extract_c_references** (1 connections) — `tools/graphify_rgbds.py`
+- **extract_json_entities** (1 connections) — `tools/graphify_rgbds.py`
+- **extract_label** (1 connections) — `tools/graphify_rgbds.py`
+- **extract_markdown_headings** (1 connections) — `tools/graphify_rgbds.py`
+- **extract_markdown_references** (1 connections) — `tools/graphify_rgbds.py`
+- **extract_python_definitions** (1 connections) — `tools/graphify_rgbds.py`
+- **extraction** (1 connections) — `tools/graphify_rgbds.py`
+- **file_node** (1 connections) — `tools/graphify_rgbds.py`
+- **first_pass** (1 connections) — `tools/graphify_rgbds.py`
+- **__init__** (1 connections) — `tools/graphify_rgbds.py`
+- **main** (1 connections) — `tools/graphify_rgbds.py`
+- **node** (1 connections) — `tools/graphify_rgbds.py`
+- **pointer_targets** (1 connections) — `tools/graphify_rgbds.py`
+- **reference** (1 connections) — `tools/graphify_rgbds.py`
+- **rel** (1 connections) — `tools/graphify_rgbds.py`
+- **second_pass** (1 connections) — `tools/graphify_rgbds.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
@@ -37,11 +37,11 @@
 
 ## Source Files
 
-- `tools/generate_pokemon_catalog.py`
+- `tools/graphify_rgbds.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

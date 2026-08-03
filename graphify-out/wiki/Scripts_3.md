@@ -1,77 +1,77 @@
 # Scripts 3
 
-> 78 nodes · cohesion 0.03
+> 138 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **scripts** (225 connections)
-- **scripts/FuchsiaMeetingRoom.asm** (7 connections) — `scripts/FuchsiaMeetingRoom.asm`
-- **scripts/SafariZoneWestRestHouse.asm** (7 connections) — `scripts/SafariZoneWestRestHouse.asm`
-- **scripts/Route16FlyHouse.asm** (6 connections) — `scripts/Route16FlyHouse.asm`
-- **scripts/Route2Gate.asm** (6 connections) — `scripts/Route2Gate.asm`
-- **scripts/SaffronMart.asm** (6 connections) — `scripts/SaffronMart.asm`
-- **scripts/VermilionMart.asm** (6 connections) — `scripts/VermilionMart.asm`
-- **scripts/WardensHouse.asm** (6 connections) — `scripts/WardensHouse.asm`
-- **scripts/CeladonMansion2F.asm** (5 connections) — `scripts/CeladonMansion2F.asm`
-- **scripts/FuchsiaGoodRodHouse.asm** (5 connections) — `scripts/FuchsiaGoodRodHouse.asm`
-- **scripts/MrPsychicsHouse.asm** (5 connections) — `scripts/MrPsychicsHouse.asm`
-- **scripts/MtMoonB1F.asm** (5 connections) — `scripts/MtMoonB1F.asm`
-- **scripts/Route12SuperRodHouse.asm** (5 connections) — `scripts/Route12SuperRodHouse.asm`
-- **scripts/Route15Gate1F.asm** (5 connections) — `scripts/Route15Gate1F.asm`
-- **scripts/SilphCo1F.asm** (5 connections) — `scripts/SilphCo1F.asm`
-- **scripts/VermilionOldRodHouse.asm** (5 connections) — `scripts/VermilionOldRodHouse.asm`
-- **scripts/VermilionTradeHouse.asm** (5 connections) — `scripts/VermilionTradeHouse.asm`
-- **scripts/DiglettsCave.asm** (4 connections) — `scripts/DiglettsCave.asm`
-- **scripts/IndigoPlateau.asm** (4 connections) — `scripts/IndigoPlateau.asm`
-- **scripts/SSAnneB1F.asm** (4 connections) — `scripts/SSAnneB1F.asm`
-- **scripts/UndergroundPathNorthSouth.asm** (4 connections) — `scripts/UndergroundPathNorthSouth.asm`
-- **scripts/CeruleanCity_2.asm** (3 connections) — `scripts/CeruleanCity_2.asm`
-- **VermilionTradeHouseLittleGirlText** (3 connections) — `scripts/VermilionTradeHouse.asm`
-- **CeladonMansion2F_Script** (2 connections) — `scripts/CeladonMansion2F.asm`
-- **DiglettsCave_Script** (2 connections) — `scripts/DiglettsCave.asm`
-- *... and 53 more nodes in this community*
+- **22. Inventario das maquinas de estado dos mapas** (200 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **DisplayTextID** (109 connections) — `home/text_script.asm`
+- **23. Inventario de chamadas de movimento roteirizado** (67 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **StartSimulatingJoypadStates** (40 connections) — `home/map_objects.asm`
+- **MoveSprite** (38 connections) — `home/pathfinding.asm`
+- **ArePlayerCoordsInArray** (34 connections) — `home/map_objects.asm`
+- **scripts/ChampionsRoom.asm** (30 connections) — `scripts/ChampionsRoom.asm`
+- **SetSpriteFacingDirectionAndDelay** (30 connections) — `home/map_objects.asm`
+- **CheckFightingMapTrainers** (28 connections) — `home/trainers.asm`
+- **home/map_objects.asm** (25 connections) — `home/map_objects.asm`
+- **wSimulatedJoypadStatesEnd** (25 connections) — `ram/wram.asm`
+- **wMovementFlags** (20 connections) — `ram/wram.asm`
+- **OaksLabOakGivesPokedexScript** (17 connections) — `scripts/OaksLab.asm`
+- **DecodeRLEList** (16 connections) — `home/map_objects.asm`
+- **SetSpriteMovementBytesToFF** (16 connections) — `home/map_objects.asm`
+- **wStatusFlags7** (15 connections) — `ram/wram.asm`
+- **OaksLabRivalArrivesAtOaksRequestScript** (12 connections) — `scripts/OaksLab.asm`
+- **PewterCitySuperNerd1ShowsPlayerMuseumScript** (11 connections) — `scripts/PewterCity.asm`
+- **PewterCityYoungsterShowsPlayerGymScript** (11 connections) — `scripts/PewterCity.asm`
+- **PokemonTower5FDefaultScript** (11 connections) — `scripts/PokemonTower5F.asm`
+- **SilphCo7FDefaultScript** (11 connections) — `scripts/SilphCo7F.asm`
+- **OaksLabRivalChallengesPlayerScript** (10 connections) — `scripts/OaksLab.asm`
+- **SilphCo7FRivalAfterBattleScript** (10 connections) — `scripts/SilphCo7F.asm`
+- **SSAnne2FDefaultScript** (10 connections) — `scripts/SSAnne2F.asm`
+- **SSAnne2FRivalAfterBattleScript** (10 connections) — `scripts/SSAnne2F.asm`
+- *... and 113 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 4](Scripts_4.md) (35 shared connections)
-- [Scripts](Scripts.md) (13 shared connections)
-- [Scripts 6](Scripts_6.md) (9 shared connections)
-- [Scripts 29](Scripts_29.md) (5 shared connections)
-- [Scripts 46](Scripts_46.md) (5 shared connections)
-- [Scripts 19](Scripts_19.md) (5 shared connections)
-- [Scripts 39](Scripts_39.md) (4 shared connections)
-- [Scripts 51](Scripts_51.md) (3 shared connections)
-- [Scripts 8](Scripts_8.md) (2 shared connections)
-- [Scripts 110](Scripts_110.md) (2 shared connections)
-- [Scripts 43](Scripts_43.md) (2 shared connections)
-- [Scripts 25](Scripts_25.md) (2 shared connections)
+- [Scripts 13](Scripts_13.md) (45 shared connections)
+- [Scripts 6](Scripts_6.md) (31 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (25 shared connections)
+- [Scripts 8](Scripts_8.md) (14 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (14 shared connections)
+- [Scripts 10](Scripts_10.md) (11 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (10 shared connections)
+- [Scripts 42](Scripts_42.md) (9 shared connections)
+- [Scripts 33](Scripts_33.md) (7 shared connections)
+- [Scripts 51](Scripts_51.md) (7 shared connections)
+- [Scripts 4](Scripts_4.md) (7 shared connections)
+- [Scripts 46](Scripts_46.md) (6 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonMansion2F.asm`
-- `scripts/CeruleanCity_2.asm`
-- `scripts/DiglettsCave.asm`
-- `scripts/FuchsiaGoodRodHouse.asm`
-- `scripts/FuchsiaMeetingRoom.asm`
-- `scripts/IndigoPlateau.asm`
-- `scripts/MrPsychicsHouse.asm`
-- `scripts/MtMoonB1F.asm`
-- `scripts/Route12SuperRodHouse.asm`
-- `scripts/Route15Gate1F.asm`
-- `scripts/Route16FlyHouse.asm`
-- `scripts/Route2Gate.asm`
-- `scripts/SSAnneB1F.asm`
-- `scripts/SafariZoneWestRestHouse.asm`
-- `scripts/SaffronMart.asm`
-- `scripts/SilphCo1F.asm`
-- `scripts/UndergroundPathNorthSouth.asm`
-- `scripts/VermilionMart.asm`
-- `scripts/VermilionOldRodHouse.asm`
-- `scripts/VermilionTradeHouse.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `engine/overworld/auto_movement.asm`
+- `engine/overworld/ledges.asm`
+- `home/map_objects.asm`
+- `home/pathfinding.asm`
+- `home/text_script.asm`
+- `home/trainers.asm`
+- `ram/wram.asm`
+- `scripts/AgathasRoom.asm`
+- `scripts/BillsHouse.asm`
+- `scripts/BrunosRoom.asm`
+- `scripts/CeruleanCity.asm`
+- `scripts/ChampionsRoom.asm`
+- `scripts/CinnabarGym.asm`
+- `scripts/CinnabarIsland.asm`
+- `scripts/FightingDojo.asm`
+- `scripts/GameCorner.asm`
+- `scripts/HallOfFame.asm`
+- `scripts/LoreleisRoom.asm`
+- `scripts/MtMoonB2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 311 (100%)
+- EXTRACTED: 722 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

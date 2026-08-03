@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **text/PokemonTower4F.asm** (11 connections) — `text/PokemonTower4F.asm`
-- **_PokemonTower4FChanneler1AfterBattleText** (1 connections) — `text/PokemonTower4F.asm`
-- **_PokemonTower4FChanneler1BattleText** (1 connections) — `text/PokemonTower4F.asm`
-- **_PokemonTower4FChanneler1EndBattleText** (1 connections) — `text/PokemonTower4F.asm`
-- **_PokemonTower4FChanneler2AfterBattleText** (1 connections) — `text/PokemonTower4F.asm`
-- **_PokemonTower4FChanneler2BattleText** (1 connections) — `text/PokemonTower4F.asm`
-- **_PokemonTower4FChanneler2EndBattleText** (1 connections) — `text/PokemonTower4F.asm`
-- **_PokemonTower4FChanneler3AfterBattleText** (1 connections) — `text/PokemonTower4F.asm`
-- **_PokemonTower4FChanneler3BattleText** (1 connections) — `text/PokemonTower4F.asm`
-- **_PokemonTower4FChanneler3EndBattleText** (1 connections) — `text/PokemonTower4F.asm`
+- **text/Route22.asm** (11 connections) — `text/Route22.asm`
+- **_Route22PokemonLeagueSignText** (1 connections) — `text/Route22.asm`
+- **_Route22Rival1DefeatedText** (1 connections) — `text/Route22.asm`
+- **_Route22Rival1VictoryText** (1 connections) — `text/Route22.asm`
+- **_Route22Rival2DefeatedText** (1 connections) — `text/Route22.asm`
+- **_Route22Rival2VictoryText** (1 connections) — `text/Route22.asm`
+- **_Route22RivalAfterBattleText1** (1 connections) — `text/Route22.asm`
+- **_Route22RivalAfterBattleText2** (1 connections) — `text/Route22.asm`
+- **_Route22RivalBeforeBattleText1** (1 connections) — `text/Route22.asm`
+- **_Route22RivalBeforeBattleText2** (1 connections) — `text/Route22.asm`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `text/PokemonTower4F.asm`
+- `text/Route22.asm`
 
 ## Audit Trail
 

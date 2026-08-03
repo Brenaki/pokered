@@ -1,51 +1,56 @@
 # Scripts 56
 
-> 29 nodes · cohesion 0.10
+> 29 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **scripts/ViridianForest.asm** (29 connections) — `scripts/ViridianForest.asm`
-- **21.68 Mapa `ViridianForest`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **ViridianForest_Script** (5 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster2Text** (4 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster3Text** (4 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster4Text** (4 connections) — `scripts/ViridianForest.asm`
-- **ViridianForest_ScriptPointers** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestTrainerHeader0** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestTrainerHeader1** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestTrainerHeader2** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestTrainerHeaders** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster2AfterBattleText** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster2BattleText** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster2EndBattleText** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster3AfterBattleText** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster3BattleText** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster3EndBattleText** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster4AfterBattleText** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster4BattleText** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestYoungster4EndBattleText** (2 connections) — `scripts/ViridianForest.asm`
-- **ViridianForest_TextPointers** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestLeavingSignText** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestTrainerTips1Text** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestTrainerTips2Text** (1 connections) — `scripts/ViridianForest.asm`
-- **ViridianForestTrainerTips3Text** (1 connections) — `scripts/ViridianForest.asm`
+- **scripts/PokemonTower6F.asm** (30 connections) — `scripts/PokemonTower6F.asm`
+- **21.20 Mapa `PokemonTower6F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **PokemonTower6FMarowakDepartedText** (8 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FMarowakBattleScript** (6 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6F_Script** (5 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler1Text** (4 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler2Text** (4 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler3Text** (4 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FPlayerMovingScript** (3 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6F_ScriptPointers** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler1AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler1BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler1EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler2AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler2BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler2EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler3AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler3BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FChanneler3EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FGhostWasCubonesMotherText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FMarowakCoords** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FSetDefaultScript** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6FSoulWasCalmedText** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6TrainerHeader0** (2 connections) — `scripts/PokemonTower6F.asm`
+- **PokemonTower6TrainerHeader1** (2 connections) — `scripts/PokemonTower6F.asm`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (3 shared connections)
-- [Home 8](Home_8.md) (3 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (4 shared connections)
+- [Scripts 14](Scripts_14.md) (3 shared connections)
+- [Scripts 3](Scripts_3.md) (2 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (2 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/ViridianForest.asm`
+- `scripts/PokemonTower6F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

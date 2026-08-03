@@ -9,10 +9,10 @@
 - **RedFishingTilesBack** (2 connections) — `gfx/fishing.asm`
 - **RedFishingTilesFront** (2 connections) — `gfx/fishing.asm`
 - **RedFishingTilesSide** (2 connections) — `gfx/fishing.asm`
-- **gfx/overworld/fishing_rod.2bpp** (1 connections) — `gfx/fishing.asm`
-- **gfx/overworld/red_fish_back.2bpp** (1 connections) — `gfx/fishing.asm`
-- **gfx/overworld/red_fish_front.2bpp** (1 connections) — `gfx/fishing.asm`
-- **gfx/overworld/red_fish_side.2bpp** (1 connections) — `gfx/fishing.asm`
+- **gfx/overworld/fishing_rod.2bpp** (1 connections) — `gfx/overworld/fishing_rod.2bpp`
+- **gfx/overworld/red_fish_back.2bpp** (1 connections) — `gfx/overworld/red_fish_back.2bpp`
+- **gfx/overworld/red_fish_front.2bpp** (1 connections) — `gfx/overworld/red_fish_front.2bpp`
+- **gfx/overworld/red_fish_side.2bpp** (1 connections) — `gfx/overworld/red_fish_side.2bpp`
 
 ## Relationships
 
@@ -21,6 +21,10 @@
 ## Source Files
 
 - `gfx/fishing.asm`
+- `gfx/overworld/fishing_rod.2bpp`
+- `gfx/overworld/red_fish_back.2bpp`
+- `gfx/overworld/red_fish_front.2bpp`
+- `gfx/overworld/red_fish_side.2bpp`
 
 ## Audit Trail
 

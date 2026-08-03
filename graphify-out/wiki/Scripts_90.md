@@ -1,44 +1,32 @@
 # Scripts 90
 
-> 16 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **scripts/PokemonMansion1F.asm** (17 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1F_Script** (6 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1CheckReplaceSwitchDoorBlocks** (5 connections) — `scripts/PokemonMansion1F.asm`
-- **21.13 Mapa `PokemonMansion1F`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **PokemonMansion1FScientistText** (4 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1LoadHorizontalGateBlock** (3 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1ReplaceBlock** (3 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1LoadEmptyFloorTileBlock** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1Script_Switches** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1TrainerHeader0** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **Mansion1TrainerHeaders** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1F_ScriptPointers** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1FScientistAfterBattleText** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1FScientistBattleText** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1FScientistEndBattleText** (2 connections) — `scripts/PokemonMansion1F.asm`
-- **PokemonMansion1F_TextPointers** (1 connections) — `scripts/PokemonMansion1F.asm`
+- **scripts/CeladonMansion3F.asm** (12 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3F_Script** (2 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3F_TextPointers** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FDevRoomSignText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FGameProgramPCText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FGameScriptPCText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FGraphicArtistText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FPlayingGamePCText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FProgrammerText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **CeladonMansion3FWriterText** (1 connections) — `scripts/CeladonMansion3F.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (2 shared connections)
-- [Scripts 19](Scripts_19.md) (1 shared connections)
-- [Engine Overworld 8](Engine_Overworld_8.md) (1 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Home 8](Home_8.md) (1 shared connections)
+- [Home](Home.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/PokemonMansion1F.asm`
+- `scripts/CeladonMansion3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

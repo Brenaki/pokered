@@ -1,56 +1,59 @@
 # Docs 3
 
-> 30 nodes · cohesion 0.07
+> 24 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Funcionamento das IAs e dos NPCs de Pokemon Red/Blue** (26 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **12. Melhorias possiveis no modo ENHANCED** (6 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **11. Recomendacao para a reescrita fiel** (5 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **2. Escopo** (3 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **13. Estrategia TDD** (3 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **17. Evidencias e aprovacao** (3 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **Controle do documento** (2 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **10. Classificacao dos algoritmos** (2 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **13.1 Testes de caracterizacao obrigatorios** (2 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **Historico de revisoes** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **1. Finalidade e relacao com a ISO 9001** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **24. Registro de aprovacao** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **2.1 Incluido** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **11.1 Dois modos obrigatorios** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **11.2 Limites DDD** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **11.3 SOLID pragmatico em C** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **11.4 Refactoring incremental** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **12.1 IA de batalha mais forte e explicavel** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **12.2 Aprender como o jogador joga** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **2.2 Excluido** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **12.3 NPCs andando pelo mapa** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **12.4 Parar o jogador para conversar** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **12.5 Comportamentos adicionais seguros** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **13.2 Diferencial e propriedades** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **3. Objetivos e criterios da qualidade** (1 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- *... and 5 more nodes in this community*
+- **Audio, musicas, efeitos sonoros e sprites de Pokemon Red/Blue** (18 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **home/vblank.asm** (7 connections) — `home/vblank.asm`
+- **7.1 Build dos assets** (6 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **13. Controle de mudancas** (6 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **7. Pipeline de graficos e sprites** (5 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **9. Reescrita incremental em C** (4 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **2. Escopo** (3 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **15. Evidencias de geracao** (2 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **Controle do documento** (2 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **12. Matriz de rastreabilidade** (2 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **16. Aprovacao e pendencias** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **Historico de revisoes** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **1. Finalidade e relacao com a ISO 9001** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **9.1 Contextos DDD e portas** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **9.2 Sequencia de extracao por Refactoring/TDD** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **9.3 Melhorias posteriores, fora do modo fiel** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **10. Estrategia de testes e aceitacao** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **11. Riscos e controles** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **2.1 Incluido** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **2.2 Excluido** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **3. Objetivos e criterios da qualidade** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **4. Conclusao executiva** (1 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **tools/gfx** (1 connections) — `tools/gfx`
+- **tools/pkmncompress** (1 connections) — `tools/pkmncompress`
 
 ## Relationships
 
-- [Engine Overworld 5](Engine_Overworld_5.md) (3 shared connections)
-- [Engine Math](Engine_Math.md) (2 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 77](Scripts_77.md) (1 shared connections)
-- [Engine Overworld 4](Engine_Overworld_4.md) (1 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
-- [Makefile](Makefile.md) (1 shared connections)
-- [Docs](Docs.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
+- [Scripts 6](Scripts_6.md) (2 shared connections)
+- [Engine Battle 9](Engine_Battle_9.md) (2 shared connections)
+- [Home 4](Home_4.md) (2 shared connections)
+- [Tools 3](Tools_3.md) (1 shared connections)
+- [Ram 4](Ram_4.md) (1 shared connections)
+- [Docs 7](Docs_7.md) (1 shared connections)
+- [Gfx Sprites](Gfx_Sprites.md) (1 shared connections)
+- [Data Sgb](Data_Sgb.md) (1 shared connections)
 - [Home 5](Home_5.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Makefile](Makefile.md) (1 shared connections)
+- [Data Maps 4](Data_Maps_4.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- `home/vblank.asm`
+- `tools/gfx`
+- `tools/pkmncompress`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 41 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

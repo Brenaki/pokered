@@ -1,29 +1,32 @@
 # Engine Overworld 6
 
-> 7 nodes · cohesion 0.48
+> 9 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **engine/overworld/field_move_messages.asm** (9 connections) — `engine/overworld/field_move_messages.asm`
-- **IsSurfingAllowed** (8 connections) — `engine/overworld/field_move_messages.asm`
-- **PrintStrengthText** (6 connections) — `engine/overworld/field_move_messages.asm`
-- **CanMoveBouldersText** (2 connections) — `engine/overworld/field_move_messages.asm`
-- **CurrentTooFastText** (2 connections) — `engine/overworld/field_move_messages.asm`
-- **CyclingIsFunText** (2 connections) — `engine/overworld/field_move_messages.asm`
-- **SeafoamIslandsB4FStairsCoords** (2 connections) — `engine/overworld/field_move_messages.asm`
+- **engine/overworld/dust_smoke.asm** (9 connections) — `engine/overworld/dust_smoke.asm`
+- **AnimateBoulderDust** (6 connections) — `engine/overworld/dust_smoke.asm`
+- **LoadSmokeTileFourTimes** (5 connections) — `engine/overworld/dust_smoke.asm`
+- **LoadSmokeTile** (4 connections) — `engine/overworld/dust_smoke.asm`
+- **GetMoveBoulderDustFunctionPointer** (3 connections) — `engine/overworld/dust_smoke.asm`
+- **SSAnneSmokePuffTile** (3 connections) — `engine/overworld/dust_smoke.asm`
+- **MoveBoulderDustFunctionPointerTable** (2 connections) — `engine/overworld/dust_smoke.asm`
+- **SSAnneSmokePuffTileEnd** (1 connections) — `engine/overworld/dust_smoke.asm`
+- **gfx/overworld/smoke.2bpp** (1 connections) — `gfx/overworld/smoke.2bpp`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (6 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (3 shared connections)
+- [Home](Home.md) (2 shared connections)
 
 ## Source Files
 
-- `engine/overworld/field_move_messages.asm`
+- `engine/overworld/dust_smoke.asm`
+- `gfx/overworld/smoke.2bpp`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

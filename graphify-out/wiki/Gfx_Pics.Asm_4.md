@@ -1,35 +1,35 @@
 # Gfx Pics.Asm 4
 
-> 175 nodes · cohesion 0.02
+> 161 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **Pics 1 [ROMX]** (118 connections) — `gfx/pics.asm`
-- **data/pokemon/base_stats/arcanine.asm** (6 connections) — `data/pokemon/base_stats/arcanine.asm`
-- **data/pokemon/base_stats/blastoise.asm** (6 connections) — `data/pokemon/base_stats/blastoise.asm`
-- **data/pokemon/base_stats/clefairy.asm** (6 connections) — `data/pokemon/base_stats/clefairy.asm`
-- **data/pokemon/base_stats/cubone.asm** (6 connections) — `data/pokemon/base_stats/cubone.asm`
-- **data/pokemon/base_stats/exeggcute.asm** (6 connections) — `data/pokemon/base_stats/exeggcute.asm`
-- **data/pokemon/base_stats/exeggutor.asm** (6 connections) — `data/pokemon/base_stats/exeggutor.asm`
-- **data/pokemon/base_stats/gastly.asm** (6 connections) — `data/pokemon/base_stats/gastly.asm`
-- **data/pokemon/base_stats/gengar.asm** (6 connections) — `data/pokemon/base_stats/gengar.asm`
-- **data/pokemon/base_stats/grimer.asm** (6 connections) — `data/pokemon/base_stats/grimer.asm`
-- **data/pokemon/base_stats/gyarados.asm** (6 connections) — `data/pokemon/base_stats/gyarados.asm`
-- **data/pokemon/base_stats/ivysaur.asm** (6 connections) — `data/pokemon/base_stats/ivysaur.asm`
-- **data/pokemon/base_stats/kangaskhan.asm** (6 connections) — `data/pokemon/base_stats/kangaskhan.asm`
-- **data/pokemon/base_stats/lapras.asm** (6 connections) — `data/pokemon/base_stats/lapras.asm`
-- **data/pokemon/base_stats/lickitung.asm** (6 connections) — `data/pokemon/base_stats/lickitung.asm`
-- **data/pokemon/base_stats/nidoking.asm** (6 connections) — `data/pokemon/base_stats/nidoking.asm`
-- **data/pokemon/base_stats/nidoqueen.asm** (6 connections) — `data/pokemon/base_stats/nidoqueen.asm`
-- **data/pokemon/base_stats/nidoranf.asm** (6 connections) — `data/pokemon/base_stats/nidoranf.asm`
-- **data/pokemon/base_stats/nidoranm.asm** (6 connections) — `data/pokemon/base_stats/nidoranm.asm`
-- **data/pokemon/base_stats/pinsir.asm** (6 connections) — `data/pokemon/base_stats/pinsir.asm`
-- **data/pokemon/base_stats/rhydon.asm** (6 connections) — `data/pokemon/base_stats/rhydon.asm`
-- **data/pokemon/base_stats/rhyhorn.asm** (6 connections) — `data/pokemon/base_stats/rhyhorn.asm`
-- **data/pokemon/base_stats/scyther.asm** (6 connections) — `data/pokemon/base_stats/scyther.asm`
-- **data/pokemon/base_stats/shellder.asm** (6 connections) — `data/pokemon/base_stats/shellder.asm`
-- **data/pokemon/base_stats/slowbro.asm** (6 connections) — `data/pokemon/base_stats/slowbro.asm`
-- *... and 150 more nodes in this community*
+- **Pics 5 [ROMX]** (110 connections) — `gfx/pics.asm`
+- **data/pokemon/base_stats/aerodactyl.asm** (6 connections) — `data/pokemon/base_stats/aerodactyl.asm`
+- **data/pokemon/base_stats/bellsprout.asm** (6 connections) — `data/pokemon/base_stats/bellsprout.asm`
+- **data/pokemon/base_stats/bulbasaur.asm** (6 connections) — `data/pokemon/base_stats/bulbasaur.asm`
+- **data/pokemon/base_stats/charizard.asm** (6 connections) — `data/pokemon/base_stats/charizard.asm`
+- **data/pokemon/base_stats/charmander.asm** (6 connections) — `data/pokemon/base_stats/charmander.asm`
+- **data/pokemon/base_stats/charmeleon.asm** (6 connections) — `data/pokemon/base_stats/charmeleon.asm`
+- **data/pokemon/base_stats/geodude.asm** (6 connections) — `data/pokemon/base_stats/geodude.asm`
+- **data/pokemon/base_stats/gloom.asm** (6 connections) — `data/pokemon/base_stats/gloom.asm`
+- **data/pokemon/base_stats/goldeen.asm** (6 connections) — `data/pokemon/base_stats/goldeen.asm`
+- **data/pokemon/base_stats/magnemite.asm** (6 connections) — `data/pokemon/base_stats/magnemite.asm`
+- **data/pokemon/base_stats/nidorina.asm** (6 connections) — `data/pokemon/base_stats/nidorina.asm`
+- **data/pokemon/base_stats/nidorino.asm** (6 connections) — `data/pokemon/base_stats/nidorino.asm`
+- **data/pokemon/base_stats/oddish.asm** (6 connections) — `data/pokemon/base_stats/oddish.asm`
+- **data/pokemon/base_stats/ponyta.asm** (6 connections) — `data/pokemon/base_stats/ponyta.asm`
+- **data/pokemon/base_stats/porygon.asm** (6 connections) — `data/pokemon/base_stats/porygon.asm`
+- **data/pokemon/base_stats/rapidash.asm** (6 connections) — `data/pokemon/base_stats/rapidash.asm`
+- **data/pokemon/base_stats/raticate.asm** (6 connections) — `data/pokemon/base_stats/raticate.asm`
+- **data/pokemon/base_stats/rattata.asm** (6 connections) — `data/pokemon/base_stats/rattata.asm`
+- **data/pokemon/base_stats/seaking.asm** (6 connections) — `data/pokemon/base_stats/seaking.asm`
+- **data/pokemon/base_stats/squirtle.asm** (6 connections) — `data/pokemon/base_stats/squirtle.asm`
+- **data/pokemon/base_stats/tentacruel.asm** (6 connections) — `data/pokemon/base_stats/tentacruel.asm`
+- **data/pokemon/base_stats/venusaur.asm** (6 connections) — `data/pokemon/base_stats/venusaur.asm`
+- **data/pokemon/base_stats/victreebel.asm** (6 connections) — `data/pokemon/base_stats/victreebel.asm`
+- **data/pokemon/base_stats/vileplume.asm** (6 connections) — `data/pokemon/base_stats/vileplume.asm`
+- *... and 136 more nodes in this community*
 
 ## Relationships
 
@@ -37,30 +37,30 @@
 
 ## Source Files
 
-- `data/pokemon/base_stats/arcanine.asm`
-- `data/pokemon/base_stats/blastoise.asm`
-- `data/pokemon/base_stats/clefairy.asm`
-- `data/pokemon/base_stats/cubone.asm`
-- `data/pokemon/base_stats/exeggcute.asm`
-- `data/pokemon/base_stats/exeggutor.asm`
-- `data/pokemon/base_stats/gastly.asm`
-- `data/pokemon/base_stats/gengar.asm`
-- `data/pokemon/base_stats/grimer.asm`
-- `data/pokemon/base_stats/gyarados.asm`
-- `data/pokemon/base_stats/ivysaur.asm`
-- `data/pokemon/base_stats/kangaskhan.asm`
-- `data/pokemon/base_stats/lapras.asm`
-- `data/pokemon/base_stats/lickitung.asm`
-- `data/pokemon/base_stats/nidoking.asm`
-- `data/pokemon/base_stats/nidoqueen.asm`
-- `data/pokemon/base_stats/nidoranf.asm`
-- `data/pokemon/base_stats/nidoranm.asm`
-- `data/pokemon/base_stats/pinsir.asm`
-- `data/pokemon/base_stats/rhydon.asm`
+- `data/pokemon/base_stats/aerodactyl.asm`
+- `data/pokemon/base_stats/bellsprout.asm`
+- `data/pokemon/base_stats/bulbasaur.asm`
+- `data/pokemon/base_stats/charizard.asm`
+- `data/pokemon/base_stats/charmander.asm`
+- `data/pokemon/base_stats/charmeleon.asm`
+- `data/pokemon/base_stats/geodude.asm`
+- `data/pokemon/base_stats/gloom.asm`
+- `data/pokemon/base_stats/goldeen.asm`
+- `data/pokemon/base_stats/magnemite.asm`
+- `data/pokemon/base_stats/nidorina.asm`
+- `data/pokemon/base_stats/nidorino.asm`
+- `data/pokemon/base_stats/oddish.asm`
+- `data/pokemon/base_stats/ponyta.asm`
+- `data/pokemon/base_stats/porygon.asm`
+- `data/pokemon/base_stats/rapidash.asm`
+- `data/pokemon/base_stats/raticate.asm`
+- `data/pokemon/base_stats/rattata.asm`
+- `data/pokemon/base_stats/seaking.asm`
+- `data/pokemon/base_stats/squirtle.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 291 (100%)
+- EXTRACTED: 267 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,12 +1,10 @@
 # Gfx Sprites.Asm 2
 
-> 58 nodes · cohesion 0.07
+> 55 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **gfx/sprites.asm** (70 connections) — `gfx/sprites.asm`
 - **NPC Sprites 1 [ROMX]** (56 connections) — `gfx/sprites.asm`
-- **BaldingGuySprite** (3 connections) — `gfx/sprites.asm`
 - **BoulderSprite** (3 connections) — `gfx/sprites.asm`
 - **CaptainSprite** (3 connections) — `gfx/sprites.asm`
 - **ClerkSprite** (3 connections) — `gfx/sprites.asm`
@@ -29,26 +27,40 @@
 - **RockerSprite** (3 connections) — `gfx/sprites.asm`
 - **SafariZoneWorkerSprite** (3 connections) — `gfx/sprites.asm`
 - **ScientistSprite** (3 connections) — `gfx/sprites.asm`
-- *... and 33 more nodes in this community*
+- **SilphPresidentSprite** (3 connections) — `gfx/sprites.asm`
+- **SilphWorkerMSprite** (3 connections) — `gfx/sprites.asm`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Gfx Sprites.Asm](Gfx_Sprites.Asm.md) (32 shared connections)
-- [Gfx Sprites.Asm 3](Gfx_Sprites.Asm_3.md) (3 shared connections)
-- [Gfx Sprites.Asm 4](Gfx_Sprites.Asm_4.md) (1 shared connections)
-- [Gfx Sprites.Asm 5](Gfx_Sprites.Asm_5.md) (1 shared connections)
-- [Gfx Sprites.Asm 6](Gfx_Sprites.Asm_6.md) (1 shared connections)
-- [Home 2](Home_2.md) (1 shared connections)
-- [Gfx Sprites.Asm 7](Gfx_Sprites.Asm_7.md) (1 shared connections)
 - [Bank ROMX](Bank_ROMX.md) (1 shared connections)
 
 ## Source Files
 
 - `gfx/sprites.asm`
+- `gfx/sprites/boulder.2bpp`
+- `gfx/sprites/captain.2bpp`
+- `gfx/sprites/clerk.2bpp`
+- `gfx/sprites/clipboard.2bpp`
+- `gfx/sprites/fisher.2bpp`
+- `gfx/sprites/fishing_guru.2bpp`
+- `gfx/sprites/fossil.2bpp`
+- `gfx/sprites/gambler_asleep.2bpp`
+- `gfx/sprites/gramps.2bpp`
+- `gfx/sprites/granny.2bpp`
+- `gfx/sprites/guard.2bpp`
+- `gfx/sprites/gym_guide.2bpp`
+- `gfx/sprites/koga.2bpp`
+- `gfx/sprites/link_receptionist.2bpp`
+- `gfx/sprites/nurse.2bpp`
+- `gfx/sprites/old_amber.2bpp`
+- `gfx/sprites/paper.2bpp`
+- `gfx/sprites/poke_ball.2bpp`
+- `gfx/sprites/pokedex.2bpp`
 
 ## Audit Trail
 
-- EXTRACTED: 152 (100%)
+- EXTRACTED: 82 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

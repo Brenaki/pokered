@@ -1,57 +1,58 @@
 # Docs 2
 
-> 50 nodes · cohesion 0.04
+> 25 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Sistema de Batalhas de Pokémon Red/Blue** (30 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **22. Contrato para reescrita em C** (4 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **23. Estratégia TDD e critérios de aceitação** (4 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **24. Controle de mudanças e manutenção** (4 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **6. Modelo de dados da batalha** (4 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **7. Processo operacional da batalha** (4 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **10. Precisão, acerto e evasão** (4 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **11. Ataque crítico** (4 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **15. HP: cálculo, armazenamento e exibição** (4 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **20. IA, RNG e batalha por link** (3 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **22.1 Linguagem ubíqua e limites DDD** (3 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **7.1 Inicialização** (3 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **2. Escopo** (3 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **20.2 Aleatoriedade** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **26. Evidências de revisão** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **26.1 Checklist de aprovação** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **6.1 Movimento** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **Controle do documento** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **13. Movimentos com dano ou fluxo especial** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **15.2 HP durante a batalha** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **2.2 Excluído** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **19. Desobediência** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **20.1 IA** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **22.2 Aplicação de SOLID** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **22.3 Estratégia de refactoring** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- *... and 25 more nodes in this community*
+- **Informações sobre os Pokémon de Pokémon Red/Blue** (15 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **5. Convenções e regras de interpretação** (6 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **docs** (5 connections)
+- **docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md** (5 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **9. Modelo de domínio para a reescrita em C** (3 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **2. Escopo** (3 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **docs/002-2026-08-01-Informações_sobre_Pokemons.md** (3 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **5.2 Captura e classificação** (2 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **5.3 Movimentos** (2 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **5.5 Evolução e obtenção** (2 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **Controle do documento** (2 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **10. Estratégia TDD e critérios de aceitação** (2 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **13. Referências** (2 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md** (2 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md** (2 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- **5.1 Atributos** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **5.4 Encontros** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **6. Resumo de cobertura** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **Histórico de revisões** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **1. Finalidade e relação com a ISO 9001** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **9.1 Bounded contexts** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **9.2 SOLID e refatoração incremental** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **2.1 Incluído** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **2.2 Excluído** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- **3. Objetivos e critérios da qualidade** (1 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
 
 ## Relationships
 
-- [Engine Battle](Engine_Battle.md) (8 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (3 shared connections)
-- [Engine Battle 2](Engine_Battle_2.md) (1 shared connections)
-- [Engine Overworld 5](Engine_Overworld_5.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Data Pokemon](Data_Pokemon.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
+- [Gfx Pokemon](Gfx_Pokemon.md) (1 shared connections)
+- [Agents.Md](Agents.Md.md) (1 shared connections)
 - [Constants](Constants.md) (1 shared connections)
-- [Docs 11](Docs_11.md) (1 shared connections)
-- [Docs 7](Docs_7.md) (1 shared connections)
-- [Docs 9](Docs_9.md) (1 shared connections)
-- [Docs 10](Docs_10.md) (1 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
 - [Docs 6](Docs_6.md) (1 shared connections)
-- [Docs 12](Docs_12.md) (1 shared connections)
+- [Docs 4](Docs_4.md) (1 shared connections)
+- [Docs 3](Docs_3.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (100%)
+- EXTRACTED: 37 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

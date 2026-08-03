@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **text/CinnabarLab.asm** (7 connections) — `text/CinnabarLab.asm`
-- **_CinnabarLabFishingGuruText** (1 connections) — `text/CinnabarLab.asm`
-- **_CinnabarLabMeetingRoomSignText** (1 connections) — `text/CinnabarLab.asm`
-- **_CinnabarLabPhotoText** (1 connections) — `text/CinnabarLab.asm`
-- **_CinnabarLabRAndDSignText** (1 connections) — `text/CinnabarLab.asm`
-- **_CinnabarLabTestingRoomSignText** (1 connections) — `text/CinnabarLab.asm`
+- **text/RedsHouse1F.asm** (7 connections) — `text/RedsHouse1F.asm`
+- **_RedsHouse1FMomLookingGreatText** (1 connections) — `text/RedsHouse1F.asm`
+- **_RedsHouse1FMomWakeUpText** (1 connections) — `text/RedsHouse1F.asm`
+- **_RedsHouse1FMomYouShouldRestText** (1 connections) — `text/RedsHouse1F.asm`
+- **_RedsHouse1FTVStandByMeMovieText** (1 connections) — `text/RedsHouse1F.asm`
+- **_RedsHouse1FTVWrongSideText** (1 connections) — `text/RedsHouse1F.asm`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `text/CinnabarLab.asm`
+- `text/RedsHouse1F.asm`
 
 ## Audit Trail
 

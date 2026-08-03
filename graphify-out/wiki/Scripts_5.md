@@ -1,77 +1,63 @@
 # Scripts 5
 
-> 72 nodes · cohesion 0.05
+> 86 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **PlaySound** (130 connections) — `home/audio.asm`
-- **OverworldLoopLessDelay** (46 connections) — `home/overworld.asm`
-- **PlayDefaultMusic** (30 connections) — `home/audio.asm`
-- **PlayMusic** (26 connections) — `home/audio.asm`
-- **scripts/PokemonTower2F.asm** (14 connections) — `scripts/PokemonTower2F.asm`
-- **TryPushingBoulder** (13 connections) — `engine/overworld/push_boulder.asm`
-- **GetTileAndCoordsInFrontOfPlayer** (11 connections) — `engine/overworld/player_state.asm`
-- **home/audio.asm** (11 connections) — `home/audio.asm`
-- **ShakeElevator** (10 connections) — `engine/overworld/elevator.asm`
-- **PokemonTower2FDefeatedRivalScript** (10 connections) — `scripts/PokemonTower2F.asm`
-- **SSAnne2FDefaultScript** (10 connections) — `scripts/SSAnne2F.asm`
-- **PrintCardKeyText** (9 connections) — `engine/events/card_key.asm`
-- **engine/overworld/push_boulder.asm** (9 connections) — `engine/overworld/push_boulder.asm`
-- **CollisionCheckOnWater** (9 connections) — `home/overworld.asm`
-- **PewterPokecenterJigglypuffText** (9 connections) — `scripts/PewterPokecenter.asm`
-- **PokemonTower2FDefaultScript** (9 connections) — `scripts/PokemonTower2F.asm`
-- **HandleLedges** (8 connections) — `engine/overworld/ledges.asm`
-- **JoypadOverworld** (8 connections) — `home/overworld.asm`
-- **RunMapScript** (8 connections) — `home/overworld.asm`
-- **PlayPokedexRatingSfx** (7 connections) — `audio/pokedex_rating_sfx.asm`
-- **6.4 Musica contextual e batalha** (7 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **SafariZoneGameOver** (7 connections) — `engine/events/hidden_events/safari_game.asm`
-- **CheckForCollisionWhenPushingBoulder** (7 connections) — `engine/overworld/player_state.asm`
-- **engine/events/card_key.asm** (7 connections) — `engine/events/card_key.asm`
-- **CollisionCheckOnLand** (7 connections) — `home/overworld.asm`
-- *... and 47 more nodes in this community*
+- **Serial_TryEstablishingExternallyClockedConnection** (13 connections) — `home/serial.asm`
+- **scripts/MtMoonPokecenter.asm** (11 connections) — `scripts/MtMoonPokecenter.asm`
+- **scripts/CeladonPokecenter.asm** (8 connections) — `scripts/CeladonPokecenter.asm`
+- **scripts/CeruleanPokecenter.asm** (8 connections) — `scripts/CeruleanPokecenter.asm`
+- **scripts/CinnabarPokecenter.asm** (8 connections) — `scripts/CinnabarPokecenter.asm`
+- **scripts/FuchsiaPokecenter.asm** (8 connections) — `scripts/FuchsiaPokecenter.asm`
+- **scripts/IndigoPlateauLobby.asm** (8 connections) — `scripts/IndigoPlateauLobby.asm`
+- **scripts/LavenderPokecenter.asm** (8 connections) — `scripts/LavenderPokecenter.asm`
+- **scripts/PewterPokecenter.asm** (8 connections) — `scripts/PewterPokecenter.asm`
+- **scripts/RockTunnelPokecenter.asm** (8 connections) — `scripts/RockTunnelPokecenter.asm`
+- **scripts/SaffronPokecenter.asm** (8 connections) — `scripts/SaffronPokecenter.asm`
+- **scripts/VermilionPokecenter.asm** (8 connections) — `scripts/VermilionPokecenter.asm`
+- **scripts/ViridianPokecenter.asm** (8 connections) — `scripts/ViridianPokecenter.asm`
+- **IndigoPlateauLobby_Script** (5 connections) — `scripts/IndigoPlateauLobby.asm`
+- **wElite4Flags** (4 connections) — `ram/wram.asm`
+- **CeladonPokecenter_Script** (3 connections) — `scripts/CeladonPokecenter.asm`
+- **CeruleanPokecenter_Script** (3 connections) — `scripts/CeruleanPokecenter.asm`
+- **CinnabarPokecenter_Script** (3 connections) — `scripts/CinnabarPokecenter.asm`
+- **FuchsiaPokecenter_Script** (3 connections) — `scripts/FuchsiaPokecenter.asm`
+- **LavenderPokecenter_Script** (3 connections) — `scripts/LavenderPokecenter.asm`
+- **MtMoonPokecenter_Script** (3 connections) — `scripts/MtMoonPokecenter.asm`
+- **PewterPokecenter_Script** (3 connections) — `scripts/PewterPokecenter.asm`
+- **RockTunnelPokecenter_Script** (3 connections) — `scripts/RockTunnelPokecenter.asm`
+- **SaffronPokecenter_Script** (3 connections) — `scripts/SaffronPokecenter.asm`
+- **VermilionPokecenter_Script** (3 connections) — `scripts/VermilionPokecenter.asm`
+- *... and 61 more nodes in this community*
 
 ## Relationships
 
-- [Home 2](Home_2.md) (16 shared connections)
-- [Scripts 19](Scripts_19.md) (11 shared connections)
-- [Scripts 2](Scripts_2.md) (9 shared connections)
-- [Home](Home.md) (9 shared connections)
-- [Ram](Ram.md) (7 shared connections)
-- [Home 5](Home_5.md) (7 shared connections)
-- [Engine Overworld 3](Engine_Overworld_3.md) (6 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (5 shared connections)
-- [Scripts](Scripts.md) (5 shared connections)
-- [Scripts 4](Scripts_4.md) (3 shared connections)
-- [Scripts 7](Scripts_7.md) (3 shared connections)
-- [Ram 2](Ram_2.md) (3 shared connections)
+- [Scripts](Scripts.md) (12 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
 
 ## Source Files
 
-- `audio/play_battle_music.asm`
-- `audio/pokedex_rating_sfx.asm`
-- `data/tilesets/pair_collision_tile_ids.asm`
-- `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- `engine/events/card_key.asm`
-- `engine/events/hidden_events/bills_house_pc.asm`
-- `engine/events/hidden_events/safari_game.asm`
-- `engine/items/item_effects.asm`
-- `engine/overworld/elevator.asm`
-- `engine/overworld/ledges.asm`
-- `engine/overworld/player_state.asm`
-- `engine/overworld/push_boulder.asm`
-- `home/audio.asm`
-- `home/npc_movement.asm`
-- `home/overworld.asm`
+- `home/serial.asm`
 - `ram/wram.asm`
-- `scripts/OaksLab.asm`
-- `scripts/PalletTown.asm`
+- `scripts/CeladonPokecenter.asm`
+- `scripts/CeruleanPokecenter.asm`
+- `scripts/CinnabarPokecenter.asm`
+- `scripts/FuchsiaPokecenter.asm`
+- `scripts/IndigoPlateauLobby.asm`
+- `scripts/LavenderPokecenter.asm`
+- `scripts/MtMoonPokecenter.asm`
 - `scripts/PewterPokecenter.asm`
-- `scripts/PokemonTower2F.asm`
+- `scripts/RockTunnelPokecenter.asm`
+- `scripts/SaffronPokecenter.asm`
+- `scripts/VermilionPokecenter.asm`
+- `scripts/ViridianPokecenter.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 233 (100%)
+- EXTRACTED: 100 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

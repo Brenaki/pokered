@@ -1,57 +1,52 @@
 # Scripts 57
 
-> 29 nodes · cohesion 0.10
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts/CeruleanCity.asm** (34 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityDefaultScript** (15 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityRivalDefeatedScript** (12 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityRivalBattleScript** (8 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCity_Script** (4 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityFaceRivalScript** (4 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityRivalCleanupScript** (4 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityClearScripts** (3 connections) — `scripts/CeruleanCity.asm`
-- **GetPointerWithinSpriteStateData2** (2 connections) — `home/map_objects.asm`
-- **CeruleanCity_ScriptPointers** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityCoords1** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityCoords2** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityMovement1** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityMovement3** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityMovement4** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityRivalDefeatedText** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityRivalIWentToBillsText** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityRivalVictoryText** (2 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCity_TextPointers** (1 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityBikeShopSign** (1 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityCooltrainerF2Text** (1 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityCooltrainerMText** (1 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityGuardText** (1 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCityGymSign** (1 connections) — `scripts/CeruleanCity.asm`
-- **CeruleanCitySignText** (1 connections) — `scripts/CeruleanCity.asm`
+- **scripts/RocketHideoutB3F.asm** (31 connections) — `scripts/RocketHideoutB3F.asm`
+- **21.27 Mapa `RocketHideoutB3F`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **RocketHideoutB3F_Script** (5 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3FRocket1Text** (4 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3FRocket2Text** (4 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowTilePlayerMovement** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3TrainerHeader0** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3TrainerHeader1** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3TrainerHeaders** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3F_ScriptPointers** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3FRocket1AfterBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3FRocket1BattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3FRocket1EndBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3FRocket2AfterBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3FRocket2BattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideoutB3FRocket2EndBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement1** (1 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement10** (1 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement11** (1 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement12** (1 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement2** (1 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement3** (1 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement4** (1 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement5** (1 connections) — `scripts/RocketHideoutB3F.asm`
+- **RocketHideout3ArrowMovement6** (1 connections) — `scripts/RocketHideoutB3F.asm`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (5 shared connections)
-- [Scripts 5](Scripts_5.md) (5 shared connections)
-- [Home 5](Home_5.md) (4 shared connections)
-- [Scripts](Scripts.md) (3 shared connections)
-- [Scripts 7](Scripts_7.md) (3 shared connections)
-- [Scripts 19](Scripts_19.md) (2 shared connections)
-- [Scripts 29](Scripts_29.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
-- [Scripts 21](Scripts_21.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (2 shared connections)
+- [Scripts 4](Scripts_4.md) (2 shared connections)
+- [Scripts 14](Scripts_14.md) (2 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `home/map_objects.asm`
-- `scripts/CeruleanCity.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/RocketHideoutB3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (100%)
+- EXTRACTED: 45 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

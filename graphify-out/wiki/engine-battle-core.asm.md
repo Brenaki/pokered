@@ -8,8 +8,8 @@
 
 ### defines
 - CheckEnemyStatusConditions `EXTRACTED`
-- BattleRandom `EXTRACTED`
 - CheckPlayerStatusConditions `EXTRACTED`
+- BattleRandom `EXTRACTED`
 - EnemySendOutFirstMon `EXTRACTED`
 - PartyMenuOrRockOrRun `EXTRACTED`
 - DisplayBattleMenu `EXTRACTED`
@@ -17,16 +17,16 @@
 - MainInBattleLoop `EXTRACTED`
 - StartBattle `EXTRACTED`
 - FaintEnemyPokemon `EXTRACTED`
+- MoveHitTest `EXTRACTED`
 - EnemyCheckIfMirrorMoveEffect `EXTRACTED`
 - MirrorMoveCheck `EXTRACTED`
-- MoveHitTest `EXTRACTED`
 - TryRunningFromBattle `EXTRACTED`
 - DrawPlayerHUDAndHPBar `EXTRACTED`
 - InitBattleCommon `EXTRACTED`
 - ChooseNextMon `EXTRACTED`
+- CriticalHitTest `EXTRACTED`
 - DrawEnemyHUDAndHPBar `EXTRACTED`
 - SelectMenuItem `EXTRACTED`
-- SendOutMon `EXTRACTED`
 
 ### imports
 - engine/battle/used_move_text.asm `EXTRACTED`

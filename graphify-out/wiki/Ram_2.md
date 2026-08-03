@@ -1,57 +1,62 @@
 # Ram 2
 
-> 39 nodes · cohesion 0.21
+> 176 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **wChannelFlags1** (38 connections) — `ram/wram.asm`
-- **Audio1_PlaySound** (30 connections) — `audio/engine_1.asm`
-- **Audio2_PlaySound** (30 connections) — `audio/engine_2.asm`
-- **Audio3_PlaySound** (30 connections) — `audio/engine_3.asm`
-- **wChannelFlags2** (23 connections) — `ram/wram.asm`
-- **wChannelNoteDelayCounters** (17 connections) — `ram/wram.asm`
-- **Audio1_ApplyMusicAffects** (14 connections) — `audio/engine_1.asm`
-- **Audio2_ApplyMusicAffects** (14 connections) — `audio/engine_2.asm`
-- **Audio3_ApplyMusicAffects** (14 connections) — `audio/engine_3.asm`
-- **wChannelPitchSlideTargetFrequencyHighBytes** (14 connections) — `ram/wram.asm`
-- **wChannelPitchSlideTargetFrequencyLowBytes** (14 connections) — `ram/wram.asm`
-- **wChannelVibratoDelayCounters** (14 connections) — `ram/wram.asm`
-- **Audio1_InitPitchSlideVars** (12 connections) — `audio/engine_1.asm`
-- **Audio2_InitPitchSlideVars** (12 connections) — `audio/engine_2.asm`
-- **Audio3_InitPitchSlideVars** (12 connections) — `audio/engine_3.asm`
-- **Audio1_ApplyPitchSlide** (11 connections) — `audio/engine_1.asm`
-- **Audio2_ApplyPitchSlide** (11 connections) — `audio/engine_2.asm`
-- **Audio3_ApplyPitchSlide** (11 connections) — `audio/engine_3.asm`
-- **wChannelDutyCyclePatterns** (11 connections) — `ram/wram.asm`
-- **wChannelFrequencyLowBytes** (11 connections) — `ram/wram.asm`
-- **wChannelPitchSlideCurrentFrequencyFractionalPart** (11 connections) — `ram/wram.asm`
-- **wChannelPitchSlideCurrentFrequencyHighBytes** (11 connections) — `ram/wram.asm`
-- **wChannelPitchSlideCurrentFrequencyLowBytes** (11 connections) — `ram/wram.asm`
-- **wChannelPitchSlideFrequencySteps** (11 connections) — `ram/wram.asm`
-- **wChannelPitchSlideFrequencyStepsFractionalPart** (11 connections) — `ram/wram.asm`
-- *... and 14 more nodes in this community*
+- **Main Data [WRAM0]** (241 connections) — `ram/wram.asm`
+- **LoadMapHeader** (20 connections) — `home/overworld.asm`
+- **IsSpriteOrSignInFrontOfPlayer** (7 connections) — `home/overworld.asm`
+- **GetTileTwoStepsInFrontOfPlayer** (4 connections) — `engine/overworld/player_state.asm`
+- **wBagItems** (4 connections) — `ram/wram.asm`
+- **wSignCoords** (4 connections) — `ram/wram.asm`
+- **wSignTextIDs** (4 connections) — `ram/wram.asm`
+- **data/maps/map_header_pointers.asm** (3 connections) — `data/maps/map_header_pointers.asm`
+- **IsSpriteInFrontOfPlayer2** (3 connections) — `home/overworld.asm`
+- **wCurMapHeader** (3 connections) — `ram/wram.asm`
+- **wCurMapScriptPtr** (3 connections) — `ram/wram.asm`
+- **wEastConnectionHeader** (3 connections) — `ram/wram.asm`
+- **wGrassRate** (3 connections) — `ram/wram.asm`
+- **wLetterPrintingDelayFlags** (3 connections) — `ram/wram.asm`
+- **wLoreleisRoomCurScript** (3 connections) — `ram/wram.asm`
+- **wMapBackgroundTile** (3 connections) — `ram/wram.asm`
+- **wNorthConnectionHeader** (3 connections) — `ram/wram.asm`
+- **wNumHoFTeams** (3 connections) — `ram/wram.asm`
+- **wSouthConnectionHeader** (3 connections) — `ram/wram.asm`
+- **wTilesetTalkingOverTiles** (3 connections) — `ram/wram.asm`
+- **wWestConnectionHeader** (3 connections) — `ram/wram.asm`
+- **wYCoord** (3 connections) — `ram/wram.asm`
+- **MapHeaderPointers** (2 connections) — `data/maps/map_header_pointers.asm`
+- **MapSongBanks** (2 connections) — `data/maps/songs.asm`
+- **CopyMapConnectionHeader** (2 connections) — `home/overworld.asm`
+- *... and 151 more nodes in this community*
 
 ## Relationships
 
-- [Audio Engine 1.Asm](Audio_Engine_1.Asm.md) (10 shared connections)
-- [Audio Engine 1.Asm 2](Audio_Engine_1.Asm_2.md) (6 shared connections)
-- [Ram 3](Ram_3.md) (6 shared connections)
-- [Audio Engine 2.Asm](Audio_Engine_2.Asm.md) (4 shared connections)
-- [Audio Engine 3.Asm](Audio_Engine_3.Asm.md) (4 shared connections)
-- [Audio Headers 3](Audio_Headers_3.md) (1 shared connections)
-- [Audio Headers](Audio_Headers.md) (1 shared connections)
-- [Audio Headers 2](Audio_Headers_2.md) (1 shared connections)
+- [Home](Home.md) (17 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (10 shared connections)
+- [Engine Overworld 3](Engine_Overworld_3.md) (6 shared connections)
+- [Engine Menus](Engine_Menus.md) (5 shared connections)
+- [Scripts 2](Scripts_2.md) (5 shared connections)
+- [Scripts 3](Scripts_3.md) (4 shared connections)
+- [Ram 5](Ram_5.md) (4 shared connections)
+- [Scripts 10](Scripts_10.md) (3 shared connections)
+- [Ram 7](Ram_7.md) (2 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
+- [Engine Menus 2](Engine_Menus_2.md) (2 shared connections)
+- [Engine Battle 5](Engine_Battle_5.md) (2 shared connections)
 
 ## Source Files
 
-- `audio/engine_1.asm`
-- `audio/engine_2.asm`
-- `audio/engine_3.asm`
+- `data/maps/map_header_pointers.asm`
+- `data/maps/songs.asm`
+- `engine/overworld/player_state.asm`
+- `home/overworld.asm`
 - `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 186 (100%)
+- EXTRACTED: 265 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

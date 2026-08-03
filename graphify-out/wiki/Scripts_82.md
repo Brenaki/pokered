@@ -1,47 +1,44 @@
 # Scripts 82
 
-> 20 nodes · cohesion 0.17
+> 16 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **scripts/CeladonMartRoof.asm** (22 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofScript_GiveDrinkToGirl** (21 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlText** (6 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofScript_GetDrinksInBag** (6 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoof_Script** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofDrinkList** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlGiveHerWhichDrinkText** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlImNotThirstyText** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlNoRoomText** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlReceivedTM13Text** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlReceivedTM48Text** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlReceivedTM49Text** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlYayFreshWaterText** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlYayLemonadeText** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofLittleGirlYaySodaPopText** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **RemoveItemByIDBank12** (2 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoof_TextPointers** (1 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofCurrentFloorSignText** (1 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofSuperNerdText** (1 connections) — `scripts/CeladonMartRoof.asm`
-- **CeladonMartRoofVendingMachineText** (1 connections) — `scripts/CeladonMartRoof.asm`
+- **scripts/PokemonMansion1F.asm** (17 connections) — `scripts/PokemonMansion1F.asm`
+- **PokemonMansion1F_Script** (6 connections) — `scripts/PokemonMansion1F.asm`
+- **Mansion1CheckReplaceSwitchDoorBlocks** (5 connections) — `scripts/PokemonMansion1F.asm`
+- **21.13 Mapa `PokemonMansion1F`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **PokemonMansion1FScientistText** (4 connections) — `scripts/PokemonMansion1F.asm`
+- **Mansion1LoadHorizontalGateBlock** (3 connections) — `scripts/PokemonMansion1F.asm`
+- **Mansion1ReplaceBlock** (3 connections) — `scripts/PokemonMansion1F.asm`
+- **Mansion1LoadEmptyFloorTileBlock** (2 connections) — `scripts/PokemonMansion1F.asm`
+- **Mansion1Script_Switches** (2 connections) — `scripts/PokemonMansion1F.asm`
+- **Mansion1TrainerHeader0** (2 connections) — `scripts/PokemonMansion1F.asm`
+- **Mansion1TrainerHeaders** (2 connections) — `scripts/PokemonMansion1F.asm`
+- **PokemonMansion1F_ScriptPointers** (2 connections) — `scripts/PokemonMansion1F.asm`
+- **PokemonMansion1FScientistAfterBattleText** (2 connections) — `scripts/PokemonMansion1F.asm`
+- **PokemonMansion1FScientistBattleText** (2 connections) — `scripts/PokemonMansion1F.asm`
+- **PokemonMansion1FScientistEndBattleText** (2 connections) — `scripts/PokemonMansion1F.asm`
+- **PokemonMansion1F_TextPointers** (1 connections) — `scripts/PokemonMansion1F.asm`
 
 ## Relationships
 
-- [Bank WRAM0](Bank_WRAM0.md) (5 shared connections)
-- [Scripts](Scripts.md) (5 shared connections)
-- [Home](Home.md) (3 shared connections)
+- [Scripts 9](Scripts_9.md) (2 shared connections)
+- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (1 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 8](Scripts_8.md) (1 shared connections)
-- [Ram](Ram.md) (1 shared connections)
-- [Engine Movie 2](Engine_Movie_2.md) (1 shared connections)
+- [Scripts 14](Scripts_14.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonMartRoof.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/PokemonMansion1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

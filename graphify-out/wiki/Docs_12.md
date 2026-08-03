@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **18. Fuga, troca, desmaio e encerramento** (5 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **18.1 Fuga de batalha selvagem** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **18.2 Troca** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **18.3 Desmaio** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **18.4 Experiência e recompensas** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **8. Seleção, ordem e execução de movimentos** (5 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **8.3 Ordem das ações** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **8.1 Seleção do jogador** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **8.2 Seleção do adversário** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **8.4 PP: quantidade de usos** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
 
 ## Relationships
 
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Engine Battle 2](Engine_Battle_2.md) (1 shared connections)
 
 ## Source Files
 

@@ -2,7 +2,7 @@
 
 > God node · 241 connections · `ram/wram.asm`
 
-**Community:** [Ram](Ram.md)
+**Community:** [Ram 2](Ram_2.md)
 
 ## Connections by Relation
 

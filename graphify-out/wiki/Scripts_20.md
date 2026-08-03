@@ -1,58 +1,58 @@
 # Scripts 20
 
-> 49 nodes · cohesion 0.06
+> 55 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **scripts/OaksLab.asm** (71 connections) — `scripts/OaksLab.asm`
-- **OaksLabMonChoiceMenu** (13 connections) — `scripts/OaksLab.asm`
-- **OaksLab_TextPointers2** (11 connections) — `scripts/OaksLab.asm`
-- **OaksLabShowPokeBallPokemonScript** (10 connections) — `scripts/OaksLab.asm`
-- **OaksLabSelectedPokeBallScript** (8 connections) — `scripts/OaksLab.asm`
-- **OaksLabRivalStartBattleScript** (7 connections) — `scripts/OaksLab.asm`
-- **OaksLabLastMonScript** (6 connections) — `scripts/OaksLab.asm`
-- **OaksLab_Script** (4 connections) — `scripts/OaksLab.asm`
-- **OaksLabGirlText** (4 connections) — `scripts/OaksLab.asm`
-- **OaksLabPokedexText** (4 connections) — `scripts/OaksLab.asm`
-- **OaksLabRivalText** (4 connections) — `scripts/OaksLab.asm`
-- **OaksLabScientistText** (4 connections) — `scripts/OaksLab.asm`
-- **OaksLabCharmanderPokeBallText** (3 connections) — `scripts/OaksLab.asm`
-- **OaksLabLoadTextPointers2Script** (3 connections) — `scripts/OaksLab.asm`
-- **OaksLabMonChoiceEnd** (3 connections) — `scripts/OaksLab.asm`
-- **OaksLabOakBePatientText** (3 connections) — `scripts/OaksLab.asm`
-- **OaksLabOakChooseMonText** (3 connections) — `scripts/OaksLab.asm`
-- **OaksLabOakDontGoAwayYetText** (3 connections) — `scripts/OaksLab.asm`
-- **OaksLabPlayerForcedToWalkBackScript** (3 connections) — `scripts/OaksLab.asm`
-- **OaksLabRivalFedUpWithWaitingText** (3 connections) — `scripts/OaksLab.asm`
-- **OaksLabRivalIllTakeThisOneText** (3 connections) — `scripts/OaksLab.asm`
-- **OaksLabRivalIllTakeYouOnText** (3 connections) — `scripts/OaksLab.asm`
-- **OaksLabRivalReceivedMonText** (3 connections) — `scripts/OaksLab.asm`
-- **OaksLabRivalSmellYouLaterText** (3 connections) — `scripts/OaksLab.asm`
-- **OaksLabRivalWhatAboutMeText** (3 connections) — `scripts/OaksLab.asm`
-- *... and 24 more nodes in this community*
+- **scripts/SilphCo6F.asm** (29 connections) — `scripts/SilphCo6F.asm`
+- **scripts/SilphCo4F.asm** (25 connections) — `scripts/SilphCo4F.asm`
+- **21.58 Mapa `SilphCo4F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **21.60 Mapa `SilphCo6F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **SilphCo6FBeatGiovanniPrintDEOrPrintHLScript** (9 connections) — `scripts/SilphCo6F.asm`
+- **SilphCo4F_Script** (6 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4F_SetCardKeyDoorYScript** (6 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FGateCallbackScript** (6 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo6F_Script** (6 connections) — `scripts/SilphCo6F.asm`
+- **SilphCo6F_GateCallbackScript** (5 connections) — `scripts/SilphCo6F.asm`
+- **SilphCo4FRocket1Text** (4 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FRocket2Text** (4 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FScientistText** (4 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo6FRocket1Text** (4 connections) — `scripts/SilphCo6F.asm`
+- **SilphCo6FRocket2Text** (4 connections) — `scripts/SilphCo6F.asm`
+- **SilphCo6FScientistText** (4 connections) — `scripts/SilphCo6F.asm`
+- **SilphCo4FSilphWorkerMText** (3 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo5FSilphWorkerMText** (3 connections) — `scripts/SilphCo5F.asm`
+- **SilphCo6FSilphWorkerF1Text** (3 connections) — `scripts/SilphCo6F.asm`
+- **SilphCo6FSilphWorkerF2Text** (3 connections) — `scripts/SilphCo6F.asm`
+- **SilphCo6FSilphWorkerM1Text** (3 connections) — `scripts/SilphCo6F.asm`
+- **SilphCo6FSilphWorkerM2Text** (3 connections) — `scripts/SilphCo6F.asm`
+- **SilphCo6FSilphWorkerM3Text** (3 connections) — `scripts/SilphCo6F.asm`
+- **SilphCo4F_ScriptPointers** (2 connections) — `scripts/SilphCo4F.asm`
+- **SilphCo4FRocket1AfterBattleText** (2 connections) — `scripts/SilphCo4F.asm`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (35 shared connections)
-- [Home 5](Home_5.md) (8 shared connections)
-- [Scripts 2](Scripts_2.md) (8 shared connections)
-- [Scripts 19](Scripts_19.md) (3 shared connections)
-- [Home](Home.md) (3 shared connections)
-- [Engine Overworld 3](Engine_Overworld_3.md) (2 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
-- [Scripts 7](Scripts_7.md) (2 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Engine Debug 2](Engine_Debug_2.md) (1 shared connections)
-- [Scripts 29](Scripts_29.md) (1 shared connections)
-- [Home 8](Home_8.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (13 shared connections)
+- [Scripts 14](Scripts_14.md) (6 shared connections)
+- [Scripts 33](Scripts_33.md) (2 shared connections)
+- [Scripts](Scripts.md) (2 shared connections)
+- [Scripts 9](Scripts_9.md) (2 shared connections)
+- [Scripts 65](Scripts_65.md) (1 shared connections)
+- [Ram 9](Ram_9.md) (1 shared connections)
+- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/OaksLab.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/SilphCo4F.asm`
+- `scripts/SilphCo5F.asm`
+- `scripts/SilphCo6F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 145 (100%)
+- EXTRACTED: 120 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

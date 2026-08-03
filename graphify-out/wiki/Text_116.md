@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **text/BrunosRoom.asm** (6 connections) — `text/BrunosRoom.asm`
-- **_BrunoAfterBattleText** (1 connections) — `text/BrunosRoom.asm`
-- **_BrunoBeforeBattleText** (1 connections) — `text/BrunosRoom.asm`
-- **_BrunoEndBattleText** (1 connections) — `text/BrunosRoom.asm`
-- **_BrunosRoomBrunoDontRunAwayText** (1 connections) — `text/BrunosRoom.asm`
+- **text/Route23.asm** (6 connections) — `text/Route23.asm`
+- **_Route23GoRightAheadText** (1 connections) — `text/Route23.asm`
+- **_Route23OhThatIsTheBadgeText** (1 connections) — `text/Route23.asm`
+- **_Route23VictoryRoadGateSignText** (1 connections) — `text/Route23.asm`
+- **_Route23YouDontHaveTheBadgeYetText** (1 connections) — `text/Route23.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `text/BrunosRoom.asm`
+- `text/Route23.asm`
 
 ## Audit Trail
 

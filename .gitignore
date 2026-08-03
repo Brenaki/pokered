@@ -22,6 +22,13 @@
 *.pyc
 *$py.class
 
+# battle characterization environment and artifacts
+.venv/
+.pytest_cache/
+.hypothesis/
+.coverage
+rewrite/battle/build/
+
 # save game files
 *.sgm
 *.sav

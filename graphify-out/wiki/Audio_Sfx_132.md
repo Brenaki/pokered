@@ -1,12 +1,13 @@
 # Audio Sfx 132
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **audio/sfx/dex_page_added.asm** (4 connections) — `audio/sfx/dex_page_added.asm`
-- **SFX_Dex_Page_Added_Ch5** (1 connections) — `audio/sfx/dex_page_added.asm`
-- **SFX_Dex_Page_Added_Ch6** (1 connections) — `audio/sfx/dex_page_added.asm`
+- **audio/sfx/psybeam.asm** (5 connections) — `audio/sfx/psybeam.asm`
+- **SFX_Psybeam_Ch5** (1 connections) — `audio/sfx/psybeam.asm`
+- **SFX_Psybeam_Ch6** (1 connections) — `audio/sfx/psybeam.asm`
+- **SFX_Psybeam_Ch8** (1 connections) — `audio/sfx/psybeam.asm`
 
 ## Relationships
 
@@ -14,11 +15,11 @@
 
 ## Source Files
 
-- `audio/sfx/dex_page_added.asm`
+- `audio/sfx/psybeam.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -25,7 +25,7 @@
 ## Relationships
 
 - [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
-- [Home](Home.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
 
 ## Source Files
 

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **text/PokemonTower1F.asm** (7 connections) — `text/PokemonTower1F.asm`
-- **_PokemonTower1FBaldingGuyText** (1 connections) — `text/PokemonTower1F.asm`
-- **_PokemonTower1FChannelerText** (1 connections) — `text/PokemonTower1F.asm`
-- **_PokemonTower1FGirlText** (1 connections) — `text/PokemonTower1F.asm`
-- **_PokemonTower1FMiddleAgedWomanText** (1 connections) — `text/PokemonTower1F.asm`
-- **_PokemonTower1FReceptionistText** (1 connections) — `text/PokemonTower1F.asm`
+- **text/SafariZoneNorth.asm** (7 connections) — `text/SafariZoneNorth.asm`
+- **_SafariZoneNorthRestHouseSignText** (1 connections) — `text/SafariZoneNorth.asm`
+- **_SafariZoneNorthSignText** (1 connections) — `text/SafariZoneNorth.asm`
+- **_SafariZoneNorthTrainerTips1Text** (1 connections) — `text/SafariZoneNorth.asm`
+- **_SafariZoneNorthTrainerTips2Text** (1 connections) — `text/SafariZoneNorth.asm`
+- **_SafariZoneNorthTrainerTips3Text** (1 connections) — `text/SafariZoneNorth.asm`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `text/PokemonTower1F.asm`
+- `text/SafariZoneNorth.asm`
 
 ## Audit Trail
 

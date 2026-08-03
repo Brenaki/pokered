@@ -1,19 +1,18 @@
 # Text 78
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **text/SSAnneBow.asm** (11 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowCooltrainerMText** (1 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowSailor1Text** (1 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowSailor2AfterBattleText** (1 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowSailor2BattleText** (1 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowSailor2EndBattleText** (1 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowSailor3AfterBattleText** (1 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowSailor3BattleText** (1 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowSailor3EndBattleText** (1 connections) — `text/SSAnneBow.asm`
-- **_SSAnneBowSuperNerdText** (1 connections) — `text/SSAnneBow.asm`
+- **text/BillsHouse.asm** (10 connections) — `text/BillsHouse.asm`
+- **_BillsHouseBillCheckOutMyRarePokemonText** (1 connections) — `text/BillsHouse.asm`
+- **_BillsHouseBillImNotAPokemonText** (1 connections) — `text/BillsHouse.asm`
+- **_BillsHouseBillNoYouGottaHelpText** (1 connections) — `text/BillsHouse.asm`
+- **_BillsHouseBillThankYouText** (1 connections) — `text/BillsHouse.asm`
+- **_BillsHouseBillUseSeparationSystemText** (1 connections) — `text/BillsHouse.asm`
+- **_BillsHouseBillWhyDontYouGoInsteadOfMeText** (1 connections) — `text/BillsHouse.asm`
+- **_SSTicketNoRoomText** (1 connections) — `text/BillsHouse.asm`
+- **_SSTicketReceivedText** (1 connections) — `text/BillsHouse.asm`
 
 ## Relationships
 
@@ -21,11 +20,11 @@
 
 ## Source Files
 
-- `text/SSAnneBow.asm`
+- `text/BillsHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

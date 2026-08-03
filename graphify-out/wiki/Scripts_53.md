@@ -1,53 +1,57 @@
 # Scripts 53
 
-> 29 nodes · cohesion 0.09
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **scripts/RocketHideoutB3F.asm** (31 connections) — `scripts/RocketHideoutB3F.asm`
-- **21.27 Mapa `RocketHideoutB3F`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **RocketHideoutB3F_Script** (5 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket1Text** (4 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket2Text** (4 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowTilePlayerMovement** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3TrainerHeader0** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3TrainerHeader1** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3TrainerHeaders** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3F_ScriptPointers** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket1AfterBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket1BattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket1EndBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket2AfterBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket2BattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideoutB3FRocket2EndBattleText** (2 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement1** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement10** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement11** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement12** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement2** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement3** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement4** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement5** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- **RocketHideout3ArrowMovement6** (1 connections) — `scripts/RocketHideoutB3F.asm`
-- *... and 4 more nodes in this community*
+- **scripts/Route23.asm** (32 connections) — `scripts/Route23.asm`
+- **Route23CheckForBadgeScript** (15 connections) — `scripts/Route23.asm`
+- **BadgeTextPointers** (9 connections) — `scripts/Route23.asm`
+- **Route23DefaultScript** (6 connections) — `scripts/Route23.asm`
+- **Route23_Script** (5 connections) — `scripts/Route23.asm`
+- **Route23CopyBadgeTextScript** (5 connections) — `scripts/Route23.asm`
+- **Route23YouDontHaveTheBadgeYetText** (5 connections) — `scripts/Route23.asm`
+- **Route23MovePlayerDownScript** (4 connections) — `scripts/Route23.asm`
+- **Route23SetVictoryRoadBoulders** (4 connections) — `scripts/Route23.asm`
+- **Route23Guard1Text** (3 connections) — `scripts/Route23.asm`
+- **Route23Guard2Text** (3 connections) — `scripts/Route23.asm`
+- **Route23Guard3Text** (3 connections) — `scripts/Route23.asm`
+- **Route23Guard4Text** (3 connections) — `scripts/Route23.asm`
+- **Route23Guard5Text** (3 connections) — `scripts/Route23.asm`
+- **Route23OhThatIsTheBadgeText** (3 connections) — `scripts/Route23.asm`
+- **Route23PrintOhThatsTheBadgeTextScript** (3 connections) — `scripts/Route23.asm`
+- **Route23Swimmer1Text** (3 connections) — `scripts/Route23.asm`
+- **Route23Swimmer2Text** (3 connections) — `scripts/Route23.asm`
+- **CascadeBadgeText** (2 connections) — `scripts/Route23.asm`
+- **EarthBadgeText** (2 connections) — `scripts/Route23.asm`
+- **MarshBadgeText** (2 connections) — `scripts/Route23.asm`
+- **RainbowBadgeText** (2 connections) — `scripts/Route23.asm`
+- **Route23_ScriptPointers** (2 connections) — `scripts/Route23.asm`
+- **Route23GuardsYCoords** (2 connections) — `scripts/Route23.asm`
+- **Route23PlayerMovingScript** (2 connections) — `scripts/Route23.asm`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (2 shared connections)
-- [Home 8](Home_8.md) (2 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Engine Overworld 3](Engine_Overworld_3.md) (1 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (8 shared connections)
+- [Engine Battle](Engine_Battle.md) (3 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 3](Scripts_3.md) (2 shared connections)
+- [Scripts 8](Scripts_8.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 10](Scripts_10.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Scripts 13](Scripts_13.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/RocketHideoutB3F.asm`
+- `scripts/Route23.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
+- EXTRACTED: 76 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

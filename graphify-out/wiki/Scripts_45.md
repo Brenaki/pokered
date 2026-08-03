@@ -1,51 +1,55 @@
 # Scripts 45
 
-> 32 nodes · cohesion 0.10
+> 34 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **scripts/SSAnne2FRooms.asm** (33 connections) — `scripts/SSAnne2FRooms.asm`
-- **21.49 Mapa `SSAnne2FRooms`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **SSAnne2FRooms_Script** (4 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsCooltrainerFText** (4 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsFisherText** (4 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGentleman1Text** (4 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGentleman2Text** (4 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsBeautyText** (3 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsBrunetteGirlText** (3 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGentleman4Text** (3 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGentleman5Text** (3 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGrampsText** (3 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsLittleBoyText** (3 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRooms_ScriptPointers** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsCooltrainerFAfterBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsCooltrainerFBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsCooltrainerFEndBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsFisherAfterBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsFisherBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsFisherEndBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGentleman1AfterBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGentleman1BattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGentleman1EndBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGentleman2AfterBattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- **SSAnne2FRoomsGentleman2BattleText** (2 connections) — `scripts/SSAnne2FRooms.asm`
-- *... and 7 more nodes in this community*
+- **scripts/PokemonTower7F.asm** (34 connections) — `scripts/PokemonTower7F.asm`
+- **21.21 Mapa `PokemonTower7F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **wToggleableObjectList** (7 connections) — `ram/wram.asm`
+- **PokemonTower7FEndBattleScript** (7 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7F_Script** (5 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocketLeaveMovementScript** (5 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FHideNPCScript** (4 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket1Text** (4 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket2Text** (4 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket3Text** (4 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FWarpToMrFujiHouseScript** (4 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7F_ScriptPointers** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FNPCCoordMovementTable** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket1AfterBattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket1BattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket1EndBattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket2AfterBattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket2BattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket2EndBattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket3AfterBattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket3BattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FRocket3EndBattleText** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7FSetDefaultScript** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7TrainerHeader0** (2 connections) — `scripts/PokemonTower7F.asm`
+- **PokemonTower7TrainerHeader1** (2 connections) — `scripts/PokemonTower7F.asm`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (16 shared connections)
-- [Home 8](Home_8.md) (4 shared connections)
-- [Scripts 76](Scripts_76.md) (1 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
+- [Scripts 13](Scripts_13.md) (4 shared connections)
+- [Scripts 4](Scripts_4.md) (3 shared connections)
+- [Scripts 14](Scripts_14.md) (3 shared connections)
+- [Scripts 33](Scripts_33.md) (2 shared connections)
+- [Scripts 3](Scripts_3.md) (2 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 10](Scripts_10.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/SSAnne2FRooms.asm`
+- `ram/wram.asm`
+- `scripts/PokemonTower7F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 70 (100%)
+- EXTRACTED: 65 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

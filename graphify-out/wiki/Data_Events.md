@@ -1,67 +1,49 @@
 # Data Events
 
-> 27 nodes · cohesion 0.10
+> 14 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **data/events** (11 connections)
-- **engine/events/hidden_items.asm** (11 connections) — `engine/events/hidden_items.asm`
-- **FoundHiddenItemText** (10 connections) — `engine/events/hidden_items.asm`
-- **CheckForHiddenEvent** (8 connections) — `engine/overworld/hidden_events.asm`
-- **HiddenItems** (7 connections) — `engine/events/hidden_items.asm`
-- **HiddenItemNear** (7 connections) — `engine/items/itemfinder.asm`
-- **engine/overworld/hidden_events.asm** (6 connections) — `engine/overworld/hidden_events.asm`
+- **8.8 Dialogo, servicos e eventos** (19 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **data/events/prizes.asm** (12 connections) — `data/events/prizes.asm`
+- **PrizeDifferentMenuPtrs** (8 connections) — `data/events/prizes.asm`
 - **data/events/trades.asm** (5 connections) — `data/events/trades.asm`
-- **wObtainedHiddenItemsFlags** (5 connections) — `ram/wram.asm`
-- **data/events/hidden_events.asm** (4 connections) — `data/events/hidden_events.asm`
-- **engine/items/itemfinder.asm** (4 connections) — `engine/items/itemfinder.asm`
-- **HiddenItemCoords** (3 connections) — `data/events/hidden_item_coords.asm`
-- **FindHiddenItemOrCoinsIndex** (3 connections) — `engine/events/hidden_items.asm`
-- **data/events/card_key_maps.asm** (3 connections) — `data/events/card_key_maps.asm`
-- **data/events/hidden_coins.asm** (3 connections) — `data/events/hidden_coins.asm`
-- **data/events/hidden_item_coords.asm** (3 connections) — `data/events/hidden_item_coords.asm`
-- **SilphCoMapList** (2 connections) — `data/events/card_key_maps.asm`
-- **HiddenCoinCoords** (2 connections) — `data/events/hidden_coins.asm`
-- **HiddenEventMaps** (2 connections) — `data/events/hidden_events.asm`
-- **HiddenEventPointers** (2 connections) — `data/events/hidden_events.asm`
+- **engine/overworld/daycare_exp.asm** (4 connections) — `engine/overworld/daycare_exp.asm`
+- **NoThanksText** (2 connections) — `data/events/prizes.asm`
+- **PrizeMenuMon1Cost** (2 connections) — `data/events/prizes.asm`
+- **PrizeMenuMon1Entries** (2 connections) — `data/events/prizes.asm`
+- **PrizeMenuMon2Cost** (2 connections) — `data/events/prizes.asm`
+- **PrizeMenuMon2Entries** (2 connections) — `data/events/prizes.asm`
+- **PrizeMenuTMsCost** (2 connections) — `data/events/prizes.asm`
+- **PrizeMenuTMsEntries** (2 connections) — `data/events/prizes.asm`
 - **TradeMons** (2 connections) — `data/events/trades.asm`
-- **HiddenItemBagFullText** (2 connections) — `engine/events/hidden_items.asm`
-- **Sub5ClampTo0** (2 connections) — `engine/items/itemfinder.asm`
-- **CheckIfCoordsInFrontOfPlayerMatch** (2 connections) — `engine/overworld/hidden_events.asm`
-- **IsInRestOfArray** (2 connections) — `home/array2.asm`
-- *... and 2 more nodes in this community*
+- **IncrementDayCareMonExp** (2 connections) — `engine/overworld/daycare_exp.asm`
 
 ## Relationships
 
-- [Bank WRAM0](Bank_WRAM0.md) (4 shared connections)
-- [Scripts](Scripts.md) (4 shared connections)
-- [Scripts 8](Scripts_8.md) (2 shared connections)
-- [Ram](Ram.md) (2 shared connections)
-- [Engine Events 5](Engine_Events_5.md) (1 shared connections)
-- [Data Events 2](Data_Events_2.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (3 shared connections)
+- [Data Items](Data_Items.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Engine Events 10](Engine_Events_10.md) (1 shared connections)
 - [Engine Events 2](Engine_Events_2.md) (1 shared connections)
-- [Engine Slots](Engine_Slots.md) (1 shared connections)
-- [Engine Pokemon 2](Engine_Pokemon_2.md) (1 shared connections)
-- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Bank HRAM](Bank_HRAM.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Engine Events 8](Engine_Events_8.md) (1 shared connections)
+- [Bank ROM0](Bank_ROM0.md) (1 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Scripts 83](Scripts_83.md) (1 shared connections)
+- [Scripts 7](Scripts_7.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `data/events/card_key_maps.asm`
-- `data/events/hidden_coins.asm`
-- `data/events/hidden_events.asm`
-- `data/events/hidden_item_coords.asm`
+- `data/events/prizes.asm`
 - `data/events/trades.asm`
-- `engine/events/hidden_items.asm`
-- `engine/items/itemfinder.asm`
-- `engine/overworld/hidden_events.asm`
-- `home/array2.asm`
-- `ram/wram.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `engine/overworld/daycare_exp.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,44 +1,48 @@
 # Engine Events 8
 
-> 17 nodes · cohesion 0.24
+> 17 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **engine/events/hidden_events/cinnabar_gym_quiz.asm** (18 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarGymQuiz_AskQuestion** (12 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarQuizQuestions** (8 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarGymQuiz** (6 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarGymQuizCorrectText** (6 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **UpdateCinnabarGymGateTileBlocks_** (6 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarGymGateFlagAction** (4 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarGymGateCoords** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarGymQuizIncorrectText** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarGymQuizIntroText** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarQuizQuestionsText1** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarQuizQuestionsText2** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarQuizQuestionsText3** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarQuizQuestionsText4** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarQuizQuestionsText5** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **CinnabarQuizQuestionsText6** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
-- **PrintCinnabarQuiz** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **HandlePrizeChoice** (21 connections) — `engine/events/prize_menu.asm`
+- **engine/events/prize_menu.asm** (20 connections) — `engine/events/prize_menu.asm`
+- **CeladonPrizeMenu** (14 connections) — `engine/events/prize_menu.asm`
+- **data/events/prize_mon_levels.asm** (4 connections) — `data/events/prize_mon_levels.asm`
+- **GetPrizeMonLevel** (3 connections) — `engine/events/prize_menu.asm`
+- **LoadCoinsToSubtract** (3 connections) — `engine/events/prize_menu.asm`
+- **PrizeMonLevelDictionary** (2 connections) — `data/events/prize_mon_levels.asm`
+- **ExchangeCoinsForPrizesText** (2 connections) — `engine/events/prize_menu.asm`
+- **OhFineThenText** (2 connections) — `engine/events/prize_menu.asm`
+- **PrizeRoomBagIsFullText** (2 connections) — `engine/events/prize_menu.asm`
+- **RequireCoinCaseText** (2 connections) — `engine/events/prize_menu.asm`
+- **SorryNeedMoreCoinsText** (2 connections) — `engine/events/prize_menu.asm`
+- **SoYouWantPrizeText** (2 connections) — `engine/events/prize_menu.asm`
+- **WhichPrizeText** (2 connections) — `engine/events/prize_menu.asm`
+- **TextScript_GameCornerPrizeMenu** (2 connections) — `home/map_objects.asm`
+- **HereYouGoText** (1 connections) — `engine/events/prize_menu.asm`
+- **UnknownPrizeData** (1 connections) — `engine/events/prize_menu.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (7 shared connections)
-- [Scripts 5](Scripts_5.md) (2 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
-- [Scripts 19](Scripts_19.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Engine Overworld 8](Engine_Overworld_8.md) (1 shared connections)
-- [Bank HRAM](Bank_HRAM.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (5 shared connections)
+- [Ram 8](Ram_8.md) (4 shared connections)
+- [Engine Menus](Engine_Menus.md) (4 shared connections)
+- [Scripts 46](Scripts_46.md) (4 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (3 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
+- [Scripts 7](Scripts_7.md) (1 shared connections)
+- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
+- [Data Events](Data_Events.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- `data/events/prize_mon_levels.asm`
+- `engine/events/prize_menu.asm`
+- `home/map_objects.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 52 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

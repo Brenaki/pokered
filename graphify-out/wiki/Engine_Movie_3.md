@@ -1,15 +1,12 @@
 # Engine Movie 3
 
-> 42 nodes · cohesion 0.08
+> 39 nodes · cohesion 0.08
 
 ## Key Concepts
 
 - **engine/movie/intro.asm** (35 connections) — `engine/movie/intro.asm`
 - **PlayIntroScene** (16 connections) — `engine/movie/intro.asm`
-- **PlayShootingStar** (15 connections) — `engine/movie/intro.asm`
 - **LoadIntroGraphics** (12 connections) — `engine/movie/intro.asm`
-- **CheckForUserInterruption** (8 connections) — `home/overworld.asm`
-- **PlayIntro** (7 connections) — `engine/movie/intro.asm`
 - **IntroDrawBlackBars** (5 connections) — `engine/movie/intro.asm`
 - **AnimateIntroNidorino** (4 connections) — `engine/movie/intro.asm`
 - **FightIntroFrontMon** (4 connections) — `engine/movie/intro.asm`
@@ -29,29 +26,37 @@
 - **IntroCopyTiles** (2 connections) — `engine/movie/intro.asm`
 - **IntroNidorinoAnimation1** (2 connections) — `engine/movie/intro.asm`
 - **IntroNidorinoAnimation2** (2 connections) — `engine/movie/intro.asm`
-- *... and 17 more nodes in this community*
+- **IntroNidorinoAnimation3** (2 connections) — `engine/movie/intro.asm`
+- **IntroNidorinoAnimation4** (2 connections) — `engine/movie/intro.asm`
+- **IntroNidorinoAnimation5** (2 connections) — `engine/movie/intro.asm`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Home](Home.md) (9 shared connections)
-- [Engine Movie 2](Engine_Movie_2.md) (5 shared connections)
-- [Engine Battle 8](Engine_Battle_8.md) (3 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (3 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (2 shared connections)
-- [Scripts 5](Scripts_5.md) (2 shared connections)
-- [Home 6](Home_6.md) (1 shared connections)
-- [Engine Movie 4](Engine_Movie_4.md) (1 shared connections)
-- [Engine Movie](Engine_Movie.md) (1 shared connections)
-- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (6 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (4 shared connections)
+- [Engine Battle 7](Engine_Battle_7.md) (2 shared connections)
+- [Engine Items 2](Engine_Items_2.md) (2 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Engine Movie 2](Engine_Movie_2.md) (1 shared connections)
+- [Engine Battle 12](Engine_Battle_12.md) (1 shared connections)
 
 ## Source Files
 
 - `engine/movie/intro.asm`
-- `home/overworld.asm`
+- `gfx/intro/blue_jigglypuff_1.2bpp`
+- `gfx/intro/blue_jigglypuff_2.2bpp`
+- `gfx/intro/blue_jigglypuff_3.2bpp`
+- `gfx/intro/gengar.2bpp`
+- `gfx/intro/red_nidorino_1.2bpp`
+- `gfx/intro/red_nidorino_2.2bpp`
+- `gfx/intro/red_nidorino_3.2bpp`
+- `gfx/splash/gamefreak_logo.2bpp`
+- `gfx/splash/gamefreak_presents.2bpp`
 
 ## Audit Trail
 
-- EXTRACTED: 97 (100%)
+- EXTRACTED: 77 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,36 +1,29 @@
 # Scripts 95
 
-> 14 nodes · cohesion 0.14
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **scripts/CeladonMart3F.asm** (16 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3F_Script** (2 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3F_TextPointers** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FCurrentFloorSignText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FFightingGameText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FGameBoyKid1Text** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FGameBoyKid2Text** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FGameBoyKid3Text** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FLittleBoyText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FPokemonPosterText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FPuzzleGameText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FRPGText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FSNESText** (1 connections) — `scripts/CeladonMart3F.asm`
-- **CeladonMart3FSportsGameText** (1 connections) — `scripts/CeladonMart3F.asm`
+- **scripts/CinnabarLab.asm** (9 connections) — `scripts/CinnabarLab.asm`
+- **CinnabarLab_Script** (2 connections) — `scripts/CinnabarLab.asm`
+- **CinnabarLab_TextPointers** (1 connections) — `scripts/CinnabarLab.asm`
+- **CinnabarLabFishingGuruText** (1 connections) — `scripts/CinnabarLab.asm`
+- **CinnabarLabMeetingRoomSignText** (1 connections) — `scripts/CinnabarLab.asm`
+- **CinnabarLabPhotoText** (1 connections) — `scripts/CinnabarLab.asm`
+- **CinnabarLabRAndDSignText** (1 connections) — `scripts/CinnabarLab.asm`
+- **CinnabarLabTestingRoomSignText** (1 connections) — `scripts/CinnabarLab.asm`
 
 ## Relationships
 
 - [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonMart3F.asm`
+- `scripts/CinnabarLab.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

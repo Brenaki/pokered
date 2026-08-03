@@ -1,73 +1,56 @@
 # Home 2
 
-> 102 nodes · cohesion 0.04
+> 51 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **home/overworld.asm** (70 connections) — `home/overworld.asm`
-- **MainMenu** (29 connections) — `engine/menus/main_menu.asm`
-- **engine/menus/main_menu.asm** (29 connections) — `engine/menus/main_menu.asm`
-- **wStatusFlags6** (24 connections) — `ram/wram.asm`
-- **LinkMenu** (23 connections) — `engine/menus/main_menu.asm`
-- **engine/overworld/player_state.asm** (18 connections) — `engine/overworld/player_state.asm`
-- **AdvancePlayerSprite** (18 connections) — `home/overworld.asm`
-- **DisplayOptionMenu** (17 connections) — `engine/menus/main_menu.asm`
-- **EnterMap** (16 connections) — `home/overworld.asm`
-- **Joypad** (12 connections) — `home/joypad.asm`
-- **WarpFound2** (12 connections) — `home/overworld.asm`
-- **PrepareForSpecialWarp** (11 connections) — `engine/overworld/special_warps.asm`
-- **CheckMapConnections** (10 connections) — `home/overworld.asm`
-- **wWarpEntries** (10 connections) — `ram/wram.asm`
-- **SpecialEnterMap** (9 connections) — `engine/menus/main_menu.asm`
-- **PrintSafariZoneSteps** (9 connections) — `engine/overworld/player_state.asm`
-- **CheckWarpsNoCollisionLoop** (9 connections) — `home/overworld.asm`
-- **HandleBlackOut** (9 connections) — `home/overworld.asm`
-- **HandleFlyWarpOrDungeonWarp** (8 connections) — `home/overworld.asm`
-- **LoadTileBlockMap** (8 connections) — `home/overworld.asm`
-- **RedSprite** (7 connections) — `gfx/sprites.asm`
-- **TrySoftReset** (6 connections) — `engine/joypad.asm`
-- **IsWarpTileInFrontOfPlayer** (6 connections) — `engine/overworld/player_state.asm`
-- **CopyToRedrawRowOrColumnSrcTiles** (6 connections) — `home/overworld.asm`
-- **ExtraWarpCheck** (6 connections) — `home/overworld.asm`
-- *... and 77 more nodes in this community*
+- **home/text.asm** (58 connections) — `home/text.asm`
+- **NextTextCommand** (19 connections) — `home/text.asm`
+- **TextCommandJumpTable** (17 connections) — `home/text.asm`
+- **TextCommand_SOUND** (8 connections) — `home/text.asm`
+- **TextCommandProcessor** (8 connections) — `home/text.asm`
+- **ContText** (6 connections) — `home/text.asm`
+- **NextChar** (6 connections) — `home/text.asm`
+- **PlaceMoveUsersName** (6 connections) — `home/text.asm`
+- **PlaceNextChar** (6 connections) — `home/text.asm`
+- **PlaceCommandCharacter** (5 connections) — `home/text.asm`
+- **TextCommand_DOTS** (5 connections) — `home/text.asm`
+- **TextCommand_PAUSE** (5 connections) — `home/text.asm`
+- **TextCommand_PROMPT_BUTTON** (5 connections) — `home/text.asm`
+- **TextCommand_WAIT_BUTTON** (5 connections) — `home/text.asm`
+- **_ContTextNoPause** (4 connections) — `home/text.asm`
+- **ScrollTextUpOneLine** (4 connections) — `home/text.asm`
+- **TextCommand_BCD** (4 connections) — `home/text.asm`
+- **TextCommand_BOX** (4 connections) — `home/text.asm`
+- **TextCommand_FAR** (4 connections) — `home/text.asm`
+- **TextCommand_NUM** (4 connections) — `home/text.asm`
+- **TextCommand_RAM** (4 connections) — `home/text.asm`
+- **TextCommand_SCROLL** (4 connections) — `home/text.asm`
+- **TextCommand_START** (4 connections) — `home/text.asm`
+- **PrintText_NoCreatingTextBox** (4 connections) — `home/window.asm`
+- **TextCommand_LOW** (3 connections) — `home/text.asm`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Home](Home.md) (33 shared connections)
-- [Scripts 5](Scripts_5.md) (20 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (12 shared connections)
-- [Engine Movie 2](Engine_Movie_2.md) (7 shared connections)
-- [Engine Overworld 3](Engine_Overworld_3.md) (7 shared connections)
-- [Engine Link](Engine_Link.md) (6 shared connections)
-- [Ram 4](Ram_4.md) (5 shared connections)
-- [Ram](Ram.md) (4 shared connections)
-- [Data Tilesets 2](Data_Tilesets_2.md) (4 shared connections)
-- [Home 6](Home_6.md) (4 shared connections)
-- [Engine Movie](Engine_Movie.md) (3 shared connections)
-- [Bank SRAM](Bank_SRAM.md) (3 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (10 shared connections)
+- [Engine Menus](Engine_Menus.md) (9 shared connections)
+- [Home](Home.md) (2 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (2 shared connections)
+- [Ram](Ram.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
+- [Engine Movie 2](Engine_Movie_2.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
 
 ## Source Files
 
-- `data/maps/force_bike_surf.asm`
-- `data/tilesets/bike_riding_tilesets.asm`
-- `data/tilesets/warp_carpet_tile_ids.asm`
-- `engine/events/black_out.asm`
-- `engine/joypad.asm`
-- `engine/math/bcd.asm`
-- `engine/menus/main_menu.asm`
-- `engine/movie/oak_speech/oak_speech2.asm`
-- `engine/overworld/cut.asm`
-- `engine/overworld/elevator.asm`
-- `engine/overworld/player_state.asm`
-- `engine/overworld/special_warps.asm`
-- `gfx/sprites.asm`
-- `home/joypad.asm`
-- `home/overworld.asm`
-- `ram/wram.asm`
+- `home/text.asm`
+- `home/window.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 328 (100%)
+- EXTRACTED: 127 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

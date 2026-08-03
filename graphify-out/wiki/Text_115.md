@@ -1,15 +1,14 @@
 # Text 115
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **text/ViridianMart.asm** (7 connections) — `text/ViridianMart.asm`
-- **_ViridianMartClerkParcelQuestText** (1 connections) — `text/ViridianMart.asm`
-- **_ViridianMartClerkSayHiToOakText** (1 connections) — `text/ViridianMart.asm`
-- **_ViridianMartClerkYouCameFromPalletTownText** (1 connections) — `text/ViridianMart.asm`
-- **_ViridianMartCooltrainerMText** (1 connections) — `text/ViridianMart.asm`
-- **_ViridianMartYoungsterText** (1 connections) — `text/ViridianMart.asm`
+- **text/Route16Gate2F.asm** (6 connections) — `text/Route16Gate2F.asm`
+- **_Route16Gate2FLeftBinocularsText** (1 connections) — `text/Route16Gate2F.asm`
+- **_Route16Gate2FLittleBoyText** (1 connections) — `text/Route16Gate2F.asm`
+- **_Route16Gate2FLittleGirlText** (1 connections) — `text/Route16Gate2F.asm`
+- **_Route16Gate2FRightBinocularsText** (1 connections) — `text/Route16Gate2F.asm`
 
 ## Relationships
 
@@ -17,11 +16,11 @@
 
 ## Source Files
 
-- `text/ViridianMart.asm`
+- `text/Route16Gate2F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

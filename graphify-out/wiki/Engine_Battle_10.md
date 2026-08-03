@@ -1,39 +1,49 @@
 # Engine Battle 10
 
-> 15 nodes · cohesion 0.25
+> 21 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **engine/battle/used_move_text.asm** (15 connections) — `engine/battle/used_move_text.asm`
-- **MoveNameText** (7 connections) — `engine/battle/used_move_text.asm`
-- **UsedMoveText** (7 connections) — `engine/battle/used_move_text.asm`
-- **DisplayUsedMoveText** (5 connections) — `engine/battle/used_move_text.asm`
-- **GetMoveGrammar** (4 connections) — `engine/battle/used_move_text.asm`
-- **UsedMove1Text** (3 connections) — `engine/battle/used_move_text.asm`
-- **UsedMoveText_CheckObedience** (3 connections) — `engine/battle/used_move_text.asm`
-- **data/moves/grammar.asm** (3 connections) — `data/moves/grammar.asm`
-- **MoveGrammar** (2 connections) — `data/moves/grammar.asm`
-- **EndUsedMove1Text** (2 connections) — `engine/battle/used_move_text.asm`
-- **EndUsedMove2Text** (2 connections) — `engine/battle/used_move_text.asm`
-- **EndUsedMove3Text** (2 connections) — `engine/battle/used_move_text.asm`
-- **EndUsedMove4Text** (2 connections) — `engine/battle/used_move_text.asm`
-- **EndUsedMove5Text** (2 connections) — `engine/battle/used_move_text.asm`
-- **UsedMove2Text** (2 connections) — `engine/battle/used_move_text.asm`
+- **engine/battle/draw_hud_pokeball_gfx.asm** (18 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **SetupPlayerAndEnemyPokeballs** (10 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **SetupEnemyPartyPokeballs** (9 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **SetupOwnPartyPokeballs** (9 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **LoadPartyPokeballGfx** (7 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **PlaceEnemyHUDTiles** (7 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **PlacePlayerHUDTiles** (7 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **SetupPokeballs** (6 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **PokeballTileGraphics** (5 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **WritePokeballOAMData** (5 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **wBaseCoordX** (5 connections) — `ram/wram.asm`
+- **DrawAllPokeballs** (4 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **wHUDGraphicsTiles** (4 connections) — `ram/wram.asm`
+- **wHUDGraphicsTilesEnd** (4 connections) — `ram/wram.asm`
+- **DrawEnemyPokeballs** (3 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **PlaceHUDTiles** (3 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **EnemyBattleHUDGraphicsTiles** (2 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **PickPokeball** (2 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **PlayerBattleHUDGraphicsTiles** (2 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **PokeballTileGraphicsEnd** (1 connections) — `engine/battle/draw_hud_pokeball_gfx.asm`
+- **gfx/battle/balls.2bpp** (1 connections) — `gfx/battle/balls.2bpp`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (2 shared connections)
-- [Ram](Ram.md) (1 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (6 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
+- [Engine Menus](Engine_Menus.md) (2 shared connections)
+- [Engine Battle 7](Engine_Battle_7.md) (2 shared connections)
+- [Engine Battle 4](Engine_Battle_4.md) (2 shared connections)
 
 ## Source Files
 
-- `data/moves/grammar.asm`
-- `engine/battle/used_move_text.asm`
+- `engine/battle/draw_hud_pokeball_gfx.asm`
+- `gfx/battle/balls.2bpp`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 60 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

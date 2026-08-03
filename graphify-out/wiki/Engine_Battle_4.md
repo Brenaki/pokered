@@ -1,58 +1,66 @@
 # Engine Battle 4
 
-> 57 nodes · cohesion 0.06
+> 74 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **engine/battle/animations.asm** (144 connections) — `engine/battle/animations.asm`
-- **AnimationFallingObjects** (11 connections) — `engine/battle/animations.asm`
-- **AnimationFlashScreen** (8 connections) — `engine/battle/animations.asm`
-- **SetAnimationBGPalette** (8 connections) — `engine/battle/animations.asm`
-- **AnimationSquishMonPic** (6 connections) — `engine/battle/animations.asm`
-- **TradeJumpPokeball** (6 connections) — `engine/battle/animations.asm`
-- **AnimationFlashScreenLong** (4 connections) — `engine/battle/animations.asm`
-- **FallingObjects_InitMovementData** (4 connections) — `engine/battle/animations.asm`
-- **FallingObjects_UpdateOAMEntry** (4 connections) — `engine/battle/animations.asm`
-- **LoadSubanimation** (4 connections) — `engine/battle/animations.asm`
-- **AnimationPetalsFalling** (3 connections) — `engine/battle/animations.asm`
-- **AnimCopyRowRight** (3 connections) — `engine/battle/animations.asm`
-- **DoBallShakeSpecialEffects** (3 connections) — `engine/battle/animations.asm`
-- **DoBallTossSpecialEffects** (3 connections) — `engine/battle/animations.asm`
-- **DoExplodeSpecialEffects** (3 connections) — `engine/battle/animations.asm`
-- **DoRockSlideSpecialEffects** (3 connections) — `engine/battle/animations.asm`
-- **FallingObjects_InitXCoords** (3 connections) — `engine/battle/animations.asm`
-- **FlashScreenEveryFourFrameBlocks** (3 connections) — `engine/battle/animations.asm`
-- **FlashScreenLongDelay** (3 connections) — `engine/battle/animations.asm`
-- **ShakeEnemyHUD_ShakeBG** (3 connections) — `engine/battle/animations.asm`
-- **WavyScreen_SetSCX** (3 connections) — `engine/battle/animations.asm`
-- **WavyScreenLineOffsets** (3 connections) — `engine/battle/animations.asm`
-- **AnimationDarkenMonPalette** (2 connections) — `engine/battle/animations.asm`
-- **AnimationDarkScreenPalette** (2 connections) — `engine/battle/animations.asm`
-- **AnimationDelay10** (2 connections) — `engine/battle/animations.asm`
-- *... and 32 more nodes in this community*
+- **engine/battle/trainer_ai.asm** (67 connections) — `engine/battle/trainer_ai.asm`
+- **5. Visao arquitetural** (38 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **TrainerAIPointers** (23 connections) — `data/trainers/ai_pointers.asm`
+- **7.4 Acoes especiais por treinador** (23 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **7.7 Tabela completa por classe** (20 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **wBuffer** (20 connections) — `ram/wram.asm`
+- **18. Referencias internas** (16 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **AIEnemyTrainerChooseMoves** (12 connections) — `engine/battle/trainer_ai.asm`
+- **AgathaAI** (11 connections) — `engine/battle/trainer_ai.asm`
+- **AIPrintItemUse** (11 connections) — `engine/battle/trainer_ai.asm`
+- **AICheckIfHPBelowFraction** (10 connections) — `engine/battle/trainer_ai.asm`
+- **TrainerAI** (10 connections) — `engine/battle/trainer_ai.asm`
+- **data/trainers** (9 connections)
+- **CooltrainerFAI** (9 connections) — `engine/battle/trainer_ai.asm`
+- **7. IA de batalha** (8 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **ReadMove** (8 connections) — `engine/battle/trainer_ai.asm`
+- **AIIncreaseStat** (7 connections) — `engine/battle/trainer_ai.asm`
+- **AIMoveChoiceModificationFunctionPointers** (7 connections) — `engine/battle/trainer_ai.asm`
+- **AISwitchIfEnoughMons** (7 connections) — `engine/battle/trainer_ai.asm`
+- **ErikaAI** (7 connections) — `engine/battle/trainer_ai.asm`
+- **LanceAI** (7 connections) — `engine/battle/trainer_ai.asm`
+- **LoreleiAI** (7 connections) — `engine/battle/trainer_ai.asm`
+- **Rival2AI** (7 connections) — `engine/battle/trainer_ai.asm`
+- **Rival3AI** (7 connections) — `engine/battle/trainer_ai.asm`
+- **SabrinaAI** (7 connections) — `engine/battle/trainer_ai.asm`
+- *... and 49 more nodes in this community*
 
 ## Relationships
 
-- [Engine Battle 7](Engine_Battle_7.md) (31 shared connections)
-- [Engine Battle 8](Engine_Battle_8.md) (28 shared connections)
-- [Engine Battle 11](Engine_Battle_11.md) (14 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (9 shared connections)
-- [Home](Home.md) (7 shared connections)
-- [Scripts 5](Scripts_5.md) (4 shared connections)
-- [Engine Battle 12](Engine_Battle_12.md) (4 shared connections)
-- [Data Battle Anims 3](Data_Battle_Anims_3.md) (3 shared connections)
-- [Ram](Ram.md) (2 shared connections)
-- [Engine Overworld 7](Engine_Overworld_7.md) (2 shared connections)
+- [Engine Battle](Engine_Battle.md) (13 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (12 shared connections)
+- [Engine Overworld 2](Engine_Overworld_2.md) (8 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (7 shared connections)
+- [Engine Battle 2](Engine_Battle_2.md) (5 shared connections)
+- [Ram 6](Ram_6.md) (4 shared connections)
+- [Scripts 33](Scripts_33.md) (3 shared connections)
+- [Ram](Ram.md) (3 shared connections)
+- [Docs 2](Docs_2.md) (2 shared connections)
+- [Scripts 21](Scripts_21.md) (2 shared connections)
+- [Home 2](Home_2.md) (2 shared connections)
 - [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
-- [Engine Movie 2](Engine_Movie_2.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/battle/animations.asm`
+- `data/trainers/ai_pointers.asm`
+- `data/trainers/move_choices.asm`
+- `data/trainers/names.asm`
+- `data/trainers/pic_pointers_money.asm`
+- `data/trainers/special_moves.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `engine/battle/trainer_ai.asm`
+- `engine/movie/trade.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 200 (100%)
+- EXTRACTED: 293 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

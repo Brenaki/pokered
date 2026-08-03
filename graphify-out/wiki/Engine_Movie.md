@@ -1,68 +1,77 @@
 # Engine Movie
 
-> 59 nodes · cohesion 0.06
+> 97 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **FillMemory** (38 connections) — `home/tilemap.asm`
+- **DisplayTitleScreen** (47 connections) — `engine/movie/title.asm`
+- **OakSpeech** (37 connections) — `engine/movie/oak_speech/oak_speech.asm`
+- **wPlayerName** (25 connections) — `ram/wram.asm`
+- **gfx/font.asm** (24 connections) — `gfx/font.asm`
+- **DebugMenu** (20 connections) — `engine/debug/debug_menu.asm`
 - **engine/movie/title.asm** (20 connections) — `engine/movie/title.asm`
-- **engine/movie/credits.asm** (19 connections) — `engine/movie/credits.asm`
-- **Init** (17 connections) — `home/init.asm`
-- **HallOfFamePC** (15 connections) — `engine/movie/credits.asm`
+- **ChoosePlayerName** (16 connections) — `engine/movie/oak_speech/oak_speech2.asm`
+- **ChooseRivalName** (16 connections) — `engine/movie/oak_speech/oak_speech2.asm`
+- **LoadHpBarAndStatusTilePatterns** (16 connections) — `home/load_font.asm`
 - **engine/movie** (14 connections)
-- **Credits** (14 connections) — `engine/movie/credits.asm`
-- **DisplayCreditsMon** (13 connections) — `engine/movie/credits.asm`
-- **DoClearSaveDialogue** (10 connections) — `engine/movie/oak_speech/clear_save.asm`
-- **engine/movie/title2.asm** (9 connections) — `engine/movie/title2.asm`
+- **engine/movie/oak_speech/oak_speech2.asm** (14 connections) — `engine/movie/oak_speech/oak_speech2.asm`
+- **engine/movie/oak_speech/oak_speech.asm** (14 connections) — `engine/movie/oak_speech/oak_speech.asm`
+- **PrepareOakSpeech** (12 connections) — `engine/movie/oak_speech/oak_speech.asm`
+- **OakSpeechSlidePicLeft** (9 connections) — `engine/movie/oak_speech/oak_speech2.asm`
+- **DrawPlayerCharacter** (9 connections) — `engine/movie/title.asm`
 - **PrepareTitleScreen** (8 connections) — `engine/movie/title.asm`
 - **TitleScreenPickNewMon** (8 connections) — `engine/movie/title.asm`
-- **TitleScroll** (7 connections) — `engine/movie/title2.asm`
+- **TestBattle** (7 connections) — `engine/debug/debug_menu.asm`
+- **DisplayIntroNameTextBox** (7 connections) — `engine/movie/oak_speech/oak_speech2.asm`
 - **LoadCopyrightTiles** (7 connections) — `engine/movie/title.asm`
-- **home/init.asm** (6 connections) — `home/init.asm`
+- **engine/debug/debug_menu.asm** (7 connections) — `engine/debug/debug_menu.asm`
+- **wRivalName** (7 connections) — `ram/wram.asm`
+- **LoadPokedexTilePatterns** (6 connections) — `engine/gfx/load_pokedex_tiles.asm`
+- **GetDefaultName** (5 connections) — `engine/movie/oak_speech/oak_speech2.asm`
 - **LoadTitleMonSprite** (5 connections) — `engine/movie/title.asm`
-- **SoftReset** (5 connections) — `home/init.asm`
-- **StopAllSounds** (5 connections) — `home/init.asm`
-- **StopMusic** (5 connections) — `home/overworld.asm`
-- **data/credits** (4 connections)
-- **FadeInCredits** (4 connections) — `engine/movie/credits.asm`
-- **FillMiddleOfScreenWithWhite** (4 connections) — `engine/movie/credits.asm`
-- **TitleScreenAnimateBallIfStarterOut** (4 connections) — `engine/movie/title2.asm`
-- **ClearBothBGMaps** (4 connections) — `engine/movie/title.asm`
-- **LoadCopyrightAndTextBoxTiles** (4 connections) — `engine/movie/title.asm`
-- *... and 34 more nodes in this community*
+- *... and 72 more nodes in this community*
 
 ## Relationships
 
-- [Home](Home.md) (22 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (8 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (6 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (5 shared connections)
-- [Data Credits](Data_Credits.md) (3 shared connections)
-- [Engine Link](Engine_Link.md) (3 shared connections)
-- [Ram](Ram.md) (3 shared connections)
-- [Scripts 5](Scripts_5.md) (3 shared connections)
-- [Home 6](Home_6.md) (2 shared connections)
-- [Engine Movie 3](Engine_Movie_3.md) (2 shared connections)
-- [Engine Slots](Engine_Slots.md) (2 shared connections)
-- [Engine Movie 2](Engine_Movie_2.md) (2 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (36 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (32 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (9 shared connections)
+- [Engine Menus](Engine_Menus.md) (7 shared connections)
+- [Scripts 2](Scripts_2.md) (6 shared connections)
+- [Engine Movie 5](Engine_Movie_5.md) (5 shared connections)
+- [Engine Battle](Engine_Battle.md) (5 shared connections)
+- [Home](Home.md) (5 shared connections)
+- [Engine Battle 9](Engine_Battle_9.md) (4 shared connections)
+- [Gfx Trade.Asm](Gfx_Trade.Asm.md) (4 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (3 shared connections)
+- [Engine Movie 2](Engine_Movie_2.md) (3 shared connections)
 
 ## Source Files
 
-- `data/credits/credits_mons.asm`
-- `data/credits/credits_order.asm`
+- `data/player/names.asm`
+- `data/player/names_list.asm`
 - `data/pokemon/title_mons.asm`
-- `engine/menus/save.asm`
-- `engine/movie/credits.asm`
+- `engine/battle/core.asm`
+- `engine/debug/debug_menu.asm`
+- `engine/gfx/load_pokedex_tiles.asm`
+- `engine/menus/main_menu.asm`
 - `engine/movie/oak_speech/clear_save.asm`
+- `engine/movie/oak_speech/oak_speech.asm`
+- `engine/movie/oak_speech/oak_speech2.asm`
 - `engine/movie/title.asm`
-- `engine/movie/title2.asm`
-- `home/init.asm`
-- `home/overworld.asm`
-- `home/tilemap.asm`
+- `gfx/battle/battle_hud_1.1bpp`
+- `gfx/battle/battle_hud_2.1bpp`
+- `gfx/battle/battle_hud_3.1bpp`
+- `gfx/font.asm`
+- `gfx/font/AB.2bpp`
+- `gfx/font/font.1bpp`
+- `gfx/font/font_battle_extra.2bpp`
+- `gfx/pokedex/pokedex.2bpp`
+- `gfx/splash/copyright.2bpp`
 
 ## Audit Trail
 
-- EXTRACTED: 172 (100%)
+- EXTRACTED: 303 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

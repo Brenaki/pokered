@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **audio/music/lavender.asm** (6 connections) — `audio/music/lavender.asm`
-- **Music_Lavender_Ch1** (1 connections) — `audio/music/lavender.asm`
-- **Music_Lavender_Ch2** (1 connections) — `audio/music/lavender.asm`
-- **Music_Lavender_Ch3** (1 connections) — `audio/music/lavender.asm`
-- **Music_Lavender_Ch4** (1 connections) — `audio/music/lavender.asm`
+- **audio/music/bikeriding.asm** (6 connections) — `audio/music/bikeriding.asm`
+- **Music_BikeRiding_Ch1** (1 connections) — `audio/music/bikeriding.asm`
+- **Music_BikeRiding_Ch2** (1 connections) — `audio/music/bikeriding.asm`
+- **Music_BikeRiding_Ch3** (1 connections) — `audio/music/bikeriding.asm`
+- **Music_BikeRiding_Ch4** (1 connections) — `audio/music/bikeriding.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `audio/music/lavender.asm`
+- `audio/music/bikeriding.asm`
 
 ## Audit Trail
 

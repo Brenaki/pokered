@@ -1,41 +1,36 @@
 # Scripts 85
 
-> 19 nodes · cohesion 0.11
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Route15TalkToTrainer** (12 connections) — `scripts/Route15.asm`
-- **Route15Beauty1Text** (3 connections) — `scripts/Route15.asm`
-- **Route15Beauty2Text** (3 connections) — `scripts/Route15.asm`
-- **Route15Biker1Text** (3 connections) — `scripts/Route15.asm`
-- **Route15Biker2Text** (3 connections) — `scripts/Route15.asm`
-- **Route15CooltrainerF1Text** (3 connections) — `scripts/Route15.asm`
-- **Route15CooltrainerF2Text** (3 connections) — `scripts/Route15.asm`
-- **Route15CooltrainerF3Text** (3 connections) — `scripts/Route15.asm`
-- **Route15CooltrainerM1Text** (3 connections) — `scripts/Route15.asm`
-- **Route15CooltrainerM2Text** (3 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader0** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader1** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader2** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader3** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader4** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader5** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader6** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader7** (2 connections) — `scripts/Route15.asm`
-- **Route15TrainerHeader8** (2 connections) — `scripts/Route15.asm`
+- **scripts/CeladonMart3F.asm** (16 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3F_Script** (2 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3F_TextPointers** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FCurrentFloorSignText** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FFightingGameText** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FGameBoyKid1Text** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FGameBoyKid2Text** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FGameBoyKid3Text** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FLittleBoyText** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FPokemonPosterText** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FPuzzleGameText** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FRPGText** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FSNESText** (1 connections) — `scripts/CeladonMart3F.asm`
+- **CeladonMart3FSportsGameText** (1 connections) — `scripts/CeladonMart3F.asm`
 
 ## Relationships
 
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 - [Scripts](Scripts.md) (1 shared connections)
-- [Home 8](Home_8.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route15.asm`
+- `scripts/CeladonMart3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

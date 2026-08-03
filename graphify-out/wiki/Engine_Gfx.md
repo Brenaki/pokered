@@ -1,65 +1,60 @@
 # Engine Gfx
 
-> 57 nodes · cohesion 0.06
+> 31 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **DisplayNamingScreen** (34 connections) — `engine/menus/naming_screen.asm`
 - **engine/gfx/mon_icons.asm** (25 connections) — `engine/gfx/mon_icons.asm`
-- **engine/menus/naming_screen.asm** (20 connections) — `engine/menus/naming_screen.asm`
-- **home/window.asm** (12 connections) — `home/window.asm`
-- **PrintNamingText** (9 connections) — `engine/menus/naming_screen.asm`
-- **data** (8 connections)
 - **GetAnimationSpeed** (8 connections) — `engine/gfx/mon_icons.asm`
-- **PrintNicknameAndUnderscores** (8 connections) — `engine/menus/naming_screen.asm`
-- **EraseMenuCursor** (7 connections) — `home/window.asm`
+- **WriteMonPartySpriteOAM** (8 connections) — `engine/gfx/mon_icons.asm`
 - **GetPartyMonSpriteID** (6 connections) — `engine/gfx/mon_icons.asm`
 - **UnusedPartyMonSpriteFunction** (6 connections) — `engine/gfx/mon_icons.asm`
 - **WriteMonPartySpriteOAMBySpecies** (6 connections) — `engine/gfx/mon_icons.asm`
-- **PrintAlphabet** (6 connections) — `engine/menus/naming_screen.asm`
-- **CalcStringLength** (5 connections) — `engine/menus/naming_screen.asm`
-- **LoadEDTile** (5 connections) — `engine/menus/naming_screen.asm`
-- **PlaceMenuCursor** (5 connections) — `home/window.asm`
+- **WriteMonPartySpriteOAMByPartyIndex** (5 connections) — `engine/gfx/mon_icons.asm`
 - **MonPartySpritePointers** (4 connections) — `data/icon_pointers.asm`
-- **DakutensAndHandakutens** (4 connections) — `engine/menus/naming_screen.asm`
 - **data/icon_pointers.asm** (4 connections) — `data/icon_pointers.asm`
-- **data/text/alphabets.asm** (4 connections) — `data/text/alphabets.asm`
-- **data/text/dakutens.asm** (4 connections) — `data/text/dakutens.asm`
 - **AnimatePartyMon** (3 connections) — `engine/gfx/mon_icons.asm`
 - **AnimatePartyMon_ForceSpeed1** (3 connections) — `engine/gfx/mon_icons.asm`
-- **LoadAnimSpriteGfx** (3 connections) — `engine/gfx/mon_icons.asm`
 - **LoadMonPartySpriteGfx** (3 connections) — `engine/gfx/mon_icons.asm`
-- *... and 32 more nodes in this community*
+- **WriteSymmetricMonPartySpriteOAM** (3 connections) — `engine/items/town_map.asm`
+- **data/pokemon/menu_icons.asm** (3 connections) — `data/pokemon/menu_icons.asm`
+- **MonPartyData** (2 connections) — `data/pokemon/menu_icons.asm`
+- **BugIconFrame1** (2 connections) — `engine/gfx/mon_icons.asm`
+- **BugIconFrame2** (2 connections) — `engine/gfx/mon_icons.asm`
+- **PartyMonSpeeds** (2 connections) — `engine/gfx/mon_icons.asm`
+- **PlantIconFrame1** (2 connections) — `engine/gfx/mon_icons.asm`
+- **PlantIconFrame2** (2 connections) — `engine/gfx/mon_icons.asm`
+- **QuadrupedIconFrame1** (2 connections) — `engine/gfx/mon_icons.asm`
+- **QuadrupedIconFrame2** (2 connections) — `engine/gfx/mon_icons.asm`
+- **SnakeIconFrame1** (2 connections) — `engine/gfx/mon_icons.asm`
+- **SnakeIconFrame2** (2 connections) — `engine/gfx/mon_icons.asm`
+- **TradeBubbleIconGFX** (2 connections) — `engine/gfx/mon_icons.asm`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Home](Home.md) (14 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (13 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (6 shared connections)
-- [Ram](Ram.md) (3 shared connections)
-- [Engine Link](Engine_Link.md) (3 shared connections)
-- [Data Text Boxes.Asm](Data_Text_Boxes.Asm.md) (2 shared connections)
-- [Engine Movie 2](Engine_Movie_2.md) (2 shared connections)
-- [Engine Battle](Engine_Battle.md) (2 shared connections)
-- [Engine Items 2](Engine_Items_2.md) (2 shared connections)
-- [Scripts 4](Scripts_4.md) (2 shared connections)
-- [Engine Battle 2](Engine_Battle_2.md) (1 shared connections)
-- [Engine Debug](Engine_Debug.md) (1 shared connections)
+- [Ram](Ram.md) (4 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (4 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (3 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (3 shared connections)
+- [Engine Battle 7](Engine_Battle_7.md) (2 shared connections)
+- [Engine Movie 2](Engine_Movie_2.md) (1 shared connections)
 
 ## Source Files
 
 - `data/icon_pointers.asm`
 - `data/pokemon/menu_icons.asm`
-- `data/text/alphabets.asm`
-- `data/text/dakutens.asm`
-- `data/text_predef_pointers.asm`
 - `engine/gfx/mon_icons.asm`
-- `engine/menus/naming_screen.asm`
-- `home/window.asm`
+- `engine/items/town_map.asm`
+- `gfx/icons/bug.2bpp`
+- `gfx/icons/plant.2bpp`
+- `gfx/icons/quadruped.2bpp`
+- `gfx/icons/snake.2bpp`
+- `gfx/trade/bubble.2bpp`
 
 ## Audit Trail
 
-- EXTRACTED: 147 (100%)
+- EXTRACTED: 62 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

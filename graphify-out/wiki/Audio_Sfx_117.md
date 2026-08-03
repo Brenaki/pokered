@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **audio/sfx/level_up.asm** (5 connections) — `audio/sfx/level_up.asm`
-- **SFX_Level_Up_Ch5** (1 connections) — `audio/sfx/level_up.asm`
-- **SFX_Level_Up_Ch6** (1 connections) — `audio/sfx/level_up.asm`
-- **SFX_Level_Up_Ch7** (1 connections) — `audio/sfx/level_up.asm`
+- **audio/sfx/cry24_2.asm** (5 connections) — `audio/sfx/cry24_2.asm`
+- **SFX_Cry24_2_Ch5** (1 connections) — `audio/sfx/cry24_2.asm`
+- **SFX_Cry24_2_Ch6** (1 connections) — `audio/sfx/cry24_2.asm`
+- **SFX_Cry24_2_Ch8** (1 connections) — `audio/sfx/cry24_2.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `audio/sfx/level_up.asm`
+- `audio/sfx/cry24_2.asm`
 
 ## Audit Trail
 

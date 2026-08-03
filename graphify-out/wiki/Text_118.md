@@ -4,11 +4,11 @@
 
 ## Key Concepts
 
-- **text/Route16Gate1F.asm** (6 connections) — `text/Route16Gate1F.asm`
-- **_Route16Gate1FGamblerText** (1 connections) — `text/Route16Gate1F.asm`
-- **_Route16Gate1FGuardCyclingRoadExplanationText** (1 connections) — `text/Route16Gate1F.asm`
-- **_Route16Gate1FGuardNoPedestriansAllowedText** (1 connections) — `text/Route16Gate1F.asm`
-- **_Route16Gate1FGuardWaitUpText** (1 connections) — `text/Route16Gate1F.asm`
+- **text/UndergroundPathRoute7Copy.asm** (6 connections) — `text/UndergroundPathRoute7Copy.asm`
+- **_UndergroundPathRoute7CopyUnusedGirlText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
+- **_UndergroundPathRoute7CopyUnusedGoesUnderSaffronText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
+- **_UndergroundPathRoute7CopyUnusedMiddleAgedManText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
+- **_UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText** (1 connections) — `text/UndergroundPathRoute7Copy.asm`
 
 ## Relationships
 
@@ -16,7 +16,7 @@
 
 ## Source Files
 
-- `text/Route16Gate1F.asm`
+- `text/UndergroundPathRoute7Copy.asm`
 
 ## Audit Trail
 

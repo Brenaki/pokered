@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pokered-battle-characterization"
+version = "0.1.0"
+description = "Executable ASM compatibility contract for Pokemon Red/Blue battles"
+requires-python = ">=3.11,<3.15"
+dependencies = [
+  "jsonschema>=4.23,<5",
+  "pyboy==2.7.0",
+]
+
+[project.optional-dependencies]
+test = [
+  "hypothesis>=6.130,<7",
+  "pytest>=8.3,<10",
+]
+
+[project.scripts]
+battle-asm = "battle_characterization.cli:main"
+battle-c-tables = "battle_characterization.generate_c_tables:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["battle_characterization"]
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-config --strict-markers"
+testpaths = ["tests"]
+markers = [
+  "asm: executes production RGBDS code through PyBoy",
+  "slow: exhaustive or multi-ROM characterization",
+]
+filterwarnings = [
+  "ignore:Using SDL2 binaries from pysdl2-dll:UserWarning",
+]

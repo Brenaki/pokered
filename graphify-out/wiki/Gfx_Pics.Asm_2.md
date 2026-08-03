@@ -1,70 +1,72 @@
 # Gfx Pics.Asm 2
 
-> 201 nodes · cohesion 0.02
+> 178 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **7. Catálogo controlado das 151 espécies** (152 connections) — `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
-- **Pics 2 [ROMX]** (130 connections) — `gfx/pics.asm`
-- **data/pokemon/base_stats/arbok.asm** (6 connections) — `data/pokemon/base_stats/arbok.asm`
-- **data/pokemon/base_stats/chansey.asm** (6 connections) — `data/pokemon/base_stats/chansey.asm`
-- **data/pokemon/base_stats/diglett.asm** (6 connections) — `data/pokemon/base_stats/diglett.asm`
-- **data/pokemon/base_stats/doduo.asm** (6 connections) — `data/pokemon/base_stats/doduo.asm`
-- **data/pokemon/base_stats/dragonite.asm** (6 connections) — `data/pokemon/base_stats/dragonite.asm`
-- **data/pokemon/base_stats/drowzee.asm** (6 connections) — `data/pokemon/base_stats/drowzee.asm`
-- **data/pokemon/base_stats/electabuzz.asm** (6 connections) — `data/pokemon/base_stats/electabuzz.asm`
-- **data/pokemon/base_stats/farfetchd.asm** (6 connections) — `data/pokemon/base_stats/farfetchd.asm`
-- **data/pokemon/base_stats/fearow.asm** (6 connections) — `data/pokemon/base_stats/fearow.asm`
-- **data/pokemon/base_stats/golem.asm** (6 connections) — `data/pokemon/base_stats/golem.asm`
-- **data/pokemon/base_stats/graveler.asm** (6 connections) — `data/pokemon/base_stats/graveler.asm`
-- **data/pokemon/base_stats/growlithe.asm** (6 connections) — `data/pokemon/base_stats/growlithe.asm`
-- **data/pokemon/base_stats/hitmonchan.asm** (6 connections) — `data/pokemon/base_stats/hitmonchan.asm`
-- **data/pokemon/base_stats/hitmonlee.asm** (6 connections) — `data/pokemon/base_stats/hitmonlee.asm`
-- **data/pokemon/base_stats/jynx.asm** (6 connections) — `data/pokemon/base_stats/jynx.asm`
-- **data/pokemon/base_stats/kadabra.asm** (6 connections) — `data/pokemon/base_stats/kadabra.asm`
-- **data/pokemon/base_stats/koffing.asm** (6 connections) — `data/pokemon/base_stats/koffing.asm`
-- **data/pokemon/base_stats/machoke.asm** (6 connections) — `data/pokemon/base_stats/machoke.asm`
-- **data/pokemon/base_stats/magmar.asm** (6 connections) — `data/pokemon/base_stats/magmar.asm`
-- **data/pokemon/base_stats/magneton.asm** (6 connections) — `data/pokemon/base_stats/magneton.asm`
-- **data/pokemon/base_stats/mankey.asm** (6 connections) — `data/pokemon/base_stats/mankey.asm`
-- **data/pokemon/base_stats/mew.asm** (6 connections) — `data/pokemon/base_stats/mew.asm`
-- **data/pokemon/base_stats/moltres.asm** (6 connections) — `data/pokemon/base_stats/moltres.asm`
-- *... and 176 more nodes in this community*
+- **data/pokemon/base_stats.asm** (154 connections) — `data/pokemon/base_stats.asm`
+- **Pics 4 [ROMX]** (122 connections) — `gfx/pics.asm`
+- **data/pokemon/base_stats/abra.asm** (6 connections) — `data/pokemon/base_stats/abra.asm`
+- **data/pokemon/base_stats/alakazam.asm** (6 connections) — `data/pokemon/base_stats/alakazam.asm`
+- **data/pokemon/base_stats/butterfree.asm** (6 connections) — `data/pokemon/base_stats/butterfree.asm`
+- **data/pokemon/base_stats/caterpie.asm** (6 connections) — `data/pokemon/base_stats/caterpie.asm`
+- **data/pokemon/base_stats/clefable.asm** (6 connections) — `data/pokemon/base_stats/clefable.asm`
+- **data/pokemon/base_stats/cloyster.asm** (6 connections) — `data/pokemon/base_stats/cloyster.asm`
+- **data/pokemon/base_stats/dewgong.asm** (6 connections) — `data/pokemon/base_stats/dewgong.asm`
+- **data/pokemon/base_stats/dodrio.asm** (6 connections) — `data/pokemon/base_stats/dodrio.asm`
+- **data/pokemon/base_stats/dugtrio.asm** (6 connections) — `data/pokemon/base_stats/dugtrio.asm`
+- **data/pokemon/base_stats/electrode.asm** (6 connections) — `data/pokemon/base_stats/electrode.asm`
+- **data/pokemon/base_stats/golbat.asm** (6 connections) — `data/pokemon/base_stats/golbat.asm`
+- **data/pokemon/base_stats/golduck.asm** (6 connections) — `data/pokemon/base_stats/golduck.asm`
+- **data/pokemon/base_stats/haunter.asm** (6 connections) — `data/pokemon/base_stats/haunter.asm`
+- **data/pokemon/base_stats/hypno.asm** (6 connections) — `data/pokemon/base_stats/hypno.asm`
+- **data/pokemon/base_stats/kingler.asm** (6 connections) — `data/pokemon/base_stats/kingler.asm`
+- **data/pokemon/base_stats/machamp.asm** (6 connections) — `data/pokemon/base_stats/machamp.asm`
+- **data/pokemon/base_stats/magikarp.asm** (6 connections) — `data/pokemon/base_stats/magikarp.asm`
+- **data/pokemon/base_stats/marowak.asm** (6 connections) — `data/pokemon/base_stats/marowak.asm`
+- **data/pokemon/base_stats/metapod.asm** (6 connections) — `data/pokemon/base_stats/metapod.asm`
+- **data/pokemon/base_stats/mewtwo.asm** (6 connections) — `data/pokemon/base_stats/mewtwo.asm`
+- **data/pokemon/base_stats/muk.asm** (6 connections) — `data/pokemon/base_stats/muk.asm`
+- **data/pokemon/base_stats/persian.asm** (6 connections) — `data/pokemon/base_stats/persian.asm`
+- **data/pokemon/base_stats/pidgeot.asm** (6 connections) — `data/pokemon/base_stats/pidgeot.asm`
+- *... and 153 more nodes in this community*
 
 ## Relationships
 
-- [Gfx Pics.Asm](Gfx_Pics.Asm.md) (34 shared connections)
+- [Gfx Pokemon](Gfx_Pokemon.md) (34 shared connections)
+- [Gfx Pics.Asm](Gfx_Pics.Asm.md) (32 shared connections)
 - [Gfx Pics.Asm 3](Gfx_Pics.Asm_3.md) (29 shared connections)
-- [Gfx Pics.Asm 4](Gfx_Pics.Asm_4.md) (29 shared connections)
-- [Gfx Pics.Asm 5](Gfx_Pics.Asm_5.md) (26 shared connections)
+- [Gfx Pics.Asm 4](Gfx_Pics.Asm_4.md) (26 shared connections)
+- [Engine Battle 9](Engine_Battle_9.md) (2 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
 - [Bank ROMX](Bank_ROMX.md) (1 shared connections)
 
 ## Source Files
 
-- `data/pokemon/base_stats/arbok.asm`
-- `data/pokemon/base_stats/chansey.asm`
-- `data/pokemon/base_stats/diglett.asm`
-- `data/pokemon/base_stats/doduo.asm`
-- `data/pokemon/base_stats/dragonite.asm`
-- `data/pokemon/base_stats/drowzee.asm`
-- `data/pokemon/base_stats/electabuzz.asm`
-- `data/pokemon/base_stats/farfetchd.asm`
-- `data/pokemon/base_stats/fearow.asm`
-- `data/pokemon/base_stats/golem.asm`
-- `data/pokemon/base_stats/graveler.asm`
-- `data/pokemon/base_stats/growlithe.asm`
-- `data/pokemon/base_stats/hitmonchan.asm`
-- `data/pokemon/base_stats/hitmonlee.asm`
-- `data/pokemon/base_stats/jynx.asm`
-- `data/pokemon/base_stats/kadabra.asm`
-- `data/pokemon/base_stats/koffing.asm`
-- `data/pokemon/base_stats/machoke.asm`
-- `data/pokemon/base_stats/magmar.asm`
-- `data/pokemon/base_stats/magneton.asm`
+- `data/pokemon/base_stats.asm`
+- `data/pokemon/base_stats/abra.asm`
+- `data/pokemon/base_stats/alakazam.asm`
+- `data/pokemon/base_stats/butterfree.asm`
+- `data/pokemon/base_stats/caterpie.asm`
+- `data/pokemon/base_stats/clefable.asm`
+- `data/pokemon/base_stats/cloyster.asm`
+- `data/pokemon/base_stats/dewgong.asm`
+- `data/pokemon/base_stats/dodrio.asm`
+- `data/pokemon/base_stats/dugtrio.asm`
+- `data/pokemon/base_stats/electrode.asm`
+- `data/pokemon/base_stats/golbat.asm`
+- `data/pokemon/base_stats/golduck.asm`
+- `data/pokemon/base_stats/haunter.asm`
+- `data/pokemon/base_stats/hypno.asm`
+- `data/pokemon/base_stats/kingler.asm`
+- `data/pokemon/base_stats/machamp.asm`
+- `data/pokemon/base_stats/magikarp.asm`
+- `data/pokemon/base_stats/marowak.asm`
+- `data/pokemon/base_stats/metapod.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 479 (100%)
+- EXTRACTED: 447 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

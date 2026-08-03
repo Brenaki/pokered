@@ -1,0 +1,580 @@
+{
+  "protocol_version": 1,
+  "cases": [
+    {
+      "id": "T_BTL_001_QUICK_ATTACK_OVERRIDES_SPEED",
+      "requirements": ["T-BTL-001", "BTL-FLW"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "MainInBattleLoop.noLinkBattle",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wPlayerSelectedMove", "value": 98},
+          {"symbol": "wEnemySelectedMove", "value": 33},
+          {"symbol": "wBattleMonSpeed", "value": [0, 10]},
+          {"symbol": "wEnemyMonSpeed", "value": [0, 100]},
+          {"symbol": "wEscapedFromBattle", "value": 0}
+        ]
+      },
+      "stubs": [
+        {"symbol": "ExecutePlayerMove", "registers": {"B": 1}, "event": "player_move"},
+        {"symbol": "ExecuteEnemyMove", "registers": {"B": 1}, "event": "enemy_move"},
+        {"symbol": "HandlePoisonBurnLeechSeed", "registers": {"F": 0}},
+        {"symbol": "DrawHUDsAndHPBars"},
+        {"symbol": "TrainerAI", "registers": {"F": 0}},
+        {"symbol": "CheckNumAttacksLeft"},
+        {"symbol": "MainInBattleLoop"}
+      ],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "player_move", "symbol": "ExecutePlayerMove"}, {"type": "stub", "name": "enemy_move", "symbol": "ExecuteEnemyMove"}]},
+        "blue": {"events": [{"type": "stub", "name": "player_move", "symbol": "ExecutePlayerMove"}, {"type": "stub", "name": "enemy_move", "symbol": "ExecuteEnemyMove"}]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:MainInBattleLoop.noLinkBattle",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_BTL_002_SPEED_TIE_LOW_ROLL_PLAYER_FIRST",
+      "requirements": ["T-BTL-002", "T-LNK-001", "BTL-FLW", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "MainInBattleLoop.noLinkBattle",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wPlayerSelectedMove", "value": 33},
+          {"symbol": "wEnemySelectedMove", "value": 33},
+          {"symbol": "wBattleMonSpeed", "value": [0, 50]},
+          {"symbol": "wEnemyMonSpeed", "value": [0, 50]},
+          {"symbol": "hSerialConnectionStatus", "value": 0},
+          {"symbol": "wEscapedFromBattle", "value": 0}
+        ]
+      },
+      "rng": [0],
+      "stubs": [
+        {"symbol": "ExecutePlayerMove", "registers": {"B": 1}, "event": "player_move"},
+        {"symbol": "ExecuteEnemyMove", "registers": {"B": 1}, "event": "enemy_move"},
+        {"symbol": "HandlePoisonBurnLeechSeed", "registers": {"F": 0}},
+        {"symbol": "DrawHUDsAndHPBars"},
+        {"symbol": "TrainerAI", "registers": {"F": 0}},
+        {"symbol": "CheckNumAttacksLeft"},
+        {"symbol": "MainInBattleLoop"}
+      ],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "rng", "source": "BattleRandom", "value": 0}, {"type": "stub", "name": "player_move", "symbol": "ExecutePlayerMove"}, {"type": "stub", "name": "enemy_move", "symbol": "ExecuteEnemyMove"}], "rng_consumed": [0]},
+        "blue": {"events": [{"type": "rng", "source": "BattleRandom", "value": 0}, {"type": "stub", "name": "player_move", "symbol": "ExecutePlayerMove"}, {"type": "stub", "name": "enemy_move", "symbol": "ExecuteEnemyMove"}], "rng_consumed": [0]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:MainInBattleLoop.speedEqual",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_BTL_003_SPEED_TIE_HIGH_ROLL_ENEMY_FIRST",
+      "requirements": ["T-BTL-002", "T-LNK-001", "BTL-FLW", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "MainInBattleLoop.noLinkBattle",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wPlayerSelectedMove", "value": 33},
+          {"symbol": "wEnemySelectedMove", "value": 33},
+          {"symbol": "wBattleMonSpeed", "value": [0, 50]},
+          {"symbol": "wEnemyMonSpeed", "value": [0, 50]},
+          {"symbol": "hSerialConnectionStatus", "value": 0},
+          {"symbol": "wEscapedFromBattle", "value": 0}
+        ]
+      },
+      "rng": [255],
+      "stubs": [
+        {"symbol": "ExecutePlayerMove", "registers": {"B": 1}, "event": "player_move"},
+        {"symbol": "ExecuteEnemyMove", "registers": {"B": 1}, "event": "enemy_move"},
+        {"symbol": "HandlePoisonBurnLeechSeed", "registers": {"F": 0}},
+        {"symbol": "DrawHUDsAndHPBars"},
+        {"symbol": "TrainerAI", "registers": {"F": 0}},
+        {"symbol": "CheckNumAttacksLeft"},
+        {"symbol": "MainInBattleLoop"}
+      ],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "rng", "source": "BattleRandom", "value": 255}, {"type": "stub", "name": "enemy_move", "symbol": "ExecuteEnemyMove"}, {"type": "stub", "name": "player_move", "symbol": "ExecutePlayerMove"}], "rng_consumed": [255]},
+        "blue": {"events": [{"type": "rng", "source": "BattleRandom", "value": 255}, {"type": "stub", "name": "enemy_move", "symbol": "ExecuteEnemyMove"}, {"type": "stub", "name": "player_move", "symbol": "ExecutePlayerMove"}], "rng_consumed": [255]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:MainInBattleLoop.speedEqual",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_DMG_002_PHYSICAL_USES_ATTACK_AND_DEFENSE",
+      "requirements": ["T-DMG-002", "BTL-DMG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "GetDamageVarsForPlayerAttack",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wPlayerMovePower", "value": 80},
+          {"symbol": "wPlayerMoveType", "value": 0},
+          {"symbol": "wBattleMonAttack", "value": [0, 100]},
+          {"symbol": "wBattleMonSpecial", "value": [0, 200]},
+          {"symbol": "wEnemyMonDefense", "value": [0, 80]},
+          {"symbol": "wEnemyMonSpecial", "value": [0, 160]},
+          {"symbol": "wEnemyBattleStatus3", "value": 0},
+          {"symbol": "wCriticalHitOrOHKO", "value": 0},
+          {"symbol": "wBattleMonLevel", "value": 50}
+        ]
+      },
+      "observe": {"registers": ["B", "C", "D", "E"], "memory": []},
+      "expected": {
+        "red": {"registers": {"B": 100, "C": 80, "D": 80, "E": 50}},
+        "blue": {"registers": {"B": 100, "C": 80, "D": 80, "E": 50}}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:GetDamageVarsForPlayerAttack",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_DMG_003_SPECIAL_USES_SPECIAL_FOR_BOTH_SIDES",
+      "requirements": ["T-DMG-002", "BTL-DMG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "GetDamageVarsForPlayerAttack",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wPlayerMovePower", "value": 80},
+          {"symbol": "wPlayerMoveType", "value": 20},
+          {"symbol": "wBattleMonAttack", "value": [0, 200]},
+          {"symbol": "wBattleMonSpecial", "value": [0, 100]},
+          {"symbol": "wEnemyMonDefense", "value": [0, 160]},
+          {"symbol": "wEnemyMonSpecial", "value": [0, 80]},
+          {"symbol": "wEnemyBattleStatus3", "value": 0},
+          {"symbol": "wCriticalHitOrOHKO", "value": 0},
+          {"symbol": "wBattleMonLevel", "value": 50}
+        ]
+      },
+      "observe": {"registers": ["B", "C", "D", "E"], "memory": []},
+      "expected": {
+        "red": {"registers": {"B": 100, "C": 80, "D": 80, "E": 50}},
+        "blue": {"registers": {"B": 100, "C": 80, "D": 80, "E": 50}}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:GetDamageVarsForPlayerAttack",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_DMG_004_CRITICAL_IGNORES_CURRENT_STATS_AND_REFLECT",
+      "requirements": ["T-DMG-003", "BTL-DMG", "BTL-CRT"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "GetDamageVarsForPlayerAttack",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wPlayerMovePower", "value": 80},
+          {"symbol": "wPlayerMoveType", "value": 0},
+          {"symbol": "wBattleMonAttack", "value": [1, 44]},
+          {"symbol": "wEnemyMonDefense", "value": [1, 144]},
+          {"symbol": "wEnemyBattleStatus3", "value": 1},
+          {"symbol": "wCriticalHitOrOHKO", "value": 1},
+          {"symbol": "wPartyMon1Attack", "value": [0, 100]},
+          {"symbol": "wPlayerMonNumber", "value": 0},
+          {"symbol": "wBattleMonLevel", "value": 50}
+        ]
+      },
+      "stubs": [{"symbol": "GetEnemyMonStat", "memory": [{"symbol": "hProduct+2", "value": [0, 80]}]}],
+      "observe": {"registers": ["B", "C", "D", "E"], "memory": []},
+      "expected": {
+        "red": {"registers": {"B": 100, "C": 80, "D": 80, "E": 100}},
+        "blue": {"registers": {"B": 100, "C": 80, "D": 80, "E": 100}}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:GetDamageVarsForPlayerAttack",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0",
+        "notes": "Critical damage reloads base stats and doubles level, bypassing current stages and Reflect."
+      }
+    },
+    {
+      "id": "T_DMG_005_EXPLOSION_DEFENSE_ONE_STAYS_ONE",
+      "requirements": ["T-DMG-004", "BTL-DMG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "CalculateDamage",
+      "initial": {
+        "registers": {"B": 100, "C": 1, "D": 170, "E": 50},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wPlayerMoveEffect", "value": 7},
+          {"symbol": "wDamage", "value": [0, 0]}
+        ]
+      },
+      "observe": {"registers": [], "memory": ["wDamage:2"]},
+      "expected": {
+        "red": {"memory": {"wDamage:2": [3, 231]}},
+        "blue": {"memory": {"wDamage:2": [3, 231]}}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:CalculateDamage",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0",
+        "notes": "The neutral damage cap is 999 (0x03e7)."
+      }
+    },
+    {
+      "id": "T_HP_003_OVERKILL_CAPS_EFFECTIVE_DAMAGE_TO_CURRENT_HP",
+      "requirements": ["T-HP-001", "BTL-HP"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ApplyDamageToEnemyPokemon",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wDamage", "value": [0, 10]},
+          {"symbol": "wEnemyMonHP", "value": [0, 1]},
+          {"symbol": "wEnemyMonMaxHP", "value": [0, 100]},
+          {"symbol": "wEnemyBattleStatus2", "value": 0}
+        ]
+      },
+      "stubs": [{"symbol": "UpdateHPBar2"}, {"symbol": "DrawHUDsAndHPBars"}],
+      "observe": {"registers": [], "memory": ["wDamage:2", "wEnemyMonHP:2"]},
+      "expected": {
+        "red": {"memory": {"wDamage:2": [0, 1], "wEnemyMonHP:2": [0, 0]}},
+        "blue": {"memory": {"wDamage:2": [0, 1], "wEnemyMonHP:2": [0, 0]}}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:ApplyDamageToEnemyPokemon",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_STA_001_SLEEP_ONE_WAKES_BUT_LOSES_TURN",
+      "requirements": ["T-STA-001", "BTL-STA"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "CheckPlayerStatusConditions",
+      "initial": {"registers": {}, "memory": [{"symbol": "wBattleMonStatus", "value": 1}, {"symbol": "wPlayerUsedMove", "value": 33}]},
+      "stubs": [{"symbol": "PrintText"}, {"symbol": "PlayMoveAnimation"}],
+      "observe": {"registers": ["A"], "memory": ["wBattleMonStatus", "wPlayerUsedMove"]},
+      "expected": {
+        "red": {"registers": {"A": 0}, "memory": {"wBattleMonStatus": [0], "wPlayerUsedMove": [0]}},
+        "blue": {"registers": {"A": 0}, "memory": {"wBattleMonStatus": [0], "wPlayerUsedMove": [0]}}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:CheckPlayerStatusConditions",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_STA_002_SLEEP_SEVEN_DECREMENTS_AND_LOSES_TURN",
+      "requirements": ["T-STA-001", "BTL-STA"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "CheckPlayerStatusConditions",
+      "initial": {"registers": {}, "memory": [{"symbol": "wBattleMonStatus", "value": 7}, {"symbol": "wPlayerUsedMove", "value": 33}]},
+      "stubs": [{"symbol": "PrintText"}, {"symbol": "PlayMoveAnimation"}],
+      "observe": {"registers": ["A"], "memory": ["wBattleMonStatus", "wPlayerUsedMove"]},
+      "expected": {
+        "red": {"registers": {"A": 0}, "memory": {"wBattleMonStatus": [6], "wPlayerUsedMove": [0]}},
+        "blue": {"registers": {"A": 0}, "memory": {"wBattleMonStatus": [6], "wPlayerUsedMove": [0]}}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:CheckPlayerStatusConditions",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_STA_003_PARALYSIS_ROLL_62_BLOCKS_ACTION",
+      "requirements": ["T-STA-003", "BTL-STA", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "CheckPlayerStatusConditions",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wBattleMonStatus", "value": 64},
+          {"symbol": "wEnemyBattleStatus1", "value": 0},
+          {"symbol": "wPlayerBattleStatus1", "value": 0},
+          {"symbol": "wPlayerBattleStatus2", "value": 0},
+          {"symbol": "wPlayerDisabledMove", "value": 0},
+          {"symbol": "wPlayerDisabledMoveNumber", "value": 0},
+          {"symbol": "wPlayerMoveEffect", "value": 0}
+        ]
+      },
+      "rng": [62],
+      "stubs": [{"symbol": "PrintText"}, {"symbol": "PlayMoveAnimation"}],
+      "observe": {"registers": ["A"], "memory": []},
+      "expected": {
+        "red": {"registers": {"A": 0}, "rng_consumed": [62]},
+        "blue": {"registers": {"A": 0}, "rng_consumed": [62]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:CheckPlayerStatusConditions.ParalysisCheck",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_STA_004_PARALYSIS_ROLL_63_ALLOWS_ACTION",
+      "requirements": ["T-STA-003", "BTL-STA", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "CheckPlayerStatusConditions",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wBattleMonStatus", "value": 64},
+          {"symbol": "wEnemyBattleStatus1", "value": 0},
+          {"symbol": "wPlayerBattleStatus1", "value": 0},
+          {"symbol": "wPlayerBattleStatus2", "value": 0},
+          {"symbol": "wPlayerDisabledMove", "value": 0},
+          {"symbol": "wPlayerDisabledMoveNumber", "value": 0}
+        ]
+      },
+      "rng": [63],
+      "stubs": [{"symbol": "PrintText"}, {"symbol": "PlayMoveAnimation"}],
+      "observe": {"registers": ["A"], "memory": []},
+      "expected": {
+        "red": {"registers": {"A": 1}, "rng_consumed": [63]},
+        "blue": {"registers": {"A": 1}, "rng_consumed": [63]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:CheckPlayerStatusConditions.ParalysisCheck",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_STA_005_PARALYSIS_SPEED_HAS_MINIMUM_ONE",
+      "requirements": ["T-STA-003", "BTL-STA"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "QuarterSpeedDueToParalysis",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 1},
+          {"symbol": "wBattleMonStatus", "value": 64},
+          {"symbol": "wBattleMonSpeed", "value": [0, 3]}
+        ]
+      },
+      "observe": {"registers": [], "memory": ["wBattleMonSpeed:2"]},
+      "expected": {
+        "red": {"memory": {"wBattleMonSpeed:2": [0, 1]}},
+        "blue": {"memory": {"wBattleMonSpeed:2": [0, 1]}}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:QuarterSpeedDueToParalysis",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_STA_006_TOXIC_AND_LEECH_SEED_SHARE_COUNTER",
+      "requirements": ["T-STA-002", "T-STA-004", "BTL-STA"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "HandlePoisonBurnLeechSeed",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wBattleMonHP", "value": [0, 160]},
+          {"symbol": "wBattleMonMaxHP", "value": [0, 160]},
+          {"symbol": "wBattleMonStatus", "value": 8},
+          {"symbol": "wPlayerBattleStatus2", "value": 128},
+          {"symbol": "wPlayerBattleStatus3", "value": 1},
+          {"symbol": "wPlayerToxicCounter", "value": 0},
+          {"symbol": "wEnemyMonHP", "value": [0, 50]},
+          {"symbol": "wEnemyMonMaxHP", "value": [0, 100]}
+        ]
+      },
+      "stubs": [{"symbol": "PrintText"}, {"symbol": "PlayMoveAnimation"}, {"symbol": "UpdateCurMonHPBar"}],
+      "observe": {"registers": [], "memory": ["wBattleMonHP:2", "wEnemyMonHP:2", "wPlayerToxicCounter"]},
+      "expected": {
+        "red": {"memory": {"wBattleMonHP:2": [0, 130], "wEnemyMonHP:2": [0, 70], "wPlayerToxicCounter": [2]}},
+        "blue": {"memory": {"wBattleMonHP:2": [0, 130], "wEnemyMonHP:2": [0, 70], "wPlayerToxicCounter": [2]}}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:HandlePoisonBurnLeechSeed",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0",
+        "notes": "Locks the Toxic/Leech Seed shared-counter bug."
+      }
+    },
+    {
+      "id": "T_PP_001_LAST_USE_DECREMENTS_BATTLE_AND_PARTY_PP",
+      "requirements": ["T-PP-001", "BTL-MOV"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "DecrementPP",
+      "initial": {
+        "registers": {"DE": 52444},
+        "memory": [
+          {"symbol": "wPlayerSelectedMove", "value": 33},
+          {"symbol": "wPlayerMoveListIndex", "value": 0},
+          {"symbol": "wPlayerMonNumber", "value": 0},
+          {"symbol": "wPlayerBattleStatus1", "value": 0},
+          {"symbol": "wPlayerBattleStatus2", "value": 0},
+          {"symbol": "wPlayerBattleStatus3", "value": 0},
+          {"symbol": "wBattleMonPP", "value": 1},
+          {"symbol": "wPartyMon1PP", "value": 1}
+        ]
+      },
+      "observe": {"registers": [], "memory": ["wBattleMonPP", "wPartyMon1PP"]},
+      "expected": {
+        "red": {"memory": {"wBattleMonPP": [0], "wPartyMon1PP": [0]}},
+        "blue": {"memory": {"wBattleMonPP": [0], "wPartyMon1PP": [0]}}
+      },
+      "provenance": {
+        "source": "engine/battle/decrement_pp.asm:DecrementPP",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_PP_002_ALL_ZERO_SELECTS_STRUGGLE",
+      "requirements": ["T-PP-002", "BTL-MOV"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "AnyMoveToSelect",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wPlayerDisabledMove", "value": 0},
+          {"symbol": "wBattleMonPP", "value": [0, 0, 0, 0]},
+          {"symbol": "wPlayerSelectedMove", "value": 0}
+        ]
+      },
+      "stubs": [{"symbol": "PrintText"}, {"symbol": "DelayFrames"}],
+      "observe": {"registers": ["A"], "memory": ["wPlayerSelectedMove"]},
+      "expected": {
+        "red": {"registers": {"A": 0}, "memory": {"wPlayerSelectedMove": [165]}},
+        "blue": {"registers": {"A": 0}, "memory": {"wPlayerSelectedMove": [165]}}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:AnyMoveToSelect",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_PP_003_STRUGGLE_RECOIL_IS_HALF_DAMAGE",
+      "requirements": ["T-PP-002", "BTL-MOV", "BTL-HP"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "RecoilEffect_",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wPlayerMoveNum", "value": 165},
+          {"symbol": "wDamage", "value": [0, 10]},
+          {"symbol": "wBattleMonHP", "value": [0, 10]},
+          {"symbol": "wBattleMonMaxHP", "value": [0, 100]}
+        ]
+      },
+      "stubs": [{"symbol": "UpdateHPBar2"}, {"symbol": "PrintText"}],
+      "observe": {"registers": [], "memory": ["wBattleMonHP:2"]},
+      "expected": {
+        "red": {"memory": {"wBattleMonHP:2": [0, 5]}},
+        "blue": {"memory": {"wBattleMonHP:2": [0, 5]}}
+      },
+      "provenance": {
+        "source": "engine/battle/move_effects/recoil.asm:RecoilEffect_",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_PP_004_MULTI_TURN_CONTINUATION_DOES_NOT_DECREMENT_PP",
+      "requirements": ["T-PP-003", "BTL-MOV"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "DecrementPP",
+      "initial": {
+        "registers": {"DE": 52444},
+        "memory": [
+          {"symbol": "wPlayerSelectedMove", "value": 33},
+          {"symbol": "wPlayerMoveListIndex", "value": 0},
+          {"symbol": "wPlayerBattleStatus1", "value": 4},
+          {"symbol": "wPlayerBattleStatus2", "value": 0},
+          {"symbol": "wBattleMonPP", "value": 5},
+          {"symbol": "wPartyMon1PP", "value": 5}
+        ]
+      },
+      "observe": {"registers": [], "memory": ["wBattleMonPP", "wPartyMon1PP"]},
+      "expected": {
+        "red": {"memory": {"wBattleMonPP": [5], "wPartyMon1PP": [5]}},
+        "blue": {"memory": {"wBattleMonPP": [5], "wPartyMon1PP": [5]}}
+      },
+      "provenance": {
+        "source": "engine/battle/decrement_pp.asm:DecrementPP",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "NC_10_PLAYER_PSYWAVE_REJECTS_ZERO_DAMAGE",
+      "requirements": ["NC-10", "BTL-DMG", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ApplyAttackToEnemyPokemon.specialDamage",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wPlayerMoveNum", "value": 149},
+          {"symbol": "wBattleMonLevel", "value": 10},
+          {"symbol": "wDamage", "value": [0, 255]}
+        ]
+      },
+      "rng": [0, 1],
+      "stubs": [{"symbol": "ApplyDamageToEnemyPokemon", "event": "apply_damage"}],
+      "observe": {"registers": [], "memory": ["wDamage:2"]},
+      "expected": {
+        "red": {"memory": {"wDamage:2": [0, 1]}, "rng_consumed": [0, 1]},
+        "blue": {"memory": {"wDamage:2": [0, 1]}, "rng_consumed": [0, 1]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:ApplyAttackToEnemyPokemon.specialDamage",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "NC_10_ENEMY_PSYWAVE_ACCEPTS_ZERO_DAMAGE",
+      "requirements": ["NC-10", "BTL-DMG", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ApplyAttackToPlayerPokemon.specialDamage",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wEnemyMoveNum", "value": 149},
+          {"symbol": "wEnemyMonLevel", "value": 10},
+          {"symbol": "wDamage", "value": [0, 255]}
+        ]
+      },
+      "rng": [0],
+      "stubs": [{"symbol": "ApplyDamageToPlayerPokemon", "event": "apply_damage"}],
+      "observe": {"registers": [], "memory": ["wDamage:2"]},
+      "expected": {
+        "red": {"memory": {"wDamage:2": [0, 0]}, "rng_consumed": [0]},
+        "blue": {"memory": {"wDamage:2": [0, 0]}, "rng_consumed": [0]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:ApplyAttackToPlayerPokemon.specialDamage",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "NC_11_SUBSTITUTE_ALLOWS_EXACT_ZERO_HP",
+      "requirements": ["NC-11", "BTL-STA", "BTL-HP"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "SubstituteEffect_",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wBattleMonHP", "value": [0, 25]},
+          {"symbol": "wBattleMonMaxHP", "value": [0, 100]},
+          {"symbol": "wPlayerBattleStatus2", "value": 0},
+          {"symbol": "wPlayerSubstituteHP", "value": 0},
+          {"symbol": "wOptions", "value": 0}
+        ]
+      },
+      "stubs": [
+        {"symbol": "DelayFrames"},
+        {"symbol": "Bankswitch"},
+        {"symbol": "PrintText"},
+        {"symbol": "DrawHUDsAndHPBars"}
+      ],
+      "observe": {"registers": [], "memory": ["wBattleMonHP:2", "wPlayerSubstituteHP", "wPlayerBattleStatus2"]},
+      "expected": {
+        "red": {"memory": {"wBattleMonHP:2": [0, 0], "wPlayerSubstituteHP": [25], "wPlayerBattleStatus2": [16]}},
+        "blue": {"memory": {"wBattleMonHP:2": [0, 0], "wPlayerSubstituteHP": [25], "wPlayerBattleStatus2": [16]}}
+      },
+      "provenance": {
+        "source": "engine/battle/move_effects/substitute.asm:SubstituteEffect_",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    }
+  ]
+}

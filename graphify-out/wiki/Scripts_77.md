@@ -1,55 +1,48 @@
 # Scripts 77
 
-> 21 nodes · cohesion 0.14
+> 19 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **21. Inventario completo dos cabecalhos de treinador** (70 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **scripts/VictoryRoad1F.asm** (17 connections) — `scripts/VictoryRoad1F.asm`
-- **21.65 Mapa `VictoryRoad1F`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **VictoryRoad1F_Script** (6 connections) — `scripts/VictoryRoad1F.asm`
-- **VictoryRoad1FCooltrainerFText** (4 connections) — `scripts/VictoryRoad1F.asm`
-- **VictoryRoad1FCooltrainerMText** (4 connections) — `scripts/VictoryRoad1F.asm`
-- **21.22 Mapa `PowerPlant`** (3 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **21.4 Mapa `CeruleanCaveB1F`** (2 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **21.53 Mapa `SeafoamIslandsB4F`** (2 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **PowerPlantVoltorbBattleText** (2 connections) — `scripts/PowerPlant.asm`
-- **VictoryRoad1F_ScriptPointers** (2 connections) — `scripts/VictoryRoad1F.asm`
-- **VictoryRoad1FCooltrainerFAfterBattleText** (2 connections) — `scripts/VictoryRoad1F.asm`
-- **VictoryRoad1FCooltrainerFBattleText** (2 connections) — `scripts/VictoryRoad1F.asm`
-- **VictoryRoad1FCooltrainerFEndBattleText** (2 connections) — `scripts/VictoryRoad1F.asm`
-- **VictoryRoad1FCooltrainerMAfterBattleText** (2 connections) — `scripts/VictoryRoad1F.asm`
-- **VictoryRoad1FCooltrainerMBattleText** (2 connections) — `scripts/VictoryRoad1F.asm`
-- **VictoryRoad1FCooltrainerMEndBattleText** (2 connections) — `scripts/VictoryRoad1F.asm`
-- **VictoryRoad1TrainerHeader0** (2 connections) — `scripts/VictoryRoad1F.asm`
-- **VictoryRoad1TrainerHeader1** (2 connections) — `scripts/VictoryRoad1F.asm`
-- **VictoryRoad1TrainerHeaders** (2 connections) — `scripts/VictoryRoad1F.asm`
-- **VictoryRoad1F_TextPointers** (1 connections) — `scripts/VictoryRoad1F.asm`
+- **scripts/SilphCo3F.asm** (19 connections) — `scripts/SilphCo3F.asm`
+- **21.57 Mapa `SilphCo3F`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **SilphCo3F_Script** (6 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FGateCallbackScript** (6 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FRocketText** (4 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FScientistText** (4 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FSilphWorkerMText** (3 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3F_ScriptPointers** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3F_UnlockedDoorEventScript** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FRocketAfterBattleText** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FRocketBattleText** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FRocketEndBattleText** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FScientistAfterBattleText** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FScientistBattleText** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3FScientistEndBattleText** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3TrainerHeader0** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3TrainerHeader1** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3TrainerHeaders** (2 connections) — `scripts/SilphCo3F.asm`
+- **SilphCo3F_TextPointers** (1 connections) — `scripts/SilphCo3F.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (5 shared connections)
-- [Scripts 43](Scripts_43.md) (2 shared connections)
-- [Scripts 74](Scripts_74.md) (2 shared connections)
-- [Scripts 25](Scripts_25.md) (2 shared connections)
-- [Home 8](Home_8.md) (2 shared connections)
-- [Scripts 86](Scripts_86.md) (1 shared connections)
-- [Scripts 87](Scripts_87.md) (1 shared connections)
-- [Scripts 26](Scripts_26.md) (1 shared connections)
-- [Scripts 79](Scripts_79.md) (1 shared connections)
-- [Scripts 44](Scripts_44.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (3 shared connections)
+- [Scripts 14](Scripts_14.md) (2 shared connections)
 - [Scripts 33](Scripts_33.md) (1 shared connections)
-- [Scripts 80](Scripts_80.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Scripts 29](Scripts_29.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/PowerPlant.asm`
-- `scripts/VictoryRoad1F.asm`
+- `scripts/SilphCo3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 105 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

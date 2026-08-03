@@ -1,15 +1,14 @@
 # Text 113
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **text/RedsHouse1F.asm** (7 connections) — `text/RedsHouse1F.asm`
-- **_RedsHouse1FMomLookingGreatText** (1 connections) — `text/RedsHouse1F.asm`
-- **_RedsHouse1FMomWakeUpText** (1 connections) — `text/RedsHouse1F.asm`
-- **_RedsHouse1FMomYouShouldRestText** (1 connections) — `text/RedsHouse1F.asm`
-- **_RedsHouse1FTVStandByMeMovieText** (1 connections) — `text/RedsHouse1F.asm`
-- **_RedsHouse1FTVWrongSideText** (1 connections) — `text/RedsHouse1F.asm`
+- **text/AgathasRoom.asm** (6 connections) — `text/AgathasRoom.asm`
+- **_AgathaAfterBattleText** (1 connections) — `text/AgathasRoom.asm`
+- **_AgathaBeforeBattleText** (1 connections) — `text/AgathasRoom.asm`
+- **_AgathaEndBattleText** (1 connections) — `text/AgathasRoom.asm`
+- **_AgathasRoomAgathaDontRunAwayText** (1 connections) — `text/AgathasRoom.asm`
 
 ## Relationships
 
@@ -17,11 +16,11 @@
 
 ## Source Files
 
-- `text/RedsHouse1F.asm`
+- `text/AgathasRoom.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

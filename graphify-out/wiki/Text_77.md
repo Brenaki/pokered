@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **text/SilphCo5F.asm** (11 connections) — `text/SilphCo5F.asm`
-- **_SilphCo5FRockerBattleText** (1 connections) — `text/SilphCo5F.asm`
-- **_SilphCo5FRocket1AfterBattleText** (1 connections) — `text/SilphCo5F.asm`
-- **_SilphCo5FRocket1BattleText** (1 connections) — `text/SilphCo5F.asm`
-- **_SilphCo5FRocket1EndBattleText** (1 connections) — `text/SilphCo5F.asm`
-- **_SilphCo5FScientistAfterBattleText** (1 connections) — `text/SilphCo5F.asm`
-- **_SilphCo5FScientistBattleText** (1 connections) — `text/SilphCo5F.asm`
-- **_SilphCo5FScientistEndBattleText** (1 connections) — `text/SilphCo5F.asm`
-- **_SilphCo5FSilphWorkerMThatsYouRightText** (1 connections) — `text/SilphCo5F.asm`
-- **_SilphCo5FSilphWorkerMYoureOurHeroText** (1 connections) — `text/SilphCo5F.asm`
+- **text/SSAnneBow.asm** (11 connections) — `text/SSAnneBow.asm`
+- **_SSAnneBowCooltrainerMText** (1 connections) — `text/SSAnneBow.asm`
+- **_SSAnneBowSailor1Text** (1 connections) — `text/SSAnneBow.asm`
+- **_SSAnneBowSailor2AfterBattleText** (1 connections) — `text/SSAnneBow.asm`
+- **_SSAnneBowSailor2BattleText** (1 connections) — `text/SSAnneBow.asm`
+- **_SSAnneBowSailor2EndBattleText** (1 connections) — `text/SSAnneBow.asm`
+- **_SSAnneBowSailor3AfterBattleText** (1 connections) — `text/SSAnneBow.asm`
+- **_SSAnneBowSailor3BattleText** (1 connections) — `text/SSAnneBow.asm`
+- **_SSAnneBowSailor3EndBattleText** (1 connections) — `text/SSAnneBow.asm`
+- **_SSAnneBowSuperNerdText** (1 connections) — `text/SSAnneBow.asm`
 
 ## Relationships
 
@@ -21,7 +21,7 @@
 
 ## Source Files
 
-- `text/SilphCo5F.asm`
+- `text/SSAnneBow.asm`
 
 ## Audit Trail
 

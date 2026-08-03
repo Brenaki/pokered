@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **text/RocketHideoutB3F.asm** (8 connections) — `text/RocketHideoutB3F.asm`
-- **_RocketHide3AfterBattleText3** (1 connections) — `text/RocketHideoutB3F.asm`
-- **_RocketHideout3BattleText** (1 connections) — `text/RocketHideoutB3F.asm`
-- **_RocketHideout3EndBattleText3** (1 connections) — `text/RocketHideoutB3F.asm`
-- **_RocketHideoutB3FRocket1AfterBattleText** (1 connections) — `text/RocketHideoutB3F.asm`
-- **_RocketHideoutB3FRocket1BattleText** (1 connections) — `text/RocketHideoutB3F.asm`
-- **_RocketHideoutB3FRocket1EndBattleText** (1 connections) — `text/RocketHideoutB3F.asm`
+- **text/Route12SuperRodHouse.asm** (8 connections) — `text/Route12SuperRodHouse.asm`
+- **_Route12SuperRodHouseFishingGuruDoYouLikeToFishText** (1 connections) — `text/Route12SuperRodHouse.asm`
+- **_Route12SuperRodHouseFishingGuruFishingWayOfLifeText** (1 connections) — `text/Route12SuperRodHouse.asm`
+- **_Route12SuperRodHouseFishingGuruNoRoomText** (1 connections) — `text/Route12SuperRodHouse.asm`
+- **_Route12SuperRodHouseFishingGuruReceivedSuperRodText** (1 connections) — `text/Route12SuperRodHouse.asm`
+- **_Route12SuperRodHouseFishingGuruThatsDisappointingText** (1 connections) — `text/Route12SuperRodHouse.asm`
+- **_Route12SuperRodHouseFishingGuruTryFishingText** (1 connections) — `text/Route12SuperRodHouse.asm`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `text/RocketHideoutB3F.asm`
+- `text/Route12SuperRodHouse.asm`
 
 ## Audit Trail
 

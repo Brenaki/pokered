@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **text/CeladonMansion1F.asm** (7 connections) — `text/CeladonMansion1F.asm`
-- **_CeladonMansion1FClefairyText** (1 connections) — `text/CeladonMansion1F.asm`
-- **_CeladonMansion1FGrannyText** (1 connections) — `text/CeladonMansion1F.asm`
-- **_CeladonMansion1FManagersSuiteSignText** (1 connections) — `text/CeladonMansion1F.asm`
-- **_CeladonMansion1FMeowthText** (1 connections) — `text/CeladonMansion1F.asm`
-- **_CeladonMansion1FNidoranFText** (1 connections) — `text/CeladonMansion1F.asm`
+- **text/PokemonTower2F.asm** (7 connections) — `text/PokemonTower2F.asm`
+- **_PokemonTower2FChannelerText** (1 connections) — `text/PokemonTower2F.asm`
+- **_PokemonTower2FRivalDefeatedText** (1 connections) — `text/PokemonTower2F.asm`
+- **_PokemonTower2FRivalHowsYourDexText** (1 connections) — `text/PokemonTower2F.asm`
+- **_PokemonTower2FRivalVictoryText** (1 connections) — `text/PokemonTower2F.asm`
+- **_PokemonTower2FRivalWhatBringsYouHereText** (1 connections) — `text/PokemonTower2F.asm`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `text/CeladonMansion1F.asm`
+- `text/PokemonTower2F.asm`
 
 ## Audit Trail
 

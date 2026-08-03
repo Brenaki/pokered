@@ -1,45 +1,46 @@
 # Engine Events 4
 
-> 22 nodes · cohesion 0.17
+> 21 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **engine/events/in_game_trades.asm** (34 connections) — `engine/events/in_game_trades.asm`
-- **TradeTextPointers1** (7 connections) — `engine/events/in_game_trades.asm`
-- **TradeTextPointers2** (7 connections) — `engine/events/in_game_trades.asm`
-- **TradeTextPointers3** (7 connections) — `engine/events/in_game_trades.asm`
-- **InGameTradeTextPointers** (5 connections) — `engine/events/in_game_trades.asm`
-- **AfterTrade1Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **AfterTrade2Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **AfterTrade3Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **ConnectCableText** (2 connections) — `engine/events/in_game_trades.asm`
-- **NoTrade1Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **NoTrade2Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **NoTrade3Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **Thanks1Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **Thanks2Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **Thanks3Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **TradedForText** (2 connections) — `engine/events/in_game_trades.asm`
-- **WannaTrade1Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **WannaTrade2Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **WannaTrade3Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **WrongMon1Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **WrongMon2Text** (2 connections) — `engine/events/in_game_trades.asm`
-- **WrongMon3Text** (2 connections) — `engine/events/in_game_trades.asm`
+- **engine/events/hidden_events/bench_guys.asm** (21 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **SaffronCityPokecenterBenchGuyText** (5 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **PrintBenchGuyText** (4 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **data/events/bench_guys.asm** (3 connections) — `data/events/bench_guys.asm`
+- **BenchGuyTextPointers** (2 connections) — `data/events/bench_guys.asm`
+- **SaffronCityPokecenterBenchGuyText1** (2 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **SaffronCityPokecenterBenchGuyText2** (2 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **CeladonCityHotelText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **CeladonCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **CeruleanCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **CinnabarIslandPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **FuchsiaCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **LavenderCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **MtMoonPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **PewterCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **RockTunnelPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **UnusedBenchGuyText1** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **UnusedBenchGuyText2** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **UnusedBenchGuyText3** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **VermilionCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
+- **ViridianCityPokecenterBenchGuyText** (1 connections) — `engine/events/hidden_events/bench_guys.asm`
 
 ## Relationships
 
-- [Bank WRAM0](Bank_WRAM0.md) (8 shared connections)
-- [Home](Home.md) (1 shared connections)
-- [Data Events](Data_Events.md) (1 shared connections)
+- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/events/in_game_trades.asm`
+- `data/events/bench_guys.asm`
+- `engine/events/hidden_events/bench_guys.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

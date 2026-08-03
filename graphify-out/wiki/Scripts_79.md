@@ -1,48 +1,46 @@
 # Scripts 79
 
-> 20 nodes · cohesion 0.15
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **scripts/CeruleanGym.asm** (25 connections) — `scripts/CeruleanGym.asm`
-- **21.5 Mapa `CeruleanGym`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **CeruleanGym_Script** (7 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymCooltrainerFText** (4 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymSwimmerText** (4 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymGymGuideText** (3 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGym_ScriptPointers** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymAfterBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymAfterBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymEndBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymEndBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymTrainerHeader0** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymTrainerHeader1** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymTrainerHeaders** (2 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGym_TextPointers** (1 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymMistyCascadeBadgeInfoText** (1 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymMistyReceivedTM11Text** (1 connections) — `scripts/CeruleanGym.asm`
-- **CeruleanGymMistyTM11NoRoomText** (1 connections) — `scripts/CeruleanGym.asm`
+- **scripts/BrunosRoom.asm** (20 connections) — `scripts/BrunosRoom.asm`
+- **BrunosRoom_Script** (6 connections) — `scripts/BrunosRoom.asm`
+- **BrunosRoomBrunoEndBattleScript** (5 connections) — `scripts/BrunosRoom.asm`
+- **21.2 Mapa `BrunosRoom`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **BrunosRoomBrunoText** (4 connections) — `scripts/BrunosRoom.asm`
+- **BrunoShowOrHideExitBlock** (3 connections) — `scripts/BrunosRoom.asm`
+- **BrunosRoomPlayerIsMovingScript** (3 connections) — `scripts/BrunosRoom.asm`
+- **BrunoAfterBattleText** (2 connections) — `scripts/BrunosRoom.asm`
+- **BrunoBeforeBattleText** (2 connections) — `scripts/BrunosRoom.asm`
+- **BrunoEndBattleText** (2 connections) — `scripts/BrunosRoom.asm`
+- **BrunoEntranceCoords** (2 connections) — `scripts/BrunosRoom.asm`
+- **BrunosRoom_ScriptPointers** (2 connections) — `scripts/BrunosRoom.asm`
+- **BrunosRoomNoopScript** (2 connections) — `scripts/BrunosRoom.asm`
+- **BrunosRoomTrainerHeader0** (2 connections) — `scripts/BrunosRoom.asm`
+- **BrunosRoomTrainerHeaders** (2 connections) — `scripts/BrunosRoom.asm`
+- **ResetBrunoScript** (2 connections) — `scripts/BrunosRoom.asm`
+- **BrunosRoom_TextPointers** (1 connections) — `scripts/BrunosRoom.asm`
+- **BrunosRoomBrunoDontRunAwayText** (1 connections) — `scripts/BrunosRoom.asm`
 
 ## Relationships
 
-- [Scripts 7](Scripts_7.md) (5 shared connections)
-- [Scripts](Scripts.md) (4 shared connections)
-- [Home 8](Home_8.md) (2 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Ram](Ram.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (3 shared connections)
+- [Scripts 33](Scripts_33.md) (2 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 19](Scripts_19.md) (1 shared connections)
+- [Scripts 14](Scripts_14.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/CeruleanGym.asm`
+- `scripts/BrunosRoom.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,63 +1,56 @@
 # Ram 3
 
-> 30 nodes · cohesion 0.07
+> 33 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **Audio RAM [WRAM0]** (44 connections) — `ram/wram.asm`
-- **6.1 Modelo de execucao** (11 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **audio** (11 connections)
-- **wChannelNoteSpeeds** (11 connections) — `ram/wram.asm`
-- **wChannelReturnAddresses** (11 connections) — `ram/wram.asm`
-- **6. Subsistema de audio** (7 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **audio/notes.asm** (6 connections) — `audio/notes.asm`
-- **6.5 Gritos de Pokemon** (5 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **wChannelNoteDelayCountersFractionalPart** (5 connections) — `ram/wram.asm`
-- **Music_DoLowHealthAlarm** (3 connections) — `audio/low_health_alarm.asm`
-- **6.6 Estado persistente do motor** (3 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **audio/low_health_alarm.asm** (3 connections) — `audio/low_health_alarm.asm`
-- **audio/play_battle_music.asm** (3 connections) — `audio/play_battle_music.asm`
-- **wAudioROMBank** (3 connections) — `ram/wram.asm`
-- **wAudioSavedROMBank** (3 connections) — `ram/wram.asm`
-- **wMuteAudioAndPauseMusic** (3 connections) — `ram/wram.asm`
-- **6.2 Canais e concorrencia** (2 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **6.3 Linguagem de comandos** (2 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **audio/wave_samples.asm** (2 connections) — `audio/wave_samples.asm`
-- **wDisableChannelOutputWhenSfxEnds** (2 connections) — `ram/wram.asm`
-- **wFrequencyModifier** (2 connections) — `ram/wram.asm`
-- **wMusicTempo** (2 connections) — `ram/wram.asm`
-- **wNewSoundID** (2 connections) — `ram/wram.asm`
-- **wSavedVolume** (2 connections) — `ram/wram.asm`
-- **wSfxHeaderPointer** (2 connections) — `ram/wram.asm`
-- *... and 5 more nodes in this community*
+- **wChannelFlags1** (38 connections) — `ram/wram.asm`
+- **Audio1_PlaySound** (30 connections) — `audio/engine_1.asm`
+- **Audio2_PlaySound** (30 connections) — `audio/engine_2.asm`
+- **Audio3_PlaySound** (30 connections) — `audio/engine_3.asm`
+- **wChannelNoteDelayCounters** (17 connections) — `ram/wram.asm`
+- **Audio1_ApplyMusicAffects** (14 connections) — `audio/engine_1.asm`
+- **Audio2_ApplyMusicAffects** (14 connections) — `audio/engine_2.asm`
+- **Audio3_ApplyMusicAffects** (14 connections) — `audio/engine_3.asm`
+- **wChannelPitchSlideTargetFrequencyHighBytes** (14 connections) — `ram/wram.asm`
+- **wChannelPitchSlideTargetFrequencyLowBytes** (14 connections) — `ram/wram.asm`
+- **wChannelVibratoDelayCounters** (14 connections) — `ram/wram.asm`
+- **Audio1_InitPitchSlideVars** (12 connections) — `audio/engine_1.asm`
+- **Audio2_InitPitchSlideVars** (12 connections) — `audio/engine_2.asm`
+- **Audio3_InitPitchSlideVars** (12 connections) — `audio/engine_3.asm`
+- **Audio1_ApplyPitchSlide** (11 connections) — `audio/engine_1.asm`
+- **Audio2_ApplyPitchSlide** (11 connections) — `audio/engine_2.asm`
+- **Audio3_ApplyPitchSlide** (11 connections) — `audio/engine_3.asm`
+- **wChannelDutyCyclePatterns** (11 connections) — `ram/wram.asm`
+- **wChannelFrequencyLowBytes** (11 connections) — `ram/wram.asm`
+- **wChannelPitchSlideCurrentFrequencyFractionalPart** (11 connections) — `ram/wram.asm`
+- **wChannelPitchSlideCurrentFrequencyHighBytes** (11 connections) — `ram/wram.asm`
+- **wChannelPitchSlideCurrentFrequencyLowBytes** (11 connections) — `ram/wram.asm`
+- **wChannelPitchSlideFrequencySteps** (11 connections) — `ram/wram.asm`
+- **wChannelPitchSlideFrequencyStepsFractionalPart** (11 connections) — `ram/wram.asm`
+- **wChannelPitchSlideLengthModifiers** (11 connections) — `ram/wram.asm`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Ram 2](Ram_2.md) (21 shared connections)
-- [Audio Engine 1.Asm](Audio_Engine_1.Asm.md) (7 shared connections)
-- [Scripts 5](Scripts_5.md) (6 shared connections)
-- [Bank ROM0](Bank_ROM0.md) (3 shared connections)
-- [Audio Engine 1.Asm 2](Audio_Engine_1.Asm_2.md) (2 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
-- [Ram](Ram.md) (1 shared connections)
-- [Scripts 21](Scripts_21.md) (1 shared connections)
-- [Audio Engine 2.Asm](Audio_Engine_2.Asm.md) (1 shared connections)
-- [Audio Engine 3.Asm](Audio_Engine_3.Asm.md) (1 shared connections)
-- [Audio Sfx 2](Audio_Sfx_2.md) (1 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (1 shared connections)
+- [Audio Engine 1.Asm](Audio_Engine_1.Asm.md) (17 shared connections)
+- [Audio Engine 3.Asm](Audio_Engine_3.Asm.md) (11 shared connections)
+- [Home 4](Home_4.md) (6 shared connections)
+- [Audio Engine 2.Asm](Audio_Engine_2.Asm.md) (5 shared connections)
+- [Audio Headers 3](Audio_Headers_3.md) (1 shared connections)
+- [Audio Headers](Audio_Headers.md) (1 shared connections)
+- [Audio Headers 2](Audio_Headers_2.md) (1 shared connections)
 
 ## Source Files
 
-- `audio/low_health_alarm.asm`
-- `audio/notes.asm`
-- `audio/play_battle_music.asm`
-- `audio/wave_samples.asm`
-- `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
+- `audio/engine_1.asm`
+- `audio/engine_2.asm`
+- `audio/engine_3.asm`
 - `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (100%)
+- EXTRACTED: 182 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **audio/sfx/unused_fanfare.asm** (5 connections) — `audio/sfx/unused_fanfare.asm`
-- **SFX_UnusedFanfare_Ch5** (1 connections) — `audio/sfx/unused_fanfare.asm`
-- **SFX_UnusedFanfare_Ch6** (1 connections) — `audio/sfx/unused_fanfare.asm`
-- **SFX_UnusedFanfare_Ch7** (1 connections) — `audio/sfx/unused_fanfare.asm`
+- **audio/sfx/get_item2_1.asm** (5 connections) — `audio/sfx/get_item2_1.asm`
+- **SFX_Get_Item2_1_Ch5** (1 connections) — `audio/sfx/get_item2_1.asm`
+- **SFX_Get_Item2_1_Ch6** (1 connections) — `audio/sfx/get_item2_1.asm`
+- **SFX_Get_Item2_1_Ch7** (1 connections) — `audio/sfx/get_item2_1.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `audio/sfx/unused_fanfare.asm`
+- `audio/sfx/get_item2_1.asm`
 
 ## Audit Trail
 

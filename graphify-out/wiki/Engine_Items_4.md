@@ -1,37 +1,49 @@
 # Engine Items 4
 
-> 9 nodes · cohesion 0.22
+> 15 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **ItemUseSurfboard** (14 connections) — `engine/items/item_effects.asm`
-- **IsNextTileShoreOrWater** (5 connections) — `engine/items/item_effects.asm`
-- **SurfingAttemptFailed** (3 connections) — `engine/items/item_effects.asm`
-- **data/tilesets/water_tilesets.asm** (3 connections) — `data/tilesets/water_tilesets.asm`
-- **WaterTilesets** (2 connections) — `data/tilesets/water_tilesets.asm`
-- **NoSurfingHereText** (2 connections) — `engine/items/item_effects.asm`
-- **SurfingGotOnText** (2 connections) — `engine/items/item_effects.asm`
-- **SurfingNoPlaceToGetOffText** (2 connections) — `engine/items/item_effects.asm`
-- **CheckForTilePairCollisions** (2 connections) — `home/overworld.asm`
+- **Random** (25 connections) — `home/random.asm`
+- **FishingInit** (10 connections) — `engine/items/item_effects.asm`
+- **ItemUseGoodRod** (7 connections) — `engine/items/item_effects.asm`
+- **BaitRockCommon** (5 connections) — `engine/items/item_effects.asm`
+- **ItemUseOldRod** (5 connections) — `engine/items/item_effects.asm`
+- **ItemUseSuperRod** (5 connections) — `engine/items/item_effects.asm`
+- **ItemUseText00** (5 connections) — `engine/items/item_effects.asm`
+- **ReadSuperRodData** (5 connections) — `engine/items/item_effects.asm`
+- **RodResponse** (5 connections) — `engine/items/item_effects.asm`
+- **data/wild/good_rod.asm** (4 connections) — `data/wild/good_rod.asm`
+- **data/wild/super_rod.asm** (4 connections) — `data/wild/super_rod.asm`
+- **wWalkBikeSurfState** (4 connections) — `ram/wram.asm`
+- **UpdateSpriteInWalkingAnimation** (3 connections) — `engine/overworld/movement.asm`
+- **GoodRodMons** (2 connections) — `data/wild/good_rod.asm`
+- **SuperRodData** (2 connections) — `data/wild/super_rod.asm`
 
 ## Relationships
 
-- [Scripts 5](Scripts_5.md) (3 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (3 shared connections)
+- [Engine Items 3](Engine_Items_3.md) (3 shared connections)
+- [Engine Battle 12](Engine_Battle_12.md) (1 shared connections)
+- [Engine Items 6](Engine_Items_6.md) (1 shared connections)
+- [Engine Items 7](Engine_Items_7.md) (1 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 - [Engine Battle](Engine_Battle.md) (1 shared connections)
-- [Ram 4](Ram_4.md) (1 shared connections)
-- [Home 2](Home_2.md) (1 shared connections)
-- [Scripts](Scripts.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
+- [Docs 5](Docs_5.md) (1 shared connections)
 
 ## Source Files
 
-- `data/tilesets/water_tilesets.asm`
+- `data/wild/good_rod.asm`
+- `data/wild/super_rod.asm`
 - `engine/items/item_effects.asm`
-- `home/overworld.asm`
+- `engine/overworld/movement.asm`
+- `home/random.asm`
+- `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

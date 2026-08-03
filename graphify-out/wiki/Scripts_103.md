@@ -1,32 +1,25 @@
 # Scripts 103
 
-> 10 nodes · cohesion 0.20
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **scripts/CeladonMansion3F.asm** (12 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3F_Script** (2 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3F_TextPointers** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FDevRoomSignText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FGameProgramPCText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FGameScriptPCText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FGraphicArtistText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FPlayingGamePCText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FProgrammerText** (1 connections) — `scripts/CeladonMansion3F.asm`
-- **CeladonMansion3FWriterText** (1 connections) — `scripts/CeladonMansion3F.asm`
+- **scripts/Colosseum.asm** (5 connections) — `scripts/Colosseum.asm`
+- **Colosseum_Script** (2 connections) — `scripts/Colosseum.asm`
+- **Colosseum_TextPointers** (1 connections) — `scripts/Colosseum.asm`
+- **ColosseumOpponentText** (1 connections) — `scripts/Colosseum.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CeladonMansion3F.asm`
+- `scripts/Colosseum.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

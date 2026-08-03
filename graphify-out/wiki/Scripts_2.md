@@ -1,77 +1,77 @@
 # Scripts 2
 
-> 84 nodes · cohesion 0.07
+> 151 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **22. Inventario das maquinas de estado dos mapas** (200 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **DisplayTextID** (109 connections) — `home/text_script.asm`
-- **23. Inventario de chamadas de movimento roteirizado** (67 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **StartSimulatingJoypadStates** (40 connections) — `home/map_objects.asm`
-- **ArePlayerCoordsInArray** (34 connections) — `home/map_objects.asm`
-- **CheckFightingMapTrainers** (28 connections) — `home/trainers.asm`
-- **wSimulatedJoypadStatesEnd** (25 connections) — `ram/wram.asm`
-- **scripts/SafariZoneGate.asm** (20 connections) — `scripts/SafariZoneGate.asm`
-- **DecodeRLEList** (16 connections) — `home/map_objects.asm`
-- **wStatusFlags7** (15 connections) — `ram/wram.asm`
-- **MtMoonB2FMoveSuperNerdScript** (11 connections) — `scripts/MtMoonB2F.asm`
-- **PokemonTower5FDefaultScript** (11 connections) — `scripts/PokemonTower5F.asm`
-- **SilphCo7FDefaultScript** (11 connections) — `scripts/SilphCo7F.asm`
-- **AgathasRoomDefaultScript** (9 connections) — `scripts/AgathasRoom.asm`
-- **BrunosRoomDefaultScript** (9 connections) — `scripts/BrunosRoom.asm`
-- **GameCornerRocketBattleScript** (9 connections) — `scripts/GameCorner.asm`
-- **LoreleisRoomDefaultScript** (9 connections) — `scripts/LoreleisRoom.asm`
-- **OaksLabPlayerEntersLabScript** (9 connections) — `scripts/OaksLab.asm`
-- **RocketHideoutB2FDefaultScript** (9 connections) — `scripts/RocketHideoutB2F.asm`
-- **RocketHideoutB3FDefaultScript** (9 connections) — `scripts/RocketHideoutB3F.asm`
-- **Route16Gate1FDefaultScript** (9 connections) — `scripts/Route16Gate1F.asm`
-- **Route18Gate1FDefaultScript** (9 connections) — `scripts/Route18Gate1F.asm`
-- **SafariZoneEntranceAutoWalk** (9 connections) — `scripts/SafariZoneGate.asm`
-- **SilphCo11FDefaultScript** (9 connections) — `scripts/SilphCo11F.asm`
-- **ViridianGymDefaultScript** (9 connections) — `scripts/ViridianGym.asm`
-- *... and 59 more nodes in this community*
+- **PrintText** (360 connections) — `home/window.asm`
+- **GiveItem** (49 connections) — `home/give.asm`
+- **ItemUseBall** (47 connections) — `engine/items/item_effects.asm`
+- **YesNoChoice** (43 connections) — `home/yes_no.asm`
+- **DisplayPokemartDialogue_** (36 connections) — `engine/events/pokemart.asm`
+- **VendingMachineMenu** (24 connections) — `engine/events/vending_machine.asm`
+- **engine/menus/players_pc.asm** (23 connections) — `engine/menus/players_pc.asm`
+- **PlayerPCMenu** (21 connections) — `engine/menus/players_pc.asm`
+- **wPlayerMoney** (19 connections) — `ram/wram.asm`
+- **PlayerPCDeposit** (18 connections) — `engine/menus/players_pc.asm`
+- **PlayerPCWithdraw** (18 connections) — `engine/menus/players_pc.asm`
+- **DisplayChooseQuantityMenu** (18 connections) — `home/list_menu.asm`
+- **wNumBagItems** (17 connections) — `ram/wram.asm`
+- **OaksAideScript** (15 connections) — `engine/events/oaks_aide.asm`
+- **engine/events/pokemart.asm** (15 connections) — `engine/events/pokemart.asm`
+- **Museum1FScientist1Text** (14 connections) — `scripts/Museum1F.asm`
+- **PlayerPCToss** (13 connections) — `engine/menus/players_pc.asm`
+- **TossItem_** (12 connections) — `engine/items/item_effects.asm`
+- **engine/events/vending_machine.asm** (12 connections) — `engine/events/vending_machine.asm`
+- **SubBCDPredef** (11 connections) — `engine/math/bcd.asm`
+- **RemoveItemFromInventory** (11 connections) — `home/inventory.asm`
+- **HasEnoughMoney** (11 connections) — `home/money.asm`
+- **PrepareNewGameDebug** (10 connections) — `engine/debug/debug_party.asm`
+- **FoundHiddenItemText** (10 connections) — `engine/events/hidden_items.asm`
+- **ThrowBallAtTrainerMon** (10 connections) — `engine/items/item_effects.asm`
+- *... and 126 more nodes in this community*
 
 ## Relationships
 
-- [Home 5](Home_5.md) (40 shared connections)
-- [Scripts 19](Scripts_19.md) (20 shared connections)
-- [Scripts 5](Scripts_5.md) (19 shared connections)
-- [Home](Home.md) (18 shared connections)
-- [Scripts 29](Scripts_29.md) (12 shared connections)
-- [Scripts 65](Scripts_65.md) (12 shared connections)
-- [Scripts 21](Scripts_21.md) (10 shared connections)
-- [Scripts 39](Scripts_39.md) (9 shared connections)
-- [Engine Overworld 3](Engine_Overworld_3.md) (8 shared connections)
-- [Scripts 57](Scripts_57.md) (7 shared connections)
-- [Scripts 7](Scripts_7.md) (7 shared connections)
-- [Scripts 8](Scripts_8.md) (6 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (40 shared connections)
+- [Scripts 4](Scripts_4.md) (36 shared connections)
+- [Engine Battle](Engine_Battle.md) (31 shared connections)
+- [Engine Items](Engine_Items.md) (15 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (7 shared connections)
+- [Engine Menus](Engine_Menus.md) (7 shared connections)
+- [Ram](Ram.md) (6 shared connections)
+- [Home](Home.md) (6 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (6 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (5 shared connections)
+- [Scripts 6](Scripts_6.md) (4 shared connections)
+- [Scripts 13](Scripts_13.md) (4 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `home/map_objects.asm`
-- `home/text_script.asm`
-- `home/trainers.asm`
-- `ram/wram.asm`
-- `scripts/AgathasRoom.asm`
-- `scripts/BillsHouse.asm`
-- `scripts/BrunosRoom.asm`
-- `scripts/CeruleanCity.asm`
-- `scripts/ChampionsRoom.asm`
-- `scripts/CinnabarGym.asm`
-- `scripts/CinnabarIsland.asm`
-- `scripts/FightingDojo.asm`
-- `scripts/GameCorner.asm`
-- `scripts/HallOfFame.asm`
-- `scripts/LoreleisRoom.asm`
-- `scripts/MtMoonB2F.asm`
-- `scripts/Museum1F.asm`
-- `scripts/OaksLab.asm`
-- `scripts/PalletTown.asm`
+- `data/items/vending_prices.asm`
+- `docs/002-2026-08-01-Informações_sobre_Pokemons.md`
+- `engine/battle/core.asm`
+- `engine/debug/debug_party.asm`
+- `engine/events/give_pokemon.asm`
+- `engine/events/hidden_items.asm`
+- `engine/events/oaks_aide.asm`
+- `engine/events/pokemart.asm`
+- `engine/events/vending_machine.asm`
+- `engine/items/item_effects.asm`
+- `engine/items/subtract_paid_money.asm`
+- `engine/math/bcd.asm`
+- `engine/menus/oaks_pc.asm`
+- `engine/menus/pc.asm`
+- `engine/menus/players_pc.asm`
+- `home/compare.asm`
+- `home/give.asm`
+- `home/inventory.asm`
+- `home/item.asm`
+- `home/list_menu.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 538 (100%)
+- EXTRACTED: 525 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,36 +1,34 @@
 # Data Maps 4
 
-> 12 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **LoadSpecialWarpData** (14 connections) — `engine/overworld/special_warps.asm`
-- **data/maps/special_warps.asm** (10 connections) — `data/maps/special_warps.asm`
-- **engine/overworld/special_warps.asm** (5 connections) — `engine/overworld/special_warps.asm`
-- **wCurMap** (3 connections) — `ram/wram.asm`
-- **ColosseumFriendWarp** (2 connections) — `data/maps/special_warps.asm`
-- **ColosseumPlayerWarp** (2 connections) — `data/maps/special_warps.asm`
-- **DungeonWarpData** (2 connections) — `data/maps/special_warps.asm`
-- **DungeonWarpList** (2 connections) — `data/maps/special_warps.asm`
-- **FlyWarpDataPtr** (2 connections) — `data/maps/special_warps.asm`
-- **NewGameWarp** (2 connections) — `data/maps/special_warps.asm`
-- **TradeCenterFriendWarp** (2 connections) — `data/maps/special_warps.asm`
-- **TradeCenterPlayerWarp** (2 connections) — `data/maps/special_warps.asm`
+- **engine/overworld/map_sprites.asm** (11 connections) — `engine/overworld/map_sprites.asm`
+- **InitOutsideMapSprites** (7 connections) — `engine/overworld/map_sprites.asm`
+- **data/maps/sprite_sets.asm** (5 connections) — `data/maps/sprite_sets.asm`
+- **GetSplitMapSpriteSetID** (4 connections) — `engine/overworld/map_sprites.asm`
+- **wSpriteSet** (3 connections) — `ram/wram.asm`
+- **wXCoord** (3 connections) — `ram/wram.asm`
+- **MapSpriteSets** (2 connections) — `data/maps/sprite_sets.asm`
+- **SplitMapSpriteSets** (2 connections) — `data/maps/sprite_sets.asm`
+- **SpriteSets** (2 connections) — `data/maps/sprite_sets.asm`
+- **ReadSpriteSheetData** (2 connections) — `engine/overworld/map_sprites.asm`
 
 ## Relationships
 
-- [Home 2](Home_2.md) (3 shared connections)
-- [Scripts 7](Scripts_7.md) (1 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (3 shared connections)
+- [Bank ROMX](Bank_ROMX.md) (1 shared connections)
 
 ## Source Files
 
-- `data/maps/special_warps.asm`
-- `engine/overworld/special_warps.asm`
+- `data/maps/sprite_sets.asm`
+- `engine/overworld/map_sprites.asm`
 - `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

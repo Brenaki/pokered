@@ -1,49 +1,47 @@
 # Tools
 
-> 46 nodes · cohesion 0.05
+> 33 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **tools/generate_audio_sprite_document.py** (46 connections) — `tools/generate_audio_sprite_document.py`
-- **15. Evidencias de geracao** (5 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **directory_counts** (3 connections) — `tools/generate_audio_sprite_document.py`
-- **music** (3 connections) — `tools/generate_audio_sprite_document.py`
-- **pokemon** (3 connections) — `tools/generate_audio_sprite_document.py`
-- **music_headers** (2 connections) — `tools/generate_audio_sprite_document.py`
-- **sfx** (2 connections) — `tools/generate_audio_sprite_document.py`
-- **sprite** (2 connections) — `tools/generate_npc_ai_document.py`
-- **bank_symbol** (1 connections) — `tools/generate_audio_sprite_document.py`
-- **base** (1 connections) — `tools/generate_audio_sprite_document.py`
-- **channels** (1 connections) — `tools/generate_audio_sprite_document.py`
-- **comment** (1 connections) — `tools/generate_audio_sprite_document.py`
-- **constant_line** (1 connections) — `tools/generate_audio_sprite_document.py`
-- **constants** (1 connections) — `tools/generate_audio_sprite_document.py`
-- **counts** (1 connections) — `tools/generate_audio_sprite_document.py`
-- **cries** (1 connections) — `tools/generate_audio_sprite_document.py`
-- **headers** (1 connections) — `tools/generate_audio_sprite_document.py`
-- **identifier** (1 connections) — `tools/generate_audio_sprite_document.py`
-- **index** (1 connections) — `tools/generate_audio_sprite_document.py`
-- **length** (1 connections) — `tools/generate_audio_sprite_document.py`
-- **line** (1 connections) — `tools/generate_audio_sprite_document.py`
-- **lines** (1 connections) — `tools/generate_audio_sprite_document.py`
-- **map_name** (1 connections) — `tools/generate_audio_sprite_document.py`
-- **map_songs** (1 connections) — `tools/generate_audio_sprite_document.py`
-- **music_id** (1 connections) — `tools/generate_audio_sprite_document.py`
-- *... and 21 more nodes in this community*
+- **tools/generate_pokemon_catalog.py** (33 connections) — `tools/generate_pokemon_catalog.py`
+- **Evolution** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **Species** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **add** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **add_fishing_spawns** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **add_spawn** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **build_document** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **capture_class** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **capture_probability** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **current_commit** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **display_map_stem** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **display_map_symbol** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **evolution_text** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **finish_block** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **format_number** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **growth_name** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **main** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **move_name** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **normalized** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **parse_dex_entries** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **parse_dex_text** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **parse_evolutions** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **parse_move_names** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **parse_roster** (1 connections) — `tools/generate_pokemon_catalog.py`
+- **parse_special_acquisition** (1 connections) — `tools/generate_pokemon_catalog.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Tools 5](Tools_5.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- `tools/generate_audio_sprite_document.py`
-- `tools/generate_npc_ai_document.py`
+- `tools/generate_pokemon_catalog.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

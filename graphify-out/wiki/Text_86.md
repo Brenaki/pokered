@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **text/Route24.asm** (10 connections) — `text/Route24.asm`
-- **_Route24CooltrainerM1DefeatedText** (1 connections) — `text/Route24.asm`
-- **_Route24CooltrainerM1JoinTeamRocketText** (1 connections) — `text/Route24.asm`
-- **_Route24CooltrainerM1NoRoomText** (1 connections) — `text/Route24.asm`
-- **_Route24CooltrainerM1ReceivedNuggetText** (1 connections) — `text/Route24.asm`
-- **_Route24CooltrainerM1YouBeatOurContestText** (1 connections) — `text/Route24.asm`
-- **_Route24CooltrainerM1YouCouldBecomeATopLeaderText** (1 connections) — `text/Route24.asm`
-- **_Route24CooltrainerM1YouJustEarnedAPrizeText** (1 connections) — `text/Route24.asm`
-- **_Route24CooltrainerM2BattleText** (1 connections) — `text/Route24.asm`
+- **text/SilphCo10F.asm** (10 connections) — `text/SilphCo10F.asm`
+- **_SilphCo10FRocketAfterBattleText** (1 connections) — `text/SilphCo10F.asm`
+- **_SilphCo10FRocketBattleText** (1 connections) — `text/SilphCo10F.asm`
+- **_SilphCo10FRocketEndBattleText** (1 connections) — `text/SilphCo10F.asm`
+- **_SilphCo10FScientistAfterBattleText** (1 connections) — `text/SilphCo10F.asm`
+- **_SilphCo10FScientistBattleText** (1 connections) — `text/SilphCo10F.asm`
+- **_SilphCo10FScientistEndBattleText** (1 connections) — `text/SilphCo10F.asm`
+- **_SilphCo10FSilphWorkerFImScaredText** (1 connections) — `text/SilphCo10F.asm`
+- **_SilphCo10FSilphWorkerFQuietAboutMyCryingText** (1 connections) — `text/SilphCo10F.asm`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `text/Route24.asm`
+- `text/SilphCo10F.asm`
 
 ## Audit Trail
 

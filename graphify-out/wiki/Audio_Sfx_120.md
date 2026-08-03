@@ -4,10 +4,10 @@
 
 ## Key Concepts
 
-- **audio/sfx/psybeam.asm** (5 connections) — `audio/sfx/psybeam.asm`
-- **SFX_Psybeam_Ch5** (1 connections) — `audio/sfx/psybeam.asm`
-- **SFX_Psybeam_Ch6** (1 connections) — `audio/sfx/psybeam.asm`
-- **SFX_Psybeam_Ch8** (1 connections) — `audio/sfx/psybeam.asm`
+- **audio/sfx/cry25_2.asm** (5 connections) — `audio/sfx/cry25_2.asm`
+- **SFX_Cry25_2_Ch5** (1 connections) — `audio/sfx/cry25_2.asm`
+- **SFX_Cry25_2_Ch6** (1 connections) — `audio/sfx/cry25_2.asm`
+- **SFX_Cry25_2_Ch8** (1 connections) — `audio/sfx/cry25_2.asm`
 
 ## Relationships
 
@@ -15,7 +15,7 @@
 
 ## Source Files
 
-- `audio/sfx/psybeam.asm`
+- `audio/sfx/cry25_2.asm`
 
 ## Audit Trail
 

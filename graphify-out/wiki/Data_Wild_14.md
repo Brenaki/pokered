@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **data/wild/maps/PokemonTower5F.asm** (3 connections) — `data/wild/maps/PokemonTower5F.asm`
-- **PokemonTower5FWildMons** (2 connections) — `data/wild/maps/PokemonTower5F.asm`
+- **data/wild/maps/PokemonTower3F.asm** (3 connections) — `data/wild/maps/PokemonTower3F.asm`
+- **PokemonTower3FWildMons** (2 connections) — `data/wild/maps/PokemonTower3F.asm`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `data/wild/maps/PokemonTower5F.asm`
+- `data/wild/maps/PokemonTower3F.asm`
 
 ## Audit Trail
 

@@ -1,58 +1,53 @@
 # Scripts 59
 
-> 29 nodes · cohesion 0.08
+> 27 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **scripts/ViridianGym.asm** (72 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymCooltrainerM1Text** (4 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymCooltrainerM3Text** (4 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymHiker2Text** (4 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymHiker3Text** (4 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymRocker2Text** (4 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowTilePlayerMovement** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymTrainerHeader0** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymTrainerHeader3** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymTrainerHeader5** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymTrainerHeader6** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymTrainerHeader7** (2 connections) — `scripts/ViridianGym.asm`
-- **ViridianGym_TextPointers** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement1** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement10** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement11** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement12** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement2** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement3** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement4** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement5** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement6** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement7** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement8** (1 connections) — `scripts/ViridianGym.asm`
-- **ViridianGymArrowMovement9** (1 connections) — `scripts/ViridianGym.asm`
-- *... and 4 more nodes in this community*
+- **scripts/VictoryRoad3F.asm** (28 connections) — `scripts/VictoryRoad3F.asm`
+- **21.67 Mapa `VictoryRoad3F`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **VictoryRoad3F_Script** (6 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF1Text** (4 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF2Text** (4 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM1Text** (4 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM2Text** (4 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCheckBoulderEventScript** (3 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3F_ScriptPointers** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF1AfterBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF1BattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF1EndBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF2AfterBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF2BattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerF2EndBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM1AfterBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM1BattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM1EndBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM2AfterBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM2BattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3FCooltrainerM2EndBattleText** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3TrainerHeader0** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3TrainerHeader1** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3TrainerHeader2** (2 connections) — `scripts/VictoryRoad3F.asm`
+- **VictoryRoad3TrainerHeader3** (2 connections) — `scripts/VictoryRoad3F.asm`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Scripts 64](Scripts_64.md) (24 shared connections)
-- [Scripts](Scripts.md) (5 shared connections)
-- [Home 8](Home_8.md) (5 shared connections)
-- [Scripts 160](Scripts_160.md) (3 shared connections)
-- [Scripts 161](Scripts_161.md) (3 shared connections)
-- [Scripts 162](Scripts_162.md) (2 shared connections)
-- [Scripts 163](Scripts_163.md) (2 shared connections)
-- [Scripts 7](Scripts_7.md) (2 shared connections)
-- [Scripts 164](Scripts_164.md) (2 shared connections)
-- [Scripts 165](Scripts_165.md) (2 shared connections)
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Engine Overworld 3](Engine_Overworld_3.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (4 shared connections)
+- [Scripts 14](Scripts_14.md) (4 shared connections)
+- [Scripts 13](Scripts_13.md) (1 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/ViridianGym.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/VictoryRoad3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 85 (100%)
+- EXTRACTED: 56 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

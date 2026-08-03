@@ -1,76 +1,77 @@
 # Bank VRAM
 
-> 93 nodes · cohesion 0.05
+> 184 nodes · cohesion 0.02
 
 ## Key Concepts
 
+- **DelayFrames** (143 connections) — `home/delay.asm`
+- **Delay3** (117 connections) — `home/palettes.asm`
 - **CopyVideoData** (38 connections) — `home/copy2.asm`
-- **OakSpeech** (37 connections) — `engine/movie/oak_speech/oak_speech.asm`
-- **home/uncompress.asm** (24 connections) — `home/uncompress.asm`
+- **FillMemory** (38 connections) — `home/tilemap.asm`
+- **engine/overworld/player_animations.asm** (28 connections) — `engine/overworld/player_animations.asm`
+- **EnterMapAnim** (24 connections) — `engine/overworld/player_animations.asm`
+- **_LeaveMapAnim** (21 connections) — `engine/overworld/player_animations.asm`
 - **ram/vram.asm** (20 connections) — `ram/vram.asm`
+- **DisplayPokemonCenterDialogue_** (19 connections) — `engine/events/pokecenter.asm`
+- **LoadTradingGFXAndMonNames** (19 connections) — `engine/movie/trade.asm`
+- **FishingAnim** (19 connections) — `engine/overworld/player_animations.asm`
+- **engine/movie/credits.asm** (19 connections) — `engine/movie/credits.asm`
 - **vChars2** (19 connections) — `ram/vram.asm`
 - **vSprites** (18 connections) — `ram/vram.asm`
-- **LoadHpBarAndStatusTilePatterns** (16 connections) — `home/load_font.asm`
+- **VermilionDockSSAnneLeavesScript** (18 connections) — `scripts/VermilionDock.asm`
+- **home/fade.asm** (17 connections) — `home/fade.asm`
+- **AnimationShakeEnemyHUD** (16 connections) — `engine/battle/animations.asm`
 - **vFrontPic** (16 connections) — `ram/vram.asm`
 - **VRAM [VRAM]** (16 connections) — `ram/vram.asm`
-- **EvolveMon** (15 connections) — `engine/movie/evolution.asm`
+- **HallOfFamePC** (15 connections) — `engine/movie/credits.asm`
+- **EmotionBubble** (15 connections) — `engine/overworld/emotion_bubbles.asm`
 - **8.1 Estado logico, viewport e VRAM** (14 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **engine/movie/oak_speech/oak_speech.asm** (14 connections) — `engine/movie/oak_speech/oak_speech.asm`
-- **vChars1** (13 connections) — `ram/vram.asm`
-- **LoadPlayerBackPic** (12 connections) — `engine/battle/core.asm`
-- **HoFLoadPlayerPics** (12 connections) — `engine/movie/hall_of_fame.asm`
-- **sSpriteBuffer1** (12 connections) — `ram/sram.asm`
-- **7.2 Imagens de Pokemon e treinadores** (11 connections) — `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- **vNPCSprites** (11 connections) — `ram/vram.asm`
-- **ScaleSpriteByTwo** (10 connections) — `engine/battle/scale_sprites.asm`
-- **IntroDisplayPicCenteredOrUpperRight** (10 connections) — `engine/movie/oak_speech/oak_speech.asm`
-- **home/pics.asm** (10 connections) — `home/pics.asm`
-- **InterlaceMergeSpriteBuffers** (10 connections) — `home/pics.asm`
-- **SpriteDifferentialDecode** (10 connections) — `home/uncompress.asm`
-- **vBackPic** (10 connections) — `ram/vram.asm`
-- **LoadUncompressedSpriteData** (9 connections) — `home/pics.asm`
-- *... and 68 more nodes in this community*
+- **AnimationShowMonPic** (14 connections) — `engine/battle/animations.asm`
+- **Credits** (14 connections) — `engine/movie/credits.asm`
+- **DisplayCreditsMon** (13 connections) — `engine/movie/credits.asm`
+- *... and 159 more nodes in this community*
 
 ## Relationships
 
-- [Home](Home.md) (10 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (9 shared connections)
-- [Bank ROM0](Bank_ROM0.md) (6 shared connections)
-- [Engine Movie 2](Engine_Movie_2.md) (5 shared connections)
-- [Scripts 5](Scripts_5.md) (4 shared connections)
-- [Bank SRAM](Bank_SRAM.md) (4 shared connections)
-- [Gfx Pics.Asm 6](Gfx_Pics.Asm_6.md) (3 shared connections)
-- [Ram 5](Ram_5.md) (3 shared connections)
-- [Engine Battle 8](Engine_Battle_8.md) (3 shared connections)
-- [Gfx Pics.Asm 3](Gfx_Pics.Asm_3.md) (3 shared connections)
-- [Gfx Font.Asm](Gfx_Font.Asm.md) (3 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (3 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (30 shared connections)
+- [Engine Battle](Engine_Battle.md) (16 shared connections)
+- [Scripts 6](Scripts_6.md) (14 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (12 shared connections)
+- [Ram](Ram.md) (10 shared connections)
+- [Engine Battle 3](Engine_Battle_3.md) (8 shared connections)
+- [Engine Movie 2](Engine_Movie_2.md) (8 shared connections)
+- [Engine Battle 9](Engine_Battle_9.md) (5 shared connections)
+- [Home](Home.md) (5 shared connections)
+- [Scripts 3](Scripts_3.md) (5 shared connections)
+- [Scripts 2](Scripts_2.md) (4 shared connections)
+- [Gfx Trade.Asm](Gfx_Trade.Asm.md) (4 shared connections)
 
 ## Source Files
 
+- `data/credits/credits_mons.asm`
+- `data/credits/credits_order.asm`
+- `data/tilesets/warp_pad_hole_tile_ids.asm`
 - `docs/004-2026-08-01-Audio_Musicas_Efeitos_Sonoros_e_Sprites.md`
-- `engine/battle/battle_transitions.asm`
+- `engine/battle/animations.asm`
 - `engine/battle/core.asm`
 - `engine/battle/ghost_marowak_anim.asm`
-- `engine/battle/scale_sprites.asm`
-- `engine/gfx/load_pokedex_tiles.asm`
-- `engine/movie/evolution.asm`
-- `engine/movie/hall_of_fame.asm`
-- `engine/movie/oak_speech/oak_speech.asm`
+- `engine/events/pokecenter.asm`
+- `engine/gfx/mon_icons.asm`
+- `engine/menus/save.asm`
+- `engine/movie/credits.asm`
+- `engine/movie/trade.asm`
+- `engine/overworld/elevator.asm`
+- `engine/overworld/emotion_bubbles.asm`
+- `engine/overworld/healing_machine.asm`
 - `engine/overworld/player_animations.asm`
+- `gfx/credits/the_end.2bpp`
+- `gfx/overworld/heal_machine.2bpp`
 - `gfx/player.asm`
-- `home/copy2.asm`
-- `home/load_font.asm`
-- `home/pics.asm`
-- `home/pokemon.asm`
-- `home/tilemap.asm`
-- `home/uncompress.asm`
-- `ram/sram.asm`
-- `ram/vram.asm`
+- `gfx/player/red.pic`
 
 ## Audit Trail
 
-- EXTRACTED: 291 (100%)
+- EXTRACTED: 568 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

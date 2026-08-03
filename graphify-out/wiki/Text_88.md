@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **text/SilphCo3F.asm** (10 connections) — `text/SilphCo3F.asm`
-- **_SilphCo3FRocketAfterBattleText** (1 connections) — `text/SilphCo3F.asm`
-- **_SilphCo3FRocketBattleText** (1 connections) — `text/SilphCo3F.asm`
-- **_SilphCo3FRocketEndBattleText** (1 connections) — `text/SilphCo3F.asm`
-- **_SilphCo3FScientistAfterBattleText** (1 connections) — `text/SilphCo3F.asm`
-- **_SilphCo3FScientistBattleText** (1 connections) — `text/SilphCo3F.asm`
-- **_SilphCo3FScientistEndBattleText** (1 connections) — `text/SilphCo3F.asm`
-- **_SilphCo3FSilphWorkerMWhatShouldIDoText** (1 connections) — `text/SilphCo3F.asm`
-- **_SilphCo3FSilphWorkerMYouSavedUsText** (1 connections) — `text/SilphCo3F.asm`
+- **text/SilphCo5F_2.asm** (10 connections) — `text/SilphCo5F_2.asm`
+- **_SilphCo5FPokemonReport1Text** (1 connections) — `text/SilphCo5F_2.asm`
+- **_SilphCo5FPokemonReport2Text** (1 connections) — `text/SilphCo5F_2.asm`
+- **_SilphCo5FPokemonReport3Text** (1 connections) — `text/SilphCo5F_2.asm`
+- **_SilphCo5FRockerAfterBattleText** (1 connections) — `text/SilphCo5F_2.asm`
+- **_SilphCo5FRockerEndBattleText** (1 connections) — `text/SilphCo5F_2.asm`
+- **_SilphCo5FRocket2AfterBattleText** (1 connections) — `text/SilphCo5F_2.asm`
+- **_SilphCo5FRocket2BattleText** (1 connections) — `text/SilphCo5F_2.asm`
+- **_SilphCo5FRocket2EndBattleText** (1 connections) — `text/SilphCo5F_2.asm`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `text/SilphCo3F.asm`
+- `text/SilphCo5F_2.asm`
 
 ## Audit Trail
 

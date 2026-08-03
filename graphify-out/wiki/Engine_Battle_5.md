@@ -1,57 +1,75 @@
 # Engine Battle 5
 
-> 49 nodes · cohesion 0.13
+> 58 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **engine/battle/trainer_ai.asm** (67 connections) — `engine/battle/trainer_ai.asm`
-- **TrainerAIPointers** (23 connections) — `data/trainers/ai_pointers.asm`
-- **7.4 Acoes especiais por treinador** (23 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **7.7 Tabela completa por classe** (20 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **AIPrintItemUse** (11 connections) — `engine/battle/trainer_ai.asm`
-- **AICheckIfHPBelowFraction** (10 connections) — `engine/battle/trainer_ai.asm`
-- **AgathaAI** (7 connections) — `engine/battle/trainer_ai.asm`
-- **AIIncreaseStat** (7 connections) — `engine/battle/trainer_ai.asm`
-- **CooltrainerFAI** (7 connections) — `engine/battle/trainer_ai.asm`
-- **AIPlayRestoringSFX** (6 connections) — `engine/battle/trainer_ai.asm`
-- **AIPrintItemUseAndUpdateHPBar** (6 connections) — `engine/battle/trainer_ai.asm`
-- **AISwitchIfEnoughMons** (6 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseSuperPotion** (6 connections) — `engine/battle/trainer_ai.asm`
-- **ErikaAI** (6 connections) — `engine/battle/trainer_ai.asm`
-- **LanceAI** (6 connections) — `engine/battle/trainer_ai.asm`
-- **LoreleiAI** (6 connections) — `engine/battle/trainer_ai.asm`
-- **Rival2AI** (6 connections) — `engine/battle/trainer_ai.asm`
-- **Rival3AI** (6 connections) — `engine/battle/trainer_ai.asm`
-- **SabrinaAI** (6 connections) — `engine/battle/trainer_ai.asm`
-- **SwitchEnemyMon** (6 connections) — `engine/battle/trainer_ai.asm`
-- **AICureStatus** (5 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseFullHeal** (5 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseFullRestore** (5 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseGuardSpec** (5 connections) — `engine/battle/trainer_ai.asm`
-- **AIUseXAttack** (5 connections) — `engine/battle/trainer_ai.asm`
-- *... and 24 more nodes in this community*
+- **engine/battle** (40 connections)
+- **SubstituteEffect_** (14 connections) — `engine/battle/move_effects/substitute.asm`
+- **HealEffect_** (11 connections) — `engine/battle/move_effects/heal.asm`
+- **LeechSeedEffect_** (7 connections) — `engine/battle/move_effects/leech_seed.asm`
+- **PayDayEffect_** (7 connections) — `engine/battle/move_effects/pay_day.asm`
+- **FocusEnergyEffect_** (6 connections) — `engine/battle/move_effects/focus_energy.asm`
+- **RecoilEffect_** (6 connections) — `engine/battle/move_effects/recoil.asm`
+- **TryDoWildEncounter** (6 connections) — `engine/battle/wild_encounters.asm`
+- **engine/battle/move_effects/heal.asm** (6 connections) — `engine/battle/move_effects/heal.asm`
+- **engine/battle/move_effects/substitute.asm** (6 connections) — `engine/battle/move_effects/substitute.asm`
+- **wCanEvolveFlags** (6 connections) — `ram/wram.asm`
+- **MistEffect_** (5 connections) — `engine/battle/move_effects/mist.asm`
+- **LoadWildData** (5 connections) — `engine/overworld/wild_mons.asm`
+- **engine/battle/move_effects/leech_seed.asm** (5 connections) — `engine/battle/move_effects/leech_seed.asm`
+- **wPartyAndBillsPCSavedMenuItem** (5 connections) — `ram/wram.asm`
+- **InitBattleVariables** (4 connections) — `engine/battle/init_battle_variables.asm`
+- **ParalyzeEffect_** (4 connections) — `engine/battle/move_effects/paralyze.asm`
+- **SaveTrainerName** (4 connections) — `engine/battle/save_trainer_name.asm`
+- **data/wild/probabilities.asm** (4 connections) — `data/wild/probabilities.asm`
+- **engine/battle/move_effects/focus_energy.asm** (4 connections) — `engine/battle/move_effects/focus_energy.asm`
+- **engine/battle/move_effects/mist.asm** (4 connections) — `engine/battle/move_effects/mist.asm`
+- **engine/battle/move_effects/pay_day.asm** (4 connections) — `engine/battle/move_effects/pay_day.asm`
+- **engine/battle/move_effects/recoil.asm** (4 connections) — `engine/battle/move_effects/recoil.asm`
+- **engine/battle/save_trainer_name.asm** (4 connections) — `engine/battle/save_trainer_name.asm`
+- **engine/battle/wild_encounters.asm** (4 connections) — `engine/battle/wild_encounters.asm`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Bank WRAM0](Bank_WRAM0.md) (12 shared connections)
-- [Engine Overworld 5](Engine_Overworld_5.md) (7 shared connections)
-- [Engine Battle 2](Engine_Battle_2.md) (6 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (2 shared connections)
-- [Engine Battle](Engine_Battle.md) (1 shared connections)
-- [Engine Pokemon 2](Engine_Pokemon_2.md) (1 shared connections)
-- [Data Trainers](Data_Trainers.md) (1 shared connections)
+- [Engine Battle 2](Engine_Battle_2.md) (15 shared connections)
+- [Engine Battle](Engine_Battle.md) (9 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (7 shared connections)
+- [Scripts 2](Scripts_2.md) (7 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (4 shared connections)
+- [Bank ROMX](Bank_ROMX.md) (3 shared connections)
+- [Engine Battle 13](Engine_Battle_13.md) (2 shared connections)
+- [Engine Menus](Engine_Menus.md) (2 shared connections)
+- [Engine Gfx 2](Engine_Gfx_2.md) (2 shared connections)
+- [Engine Battle 3](Engine_Battle_3.md) (1 shared connections)
+- [Engine Battle 6](Engine_Battle_6.md) (1 shared connections)
+- [Engine Battle 8](Engine_Battle_8.md) (1 shared connections)
 
 ## Source Files
 
-- `data/trainers/ai_pointers.asm`
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `engine/battle/trainer_ai.asm`
+- `data/trainers/name_pointers.asm`
+- `data/wild/probabilities.asm`
+- `engine/battle/get_trainer_name.asm`
+- `engine/battle/init_battle_variables.asm`
+- `engine/battle/link_battle_versus_text.asm`
+- `engine/battle/move_effects/focus_energy.asm`
+- `engine/battle/move_effects/heal.asm`
+- `engine/battle/move_effects/leech_seed.asm`
+- `engine/battle/move_effects/mist.asm`
+- `engine/battle/move_effects/one_hit_ko.asm`
+- `engine/battle/move_effects/paralyze.asm`
+- `engine/battle/move_effects/pay_day.asm`
+- `engine/battle/move_effects/recoil.asm`
+- `engine/battle/move_effects/substitute.asm`
+- `engine/battle/save_trainer_name.asm`
+- `engine/battle/wild_encounters.asm`
+- `engine/overworld/wild_mons.asm`
 - `ram/wram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 189 (100%)
+- EXTRACTED: 137 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,53 +1,54 @@
 # Scripts 31
 
-> 43 nodes · cohesion 0.08
+> 46 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **scripts/Route16.asm** (45 connections) — `scripts/Route16.asm`
-- **21.35 Mapa `Route16`** (19 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **Route16SnorlaxPostBattleScript** (6 connections) — `scripts/Route16.asm`
-- **Route16_Script** (5 connections) — `scripts/Route16.asm`
-- **Route16Biker1Text** (4 connections) — `scripts/Route16.asm`
-- **Route16Biker2Text** (4 connections) — `scripts/Route16.asm`
-- **Route16Biker3Text** (4 connections) — `scripts/Route16.asm`
-- **Route16Biker4Text** (4 connections) — `scripts/Route16.asm`
-- **Route16Biker5Text** (4 connections) — `scripts/Route16.asm`
-- **Route16Biker6Text** (4 connections) — `scripts/Route16.asm`
-- **Route16_ScriptPointers** (2 connections) — `scripts/Route16.asm`
-- **Route16Biker1AfterBattleText** (2 connections) — `scripts/Route16.asm`
-- **Route16Biker1BattleText** (2 connections) — `scripts/Route16.asm`
-- **Route16Biker1EndBattleText** (2 connections) — `scripts/Route16.asm`
-- **Route16Biker2AfterBattleText** (2 connections) — `scripts/Route16.asm`
-- **Route16Biker2BattleText** (2 connections) — `scripts/Route16.asm`
-- **Route16Biker2EndBattleText** (2 connections) — `scripts/Route16.asm`
-- **Route16Biker3AfterBattleText** (2 connections) — `scripts/Route16.asm`
-- **Route16Biker3BattleText** (2 connections) — `scripts/Route16.asm`
-- **Route16Biker3EndBattleText** (2 connections) — `scripts/Route16.asm`
-- **Route16Biker4AfterBattleText** (2 connections) — `scripts/Route16.asm`
-- **Route16biker4BattleText** (2 connections) — `scripts/Route16.asm`
-- **Route16Biker4EndBattleText** (2 connections) — `scripts/Route16.asm`
-- **Route16Biker5AfterBattleText** (2 connections) — `scripts/Route16.asm`
-- **Route16Biker5BattleText** (2 connections) — `scripts/Route16.asm`
-- *... and 18 more nodes in this community*
+- **scripts/CeladonGym.asm** (48 connections) — `scripts/CeladonGym.asm`
+- **21.3 Mapa `CeladonGym`** (22 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **CeladonGym_Script** (7 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymBeauty1Text** (4 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymBeauty2Text** (4 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymBeauty3Text** (4 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymCooltrainerF1Text** (4 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymCooltrainerF2Text** (4 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymCooltrainerF3Text** (4 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymCooltrainerF4Text** (4 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymErikaPostBattleScript** (3 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymResetScripts** (3 connections) — `scripts/CeladonGym.asm`
+- **CeladonGym_ScriptPointers** (2 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymAfterBattleText2** (2 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymAfterBattleText3** (2 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymAfterBattleText4** (2 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymAfterBattleText5** (2 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymAfterBattleText6** (2 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymAfterBattleText7** (2 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymAfterBattleText8** (2 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymBattleText2** (2 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymBattleText3** (2 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymBattleText4** (2 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymBattleText5** (2 connections) — `scripts/CeladonGym.asm`
+- **CeladonGymBattleText6** (2 connections) — `scripts/CeladonGym.asm`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (6 shared connections)
-- [Home 8](Home_8.md) (6 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Home](Home.md) (2 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (7 shared connections)
+- [Scripts 14](Scripts_14.md) (7 shared connections)
+- [Scripts 10](Scripts_10.md) (2 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/Route16.asm`
+- `scripts/CeladonGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 86 (100%)
+- EXTRACTED: 95 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

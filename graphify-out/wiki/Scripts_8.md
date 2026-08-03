@@ -1,68 +1,65 @@
 # Scripts 8
 
-> 62 nodes · cohesion 0.06
+> 73 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **scripts/GameCorner.asm** (35 connections) — `scripts/GameCorner.asm`
-- **HandlePrizeChoice** (21 connections) — `engine/events/prize_menu.asm`
-- **engine/events/prize_menu.asm** (20 connections) — `engine/events/prize_menu.asm`
-- **IsItemInBag** (20 connections) — `home/map_objects.asm`
-- **wPlayerCoins** (17 connections) — `ram/wram.asm`
-- **CeladonPrizeMenu** (14 connections) — `engine/events/prize_menu.asm`
-- **AddBCDPredef** (14 connections) — `engine/math/bcd.asm`
-- **GameCornerClerk1Text** (14 connections) — `scripts/GameCorner.asm`
-- **GameCornerDrawCoinBox** (14 connections) — `scripts/GameCorner.asm`
-- **HiddenCoins** (11 connections) — `engine/events/hidden_items.asm`
-- **GetQuantityOfItemInBag** (11 connections) — `engine/items/get_bag_item_quantity.asm`
-- **hCoins** (9 connections) — `ram/hram.asm`
-- **GameCornerClerk2Text** (9 connections) — `scripts/GameCorner.asm`
-- **GameCornerFishingGuruText** (9 connections) — `scripts/GameCorner.asm`
-- **GameCornerGentlemanText** (9 connections) — `scripts/GameCorner.asm`
-- **PrintPrizePrice** (8 connections) — `engine/events/prize_menu.asm`
-- **scripts/CeruleanTrashedHouse.asm** (7 connections) — `scripts/CeruleanTrashedHouse.asm`
-- **HasEnoughCoins** (6 connections) — `home/money.asm`
-- **GameCorner_Script** (6 connections) — `scripts/GameCorner.asm`
-- **Has9990Coins** (6 connections) — `scripts/GameCorner.asm`
-- **GameCornerGymGuideText** (5 connections) — `scripts/GameCorner.asm`
-- **data/events/prize_mon_levels.asm** (4 connections) — `data/events/prize_mon_levels.asm`
-- **CeruleanTrashedHouseFishingGuruText** (4 connections) — `scripts/CeruleanTrashedHouse.asm`
-- **GameCornerOopsForgotCoinCaseText** (4 connections) — `scripts/GameCorner.asm`
-- **GameCornerSelectLuckySlotMachine** (4 connections) — `scripts/GameCorner.asm`
-- *... and 37 more nodes in this community*
+- **CallFunctionInTable** (34 connections) — `home/array2.asm`
+- **scripts/VermilionCity.asm** (23 connections) — `scripts/VermilionCity.asm`
+- **scripts/PalletTown.asm** (19 connections) — `scripts/PalletTown.asm`
+- **scripts/BluesHouse.asm** (15 connections) — `scripts/BluesHouse.asm`
+- **scripts/ViridianMart.asm** (15 connections) — `scripts/ViridianMart.asm`
+- **scripts/HallOfFame.asm** (12 connections) — `scripts/HallOfFame.asm`
+- **BluesHouseDaisySittingText** (10 connections) — `scripts/BluesHouse.asm`
+- **scripts/RedsHouse2F.asm** (7 connections) — `scripts/RedsHouse2F.asm`
+- **VermilionCity_Script** (7 connections) — `scripts/VermilionCity.asm`
+- **VermilionCitySailor1Text** (5 connections) — `scripts/VermilionCity.asm`
+- **ViridianMart_Script** (5 connections) — `scripts/ViridianMart.asm`
+- **ViridianMart_TextPointers** (5 connections) — `scripts/ViridianMart.asm`
+- **BluesHouse_Script** (4 connections) — `scripts/BluesHouse.asm`
+- **ChampionsRoom_Script** (4 connections) — `scripts/ChampionsRoom.asm`
+- **HallOfFame_Script** (4 connections) — `scripts/HallOfFame.asm`
+- **PalletTown_Script** (4 connections) — `scripts/PalletTown.asm`
+- **RedsHouse2F_Script** (4 connections) — `scripts/RedsHouse2F.asm`
+- **ViridianMartCheckParcelDeliveredScript** (4 connections) — `scripts/ViridianMart.asm`
+- **PalletTownDaisyScript** (3 connections) — `scripts/PalletTown.asm`
+- **VermilionCityGambler1Text** (3 connections) — `scripts/VermilionCity.asm`
+- **VermilionCityPlayerMovingUp1Script** (3 connections) — `scripts/VermilionCity.asm`
+- **BluesHouse_ScriptPointers** (2 connections) — `scripts/BluesHouse.asm`
+- **BluesHouseDaisyBagFullText** (2 connections) — `scripts/BluesHouse.asm`
+- **BluesHouseDaisyOfferMapText** (2 connections) — `scripts/BluesHouse.asm`
+- **BluesHouseDaisyRivalAtLabText** (2 connections) — `scripts/BluesHouse.asm`
+- *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (18 shared connections)
-- [Engine Events](Engine_Events.md) (7 shared connections)
-- [Home](Home.md) (6 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (5 shared connections)
+- [Scripts 3](Scripts_3.md) (11 shared connections)
+- [Scripts](Scripts.md) (7 shared connections)
+- [Scripts 2](Scripts_2.md) (4 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (3 shared connections)
 - [Scripts 4](Scripts_4.md) (3 shared connections)
-- [Engine Movie 2](Engine_Movie_2.md) (3 shared connections)
-- [Scripts 19](Scripts_19.md) (3 shared connections)
-- [Data Events](Data_Events.md) (2 shared connections)
-- [Ram](Ram.md) (2 shared connections)
-- [Bank ROM0](Bank_ROM0.md) (2 shared connections)
-- [Engine Link](Engine_Link.md) (2 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (2 shared connections)
+- [Scripts 13](Scripts_13.md) (2 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (1 shared connections)
+- [Engine Items 4](Engine_Items_4.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Engine Slots 2](Engine_Slots_2.md) (1 shared connections)
 
 ## Source Files
 
-- `data/events/prize_mon_levels.asm`
-- `engine/events/hidden_items.asm`
-- `engine/events/prize_menu.asm`
-- `engine/items/get_bag_item_quantity.asm`
-- `engine/math/bcd.asm`
-- `home/map_objects.asm`
-- `home/money.asm`
-- `ram/hram.asm`
-- `ram/wram.asm`
-- `scripts/CeruleanTrashedHouse.asm`
-- `scripts/GameCorner.asm`
+- `home/array2.asm`
+- `scripts/BluesHouse.asm`
+- `scripts/ChampionsRoom.asm`
+- `scripts/HallOfFame.asm`
+- `scripts/PalletTown.asm`
+- `scripts/RedsHouse2F.asm`
+- `scripts/VermilionCity.asm`
+- `scripts/ViridianMart.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 178 (100%)
+- EXTRACTED: 126 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

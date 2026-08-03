@@ -1,59 +1,55 @@
 # Scripts 36
 
-> 39 nodes · cohesion 0.08
+> 42 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **scripts/SilphCo7F.asm** (45 connections) — `scripts/SilphCo7F.asm`
-- **21.61 Mapa `SilphCo7F`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **SilphCo7FRivalStartBattleScript** (9 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7F_GateCallbackScript** (6 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7F_Script** (6 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7F_SetCardKeyDoorYScript** (4 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRocket1Text** (4 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRocket2Text** (4 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRocket3Text** (4 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FScientistText** (4 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRivalText** (3 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FSilphWorkerM2Text** (3 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FSilphWorkerM3Text** (3 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FSilphWorkerM4Text** (3 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7F_ScriptPointers** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7F_UnlockedDoorEventScript** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRivalDefeatedText** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRivalVictoryText** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRocket1AfterBattleText** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRocket1BattleText** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRocket1EndBattleText** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRocket2AfterBattleText** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRocket2BattleText** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRocket2EndBattleText** (2 connections) — `scripts/SilphCo7F.asm`
-- **SilphCo7FRocket3AfterBattleText** (2 connections) — `scripts/SilphCo7F.asm`
-- *... and 14 more nodes in this community*
+- **scripts/FuchsiaGym.asm** (44 connections) — `scripts/FuchsiaGym.asm`
+- **21.7 Mapa `FuchsiaGym`** (19 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **FuchsiaGym_Script** (7 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker1Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker2Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker3Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker4Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker5Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker6Text** (4 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymGymGuideText** (3 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymKogaPostBattleScript** (3 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymResetScripts** (3 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGym_ScriptPointers** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker1AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker1BattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker1EndBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker2AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker2BattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker2EndBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker3AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker3BattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker3EndBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker4AfterBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker4BattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- **FuchsiaGymRocker4EndBattleText** (2 connections) — `scripts/FuchsiaGym.asm`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (12 shared connections)
-- [Home 8](Home_8.md) (4 shared connections)
-- [Scripts 5](Scripts_5.md) (3 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 7](Scripts_7.md) (2 shared connections)
-- [Home 5](Home_5.md) (1 shared connections)
-- [Scripts 44](Scripts_44.md) (1 shared connections)
-- [Engine Overworld 8](Engine_Overworld_8.md) (1 shared connections)
-- [Scripts 19](Scripts_19.md) (1 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 63](Scripts_63.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (7 shared connections)
+- [Scripts 14](Scripts_14.md) (6 shared connections)
+- [Scripts 10](Scripts_10.md) (2 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Ram](Ram.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/SilphCo7F.asm`
+- `scripts/FuchsiaGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 92 (100%)
+- EXTRACTED: 87 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

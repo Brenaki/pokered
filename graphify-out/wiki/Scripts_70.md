@@ -1,48 +1,46 @@
 # Scripts 70
 
-> 23 nodes · cohesion 0.14
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **scripts/Route18.asm** (23 connections) — `scripts/Route18.asm`
-- **21.37 Mapa `Route18`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **Route18_Script** (5 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM1Text** (4 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM2Text** (4 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM3Text** (4 connections) — `scripts/Route18.asm`
-- **Route18_ScriptPointers** (2 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM1AfterBattleText** (2 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM1BattleText** (2 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM1EndBattleText** (2 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM2AfterBattleText** (2 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM2BattleText** (2 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM2EndBattleText** (2 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM3AfterBattleText** (2 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM3BattleText** (2 connections) — `scripts/Route18.asm`
-- **Route18CooltrainerM3EndBattleText** (2 connections) — `scripts/Route18.asm`
-- **Route18TrainerHeader0** (2 connections) — `scripts/Route18.asm`
-- **Route18TrainerHeader1** (2 connections) — `scripts/Route18.asm`
-- **Route18TrainerHeader2** (2 connections) — `scripts/Route18.asm`
-- **Route18TrainerHeaders** (2 connections) — `scripts/Route18.asm`
-- **Route18_TextPointers** (1 connections) — `scripts/Route18.asm`
-- **Route18CyclingRoadSignText** (1 connections) — `scripts/Route18.asm`
-- **Route18SignText** (1 connections) — `scripts/Route18.asm`
+- **scripts/PokemonTower3F.asm** (21 connections) — `scripts/PokemonTower3F.asm`
+- **21.17 Mapa `PokemonTower3F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **PokemonTower3F_Script** (5 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler1Text** (4 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler2Text** (4 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler3Text** (4 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3F_ScriptPointers** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler1AfterBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler1BattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler1EndBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler2AfterBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler2BattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler2EndBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler3AfterBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler3BattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3FChanneler3EndBattleText** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3TrainerHeader0** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3TrainerHeader1** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3TrainerHeader2** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3TrainerHeaders** (2 connections) — `scripts/PokemonTower3F.asm`
+- **PokemonTower3F_TextPointers** (1 connections) — `scripts/PokemonTower3F.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (3 shared connections)
-- [Home 8](Home_8.md) (3 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (3 shared connections)
+- [Scripts 14](Scripts_14.md) (3 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/Route18.asm`
+- `scripts/PokemonTower3F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 41 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

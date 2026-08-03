@@ -1,53 +1,54 @@
 # Scripts 66
 
-> 24 nodes · cohesion 0.14
+> 24 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **scripts/SilphCo6F.asm** (29 connections) — `scripts/SilphCo6F.asm`
-- **21.60 Mapa `SilphCo6F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **SilphCo4F_SetCardKeyDoorYScript** (6 connections) — `scripts/SilphCo4F.asm`
-- **SilphCo6F_Script** (6 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6F_GateCallbackScript** (5 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket1Text** (4 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket2Text** (4 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FScientistText** (4 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6F_ScriptPointers** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6F_UnlockedDoorEventScript** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket1AfterBattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket1BattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket1EndBattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket2AfterBattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket2BattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FRocket2EndBattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FScientistAfterBattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FScientistBattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6FScientistEndBattleText** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6TrainerHeader0** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6TrainerHeader1** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6TrainerHeader2** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6TrainerHeaders** (2 connections) — `scripts/SilphCo6F.asm`
-- **SilphCo6F_TextPointers** (1 connections) — `scripts/SilphCo6F.asm`
+- **scripts/CeruleanGym.asm** (25 connections) — `scripts/CeruleanGym.asm`
+- **21.5 Mapa `CeruleanGym`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **CeruleanGym_Script** (7 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymReceiveTM11** (7 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymCooltrainerFText** (4 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymSwimmerText** (4 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymGymGuideText** (3 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyPostBattleScript** (3 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymResetScripts** (3 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGym_ScriptPointers** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymAfterBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymAfterBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymEndBattleText1** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymEndBattleText2** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyReceivedCascadeBadgeText** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymTrainerHeader0** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymTrainerHeader1** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymTrainerHeaders** (2 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGym_TextPointers** (1 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyCascadeBadgeInfoText** (1 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyReceivedTM11Text** (1 connections) — `scripts/CeruleanGym.asm`
+- **CeruleanGymMistyTM11NoRoomText** (1 connections) — `scripts/CeruleanGym.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (9 shared connections)
-- [Home 8](Home_8.md) (3 shared connections)
-- [Scripts 63](Scripts_63.md) (1 shared connections)
+- [Scripts 10](Scripts_10.md) (3 shared connections)
+- [Scripts 4](Scripts_4.md) (3 shared connections)
+- [Scripts 14](Scripts_14.md) (2 shared connections)
+- [Scripts 2](Scripts_2.md) (2 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
 - [Ram](Ram.md) (1 shared connections)
-- [Scripts 19](Scripts_19.md) (1 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/SilphCo4F.asm`
-- `scripts/SilphCo6F.asm`
+- `scripts/CeruleanGym.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

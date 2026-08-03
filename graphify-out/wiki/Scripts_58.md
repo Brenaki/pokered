@@ -1,53 +1,51 @@
 # Scripts 58
 
-> 29 nodes · cohesion 0.12
+> 29 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **scripts/Route23.asm** (32 connections) — `scripts/Route23.asm`
-- **Route23CheckForBadgeScript** (15 connections) — `scripts/Route23.asm`
-- **BadgeTextPointers** (9 connections) — `scripts/Route23.asm`
-- **Route23DefaultScript** (6 connections) — `scripts/Route23.asm`
-- **Route23_Script** (5 connections) — `scripts/Route23.asm`
-- **Route23CopyBadgeTextScript** (5 connections) — `scripts/Route23.asm`
-- **Route23MovePlayerDownScript** (4 connections) — `scripts/Route23.asm`
-- **Route23Guard1Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard2Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard3Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard4Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Guard5Text** (3 connections) — `scripts/Route23.asm`
-- **Route23OhThatIsTheBadgeText** (3 connections) — `scripts/Route23.asm`
-- **Route23PrintOhThatsTheBadgeTextScript** (3 connections) — `scripts/Route23.asm`
-- **Route23Swimmer1Text** (3 connections) — `scripts/Route23.asm`
-- **Route23Swimmer2Text** (3 connections) — `scripts/Route23.asm`
-- **CascadeBadgeText** (2 connections) — `scripts/Route23.asm`
-- **EarthBadgeText** (2 connections) — `scripts/Route23.asm`
-- **MarshBadgeText** (2 connections) — `scripts/Route23.asm`
-- **RainbowBadgeText** (2 connections) — `scripts/Route23.asm`
-- **Route23_ScriptPointers** (2 connections) — `scripts/Route23.asm`
-- **Route23GuardsYCoords** (2 connections) — `scripts/Route23.asm`
-- **Route23PlayerMovingScript** (2 connections) — `scripts/Route23.asm`
-- **Route23ResetToDefaultScript** (2 connections) — `scripts/Route23.asm`
-- **SoulBadgeText** (2 connections) — `scripts/Route23.asm`
+- **scripts/ViridianForest.asm** (29 connections) — `scripts/ViridianForest.asm`
+- **21.68 Mapa `ViridianForest`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **ViridianForest_Script** (5 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestYoungster2Text** (4 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestYoungster3Text** (4 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestYoungster4Text** (4 connections) — `scripts/ViridianForest.asm`
+- **ViridianForest_ScriptPointers** (2 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestTrainerHeader0** (2 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestTrainerHeader1** (2 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestTrainerHeader2** (2 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestTrainerHeaders** (2 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestYoungster2AfterBattleText** (2 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestYoungster2BattleText** (2 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestYoungster2EndBattleText** (2 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestYoungster3AfterBattleText** (2 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestYoungster3BattleText** (2 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestYoungster3EndBattleText** (2 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestYoungster4AfterBattleText** (2 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestYoungster4BattleText** (2 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestYoungster4EndBattleText** (2 connections) — `scripts/ViridianForest.asm`
+- **ViridianForest_TextPointers** (1 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestLeavingSignText** (1 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestTrainerTips1Text** (1 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestTrainerTips2Text** (1 connections) — `scripts/ViridianForest.asm`
+- **ViridianForestTrainerTips3Text** (1 connections) — `scripts/ViridianForest.asm`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (11 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (3 shared connections)
-- [Scripts 19](Scripts_19.md) (2 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 29](Scripts_29.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 7](Scripts_7.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (3 shared connections)
+- [Scripts 14](Scripts_14.md) (3 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/Route23.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/ViridianForest.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

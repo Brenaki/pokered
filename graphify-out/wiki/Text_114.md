@@ -1,15 +1,14 @@
 # Text 114
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **text/SafariZoneNorth.asm** (7 connections) — `text/SafariZoneNorth.asm`
-- **_SafariZoneNorthRestHouseSignText** (1 connections) — `text/SafariZoneNorth.asm`
-- **_SafariZoneNorthSignText** (1 connections) — `text/SafariZoneNorth.asm`
-- **_SafariZoneNorthTrainerTips1Text** (1 connections) — `text/SafariZoneNorth.asm`
-- **_SafariZoneNorthTrainerTips2Text** (1 connections) — `text/SafariZoneNorth.asm`
-- **_SafariZoneNorthTrainerTips3Text** (1 connections) — `text/SafariZoneNorth.asm`
+- **text/Route16Gate1F.asm** (6 connections) — `text/Route16Gate1F.asm`
+- **_Route16Gate1FGamblerText** (1 connections) — `text/Route16Gate1F.asm`
+- **_Route16Gate1FGuardCyclingRoadExplanationText** (1 connections) — `text/Route16Gate1F.asm`
+- **_Route16Gate1FGuardNoPedestriansAllowedText** (1 connections) — `text/Route16Gate1F.asm`
+- **_Route16Gate1FGuardWaitUpText** (1 connections) — `text/Route16Gate1F.asm`
 
 ## Relationships
 
@@ -17,11 +16,11 @@
 
 ## Source Files
 
-- `text/SafariZoneNorth.asm`
+- `text/Route16Gate1F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

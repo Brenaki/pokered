@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **text/CinnabarIsland.asm** (8 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandDoorIsLockedText** (1 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandGamblerText** (1 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandGirlText** (1 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandGymSignText** (1 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandPokemonLabSignText** (1 connections) — `text/CinnabarIsland.asm`
-- **_CinnabarIslandSignText** (1 connections) — `text/CinnabarIsland.asm`
+- **text/RocketHideoutB3F.asm** (8 connections) — `text/RocketHideoutB3F.asm`
+- **_RocketHide3AfterBattleText3** (1 connections) — `text/RocketHideoutB3F.asm`
+- **_RocketHideout3BattleText** (1 connections) — `text/RocketHideoutB3F.asm`
+- **_RocketHideout3EndBattleText3** (1 connections) — `text/RocketHideoutB3F.asm`
+- **_RocketHideoutB3FRocket1AfterBattleText** (1 connections) — `text/RocketHideoutB3F.asm`
+- **_RocketHideoutB3FRocket1BattleText** (1 connections) — `text/RocketHideoutB3F.asm`
+- **_RocketHideoutB3FRocket1EndBattleText** (1 connections) — `text/RocketHideoutB3F.asm`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `text/CinnabarIsland.asm`
+- `text/RocketHideoutB3F.asm`
 
 ## Audit Trail
 

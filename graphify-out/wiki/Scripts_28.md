@@ -1,54 +1,51 @@
 # Scripts 28
 
-> 46 nodes · cohesion 0.07
+> 48 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **scripts/SaffronGym.asm** (49 connections) — `scripts/SaffronGym.asm`
-- **21.52 Mapa `SaffronGym`** (22 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **SaffronGym_Script** (7 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler1Text** (4 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler2Text** (4 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler3Text** (4 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymYoungster1Text** (4 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymYoungster2Text** (4 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymYoungster3Text** (4 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymYoungster4Text** (4 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymResetScripts** (3 connections) — `scripts/SaffronGym.asm`
-- **SaffronGym_ScriptPointers** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler1AfterBattleText** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler1BattleText** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler1EndBattleText** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler2AfterBattleText** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler2BattleText** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler2EndBattleText** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler3AfterBattleText** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler3BattleText** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymChanneler3EndBattleText** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymSabrinaPostBattle** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymTrainerHeader0** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymTrainerHeader1** (2 connections) — `scripts/SaffronGym.asm`
-- **SaffronGymTrainerHeader2** (2 connections) — `scripts/SaffronGym.asm`
-- *... and 21 more nodes in this community*
+- **scripts/Route3.asm** (48 connections) — `scripts/Route3.asm`
+- **21.43 Mapa `Route3`** (25 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Route3_Script** (5 connections) — `scripts/Route3.asm`
+- **Route3CooltrainerF1Text** (4 connections) — `scripts/Route3.asm`
+- **Route3CooltrainerF2Text** (4 connections) — `scripts/Route3.asm`
+- **Route3CooltrainerF3Text** (4 connections) — `scripts/Route3.asm`
+- **Route3Youngster1Text** (4 connections) — `scripts/Route3.asm`
+- **Route3Youngster2Text** (4 connections) — `scripts/Route3.asm`
+- **Route3Youngster3Text** (4 connections) — `scripts/Route3.asm`
+- **Route3Youngster4Text** (4 connections) — `scripts/Route3.asm`
+- **Route3Youngster5Text** (4 connections) — `scripts/Route3.asm`
+- **Route3_ScriptPointers** (2 connections) — `scripts/Route3.asm`
+- **Route3CooltrainerF1AfterBattleText** (2 connections) — `scripts/Route3.asm`
+- **Route3CooltrainerF1BattleText** (2 connections) — `scripts/Route3.asm`
+- **Route3CooltrainerF1EndBattleText** (2 connections) — `scripts/Route3.asm`
+- **Route3CooltrainerF2AfterBattleText** (2 connections) — `scripts/Route3.asm`
+- **Route3CooltrainerF2BattleText** (2 connections) — `scripts/Route3.asm`
+- **Route3CooltrainerF2EndBattleText** (2 connections) — `scripts/Route3.asm`
+- **Route3CooltrainerF3AfterBattleText** (2 connections) — `scripts/Route3.asm`
+- **Route3CooltrainerF3BattleText** (2 connections) — `scripts/Route3.asm`
+- **Route3CooltrainerF3EndBattleText** (2 connections) — `scripts/Route3.asm`
+- **Route3TrainerHeader0** (2 connections) — `scripts/Route3.asm`
+- **Route3TrainerHeader1** (2 connections) — `scripts/Route3.asm`
+- **Route3TrainerHeader2** (2 connections) — `scripts/Route3.asm`
+- **Route3TrainerHeader3** (2 connections) — `scripts/Route3.asm`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (8 shared connections)
-- [Home 8](Home_8.md) (7 shared connections)
-- [Scripts 7](Scripts_7.md) (2 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Ram](Ram.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 19](Scripts_19.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (8 shared connections)
+- [Scripts 14](Scripts_14.md) (8 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/SaffronGym.asm`
+- `scripts/Route3.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (100%)
+- EXTRACTED: 98 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

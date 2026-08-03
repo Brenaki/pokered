@@ -1,45 +1,47 @@
 # Engine Events 7
 
-> 20 nodes · cohesion 0.19
+> 18 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **engine/events/pokedex_rating.asm** (21 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingsTable** (18 connections) — `engine/events/pokedex_rating.asm`
-- **DisplayDexRating** (13 connections) — `engine/events/pokedex_rating.asm`
-- **DexCompletionText** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own0To9** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own100To109** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own10To19** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own110To119** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own120To129** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own130To139** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own140To149** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own150To151** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own20To29** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own30To39** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own40To49** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own50To59** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own60To69** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own70To79** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own80To89** (2 connections) — `engine/events/pokedex_rating.asm`
-- **DexRatingText_Own90To99** (2 connections) — `engine/events/pokedex_rating.asm`
+- **engine/events/hidden_events/cinnabar_gym_quiz.asm** (18 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarGymQuiz_AskQuestion** (12 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarQuizQuestions** (8 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarGymQuiz** (6 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarGymQuizCorrectText** (6 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **UpdateCinnabarGymGateTileBlocks_** (6 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarGymGateFlagAction** (4 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **hGymGateIndex** (3 connections) — `ram/hram.asm`
+- **CinnabarGymGateCoords** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarGymQuizIncorrectText** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarGymQuizIntroText** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarQuizQuestionsText1** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarQuizQuestionsText2** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarQuizQuestionsText3** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarQuizQuestionsText4** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarQuizQuestionsText5** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **CinnabarQuizQuestionsText6** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- **PrintCinnabarQuiz** (2 connections) — `engine/events/hidden_events/cinnabar_gym_quiz.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (2 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Engine Items 2](Engine_Items_2.md) (1 shared connections)
-- [Ram](Ram.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (3 shared connections)
+- [Scripts 4](Scripts_4.md) (2 shared connections)
+- [Scripts 6](Scripts_6.md) (2 shared connections)
+- [Engine Pokemon 2](Engine_Pokemon_2.md) (2 shared connections)
+- [Engine Battle](Engine_Battle.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
 
 ## Source Files
 
-- `engine/events/pokedex_rating.asm`
+- `engine/events/hidden_events/cinnabar_gym_quiz.asm`
+- `ram/hram.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

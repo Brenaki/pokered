@@ -1,0 +1,389 @@
+{
+  "protocol_version": 1,
+  "cases": [
+    {
+      "id": "T_ACC_001_NEUTRAL_STAGES_PRESERVE_ACCURACY",
+      "requirements": ["BTL-ACC"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "CalcHitChance",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wPlayerMoveAccuracy", "value": 255},
+          {"symbol": "wPlayerMonAccuracyMod", "value": 7},
+          {"symbol": "wEnemyMonEvasionMod", "value": 7}
+        ]
+      },
+      "observe": {"registers": [], "memory": ["wPlayerMoveAccuracy"]},
+      "expected": {
+        "red": {"memory": {"wPlayerMoveAccuracy": [255]}},
+        "blue": {"memory": {"wPlayerMoveAccuracy": [255]}}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:CalcHitChance",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_ACC_002_MAXIMUM_ACCURACY_CAN_MISS",
+      "requirements": ["T-ACC-001", "BTL-ACC", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "MoveHitTest",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wPlayerMoveEffect", "value": 0},
+          {"symbol": "wEnemyMonStatus", "value": 0},
+          {"symbol": "wEnemyBattleStatus1", "value": 0},
+          {"symbol": "wEnemyBattleStatus2", "value": 0},
+          {"symbol": "wPlayerBattleStatus1", "value": 0},
+          {"symbol": "wPlayerBattleStatus2", "value": 0},
+          {"symbol": "wPlayerMoveAccuracy", "value": 255},
+          {"symbol": "wPlayerMonAccuracyMod", "value": 7},
+          {"symbol": "wEnemyMonEvasionMod", "value": 7},
+          {"symbol": "wDamage", "value": [0, 10]},
+          {"symbol": "wMoveMissed", "value": 0}
+        ]
+      },
+      "rng": [255],
+      "observe": {"registers": [], "memory": ["wPlayerMoveAccuracy", "wDamage:2", "wMoveMissed"]},
+      "expected": {
+        "red": {"memory": {"wPlayerMoveAccuracy": [255], "wDamage:2": [0, 0], "wMoveMissed": [1]}, "rng_consumed": [255]},
+        "blue": {"memory": {"wPlayerMoveAccuracy": [255], "wDamage:2": [0, 0], "wMoveMissed": [1]}, "rng_consumed": [255]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:MoveHitTest",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0",
+        "notes": "Documents the Generation I 1/256 miss at nominal maximum accuracy."
+      }
+    },
+    {
+      "id": "T_ACC_003_ROLL_BELOW_ACCURACY_HITS",
+      "requirements": ["T-ACC-002", "BTL-ACC", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "MoveHitTest",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wPlayerMoveEffect", "value": 0},
+          {"symbol": "wEnemyMonStatus", "value": 0},
+          {"symbol": "wEnemyBattleStatus1", "value": 0},
+          {"symbol": "wEnemyBattleStatus2", "value": 0},
+          {"symbol": "wPlayerBattleStatus1", "value": 0},
+          {"symbol": "wPlayerBattleStatus2", "value": 0},
+          {"symbol": "wPlayerMoveAccuracy", "value": 255},
+          {"symbol": "wPlayerMonAccuracyMod", "value": 7},
+          {"symbol": "wEnemyMonEvasionMod", "value": 7},
+          {"symbol": "wDamage", "value": [0, 10]},
+          {"symbol": "wMoveMissed", "value": 0}
+        ]
+      },
+      "rng": [254],
+      "observe": {"registers": [], "memory": ["wDamage:2", "wMoveMissed"]},
+      "expected": {
+        "red": {"memory": {"wDamage:2": [0, 10], "wMoveMissed": [0]}, "rng_consumed": [254]},
+        "blue": {"memory": {"wDamage:2": [0, 10], "wMoveMissed": [0]}, "rng_consumed": [254]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:MoveHitTest",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_ACC_004_SWIFT_BYPASSES_ACCURACY_AND_EVASION",
+      "requirements": ["T-ACC-003", "BTL-ACC"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "MoveHitTest",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wPlayerMoveEffect", "value": 17},
+          {"symbol": "wPlayerMoveAccuracy", "value": 1},
+          {"symbol": "wPlayerMonAccuracyMod", "value": 1},
+          {"symbol": "wEnemyMonEvasionMod", "value": 13},
+          {"symbol": "wDamage", "value": [0, 10]},
+          {"symbol": "wMoveMissed", "value": 0}
+        ]
+      },
+      "observe": {"registers": [], "memory": ["wPlayerMoveAccuracy", "wDamage:2", "wMoveMissed"]},
+      "expected": {
+        "red": {"memory": {"wPlayerMoveAccuracy": [1], "wDamage:2": [0, 10], "wMoveMissed": [0]}, "rng_consumed": []},
+        "blue": {"memory": {"wPlayerMoveAccuracy": [1], "wDamage:2": [0, 10], "wMoveMissed": [0]}, "rng_consumed": []}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:MoveHitTest",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_RNG_001_MINIMUM_DAMAGE_FACTOR",
+      "requirements": ["T-DMG-003", "BTL-DMG", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "RandomizeDamage",
+      "initial": {"registers": {}, "memory": [{"symbol": "wDamage", "value": [0, 138]}]},
+      "rng": [179],
+      "observe": {"registers": [], "memory": ["wDamage:2"]},
+      "expected": {
+        "red": {"memory": {"wDamage:2": [0, 117]}, "rng_consumed": [179]},
+        "blue": {"memory": {"wDamage:2": [0, 117]}, "rng_consumed": [179]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:RandomizeDamage",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0",
+        "notes": "Raw RNG 179 becomes 217 after RRCA, the minimum accepted factor."
+      }
+    },
+    {
+      "id": "T_RNG_002_REJECTS_FACTOR_BELOW_217",
+      "requirements": ["T-DMG-003", "BTL-DMG", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "RandomizeDamage",
+      "initial": {"registers": {}, "memory": [{"symbol": "wDamage", "value": [0, 138]}]},
+      "rng": [0, 179],
+      "observe": {"registers": [], "memory": ["wDamage:2"]},
+      "expected": {
+        "red": {"memory": {"wDamage:2": [0, 117]}, "rng_consumed": [0, 179]},
+        "blue": {"memory": {"wDamage:2": [0, 117]}, "rng_consumed": [0, 179]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:RandomizeDamage",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_RNG_003_MAXIMUM_DAMAGE_FACTOR",
+      "requirements": ["T-DMG-003", "BTL-DMG", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "RandomizeDamage",
+      "initial": {"registers": {}, "memory": [{"symbol": "wDamage", "value": [0, 138]}]},
+      "rng": [255],
+      "observe": {"registers": [], "memory": ["wDamage:2"]},
+      "expected": {
+        "red": {"memory": {"wDamage:2": [0, 138]}, "rng_consumed": [255]},
+        "blue": {"memory": {"wDamage:2": [0, 138]}, "rng_consumed": [255]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:RandomizeDamage",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_TYP_001_STAB_AND_SUPER_EFFECTIVE_STACK",
+      "requirements": ["T-DMG-002", "T-TYP-001", "T-TYP-002", "BTL-TYP"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "AdjustDamageForMoveType",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wBattleMonType", "value": [20, 20]},
+          {"symbol": "wEnemyMonType", "value": [22, 22]},
+          {"symbol": "wPlayerMoveType", "value": 20},
+          {"symbol": "wDamage", "value": [0, 46]},
+          {"symbol": "wDamageMultipliers", "value": 0},
+          {"symbol": "wMoveMissed", "value": 0}
+        ]
+      },
+      "observe": {"registers": [], "memory": ["wDamage:2", "wDamageMultipliers", "wMoveMissed"]},
+      "expected": {
+        "red": {"memory": {"wDamage:2": [0, 138], "wDamageMultipliers": [148], "wMoveMissed": [0]}},
+        "blue": {"memory": {"wDamage:2": [0, 138], "wDamageMultipliers": [148], "wMoveMissed": [0]}}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:AdjustDamageForMoveType",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_TYP_002_DUAL_WEAKNESS_MULTIPLIES_TWICE",
+      "requirements": ["T-TYP-002", "BTL-TYP"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "AdjustDamageForMoveType",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wBattleMonType", "value": [21, 21]},
+          {"symbol": "wEnemyMonType", "value": [20, 5]},
+          {"symbol": "wPlayerMoveType", "value": 21},
+          {"symbol": "wDamage", "value": [0, 40]},
+          {"symbol": "wDamageMultipliers", "value": 0},
+          {"symbol": "wMoveMissed", "value": 0}
+        ]
+      },
+      "observe": {"registers": [], "memory": ["wDamage:2", "wDamageMultipliers", "wMoveMissed"]},
+      "expected": {
+        "red": {"memory": {"wDamage:2": [0, 240], "wDamageMultipliers": [148], "wMoveMissed": [0]}},
+        "blue": {"memory": {"wDamage:2": [0, 240], "wDamageMultipliers": [148], "wMoveMissed": [0]}}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:AdjustDamageForMoveType",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_TYP_003_IMMUNITY_ZEROES_DAMAGE",
+      "requirements": ["T-TYP-003", "BTL-TYP"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "AdjustDamageForMoveType",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wBattleMonType", "value": [8, 8]},
+          {"symbol": "wEnemyMonType", "value": [24, 24]},
+          {"symbol": "wPlayerMoveType", "value": 8},
+          {"symbol": "wDamage", "value": [0, 40]},
+          {"symbol": "wDamageMultipliers", "value": 0},
+          {"symbol": "wMoveMissed", "value": 0}
+        ]
+      },
+      "observe": {"registers": [], "memory": ["wDamage:2", "wDamageMultipliers", "wMoveMissed"]},
+      "expected": {
+        "red": {"memory": {"wDamage:2": [0, 0], "wDamageMultipliers": [128], "wMoveMissed": [1]}},
+        "blue": {"memory": {"wDamage:2": [0, 0], "wDamageMultipliers": [128], "wMoveMissed": [1]}}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:AdjustDamageForMoveType",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0",
+        "notes": "Generation I Ghost versus Psychic immunity from the repository type table."
+      }
+    },
+    {
+      "id": "T_CRT_001_REGULAR_CRITICAL_THRESHOLD",
+      "requirements": ["T-CRT-001", "BTL-CRT", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "CriticalHitTest",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wBattleMonSpecies", "value": 1},
+          {"symbol": "wPlayerMoveNum", "value": [33, 0, 40]},
+          {"symbol": "wPlayerBattleStatus2", "value": 0}
+        ]
+      },
+      "rng": [130],
+      "stubs": [{"symbol": "GetMonHeader", "memory": [{"symbol": "wMonHBaseSpeed", "value": 100}]}],
+      "observe": {"registers": [], "memory": ["wCriticalHitOrOHKO"]},
+      "expected": {
+        "red": {"memory": {"wCriticalHitOrOHKO": [1]}, "rng_consumed": [130]},
+        "blue": {"memory": {"wCriticalHitOrOHKO": [1]}, "rng_consumed": [130]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:CriticalHitTest",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_CRT_002_FOCUS_ENERGY_REDUCES_CRITICAL_RATE",
+      "requirements": ["T-CRT-003", "BTL-CRT", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "CriticalHitTest",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wBattleMonSpecies", "value": 1},
+          {"symbol": "wPlayerMoveNum", "value": [33, 0, 40]},
+          {"symbol": "wPlayerBattleStatus2", "value": 4}
+        ]
+      },
+      "rng": [130],
+      "stubs": [{"symbol": "GetMonHeader", "memory": [{"symbol": "wMonHBaseSpeed", "value": 100}]}],
+      "observe": {"registers": [], "memory": ["wCriticalHitOrOHKO"]},
+      "expected": {
+        "red": {"memory": {"wCriticalHitOrOHKO": [0]}, "rng_consumed": [130]},
+        "blue": {"memory": {"wCriticalHitOrOHKO": [0]}, "rng_consumed": [130]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:CriticalHitTest",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0",
+        "notes": "Locks the Generation I Focus Energy right-shift bug."
+      }
+    },
+    {
+      "id": "T_CRT_003_HIGH_CRITICAL_MOVE_CAP",
+      "requirements": ["T-CRT-002", "BTL-CRT", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "CriticalHitTest",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wBattleMonSpecies", "value": 1},
+          {"symbol": "wPlayerMoveNum", "value": [163, 0, 70]},
+          {"symbol": "wPlayerBattleStatus2", "value": 0}
+        ]
+      },
+      "rng": [223],
+      "stubs": [{"symbol": "GetMonHeader", "memory": [{"symbol": "wMonHBaseSpeed", "value": 100}]}],
+      "observe": {"registers": [], "memory": ["wCriticalHitOrOHKO"]},
+      "expected": {
+        "red": {"memory": {"wCriticalHitOrOHKO": [1]}, "rng_consumed": [223]},
+        "blue": {"memory": {"wCriticalHitOrOHKO": [1]}, "rng_consumed": [223]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:CriticalHitTest; data/battle/critical_hit_moves.asm",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_CRT_004_HIGH_CRITICAL_MOVE_STILL_FAILS_AT_255",
+      "requirements": ["T-CRT-002", "BTL-CRT", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "CriticalHitTest",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wBattleMonSpecies", "value": 1},
+          {"symbol": "wPlayerMoveNum", "value": [163, 0, 70]},
+          {"symbol": "wPlayerBattleStatus2", "value": 0}
+        ]
+      },
+      "rng": [255],
+      "stubs": [{"symbol": "GetMonHeader", "memory": [{"symbol": "wMonHBaseSpeed", "value": 100}]}],
+      "observe": {"registers": [], "memory": ["wCriticalHitOrOHKO"]},
+      "expected": {
+        "red": {"memory": {"wCriticalHitOrOHKO": [0]}, "rng_consumed": [255]},
+        "blue": {"memory": {"wCriticalHitOrOHKO": [0]}, "rng_consumed": [255]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:CriticalHitTest",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "T_CRT_005_ZERO_POWER_SKIPS_RANDOMNESS",
+      "requirements": ["BTL-CRT", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "CriticalHitTest",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "hWhoseTurn", "value": 0},
+          {"symbol": "wBattleMonSpecies", "value": 1},
+          {"symbol": "wPlayerMoveNum", "value": [14, 50, 0]},
+          {"symbol": "wPlayerBattleStatus2", "value": 0}
+        ]
+      },
+      "rng": [],
+      "stubs": [{"symbol": "GetMonHeader", "memory": [{"symbol": "wMonHBaseSpeed", "value": 100}]}],
+      "observe": {"registers": [], "memory": ["wCriticalHitOrOHKO"]},
+      "expected": {
+        "red": {"memory": {"wCriticalHitOrOHKO": [0]}, "rng_consumed": []},
+        "blue": {"memory": {"wCriticalHitOrOHKO": [0]}, "rng_consumed": []}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:CriticalHitTest",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0",
+        "notes": "A zero-power move returns before BattleRandom."
+      }
+    }
+  ]
+}

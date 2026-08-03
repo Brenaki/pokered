@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **text/PokemonTower2F.asm** (7 connections) — `text/PokemonTower2F.asm`
-- **_PokemonTower2FChannelerText** (1 connections) — `text/PokemonTower2F.asm`
-- **_PokemonTower2FRivalDefeatedText** (1 connections) — `text/PokemonTower2F.asm`
-- **_PokemonTower2FRivalHowsYourDexText** (1 connections) — `text/PokemonTower2F.asm`
-- **_PokemonTower2FRivalVictoryText** (1 connections) — `text/PokemonTower2F.asm`
-- **_PokemonTower2FRivalWhatBringsYouHereText** (1 connections) — `text/PokemonTower2F.asm`
+- **text/SSAnne2F.asm** (7 connections) — `text/SSAnne2F.asm`
+- **_SSAnne2FRivalCutMasterText** (1 connections) — `text/SSAnne2F.asm`
+- **_SSAnne2FRivalDefeatedText** (1 connections) — `text/SSAnne2F.asm`
+- **_SSAnne2FRivalText** (1 connections) — `text/SSAnne2F.asm`
+- **_SSAnne2FRivalVictoryText** (1 connections) — `text/SSAnne2F.asm`
+- **_SSAnne2FWaiterText** (1 connections) — `text/SSAnne2F.asm`
 
 ## Relationships
 
@@ -17,7 +17,7 @@
 
 ## Source Files
 
-- `text/PokemonTower2F.asm`
+- `text/SSAnne2F.asm`
 
 ## Audit Trail
 

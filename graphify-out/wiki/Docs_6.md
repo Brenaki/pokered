@@ -1,23 +1,39 @@
 # Docs 6
 
-> 10 nodes · cohesion 0.20
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **17. Captura de Pokémon** (10 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.1 Pré-condições** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.2 Variáveis** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.3 Bônus de status** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.4 Fator de HP** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.5 Decisão de captura** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.6 Probabilidade exata** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.7 Exemplo de captura** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.8 Animação de sacudidas** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
-- **17.9 Captura na Safari Zone** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **Sistema de Batalhas de Pokémon Red/Blue** (30 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **21. Não conformidades e riscos conhecidos** (4 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **20. IA, RNG e batalha por link** (3 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **20.2 Aleatoriedade** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **Controle do documento** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **13. Movimentos com dano ou fluxo especial** (2 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **19. Desobediência** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **20.1 IA** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **21.1 Política de decisão** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **28. Aprovação** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **Histórico de revisões** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **1. Finalidade e relação com a ISO 9001** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **9. Validação antes do movimento** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **3. Objetivos da qualidade** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
+- **4. Termos e convenções** (1 connections) — `docs/001-2026-08-01-Sistema_de_Batalhas_Pokemon_Red_Blue.md`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Engine Battle](Engine_Battle.md) (5 shared connections)
+- [Engine Battle 2](Engine_Battle_2.md) (1 shared connections)
+- [Rewrite 3](Rewrite_3.md) (1 shared connections)
+- [Docs 14](Docs_14.md) (1 shared connections)
+- [Docs 15](Docs_15.md) (1 shared connections)
+- [Docs 16](Docs_16.md) (1 shared connections)
+- [Rewrite 8](Rewrite_8.md) (1 shared connections)
+- [Docs 17](Docs_17.md) (1 shared connections)
+- [Docs 18](Docs_18.md) (1 shared connections)
+- [Docs 12](Docs_12.md) (1 shared connections)
+- [Docs 19](Docs_19.md) (1 shared connections)
+- [Docs 20](Docs_20.md) (1 shared connections)
 
 ## Source Files
 
@@ -25,7 +41,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 37 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

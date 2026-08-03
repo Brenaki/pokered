@@ -1,0 +1,718 @@
+{
+  "protocol_version": 1,
+  "cases": [
+    {
+      "id": "AI_T01_CLASS_WITHOUT_LAYERS_RETURNS_ORIGINAL_MOVES",
+      "requirements": ["AI-T01", "AI-REQ-001", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "AIEnemyTrainerChooseMoves",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wTrainerClass", "value": 1},
+          {"symbol": "wEnemyDisabledMove", "value": 0},
+          {"symbol": "wEnemyMonMoves", "value": [33, 45, 52, 55]},
+          {"symbol": "wBuffer", "value": [0, 0, 0, 0]}
+        ]
+      },
+      "observe": {"registers": ["HL"], "memory": ["wEnemyMonMoves:4", "wBuffer:4"]},
+      "expected": {
+        "red": {"registers": {"HL": 53229}, "memory": {"wEnemyMonMoves:4": [33, 45, 52, 55], "wBuffer:4": [10, 10, 10, 10]}},
+        "blue": {"registers": {"HL": 53229}, "memory": {"wEnemyMonMoves:4": [33, 45, 52, 55], "wBuffer:4": [10, 10, 10, 10]}}
+      },
+      "provenance": {
+        "source": "engine/battle/trainer_ai.asm:AIEnemyTrainerChooseMoves; data/trainers/move_choices.asm",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_T02_EXISTING_STATUS_DISCOURAGES_STATUS_MOVE",
+      "requirements": ["AI-T02", "AI-REQ-001", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "AIEnemyTrainerChooseMoves",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wTrainerClass", "value": 2},
+          {"symbol": "wEnemyDisabledMove", "value": 0},
+          {"symbol": "wBattleMonStatus", "value": 8},
+          {"symbol": "wEnemyMonMoves", "value": [79, 33, 0, 0]}
+        ]
+      },
+      "observe": {"registers": ["HL"], "memory": ["wBuffer:4"]},
+      "expected": {
+        "red": {"registers": {"HL": 52969}, "memory": {"wBuffer:4": [0, 33, 0, 0]}},
+        "blue": {"registers": {"HL": 52969}, "memory": {"wBuffer:4": [0, 33, 0, 0]}}
+      },
+      "provenance": {
+        "source": "engine/battle/trainer_ai.asm:AIMoveChoiceModification1",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_T03_LAYER_TWO_ONLY_AT_ENCOURAGEMENT_ONE",
+      "requirements": ["AI-T03", "AI-R04", "AI-REQ-001", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "AIEnemyTrainerChooseMoves",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wTrainerClass", "value": 7},
+          {"symbol": "wEnemyDisabledMove", "value": 0},
+          {"symbol": "wAILayer2Encouragement", "value": 1},
+          {"symbol": "wBattleMonStatus", "value": 0},
+          {"symbol": "wBattleMonType", "value": [0, 0]},
+          {"symbol": "wEnemyMonMoves", "value": [33, 45, 0, 0]}
+        ]
+      },
+      "observe": {"registers": [], "memory": ["wBuffer:4"]},
+      "expected": {
+        "red": {"memory": {"wBuffer:4": [0, 45, 0, 0]}},
+        "blue": {"memory": {"wBuffer:4": [0, 45, 0, 0]}}
+      },
+      "provenance": {
+        "source": "engine/battle/trainer_ai.asm:AIMoveChoiceModification2",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_T04_SUPER_EFFECTIVE_MOVE_IS_ENCOURAGED",
+      "requirements": ["AI-T04", "AI-REQ-001", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "AIEnemyTrainerChooseMoves",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wTrainerClass", "value": 4},
+          {"symbol": "wEnemyDisabledMove", "value": 0},
+          {"symbol": "wBattleMonStatus", "value": 0},
+          {"symbol": "wBattleMonType", "value": [22, 22]},
+          {"symbol": "wEnemyMonMoves", "value": [52, 33, 0, 0]}
+        ]
+      },
+      "observe": {"registers": [], "memory": ["wBuffer:4", "wTypeEffectiveness"]},
+      "expected": {
+        "red": {"memory": {"wBuffer:4": [52, 0, 0, 0]}},
+        "blue": {"memory": {"wBuffer:4": [52, 0, 0, 0]}}
+      },
+      "provenance": {
+        "source": "engine/battle/trainer_ai.asm:AIMoveChoiceModification3",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_T05_DUAL_TYPE_USES_FIRST_TABLE_MATCH",
+      "requirements": ["AI-T05", "AI-R01", "AI-REQ-001", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "AIGetTypeEffectiveness",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wEnemyMoveType", "value": 20},
+          {"symbol": "wBattleMonType", "value": [22, 21]},
+          {"symbol": "wTypeEffectiveness", "value": 0}
+        ]
+      },
+      "observe": {"registers": [], "memory": ["wTypeEffectiveness"]},
+      "expected": {
+        "red": {"memory": {"wTypeEffectiveness": [20]}},
+        "blue": {"memory": {"wTypeEffectiveness": [20]}}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:AIGetTypeEffectiveness; data/types/type_matchups.asm",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0",
+        "notes": "Fire sees Grass before Water and therefore reports 2x instead of combining both types."
+      }
+    },
+    {
+      "id": "AI_T06_DISABLED_SLOT_IS_REMOVED",
+      "requirements": ["AI-T06", "AI-REQ-001", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "AIEnemyTrainerChooseMoves",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wTrainerClass", "value": 2},
+          {"symbol": "wEnemyDisabledMove", "value": 16},
+          {"symbol": "wBattleMonStatus", "value": 0},
+          {"symbol": "wEnemyMonMoves", "value": [33, 45, 52, 55]}
+        ]
+      },
+      "observe": {"registers": [], "memory": ["wBuffer:4"]},
+      "expected": {
+        "red": {"memory": {"wBuffer:4": [0, 45, 52, 55]}},
+        "blue": {"memory": {"wBuffer:4": [0, 45, 52, 55]}}
+      },
+      "provenance": {
+        "source": "engine/battle/trainer_ai.asm:AIEnemyTrainerChooseMoves",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_T07_TIED_MINIMUMS_KEEP_ALL_EXISTING_SLOTS",
+      "requirements": ["AI-T07", "AI-REQ-001", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "AIEnemyTrainerChooseMoves",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wTrainerClass", "value": 2},
+          {"symbol": "wEnemyDisabledMove", "value": 0},
+          {"symbol": "wBattleMonStatus", "value": 0},
+          {"symbol": "wEnemyMonMoves", "value": [33, 45, 52, 55]}
+        ]
+      },
+      "observe": {"registers": [], "memory": ["wBuffer:4"]},
+      "expected": {
+        "red": {"memory": {"wBuffer:4": [33, 45, 52, 55]}},
+        "blue": {"memory": {"wBuffer:4": [33, 45, 52, 55]}}
+      },
+      "provenance": {
+        "source": "engine/battle/trainer_ai.asm:AIEnemyTrainerChooseMoves",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_T08_BLAINE_CAN_WASTE_SUPER_POTION_AT_FULL_HP",
+      "requirements": ["AI-T08", "AI-R03", "AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "BlaineAI",
+      "initial": {
+        "registers": {"A": 63},
+        "memory": [
+          {"symbol": "wEnemyMonHP", "value": [0, 100]},
+          {"symbol": "wEnemyMonMaxHP", "value": [0, 100]}
+        ]
+      },
+      "stubs": [{"symbol": "AIUseSuperPotion", "event": "use_super_potion"}],
+      "observe": {"registers": [], "memory": ["wEnemyMonHP:2"]},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_super_potion", "symbol": "AIUseSuperPotion"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_super_potion", "symbol": "AIUseSuperPotion"}]}
+      },
+      "provenance": {
+        "source": "engine/battle/trainer_ai.asm:BlaineAI",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_T09_COOLTRAINER_F_HEALS_WITHOUT_25_PERCENT_GATE",
+      "requirements": ["AI-T09", "AI-R02", "AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "CooltrainerFAI",
+      "initial": {
+        "registers": {"A": 255},
+        "memory": [
+          {"symbol": "wEnemyMonHP", "value": [0, 5]},
+          {"symbol": "wEnemyMonMaxHP", "value": [0, 100]}
+        ]
+      },
+      "stubs": [
+        {"symbol": "AIUseHyperPotion", "event": "use_hyper_potion"},
+        {"symbol": "AISwitchIfEnoughMons", "event": "switch"}
+      ],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_hyper_potion", "symbol": "AIUseHyperPotion"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_hyper_potion", "symbol": "AIUseHyperPotion"}]}
+      },
+      "provenance": {
+        "source": "engine/battle/trainer_ai.asm:CooltrainerFAI",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_T09_COOLTRAINER_F_SWITCHES_WITHOUT_25_PERCENT_GATE",
+      "requirements": ["AI-T09", "AI-R02", "AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "CooltrainerFAI",
+      "initial": {
+        "registers": {"A": 255},
+        "memory": [
+          {"symbol": "wEnemyMonHP", "value": [0, 15]},
+          {"symbol": "wEnemyMonMaxHP", "value": [0, 100]}
+        ]
+      },
+      "stubs": [
+        {"symbol": "AIUseHyperPotion", "event": "use_hyper_potion"},
+        {"symbol": "AISwitchIfEnoughMons", "event": "switch"}
+      ],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "switch", "symbol": "AISwitchIfEnoughMons"}]},
+        "blue": {"events": [{"type": "stub", "name": "switch", "symbol": "AISwitchIfEnoughMons"}]}
+      },
+      "provenance": {
+        "source": "engine/battle/trainer_ai.asm:CooltrainerFAI",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_T10_AGATHA_ROLL_19_SWITCHES",
+      "requirements": ["AI-T10", "AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "AgathaAI",
+      "initial": {"registers": {"A": 19}, "memory": []},
+      "stubs": [
+        {"symbol": "AISwitchIfEnoughMons", "event": "switch"},
+        {"symbol": "AIUseSuperPotion", "event": "use_super_potion"}
+      ],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "switch", "symbol": "AISwitchIfEnoughMons"}]},
+        "blue": {"events": [{"type": "stub", "name": "switch", "symbol": "AISwitchIfEnoughMons"}]}
+      },
+      "provenance": {
+        "source": "engine/battle/trainer_ai.asm:AgathaAI",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_T10_AGATHA_ROLL_20_CAN_HEAL",
+      "requirements": ["AI-T10", "AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "AgathaAI",
+      "initial": {
+        "registers": {"A": 20},
+        "memory": [
+          {"symbol": "wEnemyMonHP", "value": [0, 20]},
+          {"symbol": "wEnemyMonMaxHP", "value": [0, 100]}
+        ]
+      },
+      "stubs": [
+        {"symbol": "AISwitchIfEnoughMons", "event": "switch"},
+        {"symbol": "AIUseSuperPotion", "event": "use_super_potion"}
+      ],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_super_potion", "symbol": "AIUseSuperPotion"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_super_potion", "symbol": "AIUseSuperPotion"}]}
+      },
+      "provenance": {
+        "source": "engine/battle/trainer_ai.asm:AgathaAI",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_T10_AGATHA_ROLL_127_CAN_HEAL",
+      "requirements": ["AI-T10", "AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "AgathaAI",
+      "initial": {
+        "registers": {"A": 127},
+        "memory": [
+          {"symbol": "wEnemyMonHP", "value": [0, 20]},
+          {"symbol": "wEnemyMonMaxHP", "value": [0, 100]}
+        ]
+      },
+      "stubs": [{"symbol": "AIUseSuperPotion", "event": "use_super_potion"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_super_potion", "symbol": "AIUseSuperPotion"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_super_potion", "symbol": "AIUseSuperPotion"}]}
+      },
+      "provenance": {
+        "source": "engine/battle/trainer_ai.asm:AgathaAI",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_T10_AGATHA_ROLL_128_DOES_NOT_ACT",
+      "requirements": ["AI-T10", "AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "AgathaAI",
+      "initial": {
+        "registers": {"A": 128},
+        "memory": [
+          {"symbol": "wEnemyMonHP", "value": [0, 20]},
+          {"symbol": "wEnemyMonMaxHP", "value": [0, 100]}
+        ]
+      },
+      "stubs": [
+        {"symbol": "AISwitchIfEnoughMons", "event": "switch"},
+        {"symbol": "AIUseSuperPotion", "event": "use_super_potion"}
+      ],
+      "observe": {"registers": [], "memory": []},
+      "expected": {"red": {"events": []}, "blue": {"events": []}},
+      "provenance": {
+        "source": "engine/battle/trainer_ai.asm:AgathaAI",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_T11_SWITCH_REQUIRES_TWO_LIVING_PARTY_MEMBERS",
+      "requirements": ["AI-T11", "AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "AISwitchIfEnoughMons",
+      "initial": {
+        "registers": {},
+        "memory": [
+          {"symbol": "wEnemyPartyCount", "value": 2},
+          {"symbol": "wEnemyMon1HP", "value": [0, 10]},
+          {"symbol": "wEnemyMon1HP+44", "value": [0, 20]}
+        ]
+      },
+      "stubs": [{"symbol": "SwitchEnemyMon", "event": "switch"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "switch", "symbol": "SwitchEnemyMon"}]},
+        "blue": {"events": [{"type": "stub", "name": "switch", "symbol": "SwitchEnemyMon"}]}
+      },
+      "provenance": {
+        "source": "engine/battle/trainer_ai.asm:AISwitchIfEnoughMons",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_T12_USED_ACTION_DECREMENTS_ITEM_COUNT",
+      "requirements": ["AI-T12", "AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "DecrementAICount",
+      "initial": {"registers": {}, "memory": [{"symbol": "wAICount", "value": 3}]},
+      "observe": {"registers": ["F"], "memory": ["wAICount"]},
+      "expected": {
+        "red": {"memory": {"wAICount": [2]}},
+        "blue": {"memory": {"wAICount": [2]}}
+      },
+      "provenance": {
+        "source": "engine/battle/trainer_ai.asm:DecrementAICount",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_MOVE_SLOT_ROLL_62_SELECTS_FIRST",
+      "requirements": ["AI-T07", "AI-REQ-001", "BTL-AI", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "SelectEnemyMove.chooseRandomMove",
+      "initial": {
+        "registers": {"HL": 52969},
+        "memory": [
+          {"symbol": "wBuffer", "value": [33, 45, 52, 55]},
+          {"symbol": "wEnemyDisabledMove", "value": 0},
+          {"symbol": "wEnemyMoveListIndex", "value": 0},
+          {"symbol": "wEnemySelectedMove", "value": 0}
+        ]
+      },
+      "rng": [62],
+      "observe": {"registers": [], "memory": ["wEnemyMoveListIndex", "wEnemySelectedMove"]},
+      "expected": {
+        "red": {"memory": {"wEnemyMoveListIndex": [0], "wEnemySelectedMove": [33]}, "rng_consumed": [62]},
+        "blue": {"memory": {"wEnemyMoveListIndex": [0], "wEnemySelectedMove": [33]}, "rng_consumed": [62]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:SelectEnemyMove.chooseRandomMove",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_MOVE_SLOT_ROLL_63_SELECTS_SECOND",
+      "requirements": ["AI-T07", "AI-REQ-001", "BTL-AI", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "SelectEnemyMove.chooseRandomMove",
+      "initial": {
+        "registers": {"HL": 52969},
+        "memory": [
+          {"symbol": "wBuffer", "value": [33, 45, 52, 55]},
+          {"symbol": "wEnemyDisabledMove", "value": 0},
+          {"symbol": "wEnemyMoveListIndex", "value": 0},
+          {"symbol": "wEnemySelectedMove", "value": 0}
+        ]
+      },
+      "rng": [63],
+      "observe": {"registers": [], "memory": ["wEnemyMoveListIndex", "wEnemySelectedMove"]},
+      "expected": {
+        "red": {"memory": {"wEnemyMoveListIndex": [1], "wEnemySelectedMove": [45]}, "rng_consumed": [63]},
+        "blue": {"memory": {"wEnemyMoveListIndex": [1], "wEnemySelectedMove": [45]}, "rng_consumed": [63]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:SelectEnemyMove.chooseRandomMove",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_MOVE_SLOT_ROLL_127_SELECTS_THIRD",
+      "requirements": ["AI-T07", "AI-REQ-001", "BTL-AI", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "SelectEnemyMove.chooseRandomMove",
+      "initial": {
+        "registers": {"HL": 52969},
+        "memory": [
+          {"symbol": "wBuffer", "value": [33, 45, 52, 55]},
+          {"symbol": "wEnemyDisabledMove", "value": 0},
+          {"symbol": "wEnemyMoveListIndex", "value": 0},
+          {"symbol": "wEnemySelectedMove", "value": 0}
+        ]
+      },
+      "rng": [127],
+      "observe": {"registers": [], "memory": ["wEnemyMoveListIndex", "wEnemySelectedMove"]},
+      "expected": {
+        "red": {"memory": {"wEnemyMoveListIndex": [2], "wEnemySelectedMove": [52]}, "rng_consumed": [127]},
+        "blue": {"memory": {"wEnemyMoveListIndex": [2], "wEnemySelectedMove": [52]}, "rng_consumed": [127]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:SelectEnemyMove.chooseRandomMove",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_MOVE_SLOT_ROLL_190_SELECTS_FOURTH",
+      "requirements": ["AI-T07", "AI-REQ-001", "BTL-AI", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "SelectEnemyMove.chooseRandomMove",
+      "initial": {
+        "registers": {"HL": 52969},
+        "memory": [
+          {"symbol": "wBuffer", "value": [33, 45, 52, 55]},
+          {"symbol": "wEnemyDisabledMove", "value": 0},
+          {"symbol": "wEnemyMoveListIndex", "value": 0},
+          {"symbol": "wEnemySelectedMove", "value": 0}
+        ]
+      },
+      "rng": [190],
+      "observe": {"registers": [], "memory": ["wEnemyMoveListIndex", "wEnemySelectedMove"]},
+      "expected": {
+        "red": {"memory": {"wEnemyMoveListIndex": [3], "wEnemySelectedMove": [55]}, "rng_consumed": [190]},
+        "blue": {"memory": {"wEnemyMoveListIndex": [3], "wEnemySelectedMove": [55]}, "rng_consumed": [190]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:SelectEnemyMove.chooseRandomMove",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_MOVE_EMPTY_SLOT_RETRIES_WITH_NEXT_RANDOM_BYTE",
+      "requirements": ["AI-T07", "AI-REQ-001", "BTL-AI", "BTL-RNG"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "SelectEnemyMove.chooseRandomMove",
+      "initial": {
+        "registers": {"HL": 52969},
+        "memory": [
+          {"symbol": "wBuffer", "value": [33, 0, 52, 55]},
+          {"symbol": "wEnemyDisabledMove", "value": 0},
+          {"symbol": "wEnemyMoveListIndex", "value": 0},
+          {"symbol": "wEnemySelectedMove", "value": 0}
+        ]
+      },
+      "rng": [63, 127],
+      "observe": {"registers": [], "memory": ["wEnemyMoveListIndex", "wEnemySelectedMove"]},
+      "expected": {
+        "red": {"memory": {"wEnemyMoveListIndex": [2], "wEnemySelectedMove": [52]}, "rng_consumed": [63, 127]},
+        "blue": {"memory": {"wEnemyMoveListIndex": [2], "wEnemySelectedMove": [52]}, "rng_consumed": [63, 127]}
+      },
+      "provenance": {
+        "source": "engine/battle/core.asm:SelectEnemyMove.chooseRandomMove",
+        "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"
+      }
+    },
+    {
+      "id": "AI_POLICY_JUGGLER_SWITCHES_BELOW_THRESHOLD",
+      "requirements": ["AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "JugglerAI",
+      "initial": {"registers": {"A": 63}, "memory": []},
+      "stubs": [{"symbol": "AISwitchIfEnoughMons", "event": "switch"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "switch", "symbol": "AISwitchIfEnoughMons"}]},
+        "blue": {"events": [{"type": "stub", "name": "switch", "symbol": "AISwitchIfEnoughMons"}]}
+      },
+      "provenance": {"source": "engine/battle/trainer_ai.asm:JugglerAI", "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"}
+    },
+    {
+      "id": "AI_POLICY_BLACKBELT_USES_X_ATTACK",
+      "requirements": ["AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "BlackbeltAI",
+      "initial": {"registers": {"A": 31}, "memory": []},
+      "stubs": [{"symbol": "AIUseXAttack", "event": "use_x_attack"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_x_attack", "symbol": "AIUseXAttack"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_x_attack", "symbol": "AIUseXAttack"}]}
+      },
+      "provenance": {"source": "engine/battle/trainer_ai.asm:BlackbeltAI", "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"}
+    },
+    {
+      "id": "AI_POLICY_GIOVANNI_USES_GUARD_SPEC",
+      "requirements": ["AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "GiovanniAI",
+      "initial": {"registers": {"A": 63}, "memory": []},
+      "stubs": [{"symbol": "AIUseGuardSpec", "event": "use_guard_spec"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_guard_spec", "symbol": "AIUseGuardSpec"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_guard_spec", "symbol": "AIUseGuardSpec"}]}
+      },
+      "provenance": {"source": "engine/battle/trainer_ai.asm:GiovanniAI", "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"}
+    },
+    {
+      "id": "AI_POLICY_COOLTRAINER_M_USES_X_ATTACK",
+      "requirements": ["AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "CooltrainerMAI",
+      "initial": {"registers": {"A": 63}, "memory": []},
+      "stubs": [{"symbol": "AIUseXAttack", "event": "use_x_attack"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_x_attack", "symbol": "AIUseXAttack"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_x_attack", "symbol": "AIUseXAttack"}]}
+      },
+      "provenance": {"source": "engine/battle/trainer_ai.asm:CooltrainerMAI", "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"}
+    },
+    {
+      "id": "AI_POLICY_BROCK_USES_FULL_HEAL_FOR_STATUS",
+      "requirements": ["AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "BrockAI",
+      "initial": {"registers": {"A": 255}, "memory": [{"symbol": "wEnemyMonStatus", "value": 8}]},
+      "stubs": [{"symbol": "AIUseFullHeal", "event": "use_full_heal"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_full_heal", "symbol": "AIUseFullHeal"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_full_heal", "symbol": "AIUseFullHeal"}]}
+      },
+      "provenance": {"source": "engine/battle/trainer_ai.asm:BrockAI", "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"}
+    },
+    {
+      "id": "AI_POLICY_MISTY_USES_X_DEFEND",
+      "requirements": ["AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "MistyAI",
+      "initial": {"registers": {"A": 63}, "memory": []},
+      "stubs": [{"symbol": "AIUseXDefend", "event": "use_x_defend"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_x_defend", "symbol": "AIUseXDefend"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_x_defend", "symbol": "AIUseXDefend"}]}
+      },
+      "provenance": {"source": "engine/battle/trainer_ai.asm:MistyAI", "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"}
+    },
+    {
+      "id": "AI_POLICY_LT_SURGE_USES_X_SPEED",
+      "requirements": ["AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "LtSurgeAI",
+      "initial": {"registers": {"A": 63}, "memory": []},
+      "stubs": [{"symbol": "AIUseXSpeed", "event": "use_x_speed"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_x_speed", "symbol": "AIUseXSpeed"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_x_speed", "symbol": "AIUseXSpeed"}]}
+      },
+      "provenance": {"source": "engine/battle/trainer_ai.asm:LtSurgeAI", "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"}
+    },
+    {
+      "id": "AI_POLICY_ERIKA_HEALS_BELOW_THRESHOLD",
+      "requirements": ["AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "ErikaAI",
+      "initial": {"registers": {"A": 127}, "memory": [{"symbol": "wEnemyMonHP", "value": [0, 5]}, {"symbol": "wEnemyMonMaxHP", "value": [0, 100]}]},
+      "stubs": [{"symbol": "AIUseSuperPotion", "event": "use_super_potion"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_super_potion", "symbol": "AIUseSuperPotion"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_super_potion", "symbol": "AIUseSuperPotion"}]}
+      },
+      "provenance": {"source": "engine/battle/trainer_ai.asm:ErikaAI", "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"}
+    },
+    {
+      "id": "AI_POLICY_KOGA_USES_X_ATTACK",
+      "requirements": ["AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "KogaAI",
+      "initial": {"registers": {"A": 63}, "memory": []},
+      "stubs": [{"symbol": "AIUseXAttack", "event": "use_x_attack"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_x_attack", "symbol": "AIUseXAttack"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_x_attack", "symbol": "AIUseXAttack"}]}
+      },
+      "provenance": {"source": "engine/battle/trainer_ai.asm:KogaAI", "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"}
+    },
+    {
+      "id": "AI_POLICY_SABRINA_HEALS_BELOW_THRESHOLD",
+      "requirements": ["AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "SabrinaAI",
+      "initial": {"registers": {"A": 63}, "memory": [{"symbol": "wEnemyMonHP", "value": [0, 5]}, {"symbol": "wEnemyMonMaxHP", "value": [0, 100]}]},
+      "stubs": [{"symbol": "AIUseHyperPotion", "event": "use_hyper_potion"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_hyper_potion", "symbol": "AIUseHyperPotion"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_hyper_potion", "symbol": "AIUseHyperPotion"}]}
+      },
+      "provenance": {"source": "engine/battle/trainer_ai.asm:SabrinaAI", "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"}
+    },
+    {
+      "id": "AI_POLICY_RIVAL2_USES_POTION",
+      "requirements": ["AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "Rival2AI",
+      "initial": {"registers": {"A": 31}, "memory": [{"symbol": "wEnemyMonHP", "value": [0, 10]}, {"symbol": "wEnemyMonMaxHP", "value": [0, 100]}]},
+      "stubs": [{"symbol": "AIUsePotion", "event": "use_potion"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_potion", "symbol": "AIUsePotion"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_potion", "symbol": "AIUsePotion"}]}
+      },
+      "provenance": {"source": "engine/battle/trainer_ai.asm:Rival2AI", "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"}
+    },
+    {
+      "id": "AI_POLICY_RIVAL3_USES_FULL_RESTORE",
+      "requirements": ["AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "Rival3AI",
+      "initial": {"registers": {"A": 31}, "memory": [{"symbol": "wEnemyMonHP", "value": [0, 10]}, {"symbol": "wEnemyMonMaxHP", "value": [0, 100]}]},
+      "stubs": [{"symbol": "AIUseFullRestore", "event": "use_full_restore"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_full_restore", "symbol": "AIUseFullRestore"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_full_restore", "symbol": "AIUseFullRestore"}]}
+      },
+      "provenance": {"source": "engine/battle/trainer_ai.asm:Rival3AI", "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"}
+    },
+    {
+      "id": "AI_POLICY_LORELEI_HEALS_BELOW_THRESHOLD",
+      "requirements": ["AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "LoreleiAI",
+      "initial": {"registers": {"A": 127}, "memory": [{"symbol": "wEnemyMonHP", "value": [0, 10]}, {"symbol": "wEnemyMonMaxHP", "value": [0, 100]}]},
+      "stubs": [{"symbol": "AIUseSuperPotion", "event": "use_super_potion"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_super_potion", "symbol": "AIUseSuperPotion"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_super_potion", "symbol": "AIUseSuperPotion"}]}
+      },
+      "provenance": {"source": "engine/battle/trainer_ai.asm:LoreleiAI", "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"}
+    },
+    {
+      "id": "AI_POLICY_BRUNO_USES_X_DEFEND",
+      "requirements": ["AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "BrunoAI",
+      "initial": {"registers": {"A": 63}, "memory": []},
+      "stubs": [{"symbol": "AIUseXDefend", "event": "use_x_defend"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_x_defend", "symbol": "AIUseXDefend"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_x_defend", "symbol": "AIUseXDefend"}]}
+      },
+      "provenance": {"source": "engine/battle/trainer_ai.asm:BrunoAI", "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"}
+    },
+    {
+      "id": "AI_POLICY_LANCE_HEALS_BELOW_THRESHOLD",
+      "requirements": ["AI-REQ-002", "BTL-AI"],
+      "variants": ["red", "blue"],
+      "entry_symbol": "LanceAI",
+      "initial": {"registers": {"A": 127}, "memory": [{"symbol": "wEnemyMonHP", "value": [0, 10]}, {"symbol": "wEnemyMonMaxHP", "value": [0, 100]}]},
+      "stubs": [{"symbol": "AIUseHyperPotion", "event": "use_hyper_potion"}],
+      "observe": {"registers": [], "memory": []},
+      "expected": {
+        "red": {"events": [{"type": "stub", "name": "use_hyper_potion", "symbol": "AIUseHyperPotion"}]},
+        "blue": {"events": [{"type": "stub", "name": "use_hyper_potion", "symbol": "AIUseHyperPotion"}]}
+      },
+      "provenance": {"source": "engine/battle/trainer_ai.asm:LanceAI", "baseline": "2b9f524537649e22d11bedaaee6eb81832fbbcb0"}
+    }
+  ]
+}

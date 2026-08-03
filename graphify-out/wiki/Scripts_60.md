@@ -1,53 +1,51 @@
 # Scripts 60
 
-> 28 nodes · cohesion 0.11
+> 27 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **scripts/PokemonTower6F.asm** (30 connections) — `scripts/PokemonTower6F.asm`
-- **21.20 Mapa `PokemonTower6F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **PokemonTower6FMarowakBattleScript** (6 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6F_Script** (5 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler1Text** (4 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler2Text** (4 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler3Text** (4 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FPlayerMovingScript** (3 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6F_ScriptPointers** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler1AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler1BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler1EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler2AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler2BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler2EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler3AfterBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler3BattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FChanneler3EndBattleText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FGhostWasCubonesMotherText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FMarowakCoords** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FSetDefaultScript** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6FSoulWasCalmedText** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6TrainerHeader0** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6TrainerHeader1** (2 connections) — `scripts/PokemonTower6F.asm`
-- **PokemonTower6TrainerHeader2** (2 connections) — `scripts/PokemonTower6F.asm`
-- *... and 3 more nodes in this community*
+- **scripts/CeladonDiner.asm** (9 connections) — `scripts/CeladonDiner.asm`
+- **scripts/PokemonTower1F.asm** (9 connections) — `scripts/PokemonTower1F.asm`
+- **scripts/SafariZoneEast.asm** (7 connections) — `scripts/SafariZoneEast.asm`
+- **scripts/SafariZoneWestRestHouse.asm** (7 connections) — `scripts/SafariZoneWestRestHouse.asm`
+- **CeladonDiner_Script** (2 connections) — `scripts/CeladonDiner.asm`
+- **PokemonTower1F_Script** (2 connections) — `scripts/PokemonTower1F.asm`
+- **SafariZoneEast_Script** (2 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneWestRestHouse_Script** (2 connections) — `scripts/SafariZoneWestRestHouse.asm`
+- **CeladonDiner_TextPointers** (1 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDinerCookText** (1 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDinerFisherText** (1 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDinerMiddleAgedManText** (1 connections) — `scripts/CeladonDiner.asm`
+- **CeladonDinerMiddleAgedWomanText** (1 connections) — `scripts/CeladonDiner.asm`
+- **PokemonTower1F_TextPointers** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FBaldingGuyText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FChannelerText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FGirlText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FMiddleAgedWomanText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **PokemonTower1FReceptionistText** (1 connections) — `scripts/PokemonTower1F.asm`
+- **SafariZoneEast_TextPointers** (1 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneEastRestHouseSignText** (1 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneEastSignText** (1 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneEastTrainerTipsText** (1 connections) — `scripts/SafariZoneEast.asm`
+- **SafariZoneWestRestHouse_TextPointers** (1 connections) — `scripts/SafariZoneWestRestHouse.asm`
+- **SafariZoneWestRestHouseCooltrainerMText** (1 connections) — `scripts/SafariZoneWestRestHouse.asm`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
 - [Scripts](Scripts.md) (4 shared connections)
-- [Home 8](Home_8.md) (3 shared connections)
-- [Home](Home.md) (3 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 2](Scripts_2.md) (1 shared connections)
 
 ## Source Files
 
-- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/PokemonTower6F.asm`
+- `scripts/CeladonDiner.asm`
+- `scripts/PokemonTower1F.asm`
+- `scripts/SafariZoneEast.asm`
+- `scripts/SafariZoneWestRestHouse.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

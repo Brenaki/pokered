@@ -1,36 +1,26 @@
 # Scripts 102
 
-> 11 nodes · cohesion 0.20
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **scripts/CinnabarIsland.asm** (13 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIsland_Script** (5 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIslandPlayerMovingScript** (3 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIsland_ScriptPointers** (2 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIsland_TextPointers** (1 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIslandDoorIsLockedText** (1 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIslandGamblerText** (1 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIslandGirlText** (1 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIslandGymSignText** (1 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIslandPokemonLabSignText** (1 connections) — `scripts/CinnabarIsland.asm`
-- **CinnabarIslandSignText** (1 connections) — `scripts/CinnabarIsland.asm`
+- **scripts/UndergroundPathRoute5.asm** (6 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathRoute5LittleGirlText** (3 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathEntranceRoute5_TextScriptEndingText** (2 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathRoute5_Script** (1 connections) — `scripts/UndergroundPathRoute5.asm`
+- **UndergroundPathRoute5_TextPointers** (1 connections) — `scripts/UndergroundPathRoute5.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (1 shared connections)
-- [Scripts 29](Scripts_29.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 19](Scripts_19.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/CinnabarIsland.asm`
+- `scripts/UndergroundPathRoute5.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

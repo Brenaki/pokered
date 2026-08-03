@@ -1,55 +1,55 @@
 # Scripts 65
 
-> 25 nodes · cohesion 0.12
+> 25 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **scripts/ChampionsRoom.asm** (30 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomOakArrivesScript** (9 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomRivalReadyToBattleScript** (9 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoom_DisplayTextID_AllowABSelectStart** (7 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomOakComeWithMeScript** (7 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomRivalDefeatedScript** (6 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoom_Script** (4 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomOakCongratulatesPlayerScript** (4 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomOakDisappointedWithRivalScript** (4 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomRivalText** (4 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoom_ScriptPointers** (2 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomCleanupScript** (2 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomDefaultScript** (2 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomRivalAfterBattleText** (2 connections) — `scripts/ChampionsRoom.asm`
-- **OakEntranceAfterVictoryMovement** (2 connections) — `scripts/ChampionsRoom.asm`
-- **OakExitChampionsRoomMovement** (2 connections) — `scripts/ChampionsRoom.asm`
-- **ResetRivalScript** (2 connections) — `scripts/ChampionsRoom.asm`
-- **RivalDefeatedText** (2 connections) — `scripts/ChampionsRoom.asm`
-- **RivalEntrance_RLEMovement** (2 connections) — `scripts/ChampionsRoom.asm`
-- **RivalVictoryText** (2 connections) — `scripts/ChampionsRoom.asm`
-- **WalkToHallOfFame_RLEMovement** (2 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoom_TextPointers** (1 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomOakComeWithMeText** (1 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomOakDisappointedWithRivalText** (1 connections) — `scripts/ChampionsRoom.asm`
-- **ChampionsRoomOakText** (1 connections) — `scripts/ChampionsRoom.asm`
+- **scripts/SilphCo9F.asm** (25 connections) — `scripts/SilphCo9F.asm`
+- **21.63 Mapa `SilphCo9F`** (10 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **hUnlockedSilphCoDoors** (8 connections) — `ram/hram.asm`
+- **SilphCo9F_Script** (6 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FGateCallbackScript** (6 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9F_SetCardKeyDoorYScript** (4 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket1Text** (4 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket2Text** (4 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FScientistText** (4 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9F_ScriptPointers** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9F_SetUnlockedSilphCoDoorsScript** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket1AfterBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket1BattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket1EndBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket2AfterBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket2BattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FRocket2EndBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FScientistAfterBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FScientistBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9FScientistEndBattleText** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9TrainerHeader0** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9TrainerHeader1** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9TrainerHeader2** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9TrainerHeaders** (2 connections) — `scripts/SilphCo9F.asm`
+- **SilphCo9F_TextPointers** (1 connections) — `scripts/SilphCo9F.asm`
 
 ## Relationships
 
-- [Home 5](Home_5.md) (7 shared connections)
-- [Scripts 2](Scripts_2.md) (4 shared connections)
-- [Scripts](Scripts.md) (3 shared connections)
-- [Scripts 19](Scripts_19.md) (2 shared connections)
-- [Home](Home.md) (2 shared connections)
-- [Scripts 7](Scripts_7.md) (2 shared connections)
-- [Scripts 29](Scripts_29.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 21](Scripts_21.md) (1 shared connections)
-- [Ram 5](Ram_5.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (3 shared connections)
+- [Scripts 14](Scripts_14.md) (3 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Ram 9](Ram_9.md) (1 shared connections)
+- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
 
 ## Source Files
 
-- `scripts/ChampionsRoom.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `ram/hram.asm`
+- `scripts/SilphCo9F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (100%)
+- EXTRACTED: 52 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

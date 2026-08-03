@@ -1,52 +1,49 @@
 # Scripts 72
 
-> 23 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **scripts/PewterCity.asm** (28 connections) — `scripts/PewterCity.asm`
-- **PewterCityCheckPlayerLeavingEastScript** (6 connections) — `scripts/PewterCity.asm`
-- **SetSpritePosition2** (4 connections) — `home/trainers.asm`
-- **PewterCity_Script** (4 connections) — `scripts/PewterCity.asm`
-- **PewterCityResetSuperNerd1Script** (4 connections) — `scripts/PewterCity.asm`
-- **PewterCityResetYoungsterScript** (4 connections) — `scripts/PewterCity.asm`
-- **PewterCityDefaultScript** (3 connections) — `scripts/PewterCity.asm`
-- **PewterCityHideSuperNerd1Script** (3 connections) — `scripts/PewterCity.asm`
-- **PewterCityHideYoungsterScript** (3 connections) — `scripts/PewterCity.asm`
-- **MovementData_PewterGymGuyExit** (2 connections) — `scripts/PewterCity.asm`
-- **MovementData_PewterMuseumGuyExit** (2 connections) — `scripts/PewterCity.asm`
-- **PewterCity_ScriptPointers** (2 connections) — `scripts/PewterCity.asm`
-- **PewterCityPlayerLeavingEastCoords** (2 connections) — `scripts/PewterCity.asm`
-- **PewterCity_TextPointers** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityCooltrainerFText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityCooltrainerMText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityGymSignText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityMuseumSignText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityPoliceNoticeSignText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCitySignText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCitySuperNerd1ItsRightHereText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityTrainerTipsText** (1 connections) — `scripts/PewterCity.asm`
-- **PewterCityYoungsterGoTakeOnBrockText** (1 connections) — `scripts/PewterCity.asm`
+- **scripts/LancesRoom.asm** (20 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomDefaultScript** (10 connections) — `scripts/LancesRoom.asm`
+- **WalkToLance** (7 connections) — `scripts/LancesRoom.asm`
+- **LancesRoom_Script** (6 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomLanceEndBattleScript** (5 connections) — `scripts/LancesRoom.asm`
+- **21.8 Mapa `LancesRoom`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **LanceShowOrHideEntranceBlocks** (4 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomLanceText** (4 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomLanceAfterBattleText** (3 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomPlayerIsMovingScript** (3 connections) — `scripts/LancesRoom.asm`
+- **LancesRoom_ScriptPointers** (2 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomLanceBeforeBattleText** (2 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomLanceEndBattleText** (2 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomNoopScript** (2 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomTrainerHeader0** (2 connections) — `scripts/LancesRoom.asm`
+- **LancesRoomTrainerHeaders** (2 connections) — `scripts/LancesRoom.asm`
+- **LanceTriggerMovementCoords** (2 connections) — `scripts/LancesRoom.asm`
+- **ResetLanceScript** (2 connections) — `scripts/LancesRoom.asm`
+- **WalkToLance_RLEList** (2 connections) — `scripts/LancesRoom.asm`
+- **LancesRoom_TextPointers** (1 connections) — `scripts/LancesRoom.asm`
 
 ## Relationships
 
-- [Scripts 19](Scripts_19.md) (4 shared connections)
-- [Scripts](Scripts.md) (3 shared connections)
-- [Home 5](Home_5.md) (2 shared connections)
-- [Scripts 2](Scripts_2.md) (2 shared connections)
-- [Engine Overworld 5](Engine_Overworld_5.md) (1 shared connections)
-- [Scripts 29](Scripts_29.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (7 shared connections)
+- [Scripts 9](Scripts_9.md) (2 shared connections)
+- [Scripts 33](Scripts_33.md) (2 shared connections)
+- [Scripts 4](Scripts_4.md) (2 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
+- [Scripts 14](Scripts_14.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
 
-- `home/trainers.asm`
-- `scripts/PewterCity.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/LancesRoom.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
+- EXTRACTED: 47 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

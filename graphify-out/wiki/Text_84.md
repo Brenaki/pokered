@@ -4,15 +4,15 @@
 
 ## Key Concepts
 
-- **text/PalletTown.asm** (10 connections) — `text/PalletTown.asm`
-- **_PalletTownFisherText** (1 connections) — `text/PalletTown.asm`
-- **_PalletTownGirlText** (1 connections) — `text/PalletTown.asm`
-- **_PalletTownOakHeyWaitDontGoOutText** (1 connections) — `text/PalletTown.asm`
-- **_PalletTownOakItsUnsafeText** (1 connections) — `text/PalletTown.asm`
-- **_PalletTownOaksLabSignText** (1 connections) — `text/PalletTown.asm`
-- **_PalletTownPlayersHouseSignText** (1 connections) — `text/PalletTown.asm`
-- **_PalletTownRivalsHouseSignText** (1 connections) — `text/PalletTown.asm`
-- **_PalletTownSignText** (1 connections) — `text/PalletTown.asm`
+- **text/PokemonMansion2F.asm** (10 connections) — `text/PokemonMansion2F.asm`
+- **_PokemonMansion2FDiary1Text** (1 connections) — `text/PokemonMansion2F.asm`
+- **_PokemonMansion2FDiary2Text** (1 connections) — `text/PokemonMansion2F.asm`
+- **_PokemonMansion2FSuperNerdAfterBattleText** (1 connections) — `text/PokemonMansion2F.asm`
+- **_PokemonMansion2FSuperNerdBattleText** (1 connections) — `text/PokemonMansion2F.asm`
+- **_PokemonMansion2FSuperNerdEndBattleText** (1 connections) — `text/PokemonMansion2F.asm`
+- **_PokemonMansion2FSwitchNotPressedText** (1 connections) — `text/PokemonMansion2F.asm`
+- **_PokemonMansion2FSwitchPressedText** (1 connections) — `text/PokemonMansion2F.asm`
+- **_PokemonMansion2FSwitchText** (1 connections) — `text/PokemonMansion2F.asm`
 
 ## Relationships
 
@@ -20,7 +20,7 @@
 
 ## Source Files
 
-- `text/PalletTown.asm`
+- `text/PokemonMansion2F.asm`
 
 ## Audit Trail
 

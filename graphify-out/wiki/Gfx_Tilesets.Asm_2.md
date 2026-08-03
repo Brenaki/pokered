@@ -21,11 +21,11 @@
 - **gfx/blocksets/gate.bst** (2 connections) — `gfx/blocksets/gate.bst`
 - **gfx/blocksets/gym.bst** (2 connections) — `gfx/blocksets/gym.bst`
 - **gfx/blocksets/pokecenter.bst** (2 connections) — `gfx/blocksets/pokecenter.bst`
-- **gfx/tilesets/facility.2bpp** (2 connections) — `gfx/tilesets.asm`
-- **gfx/tilesets/forest.2bpp** (2 connections) — `gfx/tilesets.asm`
-- **gfx/tilesets/gate.2bpp** (2 connections) — `gfx/tilesets.asm`
-- **gfx/tilesets/gym.2bpp** (2 connections) — `gfx/tilesets.asm`
-- **gfx/tilesets/pokecenter.2bpp** (2 connections) — `gfx/tilesets.asm`
+- **gfx/tilesets/facility.2bpp** (2 connections) — `gfx/tilesets/facility.2bpp`
+- **gfx/tilesets/forest.2bpp** (2 connections) — `gfx/tilesets/forest.2bpp`
+- **gfx/tilesets/gate.2bpp** (2 connections) — `gfx/tilesets/gate.2bpp`
+- **gfx/tilesets/gym.2bpp** (2 connections) — `gfx/tilesets/gym.2bpp`
+- **gfx/tilesets/pokecenter.2bpp** (2 connections) — `gfx/tilesets/pokecenter.2bpp`
 - **Dojo_Block** (2 connections) — `gfx/tilesets.asm`
 - **Dojo_GFX** (2 connections) — `gfx/tilesets.asm`
 - **ForestGate_Block** (2 connections) — `gfx/tilesets.asm`
@@ -45,6 +45,11 @@
 - `gfx/blocksets/gym.bst`
 - `gfx/blocksets/pokecenter.bst`
 - `gfx/tilesets.asm`
+- `gfx/tilesets/facility.2bpp`
+- `gfx/tilesets/forest.2bpp`
+- `gfx/tilesets/gate.2bpp`
+- `gfx/tilesets/gym.2bpp`
+- `gfx/tilesets/pokecenter.2bpp`
 
 ## Audit Trail
 

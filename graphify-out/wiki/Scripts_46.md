@@ -1,53 +1,63 @@
 # Scripts 46
 
-> 32 nodes · cohesion 0.08
+> 34 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **GateUpstairsScript_PrintIfFacingUp** (12 connections) — `scripts/Route12Gate2F.asm`
-- **scripts/Route11Gate2F.asm** (9 connections) — `scripts/Route11Gate2F.asm`
-- **scripts/Route12Gate2F.asm** (8 connections) — `scripts/Route12Gate2F.asm`
-- **scripts/Route16Gate2F.asm** (8 connections) — `scripts/Route16Gate2F.asm`
-- **scripts/Route18Gate2F.asm** (7 connections) — `scripts/Route18Gate2F.asm`
-- **scripts/Route15Gate2F.asm** (6 connections) — `scripts/Route15Gate2F.asm`
-- **DisableAutoTextBoxDrawing** (6 connections) — `home/window.asm`
-- **Route11Gate2FLeftBinocularsText** (4 connections) — `scripts/Route11Gate2F.asm`
-- **Route12Gate2FBrunetteGirlText** (4 connections) — `scripts/Route12Gate2F.asm`
-- **Route11Gate2FScriptEnd** (3 connections) — `scripts/Route11Gate2F.asm`
-- **Route16Gate2FLittleBoyText** (3 connections) — `scripts/Route16Gate2F.asm`
-- **Route16Gate2FLittleGirlText** (3 connections) — `scripts/Route16Gate2F.asm`
-- **Route18Gate2FYoungsterText** (3 connections) — `scripts/Route18Gate2F.asm`
-- **Route11Gate2F_Script** (2 connections) — `scripts/Route11Gate2F.asm`
-- **Route11Gate2FRightBinocularsText** (2 connections) — `scripts/Route11Gate2F.asm`
-- **Route11Gate2FYoungsterText** (2 connections) — `scripts/Route11Gate2F.asm`
-- **Route12Gate2F_Script** (2 connections) — `scripts/Route12Gate2F.asm`
-- **Route12Gate2FLeftBinocularsText** (2 connections) — `scripts/Route12Gate2F.asm`
-- **Route12Gate2FRightBinocularsText** (2 connections) — `scripts/Route12Gate2F.asm`
-- **Route15Gate2F_Script** (2 connections) — `scripts/Route15Gate2F.asm`
-- **Route15Gate2FBinocularsText** (2 connections) — `scripts/Route15Gate2F.asm`
-- **Route16Gate2F_Script** (2 connections) — `scripts/Route16Gate2F.asm`
-- **Route16Gate2FLeftBinocularsText** (2 connections) — `scripts/Route16Gate2F.asm`
-- **Route16Gate2FRightBinocularsText** (2 connections) — `scripts/Route16Gate2F.asm`
-- **Route18Gate2F_Script** (2 connections) — `scripts/Route18Gate2F.asm`
-- *... and 7 more nodes in this community*
+- **scripts/GameCorner.asm** (35 connections) — `scripts/GameCorner.asm`
+- **IsItemInBag** (20 connections) — `home/map_objects.asm`
+- **wPlayerCoins** (17 connections) — `ram/wram.asm`
+- **AddBCDPredef** (14 connections) — `engine/math/bcd.asm`
+- **GameCornerClerk1Text** (14 connections) — `scripts/GameCorner.asm`
+- **hCoins** (9 connections) — `ram/hram.asm`
+- **GameCornerClerk2Text** (9 connections) — `scripts/GameCorner.asm`
+- **GameCornerFishingGuruText** (9 connections) — `scripts/GameCorner.asm`
+- **GameCornerGentlemanText** (9 connections) — `scripts/GameCorner.asm`
+- **HasEnoughCoins** (6 connections) — `home/money.asm`
+- **GameCorner_Script** (6 connections) — `scripts/GameCorner.asm`
+- **Has9990Coins** (6 connections) — `scripts/GameCorner.asm`
+- **GameCornerGymGuideText** (5 connections) — `scripts/GameCorner.asm`
+- **GameCornerOopsForgotCoinCaseText** (4 connections) — `scripts/GameCorner.asm`
+- **GameCornerSelectLuckySlotMachine** (4 connections) — `scripts/GameCorner.asm`
+- **GameCornerSetRocketHideoutDoorTile** (3 connections) — `scripts/GameCorner.asm`
+- **GameCorner_ScriptPointers** (2 connections) — `scripts/GameCorner.asm`
+- **GameCornerBlankText1** (2 connections) — `scripts/GameCorner.asm`
+- **GameCornerBlankText2** (2 connections) — `scripts/GameCorner.asm`
+- **GameCornerCoinText** (2 connections) — `scripts/GameCorner.asm`
+- **GameCornerDefaultScript** (2 connections) — `scripts/GameCorner.asm`
+- **GameCornerGymGuideChampInMakingText** (2 connections) — `scripts/GameCorner.asm`
+- **GameCornerGymGuideTheyOfferRarePokemonText** (2 connections) — `scripts/GameCorner.asm`
+- **GameCornerMoneyText** (2 connections) — `scripts/GameCorner.asm`
+- **GameCornerMovement_Rocket_WalkAroundPlayer** (2 connections) — `scripts/GameCorner.asm`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (13 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (4 shared connections)
+- [Scripts 2](Scripts_2.md) (11 shared connections)
+- [Scripts 4](Scripts_4.md) (5 shared connections)
+- [Scripts 9](Scripts_9.md) (3 shared connections)
+- [Engine Menus](Engine_Menus.md) (2 shared connections)
+- [Engine Gfx 2](Engine_Gfx_2.md) (1 shared connections)
+- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (1 shared connections)
+- [Scripts 10](Scripts_10.md) (1 shared connections)
+- [Engine Slots 2](Engine_Slots_2.md) (1 shared connections)
+- [Scripts 8](Scripts_8.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Engine Items 4](Engine_Items_4.md) (1 shared connections)
 
 ## Source Files
 
-- `home/window.asm`
-- `scripts/Route11Gate2F.asm`
-- `scripts/Route12Gate2F.asm`
-- `scripts/Route15Gate2F.asm`
-- `scripts/Route16Gate2F.asm`
-- `scripts/Route18Gate2F.asm`
+- `engine/math/bcd.asm`
+- `home/map_objects.asm`
+- `home/money.asm`
+- `ram/hram.asm`
+- `ram/wram.asm`
+- `scripts/GameCorner.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (100%)
+- EXTRACTED: 88 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

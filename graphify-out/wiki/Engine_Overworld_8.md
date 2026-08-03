@@ -1,26 +1,31 @@
 # Engine Overworld 8
 
-> 3 nodes · cohesion 1.00
+> 8 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **ReplaceTileBlock** (15 connections) — `engine/overworld/update_map.asm`
-- **engine/overworld/update_map.asm** (5 connections) — `engine/overworld/update_map.asm`
-- **CompareHLWithBC** (2 connections) — `engine/overworld/update_map.asm`
+- **LoadSpinnerArrowTiles** (8 connections) — `engine/overworld/spinners.asm`
+- **engine/overworld/spinners.asm** (6 connections) — `engine/overworld/spinners.asm`
+- **data/tilesets/spinner_tiles.asm** (5 connections) — `data/tilesets/spinner_tiles.asm`
+- **FacilitySpinnerArrows** (2 connections) — `data/tilesets/spinner_tiles.asm`
+- **GymSpinnerArrows** (2 connections) — `data/tilesets/spinner_tiles.asm`
+- **SpinnerArrowAnimTiles** (2 connections) — `engine/overworld/spinners.asm`
+- **SpinnerPlayerFacingDirections** (2 connections) — `engine/overworld/spinners.asm`
+- **gfx/overworld/spinners.2bpp** (1 connections) — `gfx/overworld/spinners.2bpp`
 
 ## Relationships
 
-- [Engine Overworld](Engine_Overworld.md) (1 shared connections)
-- [Ram 5](Ram_5.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (2 shared connections)
 
 ## Source Files
 
-- `engine/overworld/update_map.asm`
+- `data/tilesets/spinner_tiles.asm`
+- `engine/overworld/spinners.asm`
+- `gfx/overworld/spinners.2bpp`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

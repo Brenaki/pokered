@@ -1,76 +1,62 @@
 # Scripts 7
 
-> 63 nodes · cohesion 0.08
+> 78 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **wStatusFlags3** (39 connections) — `ram/wram.asm`
-- **SaveEndBattleTextPointers** (32 connections) — `home/trainers.asm`
-- **scripts/CinnabarGym.asm** (29 connections) — `scripts/CinnabarGym.asm`
-- **EngageMapTrainer** (21 connections) — `home/trainers.asm`
-- **InitBattleEnemyParameters** (17 connections) — `home/trainers.asm`
-- **wObtainedBadges** (14 connections) — `ram/wram.asm`
-- **ViridianGymGiovanniText** (14 connections) — `scripts/ViridianGym.asm`
-- **CinnabarGymStartBattleScript** (13 connections) — `scripts/CinnabarGym.asm`
-- **wBeatGymFlags** (10 connections) — `ram/wram.asm`
-- **CeruleanGymMistyText** (10 connections) — `scripts/CeruleanGym.asm`
-- **PewterGymBrockText** (10 connections) — `scripts/PewterGym.asm`
-- **VermilionGymLTSurgeText** (10 connections) — `scripts/VermilionGym.asm`
-- **DisableWaitingAfterTextDisplay** (9 connections) — `home/reload_tiles.asm`
-- **CeladonGymErikaText** (9 connections) — `scripts/CeladonGym.asm`
-- **CeruleanCityRocketText** (9 connections) — `scripts/CeruleanCity.asm`
-- **FuchsiaGymKogaText** (9 connections) — `scripts/FuchsiaGym.asm`
-- **SaffronGymSabrinaText** (9 connections) — `scripts/SaffronGym.asm`
-- **PrintEndBattleText** (8 connections) — `home/trainers.asm`
-- **CinnabarGymReceiveTM38** (8 connections) — `scripts/CinnabarGym.asm`
-- **CinnabarGymSetTrainerHeader** (8 connections) — `scripts/CinnabarGym.asm`
-- **RocketHideoutB4FGiovanniText** (8 connections) — `scripts/RocketHideoutB4F.asm`
-- **Route24CooltrainerM1Text** (8 connections) — `scripts/Route24.asm`
-- **SilphCo11FGiovanniStartBattleScript** (8 connections) — `scripts/SilphCo11F.asm`
-- **ViridianGymReceiveTM27** (8 connections) — `scripts/ViridianGym.asm`
-- **CeladonGymReceiveTM21** (7 connections) — `scripts/CeladonGym.asm`
-- *... and 38 more nodes in this community*
+- **scripts/SilphCo7F.asm** (45 connections) — `scripts/SilphCo7F.asm`
+- **scripts/FightingDojo.asm** (34 connections) — `scripts/FightingDojo.asm`
+- **21.6 Mapa `FightingDojo`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **21.61 Mapa `SilphCo7F`** (13 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **scripts/CinnabarLabFossilRoom.asm** (11 connections) — `scripts/CinnabarLabFossilRoom.asm`
+- **GivePokemon** (8 connections) — `home/give.asm`
+- **FightingDojoHitmonchanPokeBallText** (8 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoHitmonleePokeBallText** (8 connections) — `scripts/FightingDojo.asm`
+- **CinnabarLabFossilRoomScientist1Text** (7 connections) — `scripts/CinnabarLabFossilRoom.asm`
+- **SilphCo7FSilphWorkerM1Text** (7 connections) — `scripts/SilphCo7F.asm`
+- **Lab4Script_GetFossilsInBag** (6 connections) — `scripts/CinnabarLabFossilRoom.asm`
+- **SilphCo7F_GateCallbackScript** (6 connections) — `scripts/SilphCo7F.asm`
+- **SilphCo7F_Script** (6 connections) — `scripts/SilphCo7F.asm`
+- **FightingDojo_Script** (5 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt1Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt2Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt3Text** (4 connections) — `scripts/FightingDojo.asm`
+- **FightingDojoBlackbelt4Text** (4 connections) — `scripts/FightingDojo.asm`
+- **SilphCo7F_SetCardKeyDoorYScript** (4 connections) — `scripts/SilphCo7F.asm`
+- **SilphCo7FRocket1Text** (4 connections) — `scripts/SilphCo7F.asm`
+- **SilphCo7FRocket2Text** (4 connections) — `scripts/SilphCo7F.asm`
+- **SilphCo7FRocket3Text** (4 connections) — `scripts/SilphCo7F.asm`
+- **SilphCo7FScientistText** (4 connections) — `scripts/SilphCo7F.asm`
+- **CinnabarLabFossilRoomScientist2Text** (3 connections) — `scripts/CinnabarLabFossilRoom.asm`
+- **FightingDojoBetterNotGetGreedyText** (3 connections) — `scripts/FightingDojo.asm`
+- *... and 53 more nodes in this community*
 
 ## Relationships
 
-- [Scripts](Scripts.md) (56 shared connections)
-- [Scripts 2](Scripts_2.md) (7 shared connections)
-- [Scripts 19](Scripts_19.md) (5 shared connections)
-- [Home 8](Home_8.md) (2 shared connections)
-- [Scripts 54](Scripts_54.md) (2 shared connections)
-- [Scripts 96](Scripts_96.md) (2 shared connections)
-- [Home 6](Home_6.md) (2 shared connections)
-- [Home](Home.md) (2 shared connections)
-- [Engine Events 3](Engine_Events_3.md) (1 shared connections)
-- [Data Events](Data_Events.md) (1 shared connections)
-- [Engine Overworld 4](Engine_Overworld_4.md) (1 shared connections)
-- [Engine Battle 3](Engine_Battle_3.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (17 shared connections)
+- [Scripts 2](Scripts_2.md) (10 shared connections)
+- [Scripts 14](Scripts_14.md) (8 shared connections)
+- [Scripts 3](Scripts_3.md) (6 shared connections)
+- [Scripts](Scripts.md) (4 shared connections)
+- [Scripts 13](Scripts_13.md) (3 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
+- [Scripts 33](Scripts_33.md) (2 shared connections)
+- [Scripts 73](Scripts_73.md) (2 shared connections)
+- [Scripts 10](Scripts_10.md) (1 shared connections)
+- [Engine Slots 2](Engine_Slots_2.md) (1 shared connections)
+- [Scripts 69](Scripts_69.md) (1 shared connections)
 
 ## Source Files
 
-- `home/hidden_events.asm`
-- `home/reload_tiles.asm`
-- `home/trainers.asm`
-- `ram/wram.asm`
-- `scripts/CeladonGym.asm`
-- `scripts/CeruleanCity.asm`
-- `scripts/CeruleanGym.asm`
-- `scripts/CinnabarGym.asm`
-- `scripts/FuchsiaGym.asm`
-- `scripts/GameCorner.asm`
-- `scripts/PewterGym.asm`
-- `scripts/PokemonTower2F.asm`
-- `scripts/RocketHideoutB4F.asm`
-- `scripts/Route24.asm`
-- `scripts/SSAnne2F.asm`
-- `scripts/SaffronGym.asm`
-- `scripts/SilphCo11F.asm`
-- `scripts/VermilionGym.asm`
-- `scripts/ViridianGym.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `home/give.asm`
+- `scripts/CinnabarLabFossilRoom.asm`
+- `scripts/FightingDojo.asm`
+- `scripts/SilphCo7F.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 243 (100%)
+- EXTRACTED: 184 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

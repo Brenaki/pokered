@@ -1,6 +1,6 @@
 # Engine Items 2
 
-> 43 nodes · cohesion 0.09
+> 44 nodes · cohesion 0.09
 
 ## Key Concepts
 
@@ -13,12 +13,13 @@
 - **JoypadLowSensitivity** (14 connections) — `home/joypad2.asm`
 - **DrawPlayerOrBirdSprite** (12 connections) — `engine/items/town_map.asm`
 - **LoadTownMap_Nest** (10 connections) — `engine/items/town_map.asm`
-- **HallOfFameResetEventsAndSaveScript** (10 connections) — `scripts/HallOfFame.asm`
+- **home/copy2.asm** (10 connections) — `home/copy2.asm`
 - **CopyVideoDataDouble** (9 connections) — `home/copy2.asm`
+- **CheckForUserInterruption** (8 connections) — `home/overworld.asm`
 - **TownMapSpriteBlinkingAnimation** (7 connections) — `engine/items/town_map.asm`
 - **LoadTownMapEntry** (6 connections) — `engine/items/town_map.asm`
-- **wUpdateSpritesEnabled** (6 connections) — `ram/wram.asm`
 - **home/joypad2.asm** (5 connections) — `home/joypad2.asm`
+- **FarCopyDataDouble** (5 connections) — `home/copy2.asm`
 - **wShadowOAMBackup** (5 connections) — `ram/wram.asm`
 - **wTownMapCoords** (5 connections) — `ram/wram.asm`
 - **TownMapCoordsToOAMCoords** (4 connections) — `engine/items/town_map.asm`
@@ -28,38 +29,40 @@
 - **CompressedMap** (3 connections) — `engine/items/town_map.asm`
 - **MonNestIcon** (3 connections) — `engine/items/town_map.asm`
 - **TownMapCursor** (3 connections) — `engine/items/town_map.asm`
-- **TownMapUpArrow** (3 connections) — `engine/items/town_map.asm`
-- *... and 18 more nodes in this community*
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [Home](Home.md) (18 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (10 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (6 shared connections)
-- [Engine Link](Engine_Link.md) (5 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (17 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (12 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (9 shared connections)
+- [Engine Menus](Engine_Menus.md) (7 shared connections)
 - [Engine Movie 2](Engine_Movie_2.md) (5 shared connections)
-- [Engine Overworld](Engine_Overworld.md) (3 shared connections)
-- [Engine Battle 8](Engine_Battle_8.md) (3 shared connections)
-- [Scripts 5](Scripts_5.md) (2 shared connections)
-- [Engine Battle](Engine_Battle.md) (2 shared connections)
-- [Gfx Font.Asm](Gfx_Font.Asm.md) (2 shared connections)
-- [Ram](Ram.md) (2 shared connections)
-- [Home 2](Home_2.md) (2 shared connections)
+- [Ram](Ram.md) (4 shared connections)
+- [Engine Battle](Engine_Battle.md) (3 shared connections)
+- [Engine Battle 7](Engine_Battle_7.md) (3 shared connections)
+- [Home](Home.md) (3 shared connections)
+- [Scripts 6](Scripts_6.md) (2 shared connections)
+- [Engine Movie](Engine_Movie.md) (2 shared connections)
+- [Engine Gfx](Engine_Gfx.md) (2 shared connections)
 
 ## Source Files
 
 - `data/maps/town_map_entries.asm`
 - `data/maps/town_map_order.asm`
 - `engine/items/town_map.asm`
+- `gfx/town_map/mon_nest_icon.1bpp`
 - `gfx/town_map/town_map.rle`
+- `gfx/town_map/town_map_cursor.1bpp`
+- `gfx/town_map/up_arrow.1bpp`
 - `home/copy2.asm`
 - `home/joypad2.asm`
+- `home/overworld.asm`
 - `ram/wram.asm`
-- `scripts/HallOfFame.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 152 (100%)
+- EXTRACTED: 155 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

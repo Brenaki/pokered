@@ -1,44 +1,39 @@
 # Scripts 84
 
-> 19 nodes · cohesion 0.16
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **scripts/SSAnneBow.asm** (19 connections) — `scripts/SSAnneBow.asm`
-- **21.51 Mapa `SSAnneBow`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **SSAnneBow_Script** (5 connections) — `scripts/SSAnneBow.asm`
-- **SSAnneBowSailor2Text** (4 connections) — `scripts/SSAnneBow.asm`
-- **SSAnneBowSailor3Text** (4 connections) — `scripts/SSAnneBow.asm`
-- **SSAnne5TrainerHeader0** (2 connections) — `scripts/SSAnneBow.asm`
-- **SSAnne5TrainerHeader1** (2 connections) — `scripts/SSAnneBow.asm`
-- **SSAnne5TrainerHeaders** (2 connections) — `scripts/SSAnneBow.asm`
-- **SSAnneBow_ScriptPointers** (2 connections) — `scripts/SSAnneBow.asm`
-- **SSAnneBowSailor2AfterBattleText** (2 connections) — `scripts/SSAnneBow.asm`
-- **SSAnneBowSailor2BattleText** (2 connections) — `scripts/SSAnneBow.asm`
-- **SSAnneBowSailor2EndBattleText** (2 connections) — `scripts/SSAnneBow.asm`
-- **SSAnneBowSailor3AfterBattleText** (2 connections) — `scripts/SSAnneBow.asm`
-- **SSAnneBowSailor3BattleText** (2 connections) — `scripts/SSAnneBow.asm`
-- **SSAnneBowSailor3EndBattleText** (2 connections) — `scripts/SSAnneBow.asm`
-- **SSAnneBow_TextPointers** (1 connections) — `scripts/SSAnneBow.asm`
-- **SSAnneBowCooltrainerMText** (1 connections) — `scripts/SSAnneBow.asm`
-- **SSAnneBowSailor1Text** (1 connections) — `scripts/SSAnneBow.asm`
-- **SSAnneBowSuperNerdText** (1 connections) — `scripts/SSAnneBow.asm`
+- **scripts/Route4.asm** (14 connections) — `scripts/Route4.asm`
+- **Route4_Script** (5 connections) — `scripts/Route4.asm`
+- **21.44 Mapa `Route4`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **Route4CooltrainerF2Text** (4 connections) — `scripts/Route4.asm`
+- **Route4_ScriptPointers** (2 connections) — `scripts/Route4.asm`
+- **Route4CooltrainerF2AfterBattleText** (2 connections) — `scripts/Route4.asm`
+- **Route4CooltrainerF2BattleText** (2 connections) — `scripts/Route4.asm`
+- **Route4CooltrainerF2EndBattleText** (2 connections) — `scripts/Route4.asm`
+- **Route4TrainerHeader0** (2 connections) — `scripts/Route4.asm`
+- **Route4TrainerHeaders** (2 connections) — `scripts/Route4.asm`
+- **Route4_TextPointers** (1 connections) — `scripts/Route4.asm`
+- **Route4CooltrainerF1Text** (1 connections) — `scripts/Route4.asm`
+- **Route4MtMoonSignText** (1 connections) — `scripts/Route4.asm`
+- **Route4SignText** (1 connections) — `scripts/Route4.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (2 shared connections)
-- [Home 8](Home_8.md) (2 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 - [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 14](Scripts_14.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/SSAnneBow.asm`
+- `scripts/Route4.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

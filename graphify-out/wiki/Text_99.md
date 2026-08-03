@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **text/PokemonMansion1F.asm** (8 connections) — `text/PokemonMansion1F.asm`
-- **_PokemonMansion1FScientistAfterBattleText** (1 connections) — `text/PokemonMansion1F.asm`
-- **_PokemonMansion1FScientistBattleText** (1 connections) — `text/PokemonMansion1F.asm`
-- **_PokemonMansion1FScientistEndBattleText** (1 connections) — `text/PokemonMansion1F.asm`
-- **_PokemonMansion1FSwitchNotPressedText** (1 connections) — `text/PokemonMansion1F.asm`
-- **_PokemonMansion1FSwitchPressedText** (1 connections) — `text/PokemonMansion1F.asm`
-- **_PokemonMansion1FSwitchText** (1 connections) — `text/PokemonMansion1F.asm`
+- **text/Route12Gate2F.asm** (8 connections) — `text/Route12Gate2F.asm`
+- **_Route12Gate2FBrunetteGirlReceivedTM39Text** (1 connections) — `text/Route12Gate2F.asm`
+- **_Route12Gate2FBrunetteGirlTM39ExplanationText** (1 connections) — `text/Route12Gate2F.asm`
+- **_Route12Gate2FBrunetteGirlTM39NoRoomText** (1 connections) — `text/Route12Gate2F.asm`
+- **_Route12Gate2FBrunetteGirlYouCanHaveThisText** (1 connections) — `text/Route12Gate2F.asm`
+- **_Route12Gate2FLeftBinocularsText** (1 connections) — `text/Route12Gate2F.asm`
+- **_Route12Gate2FRightBinocularsText** (1 connections) — `text/Route12Gate2F.asm`
 
 ## Relationships
 
@@ -18,7 +18,7 @@
 
 ## Source Files
 
-- `text/PokemonMansion1F.asm`
+- `text/Route12Gate2F.asm`
 
 ## Audit Trail
 

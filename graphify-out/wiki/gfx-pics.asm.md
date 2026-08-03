@@ -2,7 +2,7 @@
 
 > God node · 361 connections · `gfx/pics.asm`
 
-**Community:** [Gfx Pics.Asm 6](Gfx_Pics.Asm_6.md)
+**Community:** [Gfx Pics.Asm 5](Gfx_Pics.Asm_5.md)
 
 ## Connections by Relation
 

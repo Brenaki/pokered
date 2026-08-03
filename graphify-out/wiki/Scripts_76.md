@@ -1,48 +1,44 @@
 # Scripts 76
 
-> 22 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **scripts/FuchsiaCity.asm** (20 connections) — `scripts/FuchsiaCity.asm`
-- **DisplayPokedex** (12 connections) — `home/map_objects.asm`
-- **SSAnne2FRoomsGentleman3Text** (6 connections) — `scripts/SSAnne2FRooms.asm`
-- **FuchsiaCityChanseySignText** (4 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityFossilSignText** (4 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityKangaskhanSignText** (4 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityLaprasSignText** (4 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCitySlowpokeSignText** (4 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityVoltorbSignText** (4 connections) — `scripts/FuchsiaCity.asm`
-- **SilphCo10FPorygonText** (4 connections) — `scripts/SilphCo11F.asm`
-- **FuchsiaCity_Script** (2 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCity_TextPointers** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityErikText** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityGamblerText** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityGymSignText** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityPokemonText** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCitySafariGameSignText** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCitySafariZoneSignText** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCitySignText** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityWardensHomeSignText** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityYoungster1Text** (1 connections) — `scripts/FuchsiaCity.asm`
-- **FuchsiaCityYoungster2Text** (1 connections) — `scripts/FuchsiaCity.asm`
+- **scripts/SSAnneBow.asm** (19 connections) — `scripts/SSAnneBow.asm`
+- **21.51 Mapa `SSAnneBow`** (7 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **SSAnneBow_Script** (5 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor2Text** (4 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor3Text** (4 connections) — `scripts/SSAnneBow.asm`
+- **SSAnne5TrainerHeader0** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnne5TrainerHeader1** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnne5TrainerHeaders** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBow_ScriptPointers** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor2AfterBattleText** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor2BattleText** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor2EndBattleText** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor3AfterBattleText** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor3BattleText** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor3EndBattleText** (2 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBow_TextPointers** (1 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowCooltrainerMText** (1 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSailor1Text** (1 connections) — `scripts/SSAnneBow.asm`
+- **SSAnneBowSuperNerdText** (1 connections) — `scripts/SSAnneBow.asm`
 
 ## Relationships
 
-- [Scripts](Scripts.md) (16 shared connections)
-- [Home](Home.md) (2 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (2 shared connections)
+- [Scripts 14](Scripts_14.md) (2 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
 
 ## Source Files
 
-- `home/map_objects.asm`
-- `scripts/FuchsiaCity.asm`
-- `scripts/SSAnne2FRooms.asm`
-- `scripts/SilphCo11F.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `scripts/SSAnneBow.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

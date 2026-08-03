@@ -23,21 +23,23 @@
 - **SmallStarsWave3Coords** (2 connections) — `engine/movie/splash.asm`
 - **SmallStarsWave4Coords** (2 connections) — `engine/movie/splash.asm`
 - **FallingStarEnd** (1 connections) — `engine/movie/splash.asm`
-- **gfx/battle/move_anim_1.2bpp** (1 connections) — `engine/battle/animations.asm`
-- **gfx/splash/falling_star.2bpp** (1 connections) — `engine/movie/splash.asm`
+- **gfx/battle/move_anim_1.2bpp** (1 connections) — `gfx/battle/move_anim_1.2bpp`
+- **gfx/splash/falling_star.2bpp** (1 connections) — `gfx/splash/falling_star.2bpp`
 
 ## Relationships
 
-- [Bank WRAM0](Bank_WRAM0.md) (2 shared connections)
-- [Engine Movie 3](Engine_Movie_3.md) (2 shared connections)
-- [Engine Battle 8](Engine_Battle_8.md) (2 shared connections)
+- [Engine Pokemon](Engine_Pokemon.md) (2 shared connections)
+- [Engine Items 2](Engine_Items_2.md) (2 shared connections)
+- [Engine Battle 7](Engine_Battle_7.md) (2 shared connections)
 - [Bank VRAM](Bank_VRAM.md) (2 shared connections)
-- [Scripts 5](Scripts_5.md) (1 shared connections)
+- [Scripts 6](Scripts_6.md) (1 shared connections)
 
 ## Source Files
 
 - `engine/battle/animations.asm`
 - `engine/movie/splash.asm`
+- `gfx/battle/move_anim_1.2bpp`
+- `gfx/splash/falling_star.2bpp`
 
 ## Audit Trail
 

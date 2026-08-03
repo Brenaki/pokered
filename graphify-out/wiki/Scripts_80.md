@@ -1,49 +1,47 @@
 # Scripts 80
 
-> 20 nodes · cohesion 0.16
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **scripts/LancesRoom.asm** (20 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomDefaultScript** (10 connections) — `scripts/LancesRoom.asm`
-- **WalkToLance** (7 connections) — `scripts/LancesRoom.asm`
-- **LancesRoom_Script** (6 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomLanceEndBattleScript** (5 connections) — `scripts/LancesRoom.asm`
-- **21.8 Mapa `LancesRoom`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- **LanceShowOrHideEntranceBlocks** (4 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomLanceText** (4 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomLanceAfterBattleText** (3 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomPlayerIsMovingScript** (3 connections) — `scripts/LancesRoom.asm`
-- **LancesRoom_ScriptPointers** (2 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomLanceBeforeBattleText** (2 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomLanceEndBattleText** (2 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomNoopScript** (2 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomTrainerHeader0** (2 connections) — `scripts/LancesRoom.asm`
-- **LancesRoomTrainerHeaders** (2 connections) — `scripts/LancesRoom.asm`
-- **LanceTriggerMovementCoords** (2 connections) — `scripts/LancesRoom.asm`
-- **ResetLanceScript** (2 connections) — `scripts/LancesRoom.asm`
-- **WalkToLance_RLEList** (2 connections) — `scripts/LancesRoom.asm`
-- **LancesRoom_TextPointers** (1 connections) — `scripts/LancesRoom.asm`
+- **scripts/LoreleisRoom.asm** (20 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoom_Script** (6 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomLoreleiEndBattleScript** (5 connections) — `scripts/LoreleisRoom.asm`
+- **21.9 Mapa `LoreleisRoom`** (4 connections) — `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- **LoreleiShowOrHideExitBlock** (4 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomLoreleiText** (4 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomPlayerIsMovingScript** (3 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleiEntranceCoords** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoom_ScriptPointers** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomLoreleiAfterBattleText** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomLoreleiBeforeBattleText** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomLoreleiEndBattleText** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomNoopScript** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomTrainerHeader0** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomTrainerHeaders** (2 connections) — `scripts/LoreleisRoom.asm`
+- **ResetLoreleiScript** (2 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoom_TextPointers** (1 connections) — `scripts/LoreleisRoom.asm`
+- **LoreleisRoomLoreleiDontRunAwayText** (1 connections) — `scripts/LoreleisRoom.asm`
 
 ## Relationships
 
-- [Scripts 2](Scripts_2.md) (7 shared connections)
-- [Scripts 19](Scripts_19.md) (3 shared connections)
-- [Scripts](Scripts.md) (2 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 3](Scripts_3.md) (3 shared connections)
+- [Scripts 33](Scripts_33.md) (2 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
 - [Scripts 5](Scripts_5.md) (1 shared connections)
-- [Home 8](Home_8.md) (1 shared connections)
-- [Home](Home.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (1 shared connections)
+- [Scripts 14](Scripts_14.md) (1 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (1 shared connections)
 
 ## Source Files
 
 - `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
-- `scripts/LancesRoom.asm`
+- `scripts/LoreleisRoom.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

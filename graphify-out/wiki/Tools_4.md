@@ -1,47 +1,55 @@
 # Tools 4
 
-> 28 nodes · cohesion 0.07
+> 23 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **tools/graphify_rgbds.py** (29 connections) — `tools/graphify_rgbds.py`
-- **banks** (1 connections) — `tools/graphify_rgbds.py`
-- **by_type** (1 connections) — `tools/graphify_rgbds.py`
-- **confidence** (1 connections) — `tools/graphify_rgbds.py`
-- **current_section** (1 connections) — `tools/graphify_rgbds.py`
-- **dirs** (1 connections) — `tools/graphify_rgbds.py`
-- **file_type** (1 connections) — `tools/graphify_rgbds.py`
-- **files** (1 connections) — `tools/graphify_rgbds.py`
-- **label** (1 connections) — `tools/graphify_rgbds.py`
-- **line** (1 connections) — `tools/graphify_rgbds.py`
-- **node_id** (1 connections) — `tools/graphify_rgbds.py`
-- **node_type** (1 connections) — `tools/graphify_rgbds.py`
-- **out** (1 connections) — `tools/graphify_rgbds.py`
-- **parents** (1 connections) — `tools/graphify_rgbds.py`
-- **relation** (1 connections) — `tools/graphify_rgbds.py`
-- **seen** (1 connections) — `tools/graphify_rgbds.py`
-- **self.edges** (1 connections) — `tools/graphify_rgbds.py`
-- **self.file_labels** (1 connections) — `tools/graphify_rgbds.py`
-- **self.file_sections** (1 connections) — `tools/graphify_rgbds.py`
-- **self.label_defs** (1 connections) — `tools/graphify_rgbds.py`
-- **self.markdown_headings** (1 connections) — `tools/graphify_rgbds.py`
-- **self.nodes** (1 connections) — `tools/graphify_rgbds.py`
-- **source** (1 connections) — `tools/graphify_rgbds.py`
-- **source_file** (1 connections) — `tools/graphify_rgbds.py`
-- **target** (1 connections) — `tools/graphify_rgbds.py`
-- *... and 3 more nodes in this community*
+- **tools/make_patch.c** (16 connections) — `tools/make_patch.c`
+- **tools** (11 connections)
+- **usage_exit** (9 connections) — `tools/common.h`
+- **main** (7 connections) — `tools/make_patch.c`
+- **parse_args** (6 connections) — `tools/gfx.c`
+- **parse_symbol_value** (6 connections) — `tools/make_patch.c`
+- **skip_to_next_line** (6 connections) — `tools/make_patch.c`
+- **tools/scan_includes.c** (5 connections) — `tools/scan_includes.c`
+- **interpret_command** (5 connections) — `tools/make_patch.c`
+- **common.h** (4 connections) — `tools/gfx.c`
+- **buffer_append** (4 connections) — `tools/make_patch.c`
+- **buffer_free** (4 connections) — `tools/make_patch.c`
+- **parse_number** (4 connections) — `tools/make_patch.c`
+- **main** (4 connections) — `tools/scan_includes.c`
+- **parse_arg_value** (3 connections) — `tools/make_patch.c`
+- **parse_args** (2 connections) — `tools/make_patch.c`
+- **symbol_append** (2 connections) — `tools/make_patch.c`
+- **symbol_free** (2 connections) — `tools/make_patch.c`
+- **verify_completeness** (2 connections) — `tools/make_patch.c`
+- **parse_args** (2 connections) — `tools/pkmncompress.c`
+- **parse_args** (2 connections) — `tools/scan_includes.c`
+- **compare_patch** (1 connections) — `tools/make_patch.c`
+- **strfind** (1 connections) — `tools/make_patch.c`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Tools 8](Tools_8.md) (7 shared connections)
+- [Tools 3](Tools_3.md) (1 shared connections)
+- [Tools 5](Tools_5.md) (1 shared connections)
+- [Tools](Tools.md) (1 shared connections)
+- [Tools 7](Tools_7.md) (1 shared connections)
+- [Tools 2](Tools_2.md) (1 shared connections)
+- [Rewrite 11](Rewrite_11.md) (1 shared connections)
+- [Tools 6](Tools_6.md) (1 shared connections)
 
 ## Source Files
 
-- `tools/graphify_rgbds.py`
+- `tools/common.h`
+- `tools/gfx.c`
+- `tools/make_patch.c`
+- `tools/pkmncompress.c`
+- `tools/scan_includes.c`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 56 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

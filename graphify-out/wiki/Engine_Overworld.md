@@ -1,72 +1,66 @@
 # Engine Overworld
 
-> 76 nodes · cohesion 0.05
+> 54 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **DelayFrames** (143 connections) — `home/delay.asm`
-- **engine/overworld/player_animations.asm** (28 connections) — `engine/overworld/player_animations.asm`
-- **GetPredefRegisters** (27 connections) — `home/predef.asm`
-- **wPlayerName** (25 connections) — `ram/wram.asm`
-- **EnterMapAnim** (24 connections) — `engine/overworld/player_animations.asm`
-- **_LeaveMapAnim** (21 connections) — `engine/overworld/player_animations.asm`
-- **FishingAnim** (19 connections) — `engine/overworld/player_animations.asm`
-- **UpdateHPBar2** (17 connections) — `engine/gfx/hp_bar.asm`
-- **engine/gfx/hp_bar.asm** (13 connections) — `engine/gfx/hp_bar.asm`
-- **PrintSaveScreenText** (12 connections) — `engine/menus/main_menu.asm`
-- **HealEffect_** (11 connections) — `engine/battle/move_effects/heal.asm`
-- **DisplayContinueGameInfo** (10 connections) — `engine/menus/main_menu.asm`
-- **DrainHPEffect_** (9 connections) — `engine/battle/move_effects/drain_hp.asm`
-- **GetHPBarLength** (7 connections) — `engine/gfx/hp_bar.asm`
-- **PrintNumBadges** (7 connections) — `engine/menus/main_menu.asm`
-- **PrintNumOwnedMons** (7 connections) — `engine/menus/main_menu.asm`
-- **DrawHP** (7 connections) — `engine/pokemon/status_screen.asm`
-- **PrintPlayTime** (6 connections) — `engine/menus/main_menu.asm`
-- **InitFacingDirectionList** (6 connections) — `engine/overworld/player_animations.asm`
-- **PlayerSpinInPlace** (6 connections) — `engine/overworld/player_animations.asm`
-- **engine/battle/move_effects/heal.asm** (6 connections) — `engine/battle/move_effects/heal.asm`
-- **wFacingDirectionList** (6 connections) — `ram/wram.asm`
-- **wHPBarOldHP** (6 connections) — `ram/wram.asm`
-- **RecoilEffect_** (5 connections) — `engine/battle/move_effects/recoil.asm`
-- **UpdateHPBar_PrintHPNumber** (5 connections) — `engine/gfx/hp_bar.asm`
-- *... and 51 more nodes in this community*
+- **wStatusFlags4** (26 connections) — `ram/wram.asm`
+- **engine/overworld/auto_movement.asm** (25 connections) — `engine/overworld/auto_movement.asm`
+- **wNPCMovementDirections2** (15 connections) — `ram/wram.asm`
+- **engine/overworld/trainer_sight.asm** (14 connections) — `engine/overworld/trainer_sight.asm`
+- **wSpriteStateData1** (14 connections) — `ram/wram.asm`
+- **PewterMovementScript_WalkToGym** (11 connections) — `engine/overworld/auto_movement.asm`
+- **PewterMovementScript_WalkToMuseum** (11 connections) — `engine/overworld/auto_movement.asm`
+- **TrainerEngage** (11 connections) — `engine/overworld/trainer_sight.asm`
+- **CalcPositionOfPlayerRelativeToNPC** (10 connections) — `engine/overworld/pathfinding.asm`
+- **FindPathToPlayer** (10 connections) — `engine/overworld/pathfinding.asm`
+- **PalletTownOakWalksToPlayerScript** (10 connections) — `scripts/PalletTown.asm`
+- **PalletMovementScript_WalkToLab** (9 connections) — `engine/overworld/auto_movement.asm`
+- **engine/overworld/pathfinding.asm** (9 connections) — `engine/overworld/pathfinding.asm`
+- **TrainerWalkUpToPlayer** (8 connections) — `engine/overworld/trainer_sight.asm`
+- **RunNPCMovementScript** (8 connections) — `home/npc_movement.asm`
+- **PalletMovementScriptPointerTable** (7 connections) — `engine/overworld/auto_movement.asm`
+- **home/npc_movement.asm** (7 connections) — `home/npc_movement.asm`
+- **PalletMovementScript_Done** (6 connections) — `engine/overworld/auto_movement.asm`
+- **PalletMovementScript_OakMoveLeft** (6 connections) — `engine/overworld/auto_movement.asm`
+- **PewterMovementScript_Done** (6 connections) — `engine/overworld/auto_movement.asm`
+- **engine/events/pewter_guys.asm** (6 connections) — `engine/events/pewter_guys.asm`
+- **PewterGuys** (5 connections) — `engine/events/pewter_guys.asm`
+- **ConvertNPCMovementDirectionsToJoypadMasks** (5 connections) — `engine/overworld/pathfinding.asm`
+- **GetSpriteDataPointer** (5 connections) — `engine/overworld/trainer_sight.asm`
+- **CalcDifference** (5 connections) — `home/pathfinding.asm`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [Home](Home.md) (9 shared connections)
-- [Bank VRAM](Bank_VRAM.md) (8 shared connections)
-- [Engine Link](Engine_Link.md) (7 shared connections)
-- [Bank WRAM0](Bank_WRAM0.md) (6 shared connections)
-- [Scripts](Scripts.md) (6 shared connections)
-- [Engine Battle 2](Engine_Battle_2.md) (5 shared connections)
-- [Engine Battle](Engine_Battle.md) (4 shared connections)
-- [Engine Movie 2](Engine_Movie_2.md) (4 shared connections)
-- [Ram](Ram.md) (4 shared connections)
-- [Scripts 5](Scripts_5.md) (4 shared connections)
-- [Home 6](Home_6.md) (3 shared connections)
-- [Home 2](Home_2.md) (2 shared connections)
+- [Scripts 3](Scripts_3.md) (19 shared connections)
+- [Bank WRAM0](Bank_WRAM0.md) (5 shared connections)
+- [Bank HRAM](Bank_HRAM.md) (4 shared connections)
+- [Bank VRAM](Bank_VRAM.md) (3 shared connections)
+- [Scripts 6](Scripts_6.md) (3 shared connections)
+- [Scripts 13](Scripts_13.md) (2 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Home 3](Home_3.md) (1 shared connections)
+- [Scripts 10](Scripts_10.md) (1 shared connections)
+- [Home](Home.md) (1 shared connections)
+- [Scripts 8](Scripts_8.md) (1 shared connections)
 
 ## Source Files
 
-- `data/tilesets/warp_pad_hole_tile_ids.asm`
-- `engine/battle/animations.asm`
-- `engine/battle/move_effects/drain_hp.asm`
-- `engine/battle/move_effects/heal.asm`
-- `engine/battle/move_effects/recoil.asm`
-- `engine/gfx/hp_bar.asm`
-- `engine/gfx/screen_effects.asm`
-- `engine/menus/main_menu.asm`
-- `engine/menus/swap_items.asm`
-- `engine/overworld/player_animations.asm`
-- `engine/pokemon/status_screen.asm`
-- `home/delay.asm`
-- `home/pokemon.asm`
-- `home/predef.asm`
+- `docs/003-2026-08-01-Funcionamento-das-IAs-Pokemon.md`
+- `engine/events/pewter_guys.asm`
+- `engine/overworld/auto_movement.asm`
+- `engine/overworld/pathfinding.asm`
+- `engine/overworld/trainer_sight.asm`
+- `home/npc_movement.asm`
+- `home/pathfinding.asm`
+- `home/reload_tiles.asm`
 - `ram/wram.asm`
+- `scripts/PalletTown.asm`
 
 ## Audit Trail
 
-- EXTRACTED: 213 (100%)
+- EXTRACTED: 153 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

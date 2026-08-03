@@ -33,13 +33,13 @@
 
 ## Relationships
 
-- [Scripts](Scripts.md) (5 shared connections)
-- [Home 8](Home_8.md) (4 shared connections)
-- [Scripts 74](Scripts_74.md) (1 shared connections)
-- [Scripts 4](Scripts_4.md) (1 shared connections)
-- [Engine Overworld 8](Engine_Overworld_8.md) (1 shared connections)
-- [Scripts 19](Scripts_19.md) (1 shared connections)
-- [Scripts 66](Scripts_66.md) (1 shared connections)
+- [Scripts 4](Scripts_4.md) (4 shared connections)
+- [Scripts 14](Scripts_14.md) (4 shared connections)
+- [Scripts 20](Scripts_20.md) (2 shared connections)
+- [Scripts 33](Scripts_33.md) (1 shared connections)
+- [Scripts](Scripts.md) (1 shared connections)
+- [Engine Events 9](Engine_Events_9.md) (1 shared connections)
+- [Scripts 9](Scripts_9.md) (1 shared connections)
 
 ## Source Files
 

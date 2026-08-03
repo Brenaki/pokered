@@ -16,6 +16,8 @@ Resumo operacional:
 - Aplique SOLID de forma pragmatica em C: modulos coesos, headers pequenos,
   interfaces explicitas e inversao para hardware/RNG/input/video/audio.
 - Use DDD com a linguagem do proprio jogo e dos labels existentes.
+- O marco pre-C foi aprovado em 2026-08-03. Preserve os testes C nativos e o
+  diferencial ASM/C de `CombatMath` e `TrainerAI` antes de ampliar a reescrita.
 - Use Graphify como mapa vivo do codigo: consulte `graphify-out/graph.json`
   com `graphify query`, `graphify path` ou `graphify explain` antes de
   responder perguntas de arquitetura/fluxo. Neste repo, atualize com
