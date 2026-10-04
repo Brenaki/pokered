@@ -116,7 +116,7 @@ DrawFrameBlock:
 	ld a, [hli]
 	bit B_OAM_XFLIP, a
 	jr nz, .disableHorizontalFlip
-.enableHorizontalFlip
+; enable horizontal flip
 	set B_OAM_XFLIP, a
 	jr .storeFlags2
 .disableHorizontalFlip
@@ -699,7 +699,7 @@ DoBallTossSpecialEffects:
 	call PlaySound
 .skipPlayingSound
 	ld a, [wIsInBattle]
-	cp 2 ; is it a trainer battle?
+	cp TRAINER_BATTLE
 	jr z, .isTrainerBattle
 	ld a, [wPokeBallAnimData]
 	cp $10 ; is the enemy pokemon the Ghost Marowak?
@@ -2493,14 +2493,14 @@ AnimationShakeEnemyHUD:
 
 ; Copy wTileMap to VRAM such that the row below the enemy HUD (in wTileMap) is
 ; lined up with row 0 of the window.
-	ld hl, vBGMap1 - $20 * 7
+	ld hl, vBGMap1 - TILEMAP_WIDTH * 7
 	call BattleAnimCopyTileMapToVRAM
 
 ; Move the window so that the row below the enemy HUD (in BG map 0) lines up
 ; with the top row of the window on the screen. This makes it so that the window
 ; covers everything below the enemy HD with a copy that looks just like what
 ; was there before.
-	ld a, 7 * 8
+	ld a, 7 * TILE_HEIGHT
 	ldh [hWY], a
 
 ; Write OAM entries so that the copy of the back pic from the top of this
@@ -2581,8 +2581,8 @@ BattleAnimCopyTileMapToVRAM:
 
 TossBallAnimation:
 	ld a, [wIsInBattle]
-	cp 2
-	jr z, .BlockBall ; if in trainer battle, play different animation
+	cp TRAINER_BATTLE
+	jr z, .BlockBall
 	ld a, [wPokeBallAnimData]
 	ld b, a
 
